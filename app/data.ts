@@ -17,23 +17,23 @@ export const site = {
 export const services = [
   {
     "slug": "operations-support",
-    "title": "Operations Support",
-    "desc": "Operations Support for teams using offshore bookkeepers with clear SOPs, weekly review, and measurable handoffs."
+    "title": "Monthly Close Support",
+    "desc": "Offshore help with reconciliations, close checklists, variance notes, and the evidence your controller needs for review."
   },
   {
     "slug": "customer-support",
-    "title": "Customer Support",
-    "desc": "Customer Support for teams using offshore bookkeepers with clear SOPs, weekly review, and measurable handoffs."
+    "title": "Accounts Receivable Support",
+    "desc": "Keep invoice checks, aging notes, customer account records, and collection follow-up organized for your finance lead."
   },
   {
     "slug": "admin-support",
-    "title": "Admin Support",
-    "desc": "Admin Support for teams using offshore bookkeepers with clear SOPs, weekly review, and measurable handoffs."
+    "title": "Accounts Payable Support",
+    "desc": "Prepare vendor bills, match receipts, maintain approval records, and flag payment questions without giving up payment control."
   },
   {
     "slug": "reporting-and-qa",
-    "title": "Reporting and QA",
-    "desc": "Reporting and QA for teams using offshore bookkeepers with clear SOPs, weekly review, and measurable handoffs."
+    "title": "Reporting and Review",
+    "desc": "Prepare draft reports, account notes, exception lists, and review packets before the owner, controller, or CPA signs off."
   }
 ] as const;
 export const blogPosts = [
@@ -95,26 +95,26 @@ export const blogPosts = [
   },
   {
     "slug": "offshore-bookkeepers-planning",
-    "title": "Offshore Bookkeepers: What does it plan?",
-    "excerpt": "A plain-English guide to staffing details, scope, and hidden planning.",
+    "title": "How to plan an offshore bookkeeping role",
+    "excerpt": "Set the task list, access limits, review owner, and close schedule before you hire.",
     "minutes": 6
   },
   {
     "slug": "offshore-bookkeepers-tasks-to-outsource",
-    "title": "Offshore Bookkeepers: What tasks should you outsource first?",
+    "title": "Bookkeeping tasks to outsource first",
     "excerpt": "Start with recurring work that has examples and clear review rules.",
     "minutes": 7
   },
   {
     "slug": "offshore-bookkeepers-provider-questions",
-    "title": "Offshore Bookkeepers: Questions to ask before hiring",
+    "title": "Questions to ask an offshore bookkeeping provider",
     "excerpt": "Use these questions before you sign with a provider or freelancer.",
     "minutes": 8
   },
   {
     "slug": "offshore-bookkeepers-onboarding-checklist",
-    "title": "Offshore Bookkeepers: First week onboarding checklist",
-    "excerpt": "A simple checklist for tools, SOPs, calls, QA, and reporting.",
+    "title": "First-week checklist for an offshore bookkeeper",
+    "excerpt": "Set up tools, sample work, approval limits, review calls, and reporting before live work begins.",
     "minutes": 9
   }
 ] as const;
@@ -122,17 +122,17 @@ export const stats = [{label:'Typical savings target',value:'30-60%',note:'depen
 
 export const staffingOffer = {
   partner: 'our staffing team',
-  promise: 'Get a managed offshore staffing plan built around the work you need removed from your plate.',
+  promise: 'Get a bookkeeping staffing plan based on your close schedule, accounting tools, approval rules, and review needs.',
   fit: [
-    'business owners who need reliable remote staff but do not want to screen alone',
-    'teams that want trained support, backup coverage, and a clear manager path',
-    'companies that need help with admin, operations, customer support, calls, bookkeeping, development, or marketing work',
+    'owners who need bookkeeping help but want to keep control of payments and final review',
+    'finance teams that need steady support for close, AP, AR, reconciliations, or reporting',
+    'companies with documented accounting rules, sample work, and a named reviewer',
   ],
   included: [
-    'role planning call to turn your task list into a clear staffing scope',
-    'candidate matching based on skills, schedule, tools, and communication needs',
-    'onboarding guidance for SOPs, scorecards, reporting, and safe tool access',
-    'managed support so quality, attendance, and replacement questions do not sit only on the owner',
+    'a role planning call to sort daily work, close work, and owner-only decisions',
+    'candidate matching based on accounting skills, schedule, software, and communication needs',
+    'onboarding guidance for close checklists, review notes, and limited tool access',
+    'a clear contact for quality, attendance, and replacement questions',
   ],
   proof: [
     'clear task scope before hiring',
@@ -151,10 +151,10 @@ export const leadQuestions = [
 ] as const;
 
 export const staffingProcess = [
-  { step: '1', title: 'Map the role', body: 'We turn messy tasks into one clear role with outcomes, tools, limits, and a first-week checklist.' },
-  { step: '2', title: 'Match the staff', body: 'our staffing team can help match remote staff to the work, schedule, communication style, and skill level you need.' },
-  { step: '3', title: 'Launch with control', body: 'Start with SOPs, sample work, limited access, daily review, and a simple scorecard so quality is easy to see.' },
-  { step: '4', title: 'Scale what works', body: 'Once the first tasks are stable, add more work, better reporting, and stronger delegation without guessing.' },
+  { step: '1', title: 'Map the role', body: 'Sort the task list into daily work, month-end work, and decisions that stay with the owner or controller.' },
+  { step: '2', title: 'Match the bookkeeper', body: 'Match accounting skills, software experience, work hours, and communication needs to the role.' },
+  { step: '3', title: 'Set up the handoff', body: 'Start with sample work, limited access, a close checklist, and a named reviewer.' },
+  { step: '4', title: 'Add work carefully', body: 'Move more tasks only after the first reconciliations and close checks are accurate and on time.' },
 ] as const;
 
-export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the role details and our staffing team can guide the best fit.';
+export const staffingFitNote = 'The right setup depends on your task list, close schedule, accounting software, access limits, and reviewer. Send those details so the team can map the role.';

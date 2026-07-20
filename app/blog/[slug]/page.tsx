@@ -138,20 +138,20 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           ) : (
             <div className="card">
               <h2>The short answer</h2>
-              <p>Start with one role, a short task list, and a weekly scorecard. Do not outsource a messy process until examples and rules are clear.</p>
+              <p>Start with repeatable bookkeeping work and a named reviewer. Keep payments, write-offs, tax treatment, payroll changes, and final sign-off with the owner, controller, or CPA.</p>
               <h2>What to prepare</h2>
               <ul>
-                <li>Task examples and sample replies</li>
-                <li>Tool access and permission rules</li>
-                <li>Daily output target</li>
-                <li>Escalation rules for anything sensitive</li>
+                <li>Prior reports and sample reconciliations</li>
+                <li>Accounting access and approval limits</li>
+                <li>Close dates and expected files</li>
+                <li>Rules for exceptions and judgment calls</li>
               </ul>
               <h2>Questions to ask</h2>
               <ul>
-                <li>Who screens the worker?</li>
-                <li>Who checks quality?</li>
-                <li>What happens if fit is poor?</li>
-                <li>How are passwords and customer data handled?</li>
+                <li>Who checks accounting skills and software experience?</li>
+                <li>Who reviews reconciliations and draft reports?</li>
+                <li>What happens when work is late or incorrect?</li>
+                <li>How are bank access, passwords, and financial records protected?</li>
               </ul>
             </div>
           )}

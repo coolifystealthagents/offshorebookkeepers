@@ -16,3 +16,5 @@
 
 
 .bdv .nav-cta{background:#f3e600!important;color:#050505!important}.oys-globe:before{content:"";position:absolute;inset:42px;border-radius:30px;background:linear-gradient(90deg,transparent 0 19%,rgba(34,22,79,.18) 20% 20.5%,transparent 21% 39%,rgba(34,22,79,.18) 40% 40.5%,transparent 41% 59%,rgba(34,22,79,.18) 60% 60.5%,transparent 61% 79%,rgba(34,22,79,.18) 80% 80.5%,transparent 81%),linear-gradient(0deg,transparent 0 24%,rgba(34,22,79,.14) 25% 25.5%,transparent 26% 49%,rgba(34,22,79,.14) 50% 50.5%,transparent 51% 74%,rgba(34,22,79,.14) 75% 75.5%,transparent 76%);opacity:.75}.oys-globe:after{content:"";position:absolute;left:10%;right:10%;top:20%;bottom:20%;background:radial-gradient(ellipse at 20% 45%,rgba(34,22,79,.2) 0 9%,transparent 10%),radial-gradient(ellipse at 45% 34%,rgba(34,22,79,.16) 0 12%,transparent 13%),radial-gradient(ellipse at 66% 53%,rgba(34,22,79,.18) 0 14%,transparent 15%),radial-gradient(ellipse at 82% 37%,rgba(34,22,79,.14) 0 8%,transparent 9%);filter:blur(.2px)}
+
+.adt-guides>a span{display:block;margin-bottom:8px}.adt-roles .adt-eyebrow{color:#526d00}.adt-why-grid span{color:#5f7600}
