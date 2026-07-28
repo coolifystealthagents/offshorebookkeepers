@@ -395,7 +395,187 @@ export const blogPosts = [
       { "name": "4. CISA, Recognize and Report Phishing", "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing" },
       { "name": "5. Internal Revenue Service, Publication 583: Starting a Business and Keeping Records", "url": "https://www.irs.gov/publications/p583" }
     ]
-  },] as const;
+  },
+  {
+    "slug": "philippines-bookkeeper-month-end-close-controls",
+    "marker": "philippines-month-end-close-control-guide-2026",
+    "title": "Philippines bookkeeper month-end close controls",
+    "excerpt": "A Philippines bookkeeper can prepare schedules, tie balances to proof, and keep the close moving. The owner, controller, or CPA should keep policy decisions, adjustment approval, account sign-off, and final report release.",
+    "minutes": 13,
+    "published": "2026-07-28",
+    "takeaways": [
+      "Give the bookkeeper a close checklist with one owner, due date, proof link, status, and reviewer for every account.",
+      "Let the role prepare reconciliations and proposed entries, but keep judgment, approval, write-offs, and final sign-off with a named finance lead.",
+      "Do not close an account just because its balance looks reasonable; require source proof and keep open differences in one visible exception log."
+    ],
+    "sections": [
+      {
+        "heading": "The role prepares the close, but does not own it",
+        "paragraphs": [
+          "A Philippines bookkeeper can gather reports, update schedules, match balances, prepare proposed entries, and assemble the review file. This gives the controller or owner a cleaner packet without handing over the decisions that shape the financial statements.",
+          "The bookkeeper should not approve their own journal, decide an accounting policy, write off an old balance, reopen a locked period, or release final reports alone. Put those limits in the close checklist and in the accounting system permissions before live work starts."
+        ]
+      },
+      {
+        "heading": "Build the close map before the calendar fills up",
+        "paragraphs": [
+          "List every account and close task in the order the work must happen. Each line needs a preparer, reviewer, due date, source report, expected output, proof location, and a clear point where the preparer must stop and ask.",
+          "Dependencies matter because a finished-looking schedule can still be wrong when its source is incomplete. For example, the cash tie-out waits for the final bank feed, while revenue checks may wait for processor settlements, credit notes, or a complete shipment file."
+        ]
+      },
+      {
+        "heading": "Use one proof rule across the whole close",
+        "paragraphs": [
+          "A balance is ready for review when another person can trace it from the ledger to the source without asking where the file came from. Save the report name, covered dates, run date, filter settings, account number, preparer note, and link to the supporting document.",
+          "The Internal Revenue Service says business records must clearly show income and expenses, and its examples of supporting documents include invoices, receipts, deposit information, and canceled checks. That guidance does not set a monthly close method, but it supports keeping the source records that explain the books."
+        ]
+      },
+      {
+        "heading": "Tie cash before using it as an anchor",
+        "paragraphs": [
+          "Match each bank account and payment account to its statement, ledger detail, and approved reconciliation. Keep deposits in transit, outstanding checks, processor settlements, bank charges, and unknown transactions on separate lines so one net number does not hide several issues.",
+          "Read-only access is enough for most preparation work when the bank supports a named user. User setup, security resets, payee changes, transfers, and payment release should remain with authorized staff inside the business."
+        ]
+      },
+      {
+        "heading": "Check the cut-off on bills and customer activity",
+        "paragraphs": [
+          "Review bills received after period end for goods or services that belong to the closing month, then compare customer credits, refunds, deposits, and unbilled work with the same date rule. The bookkeeper gathers the records and marks possible cut-off items instead of quietly moving dates to make a report fit.",
+          "A purchase owner or finance lead should decide disputed service dates and approve any proposed accrual, deferral, or correction. Keep the question, answer, evidence, entry, and approver together so the next close does not repeat the same debate."
+        ]
+      },
+      {
+        "heading": "Prepare journals without approving the judgment",
+        "paragraphs": [
+          "The bookkeeper can update recurring schedules for prepaid costs, depreciation, payroll clearing, processor fees, or approved accruals. Each proposed journal should show the accounts, amount, period, calculation, source file, reason, preparer, and reviewer.",
+          "New estimates and unusual entries need more than a copied formula from last month. The controller or CPA should decide the accounting treatment and approve the entry before posting, especially when the change affects taxes, revenue, reserves, or prior periods."
+        ]
+      },
+      {
+        "heading": "Reconcile the subledgers to the control accounts",
+        "paragraphs": [
+          "Tie customer, vendor, payroll, inventory, and fixed-asset detail to the matching general ledger accounts that the business uses. If the two totals differ, list the exact records behind the gap rather than posting an unsupported amount to force agreement.",
+          "The bookkeeper can find duplicate records, missing batches, mapping errors, and items posted to the wrong period. A reviewer should approve corrections and check that the fix resolves the source problem instead of moving it to another account."
+        ]
+      },
+      {
+        "heading": "Keep every open item in one exception log",
+        "paragraphs": [
+          "An exception log should show the account, amount, issue, source link, date raised, person who must answer, next action, due date, and current status. Plain labels such as waiting for statement, missing approval, mapping question, old balance review, and ready for controller make the next step easy to see.",
+          "Do not mark an item complete because someone replied in chat. The record closes only when the answer, supporting proof, approved entry or decision, reviewer name, and completion date are attached to the close file."
+        ]
+      },
+      {
+        "heading": "Protect the audit trail and the period lock",
+        "paragraphs": [
+          "NIST control AC-6 calls for least privilege, which means people receive only the access needed for assigned tasks. Apply that idea with named users, limited roles, multi-factor authentication, change logs, and a separate person who can alter permissions or reopen a period.",
+          "Once the reviewer signs off, lock the period under the company's rule and keep any later change on a controlled path. The request should name the reason, affected accounts, evidence, approver, posting date, and whether reports need to be reissued."
+        ]
+      },
+      {
+        "heading": "Use the review to test the trail, not just the total",
+        "paragraphs": [
+          "The Association of Certified Fraud Examiners reviewed 1,921 occupational fraud cases from 138 countries and territories for its 2024 report. The cases caused more than $3.1 billion in total losses, so the study is broad evidence about investigated fraud rather than a forecast for one bookkeeping team.",
+          "The report found that lack of internal controls was the primary weakness in 32 percent of cases, override of existing controls in 19 percent, and lack of management review in 18 percent. Those findings support a close in which preparation, approval, system authority, and final review do not all sit with one person."
+        ]
+      },
+      {
+        "heading": "Finish with a signed close packet",
+        "paragraphs": [
+          "The final packet should include the trial balance, account reconciliations, subledger ties, journal list, variance notes, open-item report, access or period-change log, and reviewer sign-offs. The controller should also confirm that final reports agree with the approved ledger version and that unresolved items are clearly carried forward.",
+          "In the ACFE's 2024 study, 82 percent of victim organizations changed their anti-fraud controls after the fraud, and 27 percent of those changes were expected to be extremely effective at preventing similar frauds. A team does not need to wait for a loss to improve the close; it can record review findings now and change the checklist before next month."
+        ]
+      },
+      {
+        "heading": "Run a careful first-week handoff",
+        "paragraphs": [
+          "On day one, show the close map, one approved packet, and one file with an unresolved exception. On day two, use redacted records so the bookkeeper can practice linking proof, preparing a note, and stopping at an owner-only decision.",
+          "Use a small set of live accounts for the rest of the week with same-day review and no independent journal approval. At the end of the week, check note quality, evidence links, access history, open questions, and reviewer feedback before adding more accounts."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Month-end close control board",
+      "intro": "Use this board to keep preparation moving while a named finance owner holds judgment, approval, and final sign-off.",
+      "columns": ["Close area", "Philippines bookkeeper", "Proof to retain", "Finance owner"],
+      "rows": [
+        ["Opening balances", "Tie schedules to the prior approved close", "Prior packet and current ledger", "Decide any prior-period correction"],
+        ["Cash", "Prepare reconciliations and list differences", "Statements, ledger, and matching records", "Review exceptions and sign off"],
+        ["Receivables", "Tie customer detail and flag cut-off items", "Aging, credits, deposits, and source records", "Approve adjustments or write-offs"],
+        ["Payables", "Tie vendor detail and list late bills", "Aging, invoices, approvals, and receipt proof", "Decide accruals and disputed items"],
+        ["Payroll", "Tie approved payroll reports to the ledger", "Payroll register and clearing detail", "Own payroll and tax decisions"],
+        ["Proposed journals", "Prepare the entry and calculation", "Source, reason, accounts, and preparer", "Approve treatment and posting"],
+        ["Exceptions", "Maintain status, proof, and next action", "Exception log and decision record", "Resolve owner-only questions"],
+        ["Final packet", "Assemble schedules and report ties", "Approved ledger version and close index", "Review, lock, and release reports"]
+      ]
+    },
+    "chart": {
+      "marker": "close-control-weaknesses",
+      "title": "Leading internal control weaknesses in investigated fraud cases",
+      "description": "The three most common primary weaknesses in the ACFE 2024 study",
+      "unit": "Percent of cases",
+      "valueSuffix": "%",
+      "maxValue": 40,
+      "ticks": [0, 10, 20, 30, 40],
+      "accessibleDescription": "Lack of internal controls, 32 percent; override of existing controls, 19 percent; lack of management review, 18 percent.",
+      "methodNote": "Method: ACFE Occupational Fraud 2024, based on 1,921 investigated cases. The bars show the three most common primary internal control weaknesses; the full report lists additional categories.",
+      "bars": [
+        ["No internal controls", 32],
+        ["Control override", 19],
+        ["No mgmt. review", 18]
+      ]
+    },
+    "graphic": {
+      "marker": "month-end-close-handoff",
+      "title": "The month-end close handoff in six steps",
+      "description": "The bookkeeper prepares the file. A finance owner reviews decisions, locks the period, and releases reports.",
+      "accessibleDescription": "Six steps show source collection, account matching, exception logging, journal preparation, finance review, and close sign-off.",
+      "ownerSteps": [4, 5],
+      "bookkeeperLegend": "Bookkeeper prepares the record",
+      "ownerLegend": "Finance owner reviews or decides",
+      "methodNote": "Method note: this is a sample close handoff, not an accounting standard. Match the steps to the company's accounts, close policy, software, and professional advice.",
+      "steps": [
+        ["1", "Collect", "Gather final source reports"],
+        ["2", "Match", "Tie schedules to the ledger"],
+        ["3", "Log", "List every open difference"],
+        ["4", "Prepare", "Draft supported entries"],
+        ["5", "Review", "Finance owner decides"],
+        ["6", "Close", "Owner signs and locks"]
+      ]
+    },
+    "quote": {
+      "text": "We offer this report to business leaders, government officials, anti-fraud professionals, and the general public in hopes that the data presented herein will help improve our collective ability to protect organizations from the harm caused by occupational fraud.",
+      "person": "John Warren, J.D., CFE",
+      "title": "CEO, Association of Certified Fraud Examiners",
+      "sourceName": "Occupational Fraud 2024: A Report to the Nations",
+      "sourceUrl": "https://www.acfe.com/-/media/files/acfe/pdfs/rttn/2024/2024-report-to-the-nations.pdf"
+    },
+    "faqs": [
+      ["Can a Philippines bookkeeper run the month-end close?", "The bookkeeper can prepare schedules, reconciliations, proposed entries, and the review packet. A named owner, controller, or CPA should keep accounting judgment, journal approval, period locks, and final sign-off."],
+      ["Who should approve close journals?", "Someone other than the preparer should review the source, calculation, accounts, period, and accounting treatment. The approver should record the decision before the entry posts."],
+      ["What belongs in a close exception log?", "Record the account, amount, issue, source link, date raised, current owner, next action, due date, and final decision. Keep the item open until the proof and reviewer decision are attached."],
+      ["How should a business start the handoff?", "Begin with a small set of low-risk accounts, redacted examples, limited access, and same-day review. Add work only after the bookkeeper can prepare a complete trail and stop at the written decision points."]
+    ],
+    "relatedLinks": [
+      ["See the month-end close support scope", "/services/month-end-close-support"],
+      ["Use the bank reconciliation control guide", "/blog/philippines-bookkeeper-bank-reconciliation-controls"],
+      ["Review accounts payable boundaries", "/blog/philippines-bookkeeper-accounts-payable-controls"],
+      ["Map a Philippines bookkeeping role", "/contact"]
+    ],
+    "banners": [
+      ["Map the close boundary", "Set the account list, access limits, proof rules, reviewers, and owner-only decisions before candidate matching.", "/contact", "Plan the role"],
+      ["Start with the cash trail", "Use a controlled bank reconciliation handoff before adding more accounts to the close.", "/blog/philippines-bookkeeper-bank-reconciliation-controls", "Read the cash guide"],
+      ["Keep final review inside the business", "Use Philippines bookkeeping support for preparation while your controller, owner, or CPA keeps approval and sign-off.", "/services/reporting-and-qa", "See review support"]
+    ],
+    "sources": [
+      { "name": "Association of Certified Fraud Examiners, Occupational Fraud 2024: A Report to the Nations", "url": "https://www.acfe.com/-/media/files/acfe/pdfs/rttn/2024/2024-report-to-the-nations.pdf" },
+      { "name": "Internal Revenue Service, Publication 583: Starting a Business and Keeping Records", "url": "https://www.irs.gov/publications/p583" },
+      { "name": "NIST, Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Rev. 5", "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" },
+      { "name": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting", "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201" },
+      { "name": "CISA, Require Multifactor Authentication", "url": "https://www.cisa.gov/secure-our-world/turn-mfa" }
+    ]
+  },
+] as const;
 export const stats = [{label:'Typical savings target',value:'30-60%',note:'depends on role, management, and local hiring plan'},{label:'Best pilot length',value:'14 days',note:'enough time to test quality before scaling'},{label:'Start with',value:'5-10 tasks',note:'clear recurring tasks beat vague job descriptions'}] as const;
 
 export const staffingOffer = {
