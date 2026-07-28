@@ -1,0 +1,17 @@
+{
+  "brand": "Offshore Bookkeepers",
+  "width": 1200,
+  "height": 630,
+  "format": "webp",
+  "colors": ["#102018", "#16a34a", "#0ea5e9", "#f6f2e9", "#ffffff"],
+  "fonts": ["Arial Bold", "Arial"],
+  "logo": "public/logo.svg",
+  "concepts": [
+    "ledger-grid","close-calendar","reconciliation-lines","invoice-stack","approval-path",
+    "cash-flow","reporting-bars","journal-entries","payroll-rhythm","control-shield",
+    "team-handoff","remote-desk","finance-dashboard","exception-queue","month-end-arc",
+    "vendor-network","receivables-flow","account-map","ecommerce-ledger","property-books",
+    "law-firm-ledger","clinic-finance","construction-costs","saas-metrics","agency-books",
+    "retail-close","controller-review","audit-trail","process-checklist","global-team"
+  ]
+}

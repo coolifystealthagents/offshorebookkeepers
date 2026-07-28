@@ -1,2 +1,17 @@
-import {Header,Footer} from '../components'; import {researchPosts} from '../fleet-data'; import {site} from '../data';
-export const metadata={title:`Research | ${site.brand}`,description:'Original research and source-backed analysis.'};export default function Research(){return <><Header/><main><section className="fleet-hero variant-1"><div className="container"><p className="eyebrow">Research</p><h1>Research and analysis</h1><p className="lead">This library will publish reviewed, source-backed work about Philippines-based bookkeeping operations.</p></div></section><section className="section"><div className="container fleet-service-grid">{researchPosts.length?researchPosts.map(p=><a className="card" href={`/research/${p.slug}`} key={p.slug}><h2>{p.title}</h2><p>{p.excerpt}</p></a>):<div className="card empty-state"><h2>Research is being prepared</h2><p>No research articles are published yet. Visit the blog for practical planning guides.</p><a className="btn primary" href="/blog">Visit the blog</a></div>}</div></section></main><Footer/></>}
+import { Header, Footer } from '../components';
+import { getContent } from '../../lib/content';
+import { site } from '../data';
+
+export const metadata = { title: `Research | ${site.brand}`, description: 'Source-backed offshore bookkeeping benchmarks and analysis.' };
+export default async function Research({ searchParams }: { searchParams: Promise<{ q?: string; cluster?: string; page?: string }> }) {
+  const query = await searchParams;
+  const all = getContent('research');
+  const clusters = [...new Set(all.map((post) => post.category))];
+  const filtered = all.filter((post) => (!query.q || `${post.title} ${post.description}`.toLowerCase().includes(query.q.toLowerCase())) && (!query.cluster || post.category === query.cluster));
+  const pageSize = 12, page = Math.max(1, Number(query.page) || 1), pages = Math.max(1, Math.ceil(filtered.length / pageSize));
+  return <><Header/><main><section className="fleet-hero variant-1"><div className="container"><p className="eyebrow">Research</p><h1>Bookkeeping research and benchmarks</h1><p className="lead">Reviewed, source-backed analysis for finance leaders planning offshore operations.</p></div></section><section className="section"><div className="container">
+    <form className="content-filters"><label>Search<input name="q" defaultValue={query.q}/></label><label>Cluster<select name="cluster" defaultValue={query.cluster}><option value="">All clusters</option>{clusters.map((cluster)=><option key={cluster}>{cluster}</option>)}</select></label><button className="btn primary">Filter</button></form>
+    <div className="fleet-service-grid">{filtered.slice((page-1)*pageSize,page*pageSize).map((post)=><a className="card content-card" href={`/research/${post.slug}`} key={post.slug}><img src={post.featuredImage} alt=""/><span className="content-badge">{post.sources.length} sources</span><h2>{post.title}</h2><p>{post.description}</p><small>Verified {post.updated}</small></a>)}</div>
+    <nav className="pagination" aria-label="Research pages">{Array.from({length:pages},(_,index)=><a aria-current={page===index+1?'page':undefined} href={`?page=${index+1}`} key={index}>{index+1}</a>)}</nav>
+  </div></section></main><Footer/></>;
+}

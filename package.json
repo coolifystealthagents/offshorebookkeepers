@@ -5,7 +5,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p 3000",
-    "lint": "next lint"
+    "lint": "next lint",
+    "validate:content": "node scripts/validate-content.mjs",
+    "thumbnails:templates": "python scripts/thumbnails.py templates",
+    "thumbnails:report": "python scripts/thumbnails.py report content/research/*.md content/alternatives/*.md"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",

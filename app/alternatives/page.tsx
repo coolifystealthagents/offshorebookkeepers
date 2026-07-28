@@ -1,0 +1,10 @@
+import { Header, Footer } from '../components';
+import { getContent } from '../../lib/content';
+import { site } from '../data';
+export const metadata={title:`Bookkeeping alternatives | ${site.brand}`,description:'Compare bookkeeping staffing, service, role, and process alternatives.'};
+export default async function Alternatives({searchParams}:{searchParams:Promise<{q?:string;type?:string;page?:string}>}){
+  const query=await searchParams,all=getContent('alternatives'),types=[...new Set(all.map(post=>post.type))];
+  const filtered=all.filter(post=>(!query.q||`${post.title} ${post.description}`.toLowerCase().includes(query.q.toLowerCase()))&&(!query.type||post.type===query.type));
+  const page=Math.max(1,Number(query.page)||1),pageSize=12,pages=Math.max(1,Math.ceil(filtered.length/pageSize));
+  return <><Header/><main><section className="fleet-hero variant-2"><div className="container"><p className="eyebrow">Alternatives</p><h1>Compare bookkeeping operating models</h1><p className="lead">Evidence-led comparisons for leaders deciding how to staff and manage finance work.</p></div></section><section className="section"><div className="container"><form className="content-filters"><label>Search<input name="q" defaultValue={query.q}/></label><label>Type<select name="type" defaultValue={query.type}><option value="">All types</option>{types.map(type=><option key={type}>{type}</option>)}</select></label><button className="btn primary">Filter</button></form><div className="fleet-service-grid">{filtered.slice((page-1)*pageSize,page*pageSize).map(post=><a className="card content-card" href={`/alternatives/${post.slug}`} key={post.slug}><img src={post.featuredImage} alt=""/><span className="content-badge">{post.competitor?'Competitor':post.type}</span><h2>{post.title}</h2><p>{post.description}</p></a>)}</div><nav className="pagination" aria-label="Alternatives pages">{Array.from({length:pages},(_,i)=><a aria-current={page===i+1?'page':undefined} href={`?page=${i+1}`} key={i}>{i+1}</a>)}</nav></div></section></main><Footer/></>;
+}
