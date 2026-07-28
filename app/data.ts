@@ -210,6 +210,191 @@ export const blogPosts = [
       { "name": "CISA, Turn On MFA", "url": "https://www.cisa.gov/secure-our-world/turn-mfa" },
       { "name": "Federal Trade Commission, Cybersecurity for Small Business", "url": "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity" }
     ]
+  },
+  {
+    "slug": "philippines-bookkeeper-bank-reconciliation-controls",
+    "marker": "philippines-bank-reconciliation-control-guide-2026",
+    "title": "Philippines bookkeeper bank reconciliation controls",
+    "excerpt": "A Philippines bookkeeper can prepare bank reconciliations and keep every exception tied to proof. The owner or controller should keep bank administration, approval, write-off, and final review authority.",
+    "minutes": 12,
+    "published": "2026-07-28",
+    "takeaways": [
+      "Give the bookkeeper read-only bank access when possible, then keep user administration and money movement with an authorized finance owner.",
+      "Match each bank line to a ledger entry and source record, while unresolved differences stay in an exception queue with a named reviewer.",
+      "Close the reconciliation only after the reviewer checks the opening balance, ending balance, outstanding items, adjustments, and proof packet."
+    ],
+    "sections": [
+      {
+        "heading": "The role prepares the reconciliation",
+        "paragraphs": [
+          "A Philippines bookkeeper can do the careful matching work that a bank reconciliation requires. The role can download statements, compare bank activity with the ledger, attach proof, list differences, and prepare a review packet.",
+          "The role should not add bank users, change permissions, release money, approve its own adjustment, or hide an unresolved difference. Those actions stay with the owner, controller, or another finance lead named in the company's control rules."
+        ]
+      },
+      {
+        "heading": "Why small differences deserve a clear record",
+        "paragraphs": [
+          "A bank difference may be a timing item, a duplicate entry, a bank fee, a missing deposit, or a transaction posted to the wrong account. Most are ordinary, but the bookkeeper should prove the cause instead of forcing the ledger to match.",
+          "The Association of Certified Fraud Examiners studied 1,921 occupational fraud cases from 138 countries and territories for its 2024 report. Those cases caused more than $3.1 billion in total losses, which is broad global evidence rather than a prediction for one bookkeeping team."
+        ]
+      },
+      {
+        "heading": "Use the same evidence rule for every account",
+        "paragraphs": [
+          "Write down what counts as proof before the bookkeeper starts. A normal packet may include the bank statement, ledger detail, deposit record, payment approval, processor report, prior reconciliation, and a note for each open item.",
+          "The Internal Revenue Service says a business needs records that clearly show income and expenses, and that supporting documents can include invoices, receipts, deposit information, and canceled checks. The tax rule does not design a reconciliation for you, but it supports keeping source records tied to the books."
+        ]
+      },
+      {
+        "heading": "Limit bank access before sharing live work",
+        "paragraphs": [
+          "Use a named bank user with read-only access when the bank offers it. Keep user setup, account linking, payee changes, transfer creation, transfer release, and security reset rights away from the bookkeeping role.",
+          "NIST control AC-6 calls for least privilege, which means giving users only the access needed for assigned tasks. Apply that idea to the accounting system too, so the bookkeeper can prepare and document a reconciliation without gaining approval rights."
+        ]
+      },
+      {
+        "heading": "Start from a trusted opening balance",
+        "paragraphs": [
+          "The current reconciliation should start with the prior period's approved ending record. The bookkeeper checks that the bank opening balance, ledger opening balance, and carried outstanding items agree with that signed packet before matching new activity.",
+          "If the opening balance changed, stop and trace the change before doing the rest of the month. A prior-period edit, deleted entry, reversed payment, or changed opening item needs a dated explanation and review from the finance owner."
+        ]
+      },
+      {
+        "heading": "Match deposits in both directions",
+        "paragraphs": [
+          "First trace each ledger deposit to the bank, then trace each bank deposit back to the ledger and its source. This two-way check catches missing entries, duplicate records, wrong dates, and deposits placed in the wrong account.",
+          "Keep processor timing separate from a true error. If a customer payment is recorded before a processor sends the net deposit, the bookkeeper should tie the gross amount, fees, refunds, and net settlement to the processor report."
+        ]
+      },
+      {
+        "heading": "Match withdrawals without approving them",
+        "paragraphs": [
+          "For checks, card activity, transfers, and automated debits, match the bank line to the ledger entry and approval record. The bookkeeper records what happened, but the person who approved the payment remains responsible for the business decision.",
+          "A withdrawal with no support moves to the exception queue instead of a guessed account. The note should show the date, amount, bank description, search already completed, records still missing, and the person who must answer."
+        ]
+      },
+      {
+        "heading": "Give suspicious changes a separate path",
+        "paragraphs": [
+          "Do not treat a changed destination account or unexpected transfer as a routine coding question. The bookkeeper should preserve the message, avoid replying through the same contact path, and alert the finance owner through a known channel.",
+          "The FBI recorded 21,442 business email compromise complaints in its 2024 Internet Crime Report, with $2,770,151,146 in reported losses. Complaint data does not show the chance of loss for one company, but it gives a sound reason to verify changes outside the message that requested them."
+        ]
+      },
+      {
+        "heading": "Keep an exception queue that can be reviewed",
+        "paragraphs": [
+          "One row should hold each unresolved difference until it is cleared. Record the account, transaction date, amount, issue, source links, date raised, current owner, next action, expected answer date, and final outcome.",
+          "Use plain status labels such as waiting for statement, waiting for deposit proof, duplicate review, unknown withdrawal, prior-period change, and ready for owner review. A status should describe the next fact needed, not make the problem look finished."
+        ]
+      },
+      {
+        "heading": "Do not use a plug to make the balance work",
+        "paragraphs": [
+          "A plug is an unsupported entry used only to remove a difference. It makes the current report look neat while breaking the link between the bank, ledger, and source record.",
+          "If an adjustment is needed, the bookkeeper can prepare the proposed entry with its reason and proof. A controller, owner, or CPA should review the accounting treatment and approve the entry under the company's written policy."
+        ]
+      },
+      {
+        "heading": "Age old items instead of carrying them forever",
+        "paragraphs": [
+          "List outstanding checks, deposits in transit, and other timing items by age. The bookkeeper can confirm whether each item cleared after period end, remains valid, was replaced, or needs a decision from the finance owner.",
+          "Set a review point for old items, but do not let the bookkeeper cancel, reissue, write off, or change them alone. The final action can affect cash, vendor records, customer balances, or tax reporting, so it needs documented approval."
+        ]
+      },
+      {
+        "heading": "Review the packet and the final number",
+        "paragraphs": [
+          "A zero difference does not prove that the reconciliation is sound. The reviewer should check the statement identity, opening balance, ending balance, matching evidence, old items, unusual transactions, manual entries, and every exception closed during the period.",
+          "The ACFE's 2024 study reported a $145,000 median loss per occupational fraud case, and the typical case lasted 12 months before detection. These figures cover investigated cases, yet they show why a reviewer should look at the trail instead of accepting a balanced total without questions."
+        ]
+      },
+      {
+        "heading": "Use a careful first-week handoff",
+        "paragraphs": [
+          "On the first day, show one approved reconciliation and explain each access boundary. On the second day, use redacted bank and ledger records so the bookkeeper can practice matching, documenting, and raising an exception without touching live money controls.",
+          "Use a small live account for the next three days with same-day review. At the end of the week, check the evidence links, note quality, open questions, access logs, and reviewer feedback before adding another account."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Bank reconciliation control board",
+      "intro": "Use this board to separate preparation from approval while keeping every bank line tied to a source record.",
+      "columns": ["Check", "Philippines bookkeeper", "Proof to retain", "Finance owner"],
+      "rows": [
+        ["Opening balance", "Tie to the prior approved packet", "Prior reconciliation and current statement", "Review any prior-period change"],
+        ["Deposits", "Match ledger, bank, and processor records", "Deposit slip or settlement report", "Decide unresolved customer or processor issues"],
+        ["Withdrawals", "Match the bank line to entry and approval", "Invoice, approval, and payment record", "Own the payment decision"],
+        ["Bank charges", "Identify and prepare the entry", "Statement line and account note", "Approve the accounting treatment"],
+        ["Unknown activity", "Place on hold and document the search", "Bank detail, ledger search, and alert", "Contact the bank or decide the response"],
+        ["Old items", "Age and trace each open item", "Original record and later bank activity", "Approve cancellation, replacement, or write-off"],
+        ["Final packet", "Prepare totals, links, and exception list", "Statement, ledger, notes, and proposed entries", "Review and sign off"]
+      ]
+    },
+    "chart": {
+      "marker": "fraud-duration-loss",
+      "title": "Median loss rose with longer fraud duration",
+      "description": "Selected duration groups from the ACFE 2024 study",
+      "unit": "Median loss in US dollars",
+      "valuePrefix": "$",
+      "maxValue": 1000000,
+      "ticks": [0, 250000, 500000, 750000, 1000000],
+      "accessibleDescription": "Under 6 months, $30,000 median loss; 24 to 36 months, $250,000; over 60 months, $875,000.",
+      "methodNote": "Method: ACFE Occupational Fraud 2024, based on 1,921 investigated cases. This chart shows three selected duration groups and their median losses; it is not a forecast for one company.",
+      "bars": [
+        ["Under 6 months", 30000],
+        ["24 to 36 months", 250000],
+        ["Over 60 months", 875000]
+      ]
+    },
+    "graphic": {
+      "marker": "bank-reconciliation-handoff",
+      "title": "The reconciliation handoff in six steps",
+      "description": "The bookkeeper gathers, matches, and documents. A finance owner reviews decisions and signs off.",
+      "accessibleDescription": "Six steps show statement collection, ledger matching, proof linking, exception logging, owner review, and close-file completion.",
+      "ownerSteps": [4],
+      "bookkeeperLegend": "Bookkeeper prepares the record",
+      "ownerLegend": "Finance owner reviews or decides",
+      "methodNote": "Method note: this is a sample handoff, not an accounting standard. Match the steps to the company's accounts, approval policy, software, and professional advice.",
+      "steps": [
+        ["1", "Collect", "Get the approved statement"],
+        ["2", "Match", "Compare bank and ledger"],
+        ["3", "Link", "Attach source proof"],
+        ["4", "Log", "List every difference"],
+        ["5", "Review", "Finance owner decides"],
+        ["6", "Close", "File the signed packet"]
+      ]
+    },
+    "quote": {
+      "text": "We offer this report to business leaders, government officials, anti-fraud professionals, and the general public in hopes that the data presented herein will help improve our collective ability to protect organizations from the harm caused by occupational fraud.",
+      "person": "John Warren, J.D., CFE",
+      "title": "CEO, Association of Certified Fraud Examiners",
+      "sourceName": "Occupational Fraud 2024: A Report to the Nations",
+      "sourceUrl": "https://www.acfe.com/-/media/files/acfe/pdfs/rttn/2024/2024-report-to-the-nations.pdf"
+    },
+    "faqs": [
+      ["Can a Philippines bookkeeper complete bank reconciliations?", "The bookkeeper can prepare the full reconciliation, link proof, and list exceptions. A named finance owner should review the packet and keep authority over adjustments, write-offs, bank access, and final sign-off."],
+      ["Should the bookkeeper have online banking access?", "Read-only access is useful when the bank supports a separate named user. Keep user administration, security resets, transfers, payee changes, and payment release with authorized staff inside the business."],
+      ["What happens when the bank and ledger do not match?", "The difference goes into an exception queue with its amount, evidence, owner, and next action. The bookkeeper investigates the facts, while the owner or controller approves any adjustment or business decision."],
+      ["How often should reconciliations be reviewed?", "Match the review schedule to transaction volume, account risk, and the company's close plan. High-activity cash accounts may need checks during the month as well as a signed period-end review."]
+    ],
+    "relatedLinks": [
+      ["See the bank reconciliation support scope", "/services/bank-reconciliation-support"],
+      ["Plan reporting and review checks", "/services/reporting-and-qa"],
+      ["Read the accounts payable control guide", "/blog/philippines-bookkeeper-accounts-payable-controls"],
+      ["Map a Philippines bookkeeping role", "/contact"]
+    ],
+    "banners": [
+      ["Set the bank-access boundary", "Map read-only access, evidence rules, reviewer ownership, and stop points before candidate matching.", "/contact", "Plan the role"],
+      ["Connect reconciliation to review", "Build a packet that lets the owner check balances, old items, adjustments, and open exceptions.", "/services/reporting-and-qa", "See review support"],
+      ["Keep cash decisions inside the business", "Use Philippines bookkeeping support for preparation while your authorized finance owner keeps bank control and sign-off.", "/services/bank-reconciliation-support", "See the service scope"]
+    ],
+    "sources": [
+      { "name": "1. Association of Certified Fraud Examiners, Occupational Fraud 2024: A Report to the Nations", "url": "https://www.acfe.com/-/media/files/acfe/pdfs/rttn/2024/2024-report-to-the-nations.pdf" },
+      { "name": "2. Federal Bureau of Investigation, 2024 IC3 Annual Report", "url": "https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf" },
+      { "name": "3. NIST, Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Rev. 5", "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" },
+      { "name": "4. CISA, Recognize and Report Phishing", "url": "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing" },
+      { "name": "5. Internal Revenue Service, Publication 583: Starting a Business and Keeping Records", "url": "https://www.irs.gov/publications/p583" }
+    ]
   },] as const;
 export const stats = [{label:'Typical savings target',value:'30-60%',note:'depends on role, management, and local hiring plan'},{label:'Best pilot length',value:'14 days',note:'enough time to test quality before scaling'},{label:'Start with',value:'5-10 tasks',note:'clear recurring tasks beat vague job descriptions'}] as const;
 

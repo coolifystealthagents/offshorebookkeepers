@@ -38,19 +38,25 @@ function ArticleBanner({ banner, index }: { banner: readonly string[]; index: nu
 
 function DetectionChart({ chart }: { chart: any }) {
   const colors = ['#0f8f73', '#f27b3d', '#17324d'];
+  const maxValue = chart.maxValue || Math.max(...chart.bars.map((bar: readonly [string, number]) => bar[1]));
+  const ticks = chart.ticks || [0, 10, 20, 30, 40];
+  const scale = 400 / maxValue;
+  const formatValue = (value: number) => chart.valuePrefix === '$'
+    ? `$${value.toLocaleString('en-US')}`
+    : `${value}${chart.valueSuffix || '%'}`;
   return (
-    <figure className="article-visual article-chart" data-article-chart="fraud-detection">
+    <figure className="article-visual article-chart" data-article-chart={chart.marker || 'fraud-detection'}>
       <h2>{chart.title}</h2>
       <span className="visual-deck">{chart.description}</span>
       <div className="svg-scroll" role="region" aria-label={`${chart.title}. Scroll horizontally if needed.`} tabIndex={0}>
         <svg viewBox="0 0 720 330" role="img" aria-labelledby="detection-chart-title detection-chart-desc">
           <title id="detection-chart-title">{chart.title}, measured in {chart.unit.toLowerCase()}</title>
-          <desc id="detection-chart-desc">Tips 43 percent, internal audit 14 percent, and management review 13 percent.</desc>
+          <desc id="detection-chart-desc">{chart.accessibleDescription || chart.bars.map((bar: readonly [string, number]) => `${bar[0]} ${formatValue(bar[1])}`).join(', ')}</desc>
           <text x="190" y="42" className="svg-unit">{chart.unit}</text>
-          {[0, 10, 20, 30, 40].map((tick) => (
+          {ticks.map((tick: number) => (
             <g key={tick}>
-              <line x1={190 + tick * 10} y1="58" x2={190 + tick * 10} y2="274" className="chart-grid" />
-              <text x={190 + tick * 10} y="298" textAnchor="middle" className="chart-tick">{tick}%</text>
+              <line x1={190 + tick * scale} y1="58" x2={190 + tick * scale} y2="274" className="chart-grid" />
+              <text x={190 + tick * scale} y="298" textAnchor="middle" className="chart-tick">{formatValue(tick)}</text>
             </g>
           ))}
           {chart.bars.map((bar: readonly [string, number], index: number) => {
@@ -58,8 +64,8 @@ function DetectionChart({ chart }: { chart: any }) {
             return (
               <g key={bar[0]}>
                 <text x="174" y={y + 25} textAnchor="end" className="chart-label">{bar[0]}</text>
-                <rect x="190" y={y} width={bar[1] * 10} height="38" rx="8" fill={colors[index]} />
-                <text x={204 + bar[1] * 10} y={y + 25} className="chart-value">{bar[1]}%</text>
+                <rect x="190" y={y} width={bar[1] * scale} height="38" rx="8" fill={colors[index]} />
+                <text x={204 + bar[1] * scale} y={y + 25} className="chart-value">{formatValue(bar[1])}</text>
               </g>
             );
           })}
@@ -71,18 +77,19 @@ function DetectionChart({ chart }: { chart: any }) {
 }
 
 function HandoffGraphic({ graphic }: { graphic: any }) {
+  const ownerSteps = Array.isArray(graphic.ownerSteps) ? graphic.ownerSteps : [3, 4];
   return (
-    <figure className="article-visual article-process" data-article-graphic="ap-handoff">
+    <figure className="article-visual article-process" data-article-graphic={graphic.marker || 'ap-handoff'}>
       <h2>{graphic.title}</h2>
       <span className="visual-deck">{graphic.description}</span>
       <div className="svg-scroll" role="region" aria-label={`${graphic.title}. Scroll horizontally if needed.`} tabIndex={0}>
         <svg viewBox="0 0 900 360" role="img" aria-labelledby="handoff-title handoff-desc">
           <title id="handoff-title">{graphic.title}</title>
-          <desc id="handoff-desc">Six steps show invoice receipt, checking, holding exceptions, approval, payment release, and reconciliation.</desc>
+          <desc id="handoff-desc">{graphic.accessibleDescription || graphic.description}</desc>
           <line x1="95" y1="104" x2="805" y2="104" className="process-line" />
           {graphic.steps.map((step: readonly string[], index: number) => {
             const x = 95 + index * 142;
-            const ownerStep = index === 3 || index === 4;
+            const ownerStep = ownerSteps.includes(index);
             return (
               <g key={step[0]}>
                 <circle cx={x} cy="104" r="34" className={ownerStep ? 'process-owner' : 'process-bookkeeper'} />
@@ -96,13 +103,13 @@ function HandoffGraphic({ graphic }: { graphic: any }) {
           })}
           <g transform="translate(250 308)">
             <circle cx="0" cy="0" r="10" className="process-bookkeeper" />
-            <text x="20" y="6" className="process-legend">Bookkeeper prepares or records</text>
+            <text x="20" y="6" className="process-legend">{graphic.bookkeeperLegend || 'Bookkeeper prepares or records'}</text>
             <circle cx="330" cy="0" r="10" className="process-owner" />
-            <text x="350" y="6" className="process-legend">Finance owner decides</text>
+            <text x="350" y="6" className="process-legend">{graphic.ownerLegend || 'Finance owner decides'}</text>
           </g>
         </svg>
       </div>
-      <figcaption>Method note: this is a planning model, not a universal control standard. Match each step to the company's written approval policy and banking permissions.</figcaption>
+      <figcaption>{graphic.methodNote || "Method note: this is a planning model, not a universal control standard. Match each step to the company's written approval policy and banking permissions."}</figcaption>
     </figure>
   );
 }
@@ -165,7 +172,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       <Header />
       <main className="article-page">
         <JsonLd data={schema} />
-        <article className="container article-shell" data-article-slug={post.slug}>
+        <article className="container article-shell" data-article-slug={post.slug} data-article-marker={post.marker || post.slug}>
           <header className="article-header">
             <span className="eyebrow">{site.brand} guide</span>
             <h1>{post.title}</h1>
