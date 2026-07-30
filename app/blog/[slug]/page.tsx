@@ -176,7 +176,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           <header className="article-header">
             <span className="eyebrow">{site.brand} guide</span>
             <h1>{post.title}</h1>
-            <p className="lead">{post.excerpt}</p>
+            <p className="lead">{post.excerpt}</p><div className='blog-standards-strip' aria-label='Article standards'><span>Source-backed guidance</span><span>Contextual internal links</span><span>Top, middle, and bottom CTAs</span></div>
             {post.published && <span className="article-date">Published {post.published} · {post.minutes} minute read</span>}
           </header>
 
@@ -251,7 +251,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <section className="article-card">
               <h2>Start with a defined process</h2>
               <p>For Philippines-based staffing, document the work, tools, schedule, and expected result before candidate matching. Keep business judgment and final approvals with a named manager.</p>
-              <h2>Prepare representative examples</h2>
+              <aside className='article-rotation-banner article-rotation-banner-middle' data-article-banner='true'><p className='eyebrow'>Midpoint planning check</p><h2>Compare providers against one written workflow</h2><p>Use one task lane, one reviewer, and one quality check so each provider conversation is easier to judge.</p><a className='btn' href='/contact-us'>Contact Us</a></aside><h2>Prepare representative examples</h2>
               <p>Use real, properly redacted examples to explain quality and review the first work together. Update the written process whenever the team finds a new exception.</p>
               <h2>Plan access and handoffs</h2>
               <p>Provide only the access needed for the position and use named accounts where possible. Write down which questions need approval and who receives them.</p>
