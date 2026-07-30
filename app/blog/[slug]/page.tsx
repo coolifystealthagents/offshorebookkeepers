@@ -257,6 +257,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               <p>Provide only the access needed for the position and use named accounts where possible. Write down which questions need approval and who receives them.</p>
             </section>
           )}
+        <p className='article-source-note'><a href="https://www.ilo.org/global/topics/non-standard-employment/WCMS_534825/lang--en/index.htm" target="_blank" rel="noopener noreferrer">International Labour Organization guidance on remote work arrangements</a> reinforces why remote role briefs should document expectations, communication rhythms, and accountable handoffs.</p>
         </article>
         {!richArticle && <CTA />}
       </main>

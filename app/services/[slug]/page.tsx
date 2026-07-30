@@ -110,7 +110,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
             <h1>{service.title}</h1>
             <p className="lead">{service.desc}</p>
             <p>We recruit for this service only in the Philippines. Every candidate is Filipino talent based in the Philippines.</p>
-            <a className="btn primary" href="/contact">Discuss this service</a>
+            <a className="btn primary" href="/contact-us">Discuss this service</a>
           </div>
         </section>
         <section className="section">

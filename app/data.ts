@@ -196,10 +196,10 @@ export const blogPosts = [
       ["See the accounts payable support scope", "/services/admin-support"],
       ["Plan reporting and review checks", "/services/reporting-and-qa"],
       ["Use the month-end close checklist", "/blog"],
-      ["Map a Philippines bookkeeping role", "/contact"]
+      ["Map a Philippines bookkeeping role", "/contact-us"]
     ],
     "banners": [
-      ["Define the AP boundary", "Map invoice work, access limits, approval owners, and exception rules before candidate matching.", "/contact", "Plan the role"],
+      ["Define the AP boundary", "Map invoice work, access limits, approval owners, and exception rules before candidate matching.", "/contact-us", "Plan the role"],
       ["Connect AP to the close", "Use one review packet so approved bills, open exceptions, and reconciled payments reach month-end together.", "/blog", "Open the close guide"],
       ["Keep review independent", "Set a reporting and QA handoff that leaves final finance decisions with your owner, controller, or CPA.", "/services/reporting-and-qa", "See review support"]
     ],
@@ -381,10 +381,10 @@ export const blogPosts = [
       ["See the bank reconciliation support scope", "/services/bank-reconciliation-support"],
       ["Plan reporting and review checks", "/services/reporting-and-qa"],
       ["Read the accounts payable control guide", "/blog/philippines-bookkeeper-accounts-payable-controls"],
-      ["Map a Philippines bookkeeping role", "/contact"]
+      ["Map a Philippines bookkeeping role", "/contact-us"]
     ],
     "banners": [
-      ["Set the bank-access boundary", "Map read-only access, evidence rules, reviewer ownership, and stop points before candidate matching.", "/contact", "Plan the role"],
+      ["Set the bank-access boundary", "Map read-only access, evidence rules, reviewer ownership, and stop points before candidate matching.", "/contact-us", "Plan the role"],
       ["Connect reconciliation to review", "Build a packet that lets the owner check balances, old items, adjustments, and open exceptions.", "/services/reporting-and-qa", "See review support"],
       ["Keep cash decisions inside the business", "Use Philippines bookkeeping support for preparation while your authorized finance owner keeps bank control and sign-off.", "/services/bank-reconciliation-support", "See the service scope"]
     ],
@@ -560,10 +560,10 @@ export const blogPosts = [
       ["See the month-end close support scope", "/services/month-end-close-support"],
       ["Use the bank reconciliation control guide", "/blog/philippines-bookkeeper-bank-reconciliation-controls"],
       ["Review accounts payable boundaries", "/blog/philippines-bookkeeper-accounts-payable-controls"],
-      ["Map a Philippines bookkeeping role", "/contact"]
+      ["Map a Philippines bookkeeping role", "/contact-us"]
     ],
     "banners": [
-      ["Map the close boundary", "Set the account list, access limits, proof rules, reviewers, and owner-only decisions before candidate matching.", "/contact", "Plan the role"],
+      ["Map the close boundary", "Set the account list, access limits, proof rules, reviewers, and owner-only decisions before candidate matching.", "/contact-us", "Plan the role"],
       ["Start with the cash trail", "Use a controlled bank reconciliation handoff before adding more accounts to the close.", "/blog/philippines-bookkeeper-bank-reconciliation-controls", "Read the cash guide"],
       ["Keep final review inside the business", "Use Philippines bookkeeping support for preparation while your controller, owner, or CPA keeps approval and sign-off.", "/services/reporting-and-qa", "See review support"]
     ],
