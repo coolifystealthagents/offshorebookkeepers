@@ -16,6 +16,7 @@ export type ContentPost = {
   takeaways: string[];
   sections: { heading: string; body: string }[];
   faqs: { question: string; answer: string }[];
+  relatedLinks: string[][];
 };
 
 const required = ['title', 'description', 'published', 'category', 'featuredImage'] as const;
@@ -56,6 +57,7 @@ function parseFile(file: string): ContentPost {
     sources: meta.sources || [],
     takeaways: meta.takeaways || [],
     faqs: meta.faqs || [],
+    relatedLinks: meta.relatedLinks || [],
     sections,
   };
 }

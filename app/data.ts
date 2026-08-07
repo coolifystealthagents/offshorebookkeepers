@@ -1,3 +1,5 @@
+import { getContent } from '../lib/content';
+
 export const site = {
   "domain": "OffshoreBookkeepers.com",
   "slug": "offshorebookkeepers",
@@ -36,7 +38,7 @@ export const services = [
     "desc": "Prepare draft reports, account notes, exception lists, and review packets before the owner, controller, or CPA signs off."
   }
 ] as const;
-export const blogPosts = [
+const existingBlogPosts = [
   {
     "slug": "philippines-bookkeeper-accounts-payable-controls",
     "title": "Philippines bookkeeper accounts payable controls",
@@ -575,7 +577,22 @@ export const blogPosts = [
       { "name": "CISA, Require Multifactor Authentication", "url": "https://www.cisa.gov/secure-our-world/turn-mfa" }
     ]
   },
-] as const;
+];
+
+const generatedBlogPosts = getContent('blog').map((post) => ({
+  slug: post.slug,
+  title: post.title,
+  excerpt: post.description,
+  minutes: 8,
+  published: post.published,
+  takeaways: post.takeaways,
+  sections: post.sections.map((section) => ({ heading: section.heading, paragraphs: [section.body] })),
+  faqs: post.faqs.map((faq) => [faq.question, faq.answer]),
+  relatedLinks: post.relatedLinks || [],
+  sources: post.sources,
+}));
+
+export const blogPosts = [...existingBlogPosts, ...generatedBlogPosts] as const;
 export const stats = [{label:'Typical savings target',value:'30-60%',note:'depends on role, management, and local hiring plan'},{label:'Best pilot length',value:'14 days',note:'enough time to test quality before scaling'},{label:'Start with',value:'5-10 tasks',note:'clear recurring tasks beat vague job descriptions'}] as const;
 
 export const staffingOffer = {
