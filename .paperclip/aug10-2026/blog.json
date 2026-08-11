@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "blog",
+  "domain": "offshorebookkeepers.com",
+  "repository": "coolifystealthagents/offshorebookkeepers",
+  "branch": "main",
+  "minimum": 22,
+  "priorRunId": "f347cb73-1ccb-4306-b590-20c85c64a976",
+  "priorIssueId": "282fada0-cf0d-45aa-8b28-2888bc1989ab",
+  "validationCommands": [
+    "npm run validate:content",
+    "npm run test:aug10",
+    "python3 -m unittest discover -s tests",
+    "npm run build"
+  ],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {
+      "slug": "bookkeeping-accounts-payable-cutoff-checklist",
+      "route": "/blog/bookkeeping-accounts-payable-cutoff-checklist",
+      "sourcePath": "content/blog/bookkeeping-accounts-payable-cutoff-checklist.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-annual-close-preparation",
+      "route": "/blog/bookkeeping-annual-close-preparation",
+      "sourcePath": "content/blog/bookkeeping-annual-close-preparation.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-bank-feed-exception-management",
+      "route": "/blog/bookkeeping-bank-feed-exception-management",
+      "sourcePath": "content/blog/bookkeeping-bank-feed-exception-management.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-billable-hours-reconciliation",
+      "route": "/blog/bookkeeping-billable-hours-reconciliation",
+      "sourcePath": "content/blog/bookkeeping-billable-hours-reconciliation.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-cash-disbursement-approval",
+      "route": "/blog/bookkeeping-cash-disbursement-approval",
+      "sourcePath": "content/blog/bookkeeping-cash-disbursement-approval.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-cash-receipts-reconciliation-workflow",
+      "route": "/blog/bookkeeping-cash-receipts-reconciliation-workflow",
+      "sourcePath": "content/blog/bookkeeping-cash-receipts-reconciliation-workflow.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-charity-restricted-funds-tracking",
+      "route": "/blog/bookkeeping-charity-restricted-funds-tracking",
+      "sourcePath": "content/blog/bookkeeping-charity-restricted-funds-tracking.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-customer-deposit-reconciliation",
+      "route": "/blog/bookkeeping-customer-deposit-reconciliation",
+      "sourcePath": "content/blog/bookkeeping-customer-deposit-reconciliation.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-debt-covenant-data-packet",
+      "route": "/blog/bookkeeping-debt-covenant-data-packet",
+      "sourcePath": "content/blog/bookkeeping-debt-covenant-data-packet.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-ecommerce-payout-cutoff",
+      "route": "/blog/bookkeeping-ecommerce-payout-cutoff",
+      "sourcePath": "content/blog/bookkeeping-ecommerce-payout-cutoff.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-employee-advance-reconciliation",
+      "route": "/blog/bookkeeping-employee-advance-reconciliation",
+      "sourcePath": "content/blog/bookkeeping-employee-advance-reconciliation.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-expense-policy-exception-log",
+      "route": "/blog/bookkeeping-expense-policy-exception-log",
+      "sourcePath": "content/blog/bookkeeping-expense-policy-exception-log.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-financial-statement-flux-review",
+      "route": "/blog/bookkeeping-financial-statement-flux-review",
+      "sourcePath": "content/blog/bookkeeping-financial-statement-flux-review.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-fixed-fee-client-profitability",
+      "route": "/blog/bookkeeping-fixed-fee-client-profitability",
+      "sourcePath": "content/blog/bookkeeping-fixed-fee-client-profitability.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-intercompany-balance-confirmation",
+      "route": "/blog/bookkeeping-intercompany-balance-confirmation",
+      "sourcePath": "content/blog/bookkeeping-intercompany-balance-confirmation.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-loan-amortization-schedule-review",
+      "route": "/blog/bookkeeping-loan-amortization-schedule-review",
+      "sourcePath": "content/blog/bookkeeping-loan-amortization-schedule-review.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-merchant-reserve-reconciliation",
+      "route": "/blog/bookkeeping-merchant-reserve-reconciliation",
+      "sourcePath": "content/blog/bookkeeping-merchant-reserve-reconciliation.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-multi-currency-reconciliation",
+      "route": "/blog/bookkeeping-multi-currency-reconciliation",
+      "sourcePath": "content/blog/bookkeeping-multi-currency-reconciliation.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-prepaid-expense-review-checklist",
+      "route": "/blog/bookkeeping-prepaid-expense-review-checklist",
+      "sourcePath": "content/blog/bookkeeping-prepaid-expense-review-checklist.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-purchase-order-three-way-match",
+      "route": "/blog/bookkeeping-purchase-order-three-way-match",
+      "sourcePath": "content/blog/bookkeeping-purchase-order-three-way-match.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-recurring-journal-entry-review",
+      "route": "/blog/bookkeeping-recurring-journal-entry-review",
+      "sourcePath": "content/blog/bookkeeping-recurring-journal-entry-review.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-sales-invoice-number-control",
+      "route": "/blog/bookkeeping-sales-invoice-number-control",
+      "sourcePath": "content/blog/bookkeeping-sales-invoice-number-control.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-subscription-revenue-reconciliation",
+      "route": "/blog/bookkeeping-subscription-revenue-reconciliation",
+      "sourcePath": "content/blog/bookkeeping-subscription-revenue-reconciliation.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-vendor-1099-address-review",
+      "route": "/blog/bookkeeping-vendor-1099-address-review",
+      "sourcePath": "content/blog/bookkeeping-vendor-1099-address-review.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "1174c97101337f85d854f450df638e3e5a478fa4",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": [
+        "datePublished",
+        "time[datetime]"
+      ],
+      "renderedDate": "2026-08-10"
+    }
+  ]
+}

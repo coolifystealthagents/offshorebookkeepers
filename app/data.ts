@@ -592,7 +592,8 @@ const generatedBlogPosts = getContent('blog').map((post) => ({
   sources: post.sources,
 }));
 
-export const blogPosts = [...existingBlogPosts, ...generatedBlogPosts] as const;
+export const blogPosts = [...existingBlogPosts, ...generatedBlogPosts]
+  .sort((a, b) => b.published.localeCompare(a.published));
 export const stats = [{label:'Typical savings target',value:'30-60%',note:'depends on role, management, and local hiring plan'},{label:'Best pilot length',value:'14 days',note:'enough time to test quality before scaling'},{label:'Start with',value:'5-10 tasks',note:'clear recurring tasks beat vague job descriptions'}] as const;
 
 export const staffingOffer = {

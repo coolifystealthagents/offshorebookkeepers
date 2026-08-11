@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "test:aug10": "node tests/test_aug10_blog_contract.mjs",
     "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "next lint",
     "validate:content": "node scripts/validate-content.mjs",
