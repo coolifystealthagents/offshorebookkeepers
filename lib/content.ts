@@ -51,6 +51,19 @@ const august10BlogOrder = [
   'bookkeeping-vendor-1099-address-review',
 ] as const;
 const august10Rank: ReadonlyMap<string, number> = new Map(august10BlogOrder.map((slug, index) => [slug, index]));
+const august10ResearchOrder = [
+  'bookkeeping-1099-compliance-evidence-research',
+  'bookkeeping-bank-signatory-review-evidence-research',
+  'bookkeeping-cash-flow-forecast-evidence-research',
+  'bookkeeping-credit-memo-control-research',
+  'bookkeeping-employee-reimbursement-control-research',
+  'bookkeeping-merchant-fee-reconciliation-evidence-research',
+  'bookkeeping-purchase-accrual-cutoff-research',
+  'bookkeeping-remote-team-handoff-research',
+  'bookkeeping-sales-tax-evidence-handoff-research',
+  'bookkeeping-vendor-master-change-control-research',
+] as const;
+const august10ResearchRank: ReadonlyMap<string, number> = new Map(august10ResearchOrder.map((slug, index) => [slug, index]));
 
 function scalar(value: string) {
   const trimmed = value.trim();
@@ -99,11 +112,13 @@ export function getContent(kind: ContentKind): ContentPost[] {
   return fs.readdirSync(directory)
     .filter((file) => /\.(md|mdx)$/.test(file))
     .map((file) => parseFile(path.join(directory, file)))
+    // Primary date ordering remains .sort((a, b) => b.published.localeCompare(a.published));
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
-      const aRank = kind === 'blog' ? august10Rank.get(a.slug) ?? Number.MAX_SAFE_INTEGER : Number.MAX_SAFE_INTEGER;
-      const bRank = kind === 'blog' ? august10Rank.get(b.slug) ?? Number.MAX_SAFE_INTEGER : Number.MAX_SAFE_INTEGER;
+      const rank = kind === 'blog' ? august10Rank : kind === 'research' ? august10ResearchRank : undefined;
+      const aRank = rank?.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
+      const bRank = rank?.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
       if (aRank !== bRank) return aRank - bRank;
       return a.slug.localeCompare(b.slug);
     });
