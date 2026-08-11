@@ -21,6 +21,37 @@ export type ContentPost = {
 
 const required = ['title', 'description', 'published', 'category', 'featuredImage'] as const;
 
+// The August 10 batch is an immutable public-date cohort. Keep its manifest
+// order ahead of older same-date posts while retaining a deterministic order
+// for every other equal-date group.
+const august10BlogOrder = [
+  'bookkeeping-accounts-payable-cutoff-checklist',
+  'bookkeeping-annual-close-preparation',
+  'bookkeeping-bank-feed-exception-management',
+  'bookkeeping-billable-hours-reconciliation',
+  'bookkeeping-cash-disbursement-approval',
+  'bookkeeping-cash-receipts-reconciliation-workflow',
+  'bookkeeping-charity-restricted-funds-tracking',
+  'bookkeeping-customer-deposit-reconciliation',
+  'bookkeeping-debt-covenant-data-packet',
+  'bookkeeping-ecommerce-payout-cutoff',
+  'bookkeeping-employee-advance-reconciliation',
+  'bookkeeping-expense-policy-exception-log',
+  'bookkeeping-financial-statement-flux-review',
+  'bookkeeping-fixed-fee-client-profitability',
+  'bookkeeping-intercompany-balance-confirmation',
+  'bookkeeping-loan-amortization-schedule-review',
+  'bookkeeping-merchant-reserve-reconciliation',
+  'bookkeeping-multi-currency-reconciliation',
+  'bookkeeping-prepaid-expense-review-checklist',
+  'bookkeeping-purchase-order-three-way-match',
+  'bookkeeping-recurring-journal-entry-review',
+  'bookkeeping-sales-invoice-number-control',
+  'bookkeeping-subscription-revenue-reconciliation',
+  'bookkeeping-vendor-1099-address-review',
+] as const;
+const august10Rank: ReadonlyMap<string, number> = new Map(august10BlogOrder.map((slug, index) => [slug, index]));
+
 function scalar(value: string) {
   const trimmed = value.trim();
   if (trimmed.startsWith('[') || trimmed.startsWith('{')) return JSON.parse(trimmed);
@@ -68,7 +99,14 @@ export function getContent(kind: ContentKind): ContentPost[] {
   return fs.readdirSync(directory)
     .filter((file) => /\.(md|mdx)$/.test(file))
     .map((file) => parseFile(path.join(directory, file)))
-    .sort((a, b) => b.published.localeCompare(a.published));
+    .sort((a, b) => {
+      const dateOrder = b.published.localeCompare(a.published);
+      if (dateOrder) return dateOrder;
+      const aRank = kind === 'blog' ? august10Rank.get(a.slug) ?? Number.MAX_SAFE_INTEGER : Number.MAX_SAFE_INTEGER;
+      const bRank = kind === 'blog' ? august10Rank.get(b.slug) ?? Number.MAX_SAFE_INTEGER : Number.MAX_SAFE_INTEGER;
+      if (aRank !== bRank) return aRank - bRank;
+      return a.slug.localeCompare(b.slug);
+    });
 }
 
 export function getPost(kind: ContentKind, slug: string) {
