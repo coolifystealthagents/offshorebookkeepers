@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "contract": "sites3-aug10-public-date-v6",
+  "targetDate": "2026-08-10",
+  "family": "research",
+  "domain": "offshorebookkeepers.com",
+  "repository": "coolifystealthagents/offshorebookkeepers",
+  "branch": "main",
+  "minimum": 10,
+  "priorRunId": "2e7f1e04-2a5d-4581-9a7e-70d3f4b3a064",
+  "priorIssueId": "b66ce58e-78c1-40ed-936a-70c1a14d2e54",
+  "validationCommands": [
+    "git fetch origin main",
+    "npm run validate:content",
+    "python3 -m unittest tests/test_research_index_contract.py",
+    "npm run build",
+    "npm run test:aug10",
+    "node tests/test_aug10_research_contract.mjs",
+    "git diff --check"
+  ],
+  "cleanBuildPassed": true,
+  "existingCompliancePassed": true,
+  "indexNewestFirstPassed": true,
+  "entries": [
+    {
+      "slug": "bookkeeping-1099-compliance-evidence-research",
+      "route": "/research/bookkeeping-1099-compliance-evidence-research",
+      "sourcePath": "content/research/bookkeeping-1099-compliance-evidence-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-bank-signatory-review-evidence-research",
+      "route": "/research/bookkeeping-bank-signatory-review-evidence-research",
+      "sourcePath": "content/research/bookkeeping-bank-signatory-review-evidence-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-cash-flow-forecast-evidence-research",
+      "route": "/research/bookkeeping-cash-flow-forecast-evidence-research",
+      "sourcePath": "content/research/bookkeeping-cash-flow-forecast-evidence-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-credit-memo-control-research",
+      "route": "/research/bookkeeping-credit-memo-control-research",
+      "sourcePath": "content/research/bookkeeping-credit-memo-control-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-employee-reimbursement-control-research",
+      "route": "/research/bookkeeping-employee-reimbursement-control-research",
+      "sourcePath": "content/research/bookkeeping-employee-reimbursement-control-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-merchant-fee-reconciliation-evidence-research",
+      "route": "/research/bookkeeping-merchant-fee-reconciliation-evidence-research",
+      "sourcePath": "content/research/bookkeeping-merchant-fee-reconciliation-evidence-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-purchase-accrual-cutoff-research",
+      "route": "/research/bookkeeping-purchase-accrual-cutoff-research",
+      "sourcePath": "content/research/bookkeeping-purchase-accrual-cutoff-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-remote-team-handoff-research",
+      "route": "/research/bookkeeping-remote-team-handoff-research",
+      "sourcePath": "content/research/bookkeeping-remote-team-handoff-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-sales-tax-evidence-handoff-research",
+      "route": "/research/bookkeeping-sales-tax-evidence-handoff-research",
+      "sourcePath": "content/research/bookkeeping-sales-tax-evidence-handoff-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    },
+    {
+      "slug": "bookkeeping-vendor-master-change-control-research",
+      "route": "/research/bookkeeping-vendor-master-change-control-research",
+      "sourcePath": "content/research/bookkeeping-vendor-master-change-control-research.md",
+      "provenance": "original-aug10-batch",
+      "introducedByCommit": "0f2e0031ca60885f9d2d76ce18d83ed878489e85",
+      "sourceDateField": "published",
+      "sourceDate": "2026-08-10",
+      "renderedDateFields": ["datePublished"],
+      "renderedDate": "2026-08-10"
+    }
+  ]
+}
