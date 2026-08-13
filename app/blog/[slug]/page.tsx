@@ -1,6 +1,11 @@
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogPosts, site } from '../../data';
+const readerDate = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const formatReaderDate = (value?: string) => {
+  if (!value || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return value ?? '';
+  return readerDate.format(new Date(`${value}T00:00:00Z`));
+};
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -177,7 +182,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <span className="eyebrow">{site.brand} guide</span>
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p><div className='blog-standards-strip' aria-label='Article standards'><span>Source-backed guidance</span><span>Contextual internal links</span><span>Top, middle, and bottom CTAs</span></div>
-            {post.published && <span className="article-date">Published {post.published} · {post.minutes} minute read</span>}
+            {post.published && <span className="article-date">Published <time dateTime={post.published}>{formatReaderDate(post.published)}</time> · {post.minutes} minute read</span>}
           </header>
 
           {richArticle ? (
