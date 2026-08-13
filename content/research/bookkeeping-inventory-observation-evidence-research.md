@@ -1,8 +1,8 @@
 ---
 title: "Inventory observation evidence: bookkeeping research"
 description: "A source-backed analysis of count sheets, cutoff evidence, adjustments, and reconciliation for small-business inventory records."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Inventory Bookkeeping"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-inventory-count-evidence-research.webp"

@@ -1,8 +1,8 @@
 ---
 title: "Weekly cash position report"
 description: "Summarize cleared cash, known obligations, expected receipts, and open items."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Cash Management"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

@@ -1,8 +1,8 @@
 ---
 title: "Insurance reconciliation evidence for bookkeeping teams"
 description: "Research on reconciling insurance invoices, coverage periods, prepaid balances, claims, and renewal evidence without making coverage judgments."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "General Ledger"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-prepaid-expense-rollforward-research.webp"

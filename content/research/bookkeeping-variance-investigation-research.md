@@ -1,8 +1,8 @@
 ---
 title: "Bookkeeping variance investigation: evidence and review research"
 description: "A source-backed analysis of how small finance teams can distinguish data errors, timing differences, and real operating changes in variance review."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Financial Reporting"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-document-retention-workflow.webp"

@@ -1,8 +1,8 @@
 ---
 title: "Month-end accrual review"
 description: "Identify services received but not billed and document the basis and reversal plan."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Month-End Close"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

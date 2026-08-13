@@ -1,8 +1,8 @@
 ---
 title: "Job cost to general ledger reporting"
 description: "Connect project activity, approved coding, billing records, and ledger totals."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Management Reporting"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

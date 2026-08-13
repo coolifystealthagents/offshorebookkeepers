@@ -1,8 +1,8 @@
 ---
 title: "Payroll liability reconciliation"
 description: "Compare payroll registers, payments, and liability balances by period."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Payroll Accounting"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

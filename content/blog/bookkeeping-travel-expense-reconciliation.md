@@ -1,8 +1,8 @@
 ---
 title: "Travel expense reconciliation"
 description: "Tie card charges, reimbursements, receipts, and business purpose to a trip."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Expense Review"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

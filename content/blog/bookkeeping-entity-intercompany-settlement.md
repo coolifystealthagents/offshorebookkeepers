@@ -1,8 +1,8 @@
 ---
 title: "Intercompany settlement reconciliation"
 description: "Match reciprocal balances, transaction references, currency, and settlement status."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Multi-Entity Bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

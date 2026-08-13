@@ -1,8 +1,8 @@
 ---
 title: "Intercompany reconciliation evidence: bookkeeping research"
 description: "A research-based approach to matching reciprocal balances, timing differences, eliminations, and approval evidence across related entities."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Multi-Entity Accounting"
 type: "research"
 featuredImage: "/thumbnails/multi-entity-consolidation-handoff-research.webp"

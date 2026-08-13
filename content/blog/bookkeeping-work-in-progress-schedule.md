@@ -1,8 +1,8 @@
 ---
 title: "Work-in-progress schedule review"
 description: "Connect contract activity, costs, billings, and completion evidence."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Project Accounting"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

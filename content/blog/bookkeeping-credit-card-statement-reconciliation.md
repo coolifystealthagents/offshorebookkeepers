@@ -1,8 +1,8 @@
 ---
 title: "Credit card statement reconciliation"
 description: "Connect every statement line to a receipt, coding, and responsible reviewer."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Reconciliations"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

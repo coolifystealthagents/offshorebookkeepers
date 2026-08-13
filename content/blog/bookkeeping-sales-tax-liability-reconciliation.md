@@ -1,8 +1,8 @@
 ---
 title: "Sales tax liability reconciliation"
 description: "Tie taxable sales, exemptions, collected tax, payments, and ledger balances."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Tax Support"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

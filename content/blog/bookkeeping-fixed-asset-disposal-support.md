@@ -1,8 +1,8 @@
 ---
 title: "Fixed asset disposal support"
 description: "Gather asset history, authorization, proceeds, and the final removal calculation."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Fixed Assets"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

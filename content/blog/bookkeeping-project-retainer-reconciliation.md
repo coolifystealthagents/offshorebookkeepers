@@ -1,8 +1,8 @@
 ---
 title: "Project retainer reconciliation"
 description: "Track deposits, approved applications, refunds, and the remaining balance."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Client Accounting"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

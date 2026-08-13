@@ -1,8 +1,8 @@
 ---
 title: "Owner distribution reconciliation"
 description: "Track approved draws, transfers, repayments, and capital account movements."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Owner Accounting"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

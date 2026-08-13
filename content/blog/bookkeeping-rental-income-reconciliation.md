@@ -1,8 +1,8 @@
 ---
 title: "Rental income reconciliation"
 description: "Compare rent-roll records, deposits, credits, and the ledger by property."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Property Bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

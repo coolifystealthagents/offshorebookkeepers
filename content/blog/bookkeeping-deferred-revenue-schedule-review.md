@@ -1,8 +1,8 @@
 ---
 title: "Deferred revenue schedule review"
 description: "Check opening balances, billings, recognition, cancellations, and closing support."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Close Management"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

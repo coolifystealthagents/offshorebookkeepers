@@ -1,8 +1,8 @@
 ---
 title: "Accounts receivable aging review"
 description: "Separate collectible invoices, documented disputes, unapplied cash, and owner decisions."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Receivables"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

@@ -1,8 +1,8 @@
 ---
 title: "Expense reimbursement approval records"
 description: "Keep claimant, purpose, receipt, approval, payment, and entry in one packet."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Accounts Payable"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

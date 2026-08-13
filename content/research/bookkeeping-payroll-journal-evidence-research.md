@@ -1,8 +1,8 @@
 ---
 title: "Payroll journal evidence controls for bookkeeping research"
 description: "Research on tying payroll journals to approved registers, funding records, liabilities, and period-end reconciliations."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Payroll Bookkeeping"
 type: "research"
 featuredImage: "/thumbnails/payroll-journal-preparation-controls.webp"

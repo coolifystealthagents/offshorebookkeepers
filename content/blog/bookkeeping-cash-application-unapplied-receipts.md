@@ -1,8 +1,8 @@
 ---
 title: "Cash application for unapplied receipts"
 description: "Link receipts to customer accounts while keeping uncertain matches on hold."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Receivables"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

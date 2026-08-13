@@ -1,8 +1,8 @@
 ---
 title: "Customer deposit bookkeeping: liability evidence research"
 description: "Research on keeping customer deposits traceable from receipt through application, refund, or release into recognized revenue."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Accounts Receivable"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp"

@@ -1,8 +1,8 @@
 ---
 title: "Travel expense evidence controls: bookkeeping research"
 description: "A source-backed analysis of receipts, business purpose, reimbursements, card activity, and exception evidence for travel expenses."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Expense Bookkeeping"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-employee-reimbursement-workflow.webp"

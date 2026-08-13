@@ -1,8 +1,8 @@
 ---
 title: "Unbilled revenue review"
 description: "Identify completed work not yet invoiced and connect it to delivery evidence."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Revenue Review"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

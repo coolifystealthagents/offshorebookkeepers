@@ -1,8 +1,8 @@
 ---
 title: "Fixed-asset register evidence: bookkeeping research"
 description: "A source-backed framework for additions, transfers, depreciation inputs, disposals, and review evidence in a small-business fixed-asset register."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "General Ledger"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-fixed-asset-register-handoff.webp"

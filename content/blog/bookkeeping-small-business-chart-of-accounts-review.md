@@ -1,8 +1,8 @@
 ---
 title: "Small business chart of accounts review"
 description: "Find duplicate, unused, vague, and misclassified accounts without losing history."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Accounting Setup"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"

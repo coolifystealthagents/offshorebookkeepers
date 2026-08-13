@@ -1,8 +1,8 @@
 ---
 title: "Subscription revenue evidence: bookkeeping research"
 description: "Research on tying recurring invoices, service periods, cancellations, credits, and deferred balances into a traceable bookkeeping record."
-published: "2026-08-11"
-updated: "2026-08-11"
+published: "2026-08-12"
+updated: "2026-08-12"
 category: "Revenue Bookkeeping"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-subscription-revenue-reconciliation.webp"
