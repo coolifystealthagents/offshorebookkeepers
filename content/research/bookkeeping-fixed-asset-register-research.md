@@ -19,4 +19,3 @@ Capture acquisition approval, invoice, placed-in-service date, location, custodi
 Bookkeeping support can maintain the register and prepare reconciliations. An authorized owner approves capitalization, impairment, transfers, and disposals.
 ## Limitations
 Capitalization and depreciation rules vary by reporting framework and tax jurisdiction. Confirm policies with the responsible accounting professional.
-
