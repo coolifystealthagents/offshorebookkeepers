@@ -38,5 +38,29 @@ Sales-tax rules change and differ by jurisdiction, product, customer, and transa
 ## Conclusion
 Sales-tax records are strongest when jurisdiction, period, population, exemption evidence, filing, payment, and exceptions are linked. Preserve both what was included and what was excluded. This helps OffshoreBookkeepers.com’s audience maintain a defensible bookkeeping handoff while leaving tax conclusions with the authorized specialist.
 
+## Evidence design
+Start with a jurisdiction register that records the relevant entity or seller, location facts used, registration status, filing frequency, tax types, effective dates, and responsible reviewer. Keep the legal source or written determination attached to the conclusion. A shipping destination, customer address, marketplace report, and registration certificate answer different questions; they should not be treated as interchangeable evidence.
+
+Define the transaction population before calculating a filing. Record the source systems, date range, gross and excluded amounts, returns, exemptions, marketplace-collected amounts, and treatment of mixed or uncertain locations. Preserve the mapping from transaction to jurisdiction or an explained sampling method. If the data cannot support the required location detail, report the limitation and the population affected instead of presenting an exact-looking total.
+
+## Decision boundaries
+Taxability, nexus, exemption validity, and filing positions may require an authorized tax professional or the business’s designated owner. A bookkeeping reviewer can organize evidence, reconcile returns to the ledger, identify missing certificates, and show differences between filing and payment. The reviewer should not infer a tax conclusion from a prior filing or from a generic account code.
+
+After filing, retain the filed return, payment confirmation, calculation, source extract, and approval. Track amended filings and notices as separate events linked to the original period. Useful measures include transactions with a documented jurisdiction, exemptions with current support, return-to-ledger differences, and open notices by due date. These are evidence-coverage measures, not guarantees that the legal position is correct.
+
+## Reproducibility check
+Select transactions across jurisdictions, exemption statuses, marketplace channels, and periods, then trace them to the source extract and filing calculation. Include an excluded transaction and explain the exclusion. Record the mapping version, data cutoff, reviewer, and unresolved location facts. A sample can reveal missing fields or inconsistent treatment, but it cannot establish that the untested population is legally correct. Preserve notices and amended filings as separate events so a later reviewer can see what changed after the original submission. Financial recordkeeping supports the tax process; it does not replace the authorized legal or tax conclusion.
+
+## Review conclusion in practice
+The durable file should connect the jurisdiction register, source population, calculation, filing, payment, and subsequent notice. Keep exclusions and assumptions visible so a later reviewer can understand the boundary of the result. If a location fact or exemption document is missing, name the affected population and route the question to the authorized owner. This approach creates useful bookkeeping evidence without turning a reconciliation into a legal conclusion. Its strength is traceability: a reviewer can see what was known, what was calculated, and what still required specialist judgment for the stated period.
+
+## Additional limitation
+Transaction evidence can support a filing calculation without resolving every legal question about nexus, taxability, or exemption. The record should therefore show assumptions, exclusions, and specialist decisions separately. A precise total is not evidence that the underlying jurisdiction conclusion was correct.
+
+## Method boundary
+Retain the source population and the mapping logic used to create the filing. If the mapping cannot determine a jurisdiction or exemption status, show the affected transactions and the owner of the tax question. Do not hide uncertainty inside a default category. The evidence is strongest when it records both the calculated amount and the limits of the calculation.
+
 ## Source notes
+The period, source-system cutoff, and reviewer should remain beside the final calculation so a later amendment can be compared with the original filing rather than silently replacing it.
+Keep the jurisdiction register, calculation, filing, payment, and notice history together by period. That evidence allows a reviewer to identify where a difference entered the process without treating a bookkeeping reconciliation as legal tax advice.
 Sources provide jurisdictional, recordkeeping, internal-control, and small-business context. They do not establish a company’s tax obligation.

@@ -38,5 +38,28 @@ Payer contracts, state rules, HIPAA arrangements, and billing systems vary. This
 ## Conclusion
 Clinic receivables are more reviewable when the population, status, remittance bridge, cutoff, reason code, and access boundary are explicit. The practical bookkeeping task is to preserve financial traceability while minimizing protected information. That supports clean handoffs without claiming that a ledger reconciliation resolves a clinical or payer question.
 
+## Reconciliation method
+Use a de-identified transaction key for the financial bridge whenever possible. The bridge can contain service date or claim period, payer category, charge or adjustment class, remittance reference, posting date, and balance movement without copying a patient name or diagnosis into a general bookkeeping register. Maintain the crosswalk in the approved system with access limited to people who need it. This preserves accounting traceability while reducing unnecessary exposure.
+
+Reconcile the opening patient or payer balance to charges, payments, contractual adjustments, refunds, transfers, and closing balance. Tie remittance batches to deposits and identify unapplied cash separately. A difference may arise from timing, a missing remittance, a payer recoupment, a duplicate posting, or a classification issue. The bridge narrows the question; it does not decide the clinical or contractual reason for a payer action.
+
+## Decision boundaries
+A bookkeeping reviewer may identify an aging trend, unmatched deposit, or missing support and route it to the appropriate billing, compliance, or finance owner. The reviewer should not infer patient responsibility, alter a claim, or use protected information for convenience. Retention, access, and disclosure follow the clinic’s policies and applicable requirements. When a data extract includes more detail than the financial question needs, reduce the extract before sharing it.
+
+Measure coverage with counts and amounts: remittance batches tied to deposits, balances with an identified status, unapplied cash age, and exceptions by reason. State the period and population. A lower unresolved balance can reflect write-offs or exclusions, so interpret the trend alongside the bridge and approval record rather than as a standalone collections result.
+
+## Reproducibility check
+Trace a sample of remittance batches from the approved financial extract to deposit, posting, adjustment, and closing balance. Include an unapplied item, a denial or recoupment category, and a refund where the population contains them. Use de-identified keys in the bookkeeping evidence and leave detailed claim resolution in the authorized billing system. Record whether each difference is timing, missing support, classification, or an unresolved payer question. This test measures the bridge’s completeness; it does not determine patient responsibility, medical necessity, or the correctness of a payer decision. Keep the access review and retention basis alongside the financial result.
+
+## Review conclusion in practice
+The financial bridge should use the least sensitive dataset that still explains movement. Start with batch, account, period, payer category, and amount; add detail only when an authorized owner needs it to resolve an exception. Keep adjustment reasons and claim-level evidence in the system designed for that purpose. Report both dollars and record counts, because one large balance and many small balances demand different review. These boundaries make the work useful to finance while reducing the chance that a bookkeeping handoff becomes an uncontrolled clinical-data copy. A reconciliation describes financial movement; it does not decide care or coverage.
+
+## Additional limitation
+Financial aging does not by itself explain a clinical, payer, or patient outcome. A balance may remain open because of timing, an appeal, a contractual adjustment, or a data mismatch. Keep those explanations in the appropriate authorized system and use the bookkeeping record only to show the financial bridge and unresolved owner.
+
+## Method boundary
+The safest handoff separates financial identifiers from clinical detail and records the minimum evidence needed for each exception. A reviewer can show which batch, payer category, period, and amount failed to bridge, then route the question to the authorized billing or compliance owner. This provides a useful accounting signal while respecting the boundary between financial reconciliation and patient-care information.
+
 ## Source notes
+Use the minimum financial fields needed for the reconciliation and document the approved access path. A well-designed bridge reduces both review time and unnecessary disclosure, while still allowing authorized owners to resolve payer or patient-account questions in the correct system.
 Sources provide privacy, claims-processing, internal-control, revenue, and recordkeeping context. They do not replace a clinic’s compliance or payer guidance.

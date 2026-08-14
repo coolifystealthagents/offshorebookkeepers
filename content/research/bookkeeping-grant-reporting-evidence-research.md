@@ -38,5 +38,25 @@ Award agreements can impose terms more specific than general federal guidance, a
 ## Conclusion
 The practical grant-bookkeeping finding is that a code and a balance are not enough. Preserve award identity, terms, source transaction, allocation basis, cutoff, and reconciliation status. That evidence helps an organization prepare a reviewable report while leaving allowability and certification decisions with the people authorized by the award and the organization.
 
+## Evidence design
+Create an award register before coding transactions. Record the award identifier, sponsor, period, approved budget, indirect-cost terms, match requirement, reporting dates, restricted purpose, and certification owner. Link amendments and extensions to the original record. A transaction code by itself cannot show that the cost was incurred during the permitted period or that the allocation basis is reasonable.
+
+For each report period, preserve the transaction population, exclusions, allocation calculation, general-ledger tie-out, and reconciliation to cash or receivable activity where relevant. Keep a clear distinction between an expense that is allowable, an expense that is allocable, and an expense that has adequate evidence. Those are related but different questions. If the award terms are unclear, preserve the question and escalate rather than infer permission from a familiar account name.
+
+## Decision boundaries
+The bookkeeping record supports preparation and review; it does not certify compliance. Authorized program and finance owners must approve interpretations, match calculations, budget revisions, and certifications. A preparer can identify a late invoice, shared cost, missing receipt, or cutoff mismatch and show the affected amount and period. The preparer should not decide that an exception is harmless merely because the total is small.
+
+Track reports by due date, submission status, open evidence, and reviewer. Reconcile the final report to the ledger and preserve the version submitted. If a correction occurs after submission, link the correction to the affected report and document who determined the next action. This history is more useful than a single “submitted” status because it shows what was known at each point.
+
+## Reproducibility check
+Select reported costs from each major category and trace them to the source transaction, award term, allocation calculation, and report line. Include an excluded cost and an item with a timing difference. The purpose is to test whether the report can be reconstructed, not to certify allowability through a small sample. Document the population, selection method, reviewer, and unresolved questions. If an allocation relies on payroll, occupancy, or shared services, retain the input period and calculation version. This prevents a later change in the source population from silently changing the award report. The authorized owner remains responsible for certification and interpretation.
+
+## Review conclusion in practice
+The report file should let a reviewer answer what award funded a cost, why the cost belongs in the period, how shared amounts were allocated, and whether the ledger agrees to the submission. Preserve both included and excluded populations when exclusions materially affect the result. Record changes to the award terms before changing the calculation. This evidence creates continuity across reporting periods and across preparers, but it does not turn a bookkeeping file into a certification. The authorized program and finance owners remain responsible for the award interpretation and final representation.
+
+## Additional limitation
+An organized report cannot cure ambiguous award language, an unsupported allocation basis, or an untimely certification. It can show exactly where the ambiguity lies and who must resolve it. Preserve those limits rather than converting an evidence gap into an apparently final grant conclusion.
+
 ## Source notes
+When an award has several reporting periods, preserve the same coding and allocation definitions unless an amendment changes them. If the method changes, show the affected periods and obtain the required approval. Consistency makes a reconciliation meaningful; it does not remove the need to read the award terms.
 Sources provide Uniform Guidance, internal-control, nonprofit reporting, and recordkeeping context. They do not replace an award agreement.

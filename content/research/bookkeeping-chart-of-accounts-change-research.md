@@ -38,5 +38,22 @@ The cited materials do not prescribe a chart design or a required approval count
 ## Conclusion
 A chart-of-accounts change is a reporting event when it changes the reader’s interpretation of activity. Preserve the old and new meaning, the effective period, the affected reports, and the decision owner. For bookkeeping teams, the useful deliverable is a traceable change record and an exception list, not an unexplained cleaner-looking chart. That evidence lets the business improve structure without losing the continuity needed for period-over-period decisions.
 
+## Practical review design
+Before a change is approved, capture the affected account numbers, names, types, normal balance, reporting groups, tax mappings where applicable, and the reason for the proposal. Include a before-and-after report sample for a known period. This makes the proposal testable: a reviewer can see whether the change improves classification or merely moves an unexplained amount. If an account is merged, preserve its historical identity even if the active chart no longer displays it.
+
+Test the change against at least one closed period and one open period, but do not rewrite history automatically. A closed-period comparison can reveal whether a new label changes management interpretation. An open-period test can reveal whether integrations, recurring entries, bank rules, or imported dimensions still resolve correctly. Record failed tests as exceptions with an owner and decision date. A successful technical import does not prove that the new account is appropriate.
+
+## Decision boundaries
+The research supports traceability, not a universal ideal number of accounts. A small chart can obscure useful distinctions; a large chart can create inconsistent coding. The right measure is whether the structure answers the entity’s reporting questions with repeatable definitions. Tax, consolidation, donor, project, and management dimensions may require separate treatment, and a bookkeeping reviewer should escalate conflicts among those purposes.
+
+After approval, communicate the effective date and the permitted use of each changed account. Monitor the first two reporting periods for unexpected volume, residual balances, and uncategorized activity. If a correction is needed, link it to the original change record instead of silently replacing the record. That history lets a later reviewer understand why a report differs from an earlier version.
+
+## Reproducibility check
+After implementation, compare a selected set of transactions before and after the change. Include ordinary activity, a recurring entry, an adjustment, an exception, and a transaction from any connected subledger. Record the expected account and the observed account, then explain differences. This sample is not proof that every transaction is correct, but it can expose a broken mapping or an unclear instruction early. Keep the sample period, selection method, and reviewer with the change record so a later review does not mistake a hand-picked example for population testing. The resulting evidence supports a controlled chart change without claiming that the chart itself determines accounting policy.
+
+## Review conclusion in practice
+The final change packet should contain the proposal, affected accounts, mapping, effective period, approval, test sample, and post-change observation. Include a note about history: which closed reports remain unchanged and which open-period reports were expected to change. That single distinction prevents users from reading an intentional presentation change as a discovered error. It also gives a continuing bookkeeping team a reliable reference when a transaction appears unfamiliar. A chart-of-accounts change succeeds when its meaning and limits are explainable, not simply when the import completes.
+
 ## Source notes
+The change record should remain discoverable after the chart is edited. Preserve approval, effective date, mapping, test result, and post-change exception review so a later report can be understood without reconstructing the decision from email.
 Sources provide accounting information, internal-control, recordkeeping, and audit-response context. They are not a substitute for the entity’s accounting policies or professional advice.

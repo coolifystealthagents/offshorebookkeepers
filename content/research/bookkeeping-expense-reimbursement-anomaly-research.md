@@ -38,5 +38,28 @@ No public source supplies a universal duplicate threshold or a reliable fraud sc
 ## Conclusion
 Reviewable reimbursement records connect each claim to its population, evidence, approval, and disposition. The practical recommendation is to preserve the rule that created an exception and the owner who resolved it. That makes the bookkeeping record useful for monthly close and later review without turning an indicator into an accusation.
 
+## Testing without overclaiming
+An anomaly screen should be reproducible. Preserve the population date, fields used, duplicate key, tolerance, and exclusions. Compare claimant, amount, date, merchant, project, currency, and approval reference where those fields exist. A repeated amount may be a legitimate installment; a different amount may still be a duplicate if the original was split. The screen identifies records for review and does not establish intent, misconduct, or even an accounting error.
+
+Use separate tests for policy exceptions and data-quality exceptions. A missing receipt is an evidence issue; a receipt that does not identify the business purpose may require an owner’s judgment; a claim outside an approved category is a policy issue. Combining these into one risk score can hide the reason for escalation. Each flagged item should show the rule triggered, evidence requested, reviewer, response, and final disposition.
+
+## Decision boundaries
+Access to reimbursement records should be limited to the people who need the financial evidence. Avoid copying unnecessary personal details into a review register, and retain the source document according to the organization’s policy. A remote preparer can reconcile claim totals and identify missing support, but approval, disciplinary action, and policy interpretation belong to authorized management.
+
+Measure the screen by reviewed population, confirmed duplicates, unresolved items, average age, and repeat causes. Do not report the number of flags as the number of losses. A higher flag count can mean better coverage or a changed rule. Trend the categories only after the population and method remain stable enough for comparison.
+
+## Reproducibility check
+Run the same anomaly test on a defined period and retain its output, even when no flags result. A later reviewer can then determine whether the population, field completeness, and rule changed. Review a sample of clear transactions as well as flagged ones to identify false negatives and understand normal variation. Record the reason each flag was cleared or escalated, not merely the final status. This evidence supports a fair control conversation and helps distinguish incomplete documentation from a suspicious pattern. It does not establish intent, loss, or policy breach without authorized investigation.
+
+## Review conclusion in practice
+An anomaly report should make a flagged record understandable without exposing more personal information than needed. Show the rule, transaction identifier, amount, period, evidence state, and disposition. Keep the source receipt in the approved location and link to it by a controlled reference. If a rule changes, mark the boundary between periods rather than restating history under the new rule. That gives management a fair trend and lets the finance owner decide whether a policy update, training response, recovery action, or no further action is appropriate. The result is a reviewable control signal, not a conclusion about a person.
+
+## Additional limitation
+Detection quality depends on field completeness and policy stability. Missing merchant or approval data can suppress a rule, while a new integration can increase flags without increasing risk. Treat trend changes as prompts to inspect method and population before drawing a behavioral conclusion. That qualification is necessary for a fair review record.
+
+## Method boundary
+The review record should distinguish an automated indicator from a human disposition. Preserve the query result, evidence reviewed, and reason for closure. A cleared flag is not proof that the rule was wrong; it is evidence that the authorized reviewer examined that record under the stated policy. This distinction keeps detection useful without overstating what the data can show.
+
 ## Source notes
+Keep the test definition with the review result, including the date of the population and the rule version. If policy or system fields change, start a new comparison period rather than implying that flag rates are directly comparable.
 Sources provide fraud-risk, internal-control, recordkeeping, audit, and access context. They do not establish a company reimbursement policy.

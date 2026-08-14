@@ -38,5 +38,28 @@ Contract terms, product architecture, revenue standards, tax treatment, and data
 ## Conclusion
 Churn analysis is credible when the cohort, movement, effective date, and accounting bridge are visible. Preserve cancellations and credits rather than collapsing them into one “lost revenue” field. That gives owners a bounded financial signal and gives bookkeeping teams a traceable reconciliation task.
 
+## Cohort testing
+Freeze the cohort definition before comparing periods. State whether the unit is a customer, subscription, contract, or account and how upgrades, downgrades, pauses, reactivations, trials, cancellations, refunds, and failed payments are classified. Use one effective-date convention and disclose the source system’s time zone. A billing event date and a revenue-recognition date may differ, so the operational movement bridge should not be presented as the accounting result without a second reconciliation.
+
+Reconcile opening active units and recurring revenue to new starts, expansions, contractions, cancellations, reactivations, foreign-exchange effects, credits, and closing balances. Investigate unexplained movement by the smallest useful cohort, but avoid reporting a tiny cohort as a stable trend. Preserve the extract filters and any late-arriving event logic. If an event is backdated, show its original arrival date and effective date so the period shift is visible.
+
+## Decision boundaries
+Churn can be a useful descriptive signal, but it does not explain why a customer left or predict future revenue by itself. A bookkeeping team may reconcile invoices, credits, deferred balances, and cash; product or commercial owners decide how to interpret customer behavior. Revenue recognition, contract modifications, refunds, and collectability may require policy review. Escalate any mismatch between the billing system and the accounting records rather than forcing one system to agree with the other.
+
+Report the numerator, denominator, period, cohort, and exclusions beside every rate. Keep a separate exception register for missing customer identifiers, duplicate subscriptions, negative invoices, and unallocated credits. This gives a decision-maker enough context to distinguish a real movement from a data-quality change and gives a remote reviewer a reproducible accounting bridge.
+
+## Reproducibility check
+Choose a fixed cohort and trace a sample of openings, starts, cancellations, credits, reactivations, and closings through the billing extract and accounting bridge. Record the event definition, effective date, arrival date, and treatment of late changes. Compare the operational movement total with invoices, deferred revenue, refunds, and cash only where the accounting policy says those populations should connect. A difference may be expected, but it should have a named explanation. This test makes the metric auditable as a calculation without turning it into a forecast or a claim about customer intent. Preserve the query version and exclusions for future comparison.
+
+## Review conclusion in practice
+Keep the operating cohort report and accounting reconciliation adjacent but distinct. The first explains customer or subscription movement; the second explains invoices, credits, deferred balances, refunds, and cash under the applicable policy. Link them by period and agreed identifiers, then document expected differences. This separation prevents a useful commercial measure from being mistaken for recognized revenue. It also gives a reviewer a stable way to investigate late events, duplicate subscriptions, or unallocated credits. The strongest conclusion is bounded: the selected cohort changed in a measured way, while the reason and future effect require additional commercial or accounting analysis.
+
+## Additional limitation
+Churn is sensitive to cohort definition, backdated events, pauses, and credits. A period comparison can therefore change when the data method changes, even if customer behavior does not. Preserve those method changes beside the result and avoid treating a descriptive rate as a forecast.
+
+## Method boundary
+The cohort query should be versioned and reviewed when event definitions change. Preserve excluded records and explain whether they were trials, duplicates, pauses, or missing identifiers. That makes a movement bridge reproducible and keeps the commercial signal separate from the accounting conclusion. A reviewer can then investigate the cause without treating a data limitation as customer behavior.
+
 ## Source notes
+Preserve the cohort query, event definitions, and accounting bridge for every reported period. Without those controls, a changing definition can look like a change in customer behavior. The result should be read as a bounded description of the selected population.
 Sources provide revenue-recognition, accounting, control, audit, and recordkeeping context. They do not prescribe a subscription metric.

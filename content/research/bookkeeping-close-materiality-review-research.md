@@ -38,5 +38,25 @@ Materiality depends on reporting framework, entity circumstances, users, and pro
 ## Conclusion
 Close prioritization is credible when it records amount, nature, aggregation, evidence, recurrence, age, and ownership. The practical finding is simple: do not close an exception by deleting its question. Preserve the facts, route the judgment, and keep the final disposition connected to the period and account. That makes a remote bookkeeping handoff more reviewable without claiming that prioritization resolves the underlying accounting issue.
 
+## Review sequence
+Start with completeness before applying thresholds. List every close exception, account, period, amount, nature, source, and owner. Then classify whether the item is a known error, an evidence gap, a judgment, or a process observation. This prevents a small unsupported balance from being ignored simply because it is below an amount threshold. It also prevents a large but clearly documented timing item from being described as an error without further analysis.
+
+Aggregate related items by account, cause, and reporting period, and show both individual and combined effects. State whether aggregation is gross or net and whether offsets are economically related. Keep the calculation with the evidence used to derive it. If an item is corrected, retain the original observation, correction entry, reviewer, and period affected. A later reviewer can then distinguish a resolved exception from a missing exception.
+
+## Decision boundaries
+Materiality is context-dependent. The responsible finance or audit authority may consider size, nature, trend, covenant sensitivity, regulatory relevance, fraud risk, or effect on a key measure. A bookkeeping reviewer should surface those factors and avoid declaring an item immaterial without the applicable policy or authority. Recurrence is also a signal: repeated small differences may indicate a control weakness even when no single difference changes the statements.
+
+The most useful close report therefore has two views: a quantitative summary and an unresolved-question register. Each row names the next action and due date. That format supports prioritization across a distributed team while preserving judgment with the person accountable for the financial reporting conclusion.
+
+## Reproducibility check
+Select a sample of closed exceptions and trace each from the original evidence to the disposition and, where relevant, the posted correction. Check that the period, account, amount, reviewer, and approval agree. For unresolved items, check that the next decision date is still meaningful. This review can expose aging, repeated causes, or missing authority even when the close dashboard appears complete. It should not be described as an audit or as evidence that all unselected items are immaterial. Its purpose is to test whether the prioritization record is coherent and usable by another informed reviewer.
+
+## Review conclusion in practice
+A useful close register records why an item was prioritized, what evidence was reviewed, what judgment was required, and whether the issue was corrected, accepted, deferred, or escalated. The labels should be defined before the period is reviewed so that similar cases are treated consistently. Include the period and account in every disposition, even when the same root cause appears elsewhere. This gives management a clearer view of recurring weakness and gives a later preparer enough context to avoid reopening settled questions without new evidence. The register is a decision aid, not a substitute for the reporting authority’s conclusion.
+
+## Additional limitation
+Thresholds can also create false comfort when evidence quality is weak. A small supported item and a small unsupported item are not equivalent review problems. Record that distinction in the close register and show whether the conclusion depends on an estimate or an incomplete population. This preserves the boundary between measured amount and judgment.
+
 ## Source notes
+Retain the review population and the disposition history even when no adjustment is posted. A documented conclusion is evidence of a decision; an empty row or deleted exception is not. This distinction makes close reporting more consistent across preparers and periods.
 Sources provide accounting, audit planning, internal-control, materiality, and recordkeeping context. They do not determine a particular entity’s materiality.

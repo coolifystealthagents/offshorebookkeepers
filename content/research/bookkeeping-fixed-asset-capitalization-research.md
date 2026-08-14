@@ -38,5 +38,25 @@ Accounting and tax rules vary by jurisdiction, entity type, and reporting basis.
 ## Conclusion
 A fixed-asset register becomes evidence when every material line has a traceable identity, date, policy treatment, and life-cycle event. Preserve additions, changes, transfers, and disposals as linked records. That structure supports accurate handoffs and review while keeping accounting judgments with the authorized owner.
 
+## Review design
+Build the register from source transactions and approved project records, not from a list of items someone remembers owning. For each addition, retain the vendor document, purchase or placed-in-service date, location, responsible cost center, component description, and link to the transaction. If a project produces several assets, document the allocation rule and identify costs that remain construction in progress. This makes later testing possible without requiring the original preparer to explain the decision from memory.
+
+Separate accounting classification from tax treatment. A tax election or recovery period may differ from the financial-reporting policy, and the difference should be visible rather than collapsed into one life field. When an estimate changes, record the effective period, reason, approving authority, and whether the change is prospective or requires another treatment under the entity’s policy. A bookkeeping reviewer can preserve the evidence and calculate the schedule, but should escalate policy interpretation.
+
+## Decision boundaries
+The register should be tested against the general ledger at each reporting date. Reconcile additions, depreciation, transfers, impairments, and disposals separately so a net agreement does not hide offsetting errors. For disposals, retain authorization, disposal date, proceeds, accumulated depreciation, and gain or loss calculation. For transfers, retain the old and new location or cost center and the date responsibility changed.
+
+The appropriate threshold, component policy, and review frequency depend on the entity and its reporting framework. The evidence supports a controlled decision record, not a universal capitalization amount. Useful measures are additions with complete support, register-to-ledger agreement, aged construction balances, and unresolved disposals. These measures show where attention is needed without implying that a clean register proves existence or valuation.
+
+## Reproducibility check
+For a selected addition, trace the vendor evidence to the ledger, register, depreciation schedule, and physical or custodial record where the entity uses one. For a selected disposal, trace authorization, proceeds, removal from the register, and the resulting ledger entry. Record gaps separately from accounting judgments. This sample tests the life-cycle linkage that a register is intended to provide; it does not prove existence or value for the entire population. Reperforming the schedule after a policy change can also show whether the change affects existing assets, new assets, or only tax records. Preserve the test period and reviewer with the register history.
+
+## Review conclusion in practice
+The register should support three separate questions: what was acquired, how it was treated under policy, and what happened during its life. Keeping those questions separate prevents a missing location record from being confused with a depreciation error. It also makes a handoff clearer because the continuing reviewer can request only the evidence needed for the next event. Trend additions, aged construction balances, disposals awaiting approval, and register-to-ledger differences by period. These measures show where evidence is weak, but they cannot establish the asset’s condition, market value, or legal ownership without additional work.
+
+## Additional limitation
+Source documents may establish purchase and treatment without proving condition, ownership, or continued use. Those questions may need an operational or legal review outside bookkeeping. Keep that distinction visible when interpreting register completeness, especially for older assets and items moved between locations.
+
 ## Source notes
+The register’s audit trail should show who approved additions and life-cycle changes, but it need not duplicate every operational document. Link to the authoritative source and record its identity, period, and review result. This balances traceability with a manageable evidence set.
 Sources provide financial-reporting, tax-depreciation, recordkeeping, internal-control, and audit context. They do not define a universal capitalization policy.
