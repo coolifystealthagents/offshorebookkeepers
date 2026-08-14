@@ -64,6 +64,19 @@ const august10ResearchOrder = [
   'bookkeeping-vendor-master-change-control-research',
 ] as const;
 const august10ResearchRank: ReadonlyMap<string, number> = new Map(august10ResearchOrder.map((slug, index) => [slug, index]));
+const august14ResearchOrder = [
+  'bookkeeping-client-onboarding-evidence-research',
+  'bookkeeping-chart-of-accounts-change-research',
+  'bookkeeping-cash-conversion-data-research',
+  'bookkeeping-expense-reimbursement-anomaly-research',
+  'bookkeeping-fixed-asset-capitalization-research',
+  'bookkeeping-grant-reporting-evidence-research',
+  'bookkeeping-healthcare-patient-balance-research',
+  'bookkeeping-subscription-churn-reconciliation-research',
+  'bookkeeping-sales-tax-nexus-records-research',
+  'bookkeeping-close-materiality-review-research',
+] as const;
+const august14ResearchRank: ReadonlyMap<string, number> = new Map(august14ResearchOrder.map((slug, index) => [slug, index]));
 
 function scalar(value: string) {
   const trimmed = value.trim();
@@ -116,7 +129,7 @@ export function getContent(kind: ContentKind): ContentPost[] {
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
-      const rank = kind === 'blog' ? august10Rank : kind === 'research' ? august10ResearchRank : undefined;
+      const rank = kind === 'blog' ? august10Rank : kind === 'research' ? (a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
       const aRank = rank?.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
       const bRank = rank?.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
       if (aRank !== bRank) return aRank - bRank;
