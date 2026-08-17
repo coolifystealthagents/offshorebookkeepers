@@ -51,6 +51,20 @@ const august10BlogOrder = [
   'bookkeeping-vendor-1099-address-review',
 ] as const;
 const august10Rank: ReadonlyMap<string, number> = new Map(august10BlogOrder.map((slug, index) => [slug, index]));
+const august17BlogOrder = [
+  'philippines-bookkeeper-close-calendar', 'philippines-bookkeeper-ap-inbox-triage',
+  'philippines-bookkeeper-ar-collections-notes', 'philippines-bookkeeper-payroll-source-pack',
+  'philippines-bookkeeper-processor-payout-reconciliation', 'philippines-bookkeeper-expense-coding-review',
+  'philippines-bookkeeper-journal-entry-boundaries', 'philippines-bookkeeper-cash-forecast-inputs',
+  'philippines-bookkeeper-fixed-asset-register-handoff', 'philippines-bookkeeper-intercompany-recharge-review',
+  'philippines-bookkeeper-deferred-revenue-schedule', 'philippines-bookkeeper-inventory-cutoff',
+  'philippines-bookkeeper-project-cost-review', 'philippines-bookkeeper-vendor-master-controls',
+  'philippines-bookkeeper-employee-reimbursement-controls', 'philippines-bookkeeper-management-reporting-pack',
+  'philippines-bookkeeper-close-exception-escalation', 'philippines-bookkeeper-bank-access-boundaries',
+  'philippines-bookkeeper-client-onboarding-checklist', 'philippines-bookkeeper-multi-entity-close',
+  'philippines-bookkeeper-sales-tax-workpaper-handoff', 'philippines-bookkeeper-document-retention-map',
+] as const;
+const august17Rank: ReadonlyMap<string, number> = new Map(august17BlogOrder.map((slug, index) => [slug, index]));
 const august10ResearchOrder = [
   'bookkeeping-1099-compliance-evidence-research',
   'bookkeeping-bank-signatory-review-evidence-research',
@@ -129,7 +143,7 @@ export function getContent(kind: ContentKind): ContentPost[] {
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
-      const rank = kind === 'blog' ? august10Rank : kind === 'research' ? (a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
+      const rank = kind === 'blog' ? (a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
       const aRank = rank?.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
       const bRank = rank?.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
       if (aRank !== bRank) return aRank - bRank;
