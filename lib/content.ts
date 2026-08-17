@@ -91,6 +91,14 @@ const august14ResearchOrder = [
   'bookkeeping-close-materiality-review-research',
 ] as const;
 const august14ResearchRank: ReadonlyMap<string, number> = new Map(august14ResearchOrder.map((slug, index) => [slug, index]));
+const august17ResearchOrder = [
+  'bookkeeping-offshore-handoff-latency-research', 'bookkeeping-segregation-of-duties-remote-team-research',
+  'bookkeeping-source-document-completeness-research', 'bookkeeping-close-calendar-timezone-research',
+  'bookkeeping-accounting-software-permission-research', 'bookkeeping-review-queue-capacity-research',
+  'bookkeeping-cross-border-payroll-journal-research', 'bookkeeping-exception-ownership-remote-team-research',
+  'bookkeeping-owner-reporting-kpi-definition-research', 'bookkeeping-continuity-backup-research'
+] as const;
+const august17ResearchRank: ReadonlyMap<string, number> = new Map(august17ResearchOrder.map((slug, index) => [slug, index]));
 
 function scalar(value: string) {
   const trimmed = value.trim();
@@ -143,7 +151,7 @@ export function getContent(kind: ContentKind): ContentPost[] {
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
-      const rank = kind === 'blog' ? (a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
+      const rank = kind === 'blog' ? (a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
       const aRank = rank?.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
       const bRank = rank?.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
       if (aRank !== bRank) return aRank - bRank;
