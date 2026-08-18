@@ -10,6 +10,11 @@ takeaways: ["Use one project identifier across costs, time, and billing.","Separ
 faqs: [["Can offshore support review project costs?","Yes. The bookkeeper can match source records, identify missing codes, and prepare a project summary. The project or finance owner decides scope changes and margin actions."],["What should be checked first?","Check project ID, cost category, period, approval, source document, and whether the cost is billable under the written rule."]]
 ---
 ## Establish the project key
+## Trace a cost before reclassifying it
+When a $1,400 vendor bill has no project code, compare its description, purchase request, contract, and delivery period. Record the candidate project or mark it unresolved; do not infer from the vendor’s name. The Philippines bookkeeper can prepare the coding question and update an approved answer, while the project owner decides whether the cost belongs to the job.
+
+## Compare cost to the project story
+Review vendor bills, time records, payroll allocations, purchases, and invoices using the same project identifier. Explain a spike by a documented scope change, timing, missing allocation, or error. A useful review keeps original coding visible and distinguishes a true project overrun from a late posting or a cost waiting for owner confirmation.
 Use a stable project or job identifier in vendor bills, time records, payroll allocations, purchase records, and invoices. A Philippines bookkeeper can then trace a cost without inferring the project from a vendor name.
 
 ## Match source records

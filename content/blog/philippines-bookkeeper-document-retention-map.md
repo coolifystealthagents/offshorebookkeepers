@@ -25,4 +25,9 @@ At close, sample transactions and confirm that source, system result, approval, 
 Do not overwrite source files to correct a description or date. Add a reviewed copy or note and preserve the original record so the history remains clear.
 
 ## Apply retention through the owner
+## Map evidence to a reviewer question
+For a supplier payment, the map might require the approved bill, purchase evidence where applicable, payment record, and bank match. For a payroll journal, it might require the approved register and posting report, not every employee document. Name the system, identifier, retention owner, and access restriction so duplicate PDFs are not mistaken for a complete trail.
+
+## Handle a missing document explicitly
+If the invoice for a $2,100 charge cannot be found, link the bank transaction and vendor statement, mark primary evidence missing, and assign a retrieval owner and due date. The bookkeeper can pause or route the item; they should not recreate an invoice from memory. The finance lead decides whether evidence is sufficient or a corrected source is required.
 The bookkeeper follows the organization’s approved retention policy and flags records reaching a review point. Authorized owners decide deletion, legal holds, and policy changes; the support role should not remove evidence independently.

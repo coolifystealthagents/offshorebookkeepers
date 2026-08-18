@@ -10,6 +10,11 @@ takeaways: ["Tie every headline number to a ledger report or named source.","Exp
 faqs: [["What can a Philippines bookkeeper prepare?","They can assemble approved reports, reconcile key balances, calculate agreed metrics, and draft variance notes. A manager or controller interprets results and decides actions."],["How many metrics should a pack contain?","Use only metrics with a clear definition, source, period, owner, and decision use. A shorter pack is better than an unexplained dashboard."]]
 ---
 ## Start with the decisions
+## Turn a metric into a question
+If overdue receivables rose while cash receipts fell, the pack should show the aging movement, unapplied cash, disputed invoices, and owner for each significant item. If project cost increased, show the project key, approved budget or baseline if available, posted cost, and explanation. The bookkeeper assembles the evidence; management decides whether to change collection, scope, or spending.
+
+## Make the pack traceable
+Every reported number should link to a ledger report, reconciliation, or schedule with a period and extraction date. Show exceptions separately from confirmed totals and label estimates. A concise pack is useful when the reader can move from a headline to the underlying transaction without relying on an unsupported narrative.
 List the questions the owner or manager needs answered: cash movement, overdue receivables, close status, project cost, or unusual expense. Select reports that answer those questions rather than collecting every available metric.
 
 ## Define each metric

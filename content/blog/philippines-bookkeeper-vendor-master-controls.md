@@ -10,6 +10,11 @@ takeaways: ["Log every new vendor and change request with a source and owner.","
 faqs: [["Can a Philippines bookkeeper update vendor details?","They can prepare or update fields under a documented workflow. Bank changes should require independent verification and finance-owner approval."],["What is a red flag?","An urgent request that changes destination details, arrives from a new contact, or asks the bookkeeper to bypass the normal approval path."]]
 ---
 ## Define the request record
+## Separate a new vendor from a changed vendor
+For a bank-detail change, preserve the requestor, vendor ID, old and new details, effective date, independent verification, and approver. A Philippines bookkeeper can compare the request with existing records, flag a mismatch, and prepare the update; they should not treat an email reply as sufficient verification or release a payment based on it.
+
+## Review the master against transactions
+Sample new vendors, changed bank details, duplicate tax identifiers, and vendors with unusual payment patterns. Tie each selected record to its request and approval. If the master record conflicts with a bill, stop the transaction and route the discrepancy; editing the master to make a payment pass removes the evidence the reviewer needs.
 Capture vendor name, tax or registration fields required by policy, requester, reason, supporting documents, effective date, and approver. A structured request helps distinguish a real update from a message that only appears familiar.
 
 ## Protect the bank field

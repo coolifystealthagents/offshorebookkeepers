@@ -10,6 +10,11 @@ takeaways: ["Define the approved payroll report and cutoff before posting.","Rec
 faqs: [["What can the bookkeeper reconcile?","They can compare approved payroll reports to ledger entries, cash withdrawals, and liability schedules, then document differences for review."],["Who approves payroll changes?","An authorized payroll or finance owner should approve hires, terminations, pay changes, deductions, and the final payroll release."]]
 ---
 ## Name the source of truth
+## Tie the register to the journal
+For a payroll dated 15 August, retain the approved register, pay-period dates, funding account, payroll report, and general-ledger posting. Reconcile gross pay, deductions, employer costs, net funding, and the journal total; list any rounding or timing difference. The bookkeeper can prepare the tie-out and flag a changed register, while the payroll or finance owner approves corrections.
+
+## Protect confidential inputs
+Use the minimum employee detail needed for the accounting review and keep sensitive payroll files in the authorized system. Do not circulate personal data in an ordinary exception note. Record a missing approval or changed total as a controlled question, not as a reason to recreate the register from memory.
 The pack should identify the payroll register, approval record, payroll date, pay period, funding account, and general-ledger posting. A Philippines bookkeeper needs a stable version of each report so later corrections do not erase the original trail.
 
 ## Split the reconciliation

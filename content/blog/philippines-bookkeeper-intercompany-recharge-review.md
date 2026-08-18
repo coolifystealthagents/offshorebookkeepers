@@ -10,6 +10,11 @@ takeaways: ["Identify the service, period, allocation basis, and counterparty be
 faqs: [["What can the bookkeeper do?","They can prepare the recharge schedule, post approved entries, compare both ledgers, and track confirmations. Entity owners or controllers should approve policy and tax treatment."],["How should a difference be handled?","Record the amount, entity, period, source, likely cause, owner, and next action rather than forcing both ledgers to agree."]]
 ---
 ## Define the recharge basis
+## Show the allocation in a bridge
+If Entity A paid a shared software invoice, the workpaper should show the source bill, service period, allocation driver, each entity’s share, currency conversion where needed, and the proposed intercompany entry. A Philippines bookkeeper can calculate the documented split and flag an unsupported markup. The entity owners approve the basis and treatment.
+
+## Match both sides before close
+Compare the sender’s recharge receivable with the recipient’s payable, invoice number, amount, currency, and period. A difference may be timing, an exchange-rate choice, or a missing entry; do not force the accounts to agree by overwriting one side. Preserve the correspondence and route unresolved policy questions to the authorized finance reviewer.
 Document the service or cost being recharged, period, allocation driver, source cost, markup rule if approved, currency, and sending and receiving entities. Without this, a Philippines bookkeeper cannot distinguish a real recharge from a miscoded expense.
 
 ## Build the schedule from evidence

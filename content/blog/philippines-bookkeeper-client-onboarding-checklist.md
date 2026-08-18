@@ -19,6 +19,11 @@ List bank statements, invoices, payroll reports, receipts, processor reports, co
 Grant only the permissions needed for the first batch and use named accounts. Payment release, bank changes, user administration, and final reporting should remain with the business.
 
 ## Train on examples
+## Turn the checklist into acceptance tests
+For a new retail client, say “reconcile the operating account for July, attach the statement, list three unmatched transactions, and route coding questions to the finance lead,” not simply “bank reconciliation.” Accept the item when the balance agrees, files open, and each exception has an owner. Similar tests can cover vendor bills, payroll journals, and sales deposits without transferring policy decisions.
+
+## Record what is still unknown
+If the client has not decided whether software belongs to one department or whether a contractor requires special documentation, put the question in an assumption log with decision owner and due date. Use provisional coding only where policy permits; do not hide uncertainty in a generic account. Review the log alongside sample work so scope and approval boundaries are explicit.
 Show one complete packet, one exception, and one item that must be escalated. Redacted examples let the bookkeeper practice the expected reasoning without creating live risk.
 
 ## Review a small live batch

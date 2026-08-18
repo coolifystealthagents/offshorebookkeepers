@@ -10,6 +10,11 @@ takeaways: ["Give every task an entity, account, currency, and reviewer.","Recon
 faqs: [["Can a Philippines bookkeeper support several entities?","Yes, if the chart, close calendar, access, and ownership are documented separately. A controller retains consolidation and policy decisions."],["What causes multi-entity close delays?","Common causes are inconsistent cutoffs, missing intercompany confirmations, unclear currency treatment, and one exception owner serving too many entities."]]
 ---
 ## Split the calendar by entity
+## Prevent cross-entity posting
+For each task, show entity, book, currency, account, source, preparer, reviewer, and deadline. A bill paid by Entity A for Entity B must be held for a documented intercompany treatment rather than posted to whichever ledger is open. The Philippines bookkeeper can prepare the evidence and proposed entries; entity owners approve the final posting.
+
+## Reconcile the consolidated view
+After each entity closes, compare intercompany balances, currencies, due-to and due-from accounts, and shared schedules. Explain a difference as timing, exchange movement, missing source, or unresolved classification. Keep entity-level evidence attached so a consolidated number does not hide a local exception.
 Give each task an entity, book, currency, account, source, preparer, reviewer, and deadline. A shared calendar without those fields makes it too easy to post or review the wrong company.
 
 ## Standardize the packet

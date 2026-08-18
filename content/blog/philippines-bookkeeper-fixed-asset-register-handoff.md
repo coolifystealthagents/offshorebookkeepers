@@ -10,6 +10,11 @@ takeaways: ["Tie every register change to an invoice, approval, and location or 
 faqs: [["Can offshore bookkeeping support maintain an asset register?","Yes, with documented capitalization rules and source records. An authorized finance owner should approve judgmental additions, disposals, and policy changes."],["What evidence belongs with an asset?","Keep the invoice, approval, placed-in-service date, description, location or custodian, and supporting calculation."]]
 ---
 ## Set the register fields
+## Trace an asset from purchase to register
+For a $7,500 laptop purchase, retain the approved bill, acquisition date, placed-in-service date, asset ID, custodian, location, and proposed useful life. If the bill includes a warranty or accessories, identify what belongs in the asset cost under the client’s policy. The bookkeeper prepares the register row and supporting bridge; the finance owner decides capitalization and depreciation treatment.
+
+## Reconcile movement, not just totals
+At close, compare additions and disposals in the register with the fixed-asset account and related expense. Investigate an asset with no custodian, a disposed item still depreciating, or a register balance that changed without a source document. Keep the old row and record the approved correction so the history remains reviewable.
 Use a stable asset ID, description, acquisition date, placed-in-service date, cost, account, location, custodian, useful life, method, and accumulated depreciation. The Philippines bookkeeper can maintain these fields when the business defines the rule.
 
 ## Start with source records

@@ -26,3 +26,9 @@ At the weekly review, sort promised payments by date and compare them with bank 
 
 ## Turn notes into management questions
 Summarize old balances, recurring dispute reasons, unapplied cash, and invoices missing support. The result gives the owner a decision list and gives the offshore role a precise next batch of work.
+
+## Use a note that survives a handoff
+For invoice INV-1842, write: “15 August, email to billing contact; service period disputed; $1,200 open; contract excerpt attached; account owner to decide credit or collection; follow up 22 August.” That is materially different from “customer contacted.” Preserve prior notes when the explanation changes; append the new fact instead of overwriting history.
+
+## Separate aging priority from collection authority
+An invoice can be old because of missing support, unapplied cash, a contract dispute, or genuine nonpayment. Tag the cause before outreach. The bookkeeper can reconcile, attach correspondence, send an approved reminder, and report promises. The account owner decides a credit, write-off, payment plan, or term change. Review a sample against the bank statement so promised balances do not remain current after cash arrives.

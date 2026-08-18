@@ -25,4 +25,9 @@ An upgrade, cancellation, pause, refund, or new performance obligation may chang
 Focus on negative balances, old items, service periods that ended, invoices without schedules, and schedules that do not agree to the ledger. Make each exception a question with an owner and due date.
 
 ## Hand off the recognition file
+## Show one contract’s rollforward
+If a customer is billed $12,000 on 1 July for twelve months, the schedule should show $1,000 recognized for July and $11,000 remaining, subject to governing policy and actual service period. If the customer cancels after three months, retain contract evidence and flag the remaining $9,000 for an authorized decision; do not delete rows until the ledger agrees. Connect every row to invoice, dates, entry, and review note.
+
+## Investigate differences by source
+When the schedule is $500 higher than the deferred-revenue account, compare new invoices, credit notes, recognition journals, and manual adjustments in that order. A Philippines bookkeeper can trace the difference and prepare a dated reconciliation table. The reviewer decides whether it is timing, correction, or policy. Preserve the original schedule version.
 Include the schedule, movement bridge, ledger tie-out, source links, proposed journals, and open contract questions. This creates useful Philippines-based preparation capacity without transferring final revenue judgment.

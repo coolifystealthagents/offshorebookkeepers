@@ -19,6 +19,11 @@ A named user makes activity attributable and supports timely removal. Shared cre
 Payment creation, transfer setup, payee changes, approval, release, security resets, and user administration should remain with authorized business users. The bookkeeper can prepare evidence without controlling funds.
 
 ## Review the permission map
+## Decide access from the reconciliation steps
+If the assignment is to reconcile a checking account, view-only online banking access may support statement downloads while the accounting platform supports matching and attachments. It does not follow that the bookkeeper needs to add payees, change security details, initiate transfers, or approve bills. Write each action beside its system permission. If a bank combines roles, document the excess capability and add compensating review.
+
+## Test the boundary with an exception
+Ask the bookkeeper to identify a duplicate withdrawal and unfamiliar beneficiary without changing either record. The reviewer checks that evidence was captured, the exception routed, and no payment or credential change occurred. Record the result in the permission map and revisit it if work changes from reconciliation to payment preparation.
 Document system, role, access level, owner, grant date, and review date. Check whether the account still matches the task and remove access that is no longer necessary.
 
 ## Design an exception route

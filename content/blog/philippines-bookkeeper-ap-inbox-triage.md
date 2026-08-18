@@ -26,3 +26,9 @@ After approval, the bookkeeper can prepare a payment-ready list that ties each b
 
 ## Measure completeness
 Review how many bills have complete source fields, how long exceptions remain open, and whether duplicates are caught before entry. These measures show whether the AP handoff is controlled without rewarding speed at the expense of evidence.
+
+## Work one invoice through the decision
+Suppose a $4,800 software invoice arrives with a familiar vendor name but no purchase reference. Preserve the PDF, identify the service months, and mark it “awaiting purchase confirmation”; do not code it as an expense merely because the amount is plausible. If a second PDF has the same invoice number, compare dates and line items before either record is released. A changed bank account is a separate hold, even when the invoice itself is valid.
+
+## Make the handoff usable in the accounting system
+In QuickBooks Online or Xero, attach the source, enter proposed coding, and leave a note naming the unresolved field. The review queue should expose vendor, amount, due date, proposed coding, and exception status together. The owner approves, rejects, or asks a question; the bookkeeper records that result without changing the original evidence. Sample cleared bills against attachment, rationale, approval identity, and payment-release record.

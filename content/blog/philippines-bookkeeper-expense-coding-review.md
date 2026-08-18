@@ -10,6 +10,11 @@ takeaways: ["Use documented coding rules and require context for exceptions.","K
 faqs: [["Can a bookkeeper choose expense accounts?","They can apply approved rules and propose a code. Ambiguous, unusual, or policy-sensitive items should go to the finance owner for decision."],["What should a reviewer sample?","Sample recurring vendors, high-value items, new merchants, missing receipts, and entries changed after review."]]
 ---
 ## Define the coding rule
+## Resolve an ambiguous purchase
+An invoice for a $900 customer workshop may fit training, marketing, or a project cost depending on the client’s policy. The bookkeeper should attach the invoice, state the candidate accounts, and ask the named owner a specific question. Once decided, store the rationale with the transaction and add the example to the coding guide. Do not make a silent choice simply because one account was used last month.
+
+## Review the pattern, not only the line
+Compare unusual vendors, round-dollar entries, new projects, and large changes with prior periods. A reviewer can sample the source, proposed code, and approval while the bookkeeper maintains the exception log. Repeated questions are evidence that the rule needs an example, not evidence that the support role should assume more judgment.
 Write the account, class, department, project, and receipt requirements for common transactions. A Philippines bookkeeper can follow the rule consistently when the business provides examples and a named owner for exceptions.
 
 ## Preserve the business purpose

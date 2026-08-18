@@ -10,6 +10,11 @@ takeaways: ["Compare receipt and shipment dates to the accounting cutoff.","Keep
 faqs: [["What can the bookkeeper check?","They can compare receiving logs, shipping records, invoices, and inventory entries, then list cutoff exceptions for review."],["Who decides ownership at period-end?","The business’s documented terms and finance policy govern that decision; a controller or owner should resolve ambiguous cases."]]
 ---
 ## Define the cutoff evidence
+## Work the boundary transaction
+For a shipment leaving the warehouse on 31 July but invoiced on 2 August, retain the shipment record, carrier reference, invoice, and ledger entry, then flag the period question for the finance owner. The bookkeeper can compare the dates and prepare a cutoff schedule; they should not choose a recognition policy from the invoice date alone. Repeat the test for receipts posted just after close.
+
+## Explain the count-to-ledger bridge
+Tie the approved count by location and item class to the inventory report, investigate negative quantities and stale items, and list adjustments with source and approver. A useful handoff distinguishes count variance, timing difference, damaged stock, and missing receiving evidence. That makes the next review a decision about a named exception rather than a request to “check inventory.”
 List the warehouse report, receiving record, shipment record, supplier invoice, carrier reference, and ledger report used for the period. A Philippines bookkeeper needs the same cutoff timestamp and location scope each cycle.
 
 ## Compare the two sides

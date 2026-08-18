@@ -10,6 +10,11 @@ takeaways: ["Require a claimant, business purpose, date, amount, and receipt whe
 faqs: [["Can a Philippines bookkeeper prepare reimbursements?","They can check fields, match receipts, code expenses, and prepare a payment-ready list. The manager or finance owner should approve the claim and release funds."],["What if a receipt is missing?","Use the documented exception path and record the claimant’s explanation. Do not silently mark the claim complete."]]
 ---
 ## Set the required fields
+## Test a reimbursement before posting
+For a $186 travel claim, verify claimant, business purpose, date, receipt, currency, project, and approver. If the receipt shows $186 but the card statement shows $168, record the difference and ask whether tax, tip, or a duplicate explains it. The Philippines bookkeeper can prepare the exception and code a documented item; the manager decides policy exceptions and approval.
+
+## Keep the review focused
+Sample claims by employee, amount, and exception type. Compare the claim to the ledger posting and reimbursement batch, then preserve the reviewer’s decision. A control that checks only whether a file exists will miss duplicate claims, personal items, or claims submitted after a project closed.
 Define claimant, business purpose, date, vendor, currency, amount, project or department, receipt, and approver fields. A Philippines bookkeeper can perform a consistent completeness check when the rule is explicit.
 
 ## Check policy before coding

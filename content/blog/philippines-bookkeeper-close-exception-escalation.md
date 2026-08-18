@@ -25,4 +25,9 @@ Give each exception a due date and escalation level. A missing document may go t
 Do not replace the original note when a decision arrives. Add the response, approver, date, and resulting entry or action. History is part of the evidence.
 
 ## Feed improvements back
+## Show the decision in an escalation
+State the account, period, amount, source checked, question, deadline, and next action. “Accrual missing” is weak; “March hosting invoice expected at $2,400, vendor statement attached, service confirmed, approve accrual or identify another estimate by close day four” is actionable. The bookkeeper prepares the packet and holds the entry; the authorized reviewer chooses treatment.
+
+## Use thresholds without hiding small risks
+A dollar threshold can prioritize review, but should not suppress duplicate payments, access changes, unusual payees, or patterns of smaller errors. At month end, compare open exceptions with the final trial balance and mark which were resolved, carried forward, or accepted by the reviewer.
 At the end of close, group recurring exceptions by source, owner, and instruction gap. Fix the handoff or checklist where possible; do not ask a bookkeeper to compensate for an undefined policy.

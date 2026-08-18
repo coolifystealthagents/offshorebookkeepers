@@ -10,6 +10,11 @@ takeaways: ["Start with the processor settlement report, not the net bank line."
 faqs: [["Why does a processor deposit not equal sales?","Fees, refunds, disputes, reserves, and settlement timing can reduce or delay the deposit. Reconciliation should show each bridge explicitly."],["Can offshore support prepare this reconciliation?","Yes, if the role has the reports and accounting access needed to match activity. A finance owner should approve unusual adjustments and mapping changes."]]
 ---
 ## Build the settlement bridge
+## Explain one payout difference
+If a processor reports $10,000 gross sales, $300 refunds, $120 disputes, $250 fees, and a $9,330 bank deposit, the bridge should show each component, settlement date, reserve or prior adjustment, and source report. A Philippines bookkeeper can match the net to the bank and flag a missing $40; the finance owner decides whether it is a fee, timing item, or processor error.
+
+## Track settlement timing separately
+Group transactions by processor settlement date rather than assuming the sales date equals the bank date. Keep an open-item list for payouts initiated but not received, refunds posted after settlement, and reserves released later. Reconcile the next statement to that list and retain the report version used, so the explanation remains reproducible.
 For each payout, list gross transactions, refunds, disputes, processor fees, reserves, prior adjustments, and net cash. A Philippines bookkeeper can prepare this bridge and tie the net amount to the bank statement.
 
 ## Match by settlement period

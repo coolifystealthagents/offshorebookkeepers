@@ -25,4 +25,9 @@ Run the calendar through a small set of accounts and inspect whether the evidenc
 An exception should name the account, amount or document, issue, next action, owner, and due date. Escalate when a policy choice, approval, missing source, or potential misstatement blocks progress. A long list without a decision request is not a useful close packet.
 
 ## Hand off a signed summary
+## Sequence dependencies, not just dates
+Bank reconciliation should precede cash review because the latter depends on a known ending balance. Bill completeness should precede accrual review, and payroll posting should wait for the approved register. If a statement is late, complete source collection and mark the reconciliation blocked so the reviewer sees why the close cannot be certified.
+
+## Example of a useful close day
+On day two, download statements and match activity. On day three, list unmatched items and missing bills. On day four, update schedules and draft the reporting pack. On day five, the finance lead reviews exceptions, approves journals, and records the close decision. Keep prior calendar versions so recurring delays can be discussed from evidence.
 End the cycle with completed tasks, open exceptions, proposed entries awaiting approval, and the reviewer’s sign-off. The Philippines bookkeeper maintains the record; the business retains the final accounting judgment.

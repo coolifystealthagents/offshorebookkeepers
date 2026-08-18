@@ -10,6 +10,11 @@ takeaways: ["Tie the workpaper to transaction reports, filings, and liability ac
 faqs: [["Can a Philippines bookkeeper prepare a sales tax workpaper?","They can gather reports, reconcile liability accounts, and organize evidence under an approved method. Filing positions and tax advice need an authorized owner or tax professional."],["What should the workpaper show?","Show period, jurisdiction, source report, taxable basis where defined, tax collected, payments, adjustments, balance, and open questions."]]
 ---
 ## Define the reporting scope
+## Build a jurisdiction evidence table
+For each filing period, list the jurisdiction, transaction source, taxable-sales report, exemption evidence, tax collected, adjustments, cutoff, and filing decision owner. The bookkeeper can reconcile the workpaper to the ledger and flag missing certificates or inconsistent addresses; they should not infer an obligation from a customer location alone.
+
+## Make the handoff reviewable
+Tie every amount to a report and extraction date, preserve the calculation, and label estimates or exclusions. If taxable sales differ from the ledger, classify the difference as timing, coding, exemption, or source gap and route the question. The authorized filer decides the filing position and signs off on the completed packet.
 List jurisdictions, filing periods, systems, report cutoff, and the person responsible for the filing decision. A Philippines bookkeeper can prepare within that scope without inferring where the business has obligations.
 
 ## Reconcile source to ledger
