@@ -181,7 +181,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           <header className="article-header">
             <span className="eyebrow">{site.brand} guide</span>
             <h1>{post.title}</h1>
-            <p className="lead">{post.excerpt}</p><div className='blog-standards-strip' aria-label='Article standards'><span>Source-backed guidance</span><span>Contextual internal links</span><span>Top, middle, and bottom CTAs</span></div>
+            <p className="lead">{post.excerpt}</p>
             {post.published && <span className="article-date">Published <time dateTime={post.published}>{formatReaderDate(post.published)}</time> · {post.minutes} minute read</span>}
           </header>
 
