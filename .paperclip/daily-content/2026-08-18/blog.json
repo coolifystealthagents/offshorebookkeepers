@@ -1,0 +1,134 @@
+[
+  {
+    "route": "/blog/philippines-bookkeeper-daily-cash-position",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-daily-cash-position.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-bill-coding-quality-review",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-bill-coding-quality-review.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-ar-credit-limit-notes",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-ar-credit-limit-notes.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-ap-duplicate-invoice-screen",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-ap-duplicate-invoice-screen.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-payroll-clearing-review",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-payroll-clearing-review.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-close-supporting-index",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-close-supporting-index.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-prepaid-expense-evidence",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-prepaid-expense-evidence.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-fixed-asset-addition-intake",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-fixed-asset-addition-intake.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-intercompany-confirmation-log",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-intercompany-confirmation-log.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-ecommerce-refund-reconciliation",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-ecommerce-refund-reconciliation.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-merchant-fee-cutoff",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-merchant-fee-cutoff.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-project-billing-support",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-project-billing-support.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-customer-deposit-rollforward",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-customer-deposit-rollforward.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-vendor-credit-application",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-vendor-credit-application.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-budget-variance-bridge",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-budget-variance-bridge.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-insurance-renewal-accrual",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-insurance-renewal-accrual.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-lease-data-request",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-lease-data-request.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-inventory-receiving-log",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-inventory-receiving-log.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-owner-distribution-review",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-owner-distribution-review.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-bank-signatory-evidence",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-bank-signatory-evidence.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-recurring-journal-register",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-recurring-journal-register.md"
+    ]
+  },
+  {
+    "route": "/blog/philippines-bookkeeper-document-request-escalation",
+    "sourcePaths": [
+      "content/blog/philippines-bookkeeper-document-request-escalation.md"
+    ]
+  }
+]

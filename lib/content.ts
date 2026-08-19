@@ -65,6 +65,20 @@ const august17BlogOrder = [
   'philippines-bookkeeper-sales-tax-workpaper-handoff', 'philippines-bookkeeper-document-retention-map',
 ] as const;
 const august17Rank: ReadonlyMap<string, number> = new Map(august17BlogOrder.map((slug, index) => [slug, index]));
+const august18BlogOrder = [
+  'philippines-bookkeeper-daily-cash-position', 'philippines-bookkeeper-bill-coding-quality-review',
+  'philippines-bookkeeper-ar-credit-limit-notes', 'philippines-bookkeeper-ap-duplicate-invoice-screen',
+  'philippines-bookkeeper-payroll-clearing-review', 'philippines-bookkeeper-close-supporting-index',
+  'philippines-bookkeeper-prepaid-expense-evidence', 'philippines-bookkeeper-fixed-asset-addition-intake',
+  'philippines-bookkeeper-intercompany-confirmation-log', 'philippines-bookkeeper-ecommerce-refund-reconciliation',
+  'philippines-bookkeeper-merchant-fee-cutoff', 'philippines-bookkeeper-project-billing-support',
+  'philippines-bookkeeper-customer-deposit-rollforward', 'philippines-bookkeeper-vendor-credit-application',
+  'philippines-bookkeeper-budget-variance-bridge', 'philippines-bookkeeper-insurance-renewal-accrual',
+  'philippines-bookkeeper-lease-data-request', 'philippines-bookkeeper-inventory-receiving-log',
+  'philippines-bookkeeper-owner-distribution-review', 'philippines-bookkeeper-bank-signatory-evidence',
+  'philippines-bookkeeper-recurring-journal-register', 'philippines-bookkeeper-document-request-escalation',
+] as const;
+const august18Rank: ReadonlyMap<string, number> = new Map(august18BlogOrder.map((slug, index) => [slug, index]));
 const august10ResearchOrder = [
   'bookkeeping-1099-compliance-evidence-research',
   'bookkeeping-bank-signatory-review-evidence-research',
@@ -99,6 +113,14 @@ const august17ResearchOrder = [
   'bookkeeping-owner-reporting-kpi-definition-research', 'bookkeeping-continuity-backup-research'
 ] as const;
 const august17ResearchRank: ReadonlyMap<string, number> = new Map(august17ResearchOrder.map((slug, index) => [slug, index]));
+const august18ResearchOrder = [
+  'bookkeeping-client-approval-aging-research', 'bookkeeping-bank-reconciliation-review-research',
+  'bookkeeping-month-end-evidence-index-research', 'bookkeeping-vendor-onboarding-risk-research',
+  'bookkeeping-cash-application-research', 'bookkeeping-expense-cutoff-judgment-research',
+  'bookkeeping-management-reporting-reconciliation-research', 'bookkeeping-remote-review-notes-research',
+  'bookkeeping-accounting-close-rollback-research', 'bookkeeping-document-request-friction-research'
+] as const;
+const august18ResearchRank: ReadonlyMap<string, number> = new Map(august18ResearchOrder.map((slug, index) => [slug, index]));
 
 function scalar(value: string) {
   const trimmed = value.trim();
@@ -151,7 +173,7 @@ export function getContent(kind: ContentKind): ContentPost[] {
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
-      const rank = kind === 'blog' ? (a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
+      const rank = kind === 'blog' ? (a.published === '2026-08-18' || b.published === '2026-08-18' ? august18Rank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-18' || b.published === '2026-08-18' ? august18ResearchRank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
       const aRank = rank?.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
       const bRank = rank?.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
       if (aRank !== bRank) return aRank - bRank;
