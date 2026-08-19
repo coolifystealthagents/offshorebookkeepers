@@ -17,6 +17,7 @@ export type ContentPost = {
   sections: { heading: string; body: string }[];
   faqs: { question: string; answer: string }[];
   relatedLinks: string[][];
+  serviceHandoff?: { href: string; label: string; title: string; body: string };
 };
 
 const required = ['title', 'description', 'published', 'category', 'featuredImage'] as const;
@@ -209,6 +210,7 @@ function parseFile(file: string): ContentPost {
     takeaways: meta.takeaways || [],
     faqs: meta.faqs || [],
     relatedLinks: meta.relatedLinks || [],
+    serviceHandoff: meta.serviceHandoff,
     sections,
   };
 }

@@ -2,13 +2,14 @@
 title: "Bank reconciliation evidence: timing differences, stale items, and completeness"
 description: "Research on the evidence needed to reconcile bank statements, cash ledgers, deposits, transfers, and aged outstanding items."
 published: "2026-08-13"
-updated: "2026-08-13"
+updated: "2026-08-19"
 category: "Bank Evidence"
 type: "research"
 featuredImage: "/thumbnails/bank-reconciliation-support-checklist.webp"
 takeaways: ["A reconciled ending balance does not explain every transaction.", "Outstanding items need age, owner, and resolution evidence.", "Completeness testing should include bank activity outside the ledger feed."]
 sources: [{"name":"GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control","url":"https://www.coso.org/internal-control"},{"name":"PCAOB AS 2201","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"FASB, Accounting Standards Codification","url":"https://asc.fasb.org/"},{"name":"ACFE, Report to the Nations 2024","url":"https://www.acfe.com/report-to-the-nations/2024/"},{"name":"NIST SP 800-53 Rev. 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},{"name":"SEC, Accounting and Auditing","url":"https://www.sec.gov/page/accounting-and-auditing"},{"name":"SBA, Manage Your Business","url":"https://www.sba.gov/business-guide/manage-your-business"},{"name":"AICPA, Audit and Accounting Guides","url":"https://www.aicpa-cima.com/resources/download/audit-and-accounting-guides"}]
 relatedLinks: [["/research/bookkeeping-cash-receipts-reconciliation-workflow","/research/bookkeeping-cash-disbursement-anomaly-research"]]
+serviceHandoff: {"href":"/services/bank-reconciliation-support","label":"See Bank Reconciliation Support","title":"Put the reconciliation handoff in writing","body":"A Philippines-based bookkeeper can prepare the statement match, attach evidence, and keep an aged-items list current. Your finance owner should keep bank access, approve adjustments, and decide how unresolved items are handled."}
 faqs: [{"question":"How long should an outstanding item remain open?","answer":"The owner should define a policy; the reconciliation should show age and escalation rather than hide old items."},{"question":"What is a completeness check?","answer":"Compare statement activity and balances with the ledger, including items not imported through a normal feed."}]
 ---
 ## Research question
