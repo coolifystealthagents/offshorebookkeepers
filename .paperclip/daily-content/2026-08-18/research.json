@@ -1,0 +1,16 @@
+{
+  "campaignDate": "2026-08-18",
+  "family": "research",
+  "entries": [
+    {"route":"/research/bookkeeping-client-approval-aging-research","sourcePaths":["content/research/bookkeeping-client-approval-aging-research.md"]},
+    {"route":"/research/bookkeeping-bank-reconciliation-review-research","sourcePaths":["content/research/bookkeeping-bank-reconciliation-review-research.md"]},
+    {"route":"/research/bookkeeping-month-end-evidence-index-research","sourcePaths":["content/research/bookkeeping-month-end-evidence-index-research.md"]},
+    {"route":"/research/bookkeeping-vendor-onboarding-risk-research","sourcePaths":["content/research/bookkeeping-vendor-onboarding-risk-research.md"]},
+    {"route":"/research/bookkeeping-cash-application-research","sourcePaths":["content/research/bookkeeping-cash-application-research.md"]},
+    {"route":"/research/bookkeeping-expense-cutoff-judgment-research","sourcePaths":["content/research/bookkeeping-expense-cutoff-judgment-research.md"]},
+    {"route":"/research/bookkeeping-management-reporting-reconciliation-research","sourcePaths":["content/research/bookkeeping-management-reporting-reconciliation-research.md"]},
+    {"route":"/research/bookkeeping-remote-review-notes-research","sourcePaths":["content/research/bookkeeping-remote-review-notes-research.md"]},
+    {"route":"/research/bookkeeping-accounting-close-rollback-research","sourcePaths":["content/research/bookkeeping-accounting-close-rollback-research.md"]},
+    {"route":"/research/bookkeeping-document-request-friction-research","sourcePaths":["content/research/bookkeeping-document-request-friction-research.md"]}
+  ]
+}
