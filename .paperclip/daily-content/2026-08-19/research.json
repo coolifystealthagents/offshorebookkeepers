@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "targetDate": "2026-08-19",
+  "family": "research",
+  "domain": "offshorebookkeepers.com",
+  "repository": "coolifystealthagents/offshorebookkeepers",
+  "branch": "main",
+  "entries": [
+    {
+      "slug": "offshore-bookkeeping-evidence-queue-aging-research",
+      "route": "/research/offshore-bookkeeping-evidence-queue-aging-research",
+      "sourcePath": "content/research/offshore-bookkeeping-evidence-queue-aging-research.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-time-zone-handoff-research",
+      "route": "/research/offshore-bookkeeping-time-zone-handoff-research",
+      "sourcePath": "content/research/offshore-bookkeeping-time-zone-handoff-research.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-reconciliation-taxonomy-research",
+      "route": "/research/offshore-bookkeeping-reconciliation-taxonomy-research",
+      "sourcePath": "content/research/offshore-bookkeeping-reconciliation-taxonomy-research.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-review-comment-research",
+      "route": "/research/offshore-bookkeeping-review-comment-research",
+      "sourcePath": "content/research/offshore-bookkeeping-review-comment-research.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-source-freshness-research",
+      "route": "/research/offshore-bookkeeping-source-freshness-research",
+      "sourcePath": "content/research/offshore-bookkeeping-source-freshness-research.md"
+    }
+  ]
+}

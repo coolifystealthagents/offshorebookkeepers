@@ -79,6 +79,15 @@ const august18BlogOrder = [
   'philippines-bookkeeper-recurring-journal-register', 'philippines-bookkeeper-document-request-escalation',
 ] as const;
 const august18Rank: ReadonlyMap<string, number> = new Map(august18BlogOrder.map((slug, index) => [slug, index]));
+const august19BlogOrder = [
+  'offshore-bookkeeping-unapplied-cash-triage', 'offshore-bookkeeping-ap-approval-evidence',
+  'offshore-bookkeeping-bank-reconciliation-breaks', 'offshore-bookkeeping-invoice-intake-queue',
+  'offshore-bookkeeping-ar-follow-up-notes', 'offshore-bookkeeping-close-evidence-room',
+  'offshore-bookkeeping-payroll-input-freeze', 'offshore-bookkeeping-vendor-change-callback-log',
+  'offshore-bookkeeping-marketplace-payout-bridge', 'offshore-bookkeeping-project-cost-source-map',
+  'offshore-bookkeeping-quarterly-access-evidence', 'offshore-bookkeeping-review-note-closure',
+] as const;
+const august19Rank: ReadonlyMap<string, number> = new Map(august19BlogOrder.map((slug, index) => [slug, index]));
 const august10ResearchOrder = [
   'bookkeeping-1099-compliance-evidence-research',
   'bookkeeping-bank-signatory-review-evidence-research',
@@ -121,6 +130,14 @@ const august18ResearchOrder = [
   'bookkeeping-accounting-close-rollback-research', 'bookkeeping-document-request-friction-research'
 ] as const;
 const august18ResearchRank: ReadonlyMap<string, number> = new Map(august18ResearchOrder.map((slug, index) => [slug, index]));
+const august19ResearchOrder = [
+  'offshore-bookkeeping-evidence-queue-aging-research',
+  'offshore-bookkeeping-time-zone-handoff-research',
+  'offshore-bookkeeping-reconciliation-taxonomy-research',
+  'offshore-bookkeeping-review-comment-research',
+  'offshore-bookkeeping-source-freshness-research',
+] as const;
+const august19ResearchRank: ReadonlyMap<string, number> = new Map(august19ResearchOrder.map((slug, index) => [slug, index]));
 
 function scalar(value: string) {
   const trimmed = value.trim();
@@ -173,7 +190,7 @@ export function getContent(kind: ContentKind): ContentPost[] {
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
-      const rank = kind === 'blog' ? (a.published === '2026-08-18' || b.published === '2026-08-18' ? august18Rank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-18' || b.published === '2026-08-18' ? august18ResearchRank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
+      const rank = kind === 'blog' ? (a.published === '2026-08-19' || b.published === '2026-08-19' ? august19Rank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18Rank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-19' || b.published === '2026-08-19' ? august19ResearchRank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18ResearchRank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
       const aRank = rank?.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
       const bRank = rank?.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
       if (aRank !== bRank) return aRank - bRank;

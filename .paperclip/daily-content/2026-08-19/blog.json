@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "targetDate": "2026-08-19",
+  "family": "blog",
+  "domain": "offshorebookkeepers.com",
+  "repository": "coolifystealthagents/offshorebookkeepers",
+  "branch": "main",
+  "entries": [
+    {
+      "slug": "offshore-bookkeeping-unapplied-cash-triage",
+      "route": "/blog/offshore-bookkeeping-unapplied-cash-triage",
+      "sourcePath": "content/blog/offshore-bookkeeping-unapplied-cash-triage.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-ap-approval-evidence",
+      "route": "/blog/offshore-bookkeeping-ap-approval-evidence",
+      "sourcePath": "content/blog/offshore-bookkeeping-ap-approval-evidence.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-bank-reconciliation-breaks",
+      "route": "/blog/offshore-bookkeeping-bank-reconciliation-breaks",
+      "sourcePath": "content/blog/offshore-bookkeeping-bank-reconciliation-breaks.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-invoice-intake-queue",
+      "route": "/blog/offshore-bookkeeping-invoice-intake-queue",
+      "sourcePath": "content/blog/offshore-bookkeeping-invoice-intake-queue.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-ar-follow-up-notes",
+      "route": "/blog/offshore-bookkeeping-ar-follow-up-notes",
+      "sourcePath": "content/blog/offshore-bookkeeping-ar-follow-up-notes.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-close-evidence-room",
+      "route": "/blog/offshore-bookkeeping-close-evidence-room",
+      "sourcePath": "content/blog/offshore-bookkeeping-close-evidence-room.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-payroll-input-freeze",
+      "route": "/blog/offshore-bookkeeping-payroll-input-freeze",
+      "sourcePath": "content/blog/offshore-bookkeeping-payroll-input-freeze.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-vendor-change-callback-log",
+      "route": "/blog/offshore-bookkeeping-vendor-change-callback-log",
+      "sourcePath": "content/blog/offshore-bookkeeping-vendor-change-callback-log.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-marketplace-payout-bridge",
+      "route": "/blog/offshore-bookkeeping-marketplace-payout-bridge",
+      "sourcePath": "content/blog/offshore-bookkeeping-marketplace-payout-bridge.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-project-cost-source-map",
+      "route": "/blog/offshore-bookkeeping-project-cost-source-map",
+      "sourcePath": "content/blog/offshore-bookkeeping-project-cost-source-map.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-quarterly-access-evidence",
+      "route": "/blog/offshore-bookkeeping-quarterly-access-evidence",
+      "sourcePath": "content/blog/offshore-bookkeeping-quarterly-access-evidence.md"
+    },
+    {
+      "slug": "offshore-bookkeeping-review-note-closure",
+      "route": "/blog/offshore-bookkeeping-review-note-closure",
+      "sourcePath": "content/blog/offshore-bookkeeping-review-note-closure.md"
+    }
+  ]
+}
