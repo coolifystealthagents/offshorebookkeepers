@@ -52,3 +52,8 @@ At each review, tie the forecast opening balance and movements to the approved b
 ## Use a short exception route
 When a projected shortfall, delayed receipt, unexpected payment, or bank difference appears, write one decision request with the amount, date, source, impact, and owner. Do not solve the problem by editing the forecast without recording the reason. A clear route lets the client choose a funding, timing, or communication response while the offshore team keeps the evidence current.
 The owner response should state decision, date, scope, and follow-up evidence. Preserve prior forecast versions and note which accounts or sources were unavailable.
+
+## Define the review handoff
+Put the forecast inputs in an order that lets the finance owner challenge them quickly. Start with the reporting entity, currencies, horizon, and opening-balance date. Follow with a source register showing which bank statements, ledger extracts, aging reports, payroll inputs, and schedules were available. Then list unresolved items with a named information owner and a requested response date. This makes missing information visible instead of allowing an empty cell to look like zero.
+
+When a new source changes a line, preserve the earlier value and explain the movement. A receipt can move because the customer confirmed a different date; a disbursement can change because an invoice was corrected or a payment was released. The bookkeeper records the evidence and updates the bridge. The finance owner decides whether the revised input belongs in the approved view and whether any stakeholder needs an explanation. Keep that decision attached to the relevant forecast version so a later reviewer can distinguish a source update from an unexplained adjustment.
