@@ -1,0 +1,12 @@
+{
+  "campaignDate":"2026-08-21",
+  "family":"research",
+  "generator":"Gemini",
+  "receipts":[
+    {"route":"/research/offshore-bookkeeping-reconciliation-break-triage-research","imagePath":"public/thumbnails/offshore-bookkeeping-reconciliation-break-triage-research.png","prompt":"Editorial illustration of a distributed bookkeeping team tracing a vendor invoice through a transparent chain of evidence; warm ivory workspace, ledger pages, document links, world-map grid, navy teal coral cream, wide landscape, no text or logos."},
+    {"route":"/research/offshore-bookkeeping-intercompany-evidence-ownership-research","imagePath":"public/thumbnails/offshore-bookkeeping-intercompany-evidence-ownership-research.png","prompt":"Editorial illustration of multi-entity bookkeeping evidence ownership; separate ledgers and connected source records converging through a two-sided evidence bridge, premium finance collage, navy teal coral cream, wide landscape, no text or logos."},
+    {"route":"/research/offshore-bookkeeping-payroll-cutoff-evidence-research","imagePath":"public/thumbnails/offshore-bookkeeping-payroll-cutoff-evidence-research.png","prompt":"Editorial illustration of payroll cut-off evidence; calendar, payroll register, processing states, and settlement path in a distributed bookkeeping workspace, refined geometric financial illustration, navy green amber cream, no text or logos."},
+    {"route":"/research/offshore-bookkeeping-approval-escalation-thresholds-research","imagePath":"public/thumbnails/offshore-bookkeeping-approval-escalation-thresholds-research.png","prompt":"Editorial illustration of an offshore bookkeeping exception queue triaged by evidence strength and approval gates; abstract cards, magnifying glass, priority scale, polished magazine illustration, navy teal tangerine cream, no text or logos."},
+    {"route":"/research/offshore-bookkeeping-close-evidence-sufficiency-research","imagePath":"public/thumbnails/offshore-bookkeeping-close-evidence-sufficiency-research.png","prompt":"Editorial illustration of a month-end close evidence pack; separate entity ledgers, source documents, review path, and central reporting bridge, modern financial editorial style, midnight blue jade coral warm white, no text or logos."}
+  ]
+}

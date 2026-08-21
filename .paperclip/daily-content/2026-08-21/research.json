@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "research",
+  "entries": [
+    {"route":"/research/offshore-bookkeeping-reconciliation-break-triage-research","sourcePaths":["content/research/offshore-bookkeeping-reconciliation-break-triage-research.md"]},
+    {"route":"/research/offshore-bookkeeping-intercompany-evidence-ownership-research","sourcePaths":["content/research/offshore-bookkeeping-intercompany-evidence-ownership-research.md"]},
+    {"route":"/research/offshore-bookkeeping-payroll-cutoff-evidence-research","sourcePaths":["content/research/offshore-bookkeeping-payroll-cutoff-evidence-research.md"]},
+    {"route":"/research/offshore-bookkeeping-approval-escalation-thresholds-research","sourcePaths":["content/research/offshore-bookkeeping-approval-escalation-thresholds-research.md"]},
+    {"route":"/research/offshore-bookkeeping-close-evidence-sufficiency-research","sourcePaths":["content/research/offshore-bookkeeping-close-evidence-sufficiency-research.md"]}
+  ]
+}

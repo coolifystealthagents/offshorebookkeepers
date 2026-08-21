@@ -148,6 +148,12 @@ const august20ResearchOrder = [
   'bookkeeping-source-version-control-research',
 ] as const;
 const august20ResearchRank: ReadonlyMap<string, number> = new Map(august20ResearchOrder.map((slug, index) => [slug, index]));
+const august21ResearchOrder = [
+  'offshore-bookkeeping-reconciliation-break-triage-research', 'offshore-bookkeeping-intercompany-evidence-ownership-research',
+  'offshore-bookkeeping-payroll-cutoff-evidence-research', 'offshore-bookkeeping-approval-escalation-thresholds-research',
+  'offshore-bookkeeping-close-evidence-sufficiency-research',
+] as const;
+const august21ResearchRank: ReadonlyMap<string, number> = new Map(august21ResearchOrder.map((slug, index) => [slug, index]));
 
 function scalar(value: string) {
   const trimmed = value.trim();
@@ -200,7 +206,7 @@ export function getContent(kind: ContentKind): ContentPost[] {
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
-      const rank = kind === 'blog' ? (a.published === '2026-08-21' || b.published === '2026-08-21' ? august21Rank : a.published === '2026-08-20' || b.published === '2026-08-20' ? august20Rank : a.published === '2026-08-19' || b.published === '2026-08-19' ? august19Rank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18Rank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-20' || b.published === '2026-08-20' ? august20ResearchRank : a.published === '2026-08-19' || b.published === '2026-08-19' ? august19ResearchRank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18ResearchRank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
+      const rank = kind === 'blog' ? (a.published === '2026-08-21' || b.published === '2026-08-21' ? august21Rank : a.published === '2026-08-20' || b.published === '2026-08-20' ? august20Rank : a.published === '2026-08-19' || b.published === '2026-08-19' ? august19Rank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18Rank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-21' || b.published === '2026-08-21' ? august21ResearchRank : a.published === '2026-08-20' || b.published === '2026-08-20' ? august20ResearchRank : a.published === '2026-08-19' || b.published === '2026-08-19' ? august19ResearchRank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18ResearchRank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
       const aRank = rank?.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
       const bRank = rank?.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
       if (aRank !== bRank) return aRank - bRank;
