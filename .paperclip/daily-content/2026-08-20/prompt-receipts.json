@@ -1,0 +1,12 @@
+{
+  "campaignDate":"2026-08-20",
+  "family":"research",
+  "generator":"Gemini image generation workflow",
+  "receipts":[
+    {"route":"/research/offshore-bookkeeping-ledger-lineage-research","imagePath":"public/thumbnails/offshore-bookkeeping-ledger-lineage-research.png","prompt":"Editorial overhead accounting workspace showing a traceable line from bank statement to general-ledger entry, connected evidence cards, navy/teal palette, wide 16:9, no text or logos."},
+    {"route":"/research/bookkeeping-review-sampling-distributed-team-research","imagePath":"public/thumbnails/bookkeeping-review-sampling-research.png","prompt":"Editorial remote bookkeeping reviewer selecting a defensible sample from ledger transaction cards, highlighted review items, slate/ivory/coral palette, wide 16:9, no text or logos."},
+    {"route":"/research/bookkeeping-foreign-currency-remeasurement-research","imagePath":"public/thumbnails/bookkeeping-fx-remeasurement-research.png","prompt":"Editorial finance visual of two currency ledgers connected through a reconciliation bridge separating rate and timing evidence, navy/cream/sage palette, wide 16:9, no text or logos."},
+    {"route":"/research/bookkeeping-period-cutover-control-research","imagePath":"public/thumbnails/bookkeeping-period-cutover-research.png","prompt":"Editorial accounting period turnover with closing ledger, newly opened period, controlled handoff folder and calendar boundary, deep blue/off-white/green, wide 16:9, no text or logos."},
+    {"route":"/research/bookkeeping-source-version-control-research","imagePath":"public/thumbnails/bookkeeping-source-version-research.png","prompt":"Editorial versioned bookkeeping source documents layered transparently, current version aligned to ledger and superseded versions retained separately, navy/white/teal/orange, wide 16:9, no text or logos."}
+  ]
+}

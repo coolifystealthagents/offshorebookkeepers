@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "research",
+  "entries": [
+    {"route":"/research/offshore-bookkeeping-ledger-lineage-research","sourcePaths":["content/research/offshore-bookkeeping-ledger-lineage-research.md"]},
+    {"route":"/research/bookkeeping-review-sampling-distributed-team-research","sourcePaths":["content/research/bookkeeping-review-sampling-distributed-team-research.md"]},
+    {"route":"/research/bookkeeping-foreign-currency-remeasurement-research","sourcePaths":["content/research/bookkeeping-foreign-currency-remeasurement-research.md"]},
+    {"route":"/research/bookkeeping-period-cutover-control-research","sourcePaths":["content/research/bookkeeping-period-cutover-control-research.md"]},
+    {"route":"/research/bookkeeping-source-version-control-research","sourcePaths":["content/research/bookkeeping-source-version-control-research.md"]}
+  ]
+}
