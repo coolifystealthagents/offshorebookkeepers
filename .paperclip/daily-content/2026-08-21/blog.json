@@ -1,0 +1,98 @@
+[
+  {
+    "route": "/blog/offshore-bookkeeping-cash-application-policy",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-cash-application-policy.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-cash-application-policy.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-cash-application-policy.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-close-calendar-owner-map",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-close-calendar-owner-map.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-close-calendar-owner-map.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-close-calendar-owner-map.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-ap-accrual-evidence",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-ap-accrual-evidence.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-ap-accrual-evidence.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-ap-accrual-evidence.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-ar-dispute-register",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-ar-dispute-register.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-ar-dispute-register.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-ar-dispute-register.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-payroll-variance-review",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-payroll-variance-review.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-payroll-variance-review.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-payroll-variance-review.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-inventory-count-reconciliation",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-inventory-count-reconciliation.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-inventory-count-reconciliation.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-inventory-count-reconciliation.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-lease-data-handoff",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-lease-data-handoff.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-lease-data-handoff.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-lease-data-handoff.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-chart-of-accounts-change-log",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-chart-of-accounts-change-log.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-chart-of-accounts-change-log.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-chart-of-accounts-change-log.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-foreign-currency-revaluation-pack",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-foreign-currency-revaluation-pack.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-foreign-currency-revaluation-pack.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-foreign-currency-revaluation-pack.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-project-margin-bridge",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-project-margin-bridge.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-project-margin-bridge.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-project-margin-bridge.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-employee-onboarding-ledger",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-employee-onboarding-ledger.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-employee-onboarding-ledger.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-employee-onboarding-ledger.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-monthly-kpi-definition",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-monthly-kpi-definition.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-monthly-kpi-definition.webp",
+    "promptReceipt": ".paperclip/daily-content/2026-08-21/prompts/offshore-bookkeeping-monthly-kpi-definition.txt"
+  }
+]
