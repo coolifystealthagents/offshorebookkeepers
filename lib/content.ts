@@ -79,6 +79,8 @@ const august18BlogOrder = [
   'philippines-bookkeeper-recurring-journal-register', 'philippines-bookkeeper-document-request-escalation',
 ] as const;
 const august18Rank: ReadonlyMap<string, number> = new Map(august18BlogOrder.map((slug, index) => [slug, index]));
+const august20BlogOrder = ['offshore-bookkeeping-bank-feed-exception-queue','offshore-bookkeeping-vendor-onboarding-packet','offshore-bookkeeping-ar-aging-review','offshore-bookkeeping-payroll-source-pack','offshore-bookkeeping-expense-reimbursement-review','offshore-bookkeeping-intercompany-handoff','offshore-bookkeeping-monthly-reporting-pack','offshore-bookkeeping-subscription-revenue-schedule','offshore-bookkeeping-close-ownership-matrix','offshore-bookkeeping-cash-forecast-inputs','offshore-bookkeeping-fixed-asset-additions','offshore-bookkeeping-document-retention-map'] as const;
+const august20Rank: ReadonlyMap<string, number> = new Map(august20BlogOrder.map((slug, index) => [slug, index]));
 const august19BlogOrder = [
   'offshore-bookkeeping-unapplied-cash-triage', 'offshore-bookkeeping-ap-approval-evidence',
   'offshore-bookkeeping-bank-reconciliation-breaks', 'offshore-bookkeeping-invoice-intake-queue',
@@ -190,7 +192,7 @@ export function getContent(kind: ContentKind): ContentPost[] {
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
-      const rank = kind === 'blog' ? (a.published === '2026-08-19' || b.published === '2026-08-19' ? august19Rank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18Rank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-19' || b.published === '2026-08-19' ? august19ResearchRank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18ResearchRank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
+      const rank = kind === 'blog' ? (a.published === '2026-08-20' || b.published === '2026-08-20' ? august20Rank : a.published === '2026-08-19' || b.published === '2026-08-19' ? august19Rank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18Rank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-19' || b.published === '2026-08-19' ? august19ResearchRank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18ResearchRank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
       const aRank = rank?.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
       const bRank = rank?.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
       if (aRank !== bRank) return aRank - bRank;
