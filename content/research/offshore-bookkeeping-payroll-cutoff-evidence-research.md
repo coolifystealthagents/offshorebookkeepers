@@ -42,6 +42,12 @@ The fact layer is that public guidance emphasizes record retention, reliable inf
 
 This qualitative review examined ten public sources on internal control, payroll recordkeeping, wage rules, audit evidence, data integrity, and records management. Each source was mapped to a question about population, authorization, processing state, traceability, or role responsibility. No payroll files, employee data, interviews, or error-rate study were used. The article proposes an evidence design; it does not estimate payroll accuracy or provide professional advice.
 
+## Methodology
+
+The methodology for this route was a structured qualitative review completed for the August 21, 2026 Research publication. I first grouped the ten cited sources by the control question they can inform: whether the payroll population is identifiable, whether an input or run has an authorized status, whether records can be retained and traced, whether evidence is sufficient for the stated review purpose, and where bookkeeping responsibility stops. I then compared those source themes with four payroll states—input preparation, processing, posting, and later correction—to identify evidence that remains useful across a distributed offshore bookkeeping handoff. The analysis treats public guidance as context for designing review evidence, not as a measured sample of payroll operations. It does not infer a performance rate, error rate, legal result, or accounting treatment from the sources.
+
+The evidence scope is limited to the ten public URLs listed in this exact article record. The sources cover U.S. recordkeeping and wage-and-hour context, internal control, audit evidence, records management, data integrity, and logging. They do not represent a survey of offshore bookkeepers, a test of a particular payroll platform, or a review of any client’s employee data. The resulting propositions are therefore bounded: a source pack should make population, authorization, processing status, posting connection, and later resolution visible, while an authorized payroll or finance owner decides what the facts mean for a specific organization.
+
 ## Limitations
 
 Payroll obligations vary by jurisdiction, worker status, benefit design, system, and employer policy. The cited sources do not prove that one workflow, location, or technology is best for any business. A tied register cannot prove that inputs were complete or that the underlying employment decision was correct. Time-zone differences may change handoff timing but do not resolve the substance of a payroll question.
