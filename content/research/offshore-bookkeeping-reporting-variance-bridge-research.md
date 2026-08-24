@@ -16,7 +16,7 @@ Published August 23, 2026. This Research article asks: what makes a management-r
 
 A report can show that payroll is above plan or revenue is below the prior month without explaining what changed. A percentage alone hides the denominator, timing, reclassifications, one-off items, and missing source records that determine whether a reader should act. The research question is whether a variance bridge lets a decision-maker trace the movement from comparable ledger populations to a bounded explanation.
 
-This matters for offshore bookkeeping because the person preparing the report may not own the budget, pricing decision, hiring plan, or accounting policy. A bookkeeper can calculate the movement and assemble invoices or payroll records. A finance lead or owner must decide whether the movement is expected, concerning, incorrectly recorded, or relevant to a business decision. The report should make that boundary visible.
+This matters for offshore bookkeeping because the person preparing the report may not own the budget, commercial decision, hiring plan, or accounting policy. A bookkeeper can calculate the movement and assemble invoices or payroll records. A finance lead or owner must decide whether the movement is expected, concerning, incorrectly recorded, or relevant to a business decision. The report should make that boundary visible.
 
 ## What the sources support
 
