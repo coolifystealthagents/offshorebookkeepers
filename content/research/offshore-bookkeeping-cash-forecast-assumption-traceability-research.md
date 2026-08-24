@@ -32,6 +32,10 @@ The next test is version and change. If a customer moves a payment date, preserv
 
 Use scenarios to expose uncertainty, not to manufacture precision. A base case may use the owner’s current collection view, a delayed-receipt case may shift selected invoices, and a committed-outflow case may include known obligations. Each scenario needs a definition and an owner. The bookkeeper can calculate the effect and identify which records changed; management decides which scenario guides action.
 
+## Reviewing a forecast handoff
+
+A reviewer should be able to test the schedule without asking the preparer to reconstruct it from memory. Select a few material receipts and payments, open the linked source, and compare its period, amount, status, and owner with the forecast row. Then inspect one changed assumption and confirm that the prior version, reason for change, and reviewer are visible. This sample does not prove that every row is correct, but it exposes whether the forecast has a usable evidence trail. It also gives the client a practical way to decide which gaps need an owner response before the schedule is used.
+
 ## Facts, analysis, and role boundaries
 
 The sourced fact layer supports documentation, reliable information, version integrity, and assigned responsibility. The analysis is that the forecast becomes more reviewable when its assumptions are treated as first-class records rather than hidden inside formulas. The recommendation is to show source-backed history beside forward-looking inputs and to flag all overrides.

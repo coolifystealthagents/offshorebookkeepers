@@ -32,6 +32,8 @@ Duplicates deserve a deliberate test. A downloaded invoice may be duplicated in 
 
 Retention also includes access and retrieval. A record that technically exists but cannot be found, opened, or connected to the ledger is weak evidence. Test a sample by asking another reviewer to retrieve the source, understand the period, and follow the link to the transaction or report. For sensitive payroll or customer data, restrict access according to the client’s rule and avoid copying it into informal channels merely to make the handoff easier.
 
+The retrieval test should include an ordinary user, not only the person who created the folder. Ask that reviewer to identify the record owner, reporting period, source system, approval status, and related ledger entry. Note whether the file opens in the approved location and whether its version history explains later changes. If the reviewer cannot answer those questions, the problem may be classification or access rather than storage capacity. That distinction matters before anyone proposes a deletion or migration project.
+
 ## Facts, analysis, and role boundaries
 
 The sourced fact layer supports purpose, context, authenticity, retention, access, and documented responsibility. The analysis is that retention quality depends on classification and retrievability as much as on storage duration. The recommendation is to keep a small decision record that explains the class, owner, policy source, access rule, and any hold.
@@ -48,7 +50,7 @@ Retention rules vary by transaction, tax filing, employment record, contract, ju
 
 ## Evidence-led conclusion
 
-The evidence supports retention decisions that connect each record to purpose, owner, policy, access, version, and retrieval—not a blanket rule to save everything or delete everything after a fixed interval. OffshoreBookkeepers.com readers should test a mixed sample of source records, approved outputs, working papers, and duplicates, then confirm that the client’s adviser-approved rules govern any disposition. The bookkeeper’s value is making the evidence orderly and visible; the retention decision belongs to the accountable owner.
+The evidence supports retention decisions that connect each record to purpose, owner, policy, access, version, and retrieval, rather than a blanket rule to save everything or delete everything after a fixed interval. OffshoreBookkeepers.com readers should test a mixed sample of source records, approved outputs, working papers, and duplicates, then confirm that the client’s adviser-approved rules govern any disposition. The bookkeeper’s value is making the evidence orderly and visible; the retention decision belongs to the accountable owner.
 
 ## Sources
 
