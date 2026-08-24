@@ -1,0 +1,16 @@
+{
+  "family": "research",
+  "campaignDate": "2026-08-23",
+  "status": "unavailable",
+  "reason": "No Gemini image-generation provider or callable Gemini tool is available in this repository worker environment.",
+  "fallback": "Text and route work completed using existing referenced imagery; no existing image files were modified or regenerated.",
+  "generatedImages": 0,
+  "requiredGeneratedImages": 5,
+  "routes": [
+    "/research/offshore-bookkeeping-bank-feed-outage-continuity-research",
+    "/research/offshore-bookkeeping-cash-forecast-assumption-traceability-research",
+    "/research/offshore-bookkeeping-reporting-variance-bridge-research",
+    "/research/offshore-bookkeeping-access-review-evidence-research",
+    "/research/offshore-bookkeeping-document-retention-decision-research"
+  ]
+}
