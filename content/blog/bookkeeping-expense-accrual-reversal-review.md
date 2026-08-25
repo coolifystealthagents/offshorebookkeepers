@@ -1,15 +1,15 @@
 ---
 title: "Review expense accrual reversals with a clear source trail"
 description: "A bookkeeping workflow for checking expense accrual reversals, cutoff evidence, and reviewer decisions."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Expense accruals"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-purchase-accrual-cutoff-research.webp"
 takeaways: ["Tie each reversal to its original accrual.", "Separate evidence from accounting judgment.", "Investigate items that recur without a current source."]
 faqs: [["What can bookkeeping support prepare?","The bookkeeper can trace source documents, compare dates and amounts, and maintain an exception list. The finance reviewer decides whether an accrual remains appropriate."],["Why review reversals separately?","A reversal can clear mechanically while the underlying expense remains missing, duplicated, or posted to the wrong period."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Start with the original accrual
 

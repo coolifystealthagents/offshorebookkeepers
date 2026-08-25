@@ -1,15 +1,15 @@
 ---
 title: "Build a commission source register that reviewers can trace"
 description: "How bookkeeping support can organize commission inputs, source ownership, and review questions without deciding compensation policy."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Commission support"
 type: "blog"
 featuredImage: "/thumbnails/offshore-bookkeeping-payroll-source-pack.webp"
 takeaways: ["Define the commission population and plan version.", "Trace inputs to approved source records.", "Keep compensation decisions outside preparation."]
 faqs: [["What may a bookkeeper prepare?","The bookkeeper can gather approved sales, returns, rates, and payroll inputs, calculate a documented draft, and flag differences."],["Who approves commission results?","The authorized business or finance owner approves the plan application, exceptions, and payroll or accounting treatment."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, employment, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, employment, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Define the plan in force
 

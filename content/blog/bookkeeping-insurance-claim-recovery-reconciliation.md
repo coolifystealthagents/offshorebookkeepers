@@ -1,15 +1,15 @@
 ---
 title: "Reconcile insurance claim recoveries with a complete evidence file"
 description: "A bookkeeping workflow for tracing insurance claim recoveries, related costs, and unresolved finance questions."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Insurance recoveries"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-document-retention-workflow.webp"
 takeaways: ["Connect the claim to the underlying loss record.", "Separate expected recovery from cash received.", "Escalate classification and recognition judgments."]
 faqs: [["Can bookkeeping support maintain the claim file?","Yes. The bookkeeper can index notices, invoices, payments, correspondence, and recovery receipts, then prepare a reconciliation."],["Can the bookkeeper decide the recovery amount?","No. The authorized owner, controller, CPA, or other professional decides how policy applies to the claim."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, insurance, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, insurance, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Give the claim one identity
 

@@ -1,15 +1,15 @@
 ---
 title: "Create an entity close-readiness packet for remote bookkeeping support"
 description: "How to prepare a close-readiness packet that shows entity scope, dependencies, open work, and reviewer ownership."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Entity close"
 type: "blog"
 featuredImage: "/thumbnails/offshore-bookkeeping-close-ownership-matrix.webp"
 takeaways: ["Define entity-specific close scope.", "Expose dependencies before the deadline.", "Keep sign-off separate from preparation."]
 faqs: [["What should a remote bookkeeper prepare?","The bookkeeper can maintain the checklist, gather reports, reconcile assigned accounts, and list blockers. An authorized reviewer controls sign-off and judgment."],["Why separate entities in the packet?","Separate scopes show which accounts, approvals, and intercompany questions belong to each legal entity."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Define the entity map
 

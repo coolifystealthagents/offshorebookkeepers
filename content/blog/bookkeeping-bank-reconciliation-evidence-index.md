@@ -1,15 +1,15 @@
 ---
 title: "Build a bank reconciliation evidence index that survives review"
 description: "A practical bookkeeping guide to indexing bank reconciliation support, unresolved items, and reviewer decisions."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Bank reconciliation"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-review-sampling-research.png"
 takeaways: ["Index every reconciliation to a period and account.", "Keep preparer notes separate from reviewer decisions.", "Use ageing to surface stale reconciling items."]
 faqs: [["Can an offshore bookkeeper maintain the index?","Yes. A bookkeeper can collect statements, tie workpapers to accounts, update status, and escalate unexplained items. An authorized reviewer keeps approval and accounting judgment."],["What makes an index useful?","Each line should point to its source, state the difference, name its owner, and record the next decision or action."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Start with the account population
 

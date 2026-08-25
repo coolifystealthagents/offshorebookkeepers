@@ -1,15 +1,15 @@
 ---
 title: "Reconcile vendor prepayments without losing the release trail"
 description: "How bookkeeping support can track vendor prepayments, apply source evidence, and prepare a reviewable release schedule."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Vendor prepayments"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-vendor-master-change-verification.webp"
 takeaways: ["Tie each prepayment to a vendor obligation.", "Track application separately from cash movement.", "Escalate missing delivery or approval evidence."]
 faqs: [["What can the bookkeeper reconcile?","The bookkeeper can compare the prepayment register, bank activity, invoices, receipts, and applications, then route unresolved differences."],["Who approves release or write-off?","The owner, controller, CPA, or other authorized reviewer decides when policy or accounting judgment is required."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Separate cash from the obligation
 

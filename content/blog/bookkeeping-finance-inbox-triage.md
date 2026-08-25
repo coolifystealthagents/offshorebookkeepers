@@ -1,15 +1,15 @@
 ---
 title: "Turn a finance inbox into a controlled bookkeeping queue"
 description: "A practical workflow for triaging finance inbox messages, preserving evidence, and routing bookkeeping decisions."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Finance operations"
 type: "blog"
 featuredImage: "/thumbnails/offshore-bookkeeping-vendor-onboarding-packet.webp"
 takeaways: ["Define the inbox categories before assigning work.", "Preserve attachments and the original request.", "Use escalation questions instead of forwarding confusion."]
 faqs: [["What can a bookkeeper do in the inbox?","The bookkeeper can classify messages, save permitted evidence, update the queue, request missing documents, and route decisions under written instructions."],["Should every message become a task?","Only messages within the defined finance scope should enter the queue. Record exclusions so requests do not disappear without an owner."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Set the inbox boundary
 

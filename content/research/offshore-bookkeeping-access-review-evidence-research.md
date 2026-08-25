@@ -1,8 +1,8 @@
 ---
 title: "Access reviews in offshore bookkeeping: research on evidence quality"
 description: "Which records make a remote bookkeeping access review useful, and where should preparation stop before a finance owner changes a permission?"
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Access Governance"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-access-review-benchmarks.webp"
@@ -10,7 +10,7 @@ takeaways: ["An access list is not a review until each permission has an owner, 
 sources: [{"name":"NIST, Access Control SP 800-53","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},{"name":"NIST, Cybersecurity Framework 2.0","url":"https://www.nist.gov/cyberframework"},{"name":"CISA, Turn On MFA","url":"https://www.cisa.gov/secure-our-world/turn-mfa"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"ISO, ISO 27001 Information Security","url":"https://www.iso.org/standard/27001"},{"name":"NIST, Digital Identity Guidelines","url":"https://pages.nist.gov/800-63-4/"},{"name":"FTC, Cybersecurity for Small Business","url":"https://www.ftc.gov/business-guidance/small-businesses/cybersecurity"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"ACFE, Occupational Fraud 2024","url":"https://www.acfe.com/-/media/files/acfe/pdfs/rttn/2024/2024-report-to-the-nations.pdf"}]
 ---
 
-Published August 23, 2026. This Research article asks: which records make an access review useful for an offshore bookkeeping handoff, and where should preparation stop before a finance owner changes a permission?
+Published August 24, 2026. This Research article asks: which records make an access review useful for an offshore bookkeeping handoff, and where should preparation stop before a finance owner changes a permission?
 
 ## The research question
 

@@ -1,15 +1,15 @@
 ---
 title: "Hand off customer credit decisions without losing the evidence"
 description: "How bookkeeping support can prepare customer credit and refund evidence while keeping policy decisions with the authorized owner."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Accounts receivable controls"
 type: "blog"
 featuredImage: "/thumbnails/offshore-bookkeeping-ar-dispute-register.webp"
 takeaways: ["Separate facts from the credit decision.", "Route disputes with a bounded question.", "Preserve the approved policy version."]
 faqs: [["Can a bookkeeper issue a credit?","The support role can collect evidence and prepare a proposed transaction when policy permits. An authorized finance or business owner should approve the credit and any exception."],["What belongs in the handoff?","Include the customer account, original invoice, correspondence, payment history, evidence checked, requested decision, owner, and deadline."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Treat a credit request as a decision packet
 

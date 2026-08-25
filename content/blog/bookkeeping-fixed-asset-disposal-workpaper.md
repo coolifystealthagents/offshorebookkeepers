@@ -1,15 +1,15 @@
 ---
 title: "Prepare a fixed-asset disposal workpaper with reviewable evidence"
 description: "A bookkeeping guide to organizing fixed-asset disposal records, proceeds, and approval questions."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Fixed assets"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-fixed-asset-register-handoff.webp"
 takeaways: ["Identify the asset and disposal event.", "Tie proceeds and removal to source records.", "Leave valuation and accounting conclusions to the reviewer."]
 faqs: [["Can bookkeeping support prepare a disposal file?","Yes. The bookkeeper can gather the register, approval, sale or removal evidence, proceeds, and ledger references for review."],["Who approves the disposal treatment?","The owner, controller, CPA, or other authorized finance professional decides the accounting treatment and approves any entry."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Identify the asset before changing the register
 

@@ -1,15 +1,15 @@
 ---
 title: "Review owner drawings with a clean source and approval trail"
 description: "How bookkeeping support can organize owner drawings, account movements, and questions for an authorized finance reviewer."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Owner transactions"
 type: "blog"
 featuredImage: "/thumbnails/offshore-bookkeeping-monthly-reporting-pack.webp"
 takeaways: ["Separate owner transactions from ordinary expenses.", "Tie each movement to a bank and ledger source.", "Escalate tax and equity judgments."]
 faqs: [["Can a bookkeeper prepare an owner-drawings review?","The bookkeeper can identify movements, collect support, reconcile accounts, and list questions. The owner and authorized finance professional decide treatment."],["What should remain outside the role?","Do not decide tax classification, approve a personal expense, alter equity policy, or conceal a transfer in an operating account."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Define the transaction population
 

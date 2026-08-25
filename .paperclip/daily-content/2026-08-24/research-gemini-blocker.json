@@ -1,6 +1,6 @@
 {
   "family": "research",
-  "campaignDate": "2026-08-23",
+  "campaignDate": "2026-08-24",
   "status": "unavailable",
   "reason": "No Gemini image-generation provider or callable Gemini tool is available in this repository worker environment.",
   "fallback": "Text and route work completed using existing referenced imagery; no existing image files were modified or regenerated.",

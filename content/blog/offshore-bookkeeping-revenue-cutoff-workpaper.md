@@ -1,15 +1,15 @@
 ---
 title: "Prepare a revenue cutoff workpaper that owners can review"
 description: "A bookkeeping guide to organizing revenue cutoff evidence, open invoices, and service-period questions."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Revenue cutoff"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-deferred-revenue-handoff.webp"
 takeaways: ["Define the transaction population and service period.", "Trace invoices to delivery or performance evidence.", "Escalate judgment instead of forcing a cutoff answer."]
 faqs: [["Can offshore bookkeeping support prepare this workpaper?","Yes. The bookkeeper can gather invoices, orders, delivery records, and ledger reports, then explain missing or conflicting evidence."],["Who decides the final cutoff?","An authorized finance reviewer applies the company policy and approves any entry or exception."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## State what the workpaper covers
 

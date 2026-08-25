@@ -1,15 +1,15 @@
 ---
 title: "Prepare a cash disbursement cutoff packet for review"
 description: "A practical offshore bookkeeping guide to cash disbursement cutoff, outstanding payments, and approval evidence."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-08-24"
+updated: "2026-08-24"
 category: "Cash disbursement"
 type: "blog"
 featuredImage: "/thumbnails/offshore-bookkeeping-cash-forecast-inputs.webp"
 takeaways: ["Define the payment population before cutoff.", "Tie cleared and uncleared items to source evidence.", "Leave release and classification decisions with the owner."]
 faqs: [["Can an offshore bookkeeper prepare cutoff support?","Yes. The role can gather payment registers, bank activity, invoices, and approval references, then flag gaps for the responsible reviewer."],["What should never be assumed?","Do not assume that an approved invoice was paid, that an uncleared payment is valid, or that a bank description proves its accounting period."]]
 ---
-August 23, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
+August 24, 2026 operating guide. This article is about bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, or investment advice; client policy and authorized professionals control protected decisions.
 
 ## Define the cutoff question
 
