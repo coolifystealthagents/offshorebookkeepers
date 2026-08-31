@@ -1,0 +1,42 @@
+[
+  {
+    "route": "/research/offshore-bookkeeping-reviewer-calibration-research",
+    "sourcePaths": [
+      "content/research/offshore-bookkeeping-reviewer-calibration-research.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-reviewer-calibration-research.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-reviewer-calibration-research.txt"
+  },
+  {
+    "route": "/research/offshore-bookkeeping-evidence-retrieval-latency-research",
+    "sourcePaths": [
+      "content/research/offshore-bookkeeping-evidence-retrieval-latency-research.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-evidence-retrieval-latency-research.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-evidence-retrieval-latency-research.txt"
+  },
+  {
+    "route": "/research/offshore-bookkeeping-cutoff-assertion-confidence-research",
+    "sourcePaths": [
+      "content/research/offshore-bookkeeping-cutoff-assertion-confidence-research.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-cutoff-assertion-confidence-research.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-cutoff-assertion-confidence-research.txt"
+  },
+  {
+    "route": "/research/offshore-bookkeeping-exception-recurrence-research",
+    "sourcePaths": [
+      "content/research/offshore-bookkeeping-exception-recurrence-research.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-exception-recurrence-research.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-exception-recurrence-research.txt"
+  },
+  {
+    "route": "/research/offshore-bookkeeping-operational-dependency-mapping-research",
+    "sourcePaths": [
+      "content/research/offshore-bookkeeping-operational-dependency-mapping-research.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-operational-dependency-mapping-research.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-operational-dependency-mapping-research.txt"
+  }
+]

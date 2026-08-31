@@ -1,8 +1,9 @@
 ---
 title: "A timing-aware guide for Bookkeeping Teams Hiring Radar careers"
 description: "A distinct bookkeeping teams hiring radar assessment of direct employer-page vacancy alerts."
-date: "2026-08-28"
-published: true
+published: "2026-08-28"
+category: "Career page monitoring"
+featuredImage: "/thumbnails/bookkeeping-quality-scorecard.webp"
 ---
 
 # A timing-aware guide for Bookkeeping Teams Hiring Radar careers

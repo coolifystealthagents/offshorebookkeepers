@@ -1,0 +1,98 @@
+[
+  {
+    "route": "/blog/offshore-bookkeeping-processor-reserve-release",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-processor-reserve-release.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-processor-reserve-release.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-processor-reserve-release.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-stale-check-review",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-stale-check-review.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-stale-check-review.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-stale-check-review.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-chargeback-evidence-pack",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-chargeback-evidence-pack.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-chargeback-evidence-pack.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-chargeback-evidence-pack.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-debt-covenant-reporting-pack",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-debt-covenant-reporting-pack.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-debt-covenant-reporting-pack.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-debt-covenant-reporting-pack.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-gift-card-liability-rollforward",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-gift-card-liability-rollforward.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-gift-card-liability-rollforward.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-gift-card-liability-rollforward.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-warranty-reserve-source-pack",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-warranty-reserve-source-pack.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-warranty-reserve-source-pack.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-warranty-reserve-source-pack.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-escrow-account-reconciliation",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-escrow-account-reconciliation.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-escrow-account-reconciliation.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-escrow-account-reconciliation.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-tips-payable-reconciliation",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-tips-payable-reconciliation.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-tips-payable-reconciliation.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-tips-payable-reconciliation.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-franchise-royalty-reconciliation",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-franchise-royalty-reconciliation.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-franchise-royalty-reconciliation.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-franchise-royalty-reconciliation.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-donor-restriction-release-log",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-donor-restriction-release-log.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-donor-restriction-release-log.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-donor-restriction-release-log.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-construction-retainage-review",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-construction-retainage-review.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-construction-retainage-review.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-construction-retainage-review.txt"
+  },
+  {
+    "route": "/blog/offshore-bookkeeping-healthcare-remittance-reconciliation",
+    "sourcePaths": [
+      "content/blog/offshore-bookkeeping-healthcare-remittance-reconciliation.md"
+    ],
+    "imagePath": "public/thumbnails/offshore-bookkeeping-healthcare-remittance-reconciliation.png",
+    "promptReceipt": ".paperclip/daily-content/2026-08-31/prompts/offshore-bookkeeping-healthcare-remittance-reconciliation.txt"
+  }
+]
