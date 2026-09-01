@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Supplier deposit rollforward for offshore bookkeeping teams",
+    "slug": "offshore-bookkeeping-supplier-deposit-rollforward",
+    "route": "/blog/offshore-bookkeeping-supplier-deposit-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-supplier-deposit-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-supplier-deposit-rollforward.md",
+    "featuredImage": "/thumbnails/bookkeeping-prepaid-expense-rollforward-workflow.webp"
+  },
+  {
+    "title": "Build a customer overpayment register with clear resolution paths",
+    "slug": "offshore-bookkeeping-customer-overpayment-register",
+    "route": "/blog/offshore-bookkeeping-customer-overpayment-register",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-customer-overpayment-register",
+    "sourcePath": "content/blog/offshore-bookkeeping-customer-overpayment-register.md",
+    "featuredImage": "/thumbnails/bookkeeping-customer-refund-reconciliation.webp"
+  },
+  {
+    "title": "Track software renewal accruals across a distributed close",
+    "slug": "offshore-bookkeeping-software-renewal-accrual",
+    "route": "/blog/offshore-bookkeeping-software-renewal-accrual",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-software-renewal-accrual",
+    "sourcePath": "content/blog/offshore-bookkeeping-software-renewal-accrual.md",
+    "featuredImage": "/thumbnails/bookkeeping-expense-accrual-handoff.webp"
+  },
+  {
+    "title": "Freight cost allocation handoff with traceable source evidence",
+    "slug": "offshore-bookkeeping-freight-cost-allocation-handoff",
+    "route": "/blog/offshore-bookkeeping-freight-cost-allocation-handoff",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-freight-cost-allocation-handoff",
+    "sourcePath": "content/blog/offshore-bookkeeping-freight-cost-allocation-handoff.md",
+    "featuredImage": "/thumbnails/bookkeeping-inventory-count-handoff.webp"
+  },
+  {
+    "title": "Reconcile referral fees from source event to settlement",
+    "slug": "offshore-bookkeeping-referral-fee-reconciliation",
+    "route": "/blog/offshore-bookkeeping-referral-fee-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-referral-fee-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-referral-fee-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-commission-accrual-workflow.webp"
+  },
+  {
+    "title": "Control petty cash replenishment without losing receipt-level evidence",
+    "slug": "offshore-bookkeeping-petty-cash-replenishment-control",
+    "route": "/blog/offshore-bookkeeping-petty-cash-replenishment-control",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-petty-cash-replenishment-control",
+    "sourcePath": "content/blog/offshore-bookkeeping-petty-cash-replenishment-control.md",
+    "featuredImage": "/thumbnails/bookkeeping-cash-disbursement-approval.webp"
+  },
+  {
+    "title": "Maintain a security deposit register across locations and counterparties",
+    "slug": "offshore-bookkeeping-security-deposit-register",
+    "route": "/blog/offshore-bookkeeping-security-deposit-register",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-security-deposit-register",
+    "sourcePath": "content/blog/offshore-bookkeeping-security-deposit-register.md",
+    "featuredImage": "/thumbnails/property-bookkeeping-rent-roll-controls.webp"
+  },
+  {
+    "title": "Tie employee benefit invoices to payroll deductions and employer expense",
+    "slug": "offshore-bookkeeping-employee-benefit-invoice-tieout",
+    "route": "/blog/offshore-bookkeeping-employee-benefit-invoice-tieout",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-employee-benefit-invoice-tieout",
+    "sourcePath": "content/blog/offshore-bookkeeping-employee-benefit-invoice-tieout.md",
+    "featuredImage": "/thumbnails/bookkeeping-payroll-reconciliation-checklist.webp"
+  },
+  {
+    "title": "Reconcile consignment inventory while preserving ownership boundaries",
+    "slug": "offshore-bookkeeping-consignment-inventory-reconciliation",
+    "route": "/blog/offshore-bookkeeping-consignment-inventory-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-consignment-inventory-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-consignment-inventory-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-inventory-count-evidence-research.webp"
+  },
+  {
+    "title": "Review utility deposits and refunds with account-level evidence",
+    "slug": "offshore-bookkeeping-utility-deposit-review",
+    "route": "/blog/offshore-bookkeeping-utility-deposit-review",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-utility-deposit-review",
+    "sourcePath": "content/blog/offshore-bookkeeping-utility-deposit-review.md",
+    "featuredImage": "/thumbnails/bookkeeping-restricted-cash-reconciliation-research.webp"
+  },
+  {
+    "title": "Build a purchase rebate rollforward without hiding estimate changes",
+    "slug": "offshore-bookkeeping-purchase-rebate-rollforward",
+    "route": "/blog/offshore-bookkeeping-purchase-rebate-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-purchase-rebate-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-purchase-rebate-rollforward.md",
+    "featuredImage": "/thumbnails/bookkeeping-purchase-order-three-way-match.webp"
+  },
+  {
+    "title": "Review unclaimed customer credits with a controlled escalation trail",
+    "slug": "offshore-bookkeeping-unclaimed-customer-credit-review",
+    "route": "/blog/offshore-bookkeeping-unclaimed-customer-credit-review",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-unclaimed-customer-credit-review",
+    "sourcePath": "content/blog/offshore-bookkeeping-unclaimed-customer-credit-review.md",
+    "featuredImage": "/thumbnails/accounts-receivable-aging-handoff.webp"
+  }
+]

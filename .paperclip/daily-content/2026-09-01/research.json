@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Evidence naming consistency in distributed bookkeeping",
+    "slug": "offshore-bookkeeping-evidence-naming-consistency-research",
+    "route": "/research/offshore-bookkeeping-evidence-naming-consistency-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-evidence-naming-consistency-research",
+    "sourcePath": "content/research/offshore-bookkeeping-evidence-naming-consistency-research.md",
+    "featuredImage": "/thumbnails/undefined"
+  },
+  {
+    "title": "Approval-path complexity in offshore bookkeeping workflows",
+    "slug": "offshore-bookkeeping-approval-path-complexity-research",
+    "route": "/research/offshore-bookkeeping-approval-path-complexity-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-approval-path-complexity-research",
+    "sourcePath": "content/research/offshore-bookkeeping-approval-path-complexity-research.md",
+    "featuredImage": "/thumbnails/undefined"
+  },
+  {
+    "title": "Source-system coverage for remote bookkeeping reconciliations",
+    "slug": "offshore-bookkeeping-source-system-coverage-research",
+    "route": "/research/offshore-bookkeeping-source-system-coverage-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-source-system-coverage-research",
+    "sourcePath": "content/research/offshore-bookkeeping-source-system-coverage-research.md",
+    "featuredImage": "/thumbnails/undefined"
+  },
+  {
+    "title": "Review-queue volatility in distributed month-end close",
+    "slug": "offshore-bookkeeping-review-queue-volatility-research",
+    "route": "/research/offshore-bookkeeping-review-queue-volatility-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-review-queue-volatility-research",
+    "sourcePath": "content/research/offshore-bookkeeping-review-queue-volatility-research.md",
+    "featuredImage": "/thumbnails/undefined"
+  },
+  {
+    "title": "Correction lineage in offshore bookkeeping workpapers",
+    "slug": "offshore-bookkeeping-correction-lineage-research",
+    "route": "/research/offshore-bookkeeping-correction-lineage-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-correction-lineage-research",
+    "sourcePath": "content/research/offshore-bookkeeping-correction-lineage-research.md",
+    "featuredImage": "/thumbnails/undefined"
+  }
+]
