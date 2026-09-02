@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Exception-owner continuity in distributed bookkeeping",
+    "slug": "offshore-bookkeeping-exception-owner-continuity-research",
+    "route": "/research/offshore-bookkeeping-exception-owner-continuity-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-exception-owner-continuity-research",
+    "sourcePath": "content/research/offshore-bookkeeping-exception-owner-continuity-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-evidence-queue-aging-research.webp"
+  },
+  {
+    "title": "Reconciliation threshold governance in offshore bookkeeping",
+    "slug": "offshore-bookkeeping-reconciliation-threshold-governance-research",
+    "route": "/research/offshore-bookkeeping-reconciliation-threshold-governance-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-reconciliation-threshold-governance-research",
+    "sourcePath": "content/research/offshore-bookkeeping-reconciliation-threshold-governance-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-period-cutover-research.png"
+  },
+  {
+    "title": "Source-export reproducibility for remote bookkeeping workpapers",
+    "slug": "offshore-bookkeeping-source-export-reproducibility-research",
+    "route": "/research/offshore-bookkeeping-source-export-reproducibility-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-source-export-reproducibility-research",
+    "sourcePath": "content/research/offshore-bookkeeping-source-export-reproducibility-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-source-version-research.png"
+  },
+  {
+    "title": "Review-comment resolution patterns in distributed close",
+    "slug": "offshore-bookkeeping-review-comment-resolution-research",
+    "route": "/research/offshore-bookkeeping-review-comment-resolution-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-review-comment-resolution-research",
+    "sourcePath": "content/research/offshore-bookkeeping-review-comment-resolution-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-source-version-research.png"
+  },
+  {
+    "title": "Control-evidence retention for offshore bookkeeping operations",
+    "slug": "offshore-bookkeeping-control-evidence-retention-research",
+    "route": "/research/offshore-bookkeeping-control-evidence-retention-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-control-evidence-retention-research",
+    "sourcePath": "content/research/offshore-bookkeeping-control-evidence-retention-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-document-retention-benchmarks.webp"
+  }
+]
