@@ -216,6 +216,14 @@ const august31ResearchOrder = [
   'offshore-bookkeeping-operational-dependency-mapping-research'
 ] as const;
 const august31ResearchRank: ReadonlyMap<string, number> = new Map(august31ResearchOrder.map((slug, index) => [slug, index]));
+const september3ResearchOrder = [
+  'offshore-bookkeeping-supplier-statement-coverage-research',
+  'offshore-bookkeeping-payroll-clearing-residual-age-research',
+  'offshore-bookkeeping-ecommerce-refund-evidence-latency-research',
+  'offshore-bookkeeping-shared-cost-allocation-provenance-research',
+  'offshore-bookkeeping-security-deposit-subledger-completeness-research',
+] as const;
+const september3ResearchRank: ReadonlyMap<string, number> = new Map(september3ResearchOrder.map((slug, index) => [slug, index]));
 
 function scalar(value: string) {
   const trimmed = value.trim();
@@ -269,7 +277,7 @@ export function getContent(kind: ContentKind): ContentPost[] {
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
-      const rank = kind === 'blog' ? (a.published === '2026-09-03' || b.published === '2026-09-03' ? september3Rank : a.published === '2026-08-31' || b.published === '2026-08-31' ? august31Rank : a.published === '2026-08-23' || b.published === '2026-08-23' ? august23Rank : a.published === '2026-08-21' || b.published === '2026-08-21' ? august21Rank : a.published === '2026-08-20' || b.published === '2026-08-20' ? august20Rank : a.published === '2026-08-19' || b.published === '2026-08-19' ? august19Rank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18Rank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-08-31' || b.published === '2026-08-31' ? august31ResearchRank : a.published === '2026-08-23' || b.published === '2026-08-23' ? august23ResearchRank : a.published === '2026-08-21' || b.published === '2026-08-21' ? august21ResearchRank : a.published === '2026-08-20' || b.published === '2026-08-20' ? august20ResearchRank : a.published === '2026-08-19' || b.published === '2026-08-19' ? august19ResearchRank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18ResearchRank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
+      const rank = kind === 'blog' ? (a.published === '2026-09-03' || b.published === '2026-09-03' ? september3Rank : a.published === '2026-08-31' || b.published === '2026-08-31' ? august31Rank : a.published === '2026-08-23' || b.published === '2026-08-23' ? august23Rank : a.published === '2026-08-21' || b.published === '2026-08-21' ? august21Rank : a.published === '2026-08-20' || b.published === '2026-08-20' ? august20Rank : a.published === '2026-08-19' || b.published === '2026-08-19' ? august19Rank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18Rank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17Rank : august10Rank) : kind === 'research' ? (a.published === '2026-09-03' || b.published === '2026-09-03' ? september3ResearchRank : a.published === '2026-08-31' || b.published === '2026-08-31' ? august31ResearchRank : a.published === '2026-08-23' || b.published === '2026-08-23' ? august23ResearchRank : a.published === '2026-08-21' || b.published === '2026-08-21' ? august21ResearchRank : a.published === '2026-08-20' || b.published === '2026-08-20' ? august20ResearchRank : a.published === '2026-08-19' || b.published === '2026-08-19' ? august19ResearchRank : a.published === '2026-08-18' || b.published === '2026-08-18' ? august18ResearchRank : a.published === '2026-08-17' || b.published === '2026-08-17' ? august17ResearchRank : a.published === '2026-08-14' || b.published === '2026-08-14' ? august14ResearchRank : august10ResearchRank) : undefined;
       const aRank = rank?.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
       const bRank = rank?.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
       if (aRank !== bRank) return aRank - bRank;
