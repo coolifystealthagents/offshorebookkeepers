@@ -85,6 +85,18 @@ const august20Rank: ReadonlyMap<string, number> = new Map(august20BlogOrder.map(
 const august21BlogOrder = ['offshore-bookkeeping-cash-application-policy','offshore-bookkeeping-close-calendar-owner-map','offshore-bookkeeping-ap-accrual-evidence','offshore-bookkeeping-ar-dispute-register','offshore-bookkeeping-payroll-variance-review','offshore-bookkeeping-inventory-count-reconciliation','offshore-bookkeeping-lease-data-handoff','offshore-bookkeeping-chart-of-accounts-change-log','offshore-bookkeeping-foreign-currency-revaluation-pack','offshore-bookkeeping-project-margin-bridge','offshore-bookkeeping-employee-onboarding-ledger','offshore-bookkeeping-monthly-kpi-definition'] as const;
 const august21Rank: ReadonlyMap<string, number> = new Map(august21BlogOrder.map((slug, index) => [slug, index]));
 const august23BlogOrder = [
+  'offshore-bookkeeping-intercompany-recharge-settlement-register',
+  'bookkeeping-payroll-benefit-deduction-clearing-review',
+  'offshore-bookkeeping-ecommerce-sales-tax-liability-bridge',
+  'bookkeeping-saas-contract-change-billing-register',
+  'offshore-bookkeeping-property-cam-recovery-tieout',
+  'bookkeeping-law-firm-client-cost-advance-ledger',
+  'offshore-bookkeeping-nonprofit-grant-drawdown-evidence-log',
+  'bookkeeping-construction-change-order-billing-check',
+  'offshore-bookkeeping-multicurrency-bank-fee-translation-pack',
+  'bookkeeping-subscription-failed-payment-recovery-queue',
+  'offshore-bookkeeping-restaurant-delivery-settlement-bridge',
+  'bookkeeping-inventory-landed-cost-source-pack',
   'bookkeeping-bank-reconciliation-evidence-index', 'offshore-bookkeeping-customer-credit-policy-handoff',
   'bookkeeping-expense-accrual-reversal-review', 'offshore-bookkeeping-cash-disbursement-cutoff',
   'bookkeeping-vendor-prepayment-reconciliation', 'offshore-bookkeeping-revenue-cutoff-workpaper',

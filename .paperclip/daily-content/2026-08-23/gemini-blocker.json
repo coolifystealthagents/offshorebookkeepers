@@ -1,0 +1,8 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "status": "text-complete",
+  "provider": "Gemini",
+  "blocker": "No Gemini image-generation tool or authenticated Gemini provider is available in this execution environment.",
+  "fallback": "No stock or template hero images were generated or substituted. The existing site logo remains the loader-safe featuredImage value and is not rendered as an article hero by the Blog route."
+}
