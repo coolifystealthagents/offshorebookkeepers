@@ -1,8 +1,8 @@
 ---
 title: "Inventory landed-cost source pack for an offshore bookkeeping handoff"
 description: "A practical guide to landed-cost source pack with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Inventory bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Identify shipments and receipt cutoffs
 
-A source pack makes the components visible while leaving valuation policy with the authorized accounting owner. A dependable handoff starts with an agreed source map. Name the system of record for each field, the person who can answer a source question, and the expected delivery time. If two systems disagree, preserve both values and open an exception instead of choosing the convenient one. For landed-cost source pack, the written scope should identify purchase orders, supplier invoices, freight bills, customs records, receiving reports, and inventory entries. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The inventory controller or CPA approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+A source pack makes the components visible while leaving valuation policy with the authorized accounting owner. A dependable handoff starts with an agreed source map. Name the system of record for each field, the person who can answer a source question, and the expected delivery time. If two systems disagree, preserve both values and open an exception instead of choosing the convenient one. For landed-cost source pack, the written scope should identify purchase orders, supplier invoices, freight bills, customs records, receiving reports, and inventory entries. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The inventory controller or CPA approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Collect every landed-cost component
 

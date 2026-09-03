@@ -1,8 +1,8 @@
 ---
 title: "Property CAM recovery tie-out for an offshore bookkeeping workflow"
 description: "A practical guide to CAM recovery tie-out with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Property bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Fix the property and tenant population
 
-A tidy tenant statement does not prove that the underlying expense pool or allocation population is complete. Begin with the transaction population, not the workbook. Export the relevant source records for a defined period and retain the extraction time. Reconcile the record count and control total before adding classifications. This prevents a polished schedule from concealing missing activity. For CAM recovery tie-out, the written scope should identify lease abstracts, property invoices, tenant allocation schedules, billings, and receipts. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The property manager or controller approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+A tidy tenant statement does not prove that the underlying expense pool or allocation population is complete. Begin with the transaction population, not the workbook. Export the relevant source records for a defined period and retain the extraction time. Reconcile the record count and control total before adding classifications. This prevents a polished schedule from concealing missing activity. For CAM recovery tie-out, the written scope should identify lease abstracts, property invoices, tenant allocation schedules, billings, and receipts. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The property manager or controller approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Connect expenses to recovery rows
 

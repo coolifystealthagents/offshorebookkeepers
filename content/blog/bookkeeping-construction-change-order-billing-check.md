@@ -1,8 +1,8 @@
 ---
 title: "Construction change-order billing check for offshore bookkeepers"
 description: "A practical guide to change-order billing check with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Construction bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Separate approved and pending changes
 
-Separating approved, pending, and rejected changes keeps urgent project activity from becoming unsupported billing. A dependable handoff starts with an agreed source map. Name the system of record for each field, the person who can answer a source question, and the expected delivery time. If two systems disagree, preserve both values and open an exception instead of choosing the convenient one. For change-order billing check, the written scope should identify signed change orders, job-cost detail, schedule of values, progress billings, and retention records. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The project executive or controller approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+Separating approved, pending, and rejected changes keeps urgent project activity from becoming unsupported billing. A dependable handoff starts with an agreed source map. Name the system of record for each field, the person who can answer a source question, and the expected delivery time. If two systems disagree, preserve both values and open an exception instead of choosing the convenient one. For change-order billing check, the written scope should identify signed change orders, job-cost detail, schedule of values, progress billings, and retention records. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The project executive or controller approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Connect field records to billing status
 

@@ -1,8 +1,8 @@
 ---
 title: "Multicurrency bank fee and translation pack for remote close support"
 description: "A practical guide to bank fee and translation pack with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Multicurrency bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Fix account, currency, and rate scope
 
-The pack should separate cash movement, bank charges, and currency effects instead of forcing the net deposit to fit one ledger line. Begin with the transaction population, not the workbook. Export the relevant source records for a defined period and retain the extraction time. Reconcile the record count and control total before adding classifications. This prevents a polished schedule from concealing missing activity. For bank fee and translation pack, the written scope should identify bank statements, payment confirmations, exchange-rate sources, processor reports, and ledger postings. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The controller or CPA approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+The pack should separate cash movement, bank charges, and currency effects instead of forcing the net deposit to fit one ledger line. Begin with the transaction population, not the workbook. Export the relevant source records for a defined period and retain the extraction time. Reconcile the record count and control total before adding classifications. This prevents a polished schedule from concealing missing activity. For bank fee and translation pack, the written scope should identify bank statements, payment confirmations, exchange-rate sources, processor reports, and ledger postings. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The controller or CPA approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Split gross cash, fees, and currency effects
 

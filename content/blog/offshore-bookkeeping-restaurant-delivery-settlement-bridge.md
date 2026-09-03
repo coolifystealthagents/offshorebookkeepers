@@ -1,8 +1,8 @@
 ---
 title: "Restaurant delivery-platform settlement bridge for offshore bookkeeping"
 description: "A practical guide to delivery settlement bridge with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Restaurant bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Map platforms and locations
 
-Recording the net bank deposit as sales hides the fees, refunds, tips, and timing items needed for review. Write the scope before assigning the queue. State the entities, accounts, systems, period, currencies, and cutoff that belong in the work. List deliberate exclusions as clearly as inclusions. The finance owner approves that perimeter and any later expansion. For delivery settlement bridge, the written scope should identify platform order exports, refunds, commissions, promotions, tips, deposits, and ledger sales. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The restaurant finance owner approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+Recording the net bank deposit as sales hides the fees, refunds, tips, and timing items needed for review. Write the scope before assigning the queue. State the entities, accounts, systems, period, currencies, and cutoff that belong in the work. List deliberate exclusions as clearly as inclusions. The finance owner approves that perimeter and any later expansion. For delivery settlement bridge, the written scope should identify platform order exports, refunds, commissions, promotions, tips, deposits, and ledger sales. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The restaurant finance owner approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Expand net deposits into components
 

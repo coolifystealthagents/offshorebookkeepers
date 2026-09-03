@@ -1,8 +1,8 @@
 ---
 title: "Build an ecommerce sales tax liability bridge without blurring tax decisions"
 description: "A practical guide to sales tax liability bridge with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Ecommerce bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Map who collected each tax amount
 
-The bridge is an accounting support schedule, not a substitute for a tax return or a taxability decision. Write the scope before assigning the queue. State the entities, accounts, systems, period, currencies, and cutoff that belong in the work. List deliberate exclusions as clearly as inclusions. The finance owner approves that perimeter and any later expansion. For sales tax liability bridge, the written scope should identify store orders, marketplace reports, payment settlements, refunds, and ledger balances. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The tax adviser or finance owner approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+The bridge is an accounting support schedule, not a substitute for a tax return or a taxability decision. Write the scope before assigning the queue. State the entities, accounts, systems, period, currencies, and cutoff that belong in the work. List deliberate exclusions as clearly as inclusions. The finance owner approves that perimeter and any later expansion. For sales tax liability bridge, the written scope should identify store orders, marketplace reports, payment settlements, refunds, and ledger balances. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The tax adviser or finance owner approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Lay out the channel bridge
 

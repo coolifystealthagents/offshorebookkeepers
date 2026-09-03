@@ -1,8 +1,8 @@
 ---
 title: "Run a failed-payment recovery queue without turning bookkeepers into collectors"
 description: "A practical guide to failed-payment recovery queue with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Subscription bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Define bookkeeping's place in recovery
 
-The queue exists to keep records synchronized; customer policy and collection decisions remain with authorized staff. The first useful question is where the record originated. Keep the original export, statement, contract, or receipt intact and link each working row to it. A remote bookkeeper should never have to reconstruct source evidence from a copied total or an unexplained screenshot. For failed-payment recovery queue, the written scope should identify processor decline reports, customer accounts, invoice status, retries, credits, and cash receipts. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The account owner or finance lead approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+The queue exists to keep records synchronized; customer policy and collection decisions remain with authorized staff. The first useful question is where the record originated. Keep the original export, statement, contract, or receipt intact and link each working row to it. A remote bookkeeper should never have to reconstruct source evidence from a copied total or an unexplained screenshot. For failed-payment recovery queue, the written scope should identify processor decline reports, customer accounts, invoice status, retries, credits, and cash receipts. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The account owner or finance lead approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Join processor events to invoices
 

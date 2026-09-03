@@ -1,8 +1,8 @@
 ---
 title: "Nonprofit grant drawdown evidence log for remote bookkeeping support"
 description: "A practical guide to grant drawdown evidence log with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Nonprofit bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Set the award and period boundary
 
-A draw request should be traceable to recorded costs without asking the bookkeeper to interpret award terms. Write the scope before assigning the queue. State the entities, accounts, systems, period, currencies, and cutoff that belong in the work. List deliberate exclusions as clearly as inclusions. The finance owner approves that perimeter and any later expansion. For grant drawdown evidence log, the written scope should identify award terms, approved budgets, ledger detail, payroll support, invoices, and draw requests. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The grant manager or CPA approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+A draw request should be traceable to recorded costs without asking the bookkeeper to interpret award terms. Write the scope before assigning the queue. State the entities, accounts, systems, period, currencies, and cutoff that belong in the work. List deliberate exclusions as clearly as inclusions. The finance owner approves that perimeter and any later expansion. For grant drawdown evidence log, the written scope should identify award terms, approved budgets, ledger detail, payroll support, invoices, and draw requests. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The grant manager or CPA approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Link costs to approved budget lines
 

@@ -1,8 +1,8 @@
 ---
 title: "How to review payroll benefit deduction clearing accounts offshore"
 description: "A practical guide to benefit deduction clearing review with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Payroll bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Freeze the payroll and carrier populations
 
-A zero clearing balance can still be wrong when unrelated benefit codes have been netted together. The first useful question is where the record originated. Keep the original export, statement, contract, or receipt intact and link each working row to it. A remote bookkeeper should never have to reconstruct source evidence from a copied total or an unexplained screenshot. For benefit deduction clearing review, the written scope should identify employee deductions, employer contributions, carrier invoices, and payroll funding. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The payroll owner approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+A zero clearing balance can still be wrong when unrelated benefit codes have been netted together. The first useful question is where the record originated. Keep the original export, statement, contract, or receipt intact and link each working row to it. A remote bookkeeper should never have to reconstruct source evidence from a copied total or an unexplained screenshot. For benefit deduction clearing review, the written scope should identify employee deductions, employer contributions, carrier invoices, and payroll funding. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The payroll owner approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Build the deduction-to-invoice crosswalk
 

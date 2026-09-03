@@ -1,8 +1,8 @@
 ---
 title: "A SaaS contract change register for offshore billing support"
 description: "A practical guide to contract change billing register with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "SaaS bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Control amendment intake
 
-Billing errors often begin when the invoice queue sees a commercial change before finance receives the signed amendment. A dependable handoff starts with an agreed source map. Name the system of record for each field, the person who can answer a source question, and the expected delivery time. If two systems disagree, preserve both values and open an exception instead of choosing the convenient one. For contract change billing register, the written scope should identify signed order forms, amendments, billing schedules, credits, and customer invoices. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The revenue owner approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+Billing errors often begin when the invoice queue sees a commercial change before finance receives the signed amendment. A dependable handoff starts with an agreed source map. Name the system of record for each field, the person who can answer a source question, and the expected delivery time. If two systems disagree, preserve both values and open an exception instead of choosing the convenient one. For contract change billing register, the written scope should identify signed order forms, amendments, billing schedules, credits, and customer invoices. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The revenue owner approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Record contract versions beside invoices
 

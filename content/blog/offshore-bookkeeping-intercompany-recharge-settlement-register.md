@@ -1,8 +1,8 @@
 ---
 title: "Intercompany recharge settlement register for a distributed bookkeeping team"
 description: "A practical guide to recharge settlement register with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Intercompany accounting"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Draw the entity perimeter
 
-Intercompany work fails when the due-to and due-from entries agree mathematically but the commercial support is incomplete. Begin with the transaction population, not the workbook. Export the relevant source records for a defined period and retain the extraction time. Reconcile the record count and control total before adding classifications. This prevents a polished schedule from concealing missing activity. For recharge settlement register, the written scope should identify shared payroll, software, and operating costs. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The controller approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+Intercompany work fails when the due-to and due-from entries agree mathematically but the commercial support is incomplete. Begin with the transaction population, not the workbook. Export the relevant source records for a defined period and retain the extraction time. Reconcile the record count and control total before adding classifications. This prevents a polished schedule from concealing missing activity. For recharge settlement register, the written scope should identify shared payroll, software, and operating costs. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The controller approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Make each recharge traceable
 

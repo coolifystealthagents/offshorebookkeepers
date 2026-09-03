@@ -1,8 +1,8 @@
 ---
 title: "Maintain a client cost advance ledger without crossing legal-accounting boundaries"
 description: "A practical guide to client cost advance ledger with clear evidence, exception, access, and review boundaries for offshore bookkeeping support."
-published: "2026-08-23"
-updated: "2026-08-23"
+published: "2026-09-03"
+updated: "2026-09-03"
 category: "Law firm bookkeeping"
 type: "blog"
 featuredImage: "/logo.svg"
@@ -11,7 +11,7 @@ faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeepe
 ---
 ## Define matters and payment sources
 
-The bookkeeper can preserve the trail, but the firm must decide legal billing and trust-account treatment. The first useful question is where the record originated. Keep the original export, statement, contract, or receipt intact and link each working row to it. A remote bookkeeper should never have to reconstruct source evidence from a copied total or an unexplained screenshot. For client cost advance ledger, the written scope should identify vendor receipts, matter records, client bills, reimbursements, and general-ledger entries. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The attorney or firm finance lead approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On August 23, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
+The bookkeeper can preserve the trail, but the firm must decide legal billing and trust-account treatment. The first useful question is where the record originated. Keep the original export, statement, contract, or receipt intact and link each working row to it. A remote bookkeeper should never have to reconstruct source evidence from a copied total or an unexplained screenshot. For client cost advance ledger, the written scope should identify vendor receipts, matter records, client bills, reimbursements, and general-ledger entries. The offshore bookkeeper may collect, label, compare, calculate, and prepare questions. The attorney or firm finance lead approves policy, protected access, unusual treatment, and final sign-off. Put that split in the procedure so urgency does not quietly expand the role. On September 3, 2026, freeze the initial population and record later additions in a change note. A visible change trail lets the reviewer distinguish late evidence from work that was missed at the original cutoff.
 
 ## Give every advance a matter trail
 
