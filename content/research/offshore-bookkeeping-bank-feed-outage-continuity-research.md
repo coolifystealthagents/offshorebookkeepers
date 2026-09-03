@@ -1,8 +1,8 @@
 ---
 title: "Bank-feed outages in offshore bookkeeping: a continuity research review"
 description: "What evidence lets an offshore bookkeeping team keep reconciliations controlled when a bank feed stops updating? This research separates continuity facts from operating recommendations."
-published: "2026-08-24"
-updated: "2026-08-24"
+published: "2026-08-23"
+updated: "2026-08-23"
 category: "Continuity Controls"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-bank-feed-continuity-research.webp"
@@ -10,7 +10,7 @@ takeaways: ["A feed outage is a source-availability event, not proof that cash a
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"NIST, Cybersecurity Framework 2.0","url":"https://www.nist.gov/cyberframework"},{"name":"NIST, Contingency Planning Guide SP 800-34","url":"https://csrc.nist.gov/pubs/sp/800/34/r1/final"},{"name":"CISA, Cybersecurity Performance Goals","url":"https://www.cisa.gov/cybersecurity-performance-goals"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"ISO, ISO 22301 Business Continuity","url":"https://www.iso.org/standard/75106.html"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"}]
 ---
 
-Published August 24, 2026. This Research article asks: what evidence allows an offshore bookkeeping team to keep cash reconciliations controlled when a bank feed stops updating?
+Published August 23, 2026. This Research article asks: what evidence allows an offshore bookkeeping team to keep cash reconciliations controlled when a bank feed stops updating?
 
 ## The research question
 

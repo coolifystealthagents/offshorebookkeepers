@@ -1,8 +1,8 @@
 ---
 title: "Variance bridges in offshore bookkeeping reports: an evidence review"
 description: "A research review of what makes a management-reporting variance bridge explainable, reviewable, and appropriately bounded for a remote bookkeeping handoff."
-published: "2026-08-24"
-updated: "2026-08-24"
+published: "2026-08-23"
+updated: "2026-08-23"
 category: "Management Reporting"
 type: "research"
 featuredImage: "/thumbnails/offshore-bookkeeping-monthly-reporting-pack.webp"
@@ -10,7 +10,7 @@ takeaways: ["A variance percentage is a signal, not an explanation.","A useful b
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"},{"name":"IFRS Foundation, Management Commentary","url":"https://www.ifrs.org/issued-standards/list-of-standards/management-commentary/"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"NIST, Data Integrity","url":"https://csrc.nist.gov/glossary/term/data_integrity"},{"name":"SBA, Manage Your Finances","url":"https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"},{"name":"SEC, Investor Bulletin: Financial Statements","url":"https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/financial-statements"}]
 ---
 
-Published August 24, 2026. This Research article asks: what makes a management-reporting variance bridge explainable and reviewable when the bookkeeping preparation happens across a remote handoff?
+Published August 23, 2026. This Research article asks: what makes a management-reporting variance bridge explainable and reviewable when the bookkeeping preparation happens across a remote handoff?
 
 ## The research question
 

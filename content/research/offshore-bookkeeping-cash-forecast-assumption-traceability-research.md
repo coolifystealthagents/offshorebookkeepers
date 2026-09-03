@@ -1,8 +1,8 @@
 ---
 title: "Cash forecast assumptions in offshore bookkeeping: a traceability study"
 description: "How should an offshore bookkeeping team expose the evidence behind a cash forecast without turning a prepared schedule into a promise about future liquidity?"
-published: "2026-08-24"
-updated: "2026-08-24"
+published: "2026-08-23"
+updated: "2026-08-23"
 category: "Cash Planning Evidence"
 type: "research"
 featuredImage: "/thumbnails/offshore-bookkeeping-cash-forecast-inputs.webp"
@@ -10,7 +10,7 @@ takeaways: ["A forecast is only reviewable when each material input has an owner
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"NIST, Data Integrity","url":"https://csrc.nist.gov/glossary/term/data_integrity"},{"name":"NIST, Risk Management Framework","url":"https://csrc.nist.gov/projects/risk-management/about-rmf"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"SBA, Manage Your Finances","url":"https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"},{"name":"IFRS Foundation, Management Commentary","url":"https://www.ifrs.org/issued-standards/list-of-standards/management-commentary/"}]
 ---
 
-Published August 24, 2026. This Research article asks: how can an offshore bookkeeping team make the evidence behind a cash forecast traceable without presenting a prepared schedule as a promise about future liquidity?
+Published August 23, 2026. This Research article asks: how can an offshore bookkeeping team make the evidence behind a cash forecast traceable without presenting a prepared schedule as a promise about future liquidity?
 
 ## The research question
 

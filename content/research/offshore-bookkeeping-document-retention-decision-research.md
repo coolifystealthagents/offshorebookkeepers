@@ -1,8 +1,8 @@
 ---
 title: "Document-retention decisions in offshore bookkeeping: an evidence study"
 description: "Research on how remote bookkeeping teams can distinguish a useful retention decision from an indiscriminate archive, while keeping client and professional boundaries clear."
-published: "2026-08-24"
-updated: "2026-08-24"
+published: "2026-08-23"
+updated: "2026-08-23"
 category: "Records Governance"
 type: "research"
 featuredImage: "/thumbnails/offshore-bookkeeping-document-retention-map.webp"
@@ -10,7 +10,7 @@ takeaways: ["Retention starts with the record's purpose, owner, and required per
 sources: [{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"ISO, ISO 15489 Records Management","url":"https://www.iso.org/standard/62542.html"},{"name":"NARA, Records Management Guidance","url":"https://www.archives.gov/records-mgmt"},{"name":"NIST, Privacy Framework","url":"https://www.nist.gov/privacy-framework"},{"name":"NIST, Data Integrity","url":"https://csrc.nist.gov/glossary/term/data_integrity"},{"name":"FTC, Protecting Personal Information","url":"https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"}]
 ---
 
-Published August 24, 2026. This Research article asks: how can an offshore bookkeeping team make a retention decision that preserves useful evidence without treating an indiscriminate archive as good recordkeeping?
+Published August 23, 2026. This Research article asks: how can an offshore bookkeeping team make a retention decision that preserves useful evidence without treating an indiscriminate archive as good recordkeeping?
 
 ## The research question
 
