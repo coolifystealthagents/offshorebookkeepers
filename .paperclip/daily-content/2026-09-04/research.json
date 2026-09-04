@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Approval latency by evidence type in offshore bookkeeping",
+    "slug": "offshore-bookkeeping-approval-latency-by-evidence-type-research",
+    "route": "/research/offshore-bookkeeping-approval-latency-by-evidence-type-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-approval-latency-by-evidence-type-research",
+    "sourcePath": "content/research/offshore-bookkeeping-approval-latency-by-evidence-type-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-evidence-queue-aging-research.webp"
+  },
+  {
+    "title": "Control-total drift across repeated bookkeeping exports",
+    "slug": "offshore-bookkeeping-control-total-drift-research",
+    "route": "/research/offshore-bookkeeping-control-total-drift-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-control-total-drift-research",
+    "sourcePath": "content/research/offshore-bookkeeping-control-total-drift-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-source-version-research.png"
+  },
+  {
+    "title": "Exception reopen rates after bookkeeping review",
+    "slug": "offshore-bookkeeping-exception-reopen-rate-research",
+    "route": "/research/offshore-bookkeeping-exception-reopen-rate-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-exception-reopen-rate-research",
+    "sourcePath": "content/research/offshore-bookkeeping-exception-reopen-rate-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-review-comment-research.webp"
+  },
+  {
+    "title": "Population coverage in offshore bookkeeping reconciliations",
+    "slug": "offshore-bookkeeping-reconciliation-population-coverage-research",
+    "route": "/research/offshore-bookkeeping-reconciliation-population-coverage-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-reconciliation-population-coverage-research",
+    "sourcePath": "content/research/offshore-bookkeeping-reconciliation-population-coverage-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-source-version-research.png"
+  },
+  {
+    "title": "Handoff dependency concentration in distributed bookkeeping teams",
+    "slug": "offshore-bookkeeping-handoff-dependency-concentration-research",
+    "route": "/research/offshore-bookkeeping-handoff-dependency-concentration-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-handoff-dependency-concentration-research",
+    "sourcePath": "content/research/offshore-bookkeeping-handoff-dependency-concentration-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-operational-dependency-mapping-research.png"
+  }
+]

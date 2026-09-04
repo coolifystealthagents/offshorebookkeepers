@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Build a marketplace reserve rollforward that reviewers can retrace",
+    "slug": "offshore-bookkeeping-marketplace-reserve-rollforward",
+    "route": "/blog/offshore-bookkeeping-marketplace-reserve-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-marketplace-reserve-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-marketplace-reserve-rollforward.md",
+    "featuredImage": "/thumbnails/bookkeeping-merchant-reserve-reconciliation.webp"
+  },
+  {
+    "title": "Tie out property tax escrow activity before month-end review",
+    "slug": "offshore-bookkeeping-property-tax-escrow-tieout",
+    "route": "/blog/offshore-bookkeeping-property-tax-escrow-tieout",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-tax-escrow-tieout",
+    "sourcePath": "content/blog/offshore-bookkeeping-property-tax-escrow-tieout.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-escrow-account-reconciliation.png"
+  },
+  {
+    "title": "Review clinic insurance credit balances without hiding old exceptions",
+    "slug": "offshore-bookkeeping-clinic-insurance-credit-balance-review",
+    "route": "/blog/offshore-bookkeeping-clinic-insurance-credit-balance-review",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-clinic-insurance-credit-balance-review",
+    "sourcePath": "content/blog/offshore-bookkeeping-clinic-insurance-credit-balance-review.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-healthcare-remittance-reconciliation.png"
+  },
+  {
+    "title": "Maintain a construction mobilization advance ledger by job",
+    "slug": "offshore-bookkeeping-construction-mobilization-advance-ledger",
+    "route": "/blog/offshore-bookkeeping-construction-mobilization-advance-ledger",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-construction-mobilization-advance-ledger",
+    "sourcePath": "content/blog/offshore-bookkeeping-construction-mobilization-advance-ledger.md",
+    "featuredImage": "/thumbnails/construction-job-costing-control-research.webp"
+  },
+  {
+    "title": "Reconcile franchise advertising fund collections and spending",
+    "slug": "offshore-bookkeeping-franchise-ad-fund-reconciliation",
+    "route": "/blog/offshore-bookkeeping-franchise-ad-fund-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-franchise-ad-fund-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-franchise-ad-fund-reconciliation.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-franchise-royalty-reconciliation.png"
+  },
+  {
+    "title": "Check SaaS usage billing completeness before invoices go out",
+    "slug": "offshore-bookkeeping-saas-usage-billing-completeness-check",
+    "route": "/blog/offshore-bookkeeping-saas-usage-billing-completeness-check",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-usage-billing-completeness-check",
+    "sourcePath": "content/blog/offshore-bookkeeping-saas-usage-billing-completeness-check.md",
+    "featuredImage": "/thumbnails/saas-deferred-revenue-bookkeeping-research.webp"
+  },
+  {
+    "title": "Track restaurant catering deposits through event settlement",
+    "slug": "offshore-bookkeeping-restaurant-catering-deposit-rollforward",
+    "route": "/blog/offshore-bookkeeping-restaurant-catering-deposit-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-restaurant-catering-deposit-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-restaurant-catering-deposit-rollforward.md",
+    "featuredImage": "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp"
+  },
+  {
+    "title": "Prepare a law firm trust transfer evidence pack for attorney review",
+    "slug": "offshore-bookkeeping-law-firm-trust-transfer-evidence-pack",
+    "route": "/blog/offshore-bookkeeping-law-firm-trust-transfer-evidence-pack",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-law-firm-trust-transfer-evidence-pack",
+    "sourcePath": "content/blog/offshore-bookkeeping-law-firm-trust-transfer-evidence-pack.md",
+    "featuredImage": "/thumbnails/law-firm-trust-account-control-research.webp"
+  },
+  {
+    "title": "Match nonprofit pledge receipts without changing donor restrictions",
+    "slug": "offshore-bookkeeping-nonprofit-pledge-receipt-matching",
+    "route": "/blog/offshore-bookkeeping-nonprofit-pledge-receipt-matching",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-pledge-receipt-matching",
+    "sourcePath": "content/blog/offshore-bookkeeping-nonprofit-pledge-receipt-matching.md",
+    "featuredImage": "/thumbnails/nonprofit-fund-accounting-support-research.webp"
+  },
+  {
+    "title": "Review fleet fuel card exceptions by vehicle and driver",
+    "slug": "offshore-bookkeeping-fleet-fuel-card-exception-review",
+    "route": "/blog/offshore-bookkeeping-fleet-fuel-card-exception-review",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-fleet-fuel-card-exception-review",
+    "sourcePath": "content/blog/offshore-bookkeeping-fleet-fuel-card-exception-review.md",
+    "featuredImage": "/thumbnails/bookkeeping-expense-policy-exception-log.webp"
+  },
+  {
+    "title": "Assemble an import duty landed-cost packet for inventory review",
+    "slug": "offshore-bookkeeping-import-duty-landed-cost-packet",
+    "route": "/blog/offshore-bookkeeping-import-duty-landed-cost-packet",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-import-duty-landed-cost-packet",
+    "sourcePath": "content/blog/offshore-bookkeeping-import-duty-landed-cost-packet.md",
+    "featuredImage": "/thumbnails/bookkeeping-inventory-count-handoff.webp"
+  },
+  {
+    "title": "Reconcile agency pass-through costs to client billing",
+    "slug": "offshore-bookkeeping-agency-pass-through-cost-reconciliation",
+    "route": "/blog/offshore-bookkeeping-agency-pass-through-cost-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-agency-pass-through-cost-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-agency-pass-through-cost-reconciliation.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-cost-source-map.webp"
+  }
+]
