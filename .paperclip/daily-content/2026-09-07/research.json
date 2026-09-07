@@ -1,0 +1,42 @@
+[
+  {
+    "title": "How long do bookkeeping evidence requests stay open by source?",
+    "slug": "offshore-bookkeeping-evidence-request-cycle-time-research",
+    "route": "/research/offshore-bookkeeping-evidence-request-cycle-time-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-evidence-request-cycle-time-research",
+    "sourcePath": "content/research/offshore-bookkeeping-evidence-request-cycle-time-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-evidence-queue-aging-research.webp"
+  },
+  {
+    "title": "Measuring reviewer disagreement in recurring bookkeeping work",
+    "slug": "offshore-bookkeeping-reviewer-disagreement-rate-research",
+    "route": "/research/offshore-bookkeeping-reviewer-disagreement-rate-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-reviewer-disagreement-rate-research",
+    "sourcePath": "content/research/offshore-bookkeeping-reviewer-disagreement-rate-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-reviewer-calibration-research.png"
+  },
+  {
+    "title": "Tracking account-mapping changes across bookkeeping periods",
+    "slug": "offshore-bookkeeping-account-mapping-change-frequency-research",
+    "route": "/research/offshore-bookkeeping-account-mapping-change-frequency-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-account-mapping-change-frequency-research",
+    "sourcePath": "content/research/offshore-bookkeeping-account-mapping-change-frequency-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-source-version-research.png"
+  },
+  {
+    "title": "What a dormant-vendor review can and cannot tell you",
+    "slug": "offshore-bookkeeping-dormant-vendor-population-research",
+    "route": "/research/offshore-bookkeeping-dormant-vendor-population-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-dormant-vendor-population-research",
+    "sourcePath": "content/research/offshore-bookkeeping-dormant-vendor-population-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-vendor-master-change-control-research.webp"
+  },
+  {
+    "title": "Studying interruption load during the bookkeeping close",
+    "slug": "offshore-bookkeeping-close-task-interruption-load-research",
+    "route": "/research/offshore-bookkeeping-close-task-interruption-load-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-close-task-interruption-load-research",
+    "sourcePath": "content/research/offshore-bookkeeping-close-task-interruption-load-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-review-sampling-research.png"
+  }
+]

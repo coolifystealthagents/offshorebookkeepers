@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = blogPosts.find((item) => item.slug === slug);
+  const post = blogPosts.find((item) => item.slug === slug) as any;
   if (!post) return {};
   return {
     title: post.title,
@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: post.excerpt,
       type: 'article',
       url: `/blog/${slug}`,
+      ...(post.featuredImage ? { images: [post.featuredImage] } : {}),
     },
   };
 }
@@ -144,6 +145,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         mainEntityOfPage: postUrl,
         datePublished: post.published,
         dateModified: post.published,
+        ...(post.featuredImage ? { image: post.featuredImage } : {}),
         publisher: { '@type': 'Organization', name: site.brand, url: siteUrl },
         citation: sources.map((source: any) => source.url),
         hasPart: [
@@ -183,6 +185,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
             {post.published && <span className="article-date">Published <time dateTime={post.published}>{formatReaderDate(post.published)}</time> · {post.minutes} minute read</span>}
+            {post.featuredImage && <img className="article-featured-image" src={post.featuredImage} alt="" />}
           </header>
 
           {richArticle ? (

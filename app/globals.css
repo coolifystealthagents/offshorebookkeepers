@@ -54,3 +54,4 @@
 
 
 .article-source-note{margin:18px 0 26px;color:var(--muted,#5b6575);font-size:15px;line-height:1.6}.article-source-note a{color:var(--accent,#0f8f73);font-weight:900;text-decoration:underline;text-underline-offset:3px}
+.article-featured-image{display:block;width:100%;height:auto;max-height:520px;object-fit:cover;border-radius:18px;margin-top:24px}

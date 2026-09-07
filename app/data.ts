@@ -590,6 +590,7 @@ const generatedBlogPosts = getContent('blog').map((post) => ({
   faqs: post.faqs.map((faq) => [faq.question, faq.answer]),
   relatedLinks: post.relatedLinks || [],
   sources: post.sources,
+  featuredImage: post.featuredImage,
 }));
 
 export const blogPosts = [...existingBlogPosts, ...generatedBlogPosts]
