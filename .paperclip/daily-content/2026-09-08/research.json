@@ -1,0 +1,42 @@
+[
+  {
+    "title": "How should unmatched cash aging be measured across receipt channels?",
+    "slug": "offshore-bookkeeping-unmatched-cash-aging-research",
+    "route": "/research/offshore-bookkeeping-unmatched-cash-aging-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-unmatched-cash-aging-research",
+    "sourcePath": "content/research/offshore-bookkeeping-unmatched-cash-aging-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-merchant-reserve-reconciliation.webp"
+  },
+  {
+    "title": "Studying late reversals in recurring bookkeeping journals",
+    "slug": "offshore-bookkeeping-recurring-journal-reversal-research",
+    "route": "/research/offshore-bookkeeping-recurring-journal-reversal-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-recurring-journal-reversal-research",
+    "sourcePath": "content/research/offshore-bookkeeping-recurring-journal-reversal-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-review-sampling-research.png"
+  },
+  {
+    "title": "A bounded method for measuring duplicate customer-master records",
+    "slug": "offshore-bookkeeping-customer-master-duplicate-research",
+    "route": "/research/offshore-bookkeeping-customer-master-duplicate-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-customer-master-duplicate-research",
+    "sourcePath": "content/research/offshore-bookkeeping-customer-master-duplicate-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-source-version-research.png"
+  },
+  {
+    "title": "Measuring approval-path length for vendor invoices",
+    "slug": "offshore-bookkeeping-invoice-approval-path-length-research",
+    "route": "/research/offshore-bookkeeping-invoice-approval-path-length-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-invoice-approval-path-length-research",
+    "sourcePath": "content/research/offshore-bookkeeping-invoice-approval-path-length-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-evidence-queue-aging-research.webp"
+  },
+  {
+    "title": "What bank-rule override frequency can reveal about bookkeeping workflows",
+    "slug": "offshore-bookkeeping-bank-rule-override-frequency-research",
+    "route": "/research/offshore-bookkeeping-bank-rule-override-frequency-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-bank-rule-override-frequency-research",
+    "sourcePath": "content/research/offshore-bookkeeping-bank-rule-override-frequency-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-reviewer-calibration-research.png"
+  }
+]

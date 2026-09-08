@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Unpack restaurant delivery-platform payouts before posting the deposit",
+    "slug": "offshore-bookkeeping-restaurant-delivery-platform-payout",
+    "route": "/blog/offshore-bookkeeping-restaurant-delivery-platform-payout",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-restaurant-delivery-platform-payout",
+    "sourcePath": "content/blog/offshore-bookkeeping-restaurant-delivery-platform-payout.md",
+    "featuredImage": "/thumbnails/bookkeeping-merchant-reserve-reconciliation.webp"
+  },
+  {
+    "title": "Work patient credit balances from the ledger back to the remittance",
+    "slug": "offshore-bookkeeping-medical-patient-credit-balance",
+    "route": "/blog/offshore-bookkeeping-medical-patient-credit-balance",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-medical-patient-credit-balance",
+    "sourcePath": "content/blog/offshore-bookkeeping-medical-patient-credit-balance.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-healthcare-remittance-reconciliation.png"
+  },
+  {
+    "title": "Trace shared equipment costs to construction jobs without hiding assumptions",
+    "slug": "offshore-bookkeeping-construction-equipment-cost-allocation",
+    "route": "/blog/offshore-bookkeeping-construction-equipment-cost-allocation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-construction-equipment-cost-allocation",
+    "sourcePath": "content/blog/offshore-bookkeeping-construction-equipment-cost-allocation.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-construction-retainage-review.png"
+  },
+  {
+    "title": "Reconcile failed SaaS payments through retries and recovery",
+    "slug": "offshore-bookkeeping-saas-payment-failure-recovery",
+    "route": "/blog/offshore-bookkeeping-saas-payment-failure-recovery",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-payment-failure-recovery",
+    "sourcePath": "content/blog/offshore-bookkeeping-saas-payment-failure-recovery.md",
+    "featuredImage": "/thumbnails/saas-deferred-revenue-bookkeeping-research.webp"
+  },
+  {
+    "title": "Document restricted-fund releases without losing the donor trail",
+    "slug": "offshore-bookkeeping-nonprofit-restricted-fund-release",
+    "route": "/blog/offshore-bookkeeping-nonprofit-restricted-fund-release",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-restricted-fund-release",
+    "sourcePath": "content/blog/offshore-bookkeeping-nonprofit-restricted-fund-release.md",
+    "featuredImage": "/thumbnails/nonprofit-fund-accounting-support-research.webp"
+  },
+  {
+    "title": "Reconcile tenant utility rebilling from meter file to receipt",
+    "slug": "offshore-bookkeeping-property-utility-rebilling",
+    "route": "/blog/offshore-bookkeeping-property-utility-rebilling",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-utility-rebilling",
+    "sourcePath": "content/blog/offshore-bookkeeping-property-utility-rebilling.md",
+    "featuredImage": "/thumbnails/property-bookkeeping-rent-roll-controls.webp"
+  },
+  {
+    "title": "Match fleet toll charges to vehicles, routes, and customer jobs",
+    "slug": "offshore-bookkeeping-fleet-toll-charge-matching",
+    "route": "/blog/offshore-bookkeeping-fleet-toll-charge-matching",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-fleet-toll-charge-matching",
+    "sourcePath": "content/blog/offshore-bookkeeping-fleet-toll-charge-matching.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-cost-source-map.webp"
+  },
+  {
+    "title": "Review stale trust checks without breaking the client-matter trail",
+    "slug": "offshore-bookkeeping-law-firm-trust-check-stale-date",
+    "route": "/blog/offshore-bookkeeping-law-firm-trust-check-stale-date",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-law-firm-trust-check-stale-date",
+    "sourcePath": "content/blog/offshore-bookkeeping-law-firm-trust-check-stale-date.md",
+    "featuredImage": "/thumbnails/law-firm-trust-account-bookkeeping-boundaries.webp"
+  },
+  {
+    "title": "Roll wholesale customer rebates from agreement to settlement",
+    "slug": "offshore-bookkeeping-wholesale-customer-rebate-accrual",
+    "route": "/blog/offshore-bookkeeping-wholesale-customer-rebate-accrual",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-wholesale-customer-rebate-accrual",
+    "sourcePath": "content/blog/offshore-bookkeeping-wholesale-customer-rebate-accrual.md",
+    "featuredImage": "/thumbnails/bookkeeping-source-version-research.png"
+  },
+  {
+    "title": "Clear auto-parts core deposits when the old unit comes back",
+    "slug": "offshore-bookkeeping-auto-repair-parts-core-deposit",
+    "route": "/blog/offshore-bookkeeping-auto-repair-parts-core-deposit",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-auto-repair-parts-core-deposit",
+    "sourcePath": "content/blog/offshore-bookkeeping-auto-repair-parts-core-deposit.md",
+    "featuredImage": "/thumbnails/bookkeeping-inventory-count-handoff.webp"
+  },
+  {
+    "title": "Separate agency media spend from client pass-through billing",
+    "slug": "offshore-bookkeeping-agency-media-spend-pass-through",
+    "route": "/blog/offshore-bookkeeping-agency-media-spend-pass-through",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-agency-media-spend-pass-through",
+    "sourcePath": "content/blog/offshore-bookkeeping-agency-media-spend-pass-through.md",
+    "featuredImage": "/thumbnails/bookkeeping-expense-policy-exception-log.webp"
+  },
+  {
+    "title": "Tie childcare subsidy receipts to attendance and family accounts",
+    "slug": "offshore-bookkeeping-childcare-subsidy-receivable",
+    "route": "/blog/offshore-bookkeeping-childcare-subsidy-receivable",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-childcare-subsidy-receivable",
+    "sourcePath": "content/blog/offshore-bookkeeping-childcare-subsidy-receivable.md",
+    "featuredImage": "/thumbnails/ecommerce-bookkeeping-reconciliation-workflow.webp"
+  }
+]
