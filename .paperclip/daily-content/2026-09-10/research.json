@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Measuring source-file version drift in recurring bookkeeping work",
+    "slug": "offshore-bookkeeping-source-file-version-drift-research",
+    "route": "/research/offshore-bookkeeping-source-file-version-drift-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-source-file-version-drift-research",
+    "sourcePath": "content/research/offshore-bookkeeping-source-file-version-drift-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-source-version-research.png"
+  },
+  {
+    "title": "A bounded study of approval return loops in accounts payable",
+    "slug": "bookkeeping-approval-return-loop-research",
+    "route": "/research/bookkeeping-approval-return-loop-research",
+    "canonical": "https://offshorebookkeepers.com/research/bookkeeping-approval-return-loop-research",
+    "sourcePath": "content/research/bookkeeping-approval-return-loop-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-evidence-queue-aging-research.webp"
+  },
+  {
+    "title": "How to measure the age of evidence gaps in reconciliations",
+    "slug": "offshore-bookkeeping-reconciliation-evidence-gap-aging-research",
+    "route": "/research/offshore-bookkeeping-reconciliation-evidence-gap-aging-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-reconciliation-evidence-gap-aging-research",
+    "sourcePath": "content/research/offshore-bookkeeping-reconciliation-evidence-gap-aging-research.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-evidence-retrieval-latency-research.png"
+  },
+  {
+    "title": "Studying callback completion for vendor bank changes",
+    "slug": "bookkeeping-vendor-bank-change-callback-completion-research",
+    "route": "/research/bookkeeping-vendor-bank-change-callback-completion-research",
+    "canonical": "https://offshorebookkeepers.com/research/bookkeeping-vendor-bank-change-callback-completion-research",
+    "sourcePath": "content/research/bookkeeping-vendor-bank-change-callback-completion-research.md",
+    "featuredImage": "/thumbnails/bookkeeping-vendor-master-change-control-research.webp"
+  },
+  {
+    "title": "A reproducible measure for reopened month-end close tasks",
+    "slug": "offshore-bookkeeping-close-task-reopen-rate-research",
+    "route": "/research/offshore-bookkeeping-close-task-reopen-rate-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-close-task-reopen-rate-research",
+    "sourcePath": "content/research/offshore-bookkeeping-close-task-reopen-rate-research.md",
+    "featuredImage": "/thumbnails/month-end-close-cycle-time-benchmarks.webp"
+  }
+]
