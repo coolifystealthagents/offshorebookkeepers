@@ -1,0 +1,442 @@
+[
+  {
+    "family": "daily-research",
+    "topic": "How to study bank-feed auto-match overrides",
+    "slug": "offshore-bookkeeping-bank-feed-auto-match-override-research",
+    "route": "/research/offshore-bookkeeping-bank-feed-auto-match-override-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-bank-feed-auto-match-override-research",
+    "sourcePath": "content/research/offshore-bookkeeping-bank-feed-auto-match-override-research.md",
+    "publicationDate": "2026-09-18",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "FASB, Concepts Statements",
+        "publisher": "FASB",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IFRS Foundation, Conceptual Framework for Financial Reporting",
+        "publisher": "IFRS Foundation",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "U.S. National Archives, Records Management",
+        "publisher": "U.S. National Archives",
+        "url": "https://www.archives.gov/records-mgmt",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "CISA, Require Multifactor Authentication",
+        "publisher": "CISA",
+        "url": "https://www.cisa.gov/secure-our-world/require-multifactor-authentication",
+        "checkedDate": "2026-09-18"
+      }
+    ],
+    "contentHash": "8da167e6d91e301e3d4c774f40ebd4d15cd3adfb067cd441b4e76941e3fa3b10",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "Measuring chart-of-accounts mapping drift",
+    "slug": "offshore-bookkeeping-chart-of-accounts-mapping-drift-research",
+    "route": "/research/offshore-bookkeeping-chart-of-accounts-mapping-drift-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-chart-of-accounts-mapping-drift-research",
+    "sourcePath": "content/research/offshore-bookkeeping-chart-of-accounts-mapping-drift-research.md",
+    "publicationDate": "2026-09-18",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "FASB, Concepts Statements",
+        "publisher": "FASB",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IFRS Foundation, Conceptual Framework for Financial Reporting",
+        "publisher": "IFRS Foundation",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "U.S. National Archives, Records Management",
+        "publisher": "U.S. National Archives",
+        "url": "https://www.archives.gov/records-mgmt",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "CISA, Require Multifactor Authentication",
+        "publisher": "CISA",
+        "url": "https://www.cisa.gov/secure-our-world/require-multifactor-authentication",
+        "checkedDate": "2026-09-18"
+      }
+    ],
+    "contentHash": "99b8c02cf879a64049c01ad544c3eb061698fe6e64306329c2e6cc7131d02148",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "A defensible recurring-transaction exception rate",
+    "slug": "offshore-bookkeeping-recurring-transaction-exception-rate-research",
+    "route": "/research/offshore-bookkeeping-recurring-transaction-exception-rate-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-recurring-transaction-exception-rate-research",
+    "sourcePath": "content/research/offshore-bookkeeping-recurring-transaction-exception-rate-research.md",
+    "publicationDate": "2026-09-18",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "FASB, Concepts Statements",
+        "publisher": "FASB",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IFRS Foundation, Conceptual Framework for Financial Reporting",
+        "publisher": "IFRS Foundation",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "U.S. National Archives, Records Management",
+        "publisher": "U.S. National Archives",
+        "url": "https://www.archives.gov/records-mgmt",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "CISA, Require Multifactor Authentication",
+        "publisher": "CISA",
+        "url": "https://www.cisa.gov/secure-our-world/require-multifactor-authentication",
+        "checkedDate": "2026-09-18"
+      }
+    ],
+    "contentHash": "7e76211c54e9430076276cbf76ae1fbc8332f2963d505bdcb77bd1229fcfecac",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "Studying payment-batch evidence completeness",
+    "slug": "offshore-bookkeeping-payment-batch-evidence-completeness-research",
+    "route": "/research/offshore-bookkeeping-payment-batch-evidence-completeness-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-payment-batch-evidence-completeness-research",
+    "sourcePath": "content/research/offshore-bookkeeping-payment-batch-evidence-completeness-research.md",
+    "publicationDate": "2026-09-18",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "FASB, Concepts Statements",
+        "publisher": "FASB",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IFRS Foundation, Conceptual Framework for Financial Reporting",
+        "publisher": "IFRS Foundation",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "U.S. National Archives, Records Management",
+        "publisher": "U.S. National Archives",
+        "url": "https://www.archives.gov/records-mgmt",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "CISA, Require Multifactor Authentication",
+        "publisher": "CISA",
+        "url": "https://www.cisa.gov/secure-our-world/require-multifactor-authentication",
+        "checkedDate": "2026-09-18"
+      }
+    ],
+    "contentHash": "b5828ae81b8217dc120ff0f3a965f005218f2e894fde4386c2dd50c3c577e34a",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "How to measure accounts-receivable dispute-code consistency",
+    "slug": "offshore-bookkeeping-ar-dispute-code-consistency-research",
+    "route": "/research/offshore-bookkeeping-ar-dispute-code-consistency-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-ar-dispute-code-consistency-research",
+    "sourcePath": "content/research/offshore-bookkeeping-ar-dispute-code-consistency-research.md",
+    "publicationDate": "2026-09-18",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "FASB, Concepts Statements",
+        "publisher": "FASB",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "IFRS Foundation, Conceptual Framework for Financial Reporting",
+        "publisher": "IFRS Foundation",
+        "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "U.S. National Archives, Records Management",
+        "publisher": "U.S. National Archives",
+        "url": "https://www.archives.gov/records-mgmt",
+        "checkedDate": "2026-09-18"
+      },
+      {
+        "title": "CISA, Require Multifactor Authentication",
+        "publisher": "CISA",
+        "url": "https://www.cisa.gov/secure-our-world/require-multifactor-authentication",
+        "checkedDate": "2026-09-18"
+      }
+    ],
+    "contentHash": "d39a8e6b668587f2536e012a27441b37bae75e54870375a1f796678366b8b28e",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  }
+]
