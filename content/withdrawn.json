@@ -1,0 +1,35 @@
+{
+  "blog": [
+    "offshore-bookkeeping-agency-client-expense-markup-billing",
+    "offshore-bookkeeping-agency-media-prepayment-reconciliation",
+    "offshore-bookkeeping-clinic-capitation-payment-reconciliation",
+    "offshore-bookkeeping-construction-equipment-rental-usage-check",
+    "offshore-bookkeeping-construction-stored-materials-billing-check",
+    "offshore-bookkeeping-dental-patient-financing-settlement",
+    "offshore-bookkeeping-ecommerce-bnpl-settlement-reconciliation",
+    "offshore-bookkeeping-field-service-warranty-reimbursement",
+    "offshore-bookkeeping-franchise-system-sales-royalty-tieout",
+    "offshore-bookkeeping-healthcare-era-takeback-reconciliation",
+    "offshore-bookkeeping-law-firm-settlement-disbursement-ledger",
+    "offshore-bookkeeping-law-firm-trust-merchant-fee-reconciliation",
+    "offshore-bookkeeping-logistics-fuel-surcharge-reconciliation",
+    "offshore-bookkeeping-manufacturing-tolling-inventory-reconciliation",
+    "offshore-bookkeeping-mobile-app-store-payout-reconciliation",
+    "offshore-bookkeeping-nonprofit-cost-reimbursement-grant-draw",
+    "offshore-bookkeeping-nonprofit-restricted-pledge-collection-rollforward",
+    "offshore-bookkeeping-property-owner-statement-tieout",
+    "offshore-bookkeeping-property-utility-rubs-reconciliation",
+    "offshore-bookkeeping-restaurant-delivery-marketplace-promotion-reconciliation",
+    "offshore-bookkeeping-restaurant-third-party-gift-card-redemption",
+    "offshore-bookkeeping-saas-seat-true-up-reconciliation",
+    "offshore-bookkeeping-saas-usage-based-billing-reconciliation",
+    "offshore-bookkeeping-wholesale-drop-ship-chargeback-review"
+  ],
+  "research": [
+    "offshore-bookkeeping-ar-dispute-code-consistency-research",
+    "offshore-bookkeeping-bank-feed-auto-match-override-research",
+    "offshore-bookkeeping-chart-of-accounts-mapping-drift-research",
+    "offshore-bookkeeping-payment-batch-evidence-completeness-research",
+    "offshore-bookkeeping-recurring-transaction-exception-rate-research"
+  ]
+}

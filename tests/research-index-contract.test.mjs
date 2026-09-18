@@ -59,11 +59,12 @@ function runValidator(overrides = {}, bodyTransform = (value) => value) {
   return spawnSync(process.execPath, [path.join(root, 'scripts/validate-content.mjs')], { cwd: directory, encoding: 'utf8' });
 }
 
-test('getContent loads every committed research file in descending, deterministic order', async () => {
+test('getContent loads every publishable research file in descending, deterministic order', async () => {
   const content = await loadContentModule();
   const markdown = fs.readdirSync(researchDir).filter((name) => /\.mdx?$/.test(name));
+  const withdrawn = content.withdrawnContentSlugs.research;
   const posts = content.getContent('research');
-  assert.equal(posts.length, markdown.length);
+  assert.equal(posts.length, markdown.length - withdrawn.length);
   for (let index = 1; index < posts.length; index += 1) {
     assert.ok(posts[index - 1].published >= posts[index].published, `${posts[index - 1].slug} precedes ${posts[index].slug}`);
   }
@@ -74,6 +75,21 @@ test('getContent loads every committed research file in descending, deterministi
     assert.deepEqual(content.getContent('research').map((post) => post.slug), posts.map((post) => post.slug));
   } finally {
     fs.readdirSync = originalReadDir;
+  }
+});
+
+test('the rejected September 18 batch remains preserved but cannot cross the central publication boundary', async () => {
+  const content = await loadContentModule();
+  assert.equal(content.withdrawnContentSlugs.blog.length, 24);
+  assert.equal(content.withdrawnContentSlugs.research.length, 5);
+
+  for (const kind of ['blog', 'research']) {
+    const published = new Set(content.getContent(kind).map((post) => post.slug));
+    for (const slug of content.withdrawnContentSlugs[kind]) {
+      assert.ok(fs.existsSync(path.join(root, 'content', kind, `${slug}.md`)), `${kind}/${slug} source is preserved`);
+      assert.equal(published.has(slug), false, `${kind}/${slug} is excluded from listings and static params`);
+      assert.equal(content.getPost(kind, slug), undefined, `${kind}/${slug} cannot resolve directly`);
+    }
   }
 });
 

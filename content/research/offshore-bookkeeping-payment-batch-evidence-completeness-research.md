@@ -77,15 +77,15 @@ Run consecutive periods long enough to observe ordinary variation, while repairi
 
 ## Sources and checked dates
 
-- [U.S. GAO, 2025 Green Book](https://www.gao.gov/greenbook) — checked September 18, 2026.
-- [PCAOB, AS 1105: Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) — checked September 18, 2026.
-- [PCAOB, AS 1215: Audit Documentation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215) — checked September 18, 2026.
-- [PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201) — checked September 18, 2026.
-- [NIST, Cybersecurity Framework 2.0](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20) — checked September 18, 2026.
-- [NIST, Data Integrity](https://csrc.nist.gov/glossary/term/data_integrity) — checked September 18, 2026.
-- [NIST, Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) — checked September 18, 2026.
-- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) — checked September 18, 2026.
-- [FASB, Concepts Statements](https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html) — checked September 18, 2026.
-- [IFRS Foundation, Conceptual Framework for Financial Reporting](https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/) — checked September 18, 2026.
-- [U.S. National Archives, Records Management](https://www.archives.gov/records-mgmt) — checked September 18, 2026.
-- [CISA, Require Multifactor Authentication](https://www.cisa.gov/secure-our-world/require-multifactor-authentication) — checked September 18, 2026.
+- [U.S. GAO, 2025 Green Book](https://www.gao.gov/greenbook) - checked September 18, 2026.
+- [PCAOB, AS 1105: Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) - checked September 18, 2026.
+- [PCAOB, AS 1215: Audit Documentation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215) - checked September 18, 2026.
+- [PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201) - checked September 18, 2026.
+- [NIST, Cybersecurity Framework 2.0](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20) - checked September 18, 2026.
+- [NIST, Data Integrity](https://csrc.nist.gov/glossary/term/data_integrity) - checked September 18, 2026.
+- [NIST, Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) - checked September 18, 2026.
+- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) - checked September 18, 2026.
+- [FASB, Concepts Statements](https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html) - checked September 18, 2026.
+- [IFRS Foundation, Conceptual Framework for Financial Reporting](https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/) - checked September 18, 2026.
+- [U.S. National Archives, Records Management](https://www.archives.gov/records-mgmt) - checked September 18, 2026.
+- [CISA, Require Multifactor Authentication](https://www.cisa.gov/secure-our-world/require-multifactor-authentication) - checked September 18, 2026.

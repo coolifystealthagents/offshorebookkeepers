@@ -23,6 +23,24 @@ export type ContentPost = {
 
 const required = ['title', 'description', 'published', 'category', 'featuredImage'] as const;
 
+
+// The withdrawal manifest is the single publication boundary shared with the validator.
+// Sources stay in the repository for editorial repair, but cannot enter public collections.
+type WithdrawalManifest = { blog: string[]; research: string[] };
+const withdrawalManifestPath = path.join(process.cwd(), 'content', 'withdrawn.json');
+const parsedWithdrawalManifest = JSON.parse(fs.readFileSync(withdrawalManifestPath, 'utf8')) as Partial<WithdrawalManifest>;
+if (!Array.isArray(parsedWithdrawalManifest.blog) || !Array.isArray(parsedWithdrawalManifest.research)) {
+  throw new Error('content/withdrawn.json must define blog and research arrays');
+}
+export const withdrawnContentSlugs: WithdrawalManifest = {
+  blog: parsedWithdrawalManifest.blog,
+  research: parsedWithdrawalManifest.research,
+};
+const withdrawnSlugSets: Partial<Record<ContentKind, ReadonlySet<string>>> = {
+  blog: new Set(withdrawnContentSlugs.blog),
+  research: new Set(withdrawnContentSlugs.research),
+};
+
 // The August 10 batch is an immutable public-date cohort. Keep its manifest
 // order ahead of older same-date posts while retaining a deterministic order
 // for every other equal-date group.
@@ -401,6 +419,7 @@ export function getContent(kind: ContentKind): ContentPost[] {
   if (!fs.existsSync(directory)) return [];
   return fs.readdirSync(directory)
     .filter((file) => /\.(md|mdx)$/.test(file))
+    .filter((file) => !withdrawnSlugSets[kind]?.has(file.replace(/\.(md|mdx)$/, '')))
     .map((file) => parseFile(path.join(directory, file)))
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);

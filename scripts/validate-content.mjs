@@ -6,6 +6,25 @@ const failures = [];
 const requiredText = ['title', 'description', 'published', 'updated', 'category', 'featuredImage'];
 const isoDate = /^\d{4}-\d{2}-\d{2}$/;
 
+const withdrawalManifestPath = path.join(process.cwd(), 'content', 'withdrawn.json');
+const withdrawnContentSlugs = fs.existsSync(withdrawalManifestPath)
+  ? JSON.parse(fs.readFileSync(withdrawalManifestPath, 'utf8'))
+  : { blog: [], research: [] };
+for (const kind of ['blog', 'research']) {
+  const slugs = withdrawnContentSlugs[kind];
+  if (!Array.isArray(slugs) || slugs.some((slug) => typeof slug !== 'string' || !slug.trim())) {
+    failures.push(`content/withdrawn.json: ${kind} must be a non-empty string array`);
+    withdrawnContentSlugs[kind] = [];
+    continue;
+  }
+  if (new Set(slugs).size !== slugs.length) failures.push(`content/withdrawn.json: duplicate ${kind} slugs`);
+  for (const slug of slugs) {
+    if (!fs.existsSync(path.join(process.cwd(), 'content', kind, `${slug}.md`))) {
+      failures.push(`content/withdrawn.json: missing preserved source content/${kind}/${slug}.md`);
+    }
+  }
+}
+
 function parseScalar(block, key) {
   const match = block.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'));
   if (!match) return '';
@@ -66,7 +85,9 @@ function isValidIsoDate(value) {
 
 for (const kind of ['blog', 'research', 'alternatives']) {
   const dir = path.join(process.cwd(), 'content', kind);
+  const withdrawnForKind = new Set(withdrawnContentSlugs[kind] || []);
   for (const file of fs.readdirSync(dir).filter((name) => /\.mdx?$/.test(name))) {
+    if (withdrawnForKind.has(file.replace(/\.(md|mdx)$/, ''))) continue;
     const label = `${kind}/${file}`;
     const relativeFile = path.join('content', kind, file);
     const raw = fs.readFileSync(path.join(dir, file), 'utf8');
