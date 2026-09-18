@@ -1,0 +1,290 @@
+[
+  {
+    "family": "SaaS bookkeeping",
+    "topic": "Reconcile usage-based SaaS billing before the invoice closes",
+    "title": "Reconcile usage-based SaaS billing before the invoice closes",
+    "slug": "offshore-bookkeeping-saas-usage-based-billing-reconciliation",
+    "route": "/blog/offshore-bookkeeping-saas-usage-based-billing-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-usage-based-billing-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-saas-usage-based-billing-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-subscription-revenue-reconciliation.webp",
+    "sources": [
+      {
+        "name": "FASB revenue recognition resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/projects/revenue-recognition-implementation.html"
+      },
+      {
+        "name": "NIST log management guidance",
+        "url": "https://csrc.nist.gov/pubs/sp/800/92/final"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "46fd40b06a7a5559962f079fb8191cdcb3f088aaa1738de68c9698f64920acb1",
+    "wordCount": 1080
+  },
+  {
+    "family": "Restaurant bookkeeping",
+    "topic": "Reconcile restaurant delivery promotions from order to payout",
+    "title": "Reconcile restaurant delivery promotions from order to payout",
+    "slug": "offshore-bookkeeping-restaurant-delivery-marketplace-promotion-reconciliation",
+    "route": "/blog/offshore-bookkeeping-restaurant-delivery-marketplace-promotion-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-restaurant-delivery-marketplace-promotion-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-restaurant-delivery-marketplace-promotion-reconciliation.md",
+    "featuredImage": "/thumbnails/ecommerce-bookkeeping-reconciliation-workflow.webp",
+    "sources": [
+      {
+        "name": "IRS restaurant tax center",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/restaurants-tax-center"
+      },
+      {
+        "name": "FTC advertising guidance",
+        "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "92eea09904ff7060419f979bc1135f329d4de8eef3f1e08ad2f3cb124f2752e4",
+    "wordCount": 1056
+  },
+  {
+    "family": "Construction bookkeeping",
+    "topic": "Check construction equipment rental usage before approving the cost",
+    "title": "Check construction equipment rental usage before approving the cost",
+    "slug": "offshore-bookkeeping-construction-equipment-rental-usage-check",
+    "route": "/blog/offshore-bookkeeping-construction-equipment-rental-usage-check",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-construction-equipment-rental-usage-check",
+    "sourcePath": "content/blog/offshore-bookkeeping-construction-equipment-rental-usage-check.md",
+    "featuredImage": "/thumbnails/construction-job-costing-control-research.webp",
+    "sources": [
+      {
+        "name": "FAR equipment ownership and operating expense guidance",
+        "url": "https://www.acquisition.gov/far/31.105"
+      },
+      {
+        "name": "OSHA construction equipment resources",
+        "url": "https://www.osha.gov/construction"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "e186777592d5650647af93eae6bdab856d578daa07a99eb5cb5a334240c5dd30",
+    "wordCount": 1071
+  },
+  {
+    "family": "Nonprofit bookkeeping",
+    "topic": "Roll restricted nonprofit pledges from promise through collection",
+    "title": "Roll restricted nonprofit pledges from promise through collection",
+    "slug": "offshore-bookkeeping-nonprofit-restricted-pledge-collection-rollforward",
+    "route": "/blog/offshore-bookkeeping-nonprofit-restricted-pledge-collection-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-restricted-pledge-collection-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-nonprofit-restricted-pledge-collection-rollforward.md",
+    "featuredImage": "/thumbnails/nonprofit-fund-accounting-support-research.webp",
+    "sources": [
+      {
+        "name": "FASB not-for-profit accounting resources",
+        "url": "https://www.fasb.org/not-for-profit-advisory-committee"
+      },
+      {
+        "name": "IRS charitable organizations resources",
+        "url": "https://www.irs.gov/charities-non-profits/charitable-organizations"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "b3f71715028e2d623dce8d3b288643df4fe4a16a336afaba14e3ddcf4d9ceab2",
+    "wordCount": 1064
+  },
+  {
+    "family": "Law firm bookkeeping",
+    "topic": "Build a law-firm settlement disbursement ledger with reviewable evidence",
+    "title": "Build a law-firm settlement disbursement ledger with reviewable evidence",
+    "slug": "offshore-bookkeeping-law-firm-settlement-disbursement-ledger",
+    "route": "/blog/offshore-bookkeeping-law-firm-settlement-disbursement-ledger",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-law-firm-settlement-disbursement-ledger",
+    "sourcePath": "content/blog/offshore-bookkeeping-law-firm-settlement-disbursement-ledger.md",
+    "featuredImage": "/thumbnails/law-firm-trust-account-bookkeeping-boundaries.webp",
+    "sources": [
+      {
+        "name": "ABA Model Rule 1.15",
+        "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/"
+      },
+      {
+        "name": "ABA client protection resources",
+        "url": "https://www.americanbar.org/groups/professional_responsibility/resources/client-protection/"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "bd44ff88764a103ff0eddc9ec52f48893ef03d3345c8b10ab63fccc5c398bcd9",
+    "wordCount": 1081
+  },
+  {
+    "family": "Property bookkeeping",
+    "topic": "Reconcile tenant utility allocations before posting RUBS charges",
+    "title": "Reconcile tenant utility allocations before posting RUBS charges",
+    "slug": "offshore-bookkeeping-property-utility-rubs-reconciliation",
+    "route": "/blog/offshore-bookkeeping-property-utility-rubs-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-utility-rubs-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-property-utility-rubs-reconciliation.md",
+    "featuredImage": "/thumbnails/property-bookkeeping-rent-roll-controls.webp",
+    "sources": [
+      {
+        "name": "HUD multifamily housing resources",
+        "url": "https://www.hud.gov/hud-partners/multifamily"
+      },
+      {
+        "name": "EPA WaterSense resources",
+        "url": "https://www.epa.gov/watersense"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "3aa8116d965bd1d2c6e7f32276b84d27f98dc79a647ab55a6ad5fd1ec306b217",
+    "wordCount": 1063
+  },
+  {
+    "family": "Manufacturing bookkeeping",
+    "topic": "Reconcile toll-manufacturing inventory across owner and processor records",
+    "title": "Reconcile toll-manufacturing inventory across owner and processor records",
+    "slug": "offshore-bookkeeping-manufacturing-tolling-inventory-reconciliation",
+    "route": "/blog/offshore-bookkeeping-manufacturing-tolling-inventory-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-manufacturing-tolling-inventory-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-manufacturing-tolling-inventory-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-inventory-count-handoff.webp",
+    "sources": [
+      {
+        "name": "FASB inventory project resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/projects/inventory.html"
+      },
+      {
+        "name": "NIST manufacturing resources",
+        "url": "https://www.nist.gov/mep"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "12361f9f7fd3081c18c788629cd37401c6ee18a3823fba33b0771b9dffd00dc1",
+    "wordCount": 1062
+  },
+  {
+    "family": "Healthcare bookkeeping",
+    "topic": "Reconcile healthcare ERA takebacks without rewriting prior receipts",
+    "title": "Reconcile healthcare ERA takebacks without rewriting prior receipts",
+    "slug": "offshore-bookkeeping-healthcare-era-takeback-reconciliation",
+    "route": "/blog/offshore-bookkeeping-healthcare-era-takeback-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-healthcare-era-takeback-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-healthcare-era-takeback-reconciliation.md",
+    "featuredImage": "/thumbnails/clinic-bookkeeping-reconciliation-research.webp",
+    "sources": [
+      {
+        "name": "CMS electronic billing and EDI transactions",
+        "url": "https://www.cms.gov/medicare/coding-billing/electronic-billing"
+      },
+      {
+        "name": "HHS minimum necessary guidance",
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "54ba43c13000a3fb872be06f97362401d91cd1d982f4c40f225d4aeb837b42b8",
+    "wordCount": 1077
+  },
+  {
+    "family": "Agency bookkeeping",
+    "topic": "Reconcile agency media prepayments to campaigns, delivery, and client billing",
+    "title": "Reconcile agency media prepayments to campaigns, delivery, and client billing",
+    "slug": "offshore-bookkeeping-agency-media-prepayment-reconciliation",
+    "route": "/blog/offshore-bookkeeping-agency-media-prepayment-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-agency-media-prepayment-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-agency-media-prepayment-reconciliation.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-margin-bridge.webp",
+    "sources": [
+      {
+        "name": "FTC digital advertising guidance",
+        "url": "https://www.ftc.gov/business-guidance/advertising-marketing/online-advertising-marketing"
+      },
+      {
+        "name": "FASB revenue recognition resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/projects/revenue-recognition-implementation.html"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "65a33da43332b92eaba79e53b9cbab9925567601cf72adac3c033b447fef72ae",
+    "wordCount": 1072
+  },
+  {
+    "family": "SaaS bookkeeping",
+    "topic": "Reconcile mobile app-store payouts to subscriptions, fees, tax, and refunds",
+    "title": "Reconcile mobile app-store payouts to subscriptions, fees, tax, and refunds",
+    "slug": "offshore-bookkeeping-mobile-app-store-payout-reconciliation",
+    "route": "/blog/offshore-bookkeeping-mobile-app-store-payout-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-mobile-app-store-payout-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-mobile-app-store-payout-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-subscription-revenue-reconciliation.webp",
+    "sources": [
+      {
+        "name": "Apple developer financial reports help",
+        "url": "https://developer.apple.com/help/app-store-connect/view-and-download-financial-reports/overview-of-financial-reports/"
+      },
+      {
+        "name": "Google Play financial reports documentation",
+        "url": "https://support.google.com/googleplay/android-developer/answer/6135870"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "7212f71108af35cb290afecf5bb7e1baac71493ae78b627b88c27c3e8ec1c734",
+    "wordCount": 1073
+  },
+  {
+    "family": "Logistics bookkeeping",
+    "topic": "Reconcile logistics fuel surcharges to shipments and contract indexes",
+    "title": "Reconcile logistics fuel surcharges to shipments and contract indexes",
+    "slug": "offshore-bookkeeping-logistics-fuel-surcharge-reconciliation",
+    "route": "/blog/offshore-bookkeeping-logistics-fuel-surcharge-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-logistics-fuel-surcharge-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-logistics-fuel-surcharge-reconciliation.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-cost-source-map.webp",
+    "sources": [
+      {
+        "name": "U.S. EIA diesel fuel data",
+        "url": "https://www.eia.gov/petroleum/gasdiesel/"
+      },
+      {
+        "name": "FMCSA financial responsibility guidance",
+        "url": "https://www.fmcsa.dot.gov/registration/insurance-filing-requirements"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "556a4737dc8addf796bcf850fb6458b04eeda4abca739ae0b43f35b5f24414c4",
+    "wordCount": 1068
+  },
+  {
+    "family": "Franchise bookkeeping",
+    "topic": "Tie franchise system sales to royalty invoices and cash",
+    "title": "Tie franchise system sales to royalty invoices and cash",
+    "slug": "offshore-bookkeeping-franchise-system-sales-royalty-tieout",
+    "route": "/blog/offshore-bookkeeping-franchise-system-sales-royalty-tieout",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-franchise-system-sales-royalty-tieout",
+    "sourcePath": "content/blog/offshore-bookkeeping-franchise-system-sales-royalty-tieout.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-franchise-royalty-reconciliation.png",
+    "sources": [
+      {
+        "name": "FTC Franchise Rule compliance guide",
+        "url": "https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide"
+      },
+      {
+        "name": "SBA franchise business guidance",
+        "url": "https://www.sba.gov/business-guide/plan-your-business/buy-existing-business-or-franchise"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "bdaefe840b2638b3aa234062d275080e84bfa09ca35f5a481ced2dc5475b6c76",
+    "wordCount": 1067
+  }
+]
