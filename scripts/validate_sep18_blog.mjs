@@ -34,7 +34,7 @@ for (const item of manifest) {
   hashes.add(hash);
   item.contentHash = hash;
   item.wordCount = words;
-  item.contentCommit = contentCommit;
+  item.contentCommit ||= contentCommit;
   item.status = 'validated';
 }
 const inventory = fs.readdirSync(path.join(process.cwd(), 'content/blog')).filter(f => f.endsWith('.md'));
