@@ -19,10 +19,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "46fd40b06a7a5559962f079fb8191cdcb3f088aaa1738de68c9698f64920acb1",
     "wordCount": 1080,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-usage-based-billing-reconciliation",
+    "verificationTime": "2026-09-18T16:03:36.316Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog/page/2"
+    }
   },
   {
     "family": "Restaurant bookkeeping",
@@ -44,10 +65,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "92eea09904ff7060419f979bc1135f329d4de8eef3f1e08ad2f3cb124f2752e4",
     "wordCount": 1056,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-restaurant-delivery-marketplace-promotion-reconciliation",
+    "verificationTime": "2026-09-18T16:03:36.540Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "Construction bookkeeping",
@@ -69,10 +111,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "e186777592d5650647af93eae6bdab856d578daa07a99eb5cb5a334240c5dd30",
     "wordCount": 1071,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-construction-equipment-rental-usage-check",
+    "verificationTime": "2026-09-18T16:03:36.693Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "Nonprofit bookkeeping",
@@ -94,10 +157,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "b3f71715028e2d623dce8d3b288643df4fe4a16a336afaba14e3ddcf4d9ceab2",
     "wordCount": 1064,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-restricted-pledge-collection-rollforward",
+    "verificationTime": "2026-09-18T16:03:36.868Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "Law firm bookkeeping",
@@ -119,10 +203,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "bd44ff88764a103ff0eddc9ec52f48893ef03d3345c8b10ab63fccc5c398bcd9",
     "wordCount": 1081,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-law-firm-settlement-disbursement-ledger",
+    "verificationTime": "2026-09-18T16:03:37.005Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "Property bookkeeping",
@@ -144,10 +249,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "3aa8116d965bd1d2c6e7f32276b84d27f98dc79a647ab55a6ad5fd1ec306b217",
     "wordCount": 1063,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-utility-rubs-reconciliation",
+    "verificationTime": "2026-09-18T16:03:37.163Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "Manufacturing bookkeeping",
@@ -169,10 +295,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "12361f9f7fd3081c18c788629cd37401c6ee18a3823fba33b0771b9dffd00dc1",
     "wordCount": 1062,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-manufacturing-tolling-inventory-reconciliation",
+    "verificationTime": "2026-09-18T16:03:37.313Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "Healthcare bookkeeping",
@@ -194,10 +341,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "54ba43c13000a3fb872be06f97362401d91cd1d982f4c40f225d4aeb837b42b8",
     "wordCount": 1077,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-healthcare-era-takeback-reconciliation",
+    "verificationTime": "2026-09-18T16:03:37.457Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "Agency bookkeeping",
@@ -219,10 +387,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "65a33da43332b92eaba79e53b9cbab9925567601cf72adac3c033b447fef72ae",
     "wordCount": 1072,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-agency-media-prepayment-reconciliation",
+    "verificationTime": "2026-09-18T16:03:37.597Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "SaaS bookkeeping",
@@ -244,10 +433,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "7212f71108af35cb290afecf5bb7e1baac71493ae78b627b88c27c3e8ec1c734",
     "wordCount": 1073,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-mobile-app-store-payout-reconciliation",
+    "verificationTime": "2026-09-18T16:03:37.765Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "Logistics bookkeeping",
@@ -269,10 +479,31 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "556a4737dc8addf796bcf850fb6458b04eeda4abca739ae0b43f35b5f24414c4",
     "wordCount": 1068,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-logistics-fuel-surcharge-reconciliation",
+    "verificationTime": "2026-09-18T16:03:37.942Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   },
   {
     "family": "Franchise bookkeeping",
@@ -294,9 +525,30 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "validated",
+    "status": "live-verified",
     "contentHash": "bdaefe840b2638b3aa234062d275080e84bfa09ca35f5a481ced2dc5475b6c76",
     "wordCount": 1067,
-    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c"
+    "contentCommit": "3177ae76befa4e1acb4e5691c630e923640c6f3c",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-franchise-system-sales-royalty-tieout",
+    "verificationTime": "2026-09-18T16:03:38.119Z",
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gbo5dl4itbxtuaeepr4kj3t1",
+      "commit": "3cf04e852594c1ea7da59b65fb08c87a5e6524c8",
+      "status": "finished",
+      "finishedAt": "2026-09-18T15:53:51.000000Z"
+    },
+    "verification": {
+      "http200": true,
+      "title": true,
+      "uniqueMarker": true,
+      "canonical": true,
+      "visibleDate": true,
+      "datePublished": true,
+      "featuredImage": true,
+      "blogIndex": true,
+      "sitemap": true,
+      "blogIndexPath": "/blog"
+    }
   }
 ]
