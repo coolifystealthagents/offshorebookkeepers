@@ -83,9 +83,9 @@
     ],
     "contentHash": "8da167e6d91e301e3d4c774f40ebd4d15cd3adfb067cd441b4e76941e3fa3b10",
     "commitSHA": "48fe4ce17b32318afb7343a2825635c06df7d875",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {"productionCommitSHA":"3cf04e852594c1ea7da59b65fb08c87a5e6524c8","coolifyApplicationUUID":"qvifib30a3teww1rycuecuj9","deploymentUUID":"gbo5dl4itbxtuaeepr4kj3t1","checks":["HTTP 200","title and unique body","canonical","datePublished","structured data","featured image","sitemap"]},
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-bank-feed-auto-match-override-research",
+    "verifiedAt": "2026-09-18T16:02:01Z"
   },
   {
     "family": "daily-research",
@@ -171,9 +171,9 @@
     ],
     "contentHash": "99b8c02cf879a64049c01ad544c3eb061698fe6e64306329c2e6cc7131d02148",
     "commitSHA": "48fe4ce17b32318afb7343a2825635c06df7d875",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {"productionCommitSHA":"3cf04e852594c1ea7da59b65fb08c87a5e6524c8","coolifyApplicationUUID":"qvifib30a3teww1rycuecuj9","deploymentUUID":"gbo5dl4itbxtuaeepr4kj3t1","checks":["HTTP 200","title and unique body","canonical","datePublished","structured data","featured image","sitemap"]},
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-chart-of-accounts-mapping-drift-research",
+    "verifiedAt": "2026-09-18T16:02:01Z"
   },
   {
     "family": "daily-research",
@@ -259,9 +259,9 @@
     ],
     "contentHash": "7e76211c54e9430076276cbf76ae1fbc8332f2963d505bdcb77bd1229fcfecac",
     "commitSHA": "48fe4ce17b32318afb7343a2825635c06df7d875",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {"productionCommitSHA":"3cf04e852594c1ea7da59b65fb08c87a5e6524c8","coolifyApplicationUUID":"qvifib30a3teww1rycuecuj9","deploymentUUID":"gbo5dl4itbxtuaeepr4kj3t1","checks":["HTTP 200","title and unique body","canonical","datePublished","structured data","featured image","sitemap"]},
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-recurring-transaction-exception-rate-research",
+    "verifiedAt": "2026-09-18T16:02:01Z"
   },
   {
     "family": "daily-research",
@@ -347,9 +347,9 @@
     ],
     "contentHash": "b5828ae81b8217dc120ff0f3a965f005218f2e894fde4386c2dd50c3c577e34a",
     "commitSHA": "48fe4ce17b32318afb7343a2825635c06df7d875",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {"productionCommitSHA":"3cf04e852594c1ea7da59b65fb08c87a5e6524c8","coolifyApplicationUUID":"qvifib30a3teww1rycuecuj9","deploymentUUID":"gbo5dl4itbxtuaeepr4kj3t1","checks":["HTTP 200","title and unique body","canonical","datePublished","structured data","featured image","sitemap"]},
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-payment-batch-evidence-completeness-research",
+    "verifiedAt": "2026-09-18T16:02:01Z"
   },
   {
     "family": "daily-research",
@@ -435,8 +435,8 @@
     ],
     "contentHash": "d39a8e6b668587f2536e012a27441b37bae75e54870375a1f796678366b8b28e",
     "commitSHA": "48fe4ce17b32318afb7343a2825635c06df7d875",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {"productionCommitSHA":"3cf04e852594c1ea7da59b65fb08c87a5e6524c8","coolifyApplicationUUID":"qvifib30a3teww1rycuecuj9","deploymentUUID":"gbo5dl4itbxtuaeepr4kj3t1","checks":["HTTP 200","title and unique body","canonical","datePublished","structured data","featured image","sitemap"]},
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-ar-dispute-code-consistency-research",
+    "verifiedAt": "2026-09-18T16:02:01Z"
   }
 ]
