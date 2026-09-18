@@ -1,10 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 
 const date = '2026-09-18';
 const manifestPath = path.join(process.cwd(), '.paperclip/daily-content', date, 'blog.json');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+const contentCommit = execFileSync('git', ['rev-parse', 'HEAD'], {encoding:'utf8'}).trim();
 const errors = [];
 if (manifest.length !== 12) errors.push(`expected 12 manifest entries, found ${manifest.length}`);
 const slugs = new Set();
@@ -32,6 +34,8 @@ for (const item of manifest) {
   hashes.add(hash);
   item.contentHash = hash;
   item.wordCount = words;
+  item.contentCommit = contentCommit;
+  item.status = 'validated';
 }
 const inventory = fs.readdirSync(path.join(process.cwd(), 'content/blog')).filter(f => f.endsWith('.md'));
 for (const slug of slugs) if (inventory.filter(f => f === `${slug}.md`).length !== 1) errors.push(`${slug}: inventory collision`);
