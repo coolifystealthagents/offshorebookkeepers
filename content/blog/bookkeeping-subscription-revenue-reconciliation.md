@@ -25,7 +25,7 @@ Break subscription revenue reconciliation into receive, check, record, compare, 
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Join the subscription roster, plan and contract terms, invoices, credits, cancellations, processor settlements, revenue schedule, and ledger posting through stable customer and invoice IDs. The client may consult [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when setting retention rules.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete subscription revenue reconciliatio
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Queue plan changes with missing effective dates, failed payments, credits outside the billing platform, duplicate subscriptions, and revenue schedules that disagree with contract periods. The bookkeeper traces each break; finance approves recognition treatment, write-offs, and manual adjustments.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Test a monthly renewal, an annual prepayment, an upgrade, and a cancellation with credit. Reconcile billing through cash and the revenue schedule for those cases before adding usage charges, multiple currencies, or bundled products.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Handoff should bridge active subscriptions and billing to cash, deferred balance, recognized amount, credits, failed collections, and unresolved contract questions. The [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) describe complementary workflow support.

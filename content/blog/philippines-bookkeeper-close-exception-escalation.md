@@ -25,6 +25,9 @@ Give each exception a due date and escalation level. A missing document may go t
 Do not replace the original note when a decision arrives. Add the response, approver, date, and resulting entry or action. History is part of the evidence.
 
 ## Feed improvements back
+
+After the reviewer resolves an exception, record whether the cause was missing data, unclear ownership, late evidence, access, or a procedure gap. Assign any process update to an owner and due date, but keep that improvement task separate from the accounting decision that closed the item.
+
 ## Show the decision in an escalation
 State the account, period, amount, source checked, question, deadline, and next action. “Accrual missing” is weak; “March hosting invoice expected at $2,400, vendor statement attached, service confirmed, approve accrual or identify another estimate by close day four” is actionable. The bookkeeper prepares the packet and holds the entry; the authorized reviewer chooses treatment.
 

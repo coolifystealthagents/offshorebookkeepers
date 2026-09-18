@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Revenue Review"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-unbilled-revenue-review.svg"
 takeaways: ["Identify completed work not yet invoiced and connect it to delivery evidence.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect cutoff, milestone, approved time, delivery record, billing status, and p
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Tie the unbilled schedule to approved milestones, delivery evidence, contract terms, invoices raised after cutoff, and the related ledger accounts. Keep disputed milestones and missing acceptance records in an open queue rather than forcing them into the billed total.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+A bookkeeper can organize contracts and calculate amounts under an approved method. The client owner decides whether performance criteria are met, while the controller or adviser approves revenue treatment and any journal.
 
 ## Close with a useful handoff
 

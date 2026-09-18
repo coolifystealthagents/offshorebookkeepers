@@ -25,7 +25,7 @@ Break ecommerce payout cutoff into receive, check, record, compare, document, an
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Save the platform settlement detail, order and refund activity, processor fees, reserve movements, payout identifier, bank receipt, and ledger batch for each cutoff bridge. The merchant may use [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when defining its retention rules.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete ecommerce payout cutoff without gi
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Separate in-transit payouts, settlements spanning periods, withheld reserves, chargebacks, and bank receipts lacking a settlement ID. The preparer maintains the bridge; the finance reviewer approves cutoff entries and decides how unusual platform deductions are classified.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Test one normal payout, one payout delayed across month end, and one settlement containing refunds or reserve activity. Trace gross order activity to the net bank deposit and assess timing breaks before onboarding additional storefronts or processors.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Provide a platform-by-platform cutoff bridge with last captured transaction, unsettled gross sales, refunds, fees, reserves, expected payout date, and ledger entry reference. Related close and review workflows appear in the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support).

@@ -25,7 +25,7 @@ Break intercompany balance confirmation into receive, check, record, compare, do
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Pair each entity's ledger extract with invoice or recharge support, currency, transaction date, settlement record, and counterparty confirmation. Each group should set retention requirements under its own policy, consulting [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) where applicable.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete intercompany balance confirmation 
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Log one-sided entries, invoice timing gaps, currency differences, disputed recharges, and settlements posted to the wrong entity pair. Preparers on both sides attach evidence; entity controllers approve corrections, allocations, and foreign-exchange treatment.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Confirm one high-volume entity pair and one cross-currency pair before rolling out the protocol. Require both ledgers to agree on document identity and period, not merely net balance, so offsetting errors remain visible.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Produce a bilateral confirmation showing due-to and due-from balances, currency, matched items, reconciling items, settlement plan, and sign-off from each entity. See the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) for adjacent workflow design.

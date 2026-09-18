@@ -41,4 +41,4 @@ Start bookkeeping SOP with representative examples and a small live batch. Revie
 
 ## Make the handoff explicit
 
-A useful handoff states the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. Keep a short weekly note for bookkeeping SOP that lists completed work, open exceptions, and decisions needed. For role planning, see the [monthly close support service](/services/operations-support) and the [reporting and review service](/services/reporting-and-qa). These links are planning references, not substitutes for a written client process.
+A useful handoff states the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. Keep a short weekly note for bookkeeping SOP that lists completed work, open exceptions, and decisions needed. For role planning, see the [monthly close support service](/services/month-end-close-support) and the [reporting and review service](/services/management-reporting-support). These links are planning references, not substitutes for a written client process.

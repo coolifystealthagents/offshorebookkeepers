@@ -1,5 +1,5 @@
 /* unique-style-profile: offshorebookkeepers-10 */
-.page{--ink:#092329;--accent:#158095;--canvas:#f1fbfc;--soft:#c8ebef;--deep:#0c4d59;--line:#c8ebef;background:var(--canvas);color:var(--ink);font-family:'Arial Narrow', Arial, sans-serif}
+.page{--ink:#092329;--accent:#0b6575;--canvas:#f1fbfc;--soft:#c8ebef;--deep:#0c4d59;--line:#c8ebef;background:var(--canvas);color:var(--ink);font-family:'Arial Narrow', Arial, sans-serif}
 .shell{width:min(996px,calc(100% - 42px));margin-inline:auto}
 .hero{padding:72px 0 84px;background:linear-gradient(168deg,var(--ink),var(--deep) 58%,var(--accent));color:#fff;clip-path:polygon(0 0,100% 0,100% 92%,0 100%)}
 .hero h1{max-width:895px;margin:14px 0 21px;font-size:clamp(42px,5.2vw,70px);line-height:1.0;letter-spacing:-.035em}

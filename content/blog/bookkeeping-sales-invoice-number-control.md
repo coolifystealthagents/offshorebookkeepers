@@ -25,7 +25,7 @@ Break sales invoice numbering controls into receive, check, record, compare, doc
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+For every gap or duplicate, retain the invoice register, sequence settings, void or deletion record, replacement invoice, customer transaction, and ledger reference. The issuer can consider [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when defining retention policy.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete sales invoice numbering controls w
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Classify sequence breaks as approved voids, canceled drafts, system migration effects, duplicate numbers, or unexplained gaps. The bookkeeper documents the history; sales operations or finance authorizes cancellations, renumbering, and corrections that affect customers or revenue records.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Review a continuous run containing an issued invoice, a void, a credit, and a regenerated document. Ensure each identifier remains unique and traceable before introducing separate sequences for entities, locations, or billing systems.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Provide the reviewer with sequence range, issued count, voids, credits, duplicates, gaps, explanations, and system-setting changes for the period. Related operations and QA context appears in the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support).

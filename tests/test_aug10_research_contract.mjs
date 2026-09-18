@@ -17,11 +17,12 @@ const detailRoute = fs.readFileSync(path.join(root, 'app/research/[slug]/page.ts
 const indexRoute = fs.readFileSync(path.join(root, 'app/research/page.tsx'), 'utf8');
 const loader = fs.readFileSync(path.join(root, 'lib/content.ts'), 'utf8');
 const sitemap = fs.readFileSync(path.join(root, 'app/sitemap.xml/route.ts'), 'utf8');
-assert.match(detailRoute, /datePublished:post\.published/);
-assert.match(detailRoute, /Verified \{post\.updated\}/);
-assert.match(detailRoute, /alternates:\{canonical:`\/research\/\$\{slug\}`/);
-assert.match(sitemap, /research\.map\(r=>`\/research\/\$\{r\.slug\}`\)/);
-assert.match(loader, /\.sort\(\(a, b\) => b\.published\.localeCompare\(a\.published\)\)/);
+assert.match(detailRoute, /datePublished:\s*post\.published/);
+assert.match(detailRoute, /dateModified:\s*post\.updated/);
+assert.match(detailRoute, /Updated <time dateTime=\{post\.updated\}>/);
+assert.match(detailRoute, /alternates:\s*\{\s*canonical:\s*`\/research\/\$\{slug\}`/);
+assert.match(sitemap, /research\.map\(\s*(?:\(\s*)?([a-zA-Z_$][\w$]*)\s*\)?\s*=>\s*`\/research\/\$\{\1\.slug\}`\s*\)/);
+assert.doesNotMatch(loader, /Primary date ordering remains/);
 assert.match(indexRoute, /getContent\('research'\)/);
 
 function sourceDate(file) {

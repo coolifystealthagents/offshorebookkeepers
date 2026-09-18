@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Hiring Controls"
 type: "research"
-featuredImage: "/thumbnails/global-team.webp"
+featuredImage: "/thumbnails/offshore-bookkeeping-time-zone-handoff-research.webp"
 takeaways: ["Continuity is demonstrated by a tested handoff, not a promise of availability.", "Critical records need recoverability and an identified alternate owner.", "The test should include access, evidence, and review decisions."]
 sources: [{"name":"NIST, Contingency Planning Guide","url":"https://csrc.nist.gov/pubs/sp/800/34/r1/final"},{"name":"NIST SP 800-53 Rev. 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
+sourceNotes: [{"claim":"The source list includes NIST, Contingency Planning Guide as public guidance relevant to hiring controls.","sourceUrls":["https://csrc.nist.gov/pubs/sp/800/34/r1/final"]},{"claim":"NIST SP 800-53 Rev. 5 is listed to frame review questions about continuity evidence for an outsourced bookkeeping function.","sourceUrls":["https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]},{"claim":"U.S. GAO, Standards for Internal Control provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]}]
 faqs: [{"question":"What should a continuity test cover?","answer":"Test access, location of current evidence, role instructions, escalation, and review of a representative open item."},{"question":"Does a backup person need every permission?","answer":"They need the minimum access required for the tested continuity scenario, subject to owner approval."}]
 ---
 ## Research question

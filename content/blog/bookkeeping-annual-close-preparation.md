@@ -25,7 +25,7 @@ Break annual close preparation into receive, check, record, compare, document, a
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Build the year-end file around signed bank statements, subledger tie-outs, tax forms, debt schedules, fixed-asset activity, and links to final ledger balances. The business can use the [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when defining how long its supporting records are retained.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete annual close preparation without g
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Keep a year-end issues list for unreconciled accounts, missing statements, stale balances, unposted adjustments, and questions reserved for the CPA. The preparer updates evidence and aging; the controller or external accountant records conclusions and approves any closing entry.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Dry-run the close package before year end using one cash account, one balance-sheet schedule, and one high-activity expense area. A reviewer can then identify broken links, inconsistent period labels, and missing sign-offs before the final ledger is locked.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Deliver a year-end index showing each account, preparer, reconciliation location, open question, proposed adjustment, reviewer, and completion status. Related close sequencing and quality-review options are described in the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support).

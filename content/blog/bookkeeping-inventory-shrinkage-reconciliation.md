@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Inventory"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-inventory-shrinkage-reconciliation.svg"
 takeaways: ["Compare count results, movement records, and the ledger before an adjustment.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect count date, location, quantity, movement, damage, and variance evidence.
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Bridge book quantity to the approved physical count by SKU and location, preserving count sheets, movements during the count window, units of measure, and costing data. Separate timing and master-data errors from unexplained quantity loss before calculating a proposed adjustment.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+Bookkeeping support may compile count variances and trace receiving or shipment records. Operations validates physical causes, and authorized finance leadership approves shrinkage thresholds, reserve or write-off treatment, and inventory entries independently of the counter and preparer.
 
 ## Close with a useful handoff
 

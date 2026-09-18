@@ -18,7 +18,7 @@ if (new Set(hashes).size !== 17) fail('source content hashes are not unique');
 for (const record of records) {
   const source = fs.readFileSync(record.sourcePath, 'utf8');
   if (!source.includes('published: "2026-09-04"') || !source.includes('September 4, 2026')) fail(`${record.sourcePath} has incorrect dates`);
-  if (/[—–]/.test(source)) fail(`${record.sourcePath} contains an em or en dash`);
+  if (/[\u2013\u2014]/u.test(source)) fail(`${record.sourcePath} contains an em or en dash`);
   const image = source.match(/^featuredImage: "([^"]+)"/m)?.[1];
   if (!image || !fs.existsSync(`public${image}`)) fail(`${record.sourcePath} lacks an existing asset`);
   const otherFiles = [...fs.readdirSync('content/blog'), ...fs.readdirSync('content/research')].filter((name) => name === `${record.slug}.md`);

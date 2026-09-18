@@ -25,7 +25,7 @@ Break multi-currency reconciliation into receive, check, record, compare, docume
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Preserve native-currency statements, transaction currency, functional-currency posting, rate source and date, conversion calculation, settlement evidence, and ledger entry. The company should define retention with its advisers, using [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) only where relevant.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete multi-currency reconciliation with
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Separate missing rates, wrong-currency postings, bank conversion fees, unsettled items, and differences caused by transaction versus settlement dates. A bookkeeper documents and calculates the break; an authorized accounting reviewer selects rate policy and approves remeasurement or translation entries.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Validate one same-currency settlement, one converted payment, and one open foreign-currency balance across period end. Reperform both native and functional-currency amounts before adding more currencies, entities, or rate feeds.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Handoff should state native balance, functional balance, rate source, valuation date, realized and unrealized differences, unsupported items, and reviewer disposition by account. See the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) for related workflow support.

@@ -1,10 +1,93 @@
 'use client';
 import { useEffect } from 'react';
-const HONEYPOTS=new Set(['websiteConfirm','website_confirm','website_url','company_homepage']);
-function slug(value:string){return value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,48)||'action'}
-export function AcrClient(){useEffect(()=>{
-  const labelCtas=()=>{const used=new Set<string>();document.querySelectorAll<HTMLElement>('a[href],button:not([type="submit"]),[role="button"]').forEach((el)=>{if(el.closest('form')||el.id.startsWith('cta-')){if(el.id)used.add(el.id);return}const scope=el.closest('header')?'global-header':el.closest('footer')?'global-footer':slug(location.pathname==='/'?'home':location.pathname);const raw=slug(el.textContent||el.getAttribute('aria-label')||el.getAttribute('href')||'action');let id=`cta-${scope}-${raw}`,n=2;while(used.has(id)||document.getElementById(id))id=`cta-${scope}-${raw}-${n++}`;el.id=id;used.add(id)});document.querySelectorAll<HTMLIFrameElement>('iframe[src*="oncehub.com"],iframe[src*="scheduleonce.com"]').forEach(frame=>{const wrapper=frame.parentElement;if(wrapper&&!wrapper.dataset.acrTrack)wrapper.dataset.acrTrack='contact-booking-iframe'})};
-  labelCtas();const observer=new MutationObserver(labelCtas);observer.observe(document.documentElement,{childList:true,subtree:true});
-  const submit=async(event:SubmitEvent)=>{const form=event.target;if(!(form instanceof HTMLFormElement)||form.dataset.acrHandled==='1')return;const action=new URL(form.action||location.href,location.href);if((form.method||'get').toLowerCase()!=='post'||action.origin!==location.origin||action.pathname!=='/api/contact')return;event.preventDefault();if(!form.reportValidity())return;const data=new FormData(form);for(const key of HONEYPOTS)if(String(data.get(key)||''))return;form.dataset.acrHandled='1';const controls=[...form.querySelectorAll<HTMLButtonElement|HTMLInputElement>('[type="submit"]')];controls.forEach(x=>{x.disabled=true;x.setAttribute('aria-busy','true')});try{const response=await fetch(action,{method:'POST',body:data,headers:{Accept:'text/html'}});if(!response.ok)throw new Error('site lead backend rejected submission');const payload:Record<string,string>={};for(const [key,value] of data.entries())if(typeof value==='string'&&!HONEYPOTS.has(key))payload[key]=value;const name=payload.name||`${payload.firstName||''} ${payload.lastName||''}`.trim();for(let i=0;i<20&&!window.acrTracker;i++)await new Promise(r=>setTimeout(r,100));window.acrTracker?.trackLead({...payload,name,email:payload.email||'',phone:payload.phone||'',message:payload.message||payload.needs||payload.details||'',source:'contact-page-intake',formId:form.id||'contact-form',pageUrl:location.href});const target=new URL(response.url||'/thank-you',location.href);location.assign(target.origin===location.origin?target.href:'/thank-you')}catch(error){console.error('[contact-form] submission failed',error);form.dataset.acrHandled='0';controls.forEach(x=>{x.disabled=false;x.removeAttribute('aria-busy')});alert('We could not send your request. Please try again.')}};
-  document.addEventListener('submit',submit,true);return()=>{observer.disconnect();document.removeEventListener('submit',submit,true)}
-},[]);return null}
+import { usePathname } from 'next/navigation';
+
+const ACR_TRACKER_SRC = 'https://acrtracking.stealthagents.us/v1/tracker.js';
+let trackerLoad: Promise<void> | null = null;
+
+export function loadAcrTracker() {
+  const trackerWindow = window as Window & { acrTracker?: unknown };
+  if (trackerWindow.acrTracker) return Promise.resolve();
+  if (trackerLoad) return trackerLoad;
+
+  trackerLoad = new Promise<void>((resolve, reject) => {
+    let script = document.querySelector<HTMLScriptElement>(`script[src="${ACR_TRACKER_SRC}"]`);
+    const created = !script;
+    script ||= document.createElement('script');
+
+    let timeout = 0;
+    const cleanup = () => {
+      window.clearTimeout(timeout);
+      script.removeEventListener('load', loaded);
+      script.removeEventListener('error', failed);
+    };
+    const loaded = () => {
+      cleanup();
+      if (trackerWindow.acrTracker) resolve();
+      else reject(new Error('ACR tracker did not initialize'));
+    };
+    const failed = () => {
+      cleanup();
+      reject(new Error('ACR tracker failed to load'));
+    };
+    timeout = window.setTimeout(() => {
+      cleanup();
+      if (created) script.remove();
+      reject(new Error('ACR tracker load timed out'));
+    }, 3_000);
+
+    script.addEventListener('load', loaded, { once: true });
+    script.addEventListener('error', failed, { once: true });
+    if (created) {
+      script.src = ACR_TRACKER_SRC;
+      script.async = true;
+      document.head.appendChild(script);
+    }
+  }).catch((error) => {
+    trackerLoad = null;
+    throw error;
+  });
+  return trackerLoad;
+}
+
+function slug(value: string) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 48) || 'action';
+}
+
+export function AcrClient() {
+  const pathname = usePathname();
+  useEffect(() => {
+    if (pathname !== '/contact-us') void loadAcrTracker().catch(() => {});
+
+    const labelCtas = () => {
+      const used = new Set<string>();
+      document.querySelectorAll<HTMLElement>('a[href],button:not([type="submit"]),[role="button"]').forEach((element) => {
+        if (element.closest('form') || element.id.startsWith('cta-')) {
+          if (element.id) used.add(element.id);
+          return;
+        }
+        const scope = element.closest('header')
+          ? 'global-header'
+          : element.closest('footer')
+            ? 'global-footer'
+            : slug(location.pathname === '/' ? 'home' : location.pathname);
+        const raw = slug(element.textContent || element.getAttribute('aria-label') || element.getAttribute('href') || 'action');
+        let id = `cta-${scope}-${raw}`;
+        let suffix = 2;
+        while (used.has(id) || document.getElementById(id)) id = `cta-${scope}-${raw}-${suffix++}`;
+        element.id = id;
+        used.add(id);
+      });
+      document.querySelectorAll<HTMLIFrameElement>('iframe[src*="oncehub.com"],iframe[src*="scheduleonce.com"]').forEach((frame) => {
+        const wrapper = frame.parentElement;
+        if (wrapper && !wrapper.dataset.acrTrack) wrapper.dataset.acrTrack = 'contact-booking-iframe';
+      });
+    };
+
+    labelCtas();
+    const observer = new MutationObserver(labelCtas);
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+    return () => observer.disconnect();
+  }, [pathname]);
+  return null;
+}

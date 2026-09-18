@@ -25,7 +25,7 @@ Break expense policy exception into receive, check, record, compare, document, a
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Attach the expense report, receipt, policy version, breached rule, employee explanation, project or cost center, and approval outcome to each exception. The business may consider [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when designing evidence-retention rules.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete expense policy exception without g
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Classify exceptions such as missing receipts, late submissions, restricted merchants, excess limits, personal charges, and absent preapproval. The preparer records the facts consistently; a manager or finance owner approves reimbursement, recovery, denial, or a documented policy waiver.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Review an initial sample across travel, meals, subscriptions, and corporate-card charges. Check whether similar breaches receive consistent routing and whether the log distinguishes missing evidence from an approved exception before using it for trend reporting.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+The review packet should summarize exception count and value by rule, unresolved employee, aging, repeat pattern, and approving manager without changing the underlying policy. See the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) for complementary process design.

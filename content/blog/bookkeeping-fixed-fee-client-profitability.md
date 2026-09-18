@@ -25,7 +25,7 @@ Break fixed-fee client profitability into receive, check, record, compare, docum
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Connect contracted fees, scope changes, staff time, pass-through costs, billing credits, and recognized revenue to the client profitability schedule. Retain the underlying records under client policy, with [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) available as general context.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete fixed-fee client profitability wit
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Flag unapproved out-of-scope hours, missing time, client credits, shared costs without an allocation rule, and contracts whose fee changed midperiod. The preparer quantifies the effect; engagement leadership approves scope, pricing, write-downs, and allocation policy.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Start with one stable retainer, one project with a change order, and one engagement requiring substantial rework. Review whether margin movements trace to time, price, or direct cost before extending the report across the client portfolio.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Handoff should show fee, approved scope changes, labor hours and cost, direct expenses, margin bridge, missing inputs, and engagement-owner commentary by client. Related process support is described in the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support).

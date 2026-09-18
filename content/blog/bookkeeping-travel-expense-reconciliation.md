@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Expense Review"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-travel-expense-reconciliation.svg"
 takeaways: ["Tie card charges, reimbursements, receipts, and business purpose to a trip.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect trip reference, traveler, itinerary, merchant, currency, receipt, and bu
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Compare the trip register with card activity, employee claims, cash advances, and the general ledger. Flag duplicate charges, exchange-rate differences, missing receipts, and expenses outside the approved itinerary. Keep any proposed coding change beside its receipt and business-purpose note.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+The traveler or preparer can assemble the packet, but a manager decides policy exceptions and the finance reviewer approves coding or reimbursement changes. Someone who incurred the expense should not approve the same exception.
 
 ## Close with a useful handoff
 

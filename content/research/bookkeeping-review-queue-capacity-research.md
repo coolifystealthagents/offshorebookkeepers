@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Scope Benchmarks"
 type: "research"
-featuredImage: "/thumbnails/finance-dashboard.webp"
+featuredImage: "/thumbnails/management-reporting-packet-bookkeeper.webp"
 takeaways: ["Preparation capacity cannot be judged separately from review capacity.", "Queue age and rework reveal different failure modes.", "A capacity model should use the client's transaction mix rather than a generic volume target."]
 sources: [{"name":"BLS, Bookkeeping Clerks","url":"https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"PCAOB AS 2201","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"},{"name":"NIST, Contingency Planning Guide","url":"https://csrc.nist.gov/pubs/sp/800/34/r1/final"}]
+sourceNotes: [{"claim":"The source list includes BLS, Bookkeeping Clerks as public guidance relevant to scope benchmarks.","sourceUrls":["https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"]},{"claim":"U.S. GAO, Standards for Internal Control is listed to frame review questions about review-queue capacity in a bookkeeping support model.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]},{"claim":"PCAOB AS 2201 provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"]}]
 faqs: [{"question":"Is transaction count enough for capacity planning?","answer":"No. Complexity, evidence quality, exception rate, and review effort also affect capacity."},{"question":"What should a buyer measure first?","answer":"Start with queue age, items returned for rework, and reviewer hours by transaction class."}]
 ---
 ## Research question

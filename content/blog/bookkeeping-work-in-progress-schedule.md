@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Project Accounting"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-work-in-progress-schedule.svg"
 takeaways: ["Connect contract activity, costs, billings, and completion evidence.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect project, contract, cost, billing, change order, milestone, and completio
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Tie the work-in-progress schedule to approved job, matter, or project records and the related ledger accounts. Investigate duplicated costs, closed projects with balances, missing billing status, and source records posted to the wrong project before proposing a change.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+The bookkeeper can maintain source links and perform approved calculations. Project status, percentage-of-completion judgments, billing decisions, write-offs, and accounting treatment stay with the named project and finance reviewers.
 
 ## Close with a useful handoff
 

@@ -25,7 +25,7 @@ Break billable hours reconciliation into receive, check, record, compare, docume
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Retain the approved time export, employee or contractor identity, client and matter code, billing rate source, invoice linkage, and explanation for nonbillable or adjusted hours. Apply the client's retention standard, informed where relevant by [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping).
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete billable hours reconciliation with
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Log missing time approvals, obsolete project codes, rate mismatches, duplicate entries, and hours omitted from billing. The bookkeeper traces each variance and requests support; the engagement manager decides billability, rate overrides, and client-facing adjustments.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Start with one fixed-rate professional, one hourly contractor, and one project with write-downs. Reconcile submitted hours through invoice creation and ledger posting before extending the process to teams with different rate cards or approval chains.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Provide a hours-to-billing bridge by client and project, with approved time, billed time, deferred or written-down hours, rate variances, and unresolved owners. The [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) offer adjacent process context.

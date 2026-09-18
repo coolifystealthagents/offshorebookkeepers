@@ -25,7 +25,7 @@ Break cash disbursement approval into receive, check, record, compare, document,
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Link each proposed disbursement to the invoice, purchase authorization, receiving evidence, vendor record, payment batch, and approval timestamp. The client may refer to [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when documenting its record-retention standard.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete cash disbursement approval without
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Hold duplicate invoices, altered payment details, threshold breaches, and payments lacking receipt evidence outside the release batch. A preparer records the reason and owner; only an authorized approver resolves the exception and releases funds under client policy.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Trial the approval flow with a routine supplier invoice, a recurring debit, and a payment requiring two approvals. Confirm that the audit trail identifies who prepared, reviewed, and released each item before increasing batch size or payment limits.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Send approvers a batch cover sheet listing payee, amount, due date, funding account, source link, exception status, and prior approval evidence. Related operating and review support appears in the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support).

@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Receivables"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-accounts-receivable-collections-aging.svg"
 takeaways: ["Separate collectible invoices, documented disputes, unapplied cash, and owner decisions.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect customer, invoice, due date, balance, last action, and dispute status. P
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Tie the aging total to the receivables control account, then test invoices, unapplied receipts, credits, and disputed balances by customer. Keep cutoff differences visible and document the source for any proposed reallocation instead of changing aging buckets to make the totals agree.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+The bookkeeper may refresh aging, attach collection notes, and identify stale items. Credit holds, payment plans, write-offs, refunds, and changes to collection policy require the designated credit or finance owner; the preparer should not approve their own adjustment.
 
 ## Close with a useful handoff
 

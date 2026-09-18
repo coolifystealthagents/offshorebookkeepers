@@ -25,7 +25,7 @@ Break customer deposit reconciliation into receive, check, record, compare, docu
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Connect every customer deposit to the order or contract, payment record, customer ledger, fulfillment milestone, application or refund, and liability balance. The client can consult [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) while setting its document-retention policy.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete customer deposit reconciliation wi
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Isolate deposits without an order, amounts applied twice, fulfilled orders still carrying a liability, and refund requests without approval. The preparer traces facts and updates status; the finance owner decides recognition, application, reclassification, or refund treatment.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Run the process first on a fully open order, a partially fulfilled order, and a canceled order. Confirm that the deposit remains identifiable through application or refund and that the reviewer can reproduce the ending liability from source records.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Deliver a deposit rollforward by customer with opening balance, receipts, applications, refunds, aging, fulfillment status, and decision owner. See the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) for adjacent close design.

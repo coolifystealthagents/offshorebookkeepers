@@ -25,7 +25,7 @@ Break employee advance reconciliation into receive, check, record, compare, docu
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Match every advance to the request, approval, payment, employee, business purpose, receipts, repayment or payroll offset evidence, and remaining ledger balance. The employer should define retention with appropriate advisers, considering [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping).
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete employee advance reconciliation wi
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Queue overdue substantiation, expenses above the advance, unreturned cash, duplicate receipts, and balances for former employees. The bookkeeper requests documents and updates the register; HR, payroll, or finance authorizes recovery, reimbursement, write-off, and any policy exception.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Pilot with a travel advance that clears exactly, one with excess returned, and one with additional approved expense. Confirm that cash, receipts, and the employee balance form a complete trail before extending the workflow to more departments.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Send finance an employee-level rollforward with advance date, purpose, amount substantiated, cash returned, reimbursement due, aged remainder, and required decision. The [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) provide related workflow context.

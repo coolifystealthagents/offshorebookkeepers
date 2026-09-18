@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Workflow Design"
 type: "research"
-featuredImage: "/thumbnails/global-team.webp"
+featuredImage: "/thumbnails/offshore-bookkeeping-time-zone-handoff-research.webp"
 takeaways: ["Handoff latency is a measured interval, not a synonym for total close time.", "A useful sample records requester, evidence state, owner, and business-hours convention.", "The evidence does not establish a universal response target for every company."]
 sources: [{"name":"NIST, Contingency Planning Guide","url":"https://csrc.nist.gov/pubs/sp/800/34/r1/final"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"PCAOB AS 2201","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"},{"name":"BLS, Bookkeeping Clerks","url":"https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"}]
+sourceNotes: [{"claim":"The source list includes NIST, Contingency Planning Guide as public guidance relevant to workflow design.","sourceUrls":["https://csrc.nist.gov/pubs/sp/800/34/r1/final"]},{"claim":"U.S. GAO, Standards for Internal Control is listed to frame review questions about offshore bookkeeping handoff latency: what the evidence can measure.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]},{"claim":"PCAOB AS 2201 provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"]}]
 faqs: [{"question":"Should latency be measured in calendar hours?","answer":"Choose a convention that matches the team's operating hours and document it before comparing periods."},{"question":"Does faster always mean better?","answer":"No. A fast answer without adequate evidence can increase review risk."}]
 ---
 ## Research question

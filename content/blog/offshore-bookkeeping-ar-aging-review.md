@@ -9,7 +9,7 @@ featuredImage: "/thumbnails/offshore-bookkeeping-ar-aging-review.webp"
 takeaways: ["Reconcile the aging population before interpreting it.", "Keep collection judgment with the business owner.", "Turn each old balance into a named next action."]
 faqs: [["What can an offshore bookkeeper do with an aging report?","The bookkeeper can reconcile balances, document invoice status, prepare follow-up notes, and route exceptions. Credit, write-off, and customer-relationship decisions stay with an authorized owner."],["What makes an aging review actionable?","Each material or old item has evidence, current status, owner, next step, and due date."]]
 ---
-August 20, 2026 operating guide. This article covers bookkeeping preparation and handoff, not collections, credit, tax, or legal advice. Client policy controls decisions about customers and balances.
+An AR aging review should begin with a report that ties to receivables and end with a factual next step for every selected balance. Offshore bookkeeping support can reconcile the population, assemble invoice evidence, and maintain the action queue; the client retains collection, credit, concession, and write-off decisions.
 
 ## Reconcile before you interpret
 Export the aging with its report date, entity, currency, customer identifiers, and filter settings. Compare totals to the receivables control account or the approved reconciliation record. If the populations differ, stop the interpretation and describe the difference. An offshore bookkeeper can prepare this comparison and investigate timing, unapplied cash, credit memos, and duplicated customers. The finance owner decides whether the report is suitable for management use.
@@ -21,6 +21,8 @@ An aging report becomes more useful when grouped by age, customer, invoice statu
 For each selected balance, link the invoice, due date, customer communication, proof of delivery or service where applicable, receipt history, credit activity, and last approved status. The bookkeeper records observable facts and dates. Avoid turning “no reply” into “customer refuses to pay.” A reviewer should be able to see what was checked without searching multiple inboxes. Use restricted access for sensitive correspondence and unnecessary personal data.
 
 ## Keep follow-up factual
+
+Collection notes should record the invoice, contact date, channel, response, promised action, and next owner without guessing at a customer’s intent. Separate what the customer actually said from the preparer’s question, and route disputes, credits, concessions, or write-offs to the authorized owner.
 
 ## Close the review with an owner and a date
 

@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Cash Management"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-weekly-cash-position-report.svg"
 takeaways: ["Summarize cleared cash, known obligations, expected receipts, and open items.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect as-of time, bank account, cleared balance, payments, payroll, taxes, and
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Reconcile opening cash to bank balances, then separate cleared activity from known deposits, approved payments, transfers in transit, and restricted amounts. Explain stale or unusual reconciling items instead of presenting an unsupported available-cash figure.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+The bookkeeper prepares the cash bridge from approved records. Treasury or the business owner decides payment timing, transfers, borrowing, and minimum-cash actions; the report must not present a preparer forecast as an authorization.
 
 ## Close with a useful handoff
 

@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Scope Benchmarks"
 type: "research"
-featuredImage: "/thumbnails/finance-dashboard.webp"
+featuredImage: "/thumbnails/management-reporting-packet-bookkeeper.webp"
 takeaways: ["A KPI needs a definition, period, source, and owner before it belongs in a report.", "Bookkeeping can prepare measures without owning the business decision.", "Definitions should disclose exclusions and data quality limits."]
 sources: [{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/accounting-standards.html"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"BLS, Bookkeeping Clerks","url":"https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"},{"name":"COSO, Internal Control Integrated Framework","url":"https://www.coso.org/internal-control"}]
+sourceNotes: [{"claim":"The source list includes FASB, Conceptual Framework as public guidance relevant to scope benchmarks.","sourceUrls":["https://www.fasb.org/page/PageContent?pageId=/standards/accounting-standards.html"]},{"claim":"U.S. GAO, Standards for Internal Control is listed to frame review questions about defining owner-reporting kpis for outsourced bookkeeping.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]},{"claim":"BLS, Bookkeeping Clerks provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"]}]
 faqs: [{"question":"Which KPIs should a bookkeeper own?","answer":"The bookkeeper can own data preparation and reconciliation; the business owner owns interpretation and action."},{"question":"Why document exclusions?","answer":"Exclusions can materially change a measure and should be visible to its reader."}]
 ---
 ## Research question

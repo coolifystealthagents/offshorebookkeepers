@@ -14,7 +14,7 @@ const detailRoute = fs.readFileSync(path.join(root, 'app/blog/[slug]/page.tsx'),
 const sitemapRoute = fs.readFileSync(path.join(root, 'app/sitemap.xml/route.ts'), 'utf8');
 const dataSource = fs.readFileSync(path.join(root, 'app/data.ts'), 'utf8');
 assert.match(detailRoute, /datePublished:\s*post\.published/);
-assert.match(detailRoute, /Published \{post\.published\}/);
+assert.match(detailRoute, /Published <time dateTime=\{post\.published\}>/);
 assert.match(detailRoute, /alternates:\s*\{\s*canonical:\s*`\/blog\/\$\{slug\}`/);
 assert.match(sitemapRoute, /blogs\.map.*blog\/\$\{b\.slug\}/s);
 assert.match(dataSource, /\.sort\(\(a, b\) => b\.published\.localeCompare\(a\.published\)\)/);

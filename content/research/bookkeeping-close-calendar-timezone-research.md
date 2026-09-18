@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Workflow Design"
 type: "research"
-featuredImage: "/thumbnails/month-end-arc.webp"
+featuredImage: "/thumbnails/month-end-close-calendar-offshore-support.webp"
 takeaways: ["A close calendar needs one stated time zone for each cutoff.", "Elapsed time does not identify where a handoff is blocked.", "The calendar should protect review time, not only preparer time."]
 sources: [{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/accounting-standards.html"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"PCAOB AS 2201","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"},{"name":"NIST, Contingency Planning Guide","url":"https://csrc.nist.gov/pubs/sp/800/34/r1/final"}]
+sourceNotes: [{"claim":"The source list includes FASB, Conceptual Framework as public guidance relevant to workflow design.","sourceUrls":["https://www.fasb.org/page/PageContent?pageId=/standards/accounting-standards.html"]},{"claim":"U.S. GAO, Standards for Internal Control is listed to frame review questions about time-zone boundaries in a bookkeeping close calendar.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]},{"claim":"PCAOB AS 2201 provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"]}]
 faqs: [{"question":"Which time zone should a client use?","answer":"Use the time zone governing the business cutoff, then document the team's working-hour conversion."},{"question":"Does overnight work solve close delays?","answer":"Not by itself. It may move preparation earlier while leaving review or source dependencies unchanged."}]
 ---
 ## Research question

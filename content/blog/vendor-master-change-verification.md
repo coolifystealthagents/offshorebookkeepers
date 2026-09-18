@@ -1,44 +1,43 @@
 ---
 title: "Vendor master change verification for accounts payable"
-description: "Use an independent verification path for vendor bank changes and keep the request, verification evidence, approval, and final update together."
+description: "Verify sensitive vendor-master changes through a trusted contact path, preserve callback evidence, and separate preparation from approval and payment release."
 published: "2026-08-07"
-updated: "2026-08-07"
+updated: "2026-09-17"
 category: "Accounts Payable"
 type: "blog"
 featuredImage: "/thumbnails/vendor-master-change-verification.webp"
-takeaways: ["Write the preparation and decision boundary before granting access to vendor master changes.","Keep source evidence, system work, review notes, and exceptions together.","Scale the handoff only after two reviewed cycles show complete and traceable work."]
-sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"CISA, Multifactor Authentication","url":"https://www.cisa.gov/secure-our-world/use-multifactor-authentication"}]
-relatedLinks: [["A monthly bookkeeping review meeting agenda","/blog/bookkeeping-monthly-review-meeting-agenda"],["A controlled chart of accounts cleanup workflow","/blog/chart-of-accounts-cleanup-workflow"],["Build a bookkeeping quality scorecard","/blog/bookkeeping-quality-scorecard"]]
-faqs: [["Can an offshore bookkeeper own vendor master changes?","The bookkeeper can own the documented preparation steps and follow-up. Final approvals, accounting judgments, payment release, and policy exceptions should stay with an authorized business owner."],["What should a reviewer check?","The reviewer should check source completeness, the recorded result, open exceptions, required approvals, and whether the work followed the written procedure."]]
+takeaways: ["Independent verification uses contact data established before the change request - not a phone number, email address, or link supplied in that request.","The change record should retain old and new values, requester, callback evidence, verifier, approver, system updater, and effective date.","MFA protects access to an account; it does not prove that a vendor requested or authorized a bank-detail change."]
+sources: [{"name":"FBI, Business Email Compromise","url":"https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/business-email-compromise"},{"name":"CISA, Multifactor Authentication","url":"https://www.cisa.gov/secure-our-world/use-multifactor-authentication"}]
+relatedLinks: [["Accounts payable support","/services/accounts-payable-processing"],["Monthly close support","/services/month-end-close-support"],["Reporting and review support","/services/management-reporting-support"]]
+faqs: [["What counts as true independent verification?","A verifier initiates contact through data the business trusted before receiving the change, confirms the request with an authorized vendor representative, and records the callback or equivalent evidence. Contact data supplied only in the request is not independent."],["Does MFA verify a vendor change?","No. MFA helps protect a user's system or email account. It does not establish that the vendor intended the requested master-data change."],["Can a bookkeeper update the vendor master?","A bookkeeper may prepare or enter an approved change within assigned access. An authorized business owner should approve sensitive changes, and payment release should remain separate from preparation."]]
 ---
-## Start with the decision boundary
 
-The first step in vendor master changes is to write down what the support role prepares and what the business decides. The bookkeeper can gather records, follow the documented process, update the accounting system, and explain an exception. The owner, controller, or CPA should retain approval, payment release, accounting judgment, and any decision that changes the business risk. A short boundary prevents a vague handoff from becoming an uncontrolled handoff.
+Vendor-master verification is a control over the change itself, not merely over system access. The workflow should establish vendor intent before a bank account, payment method, legal name, remittance address, tax field, or key contact is changed. The FBI's discussion of business email compromise explains why a familiar-looking email should not be treated as sufficient authority for a payment-related change.
 
-## Define the recurring input
+## Put the request on hold at intake
 
-List the source records that arrive, who provides them, the expected frequency, and the format that counts as complete. For vendor master changes, the intake rule should identify the account, period, transaction or document reference, and the evidence needed for review. If an item arrives through an unusual channel, the bookkeeper records it and moves it to a hold queue. Clear intake rules make missing information visible before it becomes rework.
+Create a change ID and preserve the original request, including its received date, channel, requester name, sender address, vendor ID, affected business entity, stated reason, and requested effective date. Record each old value and proposed new value separately. For banking, include bank name, account holder, routing details, account number, currency, and payment method, with sensitive values masked outside restricted evidence storage.
 
-## Use a repeatable work sequence
+No payment should use the new destination while verification or approval is incomplete. An urgent due date, executive name in the message, or promise to confirm later is not a substitute for the control.
 
-Break vendor master changes into steps that can be followed in the same order each cycle. A useful sequence is receive, check, record, compare, document, and hand off. Each step should have one expected output and one stop condition. The bookkeeper should not silently resolve an unfamiliar exception. Instead, the record should say what was checked, what is missing, and which named owner must decide.
+## Use a contact path independent of the request
 
-## Keep evidence with the work
+True independent verification starts with contact data not supplied in the change request. The verifier initiates a callback or other approved contact through a number or channel already held in a previously verified vendor record, executed contract, or controlled procurement file. Do not use a new phone number in the email, an attachment, an email signature, or a link sent with the request.
 
-The review packet for vendor master changes should point back to the source record, the system entry, the calculation or comparison, and the note that explains any difference. Use stable file names or links and avoid relying on memory in email or chat. The IRS recordkeeping guidance explains why businesses need records that support income, expenses, and financial reporting. Read the [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when setting the retention rule.
+The callback record should show the date and time, verifier, source of the known contact, masked number or channel used, vendor representative reached and role, questions asked, details confirmed, result, and evidence link. Record an unanswered call, voicemail, conflicting answer, or request to use the new contact as inconclusive. Do not label an attempted callback as verified.
 
-## Separate preparation from approval
+Consider an edge case: the prior contact has left the vendor. The verifier should not simply switch to the replacement named in the request. Escalate to the procurement or finance owner to establish a trusted route from existing records, and document how that route was obtained.
 
-A clean handoff gives the bookkeeper enough access to complete preparation without giving the same person authority to approve their own work. For vendor master changes, define the reviewer, the review deadline, the questions the reviewer must answer, and the event that closes the item. Use named accounts and multifactor authentication. CISA recommends multifactor authentication because a password alone is not a sufficient boundary when an account is compromised.
+## Preserve approval and system evidence
 
-## Create an exception path
+After successful verification, an authorized approver compares the old and new values, verification result, business reason, effective date, and any payment already queued. The change record names the requester, verifier, approver, and system updater; it also captures approval time, actual effective date, system audit reference, and the first affected payment if one exists. Approval should be affirmative and attributable, not inferred from silence or a copied email.
 
-Exceptions are part of normal bookkeeping work. Add a log with the item, amount or account, issue, source link, date raised, current owner, next action, and due date. For vendor master changes, useful statuses include waiting for source, waiting for approver, duplicate review, policy question, and ready after correction. The bookkeeper updates facts and follows up. The named owner records the decision and keeps the reason with the evidence.
+A bookkeeper can log the request, gather existing records, document factual differences, and enter an approved change. The bookkeeper should not approve their own update, decide that incomplete evidence is acceptable, or release payment. A named finance owner resolves exceptions and decides whether compensating review is needed when staffing prevents ideal role separation.
 
-## Review the first two cycles
+## Do not confuse MFA with vendor verification
 
-Start vendor master changes with representative examples and a small live batch. Review the first completed items on the same day, compare the record to the checklist, and note where instructions were unclear. During the second cycle, look for repeated errors, missing source documents, late questions, and reviewer effort. Expand the scope only after the work is complete, traceable, and easy for the reviewer to challenge.
+MFA is valuable because it adds protection to user sign-in; CISA recommends it as an account-security measure. But a successfully authenticated employee or vendor mailbox can still contain a mistaken, unauthorized, or manipulated instruction. MFA answers who accessed an account under the authentication process. Independent vendor verification addresses whether an authorized vendor representative intended the specific change. Use both controls for their different purposes.
 
-## Make the handoff explicit
+## Set review frequency from exposure
 
-A useful handoff states the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. Keep a short weekly note for vendor master changes that lists completed work, open exceptions, and decisions needed. For role planning, see the [monthly close support service](/services/operations-support) and the [reporting and review service](/services/reporting-and-qa). These links are planning references, not substitutes for a written client process.
+Do not rely on an arbitrary number of payment cycles to make a change safe. Review open changes before payment runs and sample completed changes according to payment value, change type, vendor risk, role conflicts, and unusual timing. Escalate same-day bank changes, new domains, secrecy requests, conflicting account names, failed callbacks, and changes followed by rapid reversals. The review ends only when evidence meets written policy or an authorized owner records the exception decision.

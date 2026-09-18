@@ -1,57 +1,44 @@
 ---
-title: "Studying interruption load during the bookkeeping close"
-description: "A bounded research framework for close-task interruption load, measurement choices, safeguards, and limitations."
+title: "A protocol for measuring interruptions during the bookkeeping close"
+description: "An event-log design for separating unplanned close interruptions from scheduled dependencies, with privacy and interpretation limits."
 published: "2026-09-07"
-updated: "2026-09-07"
+updated: "2026-09-17"
 category: "Bookkeeping research"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-review-sampling-research.png"
-takeaways: ["Define the population before measuring it.","Keep raw extracts and calculation versions.","Treat comparisons as descriptive, not causal."]
-faqs: [["Does this article report a client study?","No. It proposes a study design and reports no private client data or experimental result."],["Can the measure prove what caused an outcome?","No. A descriptive comparison can identify patterns and questions, but it cannot establish cause by itself."]]
+takeaways: ["Define an interruption before logging begins and keep scheduled waits in a separate category.","Report event counts and nonoverlapping interrupted minutes without turning either measure into an employee score.","Use the minimum person-level data needed and annotate outages, close-scope changes, and logging changes before comparing periods."]
+sources: [{"name":"U.S. Bureau of Labor Statistics, American Time Use Survey User's Guide","url":"https://www.bls.gov/tus/atususersguide.htm"},{"name":"U.S. GAO, Standards for Internal Control in the Federal Government (GAO-14-704G)","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"NIST Privacy Framework, Version 1.0","url":"https://doi.org/10.6028/NIST.CSWP.01162020"}]
+sourceNotes: [{"claim":"The BLS American Time Use Survey User's Guide documents an activity-diary approach that records activities in chronological episodes and assigns activity codes. It is a measurement precedent, not evidence about bookkeeping interruptions or productivity.","sourceUrls":["https://www.bls.gov/tus/atususersguide.htm"]},{"claim":"GAO-14-704G Principles 6, 10, and 13 address defining objectives, designing control activities, and using quality information. They support fixing the task population and logging rule before comparison; GAO reports no close-interruption benchmark.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]},{"claim":"The NIST Privacy Framework Version 1.0 is a voluntary framework for identifying and managing privacy risk arising from data processing. It supports a privacy review of person-level event logs but does not prescribe this study design or a retention period.","sourceUrls":["https://doi.org/10.6028/NIST.CSWP.01162020"]}]
+faqs: [{"question":"What counts as a close-task interruption?","answer":"For this protocol, it is an unplanned stop or diversion after work on a scheduled task begins. A dependency already built into the close plan is recorded separately."},{"question":"Should interruption load be used to rank staff?","answer":"No. The result is sensitive to task mix, escalation duties, outages, logging behavior, and close scope; it is designed to describe workflow conditions."}]
 ---
-Published September 7, 2026. This research brief offers an operational study design. It is not accounting, audit, tax, legal, payroll, statistical, investment, or regulatory advice.
+Published September 7, 2026; updated September 17, 2026. This brief proposes a measurement design. It contains no organization-level time records, productivity findings, or evidence that an offshore staffing arrangement causes interruptions.
 
-## Research question
+## Start from the close calendar
 
-This brief asks how unplanned requests and access failures coincide with recurring close-task delays. Close delays are often reported as one elapsed number. An interruption log separates working time from waiting on records, access, or decisions.
+Freeze the scheduled task list for one close process and a defined sequence of periods. Every scheduled task instance remains in the population, including tasks with no interruption. This prevents an event-only log from hiding the uninterrupted denominator.
 
-The cited public materials support traceable records, assigned responsibilities, controlled access, and reviewable evidence. The proposed application to close-task interruption load is OffshoreBookkeepers.com analysis, not a finding reported by those sources.
+For this study, an interruption begins when active work stops because of an unplanned request, access failure, unavailable record, system incident, or decision dependency. It ends when work resumes or the task moves to another declared state. Scheduled handoffs, planned review waits, weekends, and prerequisites already represented in the close calendar use separate status codes. The definitions must be fixed before anyone sees period comparisons.
 
-## Define the population before looking at results
+## Use a small event record
 
-Choose one recurring process and a fixed run of consecutive periods. The observation unit should be one request, workpaper, mapping change, vendor, or close task with a named preparer and reviewer. Capture task, planned start, interruption type, interruption time, owner, resumed time, and completion result. Record the entity, period, source system, and any authorized judgment involved. Write inclusion and exclusion rules before calculating the measure.
+For each interruption, retain the task ID, category, stop time, resume time, initiating dependency, and resolution state. Avoid message bodies, screenshots, keystroke capture, or continuous monitoring. Preparers should be able to correct an accidental timestamp while preserving an edit history.
 
-## A bounded pilot
+The BLS time-diary method is useful here only as a precedent for chronological episodes and coding. It does not validate these categories or imply that diary entries measure productivity. GAO's control principles support a defined objective and reviewable information, while the NIST Privacy Framework supplies a reason to assess the privacy consequences of person-level logging. The protocol is an OffshoreBookkeepers.com design built from those bounded ideas.
 
-Save the raw extracts, minimize personal data, and use written classifications. Have a second reviewer retest a sample for consistent coding. Report the number of observations, missing fields, distribution, and outliers beside any average. Freeze the denominator so late additions do not quietly rewrite the result.
+## Calculate duration without double counting
 
-This brief uses no private client dataset and makes no claim about a typical company, industry, country, or offshore team. A local pilot would describe only the population it actually observed.
+Report interruption events per scheduled task and nonoverlapping interrupted minutes. If two blockers overlap, count both categories as events but count the elapsed interval once in total interrupted time. State whether elapsed time uses calendar hours, staffed hours, or another convention, and define treatment of overnight spans before calculation.
 
-## Make the calculation reproducible
+Keep total wall-clock task duration separate. A task can remain open overnight without being actively interrupted, and a short task can have several diversions. Show counts, medians, and a distribution by predeclared category; do not rely on a single average. Missing stop or resume times should appear as data-quality exceptions rather than imputed precision.
 
-Write down when the clock starts and stops, what counts as complete, and how reopened work is handled. Preserve the first extract and each calculation version. Segment results only when the groups have a practical definition, such as document source, task type, or evidence status. Keep exclusions in a separate table with reasons.
+## Review the log as workflow evidence
 
-## Roles and safeguards
+A reviewer should sample both interrupted and uninterrupted tasks, compare their status histories with the event log, and test the planned-versus-unplanned distinction. Changes to the close calendar or category guide should be versioned. Access to identifiable logs should be limited to a stated purpose and period, with aggregate reporting used where it meets the need.
 
-A bookkeeper can assemble authorized records, apply fixed labels, calculate descriptive measures, and log exceptions. The finance owner approves definitions and any resulting action. An independent reviewer tests whether the labels were applied consistently. Legal, tax, payroll, audit, accounting-policy, privacy, and employee-performance conclusions remain with authorized professionals.
+Preparers may enter events, but the close owner should approve the task population and category definitions. An independent reviewer should test coding and calculations. Employment decisions and individual productivity scoring sit outside this protocol.
 
-## Read the result cautiously
+## Conditions that change the result
 
-A comparison does not establish cause. Staffing changes, new accounts, altered deadlines, migrations, access failures, and unusual transaction volume may affect the measure. Small samples are unstable. Missing fields may be systematic. Examine the observations before changing a process, and do not rank individuals when the study was designed to examine workflow conditions.
+Transaction volume, account complexity, close scope, system outages, deadline changes, and escalation assignments can alter the observed load. Logging may also become more complete over time, making a later period look worse even when work conditions did not deteriorate. These are alternative explanations to investigate, not proven causes.
 
-## Scope and limitations
-
-This framework has not been validated on a representative sample. Organizations differ in definitions, privacy duties, software logs, staffing, and materiality. A future study should disclose sample size, missing data, classification changes, known process changes, and conflicts of interest with its results.
-
-## Sources
-
-- [U.S. GAO, Standards for Internal Control in the Federal Government](https://www.gao.gov/products/gao-14-704g)
-- [COSO, Internal Control Framework](https://www.coso.org/internal-control)
-- [PCAOB, AS 1105: Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105)
-- [NIST, Data Integrity glossary](https://csrc.nist.gov/glossary/term/data_integrity)
-- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
-- [FASB, Concepts Statements](https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html)
-- [IFRS Foundation, Conceptual Framework](https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/)
-- [U.S. Small Business Administration, Manage your finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
-- [NIST, Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control)
-- [AICPA & CIMA, Audit evidence](https://www.aicpa-cima.com/resources/article/audit-evidence)
+Manual logs miss brief diversions and may round times; system histories show status changes but not necessarily attention. Small populations make category comparisons unstable. Any report should disclose task coverage, recording method, missing events, privacy controls, overlap rules, calendar changes, and exceptional incidents. No universal threshold follows from this design.

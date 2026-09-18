@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Management Reporting"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-budget-to-actual-variance-notes.svg"
 takeaways: ["Explain what changed, why it changed, and who owns the next action.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect budget version, ledger actuals, timing, volume, price, coding, and one-t
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Run actuals from the locked reporting period and preserve the budget version used for comparison. Trace meaningful gaps to ledger detail and operational drivers, separating timing, volume, price, coding, and one-off effects rather than inventing a narrative from the net variance.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+A bookkeeper can calculate the bridge and draft evidence-based questions, but budget owners validate operating explanations and finance approves reforecasts, account corrections, and materiality thresholds. The person who drafts an adjustment should not provide its final approval.
 
 ## Close with a useful handoff
 

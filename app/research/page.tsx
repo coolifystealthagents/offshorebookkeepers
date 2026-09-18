@@ -1,3 +1,46 @@
-import {Header,Footer} from '../components'; import {getContent} from '../../lib/content'; import {site} from '../data';
-export const metadata={title:`Research | ${site.brand}`,description:'Original research and source-backed analysis for planning Philippines-based support.'};
-export default function Research(){const researchPosts=getContent('research');const clusters=['All Research','Hiring Controls','Scope Benchmarks','Workflow Design'];return <><Header/><main className="research-index-page"><section className="research-hero"><div className="container research-hero-grid"><div><p className="eyebrow">Research Library</p><h1>Source-backed research for better staffing decisions</h1><p className="lead">Use these reports to compare roles, costs, controls, and onboarding decisions before building a Philippines-based support team.</p><div className="research-meta"><span>{researchPosts.length||0} reports</span><span>Methodology notes</span><span>Buyer controls</span></div></div><aside className="research-hero-card" aria-label="Research quality signals"><div><strong>01</strong><span>Benchmarks and operating context</span></div><div><strong>02</strong><span>Practical screening questions</span></div><div><strong>03</strong><span>Implementation checks</span></div></aside></div></section><section className="section research-library-section"><div className="container"><nav className="research-cluster-tabs" aria-label="Research topic filters">{clusters.map((cluster,i)=><a className={i===0?'active':''} href="/research" key={cluster}>{cluster}<small>{i===0?researchPosts.length:Math.max(1,Math.ceil((researchPosts.length||1)/3))}</small></a>)}</nav><div className="research-card-grid">{researchPosts.length?researchPosts.map((p,i)=><a className="research-library-card" href={`/research/${p.slug}`} key={p.slug}><span className="research-card-badge">{clusters[(i%3)+1]}</span><h2>{p.title}</h2><p className="research-card-highlight">Planning signal: compare the role, review owner, and handoff risk before hiring.</p><p className="research-card-excerpt">{p.description}</p><div className="research-card-meta"><span>{site.brand} Research</span><span>6 min read</span><span>1 source</span></div></a>):<div className="research-library-card empty-state"><span className="research-card-badge">Coming soon</span><h2>Research is being prepared</h2><p className="research-card-highlight">The library will group reports by buyer controls, benchmarks, and workflow design.</p><p className="research-card-excerpt">Visit the blog for practical planning guides while formal research pages are prepared.</p><a className="btn primary" href="/blog">Visit the blog</a></div>}</div></div></section><section className="section research-methodology"><div className="container"><h2>Methodology and use</h2><p>Each research page should make assumptions visible, separate sourced facts from recommendations, and translate findings into a role brief your team can review.</p></div></section></main><Footer/></>}
+import { Header, Footer } from '../components';
+import { filterResearchByTopic, getContent, getResearchTopics, readingMinutes, researchTopic } from '../../lib/content';
+import { site } from '../data';
+
+export const metadata = {
+  title: 'Research',
+  description: 'Source-listed analysis for planning Philippines-based bookkeeping support.',
+  alternates: { canonical: '/research' },
+};
+
+type ResearchQuery = { topic?: string };
+
+export default async function Research({ searchParams }: { searchParams: Promise<ResearchQuery> }) {
+  const query = await searchParams;
+  const researchPosts = getContent('research');
+  const topics = getResearchTopics(researchPosts);
+  const { activeTopic, posts: visiblePosts } = filterResearchByTopic(researchPosts, query.topic);
+  const topicHref = (topic: string) => topic ? `/research?topic=${encodeURIComponent(topic)}` : '/research';
+
+  return <><Header/><main className="research-index-page">
+    <section className="research-hero"><div className="container research-hero-grid"><div>
+      <p className="eyebrow">Research Library</p>
+      <h1>Source-listed research for better staffing decisions</h1>
+      <p className="lead">Use these reports to examine roles, controls, and onboarding decisions before building a Philippines-based support team. Each report distinguishes cited guidance from local operating recommendations.</p>
+      <div className="research-meta"><span>{researchPosts.length} reports</span><span>Visible source lists</span><span>Stated limitations</span></div>
+    </div><aside className="research-hero-card" aria-label="Research quality signals">
+      <div><strong>01</strong><span>Sources listed for reader review</span></div>
+      <div><strong>02</strong><span>Operational interpretation identified</span></div>
+      <div><strong>03</strong><span>Limitations stated on each report</span></div>
+    </aside></div></section>
+    <section className="section research-library-section"><div className="container">
+      <nav className="research-cluster-tabs" aria-label="Research topic filters">
+        <a className={!activeTopic ? 'active' : ''} aria-current={!activeTopic ? 'page' : undefined} href={topicHref('')}>All research<small>{researchPosts.length}</small></a>
+        {topics.map((topic) => <a className={activeTopic === topic.label ? 'active' : ''} aria-current={activeTopic === topic.label ? 'page' : undefined} href={topicHref(topic.label)} key={topic.label}>{topic.label}<small>{topic.count}</small></a>)}
+      </nav>
+      {activeTopic && <p className="filter-summary">Showing {visiblePosts.length} reports in <strong>{activeTopic}</strong>. <a href="/research">Clear filter</a></p>}
+      <div className="research-card-grid">{visiblePosts.length ? visiblePosts.map((post) => <a className="research-library-card" href={`/research/${post.slug}`} key={post.slug}>
+        <span className="research-card-badge">{researchTopic(post)}</span>
+        <h2>{post.title}</h2>
+        <p className="research-card-excerpt">{post.description}</p>
+        <div className="research-card-meta"><span>{site.brand} Research</span><span>{readingMinutes(post)} min read</span><span>{post.sources.length} listed sources</span></div>
+      </a>) : <div className="research-library-card empty-state"><span className="research-card-badge">No matching reports</span><h2>Choose another topic</h2><p className="research-card-excerpt">The selected topic has no published reports.</p><a className="btn primary" href="/research">View all research</a></div>}</div>
+    </div></section>
+    <section className="section research-methodology"><div className="container"><h2>How to use this library</h2><p>These reports summarize listed public guidance and translate it into bounded workflow questions. They are not original empirical studies, professional advice, or proof that a staffing location causes a particular result.</p></div></section>
+  </main><Footer/></>;
+}

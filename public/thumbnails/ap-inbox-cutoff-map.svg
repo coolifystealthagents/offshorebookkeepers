@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">AP inbox cutoff map workflow illustration</title>
+<desc id="desc">Incoming invoices receive a timestamp, pass through a cutoff gate, then route either to the current-period review queue or to a held post-cutoff exception queue.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0fdfa"/><stop offset="1" stop-color="#fffaf0"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dy="8" stdDeviation="10" flood-color="#17324d" flood-opacity=".12"/></filter>
+  <style>.k{font:800 16px Arial,sans-serif;letter-spacing:2px;fill:#0f8f73}.headline{font:800 46px Arial,sans-serif;fill:#17324d}.label{font:800 22px Arial,sans-serif;fill:#17324d}.small{font:700 15px Arial,sans-serif;fill:#52606d}.card{fill:#fff;stroke:#17324d;stroke-opacity:.16;stroke-width:2;filter:url(#shadow)}.icon{fill:none;stroke:#0f8f73;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.route{fill:none;stroke:#0f8f73;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}.held{fill:#fff7e2;stroke:#d99118;stroke-width:3;filter:url(#shadow)}.heldText{font:800 18px Arial,sans-serif;fill:#9a5b00}</style>
+</defs>
+<rect width="1200" height="630" rx="34" fill="url(#bg)"/>
+<circle cx="1090" cy="90" r="170" fill="#0f8f73" opacity=".08"/>
+<text x="72" y="62" class="k">OFFSHOREBOOKKEEPERS • AP CONTROL MAP</text>
+<text x="72" y="126" class="headline">AP inbox cutoff map</text>
+
+<g transform="translate(72 205)">
+  <rect width="276" height="222" rx="24" class="card"/>
+  <text x="24" y="38" class="k">01 • INTAKE</text>
+  <g class="icon" transform="translate(94 62)"><rect x="0" y="12" width="88" height="60" rx="8"/><path d="M4 20l40 31 40-31M65 0h31v32M72 9h17M72 18h12"/></g>
+  <text x="138" y="176" text-anchor="middle" class="label">Invoice received</text>
+  <text x="138" y="201" text-anchor="middle" class="small">Timestamp recorded</text>
+</g>
+
+<path d="M365 316h55m-14-14 14 14-14 14" class="route"/>
+
+<g transform="translate(438 205)">
+  <rect width="276" height="222" rx="24" class="card"/>
+  <text x="24" y="38" class="k">02 • CUTOFF GATE</text>
+  <g class="icon" transform="translate(97 58)"><rect x="0" y="10" width="82" height="68" rx="8"/><path d="M0 31h82M18 0v20M64 0v20"/><circle cx="41" cy="54" r="15"/><path d="M41 44v11l8 5"/></g>
+  <text x="138" y="176" text-anchor="middle" class="label">Compare cutoff</text>
+  <text x="138" y="201" text-anchor="middle" class="small">Receipt time vs. close rule</text>
+</g>
+
+<path d="M731 316h42v-70h32m-14-14 14 14-14 14M773 316v98h32m-14-14 14 14-14 14" class="route"/>
+<text x="804" y="229" text-anchor="end" class="k">BY CUTOFF</text>
+<text x="804" y="397" text-anchor="end" class="heldText">AFTER CUTOFF</text>
+
+<g transform="translate(822 177)">
+  <rect width="306" height="150" rx="24" class="card"/>
+  <text x="24" y="38" class="k">CURRENT PERIOD</text>
+  <g class="icon" transform="translate(30 60)"><path d="M0 12l14 14L42 0"/></g>
+  <text x="91" y="87" class="label">Review queue</text>
+  <text x="91" y="114" class="small">Prepared for client approval</text>
+</g>
+
+<g transform="translate(822 355)">
+  <rect width="306" height="150" rx="24" class="held"/>
+  <text x="24" y="38" class="heldText">POST-CUTOFF EXCEPTION</text>
+  <g fill="none" stroke="#d99118" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" transform="translate(34 59)"><path d="M0 55l31-55 31 55zM31 18v20m0 8v1"/></g>
+  <text x="112" y="87" class="label">Held and routed</text>
+  <text x="112" y="114" class="small">Period assignment held</text>
+</g>
+
+<rect x="72" y="566" width="1056" height="2" fill="#17324d" opacity=".12"/>
+<text x="72" y="597" class="small">Preparation records timing and routes exceptions; the client retains approval and accounting judgment.</text>
+</svg>

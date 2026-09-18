@@ -19,12 +19,13 @@ Collect approved bills, payroll dates, tax or debt schedules, recurring commitme
 Record the owner, basis, amount, period, confidence, and next review date for each assumption. If a customer promise or vendor estimate changes, update the forecast note without rewriting the prior version.
 
 ## Separate cash from accounting
+A cash forecast is an operational view of expected movement, not a substitute for the books, a bank reconciliation, or a financial statement. Keep the cleared bank balance, ledger balance, timing items, forecast receipts, and forecast payments in separate fields so the reviewer can see which amounts are observed and which are assumptions. Document timing differences such as card settlements, payroll clearing, and deposits in transit.
+
 ## Build a forecast row from evidence
-For the week ending Friday, a $9,000 supplier payment row should name the vendor, invoice, expected date, approval status, and bank account. A $6,000 receipt should name the invoice, expected date, and confidence basis; an old promise is not cleared cash. The bookkeeper gathers facts and flags missing approval; the owner decides whether to delay, accelerate, or renegotiate.
+For the week ending Friday, a $9,000 supplier payment row should name the vendor, invoice, expected date, approval status, and bank account. A $6,000 receipt should name the invoice, expected date, and confidence basis; an old promise is not cleared cash. The bookkeeper gathers facts and flags missing approval, while the owner decides whether to delay, accelerate, or renegotiate.
 
 ## Make the update reproducible
-Save the snapshot before each update and label changes as a new bill, slipped receipt, payroll revision, or corrected opening balance. Keep opening balance, inflows, outflows, and ending balance visible so another reviewer can recompute it. Compare the next bank statement by category to expose timing, omitted commitments, or unreliable sources.
-The forecast may use ledger information, but it is not a substitute for bank reconciliation or a financial statement. Document timing differences such as card settlement, payroll clearing, and deposits in transit.
+Save the snapshot before each update and label changes as a new bill, slipped receipt, payroll revision, or corrected opening balance. Keep opening balance, inflows, outflows, and ending balance visible so another reviewer can recompute it. Compare the next bank statement by category to expose timing differences, omitted commitments, or unreliable sources.
 
 ## Escalate the decisions
 A bookkeeper can show a shortfall, overdue receipt, or crowded payment week. The owner decides whether to delay, prioritize, negotiate, transfer funds, or seek financing. Do not make that decision silently inside the workbook.

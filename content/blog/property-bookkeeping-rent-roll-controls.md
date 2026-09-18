@@ -6,39 +6,42 @@ updated: "2026-08-07"
 category: "Property Finance"
 type: "blog"
 featuredImage: "/thumbnails/property-bookkeeping-rent-roll-controls.webp"
-takeaways: ["Write the preparation and decision boundary before granting access to property bookkeeping.","Keep source evidence, system work, review notes, and exceptions together.","Scale the handoff only after two reviewed cycles show complete and traceable work."]
+takeaways: ["Tie each occupied, vacant, new, renewed, or ended lease on the rent roll to approved lease records and effective dates.","Reconcile billed rent, concessions, receipts, deposits, credits, and receivables between the property system, bank activity, tenant ledger, and general ledger.","Bookkeepers can maintain schedules and research differences; property managers and authorized finance owners approve lease changes, write-offs, deposit dispositions, payments, and accounting judgments."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"CISA, Multifactor Authentication","url":"https://www.cisa.gov/secure-our-world/use-multifactor-authentication"}]
 relatedLinks: [["A bookkeeping SOP handoff template that people can use","/blog/bookkeeping-sop-handoff-template"],["A bookkeeping access review checklist","/blog/bookkeeping-access-review-checklist"],["How to run a close exception log","/blog/close-exception-log-bookkeeping"]]
-faqs: [["Can an offshore bookkeeper own property bookkeeping?","The bookkeeper can own the documented preparation steps and follow-up. Final approvals, accounting judgments, payment release, and policy exceptions should stay with an authorized business owner."],["What should a reviewer check?","The reviewer should check source completeness, the recorded result, open exceptions, required approvals, and whether the work followed the written procedure."]]
+faqs: [["What should a rent roll tie-out include?","It should connect unit status and approved lease terms to tenant charges, receipts, credits, receivables, deposits, and the related general-ledger balances for the same cutoff date."],["Can a bookkeeper update lease terms or write off tenant balances?","A bookkeeper can enter approved changes and prepare write-off support. Lease amendments, concessions, deposit dispositions, collection decisions, and write-offs should be authorized by the designated property or finance owner."]]
 ---
-## Start with the decision boundary
 
-The first step in property bookkeeping is to write down what the support role prepares and what the business decides. The bookkeeper can gather records, follow the documented process, update the accounting system, and explain an exception. The owner, controller, or CPA should retain approval, payment release, accounting judgment, and any decision that changes the business risk. A short boundary prevents a vague handoff from becoming an uncontrolled handoff.
+A rent roll is both an operating schedule and a source for financial records. If unit status, lease dates, recurring charges, receipts, and deposits are maintained in separate systems, an internally balanced ledger can still disagree with the underlying leases. Property bookkeeping controls should therefore tie the rent roll to approved lease activity and then tie tenant accounting to cash and the general ledger.
 
-## Define the recurring input
+## Control changes to the rent roll
 
-List the source records that arrive, who provides them, the expected frequency, and the format that counts as complete. For property bookkeeping, the intake rule should identify the account, period, transaction or document reference, and the evidence needed for review. If an item arrives through an unusual channel, the bookkeeper records it and moves it to a hold queue. Clear intake rules make missing information visible before it becomes rework.
+Maintain a change report for move-ins, move-outs, renewals, transfers, rent changes, concessions, and unit-status changes. For each change, keep the property and unit, tenant or lease identifier, effective date, prior value, new value, source document, person entering it, and approver.
 
-## Use a repeatable work sequence
+The bookkeeper can enter a signed lease, approved amendment, or property-manager instruction under a documented process. The bookkeeper should not set rent, alter lease dates, grant a concession, or mark a unit occupied or vacant based on an informal message without the required authorization. Restrict edit rights in the property system and use named accounts with multifactor authentication where supported.
 
-Break property bookkeeping into steps that can be followed in the same order each cycle. A useful sequence is receive, check, record, compare, document, and hand off. Each step should have one expected output and one stop condition. The bookkeeper should not silently resolve an unfamiliar exception. Instead, the record should say what was checked, what is missing, and which named owner must decide.
+## Tie lease terms to scheduled charges
 
-## Keep evidence with the work
+At a common cutoff date, compare the rent roll with active lease records. Check base rent, recurring fees, concessions, start and end dates, deposit requirement, and billing frequency. Then compare those terms with charges posted to each tenant ledger.
 
-The review packet for property bookkeeping should point back to the source record, the system entry, the calculation or comparison, and the note that explains any difference. Use stable file names or links and avoid relying on memory in email or chat. The IRS recordkeeping guidance explains why businesses need records that support income, expenses, and financial reporting. Read the [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when setting the retention rule.
+Review exceptions such as occupied units without current charges, vacant units still billing rent, increases posted before their effective date, expired concessions still reducing rent, duplicate fees, and leases near expiration with no documented status. A difference is not automatically an error - for example, a charge may be prorated under approved policy - but its basis should be reproducible.
 
-## Separate preparation from approval
+## Reconcile charges, receipts, and receivables
 
-A clean handoff gives the bookkeeper enough access to complete preparation without giving the same person authority to approve their own work. For property bookkeeping, define the reviewer, the review deadline, the questions the reviewer must answer, and the event that closes the item. Use named accounts and multifactor authentication. CISA recommends multifactor authentication because a password alone is not a sufficient boundary when an account is compromised.
+Roll forward tenant receivables using opening balance, current charges, receipts, credits, write-offs, and ending balance. Total the tenant subledger by property and compare it with the general-ledger receivable. Trace receipts to deposit records and bank activity, keeping unapplied cash separate until there is support for tenant allocation.
 
-## Create an exception path
+Review aged balances, negative tenant balances, returned payments, manual credits, and write-offs. Property management decides collection action and tenant application questions; an authorized finance owner approves write-offs and accounting corrections. The bookkeeper can prepare the aging, investigate source records, and post approved adjustments.
 
-Exceptions are part of normal bookkeeping work. Add a log with the item, amount or account, issue, source link, date raised, current owner, next action, and due date. For property bookkeeping, useful statuses include waiting for source, waiting for approver, duplicate review, policy question, and ready after correction. The bookkeeper updates facts and follows up. The named owner records the decision and keeps the reason with the evidence.
+## Keep security deposits distinct
 
-## Review the first two cycles
+Reconcile deposit requirements from leases to deposit transactions, the tenant deposit subledger, general-ledger liability, and applicable bank records. Do not mix security deposits with rent receipts merely because they arrive together. Deposit handling and disposition can be subject to lease terms and jurisdiction-specific rules, so property management or qualified advisers should approve transfers, deductions, and refunds.
 
-Start property bookkeeping with representative examples and a small live batch. Review the first completed items on the same day, compare the record to the checklist, and note where instructions were unclear. During the second cycle, look for repeated errors, missing source documents, late questions, and reviewer effort. Expand the scope only after the work is complete, traceable, and easy for the reviewer to challenge.
+A deposit exception log should identify the tenant, amount, receipt date, ledger treatment, bank reference, issue, and owner. This makes missing support and unapplied amounts visible without asking the bookkeeper to make legal or lease interpretations.
 
-## Make the handoff explicit
+## Connect property costs and owner reporting
 
-A useful handoff states the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. Keep a short weekly note for property bookkeeping that lists completed work, open exceptions, and decisions needed. For role planning, see the [monthly close support service](/services/operations-support) and the [reporting and review service](/services/reporting-and-qa). These links are planning references, not substitutes for a written client process.
+Repairs, utilities, management fees, and other property costs should carry the correct property and, when required, unit or owner dimension. Match invoices to approval and evidence of service under company policy. Payment release remains with an authorized role.
+
+Before issuing an owner or management statement, tie rental income, receivables, deposits, and material property expenses back to reconciled schedules and the general ledger. Show unresolved items rather than silently allocating them. IRS recordkeeping guidance provides general context for retaining transaction support.
+
+The finished review packet should include the dated rent roll, lease-change report, charge comparison, receivable and deposit reconciliations, bank references, and exception log. Review depth should respond to changes and risk - not a fixed number of prior cycles. The related [SOP handoff template](/blog/bookkeeping-sop-handoff-template), [access review checklist](/blog/bookkeeping-access-review-checklist), and [close exception log](/blog/close-exception-log-bookkeeping) can help document the workflow.

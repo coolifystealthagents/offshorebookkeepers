@@ -20,7 +20,7 @@ for (const record of records) {
   const expectedType = record.route.startsWith('/blog/') ? 'blog' : 'research';
   if (!source.includes('published: "2026-09-07"') || !source.includes('September 7, 2026')) fail(`${record.sourcePath} has incorrect dates`);
   if (!source.includes(`type: "${expectedType}"`)) fail(`${record.sourcePath} has incorrect family`);
-  if (/[—–]/.test(source)) fail(`${record.sourcePath} contains an em or en dash`);
+  if (/[\u2013\u2014]/u.test(source)) fail(`${record.sourcePath} contains an em or en dash`);
   const image = source.match(/^featuredImage: "([^"]+)"/m)?.[1];
   if (!image || !fs.existsSync(`public${image}`)) fail(`${record.sourcePath} lacks an existing asset`);
   const familyHits = ['blog', 'research'].filter((family) => fs.existsSync(`content/${family}/${record.slug}.md`));

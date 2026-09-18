@@ -13,10 +13,11 @@ export type ContentPost = {
   competitor: string;
   featuredImage: string;
   sources: { name: string; url: string }[];
+  sourceNotes: { claim: string; sourceUrls: string[] }[];
   takeaways: string[];
   sections: { heading: string; body: string }[];
   faqs: { question: string; answer: string }[];
-  relatedLinks: string[][];
+  relatedLinks: [string, string][];
   serviceHandoff?: { href: string; label: string; title: string; body: string };
 };
 
@@ -231,6 +232,30 @@ function scalar(value: string) {
   return trimmed.replace(/^["']|["']$/g, '');
 }
 
+function normalizeFaqs(value: unknown): ContentPost['faqs'] {
+  if (!Array.isArray(value)) return [];
+  return value.flatMap((entry) => {
+    if (entry && typeof entry === 'object' && !Array.isArray(entry)) {
+      const question = 'question' in entry ? entry.question : undefined;
+      const answer = 'answer' in entry ? entry.answer : undefined;
+      return typeof question === 'string' && typeof answer === 'string' ? [{ question, answer }] : [];
+    }
+    if (Array.isArray(entry) && typeof entry[0] === 'string' && typeof entry[1] === 'string') {
+      return [{ question: entry[0], answer: entry[1] }];
+    }
+    return [];
+  });
+}
+
+function normalizeRelatedLinks(value: unknown): ContentPost['relatedLinks'] {
+  if (!Array.isArray(value)) return [];
+  return value.flatMap((entry) =>
+    Array.isArray(entry) && typeof entry[0] === 'string' && typeof entry[1] === 'string'
+      ? [[entry[0], entry[1]] as [string, string]]
+      : [],
+  );
+}
+
 function parseFile(file: string): ContentPost {
   const raw = fs.readFileSync(file, 'utf8');
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
@@ -259,12 +284,116 @@ function parseFile(file: string): ContentPost {
     competitor: meta.competitor || '',
     featuredImage: meta.featuredImage,
     sources: meta.sources || [],
+    sourceNotes: meta.sourceNotes || [],
     takeaways: meta.takeaways || [],
-    faqs: meta.faqs || [],
-    relatedLinks: meta.relatedLinks || [],
+    faqs: normalizeFaqs(meta.faqs),
+    relatedLinks: normalizeRelatedLinks(meta.relatedLinks),
     serviceHandoff: meta.serviceHandoff,
     sections,
   };
+}
+
+export type ArticleInline = { type: 'text' | 'strong' | 'code'; value: string };
+export type ArticleBlock =
+  | { type: 'heading'; level: 3; segments: ArticleInline[] }
+  | { type: 'paragraph'; segments: ArticleInline[] }
+  | { type: 'unordered-list'; items: ArticleInline[][] }
+  | { type: 'ordered-list'; items: ArticleInline[][] }
+  | { type: 'table'; header: ArticleInline[][]; rows: ArticleInline[][][] };
+
+function parseArticleInline(value: string): ArticleInline[] {
+  const tokens: ArticleInline[] = [];
+  const pattern = /(\*\*[^*\n]+\*\*|`[^`\n]+`)/g;
+  let cursor = 0;
+  for (const match of value.matchAll(pattern)) {
+    const index = match.index ?? cursor;
+    if (index > cursor) tokens.push({ type: 'text', value: value.slice(cursor, index) });
+    const token = match[0];
+    tokens.push(token.startsWith('**')
+      ? { type: 'strong', value: token.slice(2, -2) }
+      : { type: 'code', value: token.slice(1, -1) });
+    cursor = index + token.length;
+  }
+  if (cursor < value.length) tokens.push({ type: 'text', value: value.slice(cursor) });
+  return tokens.length ? tokens : [{ type: 'text', value }];
+}
+
+function tableCells(line: string) {
+  return line.trim().replace(/^\||\|$/g, '').split('|').map((cell) => cell.trim());
+}
+
+function isTableSeparator(line: string) {
+  const cells = tableCells(line);
+  return cells.length > 0 && cells.every((cell) => /^:?-{3,}:?$/.test(cell));
+}
+
+export function parseArticleBody(body: string): ArticleBlock[] {
+  const lines = body.replace(/\r\n?/g, '\n').split('\n');
+  const blocks: ArticleBlock[] = [];
+  const isTableStart = (index: number) => lines[index]?.trim().startsWith('|') && isTableSeparator(lines[index + 1] || '');
+  const isBlockStart = (index: number) => {
+    const line = lines[index]?.trim() || '';
+    return /^###\s+/.test(line) || /^[-*+]\s+/.test(line) || /^\d+[.)]\s+/.test(line) || isTableStart(index);
+  };
+
+  for (let index = 0; index < lines.length;) {
+    const line = lines[index].trim();
+    if (!line) { index += 1; continue; }
+
+    const heading = line.match(/^###\s+(.+)$/);
+    if (heading) {
+      blocks.push({ type: 'heading', level: 3, segments: parseArticleInline(heading[1]) });
+      index += 1;
+      continue;
+    }
+
+    if (isTableStart(index)) {
+      const header = tableCells(lines[index]).map(parseArticleInline);
+      index += 2;
+      const rows: ArticleInline[][][] = [];
+      while (index < lines.length && lines[index].trim().startsWith('|')) {
+        const cells = tableCells(lines[index]).map(parseArticleInline);
+        if (cells.length === header.length) rows.push(cells);
+        index += 1;
+      }
+      blocks.push({ type: 'table', header, rows });
+      continue;
+    }
+
+    const unordered = line.match(/^[-*+]\s+(.+)$/);
+    if (unordered) {
+      const items: ArticleInline[][] = [];
+      while (index < lines.length) {
+        const item = lines[index].trim().match(/^[-*+]\s+(.+)$/);
+        if (!item) break;
+        items.push(parseArticleInline(item[1]));
+        index += 1;
+      }
+      blocks.push({ type: 'unordered-list', items });
+      continue;
+    }
+
+    const ordered = line.match(/^\d+[.)]\s+(.+)$/);
+    if (ordered) {
+      const items: ArticleInline[][] = [];
+      while (index < lines.length) {
+        const item = lines[index].trim().match(/^\d+[.)]\s+(.+)$/);
+        if (!item) break;
+        items.push(parseArticleInline(item[1]));
+        index += 1;
+      }
+      blocks.push({ type: 'ordered-list', items });
+      continue;
+    }
+
+    const paragraph: string[] = [];
+    while (index < lines.length && lines[index].trim() && !isBlockStart(index)) {
+      paragraph.push(lines[index].trim());
+      index += 1;
+    }
+    blocks.push({ type: 'paragraph', segments: parseArticleInline(paragraph.join(' ')) });
+  }
+  return blocks;
 }
 
 export function getContent(kind: ContentKind): ContentPost[] {
@@ -273,7 +402,6 @@ export function getContent(kind: ContentKind): ContentPost[] {
   return fs.readdirSync(directory)
     .filter((file) => /\.(md|mdx)$/.test(file))
     .map((file) => parseFile(path.join(directory, file)))
-    // Primary date ordering remains .sort((a, b) => b.published.localeCompare(a.published));
     .sort((a, b) => {
       const dateOrder = b.published.localeCompare(a.published);
       if (dateOrder) return dateOrder;
@@ -283,6 +411,60 @@ export function getContent(kind: ContentKind): ContentPost[] {
       if (aRank !== bRank) return aRank - bRank;
       return a.slug.localeCompare(b.slug);
     });
+}
+
+export const researchTopics = [
+  'Close & Reporting',
+  'Payables & Expenses',
+  'Receivables & Revenue',
+  'Cash & Treasury',
+  'Payroll & Tax',
+  'Reconciliation',
+  'Access & Governance',
+  'Evidence & Quality',
+  'Industry Workflows',
+  'Bookkeeping Operations',
+] as const;
+
+export type ResearchTopic = typeof researchTopics[number];
+
+export function researchTopic(post: Pick<ContentPost, 'category'>): ResearchTopic {
+  const category = post.category.toLowerCase();
+  if (/construction|property|nonprofit|healthcare|legal|ecommerce|saas/.test(category)) return 'Industry Workflows';
+  if (/payable|\bap\b|expense|purchase|vendor|disbursement/.test(category)) return 'Payables & Expenses';
+  if (/receivable|\bar\b|revenue|subscription/.test(category)) return 'Receivables & Revenue';
+  if (/cash|bank|treasury|currency/.test(category)) return 'Cash & Treasury';
+  if (/payroll|tax/.test(category)) return 'Payroll & Tax';
+  if (/reconcil/.test(category)) return 'Reconciliation';
+  if (/close|report|general ledger|multi-entity|asset|inventory/.test(category)) return 'Close & Reporting';
+  if (/access|governance|hiring/.test(category)) return 'Access & Governance';
+  if (/evidence|record|quality|review/.test(category)) return 'Evidence & Quality';
+  return 'Bookkeeping Operations';
+}
+
+export function getResearchTopics(posts: readonly ContentPost[]) {
+  const counts = new Map<ResearchTopic, number>();
+  for (const post of posts) {
+    const topic = researchTopic(post);
+    counts.set(topic, (counts.get(topic) ?? 0) + 1);
+  }
+  return researchTopics.filter((topic) => counts.has(topic)).map((label) => ({ label, count: counts.get(label)! }));
+}
+
+export function filterResearchByTopic(posts: ContentPost[], requestedTopic?: string) {
+  const activeTopic = getResearchTopics(posts).some(({ label }) => label === requestedTopic) ? requestedTopic as ResearchTopic : '';
+  return { activeTopic, posts: activeTopic ? posts.filter((post) => researchTopic(post) === activeTopic) : posts };
+}
+
+export function getRelatedResearch(posts: ContentPost[], post: ContentPost, limit = 3) {
+  const topic = researchTopic(post);
+  return posts.filter((candidate) => candidate.slug !== post.slug && researchTopic(candidate) === topic).slice(0, limit);
+}
+
+export function readingMinutes(post: ContentPost) {
+  const text = [post.title, post.description, ...post.takeaways, ...post.sections.flatMap((section) => [section.heading, section.body])].join(' ');
+  const words = text.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(words / 200));
 }
 
 export function getPost(kind: ContentKind, slug: string) {

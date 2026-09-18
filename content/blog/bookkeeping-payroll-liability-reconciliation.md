@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Payroll Accounting"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-payroll-liability-reconciliation.svg"
 takeaways: ["Compare payroll registers, payments, and liability balances by period.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect payroll register, taxes, benefits, deductions, payment confirmations, an
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Reconcile payroll registers, tax filings, benefit deductions, garnishments, employer contributions, cash payments, and ledger liabilities by pay date and jurisdiction. Keep late payments, amended runs, voids, and agency notices distinct so one liability cannot mask another.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+A bookkeeper may prepare the tie-out and document differences, but authorized payroll and finance owners approve corrections, filings, remittances, employee recoveries, and account reclassifications. Tax or legal questions should be routed to the client's qualified adviser.
 
 ## Close with a useful handoff
 

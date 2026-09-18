@@ -6,39 +6,46 @@ updated: "2026-08-07"
 category: "Payroll Support"
 type: "blog"
 featuredImage: "/thumbnails/payroll-journal-preparation-controls.webp"
-takeaways: ["Write the preparation and decision boundary before granting access to payroll journal preparation.","Keep source evidence, system work, review notes, and exceptions together.","Scale the handoff only after two reviewed cycles show complete and traceable work."]
+takeaways: ["Use a payroll control total that connects the approved payroll register to gross pay, employee deductions, employer taxes, net pay, cash funding, and the journal.","Restrict payroll data and system rights by role; journal preparation should not include authority to change employee records, release payroll, or approve the entry.","Review each payroll run according to risk and documented policy rather than relying on an arbitrary number of completed cycles."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"CISA, Multifactor Authentication","url":"https://www.cisa.gov/secure-our-world/use-multifactor-authentication"}]
 relatedLinks: [["What a management reporting packet should contain","/blog/management-reporting-packet-bookkeeper"],["An ecommerce bookkeeping reconciliation workflow","/blog/ecommerce-bookkeeping-reconciliation-workflow"],["Property bookkeeping support and rent roll controls","/blog/property-bookkeeping-rent-roll-controls"]]
-faqs: [["Can an offshore bookkeeper own payroll journal preparation?","The bookkeeper can own the documented preparation steps and follow-up. Final approvals, accounting judgments, payment release, and policy exceptions should stay with an authorized business owner."],["What should a reviewer check?","The reviewer should check source completeness, the recorded result, open exceptions, required approvals, and whether the work followed the written procedure."]]
+faqs: [["Can a bookkeeper prepare the payroll journal?","Yes, under a documented process the bookkeeper can use an approved payroll register and mapping to prepare the journal and reconciliation. An authorized reviewer should approve the journal and retain authority over employee changes, payroll submission, and payments."],["What should a payroll journal reviewer check?","The reviewer should verify the pay period and entity, tie journal components to approved payroll reports, inspect unusual or manual items, confirm cash and liability treatment, and resolve or assign every exception."]]
 ---
-## Start with the decision boundary
 
-The first step in payroll journal preparation is to write down what the support role prepares and what the business decides. The bookkeeper can gather records, follow the documented process, update the accounting system, and explain an exception. The owner, controller, or CPA should retain approval, payment release, accounting judgment, and any decision that changes the business risk. A short boundary prevents a vague handoff from becoming an uncontrolled handoff.
+Payroll journal preparation translates an approved payroll run into the general ledger. It should not become a second payroll calculation or a route around payroll approval. For a small finance team, the control design needs to make source completeness, account mapping, sensitive-data access, and independent review visible without adding unnecessary handoffs.
 
-## Define the recurring input
+## Define the source packet and cutoff
 
-List the source records that arrive, who provides them, the expected frequency, and the format that counts as complete. For payroll journal preparation, the intake rule should identify the account, period, transaction or document reference, and the evidence needed for review. If an item arrives through an unusual channel, the bookkeeper records it and moves it to a hold queue. Clear intake rules make missing information visible before it becomes rework.
+The preparer should receive the final approved payroll register, payroll summary by earning and deduction type, employer-tax report, cash-funding detail, and any off-cycle or reversal report. Identify the legal entity, pay-group, pay-period end, pay date, and journal date on the cover sheet. Mark preliminary reports as unusable for posting so they cannot be mistaken for the final run.
 
-## Use a repeatable work sequence
+Use a secure, access-controlled location for payroll files. Employee-level data should be available only when required for the assigned task; a journal can often be prepared from department or account summaries. Named user accounts and multifactor authentication provide stronger accountability than shared credentials. CISA’s multifactor-authentication guidance is a useful security reference, while the company remains responsible for selecting controls appropriate to its systems.
 
-Break payroll journal preparation into steps that can be followed in the same order each cycle. A useful sequence is receive, check, record, compare, document, and hand off. Each step should have one expected output and one stop condition. The bookkeeper should not silently resolve an unfamiliar exception. Instead, the record should say what was checked, what is missing, and which named owner must decide.
+## Map each payroll component
 
-## Keep evidence with the work
+Maintain an approved mapping from payroll codes to general-ledger accounts and, where applicable, departments, locations, or projects. It should distinguish gross wages, employee tax withholdings, benefit deductions, employer payroll taxes, net pay, provider fees, reimbursements, and cash or clearing accounts.
 
-The review packet for payroll journal preparation should point back to the source record, the system entry, the calculation or comparison, and the note that explains any difference. Use stable file names or links and avoid relying on memory in email or chat. The IRS recordkeeping guidance explains why businesses need records that support income, expenses, and financial reporting. Read the [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when setting the retention rule.
+The preparer applies the mapping but does not invent treatment for a new earning or deduction code. New codes, negative amounts, unusual manual checks, and mapping changes go to the payroll owner or controller. Keep the approved mapping version with the journal support so the reviewer knows which rules were used.
 
-## Separate preparation from approval
+## Build control totals before posting
 
-A clean handoff gives the bookkeeper enough access to complete preparation without giving the same person authority to approve their own work. For payroll journal preparation, define the reviewer, the review deadline, the questions the reviewer must answer, and the event that closes the item. Use named accounts and multifactor authentication. CISA recommends multifactor authentication because a password alone is not a sufficient boundary when an account is compromised.
+Create a journal worksheet that ties total debits and credits and cross-checks the payroll reports. At minimum:
 
-## Create an exception path
+- wage expense agrees with report totals by approved reporting dimension;
+- employee deductions and taxes agree with liability credits;
+- employer taxes agree with expense and liability amounts;
+- net pay and other funding components explain expected cash or clearing activity; and
+- off-cycle payments, reversals, and voids are separately visible.
 
-Exceptions are part of normal bookkeeping work. Add a log with the item, amount or account, issue, source link, date raised, current owner, next action, and due date. For payroll journal preparation, useful statuses include waiting for source, waiting for approver, duplicate review, policy question, and ready after correction. The bookkeeper updates facts and follows up. The named owner records the decision and keeps the reason with the evidence.
+Rounding or provider-specific differences should have a documented rule and account. Do not bury an unexplained variance in payroll expense or a suspense line merely to balance the journal.
 
-## Review the first two cycles
+## Separate duties with practical compensating review
 
-Start payroll journal preparation with representative examples and a small live batch. Review the first completed items on the same day, compare the record to the checklist, and note where instructions were unclear. During the second cycle, look for repeated errors, missing source documents, late questions, and reviewer effort. Expand the scope only after the work is complete, traceable, and easy for the reviewer to challenge.
+The journal preparer should not approve their own entry, alter employee master data, change pay rates or bank details, submit payroll, or release the related payment. In a very small team, perfect separation may not be possible. An owner or controller can provide a compensating review by comparing the final payroll approval, journal control totals, bank funding, and change reports before accepting the posting.
 
-## Make the handoff explicit
+The reviewer should focus on manual entries, new codes, material period-to-period movements, duplicate journals, unexpected entities or departments, and posting dates. Evidence of review should identify the reviewer, date, questions raised, and resolution - not just a generic check mark.
 
-A useful handoff states the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. Keep a short weekly note for payroll journal preparation that lists completed work, open exceptions, and decisions needed. For role planning, see the [monthly close support service](/services/operations-support) and the [reporting and review service](/services/reporting-and-qa). These links are planning references, not substitutes for a written client process.
+## Reconcile after posting
+
+Confirm the posted journal number, period, and amounts against the approved worksheet. Then trace payroll withdrawals and later tax or benefit payments through the clearing and liability accounts. Keep an exception log for missing reports, mapping questions, rejected funding, reversals, or items awaiting approval.
+
+The bookkeeper can assemble reports, prepare and post a journal if access policy allows, and maintain the reconciliation. Authorized payroll and finance owners retain payroll approval, employee changes, payment release, accounting judgments, and exception approval. IRS recordkeeping guidance provides general context for supporting payroll-related entries. Review frequency and scope should follow transaction risk, access, changes, and company policy rather than an arbitrary number of prior cycles.

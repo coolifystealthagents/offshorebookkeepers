@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Management Reporting"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-job-cost-to-gl-reporting.svg"
 takeaways: ["Connect project activity, approved coding, billing records, and ledger totals.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect project, labor, vendor bills, expenses, billing status, and ledger contr
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Reconcile job-cost totals to payroll, purchasing, inventory issues, subcontractor bills, and the general ledger by project and cost code. Isolate uncoded costs, closed-job postings, duplicate imports, and overhead allocations rather than moving differences into a catch-all project.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+The bookkeeper can map transactions under established rules and prepare the project bridge. Project managers approve job ownership and change-order context; finance authorizes allocation policy, WIP or revenue judgments, transfers, and ledger corrections.
 
 ## Close with a useful handoff
 

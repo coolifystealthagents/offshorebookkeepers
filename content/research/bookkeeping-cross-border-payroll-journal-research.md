@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Workflow Design"
 type: "research"
-featuredImage: "/thumbnails/journal-entries.webp"
+featuredImage: "/thumbnails/payroll-journal-preparation-controls.webp"
 takeaways: ["Payroll journal preparation is distinct from payroll approval and tax compliance.", "A source pack should tie the entry to an approved payroll result.", "Jurisdiction-specific conclusions require qualified payroll and tax owners."]
 sources: [{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"U.S. Department of Labor, Payroll","url":"https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"BLS, Bookkeeping Clerks","url":"https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"}]
+sourceNotes: [{"claim":"The source list includes IRS, Recordkeeping as public guidance relevant to workflow design.","sourceUrls":["https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"]},{"claim":"U.S. Department of Labor, Payroll is listed to frame review questions about cross-border payroll journal evidence for bookkeeping teams.","sourceUrls":["https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"]},{"claim":"U.S. GAO, Standards for Internal Control provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]}]
 faqs: [{"question":"Can a remote bookkeeper calculate payroll taxes?","answer":"Only within the agreed role and applicable authority; preparation of a journal is not the same as tax determination."},{"question":"What belongs in the source pack?","answer":"Use the approved payroll report, posting period, account mapping, and evidence of review, adapted to the system."}]
 ---
 ## Research question

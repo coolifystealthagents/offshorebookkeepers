@@ -1,57 +1,44 @@
 ---
-title: "Tracking account-mapping changes across bookkeeping periods"
-description: "A bounded research framework for mapping change frequency, measurement choices, safeguards, and limitations."
+title: "A protocol for tracking account-mapping changes"
+description: "How to define, count, and review account-mapping revisions without mistaking change volume for control quality."
 published: "2026-09-07"
-updated: "2026-09-07"
+updated: "2026-09-17"
 category: "Bookkeeping research"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-source-version-research.png"
-takeaways: ["Define the population before measuring it.","Keep raw extracts and calculation versions.","Treat comparisons as descriptive, not causal."]
-faqs: [["Does this article report a client study?","No. It proposes a study design and reports no private client data or experimental result."],["Can the measure prove what caused an outcome?","No. A descriptive comparison can identify patterns and questions, but it cannot establish cause by itself."]]
+takeaways: ["Count an approved mapping-rule revision as the event; report affected transaction rows as a separate measure.","Retain the prior value, new value, effective date, reason, approver, and mapping version for every event.","Do not interpret a high or low change count without checking migrations, new products, chart-of-accounts revisions, and missing change records."]
+sources: [{"name":"NIST SP 800-53 Rev. 5, Update 1","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},{"name":"U.S. GAO, Standards for Internal Control in the Federal Government (GAO-14-704G)","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"PCAOB AS 1215, Audit Documentation","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215"}]
+sourceNotes: [{"claim":"NIST SP 800-53 Rev. 5, Update 1 control CM-3 describes reviewing, approving, documenting, and retaining records of configuration-controlled changes. Treating a bookkeeping mapping rule as a configuration item is this brief's operational analogy, not a NIST requirement for bookkeeping.","sourceUrls":["https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]},{"claim":"GAO-14-704G Principles 10 and 12 address designing control activities and deploying them through policies that define responsibility and document performance. Those principles support the proposed approval record; GAO does not prescribe a mapping-change metric.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]},{"claim":"PCAOB AS 1215 uses preparer, reviewer, date, and post-completion change records in an audit-documentation context. This brief borrows those traceability attributes for a mapping log and does not claim that AS 1215 governs ordinary bookkeeping.","sourceUrls":["https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215"]}]
+faqs: [{"question":"Does one mapping change count once or once per affected row?","answer":"Count one event for each separately approved rule revision. Report the number of affected rows beside the event count rather than multiplying the event itself."},{"question":"Does frequent change show that mapping controls are weak?","answer":"No. Approved business changes can increase the count, while missing or bypassed records can make the count appear low. Review the reasons, approvals, and downstream effects."}]
 ---
-Published September 7, 2026. This research brief offers an operational study design. It is not accounting, audit, tax, legal, payroll, statistical, investment, or regulatory advice.
+Published September 7, 2026; updated September 17, 2026. This is a prospective measurement protocol, not a report of client results. It does not prescribe an account classification or provide accounting, audit, tax, legal, or statistical advice.
 
-## Research question
+## The event to count
 
-This brief asks how frequently approved mappings change and which source populations they affect. Mappings change for valid reasons, but a quiet change can alter hundreds of rows. The study unit should be the approved change and its affected population.
+Choose one source-to-ledger mapping process and a fixed run of accounting periods. Define an event as a separately approved revision that changes where a source value is posted. Record the source field or value, previous destination, new destination, effective date, requestor, approver, reason, and mapping version. Formatting edits and reruns that leave the rule unchanged are not events.
 
-The cited public materials support traceable records, assigned responsibilities, controlled access, and reviewable evidence. The proposed application to mapping change frequency is OffshoreBookkeepers.com analysis, not a finding reported by those sources.
+A bulk upload is one event only when a single approval covers the whole set. If individual rules were separately requested or approved, each is an event. Freeze that convention before extracting results. The protocol adapts NIST's configuration-change concepts to bookkeeping rules; NIST does not establish a bookkeeping change-frequency benchmark.
 
-## Define the population before looking at results
+## Preserve lineage before calculating a rate
 
-Choose one recurring process and a fixed run of consecutive periods. The observation unit should be one request, workpaper, mapping change, vendor, or close task with a named preparer and reviewer. Capture source field, old mapping, new mapping, effective date, approver, affected rows, and reason. Record the entity, period, source system, and any authorized judgment involved. Write inclusion and exclusion rules before calculating the measure.
+Keep the opening mapping table, every in-scope change record, and the closing version. Those three layers allow a reviewer to reconstruct what was effective at a given time. GAO's Green Book provides the general control basis for assigned responsibility and documented performance, while PCAOB AS 1215 supplies an audit-context example of attributable preparation, review, and later changes. Neither source determines which ledger account is correct.
 
-## A bounded pilot
+Extract mapping metadata rather than transaction narratives or personal data. A reviewer should trace a sample from the opening rule through the approval and into the closing version, including reversals and bulk uploads. Any rule visible in the closing table but absent from the change log belongs in an exception queue, not in a silently repaired dataset.
 
-Save the raw extracts, minimize personal data, and use written classifications. Have a second reviewer retest a sample for consistent coding. Report the number of observations, missing fields, distribution, and outliers beside any average. Freeze the denominator so late additions do not quietly rewrite the result.
+## Two measures, two denominators
 
-This brief uses no private client dataset and makes no claim about a typical company, industry, country, or offshore team. A local pilot would describe only the population it actually observed.
+First, report the count of approved revision events by period. Second, report the proportion of opening in-scope rules changed at least once. The second measure uses the frozen opening rule population as its denominator; rules introduced during the period should be reported separately. A later reversal is another event because erasing the original would hide sequence.
 
-## Make the calculation reproducible
+Also report the number of transaction rows affected by each revision. That is an exposure measure, not another way to count changes: one approved rule revision may touch one row or thousands. Preserve the calculation version, exclusion table, and treatment of missing approvals so another reviewer can reproduce the summary.
 
-Write down when the clock starts and stops, what counts as complete, and how reopened work is handled. Preserve the first extract and each calculation version. Segment results only when the groups have a practical definition, such as document source, task type, or evidence status. Keep exclusions in a separate table with reasons.
+## Interpret the pattern, not just the count
 
-## Roles and safeguards
+A migration, new sales channel, product launch, acquisition, or approved chart-of-accounts redesign may produce a concentrated cluster of valid revisions. A quiet period may indicate stable rules, but it may also reflect incomplete tickets or spreadsheet overrides outside the controlled workflow. Annotate those conditions before comparing periods.
 
-A bookkeeper can assemble authorized records, apply fixed labels, calculate descriptive measures, and log exceptions. The finance owner approves definitions and any resulting action. An independent reviewer tests whether the labels were applied consistently. Legal, tax, payroll, audit, accounting-policy, privacy, and employee-performance conclusions remain with authorized professionals.
+The count cannot establish mapping accuracy, control effectiveness, or the cause of a downstream correction. Those questions require inspection of the underlying accounting decision, approval evidence, and affected postings. No mapping population was analyzed for this article, so it supplies no external target or industry norm.
 
-## Read the result cautiously
+## Ownership and reporting limits
 
-A comparison does not establish cause. Staffing changes, new accounts, altered deadlines, migrations, access failures, and unusual transaction volume may affect the measure. Small samples are unstable. Missing fields may be systematic. Examine the observations before changing a process, and do not rank individuals when the study was designed to examine workflow conditions.
+A bookkeeper may assemble versions, link approvals, and calculate the declared measures. The finance or system owner should approve the population, effective-date rule, and bulk-change convention. A reviewer should test lineage and escalate unapproved or unexplained changes. The measurement exercise must not itself authorize a new accounting treatment.
 
-## Scope and limitations
-
-This framework has not been validated on a representative sample. Organizations differ in definitions, privacy duties, software logs, staffing, and materiality. A future study should disclose sample size, missing data, classification changes, known process changes, and conflicts of interest with its results.
-
-## Sources
-
-- [U.S. GAO, Standards for Internal Control in the Federal Government](https://www.gao.gov/products/gao-14-704g)
-- [COSO, Internal Control Framework](https://www.coso.org/internal-control)
-- [PCAOB, AS 1105: Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105)
-- [NIST, Data Integrity glossary](https://csrc.nist.gov/glossary/term/data_integrity)
-- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
-- [FASB, Concepts Statements](https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html)
-- [IFRS Foundation, Conceptual Framework](https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/)
-- [U.S. Small Business Administration, Manage your finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
-- [NIST, Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control)
-- [AICPA & CIMA, Audit evidence](https://www.aicpa-cima.com/resources/article/audit-evidence)
+Systems differ in rule granularity, inheritance, deletion history, and versioning. Published results should therefore identify the system, periods, event definition, opening denominator, missing-history limitations, bulk-change treatment, and material migrations. Comparisons are meaningful only when those design choices are compatible.

@@ -25,7 +25,7 @@ Break debt covenant data packet into receive, check, record, compare, document, 
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Index the executed loan agreement, amendments, lender definitions, period-end trial balance, source schedules, calculation cells, and ledger links for every covenant input. Align record retention with client policy and adviser input; [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a general reference only.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete debt covenant data packet without 
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Track ambiguous lender definitions, missing statements, amended thresholds, out-of-period entries, and preliminary ratios near a limit. The bookkeeper prepares source data and marks uncertainties; management and its advisers interpret the agreement and approve lender reporting.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Reperform one historical covenant period from the signed agreement and final ledger before using the packet for a current submission. Differences in EBITDA adjustments, debt classification, or measurement dates should be resolved by the authorized reviewer, not embedded silently in the template.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Handoff should show each covenant's contractual wording, data source, preliminary result, headroom, unresolved interpretation, certification deadline, and approving executive or adviser. The [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) give related process context.

@@ -6,39 +6,48 @@ updated: "2026-08-07"
 category: "Team Handoffs"
 type: "blog"
 featuredImage: "/thumbnails/remote-bookkeeper-first-week-plan.webp"
-takeaways: ["Write the preparation and decision boundary before granting access to remote bookkeeper first week.","Keep source evidence, system work, review notes, and exceptions together.","Scale the handoff only after two reviewed cycles show complete and traceable work."]
+takeaways: ["Use the first week to establish scope, secure access, source locations, review ownership, and escalation routes before assigning live work.","Move from walkthroughs and redacted examples to a bounded live task with same-day review; expand only where evidence shows the process is understood.","End the week with an access inventory, corrected SOP, open-questions log, and explicit next-week scope - not an assumption that every bookkeeping task is ready to transfer."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"CISA, Multifactor Authentication","url":"https://www.cisa.gov/secure-our-world/use-multifactor-authentication"}]
 relatedLinks: [["How to hand off accounts receivable aging work","/blog/accounts-receivable-aging-handoff"],["Payroll journal preparation controls for a small finance team","/blog/payroll-journal-preparation-controls"],["Build a month-end close calendar with offshore support","/blog/month-end-close-calendar-offshore-support"]]
-faqs: [["Can an offshore bookkeeper own remote bookkeeper first week?","The bookkeeper can own the documented preparation steps and follow-up. Final approvals, accounting judgments, payment release, and policy exceptions should stay with an authorized business owner."],["What should a reviewer check?","The reviewer should check source completeness, the recorded result, open exceptions, required approvals, and whether the work followed the written procedure."]]
+faqs: [["Should a remote bookkeeper receive access to every finance system on day one?","No. Grant named, least-privilege access needed for the agreed first tasks, verify it works, and add rights only when the scope requires them. Keep approval and payment-release permissions with authorized roles."],["What should be completed by the end of the first week?","Aim for a confirmed scope, working access inventory, source map, tested communication and exception path, reviewed sample work, updated instructions, and a bounded plan for the following week."]]
 ---
-## Start with the decision boundary
 
-The first step in remote bookkeeper first week is to write down what the support role prepares and what the business decides. The bookkeeper can gather records, follow the documented process, update the accounting system, and explain an exception. The owner, controller, or CPA should retain approval, payment release, accounting judgment, and any decision that changes the business risk. A short boundary prevents a vague handoff from becoming an uncontrolled handoff.
+A remote bookkeeper’s first week should test how work moves, not maximize the number of transactions processed. A practical plan establishes secure access, makes decision boundaries explicit, and gives both the bookkeeper and reviewer a small amount of real evidence before scope expands.
 
-## Define the recurring input
+## Before day one: prepare the landing area
 
-List the source records that arrive, who provides them, the expected frequency, and the format that counts as complete. For remote bookkeeper first week, the intake rule should identify the account, period, transaction or document reference, and the evidence needed for review. If an item arrives through an unusual channel, the bookkeeper records it and moves it to a hold queue. Clear intake rules make missing information visible before it becomes rework.
+Name a primary reviewer and a backup. Choose one or two bounded tasks, such as updating a reconciliation from provided statements or preparing an accounts-receivable aging follow-up list. Assemble the current procedure, redacted examples, file locations, deadline, expected output, and escalation contacts.
 
-## Use a repeatable work sequence
+Create named accounts with least-privilege access; do not send shared passwords through chat or email. Enable multifactor authentication where supported and decide how sensitive records may be downloaded, stored, and deleted. CISA provides general guidance on multifactor authentication. The company should apply its own security and retention requirements.
 
-Break remote bookkeeper first week into steps that can be followed in the same order each cycle. A useful sequence is receive, check, record, compare, document, and hand off. Each step should have one expected output and one stop condition. The bookkeeper should not silently resolve an unfamiliar exception. Instead, the record should say what was checked, what is missing, and which named owner must decide.
+## Day 1: orient around scope and boundaries
 
-## Keep evidence with the work
+Walk through the business entities, accounting calendar, systems, chart-of-accounts conventions, and communication channels. Then review a responsibility map: what the bookkeeper prepares, what the reviewer checks, and what stays with an authorized owner.
 
-The review packet for remote bookkeeper first week should point back to the source record, the system entry, the calculation or comparison, and the note that explains any difference. Use stable file names or links and avoid relying on memory in email or chat. The IRS recordkeeping guidance explains why businesses need records that support income, expenses, and financial reporting. Read the [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when setting the retention rule.
+Be explicit that payment release, bank-detail changes, payroll approval, customer credits, vendor setup, write-offs, tax positions, and accounting-policy decisions are not implied by “bookkeeping support.” Confirm working hours, response expectations, urgent-event contacts, and how to report a suspected access or data issue.
 
-## Separate preparation from approval
+The day-one output is a written scope and questions list, not a live posting target.
 
-A clean handoff gives the bookkeeper enough access to complete preparation without giving the same person authority to approve their own work. For remote bookkeeper first week, define the reviewer, the review deadline, the questions the reviewer must answer, and the event that closes the item. Use named accounts and multifactor authentication. CISA recommends multifactor authentication because a password alone is not a sufficient boundary when an account is compromised.
+## Day 2: verify access and trace one workflow
 
-## Create an exception path
+Test each approved login, permission, source folder, and report. Record access granted, owner, purpose, and review date. Stop if permissions are broader than requested or prevent the assigned work.
 
-Exceptions are part of normal bookkeeping work. Add a log with the item, amount or account, issue, source link, date raised, current owner, next action, and due date. For remote bookkeeper first week, useful statuses include waiting for source, waiting for approver, duplicate review, policy question, and ready after correction. The bookkeeper updates facts and follows up. The named owner records the decision and keeps the reason with the evidence.
+Follow one transaction from source document through system entry, reconciliation, review, and archive. The bookkeeper should identify which record is authoritative, the cutoff rule, naming convention, and evidence required to close the item. Update the procedure when the actual system differs from the written instructions.
 
-## Review the first two cycles
+## Day 3: practice with examples
 
-Start remote bookkeeper first week with representative examples and a small live batch. Review the first completed items on the same day, compare the record to the checklist, and note where instructions were unclear. During the second cycle, look for repeated errors, missing source documents, late questions, and reviewer effort. Expand the scope only after the work is complete, traceable, and easy for the reviewer to challenge.
+Use redacted historical examples that include a normal item and several exceptions. Ask the bookkeeper to produce the expected worksheet, evidence links, and exception notes while sharing their reasoning. The reviewer checks whether the process was followed and whether questions were raised at the right point.
 
-## Make the handoff explicit
+Correct the SOP rather than relying on verbal reminders. If an example requires judgment, document who decides it; do not turn the example into permission for the bookkeeper to make that decision later.
 
-A useful handoff states the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. Keep a short weekly note for remote bookkeeper first week that lists completed work, open exceptions, and decisions needed. For role planning, see the [monthly close support service](/services/operations-support) and the [reporting and review service](/services/reporting-and-qa). These links are planning references, not substitutes for a written client process.
+## Day 4: complete a bounded live task
+
+Assign a small current task whose source records are complete and whose impact can be reviewed promptly. Define a stop condition - for example, no posting when the control total differs or support is missing. The bookkeeper prepares the work and records exceptions; the named reviewer checks it before any consequential posting or external communication.
+
+Evaluate evidence quality, cutoff handling, use of the escalation route, and access behavior. Speed is secondary because the sample may be too small or unfamiliar to measure normal throughput.
+
+## Day 5: review and set next-week scope
+
+Hold a structured review covering completed work, errors or ambiguities, open access issues, unresolved exceptions, and procedure changes. Decide task by task whether to continue at the same scope, add a clearly defined step, provide more training, or pause. There is no arbitrary number of cycles that makes a handoff safe; review depth should reflect risk, system rights, task complexity, and observed work.
+
+Finish with an access inventory, corrected SOP, source map, exception log, reviewer schedule, and next-week task list. The bookkeeper can own documented preparation and follow-up. Authorized business roles retain approvals, payment release, policy judgments, and exceptions that change financial reporting or business risk. IRS recordkeeping guidance offers general context when defining how source evidence will be retained.

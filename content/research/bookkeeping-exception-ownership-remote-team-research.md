@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Hiring Controls"
 type: "research"
-featuredImage: "/thumbnails/controller-review.webp"
+featuredImage: "/thumbnails/offshore-bookkeeping-close-ownership-matrix.webp"
 takeaways: ["An exception needs an owner and a next decision, not only a label.", "Escalation should distinguish missing evidence from accounting judgment.", "Aging is useful only when measured against a stated risk and cutoff."]
 sources: [{"name":"COSO, Internal Control Integrated Framework","url":"https://www.coso.org/internal-control"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"PCAOB AS 2201","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"},{"name":"NIST, Contingency Planning Guide","url":"https://csrc.nist.gov/pubs/sp/800/34/r1/final"}]
+sourceNotes: [{"claim":"The source list includes COSO, Internal Control Integrated Framework as public guidance relevant to hiring controls.","sourceUrls":["https://www.coso.org/internal-control"]},{"claim":"U.S. GAO, Standards for Internal Control is listed to frame review questions about exception ownership in a remote bookkeeping team.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]},{"claim":"PCAOB AS 2201 provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"]}]
 faqs: [{"question":"Who owns an exception?","answer":"Assign ownership to the role that can obtain evidence or make the authorized decision, not simply the person who found it."},{"question":"Should every exception be escalated?","answer":"Escalate according to documented risk, cutoff, and decision authority."}]
 ---
 ## Research question

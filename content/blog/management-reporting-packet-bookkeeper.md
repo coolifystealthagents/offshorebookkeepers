@@ -1,44 +1,86 @@
 ---
-title: "What a management reporting packet should contain"
-description: "Turn recurring bookkeeping work into a review-ready management reporting packet with source notes, variance questions, reconciliations, and clear ownership."
+title: "What to include in a monthly management reporting packet"
+description: "Organize financial statements, cash and working-capital schedules, variance analysis, reconciliations, exceptions, and decisions into one review-ready packet."
 published: "2026-08-07"
-updated: "2026-08-07"
+updated: "2026-09-17"
 category: "Management Reporting"
 type: "blog"
 featuredImage: "/thumbnails/management-reporting-packet-bookkeeper.webp"
-takeaways: ["Write the preparation and decision boundary before granting access to management reporting packet.","Keep source evidence, system work, review notes, and exceptions together.","Scale the handoff only after two reviewed cycles show complete and traceable work."]
-sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"CISA, Multifactor Authentication","url":"https://www.cisa.gov/secure-our-world/use-multifactor-authentication"}]
+takeaways: ["Start with the decisions management needs to make, then use a consistent contents page, reporting basis, cutoff, and comparison periods.","Include core statements plus cash, receivables, payables, variance, reconciliation, close-status, and action schedules relevant to the business.","Separate prepared facts from management commentary, label estimates and incomplete areas, and make every material number traceable to a controlled source."]
 relatedLinks: [["Property bookkeeping support and rent roll controls","/blog/property-bookkeeping-rent-roll-controls"],["Law firm bookkeeping boundaries for trust account support","/blog/law-firm-trust-account-bookkeeping-boundaries"],["A bookkeeping SOP handoff template that people can use","/blog/bookkeeping-sop-handoff-template"]]
-faqs: [["Can an offshore bookkeeper own management reporting packet?","The bookkeeper can own the documented preparation steps and follow-up. Final approvals, accounting judgments, payment release, and policy exceptions should stay with an authorized business owner."],["What should a reviewer check?","The reviewer should check source completeness, the recorded result, open exceptions, required approvals, and whether the work followed the written procedure."]]
+faqs: [["Is a management packet the same as statutory financial statements?","No. A management packet is an internal decision-support package tailored to the business. It should clearly state its accounting basis, period, scope, and limitations and should not be represented as audited, reviewed, or compliant financial statements unless appropriately prepared and reported on."],["Should every company use the same KPIs?","No. Include measures that have a defined owner, reliable source, stable calculation, and connection to management decisions. A shorter packet with understood measures is more useful than a dashboard of ambiguous metrics."],["What can a bookkeeper prepare?","A bookkeeper can assemble controlled reports, reconcile schedules, apply documented mappings, calculate approved comparisons, and draft factual exception notes. Management or its accounting adviser should approve judgments, forecasts, policy changes, and the final narrative."]]
 ---
-## Start with the decision boundary
+A management reporting packet should help leaders understand what happened, what remains uncertain, and what requires a decision. It is more than a stack of accounting-system reports. A good packet applies the same cutoff and definitions across pages, links headline numbers to supporting schedules, and distinguishes completed accounting from estimates or unresolved close items.
 
-The first step in management reporting packet is to write down what the support role prepares and what the business decides. The bookkeeper can gather records, follow the documented process, update the accounting system, and explain an exception. The owner, controller, or CPA should retain approval, payment release, accounting judgment, and any decision that changes the business risk. A short boundary prevents a vague handoff from becoming an uncontrolled handoff.
+The exact contents depend on the company. A subscription business, construction company, professional practice, and retailer do not need identical operational measures. The structure below is a starting architecture: include a section only when its purpose, source, owner, and calculation are clear.
 
-## Define the recurring input
+## Put scope and status on the cover
 
-List the source records that arrive, who provides them, the expected frequency, and the format that counts as complete. For management reporting packet, the intake rule should identify the account, period, transaction or document reference, and the evidence needed for review. If an item arrives through an unusual channel, the bookkeeper records it and moves it to a hold queue. Clear intake rules make missing information visible before it becomes rework.
+The cover or contents page should identify the entity or consolidated group, reporting period, currency, accounting basis, comparison periods, preparation date, preparer, and reviewer. It should also state whether the period is open, provisionally closed, or locked and list any entities or accounts excluded from the packet.
 
-## Use a repeatable work sequence
+Add a short close-status panel. It can identify incomplete reconciliations, estimates still awaiting replacement, late source systems, and adjustments awaiting approval. This context prevents a polished chart from implying more certainty than the underlying books support. If the packet is for internal use, label it accordingly. Do not describe bookkeeping reports as audited or reviewed financial statements unless that work and reporting have actually been performed by appropriately qualified professionals.
 
-Break management reporting packet into steps that can be followed in the same order each cycle. A useful sequence is receive, check, record, compare, document, and hand off. Each step should have one expected output and one stop condition. The bookkeeper should not silently resolve an unfamiliar exception. Instead, the record should say what was checked, what is missing, and which named owner must decide.
+## Include the core financial statements
 
-## Keep evidence with the work
+A practical monthly packet usually starts with these reports:
 
-The review packet for management reporting packet should point back to the source record, the system entry, the calculation or comparison, and the note that explains any difference. Use stable file names or links and avoid relying on memory in email or chat. The IRS recordkeeping guidance explains why businesses need records that support income, expenses, and financial reporting. Read the [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when setting the retention rule.
+1. **Income statement.** Show the current month and year to date, with relevant prior-period and budget or forecast comparisons. Use the same account mapping across periods and flag reclassifications that affect comparability.
+2. **Balance sheet.** Present the period-end position with a prior-period comparison. Significant or unusual movements should link to schedules or notes rather than being explained from memory.
+3. **Cash flow view.** Depending on the accounting process, this may be a formal cash flow statement or a clearly labeled management cash bridge. State the method and source so readers do not confuse bank movement with accrual profit.
 
-## Separate preparation from approval
+If the business reports by department, location, product, project, or entity, include a segmented view only after intercompany treatment, allocation rules, and dimensions are sufficiently controlled. Keep the company-wide totals reconcilable to the core statements.
 
-A clean handoff gives the bookkeeper enough access to complete preparation without giving the same person authority to approve their own work. For management reporting packet, define the reviewer, the review deadline, the questions the reviewer must answer, and the event that closes the item. Use named accounts and multifactor authentication. CISA recommends multifactor authentication because a password alone is not a sufficient boundary when an account is compromised.
+## Add cash and working-capital schedules
 
-## Create an exception path
+Cash and near-term obligations often need more detail than the face of the statements provides. Useful packet components include:
 
-Exceptions are part of normal bookkeeping work. Add a log with the item, amount or account, issue, source link, date raised, current owner, next action, and due date. For management reporting packet, useful statuses include waiting for source, waiting for approver, duplicate review, policy question, and ready after correction. The bookkeeper updates facts and follows up. The named owner records the decision and keeps the reason with the evidence.
+- bank balances by account, distinguishing book and available balance when those concepts differ;
+- a short-term cash outlook prepared by its designated owner, with assumptions dated and identified;
+- accounts-receivable aging with unapplied cash, credits, disputed items, and concentration called out;
+- accounts-payable aging with overdue items, credits, holds, and near-term due dates;
+- deferred revenue, customer deposits, prepaids, accrued expenses, or inventory schedules when material to the business; and
+- debt balances and upcoming payment information tied to the maintained debt schedule.
 
-## Review the first two cycles
+Aging reports need quality checks. Their totals should agree to the relevant general-ledger control account as of the same date. Negative receivables, old unapplied cash, debit supplier balances, and items in an unexpected aging bucket should be visible rather than hidden by a net total.
 
-Start management reporting packet with representative examples and a small live batch. Review the first completed items on the same day, compare the record to the checklist, and note where instructions were unclear. During the second cycle, look for repeated errors, missing source documents, late questions, and reviewer effort. Expand the scope only after the work is complete, traceable, and easy for the reviewer to challenge.
+## Make comparisons explainable
 
-## Make the handoff explicit
+A variance page should compare actual results with the benchmark management uses: budget, forecast, prior month, prior year, or another relevant baseline. Identify which baseline appears in each column and whether the comparison is monthly or cumulative.
 
-A useful handoff states the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. Keep a short weekly note for management reporting packet that lists completed work, open exceptions, and decisions needed. For role planning, see the [monthly close support service](/services/operations-support) and the [reporting and review service](/services/reporting-and-qa). These links are planning references, not substitutes for a written client process.
+Set review thresholds in the reporting procedure based on the business's scale and decision needs. Avoid treating a universal percentage as inherently meaningful. A small absolute movement can matter in a sensitive account, while a large expected seasonal movement may need only a concise explanation.
+
+For each selected variance, include the account or measure, current and comparison values, amount and direction of change, factual driver, source or analysis link, owner, and any action. Separate a verified explanation - such as a posted annual insurance invoice - from an inference still awaiting confirmation. When several accounts share one operational cause, explain the cause once and identify all affected lines.
+
+## Use KPIs only when definitions are governed
+
+Operational measures can make the financial results more useful, but each KPI should have a definition sheet. Record its formula, source system, owner, period cutoff, inclusion and exclusion rules, treatment of revisions, and unit of measure. Examples might include order volume, utilization, headcount, units shipped, customer retention, project backlog, or revenue per defined unit, but relevance varies by business.
+
+Show enough context to interpret the measure: current period, comparison, target if one has been formally approved, and a concise explanation. If source data is incomplete, label the KPI provisional instead of filling a gap with an undocumented estimate. Changing a definition should result in a note and, where practical, comparable prior periods - not an unexplained break in the trend.
+
+## Include accounting quality and close evidence
+
+Management needs to know not only the reported result but also the state of the underlying close. A concise accounting-control section can include:
+
+- reconciliation status for material bank, card, receivable, payable, payroll, debt, tax, intercompany, and other balance-sheet accounts;
+- an open-items schedule showing owner, age, next action, and expected resolution date;
+- unposted or pending journal entries and who must approve them;
+- estimates and accruals that require reversal or later true-up;
+- period-cutoff issues and late transactions;
+- intercompany differences by entity pair; and
+- changes to mappings, accounting treatment, or report logic that affect comparison.
+
+This is not a dump of every workpaper. Link to controlled evidence and summarize what affects interpretation. The packet version should be frozen or versioned after approval so a later ledger change does not silently alter the record management reviewed.
+
+## End with narrative and an action register
+
+An executive summary should answer a limited set of questions: What changed? Why? What is still uncertain? What decision or action is needed? A bookkeeper can draft factual observations from approved sources, but management should own forward-looking interpretation, risk appetite, forecasts, and business commitments.
+
+Finish with an action register that identifies the issue, decision or task, owner, due date, dependency, status, and link to supporting detail. Carry unresolved actions into the next packet rather than losing them in meeting notes. Record outcomes after the review meeting, including approved corrections or requests for additional analysis.
+
+## Assign preparation and review responsibilities
+
+A recurring responsibility matrix keeps the packet from becoming a last-minute assembly exercise. The bookkeeper may export reports, check date filters, tie schedules to the ledger, update approved calculations, compile source links, and draft variance questions. A controller, finance lead, owner, or external adviser can review accounting judgments, approve adjustments, challenge explanations, and release the packet for use.
+
+For each component, document the source, preparer, due date, reviewer, review evidence, and escalation route. Use read-only source reports where practical and retain the report parameters. A spreadsheet total without the entity, period, basis, and source report is difficult to reproduce.
+
+[Monthly close support](/services/month-end-close-support) can help organize the accounting dependencies feeding the packet, while [reporting and review support](/services/management-reporting-support) can help structure recurring preparation and review. The final design should remain specific to management's decisions and the reliability of the company's data - not to a generic page count or dashboard template.

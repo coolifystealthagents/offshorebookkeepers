@@ -1,5 +1,8 @@
+import type { Metadata } from 'next';
 import * as data from './data';
 import { Header, Footer, JsonLd } from './components';
+
+export const metadata: Metadata = { alternates: { canonical: '/' } };
 const d=data as any, site=d.site||{}, services=(d.services||[]).slice(0,6), posts=(d.blogPosts||[]).slice(0,3), stats=(d.stats||[]).slice(0,3), offer=d.staffingOffer||{};
 const title=(x:any)=>typeof x==='string'?x:(x.title||x.name||x.label||x.question||'Role');
 const text=(x:any)=>typeof x==='string'?x:(x.desc||x.excerpt||x.note||x.body||'Clear scope, review rhythm, and measurable handoff.');

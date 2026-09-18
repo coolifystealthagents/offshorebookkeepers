@@ -45,6 +45,7 @@ const existingBlogPosts = [
     "excerpt": "A Philippines bookkeeper can prepare bills and keep the approval trail clean. The owner or finance lead should still control vendor changes, invoice approval, exceptions, and payment release.",
     "minutes": 12,
     "published": "2026-07-25",
+    "updated": "2026-09-16",
     "takeaways": [
       "Let the bookkeeper collect, check, enter, route, and reconcile bills, but do not give one person end-to-end payment control.",
       "Confirm every vendor bank change through a known contact path that did not come from the change request.",
@@ -195,15 +196,15 @@ const existingBlogPosts = [
       ["What should happen when an invoice does not match?", "Place the invoice on hold and record the exact mismatch in the exception log. The bookkeeper gathers facts, while the purchase owner or finance lead decides what to approve or correct."]
     ],
     "relatedLinks": [
-      ["See the accounts payable support scope", "/services/admin-support"],
-      ["Plan reporting and review checks", "/services/reporting-and-qa"],
+      ["See the accounts payable support scope", "/services/accounts-payable-processing"],
+      ["Plan reporting and review checks", "/services/management-reporting-support"],
       ["Use the month-end close checklist", "/blog"],
       ["Map a Philippines bookkeeping role", "/contact-us"]
     ],
     "banners": [
       ["Define the AP boundary", "Map invoice work, access limits, approval owners, and exception rules before candidate matching.", "/contact-us", "Plan the role"],
       ["Connect AP to the close", "Use one review packet so approved bills, open exceptions, and reconciled payments reach month-end together.", "/blog", "Open the close guide"],
-      ["Keep review independent", "Set a reporting and QA handoff that leaves final finance decisions with your owner, controller, or CPA.", "/services/reporting-and-qa", "See review support"]
+      ["Keep review independent", "Set a reporting and QA handoff that leaves final finance decisions with your owner, controller, or CPA.", "/services/management-reporting-support", "See review support"]
     ],
     "sources": [
       { "name": "FBI, 2024 IC3 Annual Report", "url": "https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf" },
@@ -220,6 +221,7 @@ const existingBlogPosts = [
     "excerpt": "A Philippines bookkeeper can prepare bank reconciliations and keep every exception tied to proof. The owner or controller should keep bank administration, approval, write-off, and final review authority.",
     "minutes": 12,
     "published": "2026-07-28",
+    "updated": "2026-09-16",
     "takeaways": [
       "Give the bookkeeper read-only bank access when possible, then keep user administration and money movement with an authorized finance owner.",
       "Match each bank line to a ledger entry and source record, while unresolved differences stay in an exception queue with a named reviewer.",
@@ -381,13 +383,13 @@ const existingBlogPosts = [
     ],
     "relatedLinks": [
       ["See the bank reconciliation support scope", "/services/bank-reconciliation-support"],
-      ["Plan reporting and review checks", "/services/reporting-and-qa"],
+      ["Plan reporting and review checks", "/services/management-reporting-support"],
       ["Read the accounts payable control guide", "/blog/philippines-bookkeeper-accounts-payable-controls"],
       ["Map a Philippines bookkeeping role", "/contact-us"]
     ],
     "banners": [
       ["Set the bank-access boundary", "Map read-only access, evidence rules, reviewer ownership, and stop points before candidate matching.", "/contact-us", "Plan the role"],
-      ["Connect reconciliation to review", "Build a packet that lets the owner check balances, old items, adjustments, and open exceptions.", "/services/reporting-and-qa", "See review support"],
+      ["Connect reconciliation to review", "Build a packet that lets the owner check balances, old items, adjustments, and open exceptions.", "/services/management-reporting-support", "See review support"],
       ["Keep cash decisions inside the business", "Use Philippines bookkeeping support for preparation while your authorized finance owner keeps bank control and sign-off.", "/services/bank-reconciliation-support", "See the service scope"]
     ],
     "sources": [
@@ -405,6 +407,7 @@ const existingBlogPosts = [
     "excerpt": "A Philippines bookkeeper can prepare schedules, tie balances to proof, and keep the close moving. The owner, controller, or CPA should keep policy decisions, adjustment approval, account sign-off, and final report release.",
     "minutes": 13,
     "published": "2026-07-28",
+    "updated": "2026-09-16",
     "takeaways": [
       "Give the bookkeeper a close checklist with one owner, due date, proof link, status, and reviewer for every account.",
       "Let the role prepare reconciliations and proposed entries, but keep judgment, approval, write-offs, and final sign-off with a named finance lead.",
@@ -567,7 +570,7 @@ const existingBlogPosts = [
     "banners": [
       ["Map the close boundary", "Set the account list, access limits, proof rules, reviewers, and owner-only decisions before candidate matching.", "/contact-us", "Plan the role"],
       ["Start with the cash trail", "Use a controlled bank reconciliation handoff before adding more accounts to the close.", "/blog/philippines-bookkeeper-bank-reconciliation-controls", "Read the cash guide"],
-      ["Keep final review inside the business", "Use Philippines bookkeeping support for preparation while your controller, owner, or CPA keeps approval and sign-off.", "/services/reporting-and-qa", "See review support"]
+      ["Keep final review inside the business", "Use Philippines bookkeeping support for preparation while your controller, owner, or CPA keeps approval and sign-off.", "/services/management-reporting-support", "See review support"]
     ],
     "sources": [
       { "name": "Association of Certified Fraud Examiners, Occupational Fraud 2024: A Report to the Nations", "url": "https://www.acfe.com/-/media/files/acfe/pdfs/rttn/2024/2024-report-to-the-nations.pdf" },
@@ -585,6 +588,7 @@ const generatedBlogPosts = getContent('blog').map((post) => ({
   excerpt: post.description,
   minutes: 8,
   published: post.published,
+  updated: post.updated,
   takeaways: post.takeaways,
   sections: post.sections.map((section) => ({ heading: section.heading, paragraphs: [section.body] })),
   faqs: post.faqs.map((faq) => [faq.question, faq.answer]),
@@ -593,8 +597,13 @@ const generatedBlogPosts = getContent('blog').map((post) => ({
   featuredImage: post.featuredImage,
 }));
 
-export const blogPosts = [...existingBlogPosts, ...generatedBlogPosts]
-  .sort((a, b) => b.published.localeCompare(a.published));
+const allBlogPosts = [...existingBlogPosts, ...generatedBlogPosts];
+for (const post of allBlogPosts as any[]) {
+  if (post.quote && !post.sources?.some((source: any) => source.url === post.quote.sourceUrl)) {
+    throw new Error(`${post.slug}: quote source must be listed in article sources`);
+  }
+}
+export const blogPosts = allBlogPosts.sort((a, b) => b.published.localeCompare(a.published));
 export const stats = [{label:'Typical savings target',value:'30-60%',note:'depends on role, management, and local hiring plan'},{label:'Best pilot length',value:'14 days',note:'enough time to test quality before scaling'},{label:'Start with',value:'5-10 tasks',note:'clear recurring tasks beat vague job descriptions'}] as const;
 
 export const staffingOffer = {

@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Month-End Close"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-month-end-accrual-review.svg"
 takeaways: ["Identify services received but not billed and document the basis and reversal plan.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect cutoff, purchase orders, receiving records, contracts, prior accruals, a
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Roll forward each accrual from the prior estimate through reversal, invoice receipt, current estimate, and ending balance. Compare purchase activity and subsequent invoices, and retain quantity, service-period, rate, and source evidence for every proposed amount or release.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+The preparer may gather evidence, update formulas, and draft entries under an approved method. Budget owners confirm goods or services received, while the controller or CPA approves estimates, thresholds, releases, classification, and any policy departure.
 
 ## Close with a useful handoff
 

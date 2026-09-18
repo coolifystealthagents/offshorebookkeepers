@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
+import { ArticleBody } from '../../article-body';
 import { blogPosts, site } from '../../data';
 const readerDate = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const formatReaderDate = (value?: string) => {
@@ -56,7 +57,7 @@ function DetectionChart({ chart }: { chart: any }) {
       <span className="visual-deck">{chart.description}</span>
       <div className="svg-scroll" role="region" aria-label={`${chart.title}. Scroll horizontally if needed.`} tabIndex={0}>
         <svg viewBox="0 0 720 330" role="img" aria-labelledby="detection-chart-title detection-chart-desc">
-          <title id="detection-chart-title">{chart.title}, measured in {chart.unit.toLowerCase()}</title>
+          <title id="detection-chart-title">{`${chart.title}, measured in ${chart.unit.toLowerCase()}`}</title>
           <desc id="detection-chart-desc">{chart.accessibleDescription || chart.bars.map((bar: readonly [string, number]) => `${bar[0]} ${formatValue(bar[1])}`).join(', ')}</desc>
           <text x="190" y="42" className="svg-unit">{chart.unit}</text>
           {ticks.map((tick: number) => (
@@ -144,7 +145,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         url: postUrl,
         mainEntityOfPage: postUrl,
         datePublished: post.published,
-        dateModified: post.published,
+        dateModified: post.updated,
         ...(post.featuredImage ? { image: post.featuredImage } : {}),
         publisher: { '@type': 'Organization', name: site.brand, url: siteUrl },
         citation: sources.map((source: any) => source.url),
@@ -184,8 +185,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <span className="eyebrow">{site.brand} guide</span>
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
-            {post.published && <span className="article-date">Published <time dateTime={post.published}>{formatReaderDate(post.published)}</time> · {post.minutes} minute read</span>}
-            {post.featuredImage && <img className="article-featured-image" src={post.featuredImage} alt="" />}
+            {post.published && <span className="article-date">Published <time dateTime={post.published}>{formatReaderDate(post.published)}</time>{post.updated && post.updated !== post.published && <> · Updated <time dateTime={post.updated}>{formatReaderDate(post.updated)}</time></>} · {post.minutes} minute read</span>}
+            {post.featuredImage && <img className="article-featured-image" src={post.featuredImage} alt={post.description || post.excerpt} />}
           </header>
 
           {richArticle ? (
@@ -199,7 +200,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 <div key={section.heading}>
                   <section className="article-card article-section">
                     <h2>{section.heading}</h2>
-                    {(section.paragraphs || [section.body]).filter(Boolean).map((paragraph: string) => <p key={paragraph}>{paragraph}</p>)}
+                    <ArticleBody body={(section.paragraphs || [section.body]).filter(Boolean).join('\n\n')}/>
                   </section>
                   {index === 2 && banners[0] && <ArticleBanner banner={banners[0]} index={0} />}
                   {index === 7 && banners[1] && <ArticleBanner banner={banners[1]} index={1} />}
@@ -265,7 +266,6 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               <p>Provide only the access needed for the position and use named accounts where possible. Write down which questions need approval and who receives them.</p>
             </section>
           )}
-        <p className='article-source-note'><a href="https://www.ilo.org/global/topics/non-standard-employment/WCMS_534825/lang--en/index.htm" target="_blank" rel="noopener noreferrer">International Labour Organization guidance on remote work arrangements</a> reinforces why remote role briefs should document expectations, communication rhythms, and accountable handoffs.</p>
         </article>
         {!richArticle && <CTA />}
       </main>

@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Hiring Controls"
 type: "research"
-featuredImage: "/thumbnails/controller-review.webp"
+featuredImage: "/thumbnails/offshore-bookkeeping-close-ownership-matrix.webp"
 takeaways: ["Least privilege starts with a task and ends with a tested permission.", "Report export, journal posting, and payment access are different capabilities.", "Access reviews need an owner, evidence, and a removal trigger."]
 sources: [{"name":"NIST SP 800-53 Rev. 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},{"name":"CISA, Multifactor Authentication","url":"https://www.cisa.gov/secure-our-world/turn-mfa"},{"name":"COSO, Internal Control Integrated Framework","url":"https://www.coso.org/internal-control"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"}]
+sourceNotes: [{"claim":"The source list includes NIST SP 800-53 Rev. 5 as public guidance relevant to hiring controls.","sourceUrls":["https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"]},{"claim":"CISA, Multifactor Authentication is listed to frame review questions about accounting-software permissions for outsourced bookkeeping.","sourceUrls":["https://www.cisa.gov/secure-our-world/turn-mfa"]},{"claim":"COSO, Internal Control Integrated Framework provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://www.coso.org/internal-control"]}]
 faqs: [{"question":"Should a bookkeeper have administrator access?","answer":"Only when a documented task requires it and an owner accepts the risk; routine preparation usually needs less access."},{"question":"How often should permissions be reviewed?","answer":"Set a cadence and review after role, system, or employment changes."}]
 ---
 ## Research question

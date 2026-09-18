@@ -4,16 +4,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "test:aug10": "node tests/test_aug10_blog_contract.mjs",
+    "test": "npm run validate:content && npm run test:source && npm run build && npm run test:rendered",
+    "test:source": "node --test tests/remediation-contract.test.mjs tests/homepage-auditor-regressions.test.mjs tests/research-index-contract.test.mjs",
+    "test:rendered": "node tests/test_aug10_blog_contract.mjs && node tests/test_aug10_research_contract.mjs",
+    "test:aug10": "node tests/test_aug10_blog_contract.mjs && node tests/test_aug10_research_contract.mjs",
     "start": "next start -H 0.0.0.0 -p 3000",
-    "lint": "next lint",
+    "lint": "next typegen && tsc --noEmit",
     "validate:content": "node scripts/validate-content.mjs",
     "thumbnails:templates": "python scripts/thumbnails.py templates",
     "thumbnails:report": "python scripts/thumbnails.py report content/research/*.md content/alternatives/*.md"
   },
   "dependencies": {
-    "@next/third-parties": "^15.1.6",
-    "next": "^15.1.6",
+    "@next/third-parties": "^16.3.5",
+    "next": "^16.3.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

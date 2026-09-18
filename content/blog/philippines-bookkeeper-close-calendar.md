@@ -25,6 +25,9 @@ Run the calendar through a small set of accounts and inspect whether the evidenc
 An exception should name the account, amount or document, issue, next action, owner, and due date. Escalate when a policy choice, approval, missing source, or potential misstatement blocks progress. A long list without a decision request is not a useful close packet.
 
 ## Hand off a signed summary
+
+At the end of the close, provide a summary of completed tasks, open exceptions, supporting links, reviewer decisions, and items carried forward. The named reviewer should confirm the disposition under the client’s policy; the preparer records that confirmation rather than treating silence as approval.
+
 ## Sequence dependencies, not just dates
 Bank reconciliation should precede cash review because the latter depends on a known ending balance. Bill completeness should precede accrual review, and payroll posting should wait for the approved register. If a statement is late, complete source collection and mark the reconciliation blocked so the reviewer sees why the close cannot be certified.
 

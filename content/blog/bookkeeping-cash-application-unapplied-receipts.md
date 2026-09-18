@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Receivables"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-cash-application-unapplied-receipts.svg"
 takeaways: ["Link receipts to customer accounts while keeping uncertain matches on hold.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect remittance, amount, date, customer history, and deposit reference. Prese
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Reconcile the unapplied-cash register to bank deposits, processor settlements, and the customer subledger. For each receipt, retain candidate invoices, remittance evidence, currency, short-pay detail, and prior applications so a forced match cannot conceal an overpayment or duplicate posting.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+Support staff can research payers and propose invoice matches, while the receivables owner authorizes cross-customer transfers, refunds, credits, write-offs, and unidentified-cash treatment. Any manual application should retain separate preparer and reviewer identities.
 
 ## Close with a useful handoff
 

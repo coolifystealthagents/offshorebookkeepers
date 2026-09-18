@@ -25,7 +25,7 @@ Break vendor 1099 address review into receive, check, record, compare, document,
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Maintain the vendor's submitted tax form, current remittance address, master-record history, change request, verification evidence, and affected reporting extract together. Use the [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when the client and its tax adviser establish recordkeeping requirements.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete vendor 1099 address review without
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Separate incomplete forms, inconsistent legal names or taxpayer IDs, foreign addresses, returned mail, and address changes received through unapproved channels. The bookkeeper records discrepancies; the authorized vendor-master owner or tax adviser decides acceptance and reportability.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Sample a long-standing vendor, a new payee, and a vendor whose address changed during the year. Compare source forms with both the vendor master and draft reporting output before applying corrections to the wider population.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Deliver a vendor exception list containing source-form status, master address, reporting address, change date, verification status, payment total, and tax-review owner. See the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) for adjacent process support.

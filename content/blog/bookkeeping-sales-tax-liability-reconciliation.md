@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Tax Support"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-sales-tax-liability-reconciliation.svg"
 takeaways: ["Tie taxable sales, exemptions, collected tax, payments, and ledger balances.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect jurisdiction, filing period, taxable sales, exemptions, collected tax, a
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Bridge taxable sales, exempt sales, marketplace-facilitated amounts, tax collected, credits, filings, payments, and ending liability by jurisdiction. Preserve filing-period and transaction detail, and investigate rate, nexus, exemption, and cutoff differences instead of plugging the payable.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+Bookkeeping support can assemble source data and compare returns to the ledger. The client and its qualified tax adviser determine registrations, nexus, taxability, rates, exemptions, amendments, and filing positions; an authorized officer approves returns and payments.
 
 ## Close with a useful handoff
 

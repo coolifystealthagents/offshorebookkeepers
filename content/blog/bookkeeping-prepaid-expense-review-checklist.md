@@ -25,7 +25,7 @@ Break prepaid expense review into receive, check, record, compare, document, and
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Support each prepaid line with the invoice or contract, payment, coverage dates, allocation basis, prior amortization, current entry, and ledger balance. The client's retention policy may draw on [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) and professional advice.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete prepaid expense review without giv
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Flag expired coverage, renewed contracts without invoices, duplicate schedule lines, credits, cancellations, and balances with no remaining benefit period. The bookkeeper updates factual support; the controller or CPA approves amortization methods, impairments, write-offs, and reclassifications.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Review one annual insurance policy, one software contract, and one irregular service period from payment through monthly expense. Verify the remaining schedule against contract dates and ledger postings before broadening ownership of the rollforward.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Deliver a prepaid rollforward with additions, scheduled expense, credits, ending balance, remaining coverage, proposed corrections, and review status for every line. Related close and QA services are outlined in the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support).

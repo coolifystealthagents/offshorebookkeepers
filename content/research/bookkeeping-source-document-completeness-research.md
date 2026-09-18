@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Workflow Design"
 type: "research"
-featuredImage: "/thumbnails/audit-trail.webp"
+featuredImage: "/thumbnails/offshore-bookkeeping-close-evidence-room.webp"
 takeaways: ["Completeness must be defined by transaction class and review purpose.", "Missing evidence and unusable evidence are different defects.", "A sampling plan is more informative than a single completeness percentage."]
 sources: [{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"PCAOB AS 2201","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"NIST SP 800-53 Rev. 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"}]
+sourceNotes: [{"claim":"The source list includes IRS, Recordkeeping as public guidance relevant to workflow design.","sourceUrls":["https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"]},{"claim":"PCAOB AS 2201 is listed to frame review questions about source-document completeness in outsourced bookkeeping.","sourceUrls":["https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201"]},{"claim":"U.S. GAO, Standards for Internal Control provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]}]
 faqs: [{"question":"What counts as complete?","answer":"Define the minimum evidence needed to identify, authorize, record, and review the transaction class."},{"question":"Is an attachment enough?","answer":"No. The attachment must be readable, relevant, and linked to the recorded transaction."}]
 ---
 ## Research question

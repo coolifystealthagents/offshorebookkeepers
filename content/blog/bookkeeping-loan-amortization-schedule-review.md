@@ -25,7 +25,7 @@ Break loan amortization schedule review into receive, check, record, compare, do
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Tie the amortization schedule to the executed note, amendments, lender statement, payment confirmations, rate changes, fee support, and period-end ledger. The borrower can consider [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when setting record-retention policy.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete loan amortization schedule review 
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Escalate payment splits that disagree with lender statements, undocumented rate resets, skipped payments, modifications, and unexplained principal differences. The bookkeeper updates contractual data and calculations; the controller or CPA approves accounting treatment and adjustment entries.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Reperform the opening balance and several payments, including a rate-change or irregular payment if one exists. Compare ending principal with direct lender evidence before relying on the schedule for all future monthly postings.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Hand off the contractual and ledger balances, current-period cash, principal, interest and fee components, next due date, unresolved lender differences, and approved entry reference. Related close support appears in the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support).

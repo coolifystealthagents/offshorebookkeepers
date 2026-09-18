@@ -1,57 +1,44 @@
 ---
-title: "How long do bookkeeping evidence requests stay open by source?"
-description: "A bounded research framework for request age, measurement choices, safeguards, and limitations."
+title: "Measuring bookkeeping evidence-request cycle time by source"
+description: "A prospective method for timing evidence requests from a valid request through receipt of complete evidence, including unresolved items."
 published: "2026-09-07"
-updated: "2026-09-07"
+updated: "2026-09-17"
 category: "Bookkeeping research"
 type: "research"
 featuredImage: "/thumbnails/offshore-bookkeeping-evidence-queue-aging-research.webp"
-takeaways: ["Define the population before measuring it.","Keep raw extracts and calculation versions.","Treat comparisons as descriptive, not causal."]
-faqs: [["Does this article report a client study?","No. It proposes a study design and reports no private client data or experimental result."],["Can the measure prove what caused an outcome?","No. A descriptive comparison can identify patterns and questions, but it cannot establish cause by itself."]]
+takeaways: ["Start the clock only when the request identifies the required evidence, covered period, source, and owner.","Measure first response separately from receipt of evidence that meets the predefined completion rule.","Keep unresolved requests in the population and disclose the cutoff, channel coverage, and business-time convention."]
+sources: [{"name":"PCAOB AS 1105, Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"PCAOB AS 1215, Audit Documentation","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215"},{"name":"U.S. GAO, Standards for Internal Control in the Federal Government (GAO-14-704G)","url":"https://www.gao.gov/products/gao-14-704g"}]
+sourceNotes: [{"claim":"PCAOB AS 1105 explains, in an audit context, that evidence must be sufficient and appropriate and that reliability depends on its nature, source, and circumstances. This brief uses those attributes to define complete receipt; it does not claim a bookkeeping request is audit evidence under the standard.","sourceUrls":["https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"]},{"claim":"PCAOB AS 1215 requires audit documentation to identify work performed, evidence obtained, and who performed and reviewed work. The proposed request register borrows those traceability attributes only as an operational analogy.","sourceUrls":["https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215"]},{"claim":"GAO-14-704G Principles 13 through 15 address quality information and internal and external communication. They support naming information requirements and owners before timing the flow; GAO provides no evidence-request response-time target.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]}]
+faqs: [{"question":"Does the first reply stop evidence-request cycle time?","answer":"Only if it supplies evidence that meets the predefined completion rule. Track an acknowledgment or incomplete response under a separate first-response measure."},{"question":"How should requests still open at the cutoff be handled?","answer":"Retain them as unresolved observations and report their age at the cutoff. Do not assign a fabricated completion time or remove them from the population."}]
 ---
-Published September 7, 2026. This research brief offers an operational study design. It is not accounting, audit, tax, legal, payroll, statistical, investment, or regulatory advice.
+Published September 7, 2026; updated September 17, 2026. This article defines a prospective timing study. It contains no client request log, response-time result, or service-level benchmark.
 
-## Research question
+## Define a valid start and a valid finish
 
-This brief asks whether request age differs by source system and document type. An evidence request is not complete merely because someone replied. The response still has to contain the record that the procedure called for.
+Select fixed close cycles and include every in-scope request issued during them. A valid request has a unique ID and states the required record, covered period, source system, document type, and responsible owner. The clock starts when that complete request is sent, not when a vague question or draft is created.
 
-The cited public materials support traceable records, assigned responsibilities, controlled access, and reviewable evidence. The proposed application to request age is OffshoreBookkeepers.com analysis, not a finding reported by those sources.
+The completion event occurs when the requested evidence is received and meets a written sufficiency rule. An acknowledgment, inaccessible link, wrong period, or partial file does not stop that clock. PCAOB AS 1105 supplies audit-context concepts of sufficiency, appropriateness, and source reliability; the process owner must translate those concepts into a bookkeeping-specific acceptance rule.
 
-## Define the population before looking at results
+## Build one event chain per request
 
-Choose one recurring process and a fixed run of consecutive periods. The observation unit should be one request, workpaper, mapping change, vendor, or close task with a named preparer and reviewer. Capture request time, source, document type, owner, reminders, receipt time, and completeness result. Record the entity, period, source system, and any authorized judgment involved. Write inclusion and exclusion rules before calculating the measure.
+Maintain the request timestamp, first response, each evidence receipt, completeness decision, reminders, reopening, cancellation, and final status under the original ID. Link duplicate messages rather than treating them as new observations. Define bundled requests, scope changes, and cancellations before analysis.
 
-## A bounded pilot
+Do not copy document contents or unnecessary message text into the timing file. Store event metadata and evidence references under existing access controls. The proposed lineage borrows from PCAOB AS 1215's audit-documentation attributes, while GAO's Green Book supports explicit information requirements and communication ownership. Neither authority prescribes this register for ordinary bookkeeping.
 
-Save the raw extracts, minimize personal data, and use written classifications. Have a second reviewer retest a sample for consistent coding. Report the number of observations, missing fields, distribution, and outliers beside any average. Freeze the denominator so late additions do not quietly rewrite the result.
+## Publish separate timing measures
 
-This brief uses no private client dataset and makes no claim about a typical company, industry, country, or offshore team. A local pilot would describe only the population it actually observed.
+For completed requests, calculate time from valid request to complete receipt using one declared convention: calendar time, stated business hours, or another reproducible clock. Report time to first response separately. Show the number of requests and medians plus ranges or selected percentiles by source and document type when groups are large enough to describe responsibly.
 
-## Make the calculation reproducible
+Requests open at the study cutoff remain in the denominator. Report their age at cutoff and unresolved count; do not code them as zero, assign the cutoff as completion, or analyze only completed records without warning. If a formal time-to-event method is used, specify it and obtain appropriate statistical review rather than presenting a completed-only average as the full experience.
 
-Write down when the clock starts and stops, what counts as complete, and how reopened work is handled. Preserve the first extract and each calculation version. Segment results only when the groups have a practical definition, such as document source, task type, or evidence status. Keep exclusions in a separate table with reasons.
+## Test completion decisions and timestamps
 
-## Roles and safeguards
+A reviewer should trace a sample from the original request through the referenced file and completeness decision, including reopened and still-open items. The reviewer should also test edited or missing timestamps and verify that reminders did not create duplicate IDs. Source and document-type labels should be locked before group comparisons.
 
-A bookkeeper can assemble authorized records, apply fixed labels, calculate descriptive measures, and log exceptions. The finance owner approves definitions and any resulting action. An independent reviewer tests whether the labels were applied consistently. Legal, tax, payroll, audit, accounting-policy, privacy, and employee-performance conclusions remain with authorized professionals.
+A bookkeeper may maintain the register and apply approved statuses. The process owner defines acceptable evidence and who may close or reopen a request. The measure describes a workflow and should not become an individual performance score.
 
-## Read the result cautiously
+## Bound the interpretation
 
-A comparison does not establish cause. Staffing changes, new accounts, altered deadlines, migrations, access failures, and unusual transaction volume may affect the measure. Small samples are unstable. Missing fields may be systematic. Examine the observations before changing a process, and do not rank individuals when the study was designed to examine workflow conditions.
+System availability, request specificity, document complexity, weekends, holidays, access failures, and changed scope can coincide with longer elapsed time. Source groups may also have different document mixes. These factors require stratification or case review; they do not establish why one observation took longer.
 
-## Scope and limitations
-
-This framework has not been validated on a representative sample. Organizations differ in definitions, privacy duties, software logs, staffing, and materiality. A future study should disclose sample size, missing data, classification changes, known process changes, and conflicts of interest with its results.
-
-## Sources
-
-- [U.S. GAO, Standards for Internal Control in the Federal Government](https://www.gao.gov/products/gao-14-704g)
-- [COSO, Internal Control Framework](https://www.coso.org/internal-control)
-- [PCAOB, AS 1105: Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105)
-- [NIST, Data Integrity glossary](https://csrc.nist.gov/glossary/term/data_integrity)
-- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
-- [FASB, Concepts Statements](https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html)
-- [IFRS Foundation, Conceptual Framework](https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/)
-- [U.S. Small Business Administration, Manage your finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
-- [NIST, Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control)
-- [AICPA & CIMA, Audit evidence](https://www.aicpa-cima.com/resources/article/audit-evidence)
+Email and ticket timestamps record system events, not effort. Calls and chat may be absent, and reviewers may apply completion rules inconsistently. A report should disclose included channels and cycles, cutoff treatment, missing timestamps, completion criteria, clock convention, reopening rules, group counts, and process changes. The method yields a local description, not a universal target for offshore or client teams.

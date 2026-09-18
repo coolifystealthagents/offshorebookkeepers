@@ -25,7 +25,7 @@ Break merchant reserve reconciliation into receive, check, record, compare, docu
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Retain processor statements, settlement IDs, withheld and released reserve activity, chargeback detail, bank receipts, and reserve ledger postings. The merchant can use [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) as one input when establishing retention rules.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete merchant reserve reconciliation wi
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Track unannounced holdbacks, releases missing from the bank, reserve adjustments without transaction detail, and differences between dashboard and statement. The preparer pursues processor evidence; finance approves classification, impairment, or write-off decisions.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Trace one reserve hold, one release, and one chargeback-funded deduction from settlement through bank and ledger. Confirm that processor activity explains the reserve rollforward before consolidating multiple merchant accounts into the process.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Provide a processor-level rollforward of opening reserve, new holds, releases, adjustments, ending reserve, expected release timing, and unsupported differences. The [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) give adjacent process context.

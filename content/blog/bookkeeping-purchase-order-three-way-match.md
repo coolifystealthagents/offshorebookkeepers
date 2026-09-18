@@ -25,7 +25,7 @@ Break purchase order three-way match into receive, check, record, compare, docum
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+Keep the approved purchase order, goods receipt or service confirmation, supplier invoice, tolerance result, vendor record, and posting reference together. The company can consult [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) when formalizing its retention policy.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete purchase order three-way match wit
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Route quantity, price, tax, freight, entity, and receipt-date mismatches by reason instead of forcing a match. The AP preparer gathers corrections, while the buyer, receiving owner, or authorized approver accepts variances and changes commitments under client policy.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Test a full receipt, a partial shipment, and a service invoice with milestone approval. Confirm that tolerance settings do not clear duplicate invoices or excess quantities before enabling automated matching for more vendors.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Send AP a match report listing PO, receipt, invoice, exact variance, tolerance outcome, blocked amount, exception owner, and release approval. See the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) for adjacent operating support.

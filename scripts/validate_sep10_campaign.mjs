@@ -14,7 +14,7 @@ for(const x of records){
   const source=fs.readFileSync(x.sourcePath,'utf8'); const family=x.route.startsWith('/blog/')?'blog':'research';
   if(!source.includes('published: "2026-09-10"')||!source.includes('September 10, 2026')) fail(`${x.sourcePath} date`);
   if(!source.includes(`type: "${family}"`)) fail(`${x.sourcePath} family`);
-  if(/[—–]/.test(source)) fail(`${x.sourcePath} dash`);
+  if(/[\u2013\u2014]/u.test(source)) fail(`${x.sourcePath} dash`);
   const image=source.match(/^featuredImage: "([^"]+)"/m)?.[1]; if(!image||!fs.existsSync(`public${image}`)) fail(`${x.sourcePath} image`);
   const hits=['blog','research'].filter(f=>fs.existsSync(`content/${f}/${x.slug}.md`)); if(hits.length!==1||hits[0]!==family) fail(`${x.slug} duplicate`);
   if(family==='research'){

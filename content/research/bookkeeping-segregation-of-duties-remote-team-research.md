@@ -5,9 +5,10 @@ published: "2026-08-17"
 updated: "2026-08-17"
 category: "Hiring Controls"
 type: "research"
-featuredImage: "/thumbnails/controller-review.webp"
+featuredImage: "/thumbnails/offshore-bookkeeping-close-ownership-matrix.webp"
 takeaways: ["Segregation is a design question about incompatible actions, not a job-title rule.", "Small teams need compensating review when full separation is impractical.", "Payment authority and accounting preparation should remain visibly distinct."]
-sources: [{"name":"COSO, Internal Control Integrated Framework","url":"https://www.coso.org/internal-control"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"ACFE, Occupational Fraud 2024","url":"https://www.acfe.com/report-to-the-nations/2024/"},{"name":"NIST SP 800-53 Rev. 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"}]
+sources: [{"name":"COSO, Internal Control Integrated Framework","url":"https://www.coso.org/internal-control"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"ACFE, Occupational Fraud 2024","url":"https://www.acfe.com/fraud-resources/report-to-the-nations"},{"name":"NIST SP 800-53 Rev. 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"}]
+sourceNotes: [{"claim":"The source list includes COSO, Internal Control Integrated Framework as public guidance relevant to hiring controls.","sourceUrls":["https://www.coso.org/internal-control"]},{"claim":"U.S. GAO, Standards for Internal Control is listed to frame review questions about segregation of duties for a remote bookkeeping team.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]},{"claim":"ACFE, Occupational Fraud 2024 provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://www.acfe.com/fraud-resources/report-to-the-nations"]}]
 faqs: [{"question":"Can one remote bookkeeper do every task?","answer":"That depends on access and risk; where separation is not feasible, add independent review and documented owner approval."},{"question":"Who releases payments?","answer":"A designated client-side approver should retain payment release authority unless governance says otherwise."}]
 ---
 ## Research question

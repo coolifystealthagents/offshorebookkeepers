@@ -10,21 +10,22 @@ takeaways: ["Give every task an entity, account, currency, and reviewer.","Recon
 faqs: [["Can a Philippines bookkeeper support several entities?","Yes, if the chart, close calendar, access, and ownership are documented separately. A controller retains consolidation and policy decisions."],["What causes multi-entity close delays?","Common causes are inconsistent cutoffs, missing intercompany confirmations, unclear currency treatment, and one exception owner serving too many entities."]]
 ---
 ## Split the calendar by entity
-## Prevent cross-entity posting
-For each task, show entity, book, currency, account, source, preparer, reviewer, and deadline. A bill paid by Entity A for Entity B must be held for a documented intercompany treatment rather than posted to whichever ledger is open. The Philippines bookkeeper can prepare the evidence and proposed entries; entity owners approve the final posting.
-
-## Reconcile the consolidated view
-After each entity closes, compare intercompany balances, currencies, due-to and due-from accounts, and shared schedules. Explain a difference as timing, exchange movement, missing source, or unresolved classification. Keep entity-level evidence attached so a consolidated number does not hide a local exception.
-Give each task an entity, book, currency, account, source, preparer, reviewer, and deadline. A shared calendar without those fields makes it too easy to post or review the wrong company.
+Give each entity its own close status, bank and subledger dependencies, preparer, reviewer, and cutoff. Shared tasks may use one operating calendar, but the evidence and approval trail should still identify the legal entity so one company’s completion does not mask another’s open work.
 
 ## Standardize the packet
-Use the same reconciliation and exception structure while allowing each entity’s policy and source systems to remain explicit. A Philippines bookkeeper benefits from repeatable fields, not from pretending the entities are identical.
+Use the same reconciliation and exception structure while keeping each entity’s policy and source systems explicit. A Philippines bookkeeper benefits from repeatable fields, not from pretending the entities are identical.
+
+## Prevent cross-entity posting
+For each task, show the entity, book, currency, account, source, preparer, reviewer, and deadline. A bill paid by Entity A for Entity B must be held for documented intercompany treatment rather than posted to whichever ledger is open. The Philippines bookkeeper can prepare the evidence and proposed entries; entity owners approve the final posting.
 
 ## Confirm intercompany early
-Match balances, invoices, dates, currencies, and references before the final consolidation window. Route differences to the entity owners with a specific question and evidence.
+Match balances, invoices, dates, currencies, and references before the final consolidation window. Route differences to the entity owners with a specific question and supporting evidence.
 
 ## Track currency separately
-Record transaction currency, functional currency, rate source, and translation treatment where required by policy. Escalate rate or remeasurement questions rather than applying an unapproved shortcut.
+Record the transaction currency, functional currency, rate source, and translation treatment required by policy. Escalate rate or remeasurement questions rather than applying an unapproved shortcut.
+
+## Reconcile the consolidated view
+After each entity closes, compare intercompany balances, currencies, due-to and due-from accounts, and shared schedules. Explain a difference as timing, exchange movement, a missing source, or an unresolved classification. Keep entity-level evidence attached so a consolidated number does not hide a local exception.
 
 ## Protect consolidation judgment
 The support role can prepare eliminations and tie-outs under documented instructions. The controller or authorized finance lead approves consolidation adjustments, policy decisions, and final reports.

@@ -12,6 +12,9 @@ faqs: [["Does a bookkeeper need bank access?","Read-only access can help with re
 ## Begin with the task
 Write the exact bank and accounting actions the role needs: view statements, download activity, match transactions, or prepare a reconciliation. Avoid granting broad access simply because it is convenient during onboarding.
 
+## Decide access from the reconciliation steps
+If the assignment is to reconcile a checking account, view-only online banking access may support statement downloads while the accounting platform supports matching and attachments. It does not follow that the bookkeeper needs to add payees, change security details, initiate transfers, or approve bills. Write each action beside its system permission. If a bank combines roles, document the excess capability and add a compensating review.
+
 ## Use named accounts
 A named user makes activity attributable and supports timely removal. Shared credentials obscure who viewed or changed information and make review harder for an offshore team.
 
@@ -19,12 +22,10 @@ A named user makes activity attributable and supports timely removal. Shared cre
 Payment creation, transfer setup, payee changes, approval, release, security resets, and user administration should remain with authorized business users. The bookkeeper can prepare evidence without controlling funds.
 
 ## Review the permission map
-## Decide access from the reconciliation steps
-If the assignment is to reconcile a checking account, view-only online banking access may support statement downloads while the accounting platform supports matching and attachments. It does not follow that the bookkeeper needs to add payees, change security details, initiate transfers, or approve bills. Write each action beside its system permission. If a bank combines roles, document the excess capability and add compensating review.
+List each bank user, system, role, permitted account, access level, authentication method, approver, grant date, and review date. Compare the map with the tasks the role actually performs, then send excess, missing, or unclear access to the client’s designated security and finance owners. Remove access that is no longer necessary.
 
 ## Test the boundary with an exception
-Ask the bookkeeper to identify a duplicate withdrawal and unfamiliar beneficiary without changing either record. The reviewer checks that evidence was captured, the exception routed, and no payment or credential change occurred. Record the result in the permission map and revisit it if work changes from reconciliation to payment preparation.
-Document system, role, access level, owner, grant date, and review date. Check whether the account still matches the task and remove access that is no longer necessary.
+Ask the bookkeeper to identify a duplicate withdrawal and an unfamiliar beneficiary without changing either record. The reviewer checks that evidence was captured, the exception was routed, and no payment or credential change occurred. Record the result in the permission map and revisit it if the work changes from reconciliation to payment preparation.
 
 ## Design an exception route
 If a reconciliation reveals an unexpected transfer or changed destination, the bookkeeper should preserve the record and alert the owner through a trusted channel. They should not investigate by replying to a suspicious request.

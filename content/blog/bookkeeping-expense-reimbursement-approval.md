@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Accounts Payable"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-expense-reimbursement-approval.svg"
 takeaways: ["Keep claimant, purpose, receipt, approval, payment, and entry in one packet.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect claimant, business purpose, receipt, amount, duplicate risk, and approva
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Match each reimbursement claim to receipts, business purpose, employee, dates, currency conversion, policy limits, and any card-feed overlap. Reconcile approved batches to the employee payable and payment file, leaving missing evidence or duplicate claims in an exception status.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+A bookkeeper may check arithmetic and policy fields but should not approve an employee's claim or release reimbursement. The named manager handles business-purpose approval, while finance retains authority over coding, exceptions, recoveries, and payment release.
 
 ## Close with a useful handoff
 

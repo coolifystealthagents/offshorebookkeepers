@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Accounting Setup"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-small-business-chart-of-accounts-review.svg"
 takeaways: ["Find duplicate, unused, vague, and misclassified accounts without losing history.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect account type, name, description, balance, recent activity, and report ma
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Review account purpose, recent activity, report placement, duplicate names, inactive balances, and subledger links before proposing a chart change. Map affected transactions and comparative reports so merges or renames do not erase history or break integrations.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+A bookkeeper can inventory accounts and draft mapping options, but the owner, controller, or CPA approves additions, merges, deactivations, reporting hierarchy, and reclassifications. System changes should be made by an authorized user and reviewed separately.
 
 ## Close with a useful handoff
 

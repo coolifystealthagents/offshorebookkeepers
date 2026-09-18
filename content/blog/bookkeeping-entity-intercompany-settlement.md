@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Multi-Entity Bookkeeping"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-entity-intercompany-settlement.svg"
 takeaways: ["Match reciprocal balances, transaction references, currency, and settlement status.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect entity, period, currency, invoice, transfer, journal reference, and conf
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Pair due-to and due-from detail by legal entity, document, currency, and period before proposing settlement. Identify one-sided entries, disputed recharges, withholding or bank fees, and foreign-exchange differences so offsetting discrepancies are not hidden in a single net transfer.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+Preparers may match reciprocal balances and draft a settlement instruction, but each entity's authorized finance owner confirms the payable, approves adjustments, and releases its cash. Tax, legal, currency, and netting judgments remain with qualified client reviewers.
 
 ## Close with a useful handoff
 

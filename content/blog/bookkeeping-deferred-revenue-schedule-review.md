@@ -5,10 +5,10 @@ published: "2026-08-12"
 updated: "2026-08-12"
 category: "Close Management"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-monthly-kpi-packet.webp"
+featuredImage: "/thumbnails/bookkeeping-deferred-revenue-schedule-review.svg"
 takeaways: ["Check opening balances, billings, recognition, cancellations, and closing support.", "Keep source evidence, reconciliation detail, and unresolved questions together.", "Leave approval, policy, and accounting judgment with the named finance owner."]
 sources: [{"name":"Internal Revenue Service, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Reporting and review support","/services/reporting-and-qa"],["Accounts payable support","/services/admin-support"]]
+relatedLinks: [["Reporting and review support","/services/management-reporting-support"],["Accounts payable support","/services/accounts-payable-processing"]]
 ---
 ## Define the review boundary
 
@@ -20,11 +20,11 @@ Collect opening schedule, contract terms, billings, service periods, and reversa
 
 ## Reconcile before presenting
 
-Compare the working schedule with the relevant subledger and general ledger. Investigate duplicates, timing differences, missing support, and unusual balances rather than forcing an agreement. Record the proposed correction and its evidence.
+Roll the schedule from opening deferred revenue through billings, credits, recognition, and ending contract balances, then tie it to the ledger. Investigate missing contract dates, duplicate schedules, cancellations, and manual revenue postings at the customer or obligation level.
 
 ## Keep approval independent
 
-Preparation may be delegated, but approval, write-offs, classification decisions, and policy exceptions stay with the owner, controller, CPA, or other authorized reviewer. Do not approve a transaction you originated.
+The bookkeeper can maintain contract data and calculate amounts under an approved method. Finance or the company's accounting adviser must decide recognition policy, contract modifications, estimates, and correction entries, with someone other than the preparer recording approval.
 
 ## Close with a useful handoff
 

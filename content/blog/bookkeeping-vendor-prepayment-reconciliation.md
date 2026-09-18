@@ -5,7 +5,7 @@ published: "2026-08-24"
 updated: "2026-08-24"
 category: "Vendor prepayments"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-vendor-master-change-verification.webp"
+featuredImage: "/thumbnails/bookkeeping-vendor-prepayment-reconciliation.svg"
 takeaways: ["Tie each prepayment to a vendor obligation.", "Track application separately from cash movement.", "Escalate missing delivery or approval evidence."]
 faqs: [["What can the bookkeeper reconcile?","The bookkeeper can compare the prepayment register, bank activity, invoices, receipts, and applications, then route unresolved differences."],["Who approves release or write-off?","The owner, controller, CPA, or other authorized reviewer decides when policy or accounting judgment is required."]]
 ---
@@ -29,7 +29,7 @@ Compare the scheduled service period with delivery records and invoice dates. A 
 
 ## Check vendor and bank controls
 
-Vendor prepayments can expose the business to duplicate payment and bank-detail risk. Use the approved vendor record, named accounts, and multifactor authentication. A bookkeeper may compare vendor identity and payment references, but should not change bank information or release funds. Verify a requested change through a trusted channel already on file. Keep evidence of the verification and the approver. If a prepayment is returned, reversed, or sent to an unexpected account, escalate immediately under the written process. Do not use a later invoice to hide the original payment path. The register should preserve the full cash trail.
+Treat duplicate-payment and bank-detail checks as client-policy controls rather than universal rules. Follow the client’s written vendor record, access, callback, and approval procedure. A bookkeeper may compare vendor identity and payment references, but should not change bank information or release funds. When the written policy requires independent confirmation, record the trusted channel, evidence, and approver used by the authorized reviewer. Escalate returned, reversed, or unexpected payments through that documented process. Keep the original payment path visible even when a later invoice arrives so the register preserves the cash trail.
 
 ## Age balances by expected action
 

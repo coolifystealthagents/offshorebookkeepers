@@ -25,6 +25,9 @@ At close, sample transactions and confirm that source, system result, approval, 
 Do not overwrite source files to correct a description or date. Add a reviewed copy or note and preserve the original record so the history remains clear.
 
 ## Apply retention through the owner
+
+The bookkeeper can label records and place them in approved locations, but the client’s legal, tax, security, or records owner sets retention and deletion requirements. Record the controlling policy, effective date, exception owner, and next review date instead of inventing a universal retention period.
+
 ## Map evidence to a reviewer question
 For a supplier payment, the map might require the approved bill, purchase evidence where applicable, payment record, and bank match. For a payroll journal, it might require the approved register and posting report, not every employee document. Name the system, identifier, retention owner, and access restriction so duplicate PDFs are not mistaken for a complete trail.
 

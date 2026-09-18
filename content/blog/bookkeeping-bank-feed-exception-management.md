@@ -25,7 +25,7 @@ Break bank feed exception management into receive, check, record, compare, docum
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+For every feed exception, preserve the bank description, transaction date and amount, candidate ledger matches, source receipt or remittance, and reason an automatic rule was not used. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) can inform the client's retention policy for those records.
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete bank feed exception management wit
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Separate duplicate-feed candidates, transfers lacking the other leg, unfamiliar payees, and transactions without coding support. The bookkeeper proposes a match or category and dates the follow-up; an authorized reviewer approves new rules, write-offs, or uncertain classifications.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Pilot the queue with card settlements, interaccount transfers, bank fees, and one recurring vendor. Check whether suggested matches create duplicates or suppress genuine breaks before allowing any rule to cover a larger transaction population.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+The feed handoff should report imported-through dates by account, unmatched items, suspected duplicates, disabled or proposed rules, and exceptions awaiting client evidence. See the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support) for related review design.

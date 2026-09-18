@@ -25,7 +25,7 @@ Break restricted funds tracking into receive, check, record, compare, document, 
 
 ## Keep evidence with the work
 
-The work packet should connect the source record, system entry, calculation or comparison, and note explaining any difference. The [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is a useful reference when setting evidence and retention rules.
+For each restricted gift, retain the donor communication, campaign or grant terms, receipt record, deposit, fund code, approved expenditure support, and release evidence. The charity should set retention requirements with its advisers, considering the [IRS recordkeeping guidance](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping).
 
 ## Separate preparation from approval
 
@@ -33,12 +33,12 @@ Give the bookkeeper enough access to complete restricted funds tracking without 
 
 ## Create an exception path
 
-Maintain a log with the item, account, source link, date raised, current owner, next action, and due date. Useful statuses include waiting for source, waiting for approver, policy question, duplicate review, and ready after correction. The bookkeeper follows up, while the named owner records the decision.
+Flag donations with conflicting designations, spending charged to the wrong fund, expired grant periods, and releases lacking program confirmation. The bookkeeper assembles the trail, while charity leadership or its qualified accountant interprets restrictions and approves reclassification or release.
 
 ## Review representative cycles
 
-Begin with representative examples and a small live batch. Review the first completed items against the checklist, then look for repeated errors, missing source documents, late questions, and reviewer effort. Expand scope only when the work is complete and traceable.
+Test the register with an unrestricted appeal, a donor-restricted project, and a grant with a defined spending window. Have the reviewer follow each amount from receipt through use or closing balance before adding more programs or funding streams.
 
 ## Make the handoff explicit
 
-The final handoff should state the task, frequency, system, source records, expected output, reviewer, deadline, and escalation route. See the [operations support service](/services/operations-support) and [reporting and QA service](/services/reporting-and-qa) for adjacent process design context.
+Provide a fund rollforward showing opening restrictions, new gifts, eligible spending, authorized releases, ending balances, and unresolved donor-term questions. Relevant workflow context is available through the [operations support service](/services/month-end-close-support) and [reporting and QA service](/services/management-reporting-support).
