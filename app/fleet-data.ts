@@ -32,6 +32,14 @@ export const serviceGroups: readonly { id: ServiceGroupId; title: string; descri
 
 const define = (service: FleetService) => service;
 
+export function workflowSteps(caption: string): readonly [string, string, string] {
+  const steps = caption.split(/\s*→\s*/).map((step) => step.trim());
+  if (steps.length !== 3 || steps.some((step) => !step)) {
+    throw new Error(`Workflow caption must contain exactly three steps: ${caption}`);
+  }
+  return [steps[0], steps[1], steps[2]];
+}
+
 export const fleetServices: readonly FleetService[] = [
   define({
     slug: 'daily-transaction-coding', title: 'Transaction Coding Support', navLabel: 'Transaction coding', group: 'current-books',

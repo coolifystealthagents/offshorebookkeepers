@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Header, Footer, JsonLd } from '../components';
-import { fleetServices, serviceGroups } from '../fleet-data';
+import { fleetServices, serviceGroups, workflowSteps } from '../fleet-data';
 
 export const metadata: Metadata = {
   title: 'Offshore Bookkeeping Services',
@@ -78,6 +78,9 @@ export default function ServicesPage() {
                   {services.map((service) => (
                     <a className="ob-service-card" href={`/services/${service.slug}`} key={service.slug}>
                       <img src={service.illustration.src} alt={service.illustration.alt} width="640" height="360" loading="lazy" />
+                      <ol className="ob-mobile-flow" aria-label={`${service.title} workflow`}>
+                        {workflowSteps(service.illustration.caption).map((step, index) => <li key={step}><span>{index + 1}</span><b>{step}</b></li>)}
+                      </ol>
                       <div className="ob-card-copy">
                         <h3>{service.title}</h3>
                         <p>{service.problem}</p>

@@ -400,6 +400,30 @@ test('research article grids, source links, and consultation actions remain usab
   assert.match(css, /\.consultation-card-action\{[^}]*text-decoration:underline/);
 });
 
+test('service workflow illustrations retain aspect ratio and become readable HTML steps on mobile', () => {
+  const { fleetServices, workflowSteps } = loadFleetData();
+  const index = read('app/services/page.tsx');
+  const detail = read('app/services/[slug]/page.tsx');
+  const css = read('app/globals.css');
+
+  for (const service of fleetServices) {
+    const steps = workflowSteps(service.illustration.caption);
+    assert.equal(steps.length, 3, `${service.slug}: exactly three workflow steps`);
+    assert.ok(steps.every((step) => step.length >= 3), `${service.slug}: non-empty workflow steps`);
+  }
+  assert.match(index, /workflowSteps\(service\.illustration\.caption\)/);
+  assert.match(detail, /workflowSteps\(service\.illustration\.caption\)/);
+  assert.match(index, /className="ob-mobile-flow"/);
+  assert.match(detail, /className="ob-mobile-flow"/);
+  assert.match(css, /\.ob-service-card img\{display:block;[^}]*object-fit:contain/);
+  assert.match(css, /\.ob-detail-figure img\{display:block;[^}]*height:auto[^}]*object-fit:contain/);
+  const desktopCss = css.slice(0, css.indexOf('@media(max-width:700px)'));
+  assert.doesNotMatch(desktopCss, /\.ob-(?:service-card(?:>| )img|detail-figure(?:>| )img)[^{]*\{[^}]*display:none/);
+  assert.match(css, /\.ob-mobile-flow\{display:none/);
+  assert.match(css, /\.ob-mobile-flow b\{[^}]*color:var\(--ob-navy\)[^}]*font-size:15px/);
+  assert.match(css, /@media\(max-width:700px\)[^]*\.ob-service-card>img,\.ob-detail-figure>img\{display:none\}[^]*\.ob-mobile-flow\{display:grid/);
+});
+
 test('research navigation and reading metadata are derived from content and preserve active filters', () => {
   const research = read('app/research/page.tsx');
   assert.match(research, /searchParams/);
