@@ -86,7 +86,7 @@ For help defining the preparation lane, see [the relevant Offshore Bookkeepers s
 `; }
 
 const manifest=[];
-for (const a of articles) { const sourcePath=`content/blog/${a[0]}.md`; const body=render(a); fs.writeFileSync(sourcePath,body); manifest.push({family:a[2],topic:a[1],title:a[1],slug:a[0],route:`/blog/${a[0]}`,canonical:`https://offshorebookkeepers.com/blog/${a[0]}`,sourcePath,featuredImage:a[3],sources:a[10].map(([name,url])=>({name,url})),publicationDate:published,status:'prepared',contentHash:crypto.createHash('sha256').update(body).digest('hex'),wordCount:(body.match(/\b[\w’'-]+\b/g)||[]).length}); }
+for (const a of articles) { const sourcePath=`content/blog/${a[0]}.md`; const body=render(a); fs.writeFileSync(sourcePath,body); manifest.push({family:a[2],topic:a[1],title:a[1],slug:a[0],route:`/blog/${a[0]}`,canonical:`https://offshorebookkeepers.com/blog/${a[0]}`,sourcePath,featuredImage:a[3],sources:a[10].map(([name,url])=>({name,url})),publicationDate:published,status:process.env.CONTENT_COMMIT?'validated':'prepared',contentHash:crypto.createHash('sha256').update(body).digest('hex'),wordCount:(body.match(/\b[\w’'-]+\b/g)||[]).length,...(process.env.CONTENT_COMMIT?{contentCommit:process.env.CONTENT_COMMIT}:{})}); }
 fs.mkdirSync(`.paperclip/daily-content/${published}`,{recursive:true});
 fs.writeFileSync(`.paperclip/daily-content/${published}/blog-off-68.json`,JSON.stringify(manifest,null,2)+'\n');
 console.log(`Created ${manifest.length} OFF-68 articles.`);

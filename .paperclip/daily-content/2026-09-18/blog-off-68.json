@@ -19,9 +19,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "46fd40b06a7a5559962f079fb8191cdcb3f088aaa1738de68c9698f64920acb1",
-    "wordCount": 1080
+    "wordCount": 1080,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Restaurant bookkeeping",
@@ -43,9 +44,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "92eea09904ff7060419f979bc1135f329d4de8eef3f1e08ad2f3cb124f2752e4",
-    "wordCount": 1056
+    "wordCount": 1056,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Construction bookkeeping",
@@ -67,9 +69,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "e186777592d5650647af93eae6bdab856d578daa07a99eb5cb5a334240c5dd30",
-    "wordCount": 1071
+    "wordCount": 1071,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Nonprofit bookkeeping",
@@ -91,9 +94,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "b3f71715028e2d623dce8d3b288643df4fe4a16a336afaba14e3ddcf4d9ceab2",
-    "wordCount": 1064
+    "wordCount": 1064,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Law firm bookkeeping",
@@ -115,9 +119,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "bd44ff88764a103ff0eddc9ec52f48893ef03d3345c8b10ab63fccc5c398bcd9",
-    "wordCount": 1081
+    "wordCount": 1081,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Property bookkeeping",
@@ -139,9 +144,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "3aa8116d965bd1d2c6e7f32276b84d27f98dc79a647ab55a6ad5fd1ec306b217",
-    "wordCount": 1063
+    "wordCount": 1063,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Manufacturing bookkeeping",
@@ -163,9 +169,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "12361f9f7fd3081c18c788629cd37401c6ee18a3823fba33b0771b9dffd00dc1",
-    "wordCount": 1062
+    "wordCount": 1062,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Healthcare bookkeeping",
@@ -187,9 +194,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "54ba43c13000a3fb872be06f97362401d91cd1d982f4c40f225d4aeb837b42b8",
-    "wordCount": 1077
+    "wordCount": 1077,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Agency bookkeeping",
@@ -211,9 +219,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "65a33da43332b92eaba79e53b9cbab9925567601cf72adac3c033b447fef72ae",
-    "wordCount": 1072
+    "wordCount": 1072,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "SaaS bookkeeping",
@@ -235,9 +244,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "7212f71108af35cb290afecf5bb7e1baac71493ae78b627b88c27c3e8ec1c734",
-    "wordCount": 1073
+    "wordCount": 1073,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Logistics bookkeeping",
@@ -259,9 +269,10 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "556a4737dc8addf796bcf850fb6458b04eeda4abca739ae0b43f35b5f24414c4",
-    "wordCount": 1068
+    "wordCount": 1068,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   },
   {
     "family": "Franchise bookkeeping",
@@ -283,8 +294,9 @@
       }
     ],
     "publicationDate": "2026-09-18",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "bdaefe840b2638b3aa234062d275080e84bfa09ca35f5a481ced2dc5475b6c76",
-    "wordCount": 1067
+    "wordCount": 1067,
+    "contentCommit": "f9674af833fa92f3e581759b259330ae2ec70178"
   }
 ]
