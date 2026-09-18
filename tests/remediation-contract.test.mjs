@@ -426,13 +426,15 @@ test('service workflow illustrations retain aspect ratio and become readable HTM
   assert.match(detail, /workflowSteps\(service\.illustration\.caption\)/);
   assert.match(index, /className="ob-mobile-flow"/);
   assert.match(detail, /className="ob-mobile-flow"/);
+  assert.match(index, /<span aria-hidden="true">\{index \+ 1\}<\/span>/);
+  assert.match(detail, /<span aria-hidden="true">\{index \+ 1\}<\/span>/);
   assert.match(css, /\.ob-service-card img\{display:block;[^}]*object-fit:contain/);
   assert.match(css, /\.ob-detail-figure img\{display:block;[^}]*height:auto[^}]*object-fit:contain/);
   const desktopCss = css.slice(0, css.indexOf('@media(max-width:700px)'));
   assert.doesNotMatch(desktopCss, /\.ob-(?:service-card(?:>| )img|detail-figure(?:>| )img)[^{]*\{[^}]*display:none/);
   assert.match(css, /\.ob-mobile-flow\{display:none/);
   assert.match(css, /\.ob-mobile-flow b\{[^}]*color:var\(--ob-navy\)[^}]*font-size:15px/);
-  assert.match(css, /@media\(max-width:700px\)[^]*\.ob-service-card>img,\.ob-detail-figure>img\{display:none\}[^]*\.ob-mobile-flow\{display:grid/);
+  assert.match(css, /@media\(max-width:700px\)[^]*\.ob-service-card>img,\.ob-detail-figure>img\{display:none\}[^]*\.ob-detail-figure figcaption\{display:none\}[^]*\.ob-mobile-flow\{display:grid/);
 });
 
 test('research navigation and reading metadata are derived from content and preserve active filters', () => {

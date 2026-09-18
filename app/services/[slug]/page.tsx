@@ -57,7 +57,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <figure className="ob-detail-figure">
               <img src={service.illustration.src} alt={service.illustration.alt} width="1200" height="630" />
               <ol className="ob-mobile-flow" aria-label={`${service.title} workflow`}>
-                {workflowSteps(service.illustration.caption).map((step, index) => <li key={step}><span>{index + 1}</span><b>{step}</b></li>)}
+                {workflowSteps(service.illustration.caption).map((step, index) => <li key={step}><span aria-hidden="true">{index + 1}</span><b>{step}</b></li>)}
               </ol>
               <figcaption>{service.illustration.caption}</figcaption>
             </figure>
