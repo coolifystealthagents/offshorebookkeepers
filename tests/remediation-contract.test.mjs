@@ -390,8 +390,12 @@ test('rich article SVG titles hydrate as one text node', () => {
 test('research article grids, source links, and consultation actions remain usable on mobile', () => {
   const css = read('app/globals.css');
   const research = read('app/research/[slug]/page.tsx');
+  const articleBody = read('app/article-body.tsx');
   assert.match(css, /\.article-layout>div\{min-width:0\}/);
+  assert.match(css, /@media\(max-width:720px\)\{\.article-page\{padding-top:46px\}\.article-header h1\{font-size:36px;letter-spacing:-\.8px\}/);
+  assert.doesNotMatch(css, /\.article-header h1\{[^}]*overflow-wrap:anywhere/);
   assert.match(css, /\.article-sources a\{[^}]*overflow-wrap:anywhere/);
+  assert.match(articleBody, /target: '_blank', rel: 'noopener noreferrer'/);
   assert.match(research, /consultation-card-action/);
   assert.match(css, /\.consultation-card-action\{[^}]*text-decoration:underline/);
 });

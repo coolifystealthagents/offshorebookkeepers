@@ -116,7 +116,7 @@ test('article body parser preserves supported structure instead of exposing mark
   const blocks = content.parseArticleBody([
     '### Reconciliation steps',
     '',
-    'Use **approved evidence** and retain the `reviewer_id`.',
+    'Use **approved evidence**, retain the `reviewer_id`, and read [FASB guidance](https://www.fasb.org/standards).',
     '',
     '- Confirm the source.',
     '- Record the exception.',
@@ -133,14 +133,33 @@ test('article body parser preserves supported structure instead of exposing mark
   assert.deepEqual(blocks[1].segments, [
     { type: 'text', value: 'Use ' },
     { type: 'strong', value: 'approved evidence' },
-    { type: 'text', value: ' and retain the ' },
+    { type: 'text', value: ', retain the ' },
     { type: 'code', value: 'reviewer_id' },
+    { type: 'text', value: ', and read ' },
+    { type: 'link', value: 'FASB guidance', href: 'https://www.fasb.org/standards' },
     { type: 'text', value: '.' },
   ]);
   assert.equal(blocks[2].items.length, 2);
   assert.equal(blocks[3].items.length, 2);
   assert.deepEqual(blocks[4].header.map((cell) => cell[0].value), ['Field', 'Purpose']);
   assert.deepEqual(blocks[4].rows[0].map((cell) => cell[0].value), ['Award ID', 'Prevent blending']);
+
+  const unsafeValues = [
+    '[script](javascript:prompt)',
+    '[data](data:text/html,unsafe)',
+    '[protocol relative](//evil.example/x)',
+    String.raw`[backslash authority](/\evil.example/x)`,
+  ];
+  for (const value of unsafeValues) {
+    const unsafe = content.parseArticleBody(`Do not render ${value} as a link.`);
+    assert.equal(unsafe[0].segments.some((segment) => segment.type === 'link'), false, value);
+    assert.match(unsafe[0].segments.map((segment) => segment.value).join(''), /\[[^\]]+\]\([^)]+\)/, value);
+  }
+
+  const canonicalExternal = content.parseArticleBody('[Safe](HTTPS://SAFE.EXAMPLE/x)');
+  assert.deepEqual(canonicalExternal[0].segments, [{ type: 'link', value: 'Safe', href: 'https://safe.example/x' }]);
+  const internal = content.parseArticleBody('[Internal](/services)');
+  assert.deepEqual(internal[0].segments, [{ type: 'link', value: 'Internal', href: '/services' }]);
 });
 
 test('validator enforces dates, FAQ objects, section bodies, and evidence maps without a ten-source quota', () => {

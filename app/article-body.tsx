@@ -5,6 +5,10 @@ function InlineText({ segments }: { segments: ArticleInline[] }) {
     const key = `${segment.type}-${index}-${segment.value}`;
     if (segment.type === 'strong') return <strong key={key}>{segment.value}</strong>;
     if (segment.type === 'code') return <code key={key}>{segment.value}</code>;
+    if (segment.type === 'link') {
+      const external = /^https?:\/\//.test(segment.href);
+      return <a key={key} href={segment.href} {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>{segment.value}</a>;
+    }
     return <span key={key}>{segment.value}</span>;
   })}</>;
 }

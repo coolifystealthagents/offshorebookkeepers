@@ -311,7 +311,9 @@ function parseFile(file: string): ContentPost {
   };
 }
 
-export type ArticleInline = { type: 'text' | 'strong' | 'code'; value: string };
+export type ArticleInline =
+  | { type: 'text' | 'strong' | 'code'; value: string }
+  | { type: 'link'; value: string; href: string };
 export type ArticleBlock =
   | { type: 'heading'; level: 3; segments: ArticleInline[] }
   | { type: 'paragraph'; segments: ArticleInline[] }
@@ -319,17 +321,30 @@ export type ArticleBlock =
   | { type: 'ordered-list'; items: ArticleInline[][] }
   | { type: 'table'; header: ArticleInline[][]; rows: ArticleInline[][][] };
 
+function safeArticleHref(value: string) {
+  if (value.startsWith('/') && !value.startsWith('//') && !value.includes('\\')) return value;
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' || url.protocol === 'http:' ? url.href : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
 function parseArticleInline(value: string): ArticleInline[] {
   const tokens: ArticleInline[] = [];
-  const pattern = /(\*\*[^*\n]+\*\*|`[^`\n]+`)/g;
+  const pattern = /(\[[^\]\n]+\]\([^\s)\n]+\)|\*\*[^*\n]+\*\*|`[^`\n]+`)/g;
   let cursor = 0;
   for (const match of value.matchAll(pattern)) {
     const index = match.index ?? cursor;
     if (index > cursor) tokens.push({ type: 'text', value: value.slice(cursor, index) });
     const token = match[0];
-    tokens.push(token.startsWith('**')
-      ? { type: 'strong', value: token.slice(2, -2) }
-      : { type: 'code', value: token.slice(1, -1) });
+    const link = token.match(/^\[([^\]\n]+)\]\(([^\s)\n]+)\)$/);
+    const href = link ? safeArticleHref(link[2]) : undefined;
+    if (link && href) tokens.push({ type: 'link', value: link[1], href });
+    else if (token.startsWith('**')) tokens.push({ type: 'strong', value: token.slice(2, -2) });
+    else if (token.startsWith('`')) tokens.push({ type: 'code', value: token.slice(1, -1) });
+    else tokens.push({ type: 'text', value: token });
     cursor = index + token.length;
   }
   if (cursor < value.length) tokens.push({ type: 'text', value: value.slice(cursor) });
