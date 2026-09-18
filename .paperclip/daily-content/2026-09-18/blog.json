@@ -1,0 +1,290 @@
+[
+  {
+    "family": "SaaS bookkeeping",
+    "topic": "Reconcile SaaS seat true-ups before the renewal invoice arrives",
+    "title": "Reconcile SaaS seat true-ups before the renewal invoice arrives",
+    "slug": "offshore-bookkeeping-saas-seat-true-up-reconciliation",
+    "route": "/blog/offshore-bookkeeping-saas-seat-true-up-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-seat-true-up-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-saas-seat-true-up-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-subscription-revenue-reconciliation.webp",
+    "sources": [
+      {
+        "name": "FASB ASC 340 overview",
+        "url": "https://asc.fasb.org/topic&trid=2128659"
+      },
+      {
+        "name": "NIST account management guidance",
+        "url": "https://csf.tools/reference/nist-sp-800-53/r5/ac/ac-2/"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "af532fdc93329dbd6f931b4c3720bde1135c24f28eef77a5d9467895f8c67190",
+    "wordCount": 1186
+  },
+  {
+    "family": "Ecommerce bookkeeping",
+    "topic": "Reconcile buy-now-pay-later settlements to ecommerce orders and refunds",
+    "title": "Reconcile buy-now-pay-later settlements to ecommerce orders and refunds",
+    "slug": "offshore-bookkeeping-ecommerce-bnpl-settlement-reconciliation",
+    "route": "/blog/offshore-bookkeeping-ecommerce-bnpl-settlement-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-ecommerce-bnpl-settlement-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-ecommerce-bnpl-settlement-reconciliation.md",
+    "featuredImage": "/thumbnails/ecommerce-bookkeeping-reconciliation-workflow.webp",
+    "sources": [
+      {
+        "name": "Consumer Financial Protection Bureau BNPL report",
+        "url": "https://www.consumerfinance.gov/data-research/research-reports/buy-now-pay-later-market-trends-and-consumer-impacts/"
+      },
+      {
+        "name": "Stripe reconciliation documentation",
+        "url": "https://docs.stripe.com/reports/reconciliation"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "dfce1b3bc904141640b5ab53b3bd2064109a775e7c2d4cc0a36b77415f32f792",
+    "wordCount": 1157
+  },
+  {
+    "family": "Property bookkeeping",
+    "topic": "Tie property owner statements to rent, repairs, reserves, and cash",
+    "title": "Tie property owner statements to rent, repairs, reserves, and cash",
+    "slug": "offshore-bookkeeping-property-owner-statement-tieout",
+    "route": "/blog/offshore-bookkeeping-property-owner-statement-tieout",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-owner-statement-tieout",
+    "sourcePath": "content/blog/offshore-bookkeeping-property-owner-statement-tieout.md",
+    "featuredImage": "/thumbnails/property-bookkeeping-rent-roll-controls.webp",
+    "sources": [
+      {
+        "name": "IRS rental income and expenses guide",
+        "url": "https://www.irs.gov/publications/p527"
+      },
+      {
+        "name": "HUD project financial guidance",
+        "url": "https://www.hud.gov/hud-partners/multifamily-financial-management"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "7f7aac23593cdee3a7237d94e2210132f201aa68d0ddc86e36bd81938be47fa3",
+    "wordCount": 1168
+  },
+  {
+    "family": "Construction bookkeeping",
+    "topic": "Check stored-materials billing before updating construction receivables",
+    "title": "Check stored-materials billing before updating construction receivables",
+    "slug": "offshore-bookkeeping-construction-stored-materials-billing-check",
+    "route": "/blog/offshore-bookkeeping-construction-stored-materials-billing-check",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-construction-stored-materials-billing-check",
+    "sourcePath": "content/blog/offshore-bookkeeping-construction-stored-materials-billing-check.md",
+    "featuredImage": "/thumbnails/construction-job-costing-control-research.webp",
+    "sources": [
+      {
+        "name": "AIA G702/G703 overview",
+        "url": "https://www.aiacontracts.com/articles/183616-g702-1992-application-and-certificate-for-payment/"
+      },
+      {
+        "name": "FAR progress payment rules",
+        "url": "https://www.acquisition.gov/far/32.503-1"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "27417561df64a4c4462ed30a54887090bc790d0fb8aa799175345c44018e1616",
+    "wordCount": 1168
+  },
+  {
+    "family": "Law firm bookkeeping",
+    "topic": "Reconcile law-firm trust receipts when merchant fees hit operating cash",
+    "title": "Reconcile law-firm trust receipts when merchant fees hit operating cash",
+    "slug": "offshore-bookkeeping-law-firm-trust-merchant-fee-reconciliation",
+    "route": "/blog/offshore-bookkeeping-law-firm-trust-merchant-fee-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-law-firm-trust-merchant-fee-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-law-firm-trust-merchant-fee-reconciliation.md",
+    "featuredImage": "/thumbnails/law-firm-trust-account-bookkeeping-boundaries.webp",
+    "sources": [
+      {
+        "name": "ABA Model Rule 1.15",
+        "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/"
+      },
+      {
+        "name": "ABA trust accounting resources",
+        "url": "https://www.americanbar.org/groups/professional_responsibility/resources/client-protection/"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "27adda17cd691c1139ab982db023d07f51d5b6fa1b7ff422237f4ee835cea3ee",
+    "wordCount": 1178
+  },
+  {
+    "family": "Nonprofit bookkeeping",
+    "topic": "Prepare a nonprofit cost-reimbursement grant draw without losing source detail",
+    "title": "Prepare a nonprofit cost-reimbursement grant draw without losing source detail",
+    "slug": "offshore-bookkeeping-nonprofit-cost-reimbursement-grant-draw",
+    "route": "/blog/offshore-bookkeeping-nonprofit-cost-reimbursement-grant-draw",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-cost-reimbursement-grant-draw",
+    "sourcePath": "content/blog/offshore-bookkeeping-nonprofit-cost-reimbursement-grant-draw.md",
+    "featuredImage": "/thumbnails/nonprofit-fund-accounting-support-research.webp",
+    "sources": [
+      {
+        "name": "Uniform Guidance cost principles",
+        "url": "https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-E"
+      },
+      {
+        "name": "Uniform Guidance financial management standards",
+        "url": "https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-D/section-200.302"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "fe02da0f4e854c86f57628838409be5081b8b741876ce415f770e29b5540fc03",
+    "wordCount": 1157
+  },
+  {
+    "family": "Healthcare bookkeeping",
+    "topic": "Reconcile dental patient-financing settlements to treatment and refunds",
+    "title": "Reconcile dental patient-financing settlements to treatment and refunds",
+    "slug": "offshore-bookkeeping-dental-patient-financing-settlement",
+    "route": "/blog/offshore-bookkeeping-dental-patient-financing-settlement",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-dental-patient-financing-settlement",
+    "sourcePath": "content/blog/offshore-bookkeeping-dental-patient-financing-settlement.md",
+    "featuredImage": "/thumbnails/clinic-bookkeeping-reconciliation-research.webp",
+    "sources": [
+      {
+        "name": "CFPB medical credit card report",
+        "url": "https://www.consumerfinance.gov/data-research/research-reports/medical-credit-cards-and-financing-plans/"
+      },
+      {
+        "name": "HHS HIPAA minimum necessary standard",
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "7821bf46bd678fe7c69ac9d1f3db116d3de45ed2b377f0e3515af5b42b6db439",
+    "wordCount": 1165
+  },
+  {
+    "family": "Restaurant bookkeeping",
+    "topic": "Reconcile third-party gift-card redemptions across restaurant locations",
+    "title": "Reconcile third-party gift-card redemptions across restaurant locations",
+    "slug": "offshore-bookkeeping-restaurant-third-party-gift-card-redemption",
+    "route": "/blog/offshore-bookkeeping-restaurant-third-party-gift-card-redemption",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-restaurant-third-party-gift-card-redemption",
+    "sourcePath": "content/blog/offshore-bookkeeping-restaurant-third-party-gift-card-redemption.md",
+    "featuredImage": "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp",
+    "sources": [
+      {
+        "name": "FTC gift card guidance",
+        "url": "https://consumer.ftc.gov/articles/gift-cards"
+      },
+      {
+        "name": "FASB revenue recognition resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/projects/revenue-recognition-implementation.html"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "e6351cd9d1ff74ad2d5915d105531c651ce2d1dc3606d3b6a1a695c218b148dd",
+    "wordCount": 1162
+  },
+  {
+    "family": "Agency bookkeeping",
+    "topic": "Check agency client-expense markups before invoices go out",
+    "title": "Check agency client-expense markups before invoices go out",
+    "slug": "offshore-bookkeeping-agency-client-expense-markup-billing",
+    "route": "/blog/offshore-bookkeeping-agency-client-expense-markup-billing",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-agency-client-expense-markup-billing",
+    "sourcePath": "content/blog/offshore-bookkeeping-agency-client-expense-markup-billing.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-margin-bridge.webp",
+    "sources": [
+      {
+        "name": "IRS accountable plan guidance",
+        "url": "https://www.irs.gov/publications/p15"
+      },
+      {
+        "name": "FTC advertising guidance",
+        "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "cac5ee902c917ea9fe0122812dfd46e5fe97e1b57ea4cd6dc27653ea0ce8a3e7",
+    "wordCount": 1177
+  },
+  {
+    "family": "Healthcare bookkeeping",
+    "topic": "Reconcile clinic capitation payments to member months and adjustments",
+    "title": "Reconcile clinic capitation payments to member months and adjustments",
+    "slug": "offshore-bookkeeping-clinic-capitation-payment-reconciliation",
+    "route": "/blog/offshore-bookkeeping-clinic-capitation-payment-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-clinic-capitation-payment-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-clinic-capitation-payment-reconciliation.md",
+    "featuredImage": "/thumbnails/clinic-bookkeeping-reconciliation-research.webp",
+    "sources": [
+      {
+        "name": "CMS capitation rates and financing",
+        "url": "https://www.medicaid.gov/medicaid/managed-care/guidance/rate-review-and-rate-guides/index.html"
+      },
+      {
+        "name": "HHS HIPAA minimum necessary standard",
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "ff527b32ec2f380406a48351738ffc3715c01658fd7be484f9f5d68f3fa2bd65",
+    "wordCount": 1153
+  },
+  {
+    "family": "Wholesale bookkeeping",
+    "topic": "Review wholesale drop-ship chargebacks before clearing customer deductions",
+    "title": "Review wholesale drop-ship chargebacks before clearing customer deductions",
+    "slug": "offshore-bookkeeping-wholesale-drop-ship-chargeback-review",
+    "route": "/blog/offshore-bookkeeping-wholesale-drop-ship-chargeback-review",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-wholesale-drop-ship-chargeback-review",
+    "sourcePath": "content/blog/offshore-bookkeeping-wholesale-drop-ship-chargeback-review.md",
+    "featuredImage": "/thumbnails/bookkeeping-vendor-master-change-control-research.webp",
+    "sources": [
+      {
+        "name": "FTC business guidance",
+        "url": "https://www.ftc.gov/business-guidance"
+      },
+      {
+        "name": "UCC Article 2 overview",
+        "url": "https://www.law.cornell.edu/ucc/2"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "51a30f4e2d3324baaae8a036e0c37adc71e950f98d210947f870d64d6bb3ee8f",
+    "wordCount": 1167
+  },
+  {
+    "family": "Service business bookkeeping",
+    "topic": "Reconcile field-service warranty reimbursements from work order to cash",
+    "title": "Reconcile field-service warranty reimbursements from work order to cash",
+    "slug": "offshore-bookkeeping-field-service-warranty-reimbursement",
+    "route": "/blog/offshore-bookkeeping-field-service-warranty-reimbursement",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-field-service-warranty-reimbursement",
+    "sourcePath": "content/blog/offshore-bookkeeping-field-service-warranty-reimbursement.md",
+    "featuredImage": "/thumbnails/bookkeeping-quality-scorecard.webp",
+    "sources": [
+      {
+        "name": "FTC warranty guidance",
+        "url": "https://consumer.ftc.gov/articles/warranties"
+      },
+      {
+        "name": "IRS business expense guidance",
+        "url": "https://www.irs.gov/publications/p535"
+      }
+    ],
+    "publicationDate": "2026-09-18",
+    "status": "prepared",
+    "contentHash": "67ddd1abf80d00e91b8ec74f57d7a145a388bf0d05bccc4bc8377d0e454fea59",
+    "wordCount": 1162
+  }
+]
