@@ -19,10 +19,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1308,
     "contentHash": "160c3f8e31bdccb5aec3d4afa8eccf28f783f923efb133f44eecb616c6bd7750",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-usage-overage-reconciliation",
+    "verificationTime": "2026-09-19T01:02:24.531Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Ecommerce bookkeeping",
@@ -44,10 +62,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1299,
     "contentHash": "458a6c2278149dfa0d97446c9f0d855b5f28224563e4e5f178fe56b680685779",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-ecommerce-marketplace-tax-withheld-reconciliation",
+    "verificationTime": "2026-09-19T01:02:24.837Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Property bookkeeping",
@@ -69,10 +105,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1297,
     "contentHash": "f26bd635f742ecbe7fd4befe28af9e9427878d116b67de3783da34fbf027699b",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-capital-reserve-contribution-reconciliation",
+    "verificationTime": "2026-09-19T01:02:25.115Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Construction bookkeeping",
@@ -94,10 +148,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1292,
     "contentHash": "35f00d7488c7bd67d4de896d0adaea03e6c19cef2c5711b0cd3f67679659cafe",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-construction-subcontractor-retainage-payable",
+    "verificationTime": "2026-09-19T01:02:25.384Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Law firm bookkeeping",
@@ -119,10 +191,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1299,
     "contentHash": "dbe0e890ed8c875623764781b7591730cd7153c1fdca10a4ea31e2192f742672",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-law-firm-evergreen-retainer-replenishment",
+    "verificationTime": "2026-09-19T01:02:25.679Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Nonprofit bookkeeping",
@@ -144,10 +234,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1289,
     "contentHash": "7a4330f4ac4c6658abfe2c710b85ecda442e1da58c7faad240c09f04af79da30",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-in-kind-contribution-support",
+    "verificationTime": "2026-09-19T01:02:25.986Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Healthcare bookkeeping",
@@ -169,10 +277,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1297,
     "contentHash": "3b4d3792d8438516d2e0622798171cc9341e727d18c84f3b4953b4cf09f75f9b",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-healthcare-era-eft-reassociation",
+    "verificationTime": "2026-09-19T01:02:26.243Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Restaurant bookkeeping",
@@ -194,10 +320,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1283,
     "contentHash": "bfd9630f801305b28f9a99cbc9945ea98ed50bd61885b39fd0c55676e332a0be",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-restaurant-delivery-promotion-settlement",
+    "verificationTime": "2026-09-19T01:02:26.515Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Agency bookkeeping",
@@ -219,10 +363,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1303,
     "contentHash": "d7d9004c0e5f104794ea4f71e2f5344a532531c6262f6e7b614a453b096dbf26",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-agency-client-media-prepayment",
+    "verificationTime": "2026-09-19T01:02:26.795Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Wholesale bookkeeping",
@@ -244,10 +406,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1289,
     "contentHash": "a616f6af41c8bc52a512a84f35c9623e364fd784e884c69e4db5f1076e27a7ea",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-wholesale-vendor-rebate-reconciliation",
+    "verificationTime": "2026-09-19T01:02:27.079Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Service business bookkeeping",
@@ -269,10 +449,28 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1289,
     "contentHash": "d010c6405020bfc3061695a7ddb0d1301b8c92dc72f6bf54e60cdb0544259200",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-field-service-truck-stock-reconciliation",
+    "verificationTime": "2026-09-19T01:02:27.357Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   },
   {
     "family": "Multi-entity bookkeeping",
@@ -294,9 +492,27 @@
       }
     ],
     "publicationDate": "2026-09-19",
-    "status": "validated",
+    "status": "live-verified",
     "wordCount": 1297,
     "contentHash": "eb36d8a294a1d7d4cdc90b554587ef48f8bf9251b773810db60da032dc856a59",
-    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3",
+    "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-multi-entity-payroll-allocation",
+    "verificationTime": "2026-09-19T01:02:27.651Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "dgiyp3anwkevoeqjaul4sys2",
+      "deployedCommit": "9b335074141edec86172ae919d2c92651790f30d",
+      "checks": {
+        "status": true,
+        "title": true,
+        "unique": true,
+        "canonical": true,
+        "published": true,
+        "schema": true,
+        "sitemap": true,
+        "asset": true
+      }
+    }
   }
 ]
