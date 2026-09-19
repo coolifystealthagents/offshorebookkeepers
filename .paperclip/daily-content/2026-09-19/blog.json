@@ -1,0 +1,302 @@
+[
+  {
+    "family": "SaaS bookkeeping",
+    "topic": "Reconcile SaaS usage overages before approving the vendor invoice",
+    "title": "Reconcile SaaS usage overages before approving the vendor invoice",
+    "slug": "offshore-bookkeeping-saas-usage-overage-reconciliation",
+    "route": "/blog/offshore-bookkeeping-saas-usage-overage-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-usage-overage-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-saas-usage-overage-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-subscription-revenue-reconciliation.webp",
+    "sources": [
+      {
+        "name": "NIST log management guidance",
+        "url": "https://csrc.nist.gov/pubs/sp/800/92/final"
+      },
+      {
+        "name": "Federal Acquisition Regulation invoice requirements",
+        "url": "https://www.acquisition.gov/far/32.905"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1308,
+    "contentHash": "160c3f8e31bdccb5aec3d4afa8eccf28f783f923efb133f44eecb616c6bd7750",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Ecommerce bookkeeping",
+    "topic": "Reconcile marketplace sales tax withheld to orders and payouts",
+    "title": "Reconcile marketplace sales tax withheld to orders and payouts",
+    "slug": "offshore-bookkeeping-ecommerce-marketplace-tax-withheld-reconciliation",
+    "route": "/blog/offshore-bookkeeping-ecommerce-marketplace-tax-withheld-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-ecommerce-marketplace-tax-withheld-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-ecommerce-marketplace-tax-withheld-reconciliation.md",
+    "featuredImage": "/thumbnails/ecommerce-bookkeeping-reconciliation-workflow.webp",
+    "sources": [
+      {
+        "name": "Streamlined Sales Tax marketplace resources",
+        "url": "https://www.streamlinedsalestax.org/for-businesses/marketplace-facilitator"
+      },
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1299,
+    "contentHash": "458a6c2278149dfa0d97446c9f0d855b5f28224563e4e5f178fe56b680685779",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Property bookkeeping",
+    "topic": "Reconcile property capital-reserve contributions and spending",
+    "title": "Reconcile property capital-reserve contributions and spending",
+    "slug": "offshore-bookkeeping-property-capital-reserve-contribution-reconciliation",
+    "route": "/blog/offshore-bookkeeping-property-capital-reserve-contribution-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-capital-reserve-contribution-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-property-capital-reserve-contribution-reconciliation.md",
+    "featuredImage": "/thumbnails/property-bookkeeping-rent-roll-controls.webp",
+    "sources": [
+      {
+        "name": "HUD reserve guidance",
+        "url": "https://www.hud.gov/hud-partners/multifamily-financial-management"
+      },
+      {
+        "name": "IRS rental property guidance",
+        "url": "https://www.irs.gov/publications/p527"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1297,
+    "contentHash": "f26bd635f742ecbe7fd4befe28af9e9427878d116b67de3783da34fbf027699b",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Construction bookkeeping",
+    "topic": "Reconcile subcontractor retainage from pay application to release",
+    "title": "Reconcile subcontractor retainage from pay application to release",
+    "slug": "offshore-bookkeeping-construction-subcontractor-retainage-payable",
+    "route": "/blog/offshore-bookkeeping-construction-subcontractor-retainage-payable",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-construction-subcontractor-retainage-payable",
+    "sourcePath": "content/blog/offshore-bookkeeping-construction-subcontractor-retainage-payable.md",
+    "featuredImage": "/thumbnails/construction-job-costing-control-research.webp",
+    "sources": [
+      {
+        "name": "FAR retainage guidance",
+        "url": "https://www.acquisition.gov/far/32.103"
+      },
+      {
+        "name": "AIA payment application overview",
+        "url": "https://www.aiacontracts.com/articles/183616-g702-1992-application-and-certificate-for-payment/"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1292,
+    "contentHash": "35f00d7488c7bd67d4de896d0adaea03e6c19cef2c5711b0cd3f67679659cafe",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Law firm bookkeeping",
+    "topic": "Reconcile law-firm evergreen retainer replenishments by matter",
+    "title": "Reconcile law-firm evergreen retainer replenishments by matter",
+    "slug": "offshore-bookkeeping-law-firm-evergreen-retainer-replenishment",
+    "route": "/blog/offshore-bookkeeping-law-firm-evergreen-retainer-replenishment",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-law-firm-evergreen-retainer-replenishment",
+    "sourcePath": "content/blog/offshore-bookkeeping-law-firm-evergreen-retainer-replenishment.md",
+    "featuredImage": "/thumbnails/law-firm-trust-account-bookkeeping-boundaries.webp",
+    "sources": [
+      {
+        "name": "ABA Model Rule 1.15",
+        "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/"
+      },
+      {
+        "name": "ABA client protection resources",
+        "url": "https://www.americanbar.org/groups/professional_responsibility/resources/client-protection/"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1299,
+    "contentHash": "dbe0e890ed8c875623764781b7591730cd7153c1fdca10a4ea31e2192f742672",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Nonprofit bookkeeping",
+    "topic": "Build a nonprofit in-kind contribution support schedule",
+    "title": "Build a nonprofit in-kind contribution support schedule",
+    "slug": "offshore-bookkeeping-nonprofit-in-kind-contribution-support",
+    "route": "/blog/offshore-bookkeeping-nonprofit-in-kind-contribution-support",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-in-kind-contribution-support",
+    "sourcePath": "content/blog/offshore-bookkeeping-nonprofit-in-kind-contribution-support.md",
+    "featuredImage": "/thumbnails/nonprofit-fund-accounting-support-research.webp",
+    "sources": [
+      {
+        "name": "IRS charitable contribution substantiation",
+        "url": "https://www.irs.gov/charities-non-profits/substantiating-charitable-contributions"
+      },
+      {
+        "name": "FASB not-for-profit resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/standards/implementation-and-practical-guidance/not-for-profit-entities.html"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1289,
+    "contentHash": "7a4330f4ac4c6658abfe2c710b85ecda442e1da58c7faad240c09f04af79da30",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Healthcare bookkeeping",
+    "topic": "Reassociate healthcare ERA remittances with EFT deposits",
+    "title": "Reassociate healthcare ERA remittances with EFT deposits",
+    "slug": "offshore-bookkeeping-healthcare-era-eft-reassociation",
+    "route": "/blog/offshore-bookkeeping-healthcare-era-eft-reassociation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-healthcare-era-eft-reassociation",
+    "sourcePath": "content/blog/offshore-bookkeeping-healthcare-era-eft-reassociation.md",
+    "featuredImage": "/thumbnails/clinic-bookkeeping-reconciliation-research.webp",
+    "sources": [
+      {
+        "name": "CMS ERA and EFT operating rules",
+        "url": "https://www.cms.gov/priorities/key-initiatives/burden-reduction/administrative-simplification/transactions/health-care-payment-remittance-advice"
+      },
+      {
+        "name": "HHS minimum necessary guidance",
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1297,
+    "contentHash": "3b4d3792d8438516d2e0622798171cc9341e727d18c84f3b4953b4cf09f75f9b",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Restaurant bookkeeping",
+    "topic": "Reconcile restaurant delivery-platform promotions to settlements",
+    "title": "Reconcile restaurant delivery-platform promotions to settlements",
+    "slug": "offshore-bookkeeping-restaurant-delivery-promotion-settlement",
+    "route": "/blog/offshore-bookkeeping-restaurant-delivery-promotion-settlement",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-restaurant-delivery-promotion-settlement",
+    "sourcePath": "content/blog/offshore-bookkeeping-restaurant-delivery-promotion-settlement.md",
+    "featuredImage": "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp",
+    "sources": [
+      {
+        "name": "FTC advertising guidance",
+        "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
+      },
+      {
+        "name": "IRS tip recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/tip-recordkeeping-and-reporting"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1283,
+    "contentHash": "bfd9630f801305b28f9a99cbc9945ea98ed50bd61885b39fd0c55676e332a0be",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Agency bookkeeping",
+    "topic": "Track agency client media prepayments from receipt to campaign spend",
+    "title": "Track agency client media prepayments from receipt to campaign spend",
+    "slug": "offshore-bookkeeping-agency-client-media-prepayment",
+    "route": "/blog/offshore-bookkeeping-agency-client-media-prepayment",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-agency-client-media-prepayment",
+    "sourcePath": "content/blog/offshore-bookkeeping-agency-client-media-prepayment.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-margin-bridge.webp",
+    "sources": [
+      {
+        "name": "FTC digital advertising guidance",
+        "url": "https://www.ftc.gov/business-guidance/advertising-marketing/online-advertising-marketing"
+      },
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1303,
+    "contentHash": "d7d9004c0e5f104794ea4f71e2f5344a532531c6262f6e7b614a453b096dbf26",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Wholesale bookkeeping",
+    "topic": "Reconcile wholesale vendor rebates to purchases and credits",
+    "title": "Reconcile wholesale vendor rebates to purchases and credits",
+    "slug": "offshore-bookkeeping-wholesale-vendor-rebate-reconciliation",
+    "route": "/blog/offshore-bookkeeping-wholesale-vendor-rebate-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-wholesale-vendor-rebate-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-wholesale-vendor-rebate-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-vendor-master-change-control-research.webp",
+    "sources": [
+      {
+        "name": "FTC business guidance",
+        "url": "https://www.ftc.gov/business-guidance"
+      },
+      {
+        "name": "UCC Article 2",
+        "url": "https://www.law.cornell.edu/ucc/2"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1289,
+    "contentHash": "a616f6af41c8bc52a512a84f35c9623e364fd784e884c69e4db5f1076e27a7ea",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Service business bookkeeping",
+    "topic": "Reconcile field-service truck stock to work orders and replenishment",
+    "title": "Reconcile field-service truck stock to work orders and replenishment",
+    "slug": "offshore-bookkeeping-field-service-truck-stock-reconciliation",
+    "route": "/blog/offshore-bookkeeping-field-service-truck-stock-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-field-service-truck-stock-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-field-service-truck-stock-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-quality-scorecard.webp",
+    "sources": [
+      {
+        "name": "IRS inventory guidance",
+        "url": "https://www.irs.gov/publications/p538"
+      },
+      {
+        "name": "NIST asset management control",
+        "url": "https://csrc.nist.gov/projects/risk-management/sp800-53-controls/release-search#/control?version=5.1&number=CM-8"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1289,
+    "contentHash": "d010c6405020bfc3061695a7ddb0d1301b8c92dc72f6bf54e60cdb0544259200",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  },
+  {
+    "family": "Multi-entity bookkeeping",
+    "topic": "Prepare a multi-entity payroll allocation bridge",
+    "title": "Prepare a multi-entity payroll allocation bridge",
+    "slug": "offshore-bookkeeping-multi-entity-payroll-allocation",
+    "route": "/blog/offshore-bookkeeping-multi-entity-payroll-allocation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-multi-entity-payroll-allocation",
+    "sourcePath": "content/blog/offshore-bookkeeping-multi-entity-payroll-allocation.md",
+    "featuredImage": "/thumbnails/multi-entity-consolidation-handoff-research.webp",
+    "sources": [
+      {
+        "name": "IRS employment tax recordkeeping",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping"
+      },
+      {
+        "name": "U.S. Department of Labor recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-19",
+    "status": "validated",
+    "wordCount": 1297,
+    "contentHash": "eb36d8a294a1d7d4cdc90b554587ef48f8bf9251b773810db60da032dc856a59",
+    "contentCommit": "bb9fa04dc7573800cbf845d358131629f947b3a3"
+  }
+]
