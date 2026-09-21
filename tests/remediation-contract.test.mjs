@@ -158,6 +158,20 @@ test('contact has one canonical implementation and a permanent legacy redirect',
     && rule.permanent === true));
 });
 
+test('contact hero exposes a primary form action before explanatory navigation', () => {
+  const contactPage = read('app/contact-us/page.tsx');
+  const contactCss = read('app/contact-us/contact.css');
+  const primary = '<a className="tc-primary-link" href="#contactPageForm">Book a free scope call</a>';
+  const proofRow = '<div className="tc-proof-row">';
+  const secondary = '<a className="tc-text-link" href="#bookkeeping-support">See what the call covers</a>';
+
+  assert.ok(contactPage.includes(primary), 'contact hero needs an actionable link to the form');
+  assert.ok(contactPage.indexOf(primary) < contactPage.indexOf(proofRow), 'primary form action must appear before supporting proof chips');
+  assert.ok(contactPage.indexOf(proofRow) < contactPage.indexOf(secondary), 'explanatory navigation remains secondary');
+  assert.match(contactCss, /\.tc-primary-link\{[^}]*display:inline-flex[^}]*background:#ffd0a0[^}]*color:var\(--tc-dark\)/,
+    'primary hero action must render as a high-contrast button');
+});
+
 test('contact success is gated by authoritative delivery and direct thank-you visits are non-confirmatory', () => {
   const form = read('app/contact-us/StandardContactForm.tsx');
   const route = read('app/api/contact/route.ts');
