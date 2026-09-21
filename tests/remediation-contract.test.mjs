@@ -101,6 +101,17 @@ test('service catalog covers every approved bookkeeping support category with di
   }
 });
 
+test('content links only to approved service detail routes', () => {
+  const approved = new Set(loadFleetData().fleetServices.map((service) => service.slug));
+  const contentFiles = walk('content', (file) => /\.mdx?$/.test(file));
+  for (const file of contentFiles) {
+    const value = fs.readFileSync(file, 'utf8');
+    for (const match of value.matchAll(/\/services\/([a-z0-9]+(?:-[a-z0-9]+)*)/g)) {
+      assert.ok(approved.has(match[1]), `${path.relative(root, file)} links to unknown service ${match[1]}`);
+    }
+  }
+});
+
 test('informative article images have meaningful alternatives and redundant listing images are decorative', () => {
   assert.match(read('app/blog/[slug]/page.tsx'), /alt=\{post\.description \|\| post\.excerpt\}/);
   assert.match(read('app/research/[slug]/page.tsx'), /alt=\{post\.description\}/);

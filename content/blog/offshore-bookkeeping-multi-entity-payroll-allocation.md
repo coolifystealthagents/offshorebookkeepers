@@ -66,4 +66,4 @@ The handoff package should include untouched exports, the reconciliation, the ev
 
 Link the final workpaper from the close checklist rather than storing it in a personal folder. Use consistent naming such as entity-process-period-version. Restrict sensitive records to the minimum necessary audience and follow the company’s retention policy. A clean archive lets a backup reviewer continue the process without relying on memory.
 
-For help defining the underlying role, see [the relevant Offshore Bookkeepers service](/services/payroll-processing-support). If your team needs a Philippines-based bookkeeper to prepare schedules, maintain evidence, and route exceptions while your finance owner keeps approval, [plan the role with Offshore Bookkeepers](/contact-us).
+For help defining the underlying role, see [Payroll Journal Preparation](/services/payroll-journal-preparation). If your team needs a Philippines-based bookkeeper to prepare schedules, maintain evidence, and route exceptions while your finance owner keeps approval, [plan the role with Offshore Bookkeepers](/contact-us).
