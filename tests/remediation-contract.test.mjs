@@ -437,6 +437,16 @@ test('service workflow illustrations retain aspect ratio and become readable HTM
   assert.doesNotMatch(desktopServiceCss, /\.ob-service-card\{[^}]*grid-template-columns:210px 1fr/);
   assert.match(desktopServiceCss, /\.ob-service-card img\{[^}]*height:auto[^}]*aspect-ratio:1200\/630/);
   assert.match(desktopServiceCss, /\.ob-detail-figure img\{display:block;[^}]*height:auto[^}]*object-fit:contain/);
+  const serviceIllustrations = walk('public/illustrations/services', (file) => file.endsWith('.svg'));
+  assert.equal(serviceIllustrations.length, fleetServices.length, 'one workflow illustration per service');
+  for (const file of serviceIllustrations) {
+    const svg = fs.readFileSync(file, 'utf8');
+    const relative = path.relative(root, file);
+    assert.match(svg, /\.step\{font:800 26px Inter,Arial,sans-serif;/, `${relative}: readable step type`);
+    assert.doesNotMatch(svg, /<g class="icon">/, `${relative}: workflow icons require vertical clearance`);
+    const icons = [...svg.matchAll(/<g class="icon" transform="translate\(0 -(12|16)\)">/g)];
+    assert.equal(icons.length, 3, `${relative}: all three workflow icons have clearance`);
+  }
   const monthEndSvg = read('public/illustrations/services/month-end-close-support.svg');
   assert.doesNotMatch(monthEndSvg, /class="step">Reviewer sign-off<\/text>/);
   assert.match(monthEndSvg, /<g class="icon" transform="translate\(0 -16\)"><path d="M906 241h58v45h-58z M919 241v-12h32v12 M906 257h58"\/><\/g>/);
