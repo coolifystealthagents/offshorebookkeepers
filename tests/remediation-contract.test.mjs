@@ -437,22 +437,36 @@ test('service workflow illustrations retain aspect ratio and become readable HTM
   assert.doesNotMatch(desktopServiceCss, /\.ob-service-card\{[^}]*grid-template-columns:210px 1fr/);
   assert.match(desktopServiceCss, /\.ob-service-card img\{[^}]*height:auto[^}]*aspect-ratio:1200\/630/);
   assert.match(desktopServiceCss, /\.ob-detail-figure img\{display:block;[^}]*height:auto[^}]*object-fit:contain/);
+  assert.match(desktopServiceCss, /\.ob-detail-hero-grid\{[^}]*grid-template-columns:minmax\(0,1fr\) minmax\(560px,1fr\)/,
+    'desktop detail workflow reserves enough width for readable embedded labels');
   const serviceIllustrations = walk('public/illustrations/services', (file) => file.endsWith('.svg'));
   assert.equal(serviceIllustrations.length, fleetServices.length, 'one workflow illustration per service');
   for (const file of serviceIllustrations) {
     const svg = fs.readFileSync(file, 'utf8');
     const relative = path.relative(root, file);
+    assert.match(svg, /\.meta\{font:800 24px Inter,Arial,sans-serif;/, `${relative}: readable stage type`);
     assert.match(svg, /\.step\{font:800 26px Inter,Arial,sans-serif;/, `${relative}: readable step type`);
+    assert.match(svg, /\.num\{font:900 24px Inter,Arial,sans-serif;/, `${relative}: readable step number`);
+    assert.match(svg, /\.note\{font:800 28px Inter,Arial,sans-serif;/, `${relative}: readable status type`);
     assert.doesNotMatch(svg, /<g class="icon">/, `${relative}: workflow icons require vertical clearance`);
-    const icons = [...svg.matchAll(/<g class="icon" transform="translate\(0 -(12|16)\)">/g)];
-    assert.equal(icons.length, 3, `${relative}: all three workflow icons have clearance`);
+    const icons = [...svg.matchAll(/<g class="icon" transform="translate\(0 4\)">/g)];
+    assert.equal(icons.length, 3, `${relative}: all three workflow icons clear enlarged stage labels`);
+    const stepLabels = [...svg.matchAll(/<text [^>]*class="step">/g)];
+    assert.ok(stepLabels.length >= 3, `${relative}: workflow exposes all task labels`);
+    const shiftedSteps = [...svg.matchAll(/<text [^>]*transform="translate\(0 16\)"[^>]*class="step">/g)];
+    assert.equal(shiftedSteps.length, stepLabels.length, `${relative}: every workflow label clears lowered icons`);
   }
   const monthEndSvg = read('public/illustrations/services/month-end-close-support.svg');
   assert.doesNotMatch(monthEndSvg, /class="step">Reviewer sign-off<\/text>/);
-  assert.match(monthEndSvg, /<g class="icon" transform="translate\(0 -16\)"><path d="M906 241h58v45h-58z M919 241v-12h32v12 M906 257h58"\/><\/g>/);
-  assert.match(monthEndSvg, /<text x="935" y="320" text-anchor="middle" class="step"><tspan x="935" dy="0">Reviewer<\/tspan><tspan x="935" dy="46">sign-off<\/tspan><\/text>/);
+  assert.match(monthEndSvg, /<g class="icon" transform="translate\(0 4\)"><path d="M906 241h58v45h-58z M919 241v-12h32v12 M906 257h58"\/><\/g>/);
+  assert.match(monthEndSvg, /<text x="935" y="320" text-anchor="middle" transform="translate\(0 16\)" class="step"><tspan x="935" dy="0">Reviewer<\/tspan><tspan x="935" dy="46">sign-off<\/tspan><\/text>/);
+  const systemMigrationSvg = read('public/illustrations/services/bookkeeping-system-migration-support.svg');
+  assert.doesNotMatch(systemMigrationSvg, /class="step">Approved mapping<\/text>/);
+  assert.match(systemMigrationSvg, /<text x="570" y="304" text-anchor="middle" transform="translate\(0 16\)" class="step"><tspan x="570" dy="0">Approved<\/tspan><tspan x="570" dy="46">mapping<\/tspan><\/text>/);
   assert.doesNotMatch(desktopServiceCss, /\.ob-(?:service-card(?:>| )img|detail-figure(?:>| )img)[^{]*\{[^}]*display:none/);
   assert.match(css, /\.ob-mobile-flow\{display:none/);
+  assert.match(css, /@media\(max-width:1100px\)\{\.ob-detail-hero-grid\{grid-template-columns:1fr;gap:50px\}\}/,
+    'intermediate detail pages expand the workflow to a full-width row');
   assert.match(css, /\.ob-mobile-flow b\{[^}]*color:var\(--ob-navy\)[^}]*font-size:15px/);
   assert.match(css, /@media\(max-width:700px\)[^]*\.ob-service-card>img,\.ob-detail-figure>img\{display:none\}[^]*\.ob-detail-figure figcaption\{display:none\}[^]*\.ob-mobile-flow\{display:grid/);
 });
