@@ -1,0 +1,290 @@
+[
+  {
+    "family": "Veterinary bookkeeping",
+    "topic": "Reconcile veterinary wellness-plan collections, services, and deferred balances",
+    "title": "Reconcile veterinary wellness-plan collections, services, and deferred balances",
+    "slug": "offshore-bookkeeping-veterinary-wellness-plan-reconciliation",
+    "route": "/blog/offshore-bookkeeping-veterinary-wellness-plan-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-veterinary-wellness-plan-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-veterinary-wellness-plan-reconciliation.md",
+    "featuredImage": "/thumbnails/clinic-bookkeeping-reconciliation-research.webp",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "AVMA practice management resources",
+        "url": "https://www.avma.org/resources-tools/veterinary-economics/practice-management"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "e77db1ae7cf94c2c6b646db7d40bbb081844af2208af527e6f46c1b054186fb9",
+    "wordCount": 1061
+  },
+  {
+    "family": "Construction bookkeeping",
+    "topic": "Reconcile solar installation progress billings to milestones and project costs",
+    "title": "Reconcile solar installation progress billings to milestones and project costs",
+    "slug": "offshore-bookkeeping-solar-installer-progress-billing-reconciliation",
+    "route": "/blog/offshore-bookkeeping-solar-installer-progress-billing-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-solar-installer-progress-billing-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-solar-installer-progress-billing-reconciliation.md",
+    "featuredImage": "/thumbnails/construction-job-costing-control-research.webp",
+    "sources": [
+      {
+        "name": "U.S. Department of Energy solar project resources",
+        "url": "https://www.energy.gov/eere/solar/solar-energy-resources-consumers"
+      },
+      {
+        "name": "FASB revenue recognition resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/projects/revenue-recognition-implementation.html"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "485a0554a42c061f14c9257a295d395db569b43dac70f779e9015636f3787ef1",
+    "wordCount": 1082
+  },
+  {
+    "family": "Healthcare bookkeeping",
+    "topic": "Build a home-health EVV-to-payroll-and-billing reconciliation",
+    "title": "Build a home-health EVV-to-payroll-and-billing reconciliation",
+    "slug": "offshore-bookkeeping-home-health-evv-payroll-billing-bridge",
+    "route": "/blog/offshore-bookkeeping-home-health-evv-payroll-billing-bridge",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-home-health-evv-payroll-billing-bridge",
+    "sourcePath": "content/blog/offshore-bookkeeping-home-health-evv-payroll-billing-bridge.md",
+    "featuredImage": "/thumbnails/clinic-bookkeeping-reconciliation-research.webp",
+    "sources": [
+      {
+        "name": "CMS electronic visit verification",
+        "url": "https://www.medicaid.gov/medicaid/home-community-based-services/guidance/electronic-visit-verification-evv"
+      },
+      {
+        "name": "U.S. Department of Labor recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "54e65ed16826ef05872f373be8ad8c88096b5f7c23130fae5456fd95b254b454",
+    "wordCount": 1065
+  },
+  {
+    "family": "Insurance agency bookkeeping",
+    "topic": "Reconcile insurance-agency commissions and carrier clawbacks",
+    "title": "Reconcile insurance-agency commissions and carrier clawbacks",
+    "slug": "offshore-bookkeeping-insurance-agency-commission-clawback-reconciliation",
+    "route": "/blog/offshore-bookkeeping-insurance-agency-commission-clawback-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-insurance-agency-commission-clawback-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-insurance-agency-commission-clawback-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-commission-accrual-workflow.webp",
+    "sources": [
+      {
+        "name": "NAIC insurance industry resources",
+        "url": "https://content.naic.org/consumer"
+      },
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "cacff19599539985820e901ab6d81cc089897a88cd350eac80ec0509e2018136",
+    "wordCount": 1053
+  },
+  {
+    "family": "Ecommerce bookkeeping",
+    "topic": "Reconcile buy-now-pay-later settlements to ecommerce orders",
+    "title": "Reconcile buy-now-pay-later settlements to ecommerce orders",
+    "slug": "offshore-bookkeeping-ecommerce-buy-now-pay-later-settlement",
+    "route": "/blog/offshore-bookkeeping-ecommerce-buy-now-pay-later-settlement",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-ecommerce-buy-now-pay-later-settlement",
+    "sourcePath": "content/blog/offshore-bookkeeping-ecommerce-buy-now-pay-later-settlement.md",
+    "featuredImage": "/thumbnails/ecommerce-bookkeeping-reconciliation-workflow.webp",
+    "sources": [
+      {
+        "name": "Consumer Financial Protection Bureau BNPL resources",
+        "url": "https://www.consumerfinance.gov/consumer-tools/buy-now-pay-later-loans/"
+      },
+      {
+        "name": "FTC online business guidance",
+        "url": "https://www.ftc.gov/business-guidance"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "0aceea0405814027ace001d74d4e583ea4fcd3bdaaa0e3016c83f6eae0f955a8",
+    "wordCount": 1056
+  },
+  {
+    "family": "Nonprofit bookkeeping",
+    "topic": "Reconcile nonprofit reimbursement grants from eligible cost to cash",
+    "title": "Reconcile nonprofit reimbursement grants from eligible cost to cash",
+    "slug": "offshore-bookkeeping-nonprofit-reimbursement-grant-receivable",
+    "route": "/blog/offshore-bookkeeping-nonprofit-reimbursement-grant-receivable",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-reimbursement-grant-receivable",
+    "sourcePath": "content/blog/offshore-bookkeeping-nonprofit-reimbursement-grant-receivable.md",
+    "featuredImage": "/thumbnails/nonprofit-fund-accounting-support-research.webp",
+    "sources": [
+      {
+        "name": "Uniform Guidance cost principles",
+        "url": "https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200"
+      },
+      {
+        "name": "FASB not-for-profit resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/standards/implementation-and-practical-guidance/not-for-profit-entities.html"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "5b6e9aaf280b75e072cfd09a0f79815beb00692ca0cb26125f8577c29b896223",
+    "wordCount": 1064
+  },
+  {
+    "family": "Property bookkeeping",
+    "topic": "Prepare a commercial-property CAM reconciliation by tenant",
+    "title": "Prepare a commercial-property CAM reconciliation by tenant",
+    "slug": "offshore-bookkeeping-property-cam-reconciliation",
+    "route": "/blog/offshore-bookkeeping-property-cam-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-cam-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-property-cam-reconciliation.md",
+    "featuredImage": "/thumbnails/property-bookkeeping-rent-roll-controls.webp",
+    "sources": [
+      {
+        "name": "FASB leases implementation resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/projects/leases-implementation.html"
+      },
+      {
+        "name": "EPA commercial buildings resources",
+        "url": "https://www.energystar.gov/buildings"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "728714232e17bcac51792fcbf9dc01b0230759eaf89a5c332a1fc47ddff97211",
+    "wordCount": 1056
+  },
+  {
+    "family": "Dental bookkeeping",
+    "topic": "Roll forward orthodontic treatment-plan deposits and monthly charges",
+    "title": "Roll forward orthodontic treatment-plan deposits and monthly charges",
+    "slug": "offshore-bookkeeping-orthodontic-treatment-plan-deposit-rollforward",
+    "route": "/blog/offshore-bookkeeping-orthodontic-treatment-plan-deposit-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-orthodontic-treatment-plan-deposit-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-orthodontic-treatment-plan-deposit-rollforward.md",
+    "featuredImage": "/thumbnails/clinic-bookkeeping-reconciliation-research.webp",
+    "sources": [
+      {
+        "name": "HHS minimum necessary guidance",
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
+      },
+      {
+        "name": "Consumer Financial Protection Bureau medical debt resources",
+        "url": "https://www.consumerfinance.gov/consumer-tools/medical-debt/"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "ef8e3be7c0618e73efbe88a37464ac114b31b8e218488f75852c6c239d7a8a00",
+    "wordCount": 1076
+  },
+  {
+    "family": "Franchise bookkeeping",
+    "topic": "Reconcile franchise marketing-fund collections and approved spending",
+    "title": "Reconcile franchise marketing-fund collections and approved spending",
+    "slug": "offshore-bookkeeping-franchise-marketing-fund-reconciliation",
+    "route": "/blog/offshore-bookkeeping-franchise-marketing-fund-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-franchise-marketing-fund-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-franchise-marketing-fund-reconciliation.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-franchise-royalty-reconciliation.png",
+    "sources": [
+      {
+        "name": "FTC Franchise Rule compliance guide",
+        "url": "https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide"
+      },
+      {
+        "name": "SBA franchise business guidance",
+        "url": "https://www.sba.gov/business-guide/plan-your-business/buy-existing-business-or-franchise"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "3be349361a5f2ccc6a89be4eb3fa70e1c692402ae33ca1365abeb0257d9316dc",
+    "wordCount": 1061
+  },
+  {
+    "family": "Logistics bookkeeping",
+    "topic": "Reconcile logistics detention charges from timestamps to collection",
+    "title": "Reconcile logistics detention charges from timestamps to collection",
+    "slug": "offshore-bookkeeping-logistics-detention-charge-reconciliation",
+    "route": "/blog/offshore-bookkeeping-logistics-detention-charge-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-logistics-detention-charge-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-logistics-detention-charge-reconciliation.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-cost-source-map.webp",
+    "sources": [
+      {
+        "name": "FMCSA hours-of-service resources",
+        "url": "https://www.fmcsa.dot.gov/regulations/hours-service"
+      },
+      {
+        "name": "U.S. Department of Transportation freight resources",
+        "url": "https://ops.fhwa.dot.gov/freight/"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "c60028424263aeafe43cccac6083e218c7a9c28cf78adbae1b37b3e929761dc1",
+    "wordCount": 1058
+  },
+  {
+    "family": "Staffing bookkeeping",
+    "topic": "Reconcile staffing timesheets to payroll and client billing",
+    "title": "Reconcile staffing timesheets to payroll and client billing",
+    "slug": "offshore-bookkeeping-staffing-timesheet-payroll-billing-reconciliation",
+    "route": "/blog/offshore-bookkeeping-staffing-timesheet-payroll-billing-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-staffing-timesheet-payroll-billing-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-staffing-timesheet-payroll-billing-reconciliation.md",
+    "featuredImage": "/thumbnails/payroll-journal-preparation-controls.webp",
+    "sources": [
+      {
+        "name": "U.S. Department of Labor hours-worked guidance",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/22-flsa-hours-worked"
+      },
+      {
+        "name": "U.S. Department of Labor recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "40d704894c2cc0421e554ca9b6bd19fb609c79577ce70395530025ceb96201d4",
+    "wordCount": 1072
+  },
+  {
+    "family": "Manufacturing bookkeeping",
+    "topic": "Reconcile manufacturing warranty costs and vendor recoveries",
+    "title": "Reconcile manufacturing warranty costs and vendor recoveries",
+    "slug": "offshore-bookkeeping-manufacturing-warranty-vendor-recovery",
+    "route": "/blog/offshore-bookkeeping-manufacturing-warranty-vendor-recovery",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-manufacturing-warranty-vendor-recovery",
+    "sourcePath": "content/blog/offshore-bookkeeping-manufacturing-warranty-vendor-recovery.md",
+    "featuredImage": "/thumbnails/bookkeeping-quality-scorecard.webp",
+    "sources": [
+      {
+        "name": "NIST manufacturing resources",
+        "url": "https://www.nist.gov/mep"
+      },
+      {
+        "name": "CPSC business guidance",
+        "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "3825b311761893c0a01673d5be4f72bbfa0bc81e862928cd7a983e34afd34575",
+    "wordCount": 1047
+  }
+]
