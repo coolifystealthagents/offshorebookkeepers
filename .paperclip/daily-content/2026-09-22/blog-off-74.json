@@ -1,0 +1,290 @@
+[
+  {
+    "family": "Commercial cleaning bookkeeping",
+    "topic": "Reconcile commercial-cleaning job profitability from shifts to invoices",
+    "title": "Reconcile commercial-cleaning job profitability from shifts to invoices",
+    "slug": "offshore-bookkeeping-commercial-cleaning-job-profitability",
+    "route": "/blog/offshore-bookkeeping-commercial-cleaning-job-profitability",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-commercial-cleaning-job-profitability",
+    "sourcePath": "content/blog/offshore-bookkeeping-commercial-cleaning-job-profitability.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-margin-bridge.webp",
+    "sources": [
+      {
+        "name": "U.S. Department of Labor recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"
+      },
+      {
+        "name": "OSHA cleaning industry resources",
+        "url": "https://www.osha.gov/cleaning-industry"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "c997ce6aa1e81bf78ccd3ebe52847269f93e4c977e1ec64b438ccbb348b02e1e",
+    "wordCount": 1063
+  },
+  {
+    "family": "SaaS bookkeeping",
+    "topic": "Roll forward SaaS annual contracts from billing to deferred revenue",
+    "title": "Roll forward SaaS annual contracts from billing to deferred revenue",
+    "slug": "offshore-bookkeeping-saas-annual-contract-billing-rollforward",
+    "route": "/blog/offshore-bookkeeping-saas-annual-contract-billing-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-annual-contract-billing-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-saas-annual-contract-billing-rollforward.md",
+    "featuredImage": "/thumbnails/bookkeeping-unbilled-revenue-review.svg",
+    "sources": [
+      {
+        "name": "FASB revenue recognition resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/projects/revenue-recognition-implementation.html"
+      },
+      {
+        "name": "FTC business guidance",
+        "url": "https://www.ftc.gov/business-guidance"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "29095bcfb0fc598eee466324e4d09a872b2859b3c1b9b0899f8de9a2651525ad",
+    "wordCount": 1060
+  },
+  {
+    "family": "HOA bookkeeping",
+    "topic": "Reconcile HOA special assessments from owner billing to project spending",
+    "title": "Reconcile HOA special assessments from owner billing to project spending",
+    "slug": "offshore-bookkeeping-hoa-special-assessment-rollforward",
+    "route": "/blog/offshore-bookkeeping-hoa-special-assessment-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-hoa-special-assessment-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-hoa-special-assessment-rollforward.md",
+    "featuredImage": "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp",
+    "sources": [
+      {
+        "name": "HUD condominium resources",
+        "url": "https://www.hud.gov/housing-counseling"
+      },
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "1fe28f21a8c30bf9cd61605e6decedb64c6f7ecd270191597f2a517884fcc32e",
+    "wordCount": 1047
+  },
+  {
+    "family": "Hospitality bookkeeping",
+    "topic": "Roll forward event-venue deposits, final bills, refunds, and credits",
+    "title": "Roll forward event-venue deposits, final bills, refunds, and credits",
+    "slug": "offshore-bookkeeping-event-venue-deposit-rollforward",
+    "route": "/blog/offshore-bookkeeping-event-venue-deposit-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-event-venue-deposit-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-event-venue-deposit-rollforward.md",
+    "featuredImage": "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp",
+    "sources": [
+      {
+        "name": "FTC business guidance",
+        "url": "https://www.ftc.gov/business-guidance"
+      },
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "7ec77ea08d304d26bb935327d473851bd321bf1677cc80d1dee110951c5b0d04",
+    "wordCount": 1051
+  },
+  {
+    "family": "Logistics bookkeeping",
+    "topic": "Audit freight invoices for rates, accessorials, credits, and duplicates",
+    "title": "Audit freight invoices for rates, accessorials, credits, and duplicates",
+    "slug": "offshore-bookkeeping-freight-invoice-accessorial-audit",
+    "route": "/blog/offshore-bookkeeping-freight-invoice-accessorial-audit",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-freight-invoice-accessorial-audit",
+    "sourcePath": "content/blog/offshore-bookkeeping-freight-invoice-accessorial-audit.md",
+    "featuredImage": "/thumbnails/bookkeeping-credit-memo-control-research.webp",
+    "sources": [
+      {
+        "name": "FMCSA registration and safety resources",
+        "url": "https://www.fmcsa.dot.gov/registration"
+      },
+      {
+        "name": "U.S. DOT freight resources",
+        "url": "https://ops.fhwa.dot.gov/freight/"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "930cc86b6669f4425e6c6b80dfc227920355f26909956fbda6073970869dd538",
+    "wordCount": 1062
+  },
+  {
+    "family": "Legal services bookkeeping",
+    "topic": "Maintain a matter-level legal settlement and case-cost ledger",
+    "title": "Maintain a matter-level legal settlement and case-cost ledger",
+    "slug": "offshore-bookkeeping-legal-settlement-cost-ledger",
+    "route": "/blog/offshore-bookkeeping-legal-settlement-cost-ledger",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-legal-settlement-cost-ledger",
+    "sourcePath": "content/blog/offshore-bookkeeping-legal-settlement-cost-ledger.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-margin-bridge.webp",
+    "sources": [
+      {
+        "name": "American Bar Association Model Rules",
+        "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/"
+      },
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "1d7fa779d15b54176281f308b07bd3b90dcabb407837191f7f09d2d767e5bf5b",
+    "wordCount": 1074
+  },
+  {
+    "family": "Subscription business bookkeeping",
+    "topic": "Reconcile subscription usage records to overage invoices",
+    "title": "Reconcile subscription usage records to overage invoices",
+    "slug": "offshore-bookkeeping-subscription-usage-overage-billing",
+    "route": "/blog/offshore-bookkeeping-subscription-usage-overage-billing",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-subscription-usage-overage-billing",
+    "sourcePath": "content/blog/offshore-bookkeeping-subscription-usage-overage-billing.md",
+    "featuredImage": "/thumbnails/bookkeeping-unbilled-revenue-review.svg",
+    "sources": [
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      },
+      {
+        "name": "FASB revenue recognition resources",
+        "url": "https://www.fasb.org/page/PageContent?pageId=/projects/revenue-recognition-implementation.html"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "a76459674e6953fbe11b0c22294be6fd1971963646917459c2832491352f9ec5",
+    "wordCount": 1068
+  },
+  {
+    "family": "Fitness business bookkeeping",
+    "topic": "Reconcile fitness memberships, freezes, cancellations, and collections",
+    "title": "Reconcile fitness memberships, freezes, cancellations, and collections",
+    "slug": "offshore-bookkeeping-fitness-membership-freeze-reconciliation",
+    "route": "/blog/offshore-bookkeeping-fitness-membership-freeze-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-fitness-membership-freeze-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-fitness-membership-freeze-reconciliation.md",
+    "featuredImage": "/thumbnails/recurring-charge-register.svg",
+    "sources": [
+      {
+        "name": "FTC consumer protection resources",
+        "url": "https://www.ftc.gov/news-events/topics/truth-advertising"
+      },
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "3f2500a5253969cc9bfab8e65963b9f71db3e2165ac7b0e82fa25120252a4a5f",
+    "wordCount": 1051
+  },
+  {
+    "family": "Equipment rental bookkeeping",
+    "topic": "Roll forward equipment-rental deposits, extensions, damage charges, and refunds",
+    "title": "Roll forward equipment-rental deposits, extensions, damage charges, and refunds",
+    "slug": "offshore-bookkeeping-equipment-rental-damage-deposit-rollforward",
+    "route": "/blog/offshore-bookkeeping-equipment-rental-damage-deposit-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-equipment-rental-damage-deposit-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-equipment-rental-damage-deposit-rollforward.md",
+    "featuredImage": "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp",
+    "sources": [
+      {
+        "name": "FTC business guidance",
+        "url": "https://www.ftc.gov/business-guidance"
+      },
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "039431dbc57b6c0348eec412debfe6412868f189354018b5d7da015965080ec7",
+    "wordCount": 1051
+  },
+  {
+    "family": "Food manufacturing bookkeeping",
+    "topic": "Reconcile retailer slotting fees, deductions, and promotional allowances",
+    "title": "Reconcile retailer slotting fees, deductions, and promotional allowances",
+    "slug": "offshore-bookkeeping-food-manufacturer-slotting-deduction-reconciliation",
+    "route": "/blog/offshore-bookkeeping-food-manufacturer-slotting-deduction-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-food-manufacturer-slotting-deduction-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-food-manufacturer-slotting-deduction-reconciliation.md",
+    "featuredImage": "/thumbnails/bookkeeping-quality-scorecard.webp",
+    "sources": [
+      {
+        "name": "FDA food industry guidance",
+        "url": "https://www.fda.gov/food/guidance-documents-regulatory-information-topic-food-and-dietary-supplements"
+      },
+      {
+        "name": "FTC business guidance",
+        "url": "https://www.ftc.gov/business-guidance"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "f3842a8844e89970e10041c196ee53ca8b4578bc6d44a444092e02f6a4755723",
+    "wordCount": 1061
+  },
+  {
+    "family": "Professional services bookkeeping",
+    "topic": "Reconcile architecture phase billings to contract budgets and labor",
+    "title": "Reconcile architecture phase billings to contract budgets and labor",
+    "slug": "offshore-bookkeeping-architecture-phase-billing-reconciliation",
+    "route": "/blog/offshore-bookkeeping-architecture-phase-billing-reconciliation",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-architecture-phase-billing-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-architecture-phase-billing-reconciliation.md",
+    "featuredImage": "/thumbnails/offshore-bookkeeping-project-margin-bridge.webp",
+    "sources": [
+      {
+        "name": "AIA contract documents resources",
+        "url": "https://www.aiacontracts.com/resources"
+      },
+      {
+        "name": "U.S. Department of Labor recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "72e68d6379fe029e7b6c46c1561a2712fe180bf915f0cf2b6d6a6677ade93853",
+    "wordCount": 1063
+  },
+  {
+    "family": "Education bookkeeping",
+    "topic": "Roll forward private-school tuition, financial aid, deposits, and refunds",
+    "title": "Roll forward private-school tuition, financial aid, deposits, and refunds",
+    "slug": "offshore-bookkeeping-private-school-tuition-aid-rollforward",
+    "route": "/blog/offshore-bookkeeping-private-school-tuition-aid-rollforward",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-private-school-tuition-aid-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-private-school-tuition-aid-rollforward.md",
+    "featuredImage": "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp",
+    "sources": [
+      {
+        "name": "U.S. Department of Education FERPA guidance",
+        "url": "https://studentprivacy.ed.gov/ferpa"
+      },
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      }
+    ],
+    "publicationDate": "2026-09-22",
+    "status": "prepared",
+    "contentHash": "f07a4718847e348ba97afb65c82ff9b0a7714bd9e2c0ec007d94afce24d97d14",
+    "wordCount": 1059
+  }
+]
