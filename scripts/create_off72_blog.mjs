@@ -101,7 +101,7 @@ for (const article of articles) {
   if (fs.existsSync(sourcePath) && !process.env.ALLOW_ROUTINE_REGEN) throw new Error(`Refusing to overwrite existing article: ${sourcePath}`);
   const body = render(article);
   fs.writeFileSync(sourcePath, body);
-  manifest.push({family:category,topic:title,title,slug,route:`/blog/${slug}`,canonical:`https://offshorebookkeepers.com/blog/${slug}`,sourcePath,featuredImage:image,sources:sources.map(([name,url])=>({name,url})),publicationDate:published,status:'prepared',contentHash:crypto.createHash('sha256').update(body).digest('hex'),wordCount:(body.match(/\b[\w’'-]+\b/g)||[]).length});
+  manifest.push({family:category,topic:title,title,slug,route:`/blog/${slug}`,canonical:`https://offshorebookkeepers.com/blog/${slug}`,sourcePath,featuredImage:image,sources:sources.map(([name,url])=>({name,url})),publicationDate:published,status:process.env.CONTENT_COMMIT?'validated':'prepared',contentHash:crypto.createHash('sha256').update(body).digest('hex'),wordCount:(body.match(/\b[\w’'-]+\b/g)||[]).length,...(process.env.CONTENT_COMMIT?{contentCommit:process.env.CONTENT_COMMIT}:{})});
 }
 fs.mkdirSync(`.paperclip/daily-content/${published}`,{recursive:true});
 fs.writeFileSync(`.paperclip/daily-content/${published}/blog-off-72.json`,JSON.stringify(manifest,null,2)+'\n');
