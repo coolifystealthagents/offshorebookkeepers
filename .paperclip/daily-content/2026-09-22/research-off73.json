@@ -1,0 +1,322 @@
+[
+  {
+    "family": "daily-research",
+    "topic": "How to study deposit-in-transit aging in bank reconciliation",
+    "slug": "offshore-bookkeeping-deposit-in-transit-aging-research",
+    "route": "/research/offshore-bookkeeping-deposit-in-transit-aging-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-deposit-in-transit-aging-research",
+    "sourcePath": "content/research/offshore-bookkeeping-deposit-in-transit-aging-research.md",
+    "publicationDate": "2026-09-22",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-22"
+      }
+    ],
+    "contentHash": "1101c3589e71ca5075d95127ef6614439929150d4757e6510a09de439383249f",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "How to study vendor-credit application latency",
+    "slug": "offshore-bookkeeping-vendor-credit-application-latency-research",
+    "route": "/research/offshore-bookkeeping-vendor-credit-application-latency-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-vendor-credit-application-latency-research",
+    "sourcePath": "content/research/offshore-bookkeeping-vendor-credit-application-latency-research.md",
+    "publicationDate": "2026-09-22",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-22"
+      }
+    ],
+    "contentHash": "33867b9f21e57ec314be886a836410069ef44848e2415782ea8b3bce188fc9e9",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "How to study customer credit-balance resolution",
+    "slug": "offshore-bookkeeping-customer-credit-balance-resolution-research",
+    "route": "/research/offshore-bookkeeping-customer-credit-balance-resolution-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-customer-credit-balance-resolution-research",
+    "sourcePath": "content/research/offshore-bookkeeping-customer-credit-balance-resolution-research.md",
+    "publicationDate": "2026-09-22",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-22"
+      }
+    ],
+    "contentHash": "df9e827170cf025f05d63b27c9caf846389220008ee39f672b1122fc275b7aa8",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "How to study prepaid-schedule exceptions",
+    "slug": "offshore-bookkeeping-prepaid-schedule-exception-research",
+    "route": "/research/offshore-bookkeeping-prepaid-schedule-exception-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-prepaid-schedule-exception-research",
+    "sourcePath": "content/research/offshore-bookkeeping-prepaid-schedule-exception-research.md",
+    "publicationDate": "2026-09-22",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-22"
+      }
+    ],
+    "contentHash": "79cfc54c94af6fb974153ea213a99815ca52841d1f96bd1f026aa029f24fe3c3",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "How to study intercompany confirmation mismatches",
+    "slug": "offshore-bookkeeping-intercompany-confirmation-mismatch-research",
+    "route": "/research/offshore-bookkeeping-intercompany-confirmation-mismatch-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-intercompany-confirmation-mismatch-research",
+    "sourcePath": "content/research/offshore-bookkeeping-intercompany-confirmation-mismatch-research.md",
+    "publicationDate": "2026-09-22",
+    "sources": [
+      {
+        "title": "U.S. GAO, 2025 Green Book",
+        "publisher": "U.S. GAO",
+        "url": "https://www.gao.gov/greenbook",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1105: Audit Evidence",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 1215: Audit Documentation",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "NIST, Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-09-22"
+      },
+      {
+        "title": "IRS, Recordkeeping",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "checkedDate": "2026-09-22"
+      }
+    ],
+    "contentHash": "03aecfff56795040ffb51ec5b8f8181530e9f6c0ca4c7725c90e4248a1206335",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  }
+]
