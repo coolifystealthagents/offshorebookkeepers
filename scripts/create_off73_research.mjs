@@ -2,8 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 
-const date = '2026-09-22';
-const displayDate = 'September 22, 2026';
+const date = '2026-09-23';
+const displayDate = 'September 23, 2026';
 const sources = [
   {name:'U.S. GAO, 2025 Green Book',publisher:'U.S. GAO',url:'https://www.gao.gov/greenbook'},
   {name:'PCAOB, AS 1105: Audit Evidence',publisher:'PCAOB',url:'https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105'},

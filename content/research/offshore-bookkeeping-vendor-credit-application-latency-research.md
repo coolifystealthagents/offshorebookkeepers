@@ -1,8 +1,8 @@
 ---
 title: "How to study vendor-credit application latency"
 description: "A reproducible study protocol for whether approved vendor credits are applied to eligible invoices promptly or remain open without a supported disposition, with frozen populations, evidence coverage, decision rights, and limitations."
-published: "2026-09-22"
-updated: "2026-09-22"
+published: "2026-09-23"
+updated: "2026-09-23"
 category: "Accounts payable"
 type: "research"
 featuredImage: "/thumbnails/offshore-bookkeeping-cutoff-assertion-confidence-research.png"
@@ -13,7 +13,7 @@ relatedLinks: [["View the related service","/services/accounts-payable-processin
 faqs: [{"question":"Does this report publish a market benchmark or client result?","answer":"No. It defines a reproducible study protocol. It contains no private client dataset, prevalence estimate, staffing score, or claimed performance result."},{"question":"Can this measure be used to rank bookkeepers?","answer":"No. It is a workflow diagnostic whose meaning depends on population, systems, evidence coverage, decision rights, and reviewer availability."},{"question":"Who approves judgment-dependent outcomes?","answer":"The client's authorized accounts-payable manager or controller retains judgment, policy, approval, release, and accounting decisions. A bookkeeper may assemble records and apply documented rules."}]
 serviceHandoff: {"href":"/contact-us","label":"Discuss a controlled bookkeeping scope","title":"Turn the protocol into a reviewable handoff","body":"Define the source records, preparation fields, stops, reviewer, and escalation route before assigning the workflow."}
 ---
-This research brief was published September 22, 2026. Sources were checked on September 22, 2026. It proposes a study protocol and reports no observed client performance. It is not accounting, audit, tax, legal, payroll, statistical, investment, or regulatory advice.
+This research brief was published September 23, 2026. Sources were checked on September 23, 2026. It proposes a study protocol and reports no observed client performance. It is not accounting, audit, tax, legal, payroll, statistical, investment, or regulatory advice.
 
 ## Decision context
 
@@ -85,11 +85,11 @@ Run consecutive periods long enough to observe ordinary variation, while repairi
 
 ## Sources and checked dates
 
-- [U.S. GAO, 2025 Green Book](https://www.gao.gov/greenbook) --- U.S. GAO; checked September 22, 2026.
-- [PCAOB, AS 1105: Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) --- PCAOB; checked September 22, 2026.
-- [PCAOB, AS 1215: Audit Documentation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215) --- PCAOB; checked September 22, 2026.
-- [PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201) --- PCAOB; checked September 22, 2026.
-- [NIST, Cybersecurity Framework 2.0](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20) --- NIST; checked September 22, 2026.
-- [NIST, Data Integrity](https://csrc.nist.gov/glossary/term/data_integrity) --- NIST; checked September 22, 2026.
-- [NIST, Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) --- NIST; checked September 22, 2026.
-- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) --- IRS; checked September 22, 2026.
+- [U.S. GAO, 2025 Green Book](https://www.gao.gov/greenbook) --- U.S. GAO; checked September 23, 2026.
+- [PCAOB, AS 1105: Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) --- PCAOB; checked September 23, 2026.
+- [PCAOB, AS 1215: Audit Documentation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215) --- PCAOB; checked September 23, 2026.
+- [PCAOB, AS 2201: An Audit of Internal Control Over Financial Reporting](https://pcaobus.org/oversight/standards/auditing-standards/details/AS2201) --- PCAOB; checked September 23, 2026.
+- [NIST, Cybersecurity Framework 2.0](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20) --- NIST; checked September 23, 2026.
+- [NIST, Data Integrity](https://csrc.nist.gov/glossary/term/data_integrity) --- NIST; checked September 23, 2026.
+- [NIST, Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) --- NIST; checked September 23, 2026.
+- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) --- IRS; checked September 23, 2026.
