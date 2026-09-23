@@ -59,9 +59,28 @@
     ],
     "contentHash": "f7604f38bd84dfff700106615c3e59fc3a16733ec539d9f9be538d3372ea5ccc",
     "commitSHA": "05a6259f0fce3779a312915439359c4a70d89cf4",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null,
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gyexfcvdu3wpp69qcngop5cz",
+      "deployedCommitSHA": "084919a81a39bb73a1dd636165c8c2cb466bcf43",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T07:34:53.000000Z",
+      "siteTimezone": "UTC",
+      "publicationDate": "2026-09-23",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-deposit-in-transit-aging-research",
+    "verifiedAt": "2026-09-23T07:36:12Z",
     "firstPublicEvidence": {
       "applicationUuid": "qvifib30a3teww1rycuecuj9",
       "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
@@ -69,6 +88,18 @@
       "finishedAt": "2026-09-23T00:15:42.000000Z",
       "siteTimezone": "UTC",
       "firstPublicDate": "2026-09-23"
+    },
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-23",
+      "datePublished": "2026-09-23",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
     }
   },
   {
@@ -131,9 +162,28 @@
     ],
     "contentHash": "bb40d4a04c28abf18e18fc27f835aa30b2306d129288ddcaea206d78c61d375a",
     "commitSHA": "05a6259f0fce3779a312915439359c4a70d89cf4",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null,
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gyexfcvdu3wpp69qcngop5cz",
+      "deployedCommitSHA": "084919a81a39bb73a1dd636165c8c2cb466bcf43",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T07:34:53.000000Z",
+      "siteTimezone": "UTC",
+      "publicationDate": "2026-09-23",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-vendor-credit-application-latency-research",
+    "verifiedAt": "2026-09-23T07:36:12Z",
     "firstPublicEvidence": {
       "applicationUuid": "qvifib30a3teww1rycuecuj9",
       "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
@@ -141,6 +191,18 @@
       "finishedAt": "2026-09-23T00:15:42.000000Z",
       "siteTimezone": "UTC",
       "firstPublicDate": "2026-09-23"
+    },
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-23",
+      "datePublished": "2026-09-23",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
     }
   },
   {
@@ -203,9 +265,28 @@
     ],
     "contentHash": "67e69ba35260b94de9b3afc5998a1c2ce05cc288ed25c8b7427bedcfb20b5a57",
     "commitSHA": "05a6259f0fce3779a312915439359c4a70d89cf4",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null,
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gyexfcvdu3wpp69qcngop5cz",
+      "deployedCommitSHA": "084919a81a39bb73a1dd636165c8c2cb466bcf43",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T07:34:53.000000Z",
+      "siteTimezone": "UTC",
+      "publicationDate": "2026-09-23",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-customer-credit-balance-resolution-research",
+    "verifiedAt": "2026-09-23T07:36:12Z",
     "firstPublicEvidence": {
       "applicationUuid": "qvifib30a3teww1rycuecuj9",
       "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
@@ -213,6 +294,18 @@
       "finishedAt": "2026-09-23T00:15:42.000000Z",
       "siteTimezone": "UTC",
       "firstPublicDate": "2026-09-23"
+    },
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-23",
+      "datePublished": "2026-09-23",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
     }
   },
   {
@@ -275,9 +368,28 @@
     ],
     "contentHash": "e042f60af215650f3251d61282b8b4b300a8c18103d87f32707508c6ec510d4e",
     "commitSHA": "05a6259f0fce3779a312915439359c4a70d89cf4",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null,
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gyexfcvdu3wpp69qcngop5cz",
+      "deployedCommitSHA": "084919a81a39bb73a1dd636165c8c2cb466bcf43",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T07:34:53.000000Z",
+      "siteTimezone": "UTC",
+      "publicationDate": "2026-09-23",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-prepaid-schedule-exception-research",
+    "verifiedAt": "2026-09-23T07:36:12Z",
     "firstPublicEvidence": {
       "applicationUuid": "qvifib30a3teww1rycuecuj9",
       "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
@@ -285,6 +397,18 @@
       "finishedAt": "2026-09-23T00:15:42.000000Z",
       "siteTimezone": "UTC",
       "firstPublicDate": "2026-09-23"
+    },
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-23",
+      "datePublished": "2026-09-23",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
     }
   },
   {
@@ -347,9 +471,28 @@
     ],
     "contentHash": "bdff0219040140ac22c2ac1cc9a5a2a5ad5d0256bc5176137b780fcedf8b4e90",
     "commitSHA": "05a6259f0fce3779a312915439359c4a70d89cf4",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null,
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "gyexfcvdu3wpp69qcngop5cz",
+      "deployedCommitSHA": "084919a81a39bb73a1dd636165c8c2cb466bcf43",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T07:34:53.000000Z",
+      "siteTimezone": "UTC",
+      "publicationDate": "2026-09-23",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-intercompany-confirmation-mismatch-research",
+    "verifiedAt": "2026-09-23T07:36:12Z",
     "firstPublicEvidence": {
       "applicationUuid": "qvifib30a3teww1rycuecuj9",
       "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
@@ -357,6 +500,18 @@
       "finishedAt": "2026-09-23T00:15:42.000000Z",
       "siteTimezone": "UTC",
       "firstPublicDate": "2026-09-23"
+    },
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-23",
+      "datePublished": "2026-09-23",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
     }
   }
 ]
