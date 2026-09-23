@@ -1,8 +1,8 @@
 ---
 title: "Roll forward event-venue deposits, final bills, refunds, and credits"
 description: "A practical offshore bookkeeping workflow for event-venue deposits, with source evidence, exception ownership, and clear review boundaries."
-published: "2026-09-22"
-updated: "2026-09-22"
+published: "2026-09-23"
+updated: "2026-09-23"
 category: "Hospitality bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp"
@@ -10,7 +10,7 @@ sources: [{"name":"FTC business guidance","url":"https://www.ftc.gov/business-gu
 takeaways: ["Reconcile the complete source population before investigating differences.","Give each exception evidence, an owner, a due date, and a focused decision request.","Keep approvals and accounting judgment with the authorized company reviewer."]
 faqs: [["Can an offshore bookkeeper prepare this reconciliation?","Yes. A bookkeeper can gather authorized records, perform documented comparisons, maintain the exception queue, and prepare a review-ready handoff."],["What stays with the company reviewer?","Contract interpretation, accounting policy, approvals, legal conclusions, write-offs, and other judgment calls remain with the authorized owner or professional adviser."]]
 ---
-Published September 22, 2026. This guide covers bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, medical, investment, or regulatory advice.
+Published September 23, 2026. This guide covers bookkeeping preparation and review support. It is not accounting, tax, legal, payroll, medical, investment, or regulatory advice.
 
 ## Why event-venue deposits needs its own workpaper
 
