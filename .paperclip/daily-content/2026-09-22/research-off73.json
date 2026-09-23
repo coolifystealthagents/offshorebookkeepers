@@ -59,9 +59,40 @@
     ],
     "contentHash": "1101c3589e71ca5075d95127ef6614439929150d4757e6510a09de439383249f",
     "commitSHA": "f473c87f35d5d29de9df534d0d1123e8c6a147de",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
+      "deployedCommitSHA": "b566d7a3447701018bfd88f72848eb029fabb0fe",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T00:15:42.000000Z",
+      "siteTimezone": "America/New_York",
+      "localPublicationDate": "2026-09-22",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-deposit-in-transit-aging-research",
+    "verifiedAt": "2026-09-23T07:22:39Z",
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-22",
+      "datePublished": "2026-09-22",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
+    }
   },
   {
     "family": "daily-research",
@@ -123,9 +154,40 @@
     ],
     "contentHash": "33867b9f21e57ec314be886a836410069ef44848e2415782ea8b3bce188fc9e9",
     "commitSHA": "f473c87f35d5d29de9df534d0d1123e8c6a147de",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
+      "deployedCommitSHA": "b566d7a3447701018bfd88f72848eb029fabb0fe",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T00:15:42.000000Z",
+      "siteTimezone": "America/New_York",
+      "localPublicationDate": "2026-09-22",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-vendor-credit-application-latency-research",
+    "verifiedAt": "2026-09-23T07:22:39Z",
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-22",
+      "datePublished": "2026-09-22",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
+    }
   },
   {
     "family": "daily-research",
@@ -187,9 +249,40 @@
     ],
     "contentHash": "df9e827170cf025f05d63b27c9caf846389220008ee39f672b1122fc275b7aa8",
     "commitSHA": "f473c87f35d5d29de9df534d0d1123e8c6a147de",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
+      "deployedCommitSHA": "b566d7a3447701018bfd88f72848eb029fabb0fe",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T00:15:42.000000Z",
+      "siteTimezone": "America/New_York",
+      "localPublicationDate": "2026-09-22",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-customer-credit-balance-resolution-research",
+    "verifiedAt": "2026-09-23T07:22:39Z",
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-22",
+      "datePublished": "2026-09-22",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
+    }
   },
   {
     "family": "daily-research",
@@ -251,9 +344,40 @@
     ],
     "contentHash": "79cfc54c94af6fb974153ea213a99815ca52841d1f96bd1f026aa029f24fe3c3",
     "commitSHA": "f473c87f35d5d29de9df534d0d1123e8c6a147de",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
+      "deployedCommitSHA": "b566d7a3447701018bfd88f72848eb029fabb0fe",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T00:15:42.000000Z",
+      "siteTimezone": "America/New_York",
+      "localPublicationDate": "2026-09-22",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-prepaid-schedule-exception-research",
+    "verifiedAt": "2026-09-23T07:22:39Z",
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-22",
+      "datePublished": "2026-09-22",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
+    }
   },
   {
     "family": "daily-research",
@@ -315,8 +439,39 @@
     ],
     "contentHash": "03aecfff56795040ffb51ec5b8f8181530e9f6c0ca4c7725c90e4248a1206335",
     "commitSHA": "f473c87f35d5d29de9df534d0d1123e8c6a147de",
-    "deploymentEvidence": null,
-    "liveURL": null,
-    "verifiedAt": null
+    "deploymentEvidence": {
+      "applicationUuid": "qvifib30a3teww1rycuecuj9",
+      "deploymentUuid": "akpgno9qwwq16cfzxjeptnyf",
+      "deployedCommitSHA": "b566d7a3447701018bfd88f72848eb029fabb0fe",
+      "productionBranch": "main",
+      "status": "finished",
+      "finishedAt": "2026-09-23T00:15:42.000000Z",
+      "siteTimezone": "America/New_York",
+      "localPublicationDate": "2026-09-22",
+      "checks": [
+        "HTTP 200",
+        "unique title and body",
+        "self-canonical",
+        "visible publication date",
+        "datePublished structured data",
+        "featured image",
+        "Research index",
+        "sitemap"
+      ]
+    },
+    "liveURL": "https://offshorebookkeepers.com/research/offshore-bookkeeping-intercompany-confirmation-mismatch-research",
+    "verifiedAt": "2026-09-23T07:22:39Z",
+    "verification": {
+      "status": "live-verified",
+      "http200": true,
+      "titleAndUniqueBody": true,
+      "canonical": true,
+      "visibleDate": "2026-09-22",
+      "datePublished": "2026-09-22",
+      "structuredData": true,
+      "featuredImage": true,
+      "researchIndex": true,
+      "sitemap": true
+    }
   }
 ]
