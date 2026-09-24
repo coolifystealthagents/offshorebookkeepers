@@ -1,0 +1,278 @@
+[
+  {
+    "family": "Construction bookkeeping",
+    "topic": "Reconcile construction retainage from billing through release",
+    "slug": "offshore-bookkeeping-construction-retainage-release",
+    "sourcePath": "content/blog/offshore-bookkeeping-construction-retainage-release.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-construction-retainage-release",
+    "route": "/blog/offshore-bookkeeping-construction-retainage-release",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "38ff584434ae087b9d2f45620338c9de033682067be2dd9ec584c71ae9337595",
+    "wordCount": 1081,
+    "service": "/services/construction-bookkeeping"
+  },
+  {
+    "family": "Ecommerce bookkeeping",
+    "topic": "Tie marketplace sales-tax collections to settlements and liabilities",
+    "slug": "offshore-bookkeeping-ecommerce-marketplace-sales-tax-liability",
+    "sourcePath": "content/blog/offshore-bookkeeping-ecommerce-marketplace-sales-tax-liability.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-ecommerce-marketplace-sales-tax-liability",
+    "route": "/blog/offshore-bookkeeping-ecommerce-marketplace-sales-tax-liability",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "883b7ccaac2857261802fcc5320385e64f771b3c681bd02e4b8c143c6cbfeeb1",
+    "wordCount": 1082,
+    "service": "/services/ecommerce-bookkeeping"
+  },
+  {
+    "family": "SaaS bookkeeping",
+    "topic": "Control SaaS credit memos from request to ledger posting",
+    "slug": "offshore-bookkeeping-saas-credit-memo-approval",
+    "sourcePath": "content/blog/offshore-bookkeeping-saas-credit-memo-approval.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-credit-memo-approval",
+    "route": "/blog/offshore-bookkeeping-saas-credit-memo-approval",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "96bb0dde3c9ccf1027a99497444e18b9011fa9172af3dc52822143f13d2dc181",
+    "wordCount": 1082,
+    "service": "/services/accounts-receivable-support"
+  },
+  {
+    "family": "Legal bookkeeping",
+    "topic": "Reconcile law-firm client advances and matter costs",
+    "slug": "offshore-bookkeeping-law-firm-client-advance-cost",
+    "sourcePath": "content/blog/offshore-bookkeeping-law-firm-client-advance-cost.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-law-firm-client-advance-cost",
+    "route": "/blog/offshore-bookkeeping-law-firm-client-advance-cost",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "69bb36ff41d037d5baf8c4474c0a14d9747f6437c0b236ca087d768150b30c6c",
+    "wordCount": 1090,
+    "service": "/services/legal-bookkeeping"
+  },
+  {
+    "family": "Nonprofit bookkeeping",
+    "topic": "Roll forward nonprofit pledges, restrictions, collections, and write-offs",
+    "slug": "offshore-bookkeeping-nonprofit-pledge-receivable",
+    "sourcePath": "content/blog/offshore-bookkeeping-nonprofit-pledge-receivable.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-pledge-receivable",
+    "route": "/blog/offshore-bookkeeping-nonprofit-pledge-receivable",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "6833d0d9c740c53cc0ec62493dc92c14d4e89d37a166246dcbc0092fb2a85a44",
+    "wordCount": 1081,
+    "service": "/services/nonprofit-bookkeeping"
+  },
+  {
+    "family": "Property bookkeeping",
+    "topic": "Reconcile tenant security deposits to escrow cash and the ledger",
+    "slug": "offshore-bookkeeping-property-security-deposit-escrow",
+    "sourcePath": "content/blog/offshore-bookkeeping-property-security-deposit-escrow.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-security-deposit-escrow",
+    "route": "/blog/offshore-bookkeeping-property-security-deposit-escrow",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "e3ce3d502f6ea85a0a3e28e8f1c9096c516673daafcdabcdcc48aa454860543c",
+    "wordCount": 1087,
+    "service": "/services/property-bookkeeping"
+  },
+  {
+    "family": "Hospitality bookkeeping",
+    "topic": "Reconcile hotel room blocks, attrition charges, deposits, and final bills",
+    "slug": "offshore-bookkeeping-hotel-room-block-attrition",
+    "sourcePath": "content/blog/offshore-bookkeeping-hotel-room-block-attrition.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-hotel-room-block-attrition",
+    "route": "/blog/offshore-bookkeeping-hotel-room-block-attrition",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "2eccd8ad128c22bd3f0ac581f6e8513c2e4a2b145bfdf686b56a86837e134e89",
+    "wordCount": 1083,
+    "service": "/services/accounts-receivable-support"
+  },
+  {
+    "family": "Staffing bookkeeping",
+    "topic": "Prepare staffing payroll data for a workers-compensation audit",
+    "slug": "offshore-bookkeeping-staffing-workers-compensation-audit",
+    "sourcePath": "content/blog/offshore-bookkeeping-staffing-workers-compensation-audit.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-staffing-workers-compensation-audit",
+    "route": "/blog/offshore-bookkeeping-staffing-workers-compensation-audit",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "66c32220fc7323df3579103e06df0fcdbd7909deb409e8361f040ab8cd0b45da",
+    "wordCount": 1082,
+    "service": "/services/payroll-processing-support"
+  },
+  {
+    "family": "Manufacturing bookkeeping",
+    "topic": "Reconcile consigned inventory across locations, usage, and billing",
+    "slug": "offshore-bookkeeping-manufacturing-consigned-inventory",
+    "sourcePath": "content/blog/offshore-bookkeeping-manufacturing-consigned-inventory.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-manufacturing-consigned-inventory",
+    "route": "/blog/offshore-bookkeeping-manufacturing-consigned-inventory",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "1350044057186eedc73777f049198236fc19b602b3232682ea804856acfa1d1c",
+    "wordCount": 1079,
+    "service": "/services/inventory-cost-data-support"
+  },
+  {
+    "family": "Healthcare bookkeeping",
+    "topic": "Reconcile healthcare capitation rosters, remittances, and adjustments",
+    "slug": "offshore-bookkeeping-healthcare-capitation-remittance",
+    "sourcePath": "content/blog/offshore-bookkeeping-healthcare-capitation-remittance.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-healthcare-capitation-remittance",
+    "route": "/blog/offshore-bookkeeping-healthcare-capitation-remittance",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "364b0d6d17eb3176de0f99b2c0b750d4d1fdb531a75717de1d59fac8138f3500",
+    "wordCount": 1077,
+    "service": "/services/healthcare-bookkeeping"
+  },
+  {
+    "family": "Franchise bookkeeping",
+    "topic": "Track franchise opening fees, milestones, credits, and collections",
+    "slug": "offshore-bookkeeping-franchise-opening-fee-schedule",
+    "sourcePath": "content/blog/offshore-bookkeeping-franchise-opening-fee-schedule.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-franchise-opening-fee-schedule",
+    "route": "/blog/offshore-bookkeeping-franchise-opening-fee-schedule",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "bca81cae6d4a88d1ebfca764c491017419b71a38382eaf5bf22dc20694ef3281",
+    "wordCount": 1083,
+    "service": "/services/management-reporting-support"
+  },
+  {
+    "family": "Dental bookkeeping",
+    "topic": "Reconcile dental insurance aging to claims, remittances, and patient ledgers",
+    "slug": "offshore-bookkeeping-dental-insurance-aging-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-dental-insurance-aging-reconciliation.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-dental-insurance-aging-reconciliation",
+    "route": "/blog/offshore-bookkeeping-dental-insurance-aging-reconciliation",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-24",
+    "status": "prepared",
+    "contentHash": "2ca01f418d5bc5c28d994e00eb6f9a5f871c77da5c66bf84c432760373fb9cb6",
+    "wordCount": 1081,
+    "service": "/services/healthcare-bookkeeping"
+  }
+]
