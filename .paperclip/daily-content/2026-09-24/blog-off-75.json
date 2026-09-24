@@ -17,10 +17,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "38ff584434ae087b9d2f45620338c9de033682067be2dd9ec584c71ae9337595",
     "wordCount": 1081,
-    "service": "/services/construction-bookkeeping"
+    "service": "/services/construction-bookkeeping",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Ecommerce bookkeeping",
@@ -40,10 +45,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "883b7ccaac2857261802fcc5320385e64f771b3c681bd02e4b8c143c6cbfeeb1",
     "wordCount": 1082,
-    "service": "/services/ecommerce-bookkeeping"
+    "service": "/services/ecommerce-bookkeeping",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "SaaS bookkeeping",
@@ -63,10 +73,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "96bb0dde3c9ccf1027a99497444e18b9011fa9172af3dc52822143f13d2dc181",
     "wordCount": 1082,
-    "service": "/services/accounts-receivable-support"
+    "service": "/services/accounts-receivable-support",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Legal bookkeeping",
@@ -86,10 +101,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "69bb36ff41d037d5baf8c4474c0a14d9747f6437c0b236ca087d768150b30c6c",
     "wordCount": 1090,
-    "service": "/services/legal-bookkeeping"
+    "service": "/services/legal-bookkeeping",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Nonprofit bookkeeping",
@@ -109,10 +129,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "6833d0d9c740c53cc0ec62493dc92c14d4e89d37a166246dcbc0092fb2a85a44",
     "wordCount": 1081,
-    "service": "/services/nonprofit-bookkeeping"
+    "service": "/services/nonprofit-bookkeeping",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Property bookkeeping",
@@ -132,10 +157,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "e3ce3d502f6ea85a0a3e28e8f1c9096c516673daafcdabcdcc48aa454860543c",
     "wordCount": 1087,
-    "service": "/services/property-bookkeeping"
+    "service": "/services/property-bookkeeping",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Hospitality bookkeeping",
@@ -155,10 +185,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "2eccd8ad128c22bd3f0ac581f6e8513c2e4a2b145bfdf686b56a86837e134e89",
     "wordCount": 1083,
-    "service": "/services/accounts-receivable-support"
+    "service": "/services/accounts-receivable-support",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Staffing bookkeeping",
@@ -178,10 +213,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "66c32220fc7323df3579103e06df0fcdbd7909deb409e8361f040ab8cd0b45da",
     "wordCount": 1082,
-    "service": "/services/payroll-processing-support"
+    "service": "/services/payroll-processing-support",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Manufacturing bookkeeping",
@@ -201,10 +241,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "1350044057186eedc73777f049198236fc19b602b3232682ea804856acfa1d1c",
     "wordCount": 1079,
-    "service": "/services/inventory-cost-data-support"
+    "service": "/services/inventory-cost-data-support",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Healthcare bookkeeping",
@@ -224,10 +269,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "364b0d6d17eb3176de0f99b2c0b750d4d1fdb531a75717de1d59fac8138f3500",
     "wordCount": 1077,
-    "service": "/services/healthcare-bookkeeping"
+    "service": "/services/healthcare-bookkeeping",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Franchise bookkeeping",
@@ -247,10 +297,15 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "bca81cae6d4a88d1ebfca764c491017419b71a38382eaf5bf22dc20694ef3281",
     "wordCount": 1083,
-    "service": "/services/management-reporting-support"
+    "service": "/services/management-reporting-support",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   },
   {
     "family": "Dental bookkeeping",
@@ -270,9 +325,14 @@
       }
     ],
     "publicationDate": "2026-09-24",
-    "status": "prepared",
+    "status": "validated",
     "contentHash": "2ca01f418d5bc5c28d994e00eb6f9a5f871c77da5c66bf84c432760373fb9cb6",
     "wordCount": 1081,
-    "service": "/services/healthcare-bookkeeping"
+    "service": "/services/healthcare-bookkeeping",
+    "commitSHA": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "contentCommit": "cd3b5d3adfcb85cece3ec5d703c6789941251011",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
   }
 ]
