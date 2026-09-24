@@ -1,0 +1,28 @@
+{
+  "site": "https://offshorebookkeepers.com",
+  "repository": "coolifystealthagents/offshorebookkeepers",
+  "productionBranch": "main",
+  "siteTimezone": "UTC",
+  "blog": {
+    "issue": "OFF-75",
+    "required": 12,
+    "sourceManifest": ".paperclip/daily-content/2026-09-24/blog-off-75.json",
+    "contentCommit": "cd3b5d3",
+    "validationCommit": "6228c9b"
+  },
+  "research": {
+    "issue": "OFF-76",
+    "required": 5,
+    "sourceManifest": ".paperclip/daily-content/2026-09-24/research-off76.json",
+    "contentCommit": "5f005fb685cca9e2e24c0042b25401bdfa0eb2f0"
+  },
+  "deployment": {
+    "applicationUuid": "qvifib30a3teww1rycuecuj9",
+    "strategy": "single Git-to-Coolify deployment from the combined production head",
+    "queuedCommit": null,
+    "status": "prepared",
+    "liveBlogCount": 0,
+    "liveResearchCount": 0,
+    "verifiedAt": null
+  }
+}
