@@ -1,0 +1,326 @@
+[
+  {
+    "family": "Bank reconciliation",
+    "topic": "Review stale checks during bank reconciliation without hiding open liabilities",
+    "slug": "offshore-bookkeeping-bank-reconciliation-stale-checks",
+    "sourcePath": "content/blog/offshore-bookkeeping-bank-reconciliation-stale-checks.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-bank-reconciliation-stale-checks",
+    "route": "/blog/offshore-bookkeeping-bank-reconciliation-stale-checks",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "ca20e010802f8be6fede7d601761ab0a5fafc31fc55d4953f9b1ed827971af52",
+    "wordCount": 1275,
+    "service": "/services/bank-reconciliation-support",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Accounts payable",
+    "topic": "Build an accounts-payable three-way-match exception queue",
+    "slug": "offshore-bookkeeping-accounts-payable-three-way-match-exceptions",
+    "sourcePath": "content/blog/offshore-bookkeeping-accounts-payable-three-way-match-exceptions.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-accounts-payable-three-way-match-exceptions",
+    "route": "/blog/offshore-bookkeeping-accounts-payable-three-way-match-exceptions",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "4db560609044543e23e26d7ee795d1490b856a0456c51546b483233f39a2d724",
+    "wordCount": 1274,
+    "service": "/services/accounts-payable-processing",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Accounts receivable",
+    "topic": "Reconcile customer short-pay deductions before closing receivables",
+    "slug": "offshore-bookkeeping-accounts-receivable-short-pay-deductions",
+    "sourcePath": "content/blog/offshore-bookkeeping-accounts-receivable-short-pay-deductions.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-accounts-receivable-short-pay-deductions",
+    "route": "/blog/offshore-bookkeeping-accounts-receivable-short-pay-deductions",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "2b8a3ce506d79de609820a0284d8bbbfc3c7f460ad1ffcc563030481a1a37362",
+    "wordCount": 1272,
+    "service": "/services/accounts-receivable-support",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Month-end close",
+    "topic": "Control month-end accrual reversals across reporting periods",
+    "slug": "offshore-bookkeeping-month-end-accrual-reversal-control",
+    "sourcePath": "content/blog/offshore-bookkeeping-month-end-accrual-reversal-control.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-month-end-accrual-reversal-control",
+    "route": "/blog/offshore-bookkeeping-month-end-accrual-reversal-control",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "c0568ed06e2ad06c1d7e50aece929aba4f099c423e7b75dd3cac34c7531fb6ef",
+    "wordCount": 1277,
+    "service": "/services/month-end-close-support",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Ecommerce bookkeeping",
+    "topic": "Roll forward ecommerce gift-card sales, redemptions, and refunds",
+    "slug": "offshore-bookkeeping-ecommerce-gift-card-liability-rollforward",
+    "sourcePath": "content/blog/offshore-bookkeeping-ecommerce-gift-card-liability-rollforward.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-ecommerce-gift-card-liability-rollforward",
+    "route": "/blog/offshore-bookkeeping-ecommerce-gift-card-liability-rollforward",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "d5207edd1ecd4af1eff2d6e8a4d5081febe9273eb8d201c075dc4d2c81742b4a",
+    "wordCount": 1266,
+    "service": "/services/ecommerce-bookkeeping",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "SaaS bookkeeping",
+    "topic": "Reconcile SaaS annual prepayments to service periods and cash",
+    "slug": "offshore-bookkeeping-saas-annual-prepayment-schedule",
+    "sourcePath": "content/blog/offshore-bookkeeping-saas-annual-prepayment-schedule.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-annual-prepayment-schedule",
+    "route": "/blog/offshore-bookkeeping-saas-annual-prepayment-schedule",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "0320a008c917e7424ead4bd650f2366889e7e4fc0c16e39971c54401da7f5e18",
+    "wordCount": 1268,
+    "service": "/services/saas-bookkeeping",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Property bookkeeping",
+    "topic": "Prepare a property CAM reconciliation for tenant review",
+    "slug": "offshore-bookkeeping-property-common-area-maintenance-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-property-common-area-maintenance-reconciliation.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-property-common-area-maintenance-reconciliation",
+    "route": "/blog/offshore-bookkeeping-property-common-area-maintenance-reconciliation",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "1fe2cd7e28e8fa07069235ac86e1d938b891b4891bfaf6fe632fe795b8d60ab8",
+    "wordCount": 1270,
+    "service": "/services/property-bookkeeping",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Restaurant bookkeeping",
+    "topic": "Reconcile restaurant private-event minimums, deposits, and final settlement",
+    "slug": "offshore-bookkeeping-restaurant-private-event-minimum-spend",
+    "sourcePath": "content/blog/offshore-bookkeeping-restaurant-private-event-minimum-spend.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-restaurant-private-event-minimum-spend",
+    "route": "/blog/offshore-bookkeeping-restaurant-private-event-minimum-spend",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "34fcd8a3157fe596d0bcced7e5a8bc6e6a4e6ea917815418dba5c613a01dcd13",
+    "wordCount": 1280,
+    "service": "/services/restaurant-bookkeeping",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Manufacturing bookkeeping",
+    "topic": "Reconcile manufacturing scrap quantities, sales, and cash recovery",
+    "slug": "offshore-bookkeeping-manufacturing-scrap-recovery-reconciliation",
+    "sourcePath": "content/blog/offshore-bookkeeping-manufacturing-scrap-recovery-reconciliation.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-manufacturing-scrap-recovery-reconciliation",
+    "route": "/blog/offshore-bookkeeping-manufacturing-scrap-recovery-reconciliation",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "2378db4fdcdc76769ef94021a794daffc78a4f3b84b80cbdcf9bea2234daaab6",
+    "wordCount": 1273,
+    "service": "/services/inventory-cost-data-support",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Nonprofit bookkeeping",
+    "topic": "Review nonprofit restricted-grant cost transfers with an evidence trail",
+    "slug": "offshore-bookkeeping-nonprofit-restricted-grant-cost-transfer",
+    "sourcePath": "content/blog/offshore-bookkeeping-nonprofit-restricted-grant-cost-transfer.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-nonprofit-restricted-grant-cost-transfer",
+    "route": "/blog/offshore-bookkeeping-nonprofit-restricted-grant-cost-transfer",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "beda2ec269e5807a64fbe6c957111ae42445ed07de1b2b674982d6322ea3370b",
+    "wordCount": 1270,
+    "service": "/services/nonprofit-bookkeeping",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Healthcare bookkeeping",
+    "topic": "Build a controlled healthcare patient-refund queue",
+    "slug": "offshore-bookkeeping-healthcare-patient-refund-queue",
+    "sourcePath": "content/blog/offshore-bookkeeping-healthcare-patient-refund-queue.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-healthcare-patient-refund-queue",
+    "route": "/blog/offshore-bookkeeping-healthcare-patient-refund-queue",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "ae2b9f3b7834dcd1912e4ae119cad16cd92b44941b06988edaf2e86bd72dc0e1",
+    "wordCount": 1272,
+    "service": "/services/healthcare-bookkeeping",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "Multi-entity bookkeeping",
+    "topic": "Reconcile multi-entity shared expenses before posting allocations",
+    "slug": "offshore-bookkeeping-multi-entity-shared-expense-allocation",
+    "sourcePath": "content/blog/offshore-bookkeeping-multi-entity-shared-expense-allocation.md",
+    "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-multi-entity-shared-expense-allocation",
+    "route": "/blog/offshore-bookkeeping-multi-entity-shared-expense-allocation",
+    "sources": [
+      {
+        "name": "IRS recordkeeping guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      },
+      {
+        "name": "NIST data integrity glossary",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity"
+      }
+    ],
+    "publicationDate": "2026-09-25",
+    "status": "prepared",
+    "contentHash": "c21f78814d6064aa4492fa434c2a7daf6661502c2006a48b8291e0c37a2e3cba",
+    "wordCount": 1263,
+    "service": "/services/management-reporting-support",
+    "commitSHA": null,
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  }
+]
