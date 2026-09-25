@@ -21,7 +21,7 @@
     "contentHash": "ca20e010802f8be6fede7d601761ab0a5fafc31fc55d4953f9b1ed827971af52",
     "wordCount": 1275,
     "service": "/services/bank-reconciliation-support",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -48,7 +48,7 @@
     "contentHash": "4db560609044543e23e26d7ee795d1490b856a0456c51546b483233f39a2d724",
     "wordCount": 1274,
     "service": "/services/accounts-payable-processing",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -75,7 +75,7 @@
     "contentHash": "2b8a3ce506d79de609820a0284d8bbbfc3c7f460ad1ffcc563030481a1a37362",
     "wordCount": 1272,
     "service": "/services/accounts-receivable-support",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -102,7 +102,7 @@
     "contentHash": "c0568ed06e2ad06c1d7e50aece929aba4f099c423e7b75dd3cac34c7531fb6ef",
     "wordCount": 1277,
     "service": "/services/month-end-close-support",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -129,7 +129,7 @@
     "contentHash": "d5207edd1ecd4af1eff2d6e8a4d5081febe9273eb8d201c075dc4d2c81742b4a",
     "wordCount": 1266,
     "service": "/services/ecommerce-bookkeeping",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -156,7 +156,7 @@
     "contentHash": "0320a008c917e7424ead4bd650f2366889e7e4fc0c16e39971c54401da7f5e18",
     "wordCount": 1268,
     "service": "/services/saas-bookkeeping",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -183,7 +183,7 @@
     "contentHash": "1fe2cd7e28e8fa07069235ac86e1d938b891b4891bfaf6fe632fe795b8d60ab8",
     "wordCount": 1270,
     "service": "/services/property-bookkeeping",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -210,7 +210,7 @@
     "contentHash": "34fcd8a3157fe596d0bcced7e5a8bc6e6a4e6ea917815418dba5c613a01dcd13",
     "wordCount": 1280,
     "service": "/services/restaurant-bookkeeping",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -237,7 +237,7 @@
     "contentHash": "2378db4fdcdc76769ef94021a794daffc78a4f3b84b80cbdcf9bea2234daaab6",
     "wordCount": 1273,
     "service": "/services/inventory-cost-data-support",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -264,7 +264,7 @@
     "contentHash": "beda2ec269e5807a64fbe6c957111ae42445ed07de1b2b674982d6322ea3370b",
     "wordCount": 1270,
     "service": "/services/nonprofit-bookkeeping",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -291,7 +291,7 @@
     "contentHash": "ae2b9f3b7834dcd1912e4ae119cad16cd92b44941b06988edaf2e86bd72dc0e1",
     "wordCount": 1272,
     "service": "/services/healthcare-bookkeeping",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null
@@ -318,7 +318,7 @@
     "contentHash": "c21f78814d6064aa4492fa434c2a7daf6661502c2006a48b8291e0c37a2e3cba",
     "wordCount": 1263,
     "service": "/services/management-reporting-support",
-    "commitSHA": null,
+    "commitSHA": "645e05ac3714219ade637d09624c4f8d46c71f94",
     "deploymentEvidence": null,
     "liveURL": null,
     "verifiedAt": null

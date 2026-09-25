@@ -106,7 +106,7 @@ for (const t of topics) {
   if (fs.existsSync(sourcePath) && !fs.readFileSync(sourcePath,'utf8').includes(`Published ${displayDate}.`)) throw new Error(`Refusing to overwrite ${sourcePath}`);
   const body=render(t);
   fs.writeFileSync(sourcePath,body);
-  manifest.push({family:category,topic:title,slug,sourcePath,canonical:`https://offshorebookkeepers.com/blog/${slug}`,route:`/blog/${slug}`,sources,publicationDate:date,status:'prepared',contentHash:crypto.createHash('sha256').update(body).digest('hex'),wordCount:(body.match(/\b[\w’'-]+\b/g)||[]).length,service,commitSHA:null,deploymentEvidence:null,liveURL:null,verifiedAt:null});
+  manifest.push({family:category,topic:title,slug,sourcePath,canonical:`https://offshorebookkeepers.com/blog/${slug}`,route:`/blog/${slug}`,sources,publicationDate:date,status:'prepared',contentHash:crypto.createHash('sha256').update(body).digest('hex'),wordCount:(body.match(/\b[\w’'-]+\b/g)||[]).length,service,commitSHA:'645e05ac3714219ade637d09624c4f8d46c71f94',deploymentEvidence:null,liveURL:null,verifiedAt:null});
 }
 fs.mkdirSync(`.paperclip/daily-content/${date}`,{recursive:true});
 fs.writeFileSync(`.paperclip/daily-content/${date}/blog-off-78.json`,JSON.stringify(manifest,null,2)+'\n');
