@@ -1,0 +1,328 @@
+{
+  "task": "OFF-80",
+  "publicationDate": "2026-09-28",
+  "status": "draft",
+  "hashAlgorithm": "sha256",
+  "shingleMethod": "five-word containment against smaller unique-shingle set",
+  "maxShingleOverlapPercent": 45.34,
+  "articles": [
+    {
+      "family": "Accounts Receivable",
+      "topic": "Customer refund reconciliation",
+      "slug": "offshore-bookkeeper-customer-refund-reconciliation",
+      "sourcePath": "content/blog/offshore-bookkeeper-customer-refund-reconciliation.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-customer-refund-reconciliation",
+      "route": "/blog/offshore-bookkeeper-customer-refund-reconciliation",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "6e4aa073d7efbc410def65ddf87f7f85c2d0a9215bfe88fe5cbbfe6e180f83c6",
+      "wordCount": 1031,
+      "featuredImage": "/thumbnails/bookkeeping-customer-refund-reconciliation.webp",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/bookkeeping",
+        "/services/accounts-receivable-management"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Month-End Close",
+      "topic": "Intercompany recharge workpaper",
+      "slug": "offshore-bookkeeper-intercompany-recharge-workpaper",
+      "sourcePath": "content/blog/offshore-bookkeeper-intercompany-recharge-workpaper.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-intercompany-recharge-workpaper",
+      "route": "/blog/offshore-bookkeeper-intercompany-recharge-workpaper",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "013ac9f5c690330f9f76fd11ecff4e2c7136b621544c4ef3dffcae2d732abac1",
+      "wordCount": 952,
+      "featuredImage": "/thumbnails/bookkeeping-intercompany-reconciliation-handoff.webp",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/bookkeeping",
+        "/services/management-reporting-support"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Accounts Receivable",
+      "topic": "Chargeback evidence register",
+      "slug": "offshore-bookkeeper-chargeback-evidence-register",
+      "sourcePath": "content/blog/offshore-bookkeeper-chargeback-evidence-register.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-chargeback-evidence-register",
+      "route": "/blog/offshore-bookkeeper-chargeback-evidence-register",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "8a885f9dd0fef87833c9b5028ab4c8936e3d1eb205befa6677559bdae65e344d",
+      "wordCount": 953,
+      "featuredImage": "/thumbnails/offshore-bookkeeping-chargeback-evidence-pack.png",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/bookkeeping",
+        "/services/accounts-receivable-management"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Month-End Close",
+      "topic": "Fixed asset disposal support",
+      "slug": "offshore-bookkeeper-fixed-asset-disposal-support",
+      "sourcePath": "content/blog/offshore-bookkeeper-fixed-asset-disposal-support.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-fixed-asset-disposal-support",
+      "route": "/blog/offshore-bookkeeper-fixed-asset-disposal-support",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "2a3ede2b1afefbc191245f91acfd0925153d3cf5f6d31a418c244b40ba7ee391",
+      "wordCount": 954,
+      "featuredImage": "/thumbnails/bookkeeping-fixed-asset-register-handoff.webp",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/bookkeeping",
+        "/services/management-reporting-support"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Accounts Payable",
+      "topic": "Purchase order accrual review",
+      "slug": "offshore-bookkeeper-purchase-order-accrual-review",
+      "sourcePath": "content/blog/offshore-bookkeeper-purchase-order-accrual-review.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-purchase-order-accrual-review",
+      "route": "/blog/offshore-bookkeeper-purchase-order-accrual-review",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "a4b0f6d9512b0af441efc7a444c6a4fac1c5be47b7403692aac460a731530739",
+      "wordCount": 1219,
+      "featuredImage": "/thumbnails/bookkeeping-accounts-payable-cutoff-checklist.webp",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/month-end-close-support",
+        "/services/bookkeeping",
+        "/services/accounts-payable-processing"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Revenue Operations",
+      "topic": "Subscription billing exception log",
+      "slug": "offshore-bookkeeper-subscription-billing-exception-log",
+      "sourcePath": "content/blog/offshore-bookkeeper-subscription-billing-exception-log.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-subscription-billing-exception-log",
+      "route": "/blog/offshore-bookkeeper-subscription-billing-exception-log",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "aa95df328269e2a8aabb2784272870bccc47dedec18f95fc0e0f67e41896f74d",
+      "wordCount": 1277,
+      "featuredImage": "/thumbnails/bookkeeping-subscription-revenue-reconciliation.webp",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/accounts-payable-processing",
+        "/services/bookkeeping",
+        "/services/accounts-receivable-management"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Expense Management",
+      "topic": "Employee expense policy check",
+      "slug": "offshore-bookkeeper-employee-expense-policy-check",
+      "sourcePath": "content/blog/offshore-bookkeeper-employee-expense-policy-check.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-employee-expense-policy-check",
+      "route": "/blog/offshore-bookkeeper-employee-expense-policy-check",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "99516e02af2a0f74753ad7e9b5e128eed1a369454125f1f53e7c17198da21f57",
+      "wordCount": 1279,
+      "featuredImage": "/thumbnails/bookkeeping-expense-policy-exception-log.webp",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/accounts-payable-processing",
+        "/services/month-end-close-support",
+        "/services/bookkeeping"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Cash Management",
+      "topic": "Bank reconciliation aging",
+      "slug": "offshore-bookkeeper-bank-reconciliation-aging",
+      "sourcePath": "content/blog/offshore-bookkeeper-bank-reconciliation-aging.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-bank-reconciliation-aging",
+      "route": "/blog/offshore-bookkeeper-bank-reconciliation-aging",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "0f792db223966b404ddd78887dac13ab5e4fabc87ad3309038d3f8a83c4aaa6f",
+      "wordCount": 1806,
+      "featuredImage": "/thumbnails/bank-reconciliation-support-checklist.webp",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/bookkeeping",
+        "/services/management-reporting-support"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Inventory Accounting",
+      "topic": "Inventory in transit cutoff",
+      "slug": "offshore-bookkeeper-inventory-in-transit-cutoff",
+      "sourcePath": "content/blog/offshore-bookkeeper-inventory-in-transit-cutoff.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-inventory-in-transit-cutoff",
+      "route": "/blog/offshore-bookkeeper-inventory-in-transit-cutoff",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "38e238e2df0016363c3f9ec3a8306412eac66b11aeecebdbeb8d61acd7a6d0cb",
+      "wordCount": 1022,
+      "featuredImage": "/thumbnails/inventory-receiving-cutoff.svg",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/inventory-cost-data-support",
+        "/services/bookkeeping",
+        "/services/accounts-payable-processing"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Payroll",
+      "topic": "Payroll benefit deduction reconciliation",
+      "slug": "offshore-bookkeeper-payroll-benefit-deduction-reconciliation",
+      "sourcePath": "content/blog/offshore-bookkeeper-payroll-benefit-deduction-reconciliation.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-payroll-benefit-deduction-reconciliation",
+      "route": "/blog/offshore-bookkeeper-payroll-benefit-deduction-reconciliation",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "04670232f43241e5f9223eaa0fbcb17dfc8e4cd7697717535b722c7a95be885f",
+      "wordCount": 1134,
+      "featuredImage": "/thumbnails/bookkeeping-payroll-reconciliation-checklist.webp",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/bookkeeping",
+        "/services/payroll-processing"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Revenue Operations",
+      "topic": "Deferred revenue rollforward",
+      "slug": "offshore-bookkeeper-deferred-revenue-rollforward",
+      "sourcePath": "content/blog/offshore-bookkeeper-deferred-revenue-rollforward.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-deferred-revenue-rollforward",
+      "route": "/blog/offshore-bookkeeper-deferred-revenue-rollforward",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "51a22259a0605fbd608e2607baafbff961d029e768e36abb84e2c50697645e31",
+      "wordCount": 990,
+      "featuredImage": "/thumbnails/bookkeeping-deferred-revenue-schedule-review.svg",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/month-end-close-support",
+        "/services/bookkeeping",
+        "/services/management-reporting-support"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "Month-End Close",
+      "topic": "Month-end review queue",
+      "slug": "offshore-bookkeeper-month-end-review-queue",
+      "sourcePath": "content/blog/offshore-bookkeeper-month-end-review-queue.md",
+      "canonical": "https://offshorebookkeepers.com/blog/offshore-bookkeeper-month-end-review-queue",
+      "route": "/blog/offshore-bookkeeper-month-end-review-queue",
+      "publicationDate": "2026-09-28",
+      "status": "draft",
+      "contentHash": "0c1437c8067923054f1f27a8bb8b20042e1735696609f573189c6c3635157315",
+      "wordCount": 1243,
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        {
+          "name": "IRS, Recordkeeping",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+        }
+      ],
+      "internalRoutes": [
+        "/services/month-end-close-support",
+        "/services/management-reporting-support",
+        "/services/bookkeeping"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    }
+  ]
+}
