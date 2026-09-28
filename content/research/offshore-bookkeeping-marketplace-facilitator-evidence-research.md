@@ -69,6 +69,16 @@ The period packet should include the approved protocol, frozen population, untou
 
 The reviewer should trace selected study rows back to source evidence and forward to the reported state, reperform the numerator and denominator, inspect every material exclusion, and review high-risk states set by client policy. The sample size is risk-based and locally approved; these sources provide no universal sample. The reviewer should confirm that no preparer approved their own judgment-dependent exception or released a payment, refund, write-off, payroll change, or period lock outside assigned authority.
 
+## Order-channel responsibility test
+
+Construct the population from order-level marketplace exports and direct-channel records, not merely from ledger tax accounts. For every selected order, retain destination, product tax class, taxable base, tax charged, collector indicator, refund history, marketplace identity, and settlement reference. Reconcile gross order tax to marketplace reports before comparing net deposits, because settlements may net commissions, refunds, reserves, and other deductions.
+
+Responsibility can vary by jurisdiction, period, channel, and transaction facts. The study therefore records the evidence used by the client's tax owner instead of creating a universal facilitator rule. A bookkeeper may apply an approved jurisdiction table and flag conflicts; they should not decide nexus, registration, exemption validity, product taxability, or filing positions. Marketplace labels are inputs, not conclusive legal evidence.
+
+## Filing-to-ledger bridge
+
+Bridge seller-collected tax, facilitator-collected tax, refunds, adjustments, remittances, and ending liabilities separately. Test orders around registration changes, month end, destination changes, and amended returns. Mixed baskets and partial refunds deserve their own examples because allocating tax by gross order can conceal errors. Report unsupported collector indicators and unreconciled settlement differences as separate exception families. This design identifies where evidence breaks without claiming that an observed difference is tax due.
+
 ## Limitations and uncertainty
 
 This brief contains no private dataset, prevalence estimate, market benchmark, causal effect, savings claim, or provider comparison. A pilot describes only the selected population under its declared rules. Small populations produce unstable rates. Missing timestamps may be systematic rather than random. Different systems can record the same business event at different stages, and decisions made outside the system may be absent.

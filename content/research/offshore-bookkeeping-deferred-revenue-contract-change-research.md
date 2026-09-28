@@ -69,6 +69,16 @@ The period packet should include the approved protocol, frozen population, untou
 
 The reviewer should trace selected study rows back to source evidence and forward to the reported state, reperform the numerator and denominator, inspect every material exclusion, and review high-risk states set by client policy. The sample size is risk-based and locally approved; these sources provide no universal sample. The reviewer should confirm that no preparer approved their own judgment-dependent exception or released a payment, refund, write-off, payroll change, or period lock outside assigned authority.
 
+## Amendment-to-schedule walkthrough
+
+Select amendments from the contract repository rather than only from schedules already changed. For each selection, record the original arrangement, signed amendment, approval date, effective date, billing consequence, affected performance or service periods, schedule version, posted journal, and reviewer. Then select changed schedule lines and trace backward to an authorized amendment. These two directions test different gaps: an omitted amendment and an unsupported schedule edit.
+
+Keep commercial interpretation outside the preparer's discretion. A cancellation, concession, added service, renewal, usage true-up, or term extension can affect billing and accounting in different ways. The bookkeeper should capture exact terms and route ambiguity to the client's revenue-policy owner. A prior invoice pattern is not evidence that a new amendment has the same effect. Preserve the old schedule, new schedule, change calculation, approval, and posting reference so the transition can be reperformed.
+
+## Version and cutoff analysis
+
+Measure lag at several boundaries: signature to intake, intake to policy decision, decision to schedule update, and update to ledger posting. One total duration hides the actual queue. Report amendments received after close separately and disclose whether the population comes from legal, sales, billing, or finance records. Conflicting repositories are a control finding, not permission to choose the most convenient list.
+
 ## Limitations and uncertainty
 
 This brief contains no private dataset, prevalence estimate, market benchmark, causal effect, savings claim, or provider comparison. A pilot describes only the selected population under its declared rules. Small populations produce unstable rates. Missing timestamps may be systematic rather than random. Different systems can record the same business event at different stages, and decisions made outside the system may be absent.

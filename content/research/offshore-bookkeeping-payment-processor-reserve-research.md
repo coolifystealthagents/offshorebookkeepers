@@ -69,6 +69,16 @@ The period packet should include the approved protocol, frozen population, untou
 
 The reviewer should trace selected study rows back to source evidence and forward to the reported state, reperform the numerator and denominator, inspect every material exclusion, and review high-risk states set by client policy. The sample size is risk-based and locally approved; these sources provide no universal sample. The reviewer should confirm that no preparer approved their own judgment-dependent exception or released a payment, refund, write-off, payroll change, or period lock outside assigned authority.
 
+## Reserve roll-forward test
+
+Begin with the processor agreement and identify whether the reserve is rolling, fixed, event-driven, or a mixture. Build a daily roll-forward: opening reserve plus new holds, less releases, plus or minus chargebacks, refunds, fees, and manual adjustments equals closing reserve. Do not infer reserve activity from cash alone because a net settlement can combine sales, fees, refunds, and several reserve movements. Tie each component to the processor report that names it, then tie released cash to the bank and the reserve balance to the ledger.
+
+A useful exception packet shows the merchant account, currency, contractual basis, processor event, expected release window, actual disposition, and owner. Investigate negative settlements separately from reserve releases. For a rolling reserve, recalculate the eligible transaction base and the hold percentage for a sample of settlement days. For a fixed reserve, compare the retained balance with the current agreement and documented amendments. The client decides classification and accounting treatment; the bookkeeper prepares the trace and flags unexplained differences.
+
+## Processor-specific interpretation
+
+Age unresolved holds from the date evidence says the processor retained funds, not from the date somebody opened a spreadsheet row. Separate amounts still within contractual windows from overdue releases and from deductions whose nature is not yet known. A concentration table by processor and currency can reveal operational dependency, but it does not predict collectability. Contract language, disputes, processor solvency, and later events may change management's conclusion.
+
 ## Limitations and uncertainty
 
 This brief contains no private dataset, prevalence estimate, market benchmark, causal effect, savings claim, or provider comparison. A pilot describes only the selected population under its declared rules. Small populations produce unstable rates. Missing timestamps may be systematic rather than random. Different systems can record the same business event at different stages, and decisions made outside the system may be absent.

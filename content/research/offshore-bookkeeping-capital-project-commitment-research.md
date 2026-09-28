@@ -69,6 +69,16 @@ The period packet should include the approved protocol, frozen population, untou
 
 The reviewer should trace selected study rows back to source evidence and forward to the reported state, reperform the numerator and denominator, inspect every material exclusion, and review high-risk states set by client policy. The sample size is risk-based and locally approved; these sources provide no universal sample. The reviewer should confirm that no preparer approved their own judgment-dependent exception or released a payment, refund, write-off, payroll change, or period lock outside assigned authority.
 
+## Commitment waterfall
+
+For each project, begin with authorized budget and approved scope. Add signed contracts and purchase orders, incorporate authorized change orders, subtract invoiced or cancelled portions, and identify remaining commitments. Keep incurred cost, accrued cost, cash paid, and future commitment in separate columns. Combining them produces a plausible total that cannot answer which obligation remains open.
+
+Test completeness from procurement to the project register and from the register back to procurement. Search for contracts without purchase orders, purchase orders assigned to closed projects, invoices exceeding commitments, and change orders approved outside the recorded workflow. Retain vendor, currency, authorization, effective date, consumed amount, cancellation evidence, and reviewer. The capital-approval authority decides whether scope and spending remain authorized; bookkeeping support maintains the reconciliation and exception trail.
+
+## Closeout and uncertainty
+
+Closeout needs positive evidence: final invoice status, retainage disposition, open disputes, deposits, unissued changes, shared-contract allocation, and project-owner confirmation. Silence from a vendor is not cancellation. Age open commitments from the latest supported obligation event and show dormant lines separately from recently changed lines. Foreign-currency commitments should disclose the translation basis rather than mixing transaction and reporting currencies. The result supports forecasting and close review but does not establish asset recognition, impairment, or legal enforceability.
+
 ## Limitations and uncertainty
 
 This brief contains no private dataset, prevalence estimate, market benchmark, causal effect, savings claim, or provider comparison. A pilot describes only the selected population under its declared rules. Small populations produce unstable rates. Missing timestamps may be systematic rather than random. Different systems can record the same business event at different stages, and decisions made outside the system may be absent.

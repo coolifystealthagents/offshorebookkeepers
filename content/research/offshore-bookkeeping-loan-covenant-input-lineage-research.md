@@ -69,6 +69,16 @@ The period packet should include the approved protocol, frozen population, untou
 
 The reviewer should trace selected study rows back to source evidence and forward to the reported state, reperform the numerator and denominator, inspect every material exclusion, and review high-risk states set by client policy. The sample size is risk-based and locally approved; these sources provide no universal sample. The reviewer should confirm that no preparer approved their own judgment-dependent exception or released a payment, refund, write-off, payroll change, or period lock outside assigned authority.
 
+## Definition-to-ledger matrix
+
+Start from the executed agreement, amendments, and waivers. Copy each defined term with its page reference into a controlled matrix; do not paraphrase away inclusions, exclusions, averaging periods, entity scope, or permitted adjustments. Map each calculation line to that matrix and then to a closed ledger account, approved report, or separately documented adjustment. The package should reveal whether a number is reported, calculated, or judgment-dependent.
+
+Test lineage in both directions. Trace every submitted input back to its source, and scan relevant ledger accounts for balances absent from the calculation. Reperform formulas, signs, periods, currency conversions, eliminations, and trailing-period logic. Preserve the exact workbook submitted to the lender and distinguish a later correction from the original. Bookkeepers may assemble balances and check arithmetic; the CFO, controller, treasury owner, or counsel resolves agreement interpretation and communication.
+
+## Adjustment governance
+
+Create a register for pro forma adjustments, acquisitions, disposals, waivers, restricted cash, and classification changes. Each row needs an agreement reference, rationale, calculation, source evidence, preparer, approver, and expiry or reuse rule. Recurring an adjustment does not make it self-authorizing. Compare current entries with prior periods to find unexplained disappearance, changed signs, or copied amounts. The outcome is an evidence-readiness assessment, not a legal conclusion about compliance.
+
 ## Limitations and uncertainty
 
 This brief contains no private dataset, prevalence estimate, market benchmark, causal effect, savings claim, or provider comparison. A pilot describes only the selected population under its declared rules. Small populations produce unstable rates. Missing timestamps may be systematic rather than random. Different systems can record the same business event at different stages, and decisions made outside the system may be absent.
