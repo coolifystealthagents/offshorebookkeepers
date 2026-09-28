@@ -15,14 +15,6 @@ serviceHandoff: {"href":"/contact-us","label":"Discuss a controlled bookkeeping 
 ---
 This research brief was published September 28, 2026. Sources were checked on September 28, 2026. It proposes a study protocol and reports no observed client performance. It is not accounting, audit, tax, legal, payroll, statistical, investment, or regulatory advice.
 
-## Decision context
-
-The practical question is whether marketplace-collected tax is separated from seller-collected tax using jurisdiction, order, facilitator, settlement, filing, and ledger evidence. For this protocol, the observation unit is one marketplace order tax component for one seller entity and destination jurisdiction. The primary event is a tax component whose collection responsibility or ledger disposition is unsupported or inconsistent across marketplace and bookkeeping records. Those definitions must be approved before records are examined. Otherwise, a team can improve a result merely by excluding difficult items, moving a cutoff, or changing when the clock starts.
-
-For a business considering Philippines-based bookkeeping support, this is a workflow-design question rather than a claim about geography. A remote bookkeeper can assemble authorized exports, maintain the study table, apply deterministic rules, and route exceptions. The tax adviser, controller, or authorized compliance owner keeps decisions that affect accounting treatment, policy, approval, or release. A sound staffing scope names the inputs, preparation steps, stop conditions, reviewer, closure evidence, and escalation deadline.
-
-The cited authorities do not publish this proposed measure, provide a benchmark for it, or endorse OffshoreBookkeepers.com. GAO discusses internal-control design; PCAOB standards address evidence and documentation in audit contexts; NIST materials address access and integrity; and IRS guidance discusses supporting business records. This brief uses those principles by analogy to design a transparent bookkeeping study. The calculations and operating recommendations are our analysis, not rules issued by those authorities.
-
 ## Research question and preregistered definitions
 
 Ask one narrow question: for a frozen population, how many records meet the event, what states explain the remainder, and how much evidence is missing? Before extraction, record the numerator, denominator, observation period, local time zone, cutoff, eligible states, exclusions, reopen rule, pause rule, and treatment of late-arriving records. A percentage without its underlying counts is not decision-grade.
@@ -39,14 +31,6 @@ Preserve each raw export, extraction timestamp, report parameters, schema versio
 
 Collect the least sensitive data the question needs. Replace names with stable study identifiers when identity is irrelevant. Exclude bank credentials, complete account numbers, tax identifiers, compensation detail not needed for the test, and unrelated free text. Store any reidentification key separately, restrict access by role, and follow the client's approved retention and deletion schedule.
 
-## Classification protocol
-
-Create a codebook with observable tests for eligible, achieved, open, returned, excluded, and indeterminate. For this topic, the exception map should explicitly cover returns, partial refunds, mixed baskets, marketplace credits, direct-channel orders, exemption records, destination changes, settlement netting, registration changes, and amended filings. Each state needs required evidence, a decision owner, and a rule for conflicting records. --Done-- is not usable evidence unless the supporting record, decision, and timestamp can be traced.
-
-Train preparers on ordinary, missing-source, duplicate, late, reopened, and judgment-dependent examples. Then have a second reviewer independently classify a sample without seeing the first result. Publish the sample size, disagreement count, initial codes, and resolution method. Repeated disagreement is evidence that the rule, system field, or evidence requirement needs repair; it is not a reason to erase the conflicting observations.
-
-The bookkeeper may collect records and apply approved rules. The tax adviser, controller, or authorized compliance owner resolves matters outside those rules. Preparers should not infer approval from a prior-period email, copy last month's treatment without current support, or change a classification to meet a target. Those shortcuts create tidy numbers while weakening the decision the study is meant to support.
-
 ## Calculations and reporting
 
 Report the primary event count divided by the frozen eligible population, with the numerator and denominator printed beside the percentage. Also show open, returned, excluded, indeterminate, missing-evidence, late-arriving, and reopened counts. For elapsed time, show a median and useful age bands, plus the oldest open items. An average alone can hide a small group of very old records.
@@ -62,12 +46,6 @@ Use the findings to improve instructions, access, evidence flow, and escalation,
 For a Philippines-based support team, document overlap hours, handoff cutoff, relevant holidays, source-system availability, named escalation route, and maximum waiting time for unresolved items. Use named accounts, multifactor authentication, and least-privilege access. Where the client's risk assessment requires separation, keep source maintenance, preparation, accounting approval, payment release, and period locking with distinct authorized roles.
 
 The niche-specific conclusion is that whether marketplace-collected tax is separated from seller-collected tax using jurisdiction, order, facilitator, settlement, filing, and ledger evidence can be evaluated only when the client owns definitions and decision rights while the bookkeeping team owns orderly preparation and escalation. That boundary lets an offshore bookkeeper add capacity without quietly inheriting authority reserved for management.
-
-## Evidence packet and reviewer test
-
-The period packet should include the approved protocol, frozen population, untouched exports, report parameters, data dictionary, transformation log, classified study table, exception register, reviewer sample, disagreement log, calculations, version history, and sign-off. Proposed corrections and posted corrections must remain distinguishable. A link to a mutable dashboard is not a substitute for preserving the version reviewed.
-
-The reviewer should trace selected study rows back to source evidence and forward to the reported state, reperform the numerator and denominator, inspect every material exclusion, and review high-risk states set by client policy. The sample size is risk-based and locally approved; these sources provide no universal sample. The reviewer should confirm that no preparer approved their own judgment-dependent exception or released a payment, refund, write-off, payroll change, or period lock outside assigned authority.
 
 ## Order-channel responsibility test
 

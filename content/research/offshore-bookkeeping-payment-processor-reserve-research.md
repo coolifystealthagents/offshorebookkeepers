@@ -15,30 +15,6 @@ serviceHandoff: {"href":"/contact-us","label":"Discuss a controlled bookkeeping 
 ---
 This research brief was published September 28, 2026. Sources were checked on September 28, 2026. It proposes a study protocol and reports no observed client performance. It is not accounting, audit, tax, legal, payroll, statistical, investment, or regulatory advice.
 
-## Decision context
-
-The practical question is whether processor reserves trace from settlement terms and withheld amounts to releases, deductions, cash receipts, and ledger balances. For this protocol, the observation unit is one processor reserve movement for one merchant account, entity, currency, and settlement date. The primary event is a withheld, adjusted, or released amount that cannot be traced through the processor statement, bank evidence, and ledger at cutoff. Those definitions must be approved before records are examined. Otherwise, a team can improve a result merely by excluding difficult items, moving a cutoff, or changing when the clock starts.
-
-For a business considering Philippines-based bookkeeping support, this is a workflow-design question rather than a claim about geography. A remote bookkeeper can assemble authorized exports, maintain the study table, apply deterministic rules, and route exceptions. The controller, treasury owner, or ecommerce finance owner keeps decisions that affect accounting treatment, policy, approval, or release. A sound staffing scope names the inputs, preparation steps, stop conditions, reviewer, closure evidence, and escalation deadline.
-
-The cited authorities do not publish this proposed measure, provide a benchmark for it, or endorse OffshoreBookkeepers.com. GAO discusses internal-control design; PCAOB standards address evidence and documentation in audit contexts; NIST materials address access and integrity; and IRS guidance discusses supporting business records. This brief uses those principles by analogy to design a transparent bookkeeping study. The calculations and operating recommendations are our analysis, not rules issued by those authorities.
-
-## Research question and preregistered definitions
-
-Ask one narrow question: for a frozen population, how many records meet the event, what states explain the remainder, and how much evidence is missing? Before extraction, record the numerator, denominator, observation period, local time zone, cutoff, eligible states, exclusions, reopen rule, pause rule, and treatment of late-arriving records. A percentage without its underlying counts is not decision-grade.
-
-The denominator is every eligible one processor reserve movement for one merchant account, entity, currency, and settlement date in consecutive periods. The primary numerator is every record meeting this event: a withheld, adjusted, or released amount that cannot be traced through the processor statement, bank evidence, and ledger at cutoff. Retain open, excluded, and indeterminate records in separate tables with reasons. Never remove a record because its support is inconvenient or because it arrived late. The authorized finance owner should approve eligibility and exception rules before the pilot.
-
-Use system timestamps where they are fit for purpose. State whether elapsed time means continuous clock time or agreed working time. Preserve local time and UTC when teams cross time zones. If an item reopens, either treat the first closure as provisional or create a new episode; choose once, before seeing results. Report reopened counts because apparently quick closure can conceal repeated returns.
-
-## Population and data collection
-
-Select one workflow, one entity or an explicitly listed entity group, and consecutive periods. Avoid a handpicked clean week. Each study row should contain processor event ID, merchant account token, entity, currency, transaction date, reserve basis, withheld amount, release date, deductions, cash receipt, ledger account, reviewer, and evidence link. Stable identifiers matter: updates to an existing item must not create a second apparent observation, while two genuinely separate events must not be collapsed because their amounts happen to match.
-
-Preserve each raw export, extraction timestamp, report parameters, schema version, row count, control total, and file hash where practical. Reconcile the extract to an independent system report when one exists. Log filters, inaccessible systems, manual supplements, duplicate identifiers, blank timestamps, and post-extraction additions. A larger dataset cannot cure a broken lineage, so evidence coverage belongs beside the primary result.
-
-Collect the least sensitive data the question needs. Replace names with stable study identifiers when identity is irrelevant. Exclude bank credentials, complete account numbers, tax identifiers, compensation detail not needed for the test, and unrelated free text. Store any reidentification key separately, restrict access by role, and follow the client's approved retention and deletion schedule.
-
 ## Classification protocol
 
 Create a codebook with observable tests for eligible, achieved, open, returned, excluded, and indeterminate. For this topic, the exception map should explicitly cover rolling reserves, fixed reserves, chargebacks, refunds, fees, currency conversion, negative settlements, account migrations, release delays, and contract changes. Each state needs required evidence, a decision owner, and a rule for conflicting records. --Done-- is not usable evidence unless the supporting record, decision, and timestamp can be traced.

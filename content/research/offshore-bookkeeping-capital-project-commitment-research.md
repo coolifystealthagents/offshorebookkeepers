@@ -23,14 +23,6 @@ For a business considering Philippines-based bookkeeping support, this is a work
 
 The cited authorities do not publish this proposed measure, provide a benchmark for it, or endorse OffshoreBookkeepers.com. GAO discusses internal-control design; PCAOB standards address evidence and documentation in audit contexts; NIST materials address access and integrity; and IRS guidance discusses supporting business records. This brief uses those principles by analogy to design a transparent bookkeeping study. The calculations and operating recommendations are our analysis, not rules issued by those authorities.
 
-## Research question and preregistered definitions
-
-Ask one narrow question: for a frozen population, how many records meet the event, what states explain the remainder, and how much evidence is missing? Before extraction, record the numerator, denominator, observation period, local time zone, cutoff, eligible states, exclusions, reopen rule, pause rule, and treatment of late-arriving records. A percentage without its underlying counts is not decision-grade.
-
-The denominator is every eligible one commitment component for one authorized capital project and reporting cutoff in consecutive periods. The primary numerator is every record meeting this event: an open, changed, consumed, or cancelled commitment that does not reconcile between procurement evidence, project records, and the ledger. Retain open, excluded, and indeterminate records in separate tables with reasons. Never remove a record because its support is inconvenient or because it arrived late. The authorized finance owner should approve eligibility and exception rules before the pilot.
-
-Use system timestamps where they are fit for purpose. State whether elapsed time means continuous clock time or agreed working time. Preserve local time and UTC when teams cross time zones. If an item reopens, either treat the first closure as provisional or create a new episode; choose once, before seeing results. Report reopened counts because apparently quick closure can conceal repeated returns.
-
 ## Population and data collection
 
 Select one workflow, one entity or an explicitly listed entity group, and consecutive periods. Avoid a handpicked clean week. Each study row should contain project token, entity, authorization ID, vendor token, purchase order, contract value, change order, invoiced amount, accrued amount, cancellation, remaining commitment, reviewer, and evidence link. Stable identifiers matter: updates to an existing item must not create a second apparent observation, while two genuinely separate events must not be collapsed because their amounts happen to match.
@@ -46,14 +38,6 @@ Create a codebook with observable tests for eligible, achieved, open, returned, 
 Train preparers on ordinary, missing-source, duplicate, late, reopened, and judgment-dependent examples. Then have a second reviewer independently classify a sample without seeing the first result. Publish the sample size, disagreement count, initial codes, and resolution method. Repeated disagreement is evidence that the rule, system field, or evidence requirement needs repair; it is not a reason to erase the conflicting observations.
 
 The bookkeeper may collect records and apply approved rules. The controller, project owner, or capital-approval authority resolves matters outside those rules. Preparers should not infer approval from a prior-period email, copy last month's treatment without current support, or change a classification to meet a target. Those shortcuts create tidy numbers while weakening the decision the study is meant to support.
-
-## Calculations and reporting
-
-Report the primary event count divided by the frozen eligible population, with the numerator and denominator printed beside the percentage. Also show open, returned, excluded, indeterminate, missing-evidence, late-arriving, and reopened counts. For elapsed time, show a median and useful age bands, plus the oldest open items. An average alone can hide a small group of very old records.
-
-Break down the result by entity, project phase, commitment source, vendor class, amount band, age band, change status, and exception reason. Suppress or combine small cells where needed to protect people and counterparties. A difference between groups is descriptive. It does not establish that a person, staffing model, location, or application caused the result. Volume, complexity, policy changes, migrations, outages, source delays, reviewer capacity, and changes in evidence quality are plausible confounders.
-
-Publish a population reconciliation, data-quality table, state counts, age distribution, exception table, reviewer-disagreement table, and change log. Pair every chart with counts. Keep historical extracts immutable and issue corrections through versioned copies. A reviewer should be able to reproduce the total and understand why a later version differs.
 
 ## Interpretation for offshore bookkeeping
 
@@ -78,14 +62,6 @@ Test completeness from procurement to the project register and from the register
 ## Closeout and uncertainty
 
 Closeout needs positive evidence: final invoice status, retainage disposition, open disputes, deposits, unissued changes, shared-contract allocation, and project-owner confirmation. Silence from a vendor is not cancellation. Age open commitments from the latest supported obligation event and show dormant lines separately from recently changed lines. Foreign-currency commitments should disclose the translation basis rather than mixing transaction and reporting currencies. The result supports forecasting and close review but does not establish asset recognition, impairment, or legal enforceability.
-
-## Limitations and uncertainty
-
-This brief contains no private dataset, prevalence estimate, market benchmark, causal effect, savings claim, or provider comparison. A pilot describes only the selected population under its declared rules. Small populations produce unstable rates. Missing timestamps may be systematic rather than random. Different systems can record the same business event at different stages, and decisions made outside the system may be absent.
-
-Comparisons across teams or periods require equivalent definitions, populations, clocks, systems, and evidence coverage. Even then, treat a difference as a prompt for review. Do not rank employees, infer misconduct, promise a financial outcome, or claim control effectiveness from this measure alone. Qualified accounting, audit, tax, legal, security, payroll, treasury, and statistical owners should review issues within their remit.
-
-Before reuse, disclose the sample size, period, entities, exclusions, missingness, system changes, codebook revisions, reviewer disagreement, conflicts, and tolerance choices. Archive the protocol with results. An honest limitation and traceable denominator are more useful than a precise-looking percentage that cannot be reconstructed.
 
 ## Implementation checklist
 

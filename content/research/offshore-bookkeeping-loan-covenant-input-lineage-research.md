@@ -63,12 +63,6 @@ For a Philippines-based support team, document overlap hours, handoff cutoff, re
 
 The niche-specific conclusion is that whether every bookkeeping input used in a lender covenant calculation is tied to a closed ledger, approved adjustment, definition source, and review record can be evaluated only when the client owns definitions and decision rights while the bookkeeping team owns orderly preparation and escalation. That boundary lets an offshore bookkeeper add capacity without quietly inheriting authority reserved for management.
 
-## Evidence packet and reviewer test
-
-The period packet should include the approved protocol, frozen population, untouched exports, report parameters, data dictionary, transformation log, classified study table, exception register, reviewer sample, disagreement log, calculations, version history, and sign-off. Proposed corrections and posted corrections must remain distinguishable. A link to a mutable dashboard is not a substitute for preserving the version reviewed.
-
-The reviewer should trace selected study rows back to source evidence and forward to the reported state, reperform the numerator and denominator, inspect every material exclusion, and review high-risk states set by client policy. The sample size is risk-based and locally approved; these sources provide no universal sample. The reviewer should confirm that no preparer approved their own judgment-dependent exception or released a payment, refund, write-off, payroll change, or period lock outside assigned authority.
-
 ## Definition-to-ledger matrix
 
 Start from the executed agreement, amendments, and waivers. Copy each defined term with its page reference into a controlled matrix; do not paraphrase away inclusions, exclusions, averaging periods, entity scope, or permitted adjustments. Map each calculation line to that matrix and then to a closed ledger account, approved report, or separately documented adjustment. The package should reveal whether a number is reported, calculated, or judgment-dependent.
@@ -78,20 +72,6 @@ Test lineage in both directions. Trace every submitted input back to its source,
 ## Adjustment governance
 
 Create a register for pro forma adjustments, acquisitions, disposals, waivers, restricted cash, and classification changes. Each row needs an agreement reference, rationale, calculation, source evidence, preparer, approver, and expiry or reuse rule. Recurring an adjustment does not make it self-authorizing. Compare current entries with prior periods to find unexplained disappearance, changed signs, or copied amounts. The outcome is an evidence-readiness assessment, not a legal conclusion about compliance.
-
-## Limitations and uncertainty
-
-This brief contains no private dataset, prevalence estimate, market benchmark, causal effect, savings claim, or provider comparison. A pilot describes only the selected population under its declared rules. Small populations produce unstable rates. Missing timestamps may be systematic rather than random. Different systems can record the same business event at different stages, and decisions made outside the system may be absent.
-
-Comparisons across teams or periods require equivalent definitions, populations, clocks, systems, and evidence coverage. Even then, treat a difference as a prompt for review. Do not rank employees, infer misconduct, promise a financial outcome, or claim control effectiveness from this measure alone. Qualified accounting, audit, tax, legal, security, payroll, treasury, and statistical owners should review issues within their remit.
-
-Before reuse, disclose the sample size, period, entities, exclusions, missingness, system changes, codebook revisions, reviewer disagreement, conflicts, and tolerance choices. Archive the protocol with results. An honest limitation and traceable denominator are more useful than a precise-looking percentage that cannot be reconstructed.
-
-## Implementation checklist
-
-1. Name the workflow and decision owners. 2. Freeze the population and period. 3. Approve the event, exclusion, reopen, clock, and pause rules. 4. Export and reconcile the population. 5. Minimize sensitive fields. 6. Apply the codebook. 7. Independently recode a sample. 8. Publish counts, distributions, missingness, and exceptions. 9. Review source records before changing the workflow. 10. Version the protocol and retain evidence under the approved schedule.
-
-Run consecutive periods long enough to observe ordinary variation, while repairing clear access or evidence defects immediately. Keep protocol defects separate from operational findings. A useful pilot ends with clearer owners, fields, stops, and escalation even when the headline measure remains uncertain.
 
 ## Sources and checked dates
 

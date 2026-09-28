@@ -39,30 +39,6 @@ Preserve each raw export, extraction timestamp, report parameters, schema versio
 
 Collect the least sensitive data the question needs. Replace names with stable study identifiers when identity is irrelevant. Exclude bank credentials, complete account numbers, tax identifiers, compensation detail not needed for the test, and unrelated free text. Store any reidentification key separately, restrict access by role, and follow the client's approved retention and deletion schedule.
 
-## Classification protocol
-
-Create a codebook with observable tests for eligible, achieved, open, returned, excluded, and indeterminate. For this topic, the exception map should explicitly cover renewals, cancellations, scope additions, concessions, credits, usage true-ups, currency changes, bundled items, retrospective edits, and unsigned drafts. Each state needs required evidence, a decision owner, and a rule for conflicting records. --Done-- is not usable evidence unless the supporting record, decision, and timestamp can be traced.
-
-Train preparers on ordinary, missing-source, duplicate, late, reopened, and judgment-dependent examples. Then have a second reviewer independently classify a sample without seeing the first result. Publish the sample size, disagreement count, initial codes, and resolution method. Repeated disagreement is evidence that the rule, system field, or evidence requirement needs repair; it is not a reason to erase the conflicting observations.
-
-The bookkeeper may collect records and apply approved rules. The controller or authorized revenue-policy owner resolves matters outside those rules. Preparers should not infer approval from a prior-period email, copy last month's treatment without current support, or change a classification to meet a target. Those shortcuts create tidy numbers while weakening the decision the study is meant to support.
-
-## Calculations and reporting
-
-Report the primary event count divided by the frozen eligible population, with the numerator and denominator printed beside the percentage. Also show open, returned, excluded, indeterminate, missing-evidence, late-arriving, and reopened counts. For elapsed time, show a median and useful age bands, plus the oldest open items. An average alone can hide a small group of very old records.
-
-Break down the result by entity, amendment type, billing model, effective-date band, amount band, schedule state, and exception reason. Suppress or combine small cells where needed to protect people and counterparties. A difference between groups is descriptive. It does not establish that a person, staffing model, location, or application caused the result. Volume, complexity, policy changes, migrations, outages, source delays, reviewer capacity, and changes in evidence quality are plausible confounders.
-
-Publish a population reconciliation, data-quality table, state counts, age distribution, exception table, reviewer-disagreement table, and change log. Pair every chart with counts. Keep historical extracts immutable and issue corrections through versioned copies. A reviewer should be able to reproduce the total and understand why a later version differs.
-
-## Interpretation for offshore bookkeeping
-
-Use the findings to improve instructions, access, evidence flow, and escalation, not to manufacture a market benchmark. Review actual exceptions before changing headcount or deadlines. When the measure moves, first test whether the population, cutoff, system, rule, evidence coverage, reviewer assignment, or approval path changed. Only then consider an operational explanation. One favorable period is not proof that a control is effective.
-
-For a Philippines-based support team, document overlap hours, handoff cutoff, relevant holidays, source-system availability, named escalation route, and maximum waiting time for unresolved items. Use named accounts, multifactor authentication, and least-privilege access. Where the client's risk assessment requires separation, keep source maintenance, preparation, accounting approval, payment release, and period locking with distinct authorized roles.
-
-The niche-specific conclusion is that whether contract amendments reach the billing record, revenue schedule, general ledger, and management review with a complete decision trail can be evaluated only when the client owns definitions and decision rights while the bookkeeping team owns orderly preparation and escalation. That boundary lets an offshore bookkeeper add capacity without quietly inheriting authority reserved for management.
-
 ## Evidence packet and reviewer test
 
 The period packet should include the approved protocol, frozen population, untouched exports, report parameters, data dictionary, transformation log, classified study table, exception register, reviewer sample, disagreement log, calculations, version history, and sign-off. Proposed corrections and posted corrections must remain distinguishable. A link to a mutable dashboard is not a substitute for preserving the version reviewed.
