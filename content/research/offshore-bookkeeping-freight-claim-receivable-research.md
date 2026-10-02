@@ -67,8 +67,8 @@ Before sign-off, run a counterfactual check on the matching design. Remove carri
 
 ## Sources and checked dates
 
-- [Electronic Code of Federal Regulations, 49 CFR Part 370](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-370) — U.S. Government Publishing Office; checked October 2, 2026.
-- [PCAOB AS 1105: Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) — PCAOB; checked October 2, 2026.
-- [PCAOB AS 1215: Audit Documentation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215) — PCAOB; checked October 2, 2026.
-- [IRS Publication 583](https://www.irs.gov/publications/p583) — Internal Revenue Service; checked October 2, 2026.
-- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) — NIST; checked October 2, 2026.
+- [Electronic Code of Federal Regulations, 49 CFR Part 370](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-370) - U.S. Government Publishing Office; checked October 2, 2026.
+- [PCAOB AS 1105: Audit Evidence](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) - PCAOB; checked October 2, 2026.
+- [PCAOB AS 1215: Audit Documentation](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215) - PCAOB; checked October 2, 2026.
+- [IRS Publication 583](https://www.irs.gov/publications/p583) - Internal Revenue Service; checked October 2, 2026.
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) - NIST; checked October 2, 2026.

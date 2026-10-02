@@ -1,7 +1,237 @@
 [
-  {"family":"daily-research","topic":"Freight-claim receivable evidence and reconciliation","slug":"offshore-bookkeeping-freight-claim-receivable-research","route":"/research/offshore-bookkeeping-freight-claim-receivable-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-freight-claim-receivable-research","sourcePath":"content/research/offshore-bookkeeping-freight-claim-receivable-research.md","cycleLabel":"2026-10-02","publicationDate":"2026-10-02","sources":[{"title":"49 CFR Part 370","publisher":"eCFR","url":"https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-370","checkedDate":"2026-10-02"},{"title":"AS 1105","publisher":"PCAOB","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105","checkedDate":"2026-10-02"},{"title":"AS 1215","publisher":"PCAOB","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215","checkedDate":"2026-10-02"},{"title":"Publication 583","publisher":"IRS","url":"https://www.irs.gov/publications/p583","checkedDate":"2026-10-02"},{"title":"Cybersecurity Framework 2.0","publisher":"NIST","url":"https://www.nist.gov/cyberframework","checkedDate":"2026-10-02"}],"contentHash":"bd2c11b247c0b4343afe665a9ef00dff2909999703ddf631175cb35baf3c28e4","contentCommitSHA":"73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a","deploymentEvidence":null,"liveURL":null,"verifiedAt":null},
-  {"family":"daily-research","topic":"Cash-on-delivery courier remittance completeness","slug":"offshore-bookkeeping-cash-on-delivery-courier-remittance-research","route":"/research/offshore-bookkeeping-cash-on-delivery-courier-remittance-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-cash-on-delivery-courier-remittance-research","sourcePath":"content/research/offshore-bookkeeping-cash-on-delivery-courier-remittance-research.md","cycleLabel":"2026-10-02","publicationDate":"2026-10-02","sources":[{"title":"Postal Payment Services","publisher":"Universal Postal Union","url":"https://www.upu.int/en/universal-postal-union/activities/postal-payment-services","checkedDate":"2026-10-02"},{"title":"AS 1105","publisher":"PCAOB","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105","checkedDate":"2026-10-02"},{"title":"Publication 583","publisher":"IRS","url":"https://www.irs.gov/publications/p583","checkedDate":"2026-10-02"},{"title":"Cybersecurity Framework 2.0","publisher":"NIST","url":"https://www.nist.gov/cyberframework","checkedDate":"2026-10-02"},{"title":"Role Based Access Control","publisher":"NIST","url":"https://csrc.nist.gov/projects/role-based-access-control","checkedDate":"2026-10-02"}],"contentHash":"ba3c79da6b9e3fb939290638ba4be41c1e7e4959859e1079a9f6b27cb91cfc60","contentCommitSHA":"73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a","deploymentEvidence":null,"liveURL":null,"verifiedAt":null},
-  {"family":"daily-research","topic":"Royalty statement and contract-input reconciliation","slug":"offshore-bookkeeping-royalty-statement-reconciliation-research","route":"/research/offshore-bookkeeping-royalty-statement-reconciliation-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-royalty-statement-reconciliation-research","sourcePath":"content/research/offshore-bookkeeping-royalty-statement-reconciliation-research.md","cycleLabel":"2026-10-02","publicationDate":"2026-10-02","sources":[{"title":"Recordation Overview","publisher":"U.S. Copyright Office","url":"https://www.copyright.gov/recordation/","checkedDate":"2026-10-02"},{"title":"Copyright and the Music Marketplace","publisher":"U.S. Copyright Office","url":"https://www.copyright.gov/policy/musiclicensingstudy/","checkedDate":"2026-10-02"},{"title":"AS 1105","publisher":"PCAOB","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105","checkedDate":"2026-10-02"},{"title":"Publication 583","publisher":"IRS","url":"https://www.irs.gov/publications/p583","checkedDate":"2026-10-02"},{"title":"Data Integrity","publisher":"NIST","url":"https://csrc.nist.gov/glossary/term/data_integrity","checkedDate":"2026-10-02"}],"contentHash":"e316e572e967b0af3587e9cbdf373d89a9957bbc07fd77819739faaaf28fa95d","contentCommitSHA":"73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a","deploymentEvidence":null,"liveURL":null,"verifiedAt":null},
-  {"family":"daily-research","topic":"Cloud marketplace usage-to-disbursement reconciliation","slug":"offshore-bookkeeping-cloud-marketplace-disbursement-research","route":"/research/offshore-bookkeeping-cloud-marketplace-disbursement-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-cloud-marketplace-disbursement-research","sourcePath":"content/research/offshore-bookkeeping-cloud-marketplace-disbursement-research.md","cycleLabel":"2026-10-02","publicationDate":"2026-10-02","sources":[{"title":"AWS Marketplace Seller Reports","publisher":"AWS","url":"https://docs.aws.amazon.com/marketplace/latest/userguide/seller-reports.html","checkedDate":"2026-10-02"},{"title":"Commercial marketplace payout policy","publisher":"Microsoft","url":"https://learn.microsoft.com/en-us/partner-center/marketplace-offers/payout-policy-details","checkedDate":"2026-10-02"},{"title":"AS 1105","publisher":"PCAOB","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105","checkedDate":"2026-10-02"},{"title":"Publication 583","publisher":"IRS","url":"https://www.irs.gov/publications/p583","checkedDate":"2026-10-02"},{"title":"Cybersecurity Framework 2.0","publisher":"NIST","url":"https://www.nist.gov/cyberframework","checkedDate":"2026-10-02"}],"contentHash":"5714fa10dd1e5f143a04e6bdb1bf1cc5006e1d8a6ad1ad34901082ab5a2a3026","contentCommitSHA":"73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a","deploymentEvidence":null,"liveURL":null,"verifiedAt":null},
-  {"family":"daily-research","topic":"Insurance claim receivable evidence and uncertainty","slug":"offshore-bookkeeping-insurance-claim-receivable-evidence-research","route":"/research/offshore-bookkeeping-insurance-claim-receivable-evidence-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-insurance-claim-receivable-evidence-research","sourcePath":"content/research/offshore-bookkeeping-insurance-claim-receivable-evidence-research.md","cycleLabel":"2026-10-02","publicationDate":"2026-10-02","sources":[{"title":"NFIP underwriting materials","publisher":"FEMA","url":"https://www.fema.gov/flood-insurance/find-form/underwriting","checkedDate":"2026-10-02"},{"title":"Consumer Insurance","publisher":"NAIC","url":"https://content.naic.org/consumer","checkedDate":"2026-10-02"},{"title":"AS 1105","publisher":"PCAOB","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105","checkedDate":"2026-10-02"},{"title":"Publication 547","publisher":"IRS","url":"https://www.irs.gov/publications/p547","checkedDate":"2026-10-02"},{"title":"Publication 583","publisher":"IRS","url":"https://www.irs.gov/publications/p583","checkedDate":"2026-10-02"}],"contentHash":"9ceeabbea1c5d0692f7a25246910863fbf0bd036d58ad497f532eac86bd7c190","contentCommitSHA":"73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a","deploymentEvidence":null,"liveURL":null,"verifiedAt":null}
+  {
+    "family": "daily-research",
+    "topic": "Freight-claim receivable evidence and reconciliation",
+    "slug": "offshore-bookkeeping-freight-claim-receivable-research",
+    "route": "/research/offshore-bookkeeping-freight-claim-receivable-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-freight-claim-receivable-research",
+    "sourcePath": "content/research/offshore-bookkeeping-freight-claim-receivable-research.md",
+    "cycleLabel": "2026-10-02",
+    "publicationDate": "2026-10-02",
+    "sources": [
+      {
+        "title": "49 CFR Part 370",
+        "publisher": "eCFR",
+        "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-370",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "AS 1105",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "AS 1215",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1215",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Publication 583",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/publications/p583",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/cyberframework",
+        "checkedDate": "2026-10-02"
+      }
+    ],
+    "contentHash": "c9fa7bfc7bf6025cc131b211b4bf24872731e456f40c7322fa981a86cd8d1de4",
+    "contentCommitSHA": "73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "Cash-on-delivery courier remittance completeness",
+    "slug": "offshore-bookkeeping-cash-on-delivery-courier-remittance-research",
+    "route": "/research/offshore-bookkeeping-cash-on-delivery-courier-remittance-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-cash-on-delivery-courier-remittance-research",
+    "sourcePath": "content/research/offshore-bookkeeping-cash-on-delivery-courier-remittance-research.md",
+    "cycleLabel": "2026-10-02",
+    "publicationDate": "2026-10-02",
+    "sources": [
+      {
+        "title": "Postal Payment Services",
+        "publisher": "Universal Postal Union",
+        "url": "https://www.upu.int/en/universal-postal-union/activities/postal-payment-services",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "AS 1105",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Publication 583",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/publications/p583",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/cyberframework",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Role Based Access Control",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/projects/role-based-access-control",
+        "checkedDate": "2026-10-02"
+      }
+    ],
+    "contentHash": "f890dbcf5a7affcf4c2bee3a4a5b3ea3354281dadf11a60bf1a8831e7a0f3246",
+    "contentCommitSHA": "73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "Royalty statement and contract-input reconciliation",
+    "slug": "offshore-bookkeeping-royalty-statement-reconciliation-research",
+    "route": "/research/offshore-bookkeeping-royalty-statement-reconciliation-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-royalty-statement-reconciliation-research",
+    "sourcePath": "content/research/offshore-bookkeeping-royalty-statement-reconciliation-research.md",
+    "cycleLabel": "2026-10-02",
+    "publicationDate": "2026-10-02",
+    "sources": [
+      {
+        "title": "Recordation Overview",
+        "publisher": "U.S. Copyright Office",
+        "url": "https://www.copyright.gov/recordation/",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Copyright and the Music Marketplace",
+        "publisher": "U.S. Copyright Office",
+        "url": "https://www.copyright.gov/policy/musiclicensingstudy/",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "AS 1105",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Publication 583",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/publications/p583",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Data Integrity",
+        "publisher": "NIST",
+        "url": "https://csrc.nist.gov/glossary/term/data_integrity",
+        "checkedDate": "2026-10-02"
+      }
+    ],
+    "contentHash": "a2c2362baa3d1984c78dfabc117fff158dda440035b90187ae6d5f8e763d126b",
+    "contentCommitSHA": "73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "Cloud marketplace usage-to-disbursement reconciliation",
+    "slug": "offshore-bookkeeping-cloud-marketplace-disbursement-research",
+    "route": "/research/offshore-bookkeeping-cloud-marketplace-disbursement-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-cloud-marketplace-disbursement-research",
+    "sourcePath": "content/research/offshore-bookkeeping-cloud-marketplace-disbursement-research.md",
+    "cycleLabel": "2026-10-02",
+    "publicationDate": "2026-10-02",
+    "sources": [
+      {
+        "title": "AWS Marketplace Seller Reports",
+        "publisher": "AWS",
+        "url": "https://docs.aws.amazon.com/marketplace/latest/userguide/seller-reports.html",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Commercial marketplace payout policy",
+        "publisher": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/partner-center/marketplace-offers/payout-policy-details",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "AS 1105",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Publication 583",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/publications/p583",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Cybersecurity Framework 2.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/cyberframework",
+        "checkedDate": "2026-10-02"
+      }
+    ],
+    "contentHash": "fc53d879a8b68bdb524448c3e5b1343cd393758f55bff34c2afddfe043a2633b",
+    "contentCommitSHA": "73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  },
+  {
+    "family": "daily-research",
+    "topic": "Insurance claim receivable evidence and uncertainty",
+    "slug": "offshore-bookkeeping-insurance-claim-receivable-evidence-research",
+    "route": "/research/offshore-bookkeeping-insurance-claim-receivable-evidence-research",
+    "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-insurance-claim-receivable-evidence-research",
+    "sourcePath": "content/research/offshore-bookkeeping-insurance-claim-receivable-evidence-research.md",
+    "cycleLabel": "2026-10-02",
+    "publicationDate": "2026-10-02",
+    "sources": [
+      {
+        "title": "NFIP underwriting materials",
+        "publisher": "FEMA",
+        "url": "https://www.fema.gov/flood-insurance/find-form/underwriting",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Consumer Insurance",
+        "publisher": "NAIC",
+        "url": "https://content.naic.org/consumer",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "AS 1105",
+        "publisher": "PCAOB",
+        "url": "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Publication 547",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/publications/p547",
+        "checkedDate": "2026-10-02"
+      },
+      {
+        "title": "Publication 583",
+        "publisher": "IRS",
+        "url": "https://www.irs.gov/publications/p583",
+        "checkedDate": "2026-10-02"
+      }
+    ],
+    "contentHash": "e60771701ef1ed842b8d1cbf0f5d3ed781db6fc0d9f23fdcf6d2d48132ea4107",
+    "contentCommitSHA": "73a5a2dbe3a3d17a3e3ebd37bafbfd2f2af6eb7a",
+    "deploymentEvidence": null,
+    "liveURL": null,
+    "verifiedAt": null
+  }
 ]

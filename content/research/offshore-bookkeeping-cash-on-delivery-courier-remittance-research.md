@@ -67,8 +67,8 @@ Add a completeness stress test before release. Select consecutive delivery days 
 
 ## Sources and checked dates
 
-- [UPU Postal Payment Services](https://www.upu.int/en/universal-postal-union/activities/postal-payment-services) — Universal Postal Union; checked October 2, 2026.
-- [PCAOB AS 1105](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) — PCAOB; checked October 2, 2026.
-- [IRS Publication 583](https://www.irs.gov/publications/p583) — IRS; checked October 2, 2026.
-- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) — NIST; checked October 2, 2026.
-- [NIST Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) — NIST; checked October 2, 2026.
+- [UPU Postal Payment Services](https://www.upu.int/en/universal-postal-union/activities/postal-payment-services) - Universal Postal Union; checked October 2, 2026.
+- [PCAOB AS 1105](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) - PCAOB; checked October 2, 2026.
+- [IRS Publication 583](https://www.irs.gov/publications/p583) - IRS; checked October 2, 2026.
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) - NIST; checked October 2, 2026.
+- [NIST Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) - NIST; checked October 2, 2026.

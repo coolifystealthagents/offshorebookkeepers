@@ -8,7 +8,7 @@ type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp"
 takeaways: ["Build the population around each shipment, customer order, and claim number.","Keep exceptions visible until evidence and approval agree.","Separate offshore preparation from client accounting judgment."]
 sources: [{"name":"U.S. Small Business Administration, Manage your finances","url":"https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Bookkeeping services","/services/bookkeeping"],["Management reporting support","/services/management-reporting-support"]]
+relatedLinks: [["Bookkeeping services","/services/daily-transaction-coding"],["Management reporting support","/services/management-reporting-support"]]
 faqs: [["Can an offshore bookkeeper maintain the shipping insurance claim recoveries schedule?","Yes. The preparer can maintain evidence, reconciliations, and exception questions while the client retains policy choices and approvals."],["What should each row identify?","At minimum, identify the shipment, customer order, and claim number, dates, amounts, status, evidence, ledger mapping, owner, and next action."],["When should an item be closed?","Close it only after the approved action is posted and the source, ledger, and settlement evidence agree."]]
 ---
 
@@ -30,8 +30,6 @@ For shipping insurance claim recoveries, the source pack includes sales order, c
 - **carrier decision:** For shipping insurance claim recoveries, connect the carrier decision directly to the shipment, customer order, and claim number. Record the shipping insurance claim recoveries event date, amount or status, originating system, and cutoff implication. Note what the carrier decision cannot prove about shipping insurance claim recoveries. If this source conflicts with another shipping insurance claim recoveries record, preserve both values, quantify the difference, and assign the shipment, customer order, and claim number question to its decision owner. Test 6 therefore produces evidence, a limitation, and a next action rather than an unattached file.
 - **settlement advice:** For shipping insurance claim recoveries, connect the settlement advice directly to the shipment, customer order, and claim number. Record the shipping insurance claim recoveries event date, amount or status, originating system, and cutoff implication. Note what the settlement advice cannot prove about shipping insurance claim recoveries. If this source conflicts with another shipping insurance claim recoveries record, preserve both values, quantify the difference, and assign the shipment, customer order, and claim number question to its decision owner. Test 7 therefore produces evidence, a limitation, and a next action rather than an unattached file.
 
-These tests establish what happened; they do not select accounting policy. Where evidence disagrees, record the observed condition, affected amount, current posting, decision owner, requested answer, and due date.
-
 ### Cross-source challenges unique to shipping insurance claim recoveries
 
 - Compare the sales order with the carrier scan for the same shipment, customer order, and claim number. This shipping insurance claim recoveries comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated shipping insurance claim recoveries exception owned by the person who controls the missing fact.
@@ -52,23 +50,15 @@ Use controlled statuses: awaiting evidence, terms under review, ready to reconci
 
 Order authorization, operating activity, billing, settlement, adjustment, and closure by occurrence. This chronology exposes cutoff problems hidden by a period-end total. It also distinguishes a correcting document from a genuinely new shipping insurance claim recoveries event.
 
-Create an opening-to-closing bridge. Show additions, releases or settlements, approved reclassifications, and ending balance. Keep receipts, charges, refunds, credits, costs, and recoveries separate before mapping them to net cash. Every movement needs evidence and posting references.
-
 ## Analyze the signature exception
 
 The difficult case is a partial recovery that excludes freight, tax, or the full merchandise value. Split its economically different components even when the source system presents one line. Identify what is confirmed, what remains unknown, the amount affected, current treatment, evidence requested, and authorized decision maker.
-
-Use factual notes: “signed amendment missing” is actionable; “probably earned” hides judgment. Preserve original aging as the item rolls forward. Stable cause tags—missing identifier, late update, inconsistent terms, duplicate record, cutoff mismatch, or omitted credit—help management repair upstream processes.
 
 ## Walk through a shipping insurance claim recoveries example
 
 Consider this case: an ecommerce seller replaces a lost order immediately, files a carrier claim, and receives a settlement weeks later for less than the recorded fulfillment cost. Create the shipment, customer order, and claim number record first, attach controlling terms, and separate operational completion, billing, cash, cost, and later adjustment. Mark the disputed component rather than netting it into a clean-looking total.
 
-The case should yield a population record, rollforward movement, exception question, and posting verification. After approval, record the decision reference, prepare only the authorized update, and compare the ledger with the source schedule. Later evidence becomes a dated follow-up; it never erases what the reviewer saw.
-
 ## Complete the event chronology
-
-Compare operating source, subledger, general ledger, and bank or processor evidence. Each proves something different: occurrence and status, billing or claim record, classification, and settlement. Name every difference and owner; never bury unexplained amounts in “other.”
 
 Scan for duplicate shipment, customer order, and claim number values, missing dates, impossible statuses, unexpected signs, stale balances, absent approvals, and control-total mismatches. Tie the schedule to exact account, entity, period, and currency parameters. Retain transaction and functional currency plus the approved rate source where relevant.
 
@@ -76,12 +66,8 @@ Scan for duplicate shipment, customer order, and claim number values, missing da
 
 Age unresolved shipping insurance claim recoveries from the date the next action first became due, not the latest edit. The reviewer packet should show control totals, proposed balance, exceptions ranked by age or amount, decisions requested, and direct evidence links.
 
-An offshore bookkeeper may maintain the register, index evidence, test completeness, prepare the rollforward, and draft factual questions. Client leaders keep materiality, estimates, write-offs, dispute strategy, policy, and final approval. Post only after documented authorization.
-
-[Bookkeeping services](/services/bookkeeping) can support recurring preparation, while [management reporting support](/services/management-reporting-support) can carry approved shipping insurance claim recoveries results into a controlled packet.
+[Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation, while [management reporting support](/services/management-reporting-support) can carry approved shipping insurance claim recoveries results into a controlled packet.
 
 ## Finish with exception aging
-
-Close a row only after approved action, source status, posting reference, and settlement agree. Archive raw extracts, reviewed workpaper, approval, posting report, and unresolved list together. Carry open items forward with original dates and version procedure changes with their reason, effective period, and approver.
 
 Monitor missing-source frequency, exception age, reopened items, and post-review adjustments. These indicators reveal where shipping insurance claim recoveries documentation or ownership needs attention without transferring consequential judgment away from the client.

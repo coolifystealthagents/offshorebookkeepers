@@ -73,8 +73,8 @@ Add a subsequent-evidence matrix for events near period end. For each selected c
 
 ## Sources and checked dates
 
-- [FEMA National Flood Insurance Program forms and underwriting materials](https://www.fema.gov/flood-insurance/find-form/underwriting) — FEMA; checked October 2, 2026.
-- [NAIC Consumer Insurance](https://content.naic.org/consumer) — National Association of Insurance Commissioners; checked October 2, 2026.
-- [PCAOB AS 1105](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) — PCAOB; checked October 2, 2026.
-- [IRS Publication 547](https://www.irs.gov/publications/p547) — IRS; checked October 2, 2026.
-- [IRS Publication 583](https://www.irs.gov/publications/p583) — IRS; checked October 2, 2026.
+- [FEMA National Flood Insurance Program forms and underwriting materials](https://www.fema.gov/flood-insurance/find-form/underwriting) - FEMA; checked October 2, 2026.
+- [NAIC Consumer Insurance](https://content.naic.org/consumer) - National Association of Insurance Commissioners; checked October 2, 2026.
+- [PCAOB AS 1105](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) - PCAOB; checked October 2, 2026.
+- [IRS Publication 547](https://www.irs.gov/publications/p547) - IRS; checked October 2, 2026.
+- [IRS Publication 583](https://www.irs.gov/publications/p583) - IRS; checked October 2, 2026.

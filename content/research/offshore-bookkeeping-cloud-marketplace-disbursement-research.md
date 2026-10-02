@@ -75,8 +75,8 @@ Run a revision analysis before archiving. Re-extract a prior closed reporting wi
 
 ## Sources and checked dates
 
-- [AWS Marketplace Seller Reports](https://docs.aws.amazon.com/marketplace/latest/userguide/seller-reports.html) — Amazon Web Services; checked October 2, 2026.
-- [Microsoft commercial marketplace payout policy](https://learn.microsoft.com/en-us/partner-center/marketplace-offers/payout-policy-details) — Microsoft; checked October 2, 2026.
-- [PCAOB AS 1105](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) — PCAOB; checked October 2, 2026.
-- [IRS Publication 583](https://www.irs.gov/publications/p583) — IRS; checked October 2, 2026.
-- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) — NIST; checked October 2, 2026.
+- [AWS Marketplace Seller Reports](https://docs.aws.amazon.com/marketplace/latest/userguide/seller-reports.html) - Amazon Web Services; checked October 2, 2026.
+- [Microsoft commercial marketplace payout policy](https://learn.microsoft.com/en-us/partner-center/marketplace-offers/payout-policy-details) - Microsoft; checked October 2, 2026.
+- [PCAOB AS 1105](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) - PCAOB; checked October 2, 2026.
+- [IRS Publication 583](https://www.irs.gov/publications/p583) - IRS; checked October 2, 2026.
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) - NIST; checked October 2, 2026.

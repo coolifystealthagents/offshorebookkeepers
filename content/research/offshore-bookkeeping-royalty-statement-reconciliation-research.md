@@ -75,8 +75,8 @@ Perform a rate-boundary challenge as a separate test. Select activity immediatel
 
 ## Sources and checked dates
 
-- [U.S. Copyright Office Recordation](https://www.copyright.gov/recordation/) — U.S. Copyright Office; checked October 2, 2026.
-- [Copyright and the Music Marketplace](https://www.copyright.gov/policy/musiclicensingstudy/) — U.S. Copyright Office; checked October 2, 2026.
-- [PCAOB AS 1105](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) — PCAOB; checked October 2, 2026.
-- [IRS Publication 583](https://www.irs.gov/publications/p583) — IRS; checked October 2, 2026.
-- [NIST Data Integrity](https://csrc.nist.gov/glossary/term/data_integrity) — NIST; checked October 2, 2026.
+- [U.S. Copyright Office Recordation](https://www.copyright.gov/recordation/) - U.S. Copyright Office; checked October 2, 2026.
+- [Copyright and the Music Marketplace](https://www.copyright.gov/policy/musiclicensingstudy/) - U.S. Copyright Office; checked October 2, 2026.
+- [PCAOB AS 1105](https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105) - PCAOB; checked October 2, 2026.
+- [IRS Publication 583](https://www.irs.gov/publications/p583) - IRS; checked October 2, 2026.
+- [NIST Data Integrity](https://csrc.nist.gov/glossary/term/data_integrity) - NIST; checked October 2, 2026.
