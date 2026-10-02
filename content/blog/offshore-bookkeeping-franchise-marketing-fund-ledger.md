@@ -12,62 +12,65 @@ relatedLinks: [["Bookkeeping services","/services/daily-transaction-coding"],["M
 faqs: [["Can an offshore bookkeeper maintain the franchise marketing-fund activity schedule?","Yes. The preparer can maintain evidence, reconciliations, and exception questions while the client retains policy choices and approvals."],["What should each row identify?","At minimum, identify the franchise location, campaign, and assessment period, dates, amounts, status, evidence, ledger mapping, owner, and next action."],["When should an item be closed?","Close it only after the approved action is posted and the source, ledger, and settlement evidence agree."]]
 ---
 
-Franchise marketing-fund activity are easily misstated when operations, documents, ledger entries, and settlement occur on different dates. A useful workpaper follows each franchise location, campaign, and assessment period and lets a controller decide how collections, restricted or designated spending, prepayments, credits, and corporate contributions should be presented and supported. Offshore preparation organizes facts; client management retains policy, estimates, interpretation, and approval.
+A franchise marketing fund receives assessments from many locations and pays for campaigns that may span markets and accounting periods. If collections and spending are recorded only in general revenue and expense accounts, the franchisor cannot readily show which locations were assessed, which amounts remain unpaid, what corporate contributions were added, or how campaign costs consumed the fund.
 
-## Build the event chronology around the operating event
+A useful fund ledger keeps the collection side and spending side separate, then joins them through a monthly rollforward. It provides evidence for review without asking bookkeeping to decide what the franchise agreement permits.
 
-Start independently of the ledger. Capture the franchise location, campaign, and assessment period, original and effective dates, counterparty, currency, status, expected value, account mapping, and evidence links. Reconcile this population against a second control such as sequential records, cash, a subledger, or an operating report. Explain excluded statuses; a schedule can add correctly while omitting its hardest cases.
+## Calculate assessments by location and period
 
-For franchise marketing-fund activity, the source pack includes franchise agreements, location sales reports, assessment invoices, receipts, campaign approvals, vendor bills, and allocation schedules. Save reproducible filters, entity, period, and timezone. Retain old and new identifiers after a system change so later credits or amendments still trace to the event they alter.
+Create one assessment record for each franchise location and reporting period. Capture the location identifier, agreement version, assessment base, reported sales or other approved input, rate, minimum or cap, amount due, billing date, invoice, and payment status.
 
-## Test every piece of franchise marketing-fund activity evidence
+Reconcile the location population to the franchise system. New, transferred, temporarily closed, and terminated locations need explicit treatment. Do not omit a location because its sales report is missing. Keep it in the population with an exception so management can decide the next step.
 
-- **franchise agreements:** For franchise marketing-fund activity, connect the franchise agreements directly to the franchise location, campaign, and assessment period. Record the franchise marketing-fund activity event date, amount or status, originating system, and cutoff implication. Note what the franchise agreements cannot prove about franchise marketing-fund activity. If this source conflicts with another franchise marketing-fund activity record, preserve both values, quantify the difference, and assign the franchise location, campaign, and assessment period question to its decision owner. Test 1 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **location sales reports:** For franchise marketing-fund activity, connect the location sales reports directly to the franchise location, campaign, and assessment period. Record the franchise marketing-fund activity event date, amount or status, originating system, and cutoff implication. Note what the location sales reports cannot prove about franchise marketing-fund activity. If this source conflicts with another franchise marketing-fund activity record, preserve both values, quantify the difference, and assign the franchise location, campaign, and assessment period question to its decision owner. Test 2 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **assessment invoices:** For franchise marketing-fund activity, connect the assessment invoices directly to the franchise location, campaign, and assessment period. Record the franchise marketing-fund activity event date, amount or status, originating system, and cutoff implication. Note what the assessment invoices cannot prove about franchise marketing-fund activity. If this source conflicts with another franchise marketing-fund activity record, preserve both values, quantify the difference, and assign the franchise location, campaign, and assessment period question to its decision owner. Test 3 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **receipts:** For franchise marketing-fund activity, connect the receipts directly to the franchise location, campaign, and assessment period. Record the franchise marketing-fund activity event date, amount or status, originating system, and cutoff implication. Note what the receipts cannot prove about franchise marketing-fund activity. If this source conflicts with another franchise marketing-fund activity record, preserve both values, quantify the difference, and assign the franchise location, campaign, and assessment period question to its decision owner. Test 4 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **campaign approvals:** For franchise marketing-fund activity, connect the campaign approvals directly to the franchise location, campaign, and assessment period. Record the franchise marketing-fund activity event date, amount or status, originating system, and cutoff implication. Note what the campaign approvals cannot prove about franchise marketing-fund activity. If this source conflicts with another franchise marketing-fund activity record, preserve both values, quantify the difference, and assign the franchise location, campaign, and assessment period question to its decision owner. Test 5 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **vendor bills:** For franchise marketing-fund activity, connect the vendor bills directly to the franchise location, campaign, and assessment period. Record the franchise marketing-fund activity event date, amount or status, originating system, and cutoff implication. Note what the vendor bills cannot prove about franchise marketing-fund activity. If this source conflicts with another franchise marketing-fund activity record, preserve both values, quantify the difference, and assign the franchise location, campaign, and assessment period question to its decision owner. Test 6 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **allocation schedules:** For franchise marketing-fund activity, connect the allocation schedules directly to the franchise location, campaign, and assessment period. Record the franchise marketing-fund activity event date, amount or status, originating system, and cutoff implication. Note what the allocation schedules cannot prove about franchise marketing-fund activity. If this source conflicts with another franchise marketing-fund activity record, preserve both values, quantify the difference, and assign the franchise location, campaign, and assessment period question to its decision owner. Test 7 therefore produces evidence, a limitation, and a next action rather than an unattached file.
+Store the reported input and the calculation separately. If a location later revises sales, retain the first report, revised report, reason, approval, and resulting adjustment. Replacing the original value makes the billing history difficult to reproduce.
 
-### Cross-source challenges unique to franchise marketing-fund activity
+## Match collections without treating cash as the assessment record
 
-- Compare the franchise agreements with the location sales reports for the same franchise location, campaign, and assessment period. This franchise marketing-fund activity comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated franchise marketing-fund activity exception owned by the person who controls the missing fact.
-- Compare the location sales reports with the assessment invoices for the same franchise location, campaign, and assessment period. This franchise marketing-fund activity comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated franchise marketing-fund activity exception owned by the person who controls the missing fact.
-- Compare the assessment invoices with the receipts for the same franchise location, campaign, and assessment period. This franchise marketing-fund activity comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated franchise marketing-fund activity exception owned by the person who controls the missing fact.
-- Compare the receipts with the campaign approvals for the same franchise location, campaign, and assessment period. This franchise marketing-fund activity comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated franchise marketing-fund activity exception owned by the person who controls the missing fact.
-- Compare the campaign approvals with the vendor bills for the same franchise location, campaign, and assessment period. This franchise marketing-fund activity comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated franchise marketing-fund activity exception owned by the person who controls the missing fact.
-- Compare the vendor bills with the allocation schedules for the same franchise location, campaign, and assessment period. This franchise marketing-fund activity comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated franchise marketing-fund activity exception owned by the person who controls the missing fact.
-- Compare the allocation schedules with the franchise agreements for the same franchise location, campaign, and assessment period. This franchise marketing-fund activity comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated franchise marketing-fund activity exception owned by the person who controls the missing fact.
+Apply receipts to the location and assessment period identified by remittance detail. A single payment may cover several periods or include royalties and other charges. Split it from evidence rather than applying the full deposit to the oldest marketing balance by default.
 
-## Work the gross-to-net bridge into structured fields
+Record invoice amount, credit, cash applied, unapplied cash, short payment, and ending receivable separately. This shows whether a difference is a collection issue, an approved adjustment, or a missing allocation.
 
-The central question is how collections, restricted or designated spending, prepayments, credits, and corporate contributions should be presented and supported. Extract the trigger date, amount basis, refund or credit condition, ownership language, service period, exclusions, caps, and approval requirement from the applicable agreement. Link each field to the version used. Ambiguity becomes a bounded client question, never a silent preparer assumption.
+If the franchisor contributes to the fund, identify the contribution source, date, amount, approval, and ledger reference. Do not blend corporate contributions with franchisee assessments. Reviewers may need to understand each source independently.
 
-Use controlled statuses: awaiting evidence, terms under review, ready to reconcile, approved, posted, disputed, and closed. Define each status. Add a topic-specific status only when it changes the next action for the franchise location, campaign, and assessment period.
+## Give every campaign a spending record
 
-## Reconstruct the exception aging
+Set up a campaign record before invoices arrive. Capture the campaign name, market, approved budget, vendor, contract or purchase authorization, service period, launch dates, owner, and approval. Link invoices, credits, prepayments, and payments to that record.
 
-Order authorization, operating activity, billing, settlement, adjustment, and closure by occurrence. This chronology exposes cutoff problems hidden by a period-end total. It also distinguishes a correcting document from a genuinely new franchise marketing-fund activity event.
+Campaigns often cross month end. Separate the vendor invoice date from the service period and from cash payment. The controller can then decide the appropriate accounting treatment using the contract and evidence. The offshore preparer can schedule the amounts under an approved policy but should not invent a service period from the payment date.
 
-## Analyze the signature exception
+Keep production, media placement, agency fees, technology, and other spend categories visible. A campaign total can agree while a vendor invoice is coded to the wrong category or market. Use the approved chart and campaign map rather than free-text descriptions.
 
-The difficult case is a corporate campaign that benefits both company-owned and franchised locations. Split its economically different components even when the source system presents one line. Identify what is confirmed, what remains unknown, the amount affected, current treatment, evidence requested, and authorized decision maker.
+## Handle shared and local campaigns explicitly
 
-## Walk through a franchise marketing-fund activity example
+A national campaign may benefit all locations, while a regional placement may serve only a subset. Record the campaign scope and any allocation rule approved by management. Retain the population and inputs used for the allocation.
 
-Consider this case: a franchisor collects two monthly assessments, prepays an annual media package, and later issues a credit to a location whose reported sales were corrected. Create the franchise location, campaign, and assessment period record first, attach controlling terms, and separate operational completion, billing, cash, cost, and later adjustment. Mark the disputed component rather than netting it into a clean-looking total.
+Consider a digital campaign purchased nationally with separate regional creative. The national media invoice, regional production costs, and local credits should remain distinct. If management allocates information to locations for reporting, the schedule should show the rule and result without implying that the allocation changes the underlying vendor cost.
 
-## Complete the posting verification
+Local advertising reimbursements need their own review queue. Link the location request, proof of spend, program terms, approval, payment, and any rejected component. A submitted request is not fund spend until it meets the approved process.
 
-Scan for duplicate franchise location, campaign, and assessment period values, missing dates, impossible statuses, unexpected signs, stale balances, absent approvals, and control-total mismatches. Tie the schedule to exact account, entity, period, and currency parameters. Retain transaction and functional currency plus the approved rate source where relevant.
+## Reconcile vendors, prepayments, and credits
 
-## Use population design to drive the handoff
+Match vendor invoices to contracts and campaign records. Flag invoices with missing service periods, duplicate numbers, amounts above authorization, unexpected markets, or no campaign owner. Record credits against the original invoice and campaign instead of reducing the next convenient payment.
 
-Age unresolved franchise marketing-fund activity from the date the next action first became due, not the latest edit. The reviewer packet should show control totals, proposed balance, exceptions ranked by age or amount, decisions requested, and direct evidence links.
+For prepayments, retain the payment date, covered service period, campaign, amortization or release schedule approved by management, and posting references. A payment leaving the bank does not prove that the entire amount belongs in current fund spending.
 
-[Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation, while [management reporting support](/services/management-reporting-support) can carry approved franchise marketing-fund activity results into a controlled packet.
+Track disputed invoices and expected credits gross. Netting an anticipated credit into campaign cost makes the fund appear settled before the vendor agrees. The exception should state the amount, evidence, owner, and next follow-up date.
 
-## Finish with contract trigger
+## Build a rollforward that can be explained
 
-Monitor missing-source frequency, exception age, reopened items, and post-review adjustments. These indicators reveal where franchise marketing-fund activity documentation or ownership needs attention without transferring consequential judgment away from the client.
+The monthly ledger should show opening fund balance, franchisee assessments, corporate contributions, approved credits or adjustments, campaign spending, reimbursements, and ending balance. Reconcile collections to receivables and bank activity. Reconcile spending to invoices, prepayments, accounts payable, and cash.
+
+Tie each total to the exact entity, account, and period. Explain timing differences rather than forcing the subledger to the general ledger with an unidentified plug. Keep intercompany activity separate if another entity pays a vendor or receives collections.
+
+The reviewer packet should include location assessment exceptions, aged unpaid amounts, campaign budget-to-actual detail, unapproved reimbursements, vendor disputes, and the fund rollforward. [Management reporting support](/services/management-reporting-support) can carry the approved results into a recurring packet.
+
+## Keep agreement judgments with management
+
+Bookkeeping can maintain location populations, calculate assessments from approved inputs, match receipts, index campaign evidence, prepare vendor schedules, and verify postings. Management retains interpretation of franchise agreements, permitted uses, allocation rules, budget approval, disputes, write-offs, and presentation decisions.
+
+Document each management decision with its effective period and approver. That makes the next close repeatable without turning an earlier exception into an unwritten rule. [Bookkeeping services](/services/daily-transaction-coding) can support the recurring preparation within this boundary.
+
+## Sources
+
+- [U.S. Small Business Administration, Manage your finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
+- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
