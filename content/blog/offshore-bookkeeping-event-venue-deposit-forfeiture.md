@@ -12,62 +12,67 @@ relatedLinks: [["Bookkeeping services","/services/daily-transaction-coding"],["M
 faqs: [["Can an offshore bookkeeper maintain the event venue deposits schedule?","Yes. The preparer can maintain evidence, reconciliations, and exception questions while the client retains policy choices and approvals."],["What should each row identify?","At minimum, identify the event booking and contracted date, dates, amounts, status, evidence, ledger mapping, owner, and next action."],["When should an item be closed?","Close it only after the approved action is posted and the source, ledger, and settlement evidence agree."]]
 ---
 
-Event venue deposits are easily misstated when operations, documents, ledger entries, and settlement occur on different dates. A useful workpaper follows each event booking and contracted date and lets a controller decide what remains a customer liability, what transfers to a new booking, what is refunded, and when any retained amount becomes earned. Offshore preparation organizes facts; client management retains policy, estimates, interpretation, and approval.
+An event venue may collect several payments before a wedding, conference, or private function takes place. The booking can then move to a new date, change rooms, shrink, expand, cancel, or settle after additional charges. A deposit balance tracked only by customer name cannot explain which event the cash supports or whether a refund, transfer, or retained amount has been approved.
 
-## Build the gross-to-net bridge around the operating event
+The deposit schedule should follow the booking reference, contracted event date, payment history, amendments, operational outcome, and final settlement. It organizes the evidence while leaving contract interpretation and revenue decisions with management.
 
-Start independently of the ledger. Capture the event booking and contracted date, original and effective dates, counterparty, currency, status, expected value, account mapping, and evidence links. Reconcile this population against a second control such as sequential records, cash, a subledger, or an operating report. Explain excluded statuses; a schedule can add correctly while omitting its hardest cases.
+## Open the booking record from the signed agreement
 
-For event venue deposits, the source pack includes signed event agreement, payment schedule, booking calendar, cancellation notice, rescheduling amendment, refund approval, and bank activity. Save reproducible filters, entity, period, and timezone. Retain old and new identifiers after a system change so later credits or amendments still trace to the event they alter.
+Create one record for each contracted event. Capture the customer, event type, venue or room, original event date, agreement version, total contracted value, deposit schedule, cancellation terms, transfer provisions, minimum commitments, and approval contacts.
 
-## Test every piece of event venue deposits evidence
+Link each invoice and cash receipt to the booking reference. If a payment covers more than one event, allocate it from remittance detail or documented customer instruction. Do not apply the full amount to the oldest booking merely because it clears accounts receivable.
 
-- **signed event agreement:** For event venue deposits, connect the signed event agreement directly to the event booking and contracted date. Record the event venue deposits event date, amount or status, originating system, and cutoff implication. Note what the signed event agreement cannot prove about event venue deposits. If this source conflicts with another event venue deposits record, preserve both values, quantify the difference, and assign the event booking and contracted date question to its decision owner. Test 1 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **payment schedule:** For event venue deposits, connect the payment schedule directly to the event booking and contracted date. Record the event venue deposits event date, amount or status, originating system, and cutoff implication. Note what the payment schedule cannot prove about event venue deposits. If this source conflicts with another event venue deposits record, preserve both values, quantify the difference, and assign the event booking and contracted date question to its decision owner. Test 2 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **booking calendar:** For event venue deposits, connect the booking calendar directly to the event booking and contracted date. Record the event venue deposits event date, amount or status, originating system, and cutoff implication. Note what the booking calendar cannot prove about event venue deposits. If this source conflicts with another event venue deposits record, preserve both values, quantify the difference, and assign the event booking and contracted date question to its decision owner. Test 3 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **cancellation notice:** For event venue deposits, connect the cancellation notice directly to the event booking and contracted date. Record the event venue deposits event date, amount or status, originating system, and cutoff implication. Note what the cancellation notice cannot prove about event venue deposits. If this source conflicts with another event venue deposits record, preserve both values, quantify the difference, and assign the event booking and contracted date question to its decision owner. Test 4 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **rescheduling amendment:** For event venue deposits, connect the rescheduling amendment directly to the event booking and contracted date. Record the event venue deposits event date, amount or status, originating system, and cutoff implication. Note what the rescheduling amendment cannot prove about event venue deposits. If this source conflicts with another event venue deposits record, preserve both values, quantify the difference, and assign the event booking and contracted date question to its decision owner. Test 5 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **refund approval:** For event venue deposits, connect the refund approval directly to the event booking and contracted date. Record the event venue deposits event date, amount or status, originating system, and cutoff implication. Note what the refund approval cannot prove about event venue deposits. If this source conflicts with another event venue deposits record, preserve both values, quantify the difference, and assign the event booking and contracted date question to its decision owner. Test 6 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **bank activity:** For event venue deposits, connect the bank activity directly to the event booking and contracted date. Record the event venue deposits event date, amount or status, originating system, and cutoff implication. Note what the bank activity cannot prove about event venue deposits. If this source conflicts with another event venue deposits record, preserve both values, quantify the difference, and assign the event booking and contracted date question to its decision owner. Test 7 therefore produces evidence, a limitation, and a next action rather than an unattached file.
+Reconcile deposit receipts to bank or processor settlement, the customer subledger, and the deposit liability account. Keep unapplied cash separate until the venue can identify the booking.
 
-### Cross-source challenges unique to event venue deposits
+## Preserve date changes as amendments
 
-- Compare the signed event agreement with the payment schedule for the same event booking and contracted date. This event venue deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated event venue deposits exception owned by the person who controls the missing fact.
-- Compare the payment schedule with the booking calendar for the same event booking and contracted date. This event venue deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated event venue deposits exception owned by the person who controls the missing fact.
-- Compare the booking calendar with the cancellation notice for the same event booking and contracted date. This event venue deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated event venue deposits exception owned by the person who controls the missing fact.
-- Compare the cancellation notice with the rescheduling amendment for the same event booking and contracted date. This event venue deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated event venue deposits exception owned by the person who controls the missing fact.
-- Compare the rescheduling amendment with the refund approval for the same event booking and contracted date. This event venue deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated event venue deposits exception owned by the person who controls the missing fact.
-- Compare the refund approval with the bank activity for the same event booking and contracted date. This event venue deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated event venue deposits exception owned by the person who controls the missing fact.
-- Compare the bank activity with the signed event agreement for the same event booking and contracted date. This event venue deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated event venue deposits exception owned by the person who controls the missing fact.
+A postponed event should retain its original date and agreement history. Record the amendment date, new event date, room changes, revised price, added fees, deposit transfer, and approving parties. Link the signed amendment rather than replacing the first contract in the file.
 
-## Work the exception aging into structured fields
+This history matters when cancellation terms depend on notice measured from the original or revised event date. The offshore preparer should calculate dates from the approved interpretation, not choose the clause that produces the easiest answer.
 
-The central question is what remains a customer liability, what transfers to a new booking, what is refunded, and when any retained amount becomes earned. Extract the trigger date, amount basis, refund or credit condition, ownership language, service period, exclusions, caps, and approval requirement from the applicable agreement. Link each field to the version used. Ambiguity becomes a bounded client question, never a silent preparer assumption.
+If one booking splits into two events, assign new references and document how the original deposit was allocated. If two bookings combine, preserve both payment histories and the approved consolidation.
 
-Use controlled statuses: awaiting evidence, terms under review, ready to reconcile, approved, posted, disputed, and closed. Define each status. Add a topic-specific status only when it changes the next action for the event booking and contracted date.
+## Keep event delivery separate from billing completion
 
-## Reconstruct the posting verification
+After the event, collect the function sheet, room and service records, approved add-ons, damage reports, vendor pass-throughs, final invoice, and customer acceptance or dispute. Record the actual event date and operational status.
 
-Order authorization, operating activity, billing, settlement, adjustment, and closure by occurrence. This chronology exposes cutoff problems hidden by a period-end total. It also distinguishes a correcting document from a genuinely new event venue deposits event.
+An event marked completed in the booking system may still have unresolved charges or credits. Conversely, a final invoice may be issued before a disputed damage charge is settled. The schedule should show operational completion, billing status, cash application, and management approval independently.
 
-## Analyze the signature exception
+For a completed event, reconcile deposits applied to the final customer balance. Show gross deposits, approved application, additional billing, refunds, credits, payments, and remaining receivable or liability. Link every movement to an invoice, credit, payment, or approved entry.
 
-The difficult case is a cancellation converted into a credit for a future event rather than cash refund. Split its economically different components even when the source system presents one line. Identify what is confirmed, what remains unknown, the amount affected, current treatment, evidence requested, and authorized decision maker.
+## Analyze cancellations from the notice record
 
-## Walk through a event venue deposits example
+When a customer cancels, retain the written notice, receipt date, contracted event date, applicable agreement, deposit paid, venue costs already committed, and any management correspondence. Calculate the time between notice and the relevant event date under the approved policy.
 
-Consider this case: a client cancels a reception after the refund window, negotiates a partial future-date credit, and receives the remaining approved refund. Create the event booking and contracted date record first, attach controlling terms, and separate operational completion, billing, cash, cost, and later adjustment. Mark the disputed component rather than netting it into a clean-looking total.
+Do not post a forfeiture from a cancelled status alone. Prepare a decision record that states the clause considered, amount affected, proposed refund or retention, customer dispute, and authorized approver. Management decides whether the venue retains cash, issues a refund, grants a future credit, or makes an exception.
 
-## Complete the population design
+Consider a wedding moved once and later cancelled. The register should show the first agreement, rescheduling amendment, transferred deposit, revised date, second cancellation notice, and final decision. A single cancellation date cannot support the result.
 
-Scan for duplicate event booking and contracted date values, missing dates, impossible statuses, unexpected signs, stale balances, absent approvals, and control-total mismatches. Tie the schedule to exact account, entity, period, and currency parameters. Retain transaction and functional currency plus the approved rate source where relevant.
+## Track future-event credits as open obligations
 
-## Use contract trigger to drive the handoff
+If management allows a deposit to transfer to a future event, keep the amount in the register with the new booking reference, expiration or review date, and approval. Do not treat the credit as used until it is applied to a documented booking or otherwise resolved.
 
-Age unresolved event venue deposits from the date the next action first became due, not the latest edit. The reviewer packet should show control totals, proposed balance, exceptions ranked by age or amount, decisions requested, and direct evidence links.
+Review credits with no new event date, expired dates awaiting management action, and duplicate balances under old and new booking references. Age each item from the next required action date.
 
-[Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation, while [management reporting support](/services/management-reporting-support) can carry approved event venue deposits results into a controlled packet.
+If the customer receives only a partial transfer, show the transferred, refunded, and retained components separately. Netting them into one balance prevents a reviewer from seeing the decision.
 
-## Finish with event chronology
+## Control refunds through bank settlement
 
-Monitor missing-source frequency, exception age, reopened items, and post-review adjustments. These indicators reveal where event venue deposits documentation or ownership needs attention without transferring consequential judgment away from the client.
+An approved refund record should identify the original receipt, payee, amount, payment method, authorization, processing date, and bank settlement. Failed transfers and stale checks remain open liabilities until cash settles or management approves another treatment.
+
+If deductions reduce the refund, retain the supporting charge and approval. The preparer can assemble the calculation and verify payment. Management retains the decision to deduct an amount or settle a dispute.
+
+Route missing amendments to sales or event management, missing operational documents to the venue team, payment problems to finance, and contract decisions to authorized management. A generic open-item list does not tell the reviewer who can resolve the issue.
+
+## Roll the deposit liability forward by booking
+
+The monthly schedule should show opening deposits, new receipts, transfers in and out, applications to completed events, approved refunds, retained amounts, corrections, and ending balance. Tie the total to the exact ledger account and entity.
+
+Review past event dates with open deposits, cancelled bookings without decisions, future credits without new dates, refunds without settlement, and completed events without final applications. The reviewer packet should list each decision requested and link directly to the evidence.
+
+[Management reporting support](/services/management-reporting-support) can include the approved rollforward in the close packet. An offshore bookkeeper can maintain the booking register, match receipts, preserve amendments, prepare cancellation calculations, track refunds, and verify postings. Client management retains contract interpretation, exceptions, retention or refund decisions, recognition, write-offs, and final approval. [Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation within those boundaries.
+
+## Sources
+
+- [U.S. Small Business Administration, Manage your finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
+- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
