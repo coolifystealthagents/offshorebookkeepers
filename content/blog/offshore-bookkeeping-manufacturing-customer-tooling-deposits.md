@@ -12,60 +12,69 @@ relatedLinks: [["Bookkeeping services","/services/daily-transaction-coding"],["M
 faqs: [["Can an offshore bookkeeper maintain the customer tooling deposits schedule?","Yes. The preparer can maintain evidence, reconciliations, and exception questions while the client retains policy choices and approvals."],["What should each row identify?","At minimum, identify the tool identifier and customer program, dates, amounts, status, evidence, ledger mapping, owner, and next action."],["When should an item be closed?","Close it only after the approved action is posted and the source, ledger, and settlement evidence agree."]]
 ---
 
-Customer tooling deposits are easily misstated when operations, documents, ledger entries, and settlement occur on different dates. A useful workpaper follows each tool identifier and customer program and lets a controller decide whether each amount is a refundable deposit, deferred revenue, reimbursable cost, owned asset, or earned charge under the agreement. Offshore preparation organizes facts; client management retains policy, estimates, interpretation, and approval.
+A manufacturer may collect cash before a mold, die, fixture, or other customer-specific tool is complete. The cash receipt is easy to record. The difficult part is following what the quote promised, what purchasing and production spent, who owns the tool, when the customer accepted it, and whether any amount remains refundable or billable.
 
-## Build the contract trigger around the operating event
+A tooling register should connect the customer program to a unique tool identifier from quote through production approval. It gives the controller the evidence needed to decide how deposits, costs, invoices, and ownership should be treated.
 
-Start independently of the ledger. Capture the tool identifier and customer program, original and effective dates, counterparty, currency, status, expected value, account mapping, and evidence links. Reconcile this population against a second control such as sequential records, cash, a subledger, or an operating report. Explain excluded statuses; a schedule can add correctly while omitting its hardest cases.
+## Create the tool record from the approved quote
 
-For customer tooling deposits, the source pack includes customer quote, tooling purchase order, supplier invoice, acceptance milestone, customer billing, and cash receipt. Save reproducible filters, entity, period, and timezone. Retain old and new identifiers after a system change so later credits or amendments still trace to the event they alter.
+Open a record when the customer approves the tooling quote or purchase order. Capture the customer, program, part number, tool identifier, description, quoted amount, deposit terms, expected completion, ownership language, acceptance criteria, and cancellation provisions.
 
-## Test every piece of customer tooling deposits evidence
+Link the quote, purchase order, engineering authorization, and any amendment. If commercial documents disagree, record the conflict and affected amount. Do not choose the newest file simply because its date is later; management should identify which terms control.
 
-- **customer quote:** For customer tooling deposits, connect the customer quote directly to the tool identifier and customer program. Record the customer tooling deposits event date, amount or status, originating system, and cutoff implication. Note what the customer quote cannot prove about customer tooling deposits. If this source conflicts with another customer tooling deposits record, preserve both values, quantify the difference, and assign the tool identifier and customer program question to its decision owner. Test 1 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **tooling purchase order:** For customer tooling deposits, connect the tooling purchase order directly to the tool identifier and customer program. Record the customer tooling deposits event date, amount or status, originating system, and cutoff implication. Note what the tooling purchase order cannot prove about customer tooling deposits. If this source conflicts with another customer tooling deposits record, preserve both values, quantify the difference, and assign the tool identifier and customer program question to its decision owner. Test 2 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **supplier invoice:** For customer tooling deposits, connect the supplier invoice directly to the tool identifier and customer program. Record the customer tooling deposits event date, amount or status, originating system, and cutoff implication. Note what the supplier invoice cannot prove about customer tooling deposits. If this source conflicts with another customer tooling deposits record, preserve both values, quantify the difference, and assign the tool identifier and customer program question to its decision owner. Test 3 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **acceptance milestone:** For customer tooling deposits, connect the acceptance milestone directly to the tool identifier and customer program. Record the customer tooling deposits event date, amount or status, originating system, and cutoff implication. Note what the acceptance milestone cannot prove about customer tooling deposits. If this source conflicts with another customer tooling deposits record, preserve both values, quantify the difference, and assign the tool identifier and customer program question to its decision owner. Test 4 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **customer billing:** For customer tooling deposits, connect the customer billing directly to the tool identifier and customer program. Record the customer tooling deposits event date, amount or status, originating system, and cutoff implication. Note what the customer billing cannot prove about customer tooling deposits. If this source conflicts with another customer tooling deposits record, preserve both values, quantify the difference, and assign the tool identifier and customer program question to its decision owner. Test 5 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **cash receipt:** For customer tooling deposits, connect the cash receipt directly to the tool identifier and customer program. Record the customer tooling deposits event date, amount or status, originating system, and cutoff implication. Note what the cash receipt cannot prove about customer tooling deposits. If this source conflicts with another customer tooling deposits record, preserve both values, quantify the difference, and assign the tool identifier and customer program question to its decision owner. Test 6 therefore produces evidence, a limitation, and a next action rather than an unattached file.
+Use the tool identifier across purchasing, production, billing, and fixed-asset or custody records. A program name alone may cover several tools and revisions. Without a stable identifier, costs and customer payments can be assigned to the wrong deliverable.
 
-### Cross-source challenges unique to customer tooling deposits
+## Match each deposit to the obligation it supports
 
-- Compare the customer quote with the tooling purchase order for the same tool identifier and customer program. This customer tooling deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated customer tooling deposits exception owned by the person who controls the missing fact.
-- Compare the tooling purchase order with the supplier invoice for the same tool identifier and customer program. This customer tooling deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated customer tooling deposits exception owned by the person who controls the missing fact.
-- Compare the supplier invoice with the acceptance milestone for the same tool identifier and customer program. This customer tooling deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated customer tooling deposits exception owned by the person who controls the missing fact.
-- Compare the acceptance milestone with the customer billing for the same tool identifier and customer program. This customer tooling deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated customer tooling deposits exception owned by the person who controls the missing fact.
-- Compare the customer billing with the cash receipt for the same tool identifier and customer program. This customer tooling deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated customer tooling deposits exception owned by the person who controls the missing fact.
-- Compare the cash receipt with the customer quote for the same tool identifier and customer program. This customer tooling deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated customer tooling deposits exception owned by the person who controls the missing fact.
+Record the customer invoice, cash receipt, currency, payment reference, and ledger posting. If one payment covers several tools, allocate it from remittance detail or an approved customer schedule. Do not divide cash evenly merely to clear the bank reconciliation.
 
-## Work the event chronology into structured fields
+Show quoted value, deposits billed, deposits received, remaining contractual billing, credits, and unapplied cash separately. This distinguishes collection status from the question of whether an amount has been earned or remains refundable.
 
-The central question is whether each amount is a refundable deposit, deferred revenue, reimbursable cost, owned asset, or earned charge under the agreement. Extract the trigger date, amount basis, refund or credit condition, ownership language, service period, exclusions, caps, and approval requirement from the applicable agreement. Link each field to the version used. Ambiguity becomes a bounded client question, never a silent preparer assumption.
+Reconcile the deposit register to accounts receivable, bank activity, and the relevant liability or revenue account. Investigate receipts with no tool record and tool records with billed deposits but no cash application.
 
-Use controlled statuses: awaiting evidence, terms under review, ready to reconcile, approved, posted, disputed, and closed. Define each status. Add a topic-specific status only when it changes the next action for the tool identifier and customer program.
+## Accumulate vendor and internal costs by tool
 
-## Reconstruct the gross-to-net bridge
+Tag purchase orders, supplier invoices, outside machining, materials, engineering time, and approved internal labor to the tool identifier. Retain vendor, document number, service or receipt date, amount, currency, and posting reference.
 
-Order authorization, operating activity, billing, settlement, adjustment, and closure by occurrence. This chronology exposes cutoff problems hidden by a period-end total. It also distinguishes a correcting document from a genuinely new customer tooling deposits event.
+Compare committed cost, recorded cost, and the latest approved estimate. A purchase order shows commitment, not necessarily delivered work. A supplier invoice shows a charge, not necessarily completion or customer acceptance. Keep those milestones distinct.
 
-## Analyze the signature exception
+Flag costs with no tool identifier, duplicate supplier invoices, charges outside the approved scope, and costs posted after the tool was marked complete. Route engineering questions to the program owner and coding questions to finance.
 
-The difficult case is a tool used across several products or retained by the manufacturer after the program ends. Split its economically different components even when the source system presents one line. Identify what is confirmed, what remains unknown, the amount affected, current treatment, evidence requested, and authorized decision maker.
+## Preserve change orders as separate decisions
 
-## Walk through a customer tooling deposits example
+Tooling changes often begin with an engineering revision before the commercial amendment is signed. Record the request date, requested scope, cost estimate, customer response, approved amount, schedule effect, and new billing terms.
 
-Consider this case: a fabricator collects a deposit for a dedicated die, pays the toolmaker in stages, and receives customer approval after sample parts pass inspection. Create the tool identifier and customer program record first, attach controlling terms, and separate operational completion, billing, cash, cost, and later adjustment. Mark the disputed component rather than netting it into a clean-looking total.
+Do not blend an unapproved change into the original quoted value. Keep it visible as pending scope until management confirms the treatment. If work proceeds at risk, the register should state who approved that action and what amount is exposed.
 
-## Complete the exception aging
+Consider a mold that passes its first trial but needs a customer-requested design revision before production approval. The original tool, corrective work required to meet the first specification, and customer-requested enhancement may have different commercial outcomes. Separate their costs and approvals even if one vendor invoice includes all three.
 
-Scan for duplicate tool identifier and customer program values, missing dates, impossible statuses, unexpected signs, stale balances, absent approvals, and control-total mismatches. Tie the schedule to exact account, entity, period, and currency parameters. Retain transaction and functional currency plus the approved rate source where relevant.
+## Connect technical completion to customer acceptance
 
-## Use posting verification to drive the handoff
+Track design release, supplier completion, receipt at the plant, trial run, dimensional or quality review, customer sample approval, production approval, and final acceptance. Retain dates and evidence for the milestones that apply to the agreement.
 
-Age unresolved customer tooling deposits from the date the next action first became due, not the latest edit. The reviewer packet should show control totals, proposed balance, exceptions ranked by age or amount, decisions requested, and direct evidence links.
+An internal "complete" status is not the same as customer acceptance. Likewise, customer payment does not prove that the required tool or approval milestone has occurred. The schedule should show both operational progress and commercial acceptance.
 
-[Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation, while [management reporting support](/services/management-reporting-support) can carry approved customer tooling deposits results into a controlled packet.
+If acceptance is delayed, name the missing test, document, or customer response. Age the exception from the due date and assign it to the person who can obtain the evidence.
 
-## Finish with population design
+## Resolve ownership and physical custody
 
-Monitor missing-source frequency, exception age, reopened items, and post-review adjustments. These indicators reveal where customer tooling deposits documentation or ownership needs attention without transferring consequential judgment away from the client.
+Record who owns the completed tool under the approved agreement, where it is located, who maintains it, and whether it can be used for other customers. Link any customer asset tag, custody acknowledgment, storage agreement, or transfer document.
+
+If the tool moves to another facility or supplier, retain the shipment and receipt evidence. A ledger entry cannot prove physical custody. Missing location or tag information should remain an operational exception even after the deposit accounting is resolved.
+
+Management retains decisions about asset ownership, capitalization, revenue, refund obligations, impairment, and contract interpretation. The preparer organizes the facts and applies only approved accounting instructions.
+
+## Close the tool through a documented rollforward
+
+For each tool, show opening deposit balance, new billings, cash received, approved releases or reclassifications, refunds, credits, and ending balance. Separately show quoted amount, approved changes, cost incurred, open commitments, acceptance status, and custody status.
+
+Before closure, verify that customer and vendor documents agree with the register, approved entries are posted, final billing or refund is complete, and acceptance and custody evidence are archived. Carry unresolved claims, changes, or transfers forward with their original dates.
+
+The review packet should identify deposits by stage, cost overruns, unapproved changes, overdue acceptances, unallocated cash, and tools with unclear ownership or location. [Management reporting support](/services/management-reporting-support) can include the approved results in the program review.
+
+An offshore bookkeeper can maintain tool records, match deposits, collect costs, prepare change and milestone schedules, reconcile balances, and verify postings. Client management retains commercial interpretation, ownership, estimates, recognition, write-offs, and final approval. [Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation within those boundaries.
+
+## Sources
+
+- [U.S. Small Business Administration, Manage your finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
+- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
