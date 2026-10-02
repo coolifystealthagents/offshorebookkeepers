@@ -12,64 +12,69 @@ relatedLinks: [["Bookkeeping services","/services/daily-transaction-coding"],["M
 faqs: [["Can an offshore bookkeeper maintain the childcare enrollment deposits schedule?","Yes. The preparer can maintain evidence, reconciliations, and exception questions while the client retains policy choices and approvals."],["What should each row identify?","At minimum, identify the child, program, and deposit receipt, dates, amounts, status, evidence, ledger mapping, owner, and next action."],["When should an item be closed?","Close it only after the approved action is posted and the source, ledger, and settlement evidence agree."]]
 ---
 
-Childcare enrollment deposits are easily misstated when operations, documents, ledger entries, and settlement occur on different dates. A useful workpaper follows each child, program, and deposit receipt and lets a controller decide whether the balance remains refundable, applies to tuition, becomes an approved forfeiture, or must be returned. Offshore preparation organizes facts; client management retains policy, estimates, interpretation, and approval.
+An enrollment deposit often arrives months before a child starts care. Between receipt and the first day, the family may change programs, defer the start, withdraw, receive tuition credit, or lose part of the deposit under approved terms. A ledger balance cannot explain which outcome applies to each family.
 
-## Build the exception aging around the operating event
+The deposit register should follow the child, program, receipt, enrollment decision, and final disposition. It gives management a list of obligations and decisions rather than one unexplained liability total.
 
-Start independently of the ledger. Capture the child, program, and deposit receipt, original and effective dates, counterparty, currency, status, expected value, account mapping, and evidence links. Reconcile this population against a second control such as sequential records, cash, a subledger, or an operating report. Explain excluded statuses; a schedule can add correctly while omitting its hardest cases.
+## Record the deposit when cash arrives
 
-For childcare enrollment deposits, the source pack includes family agreement, wait-list record, placement offer, payment receipt, enrollment date, withdrawal notice, refund approval, and bank settlement. Save reproducible filters, entity, period, and timezone. Retain old and new identifiers after a system change so later credits or amendments still trace to the event they alter.
+Create a register row from the receipt or payment processor record. Capture the child or family identifier, program, location, intended start date, receipt date, amount, payment method, transaction reference, and ledger posting. Link the signed enrollment terms that applied on the receipt date.
 
-## Test every piece of childcare enrollment deposits evidence
+Do not wait for a classroom placement to create the row. Deposits for waitlisted or future families are easy to lose if the register begins with active enrollment. Reconcile receipt records to bank or processor settlement and to the deposit liability account.
 
-- **family agreement:** For childcare enrollment deposits, connect the family agreement directly to the child, program, and deposit receipt. Record the childcare enrollment deposits event date, amount or status, originating system, and cutoff implication. Note what the family agreement cannot prove about childcare enrollment deposits. If this source conflicts with another childcare enrollment deposits record, preserve both values, quantify the difference, and assign the child, program, and deposit receipt question to its decision owner. Test 1 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **wait-list record:** For childcare enrollment deposits, connect the wait-list record directly to the child, program, and deposit receipt. Record the childcare enrollment deposits event date, amount or status, originating system, and cutoff implication. Note what the wait-list record cannot prove about childcare enrollment deposits. If this source conflicts with another childcare enrollment deposits record, preserve both values, quantify the difference, and assign the child, program, and deposit receipt question to its decision owner. Test 2 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **placement offer:** For childcare enrollment deposits, connect the placement offer directly to the child, program, and deposit receipt. Record the childcare enrollment deposits event date, amount or status, originating system, and cutoff implication. Note what the placement offer cannot prove about childcare enrollment deposits. If this source conflicts with another childcare enrollment deposits record, preserve both values, quantify the difference, and assign the child, program, and deposit receipt question to its decision owner. Test 3 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **payment receipt:** For childcare enrollment deposits, connect the payment receipt directly to the child, program, and deposit receipt. Record the childcare enrollment deposits event date, amount or status, originating system, and cutoff implication. Note what the payment receipt cannot prove about childcare enrollment deposits. If this source conflicts with another childcare enrollment deposits record, preserve both values, quantify the difference, and assign the child, program, and deposit receipt question to its decision owner. Test 4 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **enrollment date:** For childcare enrollment deposits, connect the enrollment date directly to the child, program, and deposit receipt. Record the childcare enrollment deposits event date, amount or status, originating system, and cutoff implication. Note what the enrollment date cannot prove about childcare enrollment deposits. If this source conflicts with another childcare enrollment deposits record, preserve both values, quantify the difference, and assign the child, program, and deposit receipt question to its decision owner. Test 5 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **withdrawal notice:** For childcare enrollment deposits, connect the withdrawal notice directly to the child, program, and deposit receipt. Record the childcare enrollment deposits event date, amount or status, originating system, and cutoff implication. Note what the withdrawal notice cannot prove about childcare enrollment deposits. If this source conflicts with another childcare enrollment deposits record, preserve both values, quantify the difference, and assign the child, program, and deposit receipt question to its decision owner. Test 6 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **refund approval:** For childcare enrollment deposits, connect the refund approval directly to the child, program, and deposit receipt. Record the childcare enrollment deposits event date, amount or status, originating system, and cutoff implication. Note what the refund approval cannot prove about childcare enrollment deposits. If this source conflicts with another childcare enrollment deposits record, preserve both values, quantify the difference, and assign the child, program, and deposit receipt question to its decision owner. Test 7 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **bank settlement:** For childcare enrollment deposits, connect the bank settlement directly to the child, program, and deposit receipt. Record the childcare enrollment deposits event date, amount or status, originating system, and cutoff implication. Note what the bank settlement cannot prove about childcare enrollment deposits. If this source conflicts with another childcare enrollment deposits record, preserve both values, quantify the difference, and assign the child, program, and deposit receipt question to its decision owner. Test 8 therefore produces evidence, a limitation, and a next action rather than an unattached file.
+Use a stable family or child identifier rather than a name alone. Siblings, spelling differences, and payer names can create false duplicates. If one payment covers more than one child, document the approved allocation instead of copying the full receipt to both rows.
 
-### Cross-source challenges unique to childcare enrollment deposits
+## Track operational status without deciding the accounting outcome
 
-- Compare the family agreement with the wait-list record for the same child, program, and deposit receipt. This childcare enrollment deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated childcare enrollment deposits exception owned by the person who controls the missing fact.
-- Compare the wait-list record with the placement offer for the same child, program, and deposit receipt. This childcare enrollment deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated childcare enrollment deposits exception owned by the person who controls the missing fact.
-- Compare the placement offer with the payment receipt for the same child, program, and deposit receipt. This childcare enrollment deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated childcare enrollment deposits exception owned by the person who controls the missing fact.
-- Compare the payment receipt with the enrollment date for the same child, program, and deposit receipt. This childcare enrollment deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated childcare enrollment deposits exception owned by the person who controls the missing fact.
-- Compare the enrollment date with the withdrawal notice for the same child, program, and deposit receipt. This childcare enrollment deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated childcare enrollment deposits exception owned by the person who controls the missing fact.
-- Compare the withdrawal notice with the refund approval for the same child, program, and deposit receipt. This childcare enrollment deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated childcare enrollment deposits exception owned by the person who controls the missing fact.
-- Compare the refund approval with the bank settlement for the same child, program, and deposit receipt. This childcare enrollment deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated childcare enrollment deposits exception owned by the person who controls the missing fact.
-- Compare the bank settlement with the family agreement for the same child, program, and deposit receipt. This childcare enrollment deposits comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated childcare enrollment deposits exception owned by the person who controls the missing fact.
+Enrollment staff may use statuses such as inquiry, waitlisted, offered, accepted, deferred, started, withdrawn, or cancelled. Preserve the date of each material change. The current status tells the preparer what evidence to seek, but it does not by itself determine whether the deposit is refundable, applicable to tuition, or forfeited.
 
-## Work the posting verification into structured fields
+Store the decision rule separately. Link each row to the enrollment agreement version, cancellation terms, notice requirement, credit provision, and approval authority. If wording is unclear or the family disputes it, identify the amount affected and send a focused question to management.
 
-The central question is whether the balance remains refundable, applies to tuition, becomes an approved forfeiture, or must be returned. Extract the trigger date, amount basis, refund or credit condition, ownership language, service period, exclusions, caps, and approval requirement from the applicable agreement. Link each field to the version used. Ambiguity becomes a bounded client question, never a silent preparer assumption.
+The offshore bookkeeper can apply a documented decision after approval. Management retains interpretation of the agreement, exceptions for a family, and the decision to refund, credit, or forfeit an amount.
 
-Use controlled statuses: awaiting evidence, terms under review, ready to reconcile, approved, posted, disputed, and closed. Define each status. Add a topic-specific status only when it changes the next action for the child, program, and deposit receipt.
+## Follow program and start-date changes
 
-## Reconstruct the population design
+A family may move from an infant program to toddler care, transfer locations, or defer the start date. Keep those changes on the same deposit history unless management approves a new obligation. Record the old and new program, effective date, revised tuition arrangement, and approval.
 
-Order authorization, operating activity, billing, settlement, adjustment, and closure by occurrence. This chronology exposes cutoff problems hidden by a period-end total. It also distinguishes a correcting document from a genuinely new childcare enrollment deposits event.
+This history prevents a deposit from appearing twice when enrollment staff opens a new program record. It also shows whether the original terms still apply. A moved start date can change the period in which the deposit is reviewed, but it should not erase the original receipt date or aging.
 
-## Analyze the signature exception
+Flag deposits with a past intended start date and no enrollment outcome. These stale records often require a direct operational check. They should not remain in the liability indefinitely simply because no one changed the status.
 
-The difficult case is siblings whose deposits are transferred between programs or enrollment terms. Split its economically different components even when the source system presents one line. Identify what is confirmed, what remains unknown, the amount affected, current treatment, evidence requested, and authorized decision maker.
+## Apply deposits to tuition with a visible trail
 
-## Walk through a childcare enrollment deposits example
+When approved terms apply the deposit to tuition, link the deposit row to the child account charge, invoice, or credit. Show the gross deposit, amount applied, application date, billing period, and remaining balance. Verify that the family account and general ledger both reflect the movement.
 
-Consider this case: a family pays for an infant opening, moves the start date twice, then applies part of the deposit to the first tuition invoice under the signed policy. Create the child, program, and deposit receipt record first, attach controlling terms, and separate operational completion, billing, cash, cost, and later adjustment. Mark the disputed component rather than netting it into a clean-looking total.
+Avoid reducing the register from a tuition batch total without child-level references. The ledger can balance while one family's deposit is applied twice and another remains untouched. A control total should reconcile applications in the register to the billing system and the liability release entry.
 
-## Complete the contract trigger
+If the deposit covers a final month rather than the first month, keep it open until that event occurs. The enrollment start alone is not evidence that the liability has cleared.
 
-Scan for duplicate child, program, and deposit receipt values, missing dates, impossible statuses, unexpected signs, stale balances, absent approvals, and control-total mismatches. Tie the schedule to exact account, entity, period, and currency parameters. Retain transaction and functional currency plus the approved rate source where relevant.
+## Process refunds as their own workflow
 
-## Use event chronology to drive the handoff
+An approved refund needs the request, approval, payee, amount, payment method, date, and settlement reference. If processor fees or other deductions affect the cash paid, show them separately and retain management's approved treatment.
 
-Age unresolved childcare enrollment deposits from the date the next action first became due, not the latest edit. The reviewer packet should show control totals, proposed balance, exceptions ranked by age or amount, decisions requested, and direct evidence links.
+Match the refund to the original receipt. A refund sent to a different payer or bank account requires documented authorization. Keep failed or returned payments open until cash has settled or management approves another action.
 
-[Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation, while [management reporting support](/services/management-reporting-support) can carry approved childcare enrollment deposits results into a controlled packet.
+Consider a family that pays a deposit, defers the start, and later withdraws within the notice period. The register should retain the original terms, approved deferral, revised start date, withdrawal notice, refund decision, and payment. Replacing the record with a "refunded" status would hide the evidence that supports the outcome.
 
-## Finish with gross-to-net bridge
+## Do not post forfeiture from an operational label
 
-Monitor missing-source frequency, exception age, reopened items, and post-review adjustments. These indicators reveal where childcare enrollment deposits documentation or ownership needs attention without transferring consequential judgment away from the client.
+A cancellation or no-show status may trigger review, but forfeiture should be posted only after an authorized decision under the applicable terms. Record the event date, notice received, terms cited, amount considered, amount approved, decision maker, and posting reference.
+
+If only part of the deposit is forfeited, keep the remaining refund or credit visible. If a family disputes the decision, retain the disputed amount and correspondence rather than closing the row after the entry is posted.
+
+Use a separate queue for cases awaiting management judgment. Operations may confirm what happened; the controller decides the financial treatment. That distinction prevents routine bookkeeping from making policy exceptions.
+
+## Reconcile the rollforward every month
+
+The register should show opening deposits, new receipts, tuition applications, refunds, approved forfeitures, transfers, corrections, and the ending balance. Tie the ending amount to the exact liability account, entity, and location.
+
+Review negative balances, duplicate receipts, missing agreement links, past start dates, refunds without settlement, applications without billing references, and forfeitures without approval. Age open items from the date the next action became due, not the latest comment date.
+
+The review packet should summarize deposits by status and location, list stale or disputed cases, and identify decisions requested from management. [Management reporting support](/services/management-reporting-support) can include the approved rollforward in the recurring close packet.
+
+An offshore bookkeeper can maintain the register, match receipts, follow status changes, prepare approved applications or refunds, reconcile the liability, and verify postings. Client management retains agreement interpretation, family exceptions, forfeiture decisions, write-offs, and final approval. [Bookkeeping services](/services/daily-transaction-coding) can support the recurring preparation within those boundaries.
+
+## Sources
+
+- [U.S. Small Business Administration, Manage your finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
+- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
