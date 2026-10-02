@@ -14,6 +14,9 @@
   "researchCount": 5,
   "researchBodyWords": [1280, 1237, 1256, 1241, 1232],
   "researchMaximumFiveWordShingleJaccardPercent": 0.43,
+  "postRepairRenderedResearchBodyWords": [1357, 1292, 1320, 1303, 1302],
+  "postRepairResearchMaximumFiveWordShingleJaccardPercent": 2.2,
+  "postRepairCompleteRenderedBodies": "pass",
   "checks": {
     "manifestHashes": "pass",
     "contentValidation": "pass",

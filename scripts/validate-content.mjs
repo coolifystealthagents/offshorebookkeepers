@@ -5,6 +5,10 @@ import { execFileSync } from 'node:child_process';
 const failures = [];
 const requiredText = ['title', 'description', 'published', 'updated', 'category', 'featuredImage'];
 const isoDate = /^\d{4}-\d{2}-\d{2}$/;
+const completeRenderedBodyManifest = path.join(process.cwd(), '.paperclip', 'daily-content', '2026-10-02', 'research-off81.json');
+const completeRenderedBodyPaths = fs.existsSync(completeRenderedBodyManifest)
+  ? new Set(JSON.parse(fs.readFileSync(completeRenderedBodyManifest, 'utf8')).map((entry) => entry.sourcePath))
+  : new Set();
 
 const withdrawalManifestPath = path.join(process.cwd(), 'content', 'withdrawn.json');
 const withdrawnContentSlugs = fs.existsSync(withdrawalManifestPath)
@@ -96,6 +100,10 @@ for (const kind of ['blog', 'research', 'alternatives']) {
     const { block, body } = frontmatter;
     const baseline = frontmatterParts(gitBaseline(relativeFile, raw));
     const researchChanged = kind === 'research' && (!baseline || baseline.block !== block || baseline.body !== body);
+
+    if (completeRenderedBodyPaths.has(relativeFile.split(path.sep).join('/')) && !/^##\s+\S/.test(body.trimStart())) {
+      failures.push(`${label}: cycle-scoped Research body must begin with a topic-owned ## heading so the opening paragraph renders`);
+    }
 
     for (const key of requiredText) if (!parseScalar(block, key)) failures.push(`${label}: missing ${key}`);
     for (const key of ['published', 'updated']) {

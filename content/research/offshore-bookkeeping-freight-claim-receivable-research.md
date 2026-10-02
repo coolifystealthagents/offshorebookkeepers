@@ -13,7 +13,9 @@ relatedLinks: [["Explore inventory and cost data support","/services/inventory-c
 faqs: [{"question":"Does an open carrier claim automatically qualify as a receivable?","answer":"No. Recognition and measurement depend on the facts and the accounting framework selected by management. The protocol preserves evidence for that decision."},{"question":"Can a bookkeeper settle or write off a claim?","answer":"Only if the client has expressly granted that authority. Ordinarily the bookkeeper prepares the case file and reconciliation while an authorized owner decides settlement and write-off."},{"question":"Is the study a legal compliance review?","answer":"No. Counsel or another qualified owner must decide which transport rules and contractual terms apply."}]
 serviceHandoff: {"href":"/contact-us","label":"Discuss a controlled freight-claim workflow","title":"Make every claim traceable","body":"Define source documents, case states, accounting boundaries, review ownership, and escalation before assigning preparation work."}
 ---
-This research brief is labeled for the October 2, 2026 cycle. Sources were checked on October 2, 2026. It defines a testable bookkeeping protocol and reports no client results, market average, recovery rate, or legal conclusion.
+## Scope and decision boundary
+
+This study defines a testable bookkeeping protocol for freight-claim receivables. It reports no client result, market average, recovery rate, or legal conclusion; management and qualified advisers retain recognition, valuation, contractual, and legal decisions.
 
 ## The decision this study supports
 

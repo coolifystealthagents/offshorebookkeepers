@@ -11,6 +11,7 @@
     "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "next typegen && tsc --noEmit",
     "validate:content": "node scripts/validate-content.mjs",
+    "validate:off82-rendered": "node scripts/validate-off82-rendered.mjs",
     "thumbnails:templates": "python scripts/thumbnails.py templates",
     "thumbnails:report": "python scripts/thumbnails.py report content/research/*.md content/alternatives/*.md"
   },

@@ -13,7 +13,9 @@ relatedLinks: [["View ecommerce bookkeeping support","/services/ecommerce-bookke
 faqs: [{"question":"Is the bank deposit the marketplace revenue amount?","answer":"Not necessarily. A payout can combine collections, fees, taxes, credits, holds, prior-period adjustments, and currency effects. Management determines accounting presentation."},{"question":"Can reports from two cloud marketplaces be loaded into one template?","answer":"Only after a documented mapping preserves each platform's identifiers, event definitions, time zones, and sign conventions."},{"question":"Does this study test contract compliance?","answer":"It identifies evidence and differences for review; it does not offer a legal conclusion about marketplace obligations."}]
 serviceHandoff: {"href":"/contact-us","label":"Discuss a marketplace payout workflow","title":"Build a traceable usage-to-cash bridge","body":"Inventory seller reports, define identifier mappings and cutoff, and assign judgment and escalation before routine preparation."}
 ---
-This October 2, 2026 research-cycle brief reports no private marketplace data or benchmark. Sources were checked October 2, 2026. It is a study protocol, not accounting, tax, legal, security, or investment advice.
+## Scope and decision boundary
+
+This study defines a protocol for tracing cloud-marketplace activity through disbursement and cash. It reports no private marketplace data or benchmark and does not provide accounting, tax, legal, security, or investment advice.
 
 ## Why a payout is a chain, not a transaction
 

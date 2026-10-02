@@ -13,7 +13,9 @@ relatedLinks: [["View month-end close support","/services/month-end-close-suppor
 faqs: [{"question":"Does filing a claim establish an accounting receivable?","answer":"No. Filing is an operational event. Management applies its accounting framework and the available evidence to recognition and measurement."},{"question":"Should expected insurance proceeds be netted against repair costs?","answer":"Presentation depends on the applicable accounting and facts. The protocol keeps components distinct so the authorized owner can decide."},{"question":"May the bookkeeper estimate coverage?","answer":"The bookkeeper can compile policy and claim facts but should not interpret coverage or approve an estimate without assigned authority."}]
 serviceHandoff: {"href":"/contact-us","label":"Discuss a controlled claim schedule","title":"Separate case preparation from coverage judgment","body":"Define case identifiers, evidence gates, ledger mappings, decision owners, and review before assigning routine upkeep."}
 ---
-This brief is labeled for the October 2, 2026 research cycle. Its sources were checked October 2, 2026. It reports no recovery rate, legal opinion, tax conclusion, or client outcome.
+## Scope and decision boundary
+
+This study defines an evidence protocol for insurance-claim receivables. It reports no recovery rate, legal opinion, tax conclusion, or client outcome; authorized owners retain coverage, recognition, measurement, tax, and settlement decisions.
 
 ## Separate four stories that often get blended
 

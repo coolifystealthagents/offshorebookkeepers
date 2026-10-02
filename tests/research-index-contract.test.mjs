@@ -162,6 +162,21 @@ test('article body parser preserves supported structure instead of exposing mark
   assert.deepEqual(internal[0].segments, [{ type: 'link', value: 'Internal', href: '/services' }]);
 });
 
+test('October 2 Research sources preserve their opening paragraphs as renderable sections', async () => {
+  const content = await loadContentModule();
+  const manifest = JSON.parse(fs.readFileSync(path.join(root, '.paperclip/daily-content/2026-10-02/research-off81.json'), 'utf8'));
+  for (const entry of manifest) {
+    const raw = fs.readFileSync(path.join(root, entry.sourcePath), 'utf8');
+    const body = raw.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n([\s\S]*)$/)?.[1] || '';
+    assert.match(body.trimStart(), /^##\s+\S/, `${entry.slug} starts with a renderable topic heading`);
+    const post = content.getPost('research', entry.slug);
+    assert.ok(post, `${entry.slug} loads`);
+    assert.equal(post.sections[0].heading, 'Scope and decision boundary');
+    assert.ok(post.sections[0].body.length > 80, `${entry.slug} preserves its opening purpose paragraph`);
+    assert.doesNotMatch(post.sections[0].body, /\b(?:research[- ]cycle|cycle brief|belongs to the .* cycle|labeled for the .* cycle)\b/i);
+  }
+});
+
 test('validator enforces dates, FAQ objects, section bodies, and evidence maps without a ten-source quota', () => {
   assert.equal(runValidator().status, 0, 'one listed source with a claim map is valid');
 

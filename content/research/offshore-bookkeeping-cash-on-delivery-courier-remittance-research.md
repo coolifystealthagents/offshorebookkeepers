@@ -13,7 +13,9 @@ relatedLinks: [["View ecommerce bookkeeping support","/services/ecommerce-bookke
 faqs: [{"question":"Why is matching the courier deposit to the bank insufficient?","answer":"A net deposit can conceal fees, returns, shortages, offsets, or orders omitted from the courier statement. The study reconciles the gross order population and every bridge component."},{"question":"Does the protocol set an acceptable remittance delay?","answer":"No. The client derives service expectations from its contracts, jurisdictions, and risk assessment."},{"question":"May an offshore bookkeeper approve a courier shortage?","answer":"Preparation and escalation may be assigned; acceptance, write-off, refund, and policy decisions stay with authorized client owners."}]
 serviceHandoff: {"href":"/contact-us","label":"Discuss a controlled COD reconciliation","title":"Connect delivery evidence to cash","body":"Define courier files, order states, remittance clocks, fee rules, exception ownership, and review before delegating the workflow."}
 ---
-This October 2, 2026 research-cycle brief proposes a method; it does not publish a client result or industry benchmark. Sources were checked October 2, 2026. Contract, accounting, tax, privacy, and legal conclusions require qualified owners.
+## Scope and decision boundary
+
+This study proposes a method for testing cash-on-delivery courier remittances; it does not publish a client result or industry benchmark. Contract, accounting, tax, privacy, and legal conclusions remain with qualified owners.
 
 ## Why the clearing balance needs two directions of proof
 

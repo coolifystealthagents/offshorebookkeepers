@@ -13,7 +13,9 @@ relatedLinks: [["View management reporting support","/services/management-report
 faqs: [{"question":"Does this framework interpret royalty contracts?","answer":"No. Counsel and authorized management interpret rights, obligations, definitions, and dispute terms. The bookkeeper implements an approved rulebook and preserves exceptions."},{"question":"Can statements from different licensees be compared directly?","answer":"Only after demonstrating equivalent rights, territories, bases, currencies, periods, deductions, and data coverage."},{"question":"Does recalculation prove the statement is complete?","answer":"No. Recalculation tests supplied inputs. Completeness requires an independent activity population or another justified procedure."}]
 serviceHandoff: {"href":"/contact-us","label":"Discuss a controlled royalty reconciliation","title":"Turn contract rules into reviewable evidence","body":"Map approved definitions, data sources, statement fields, dispute ownership, and accounting decisions before assigning preparation."}
 ---
-This brief belongs to the October 2, 2026 research cycle. Sources were checked that day. It offers a bookkeeping research design, not legal interpretation, valuation advice, an assurance conclusion, or a performance claim.
+## Scope and decision boundary
+
+This study offers a bookkeeping design for reconciling royalty statements. It does not provide legal interpretation, valuation advice, an assurance conclusion, or a performance claim; authorized legal and finance owners retain those judgments.
 
 ## Research question and unit of account
 

@@ -15,3 +15,11 @@ Status: **PASSING LOCAL HANDOFF**
 - Publication status: local drafts only. Research did not push, deploy, or call these articles live.
 
 The `2026-10-02` value is the cycle label and provisional publication metadata for the integrator to reconcile to the site's configured local date immediately before the sole combined release. If first public publication occurs on another local date, the integrator must update article frontmatter and this manifest before push.
+
+## OFF-82 completeness repair candidate
+
+- Added a topic-owned opening section to each of the five sources so every substantive paragraph is represented in the renderer's section model.
+- Removed internal cycle/batch bookkeeping phrasing from the public opening paragraphs without changing the articles' analysis or decision boundaries.
+- Local rendered substantive counts after repair: 1,357; 1,292; 1,320; 1,303; 1,302.
+- Maximum pairwise five-word-shingle Jaccard after repair: **2.20%**.
+- Expected-source-segment versus rendered-HTML comparison: **5/5 complete**.
