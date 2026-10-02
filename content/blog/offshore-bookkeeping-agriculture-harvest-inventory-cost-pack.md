@@ -12,64 +12,65 @@ relatedLinks: [["Bookkeeping services","/services/daily-transaction-coding"],["M
 faqs: [["Can an offshore bookkeeper maintain the harvest inventory cost evidence schedule?","Yes. The preparer can maintain evidence, reconciliations, and exception questions while the client retains policy choices and approvals."],["What should each row identify?","At minimum, identify the crop, field, harvest date, and saleable lot, dates, amounts, status, evidence, ledger mapping, owner, and next action."],["When should an item be closed?","Close it only after the approved action is posted and the source, ledger, and settlement evidence agree."]]
 ---
 
-Harvest inventory cost evidence are easily misstated when operations, documents, ledger entries, and settlement occur on different dates. A useful workpaper follows each crop, field, harvest date, and saleable lot and lets a controller decide how documented quantities and approved cost pools move from growing activity into packed inventory and cost of sales. Offshore preparation organizes facts; client management retains policy, estimates, interpretation, and approval.
+Harvest accounting depends on quantities that change form. Product leaves a field in bins or loads, reaches a packing facility at a different measured weight, and emerges as saleable grades, processing output, culls, or waste. Vendor bills and payroll arrive on their own schedules. A cost pack needs to connect those records before management can review inventory and cost of sales.
 
-## Build the event chronology around the operating event
+The workpaper should follow crop, field, harvest date, receiving load, and packed lot. It should preserve measurement changes and approved cost allocations rather than forcing field totals to equal packed output without explanation.
 
-Start independently of the ledger. Capture the crop, field, harvest date, and saleable lot, original and effective dates, counterparty, currency, status, expected value, account mapping, and evidence links. Reconcile this population against a second control such as sequential records, cash, a subledger, or an operating report. Explain excluded statuses; a schedule can add correctly while omitting its hardest cases.
+## Build the harvest population from field records
 
-For harvest inventory cost evidence, the source pack includes field log, harvest ticket, labor record, packing report, storage statement, spoilage log, lot transfer, and sales record. Save reproducible filters, entity, period, and timezone. Retain old and new identifiers after a system change so later credits or amendments still trace to the event they alter.
+Start with the harvest log or field ticket population. Capture crop, variety, ranch and field, harvest date, crew or contractor, container count, field weight, load identifier, destination, and dispatch time. Retain the unit of measure for every quantity.
 
-## Test every piece of harvest inventory cost evidence evidence
+Reconcile sequential tickets or load identifiers and investigate gaps, duplicates, and cancelled records. Compare dispatched loads with packing-house receipts. A ledger report cannot show product that was harvested but never matched to a receipt.
 
-- **field log:** For harvest inventory cost evidence, connect the field log directly to the crop, field, harvest date, and saleable lot. Record the harvest inventory cost evidence event date, amount or status, originating system, and cutoff implication. Note what the field log cannot prove about harvest inventory cost evidence. If this source conflicts with another harvest inventory cost evidence record, preserve both values, quantify the difference, and assign the crop, field, harvest date, and saleable lot question to its decision owner. Test 1 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **harvest ticket:** For harvest inventory cost evidence, connect the harvest ticket directly to the crop, field, harvest date, and saleable lot. Record the harvest inventory cost evidence event date, amount or status, originating system, and cutoff implication. Note what the harvest ticket cannot prove about harvest inventory cost evidence. If this source conflicts with another harvest inventory cost evidence record, preserve both values, quantify the difference, and assign the crop, field, harvest date, and saleable lot question to its decision owner. Test 2 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **labor record:** For harvest inventory cost evidence, connect the labor record directly to the crop, field, harvest date, and saleable lot. Record the harvest inventory cost evidence event date, amount or status, originating system, and cutoff implication. Note what the labor record cannot prove about harvest inventory cost evidence. If this source conflicts with another harvest inventory cost evidence record, preserve both values, quantify the difference, and assign the crop, field, harvest date, and saleable lot question to its decision owner. Test 3 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **packing report:** For harvest inventory cost evidence, connect the packing report directly to the crop, field, harvest date, and saleable lot. Record the harvest inventory cost evidence event date, amount or status, originating system, and cutoff implication. Note what the packing report cannot prove about harvest inventory cost evidence. If this source conflicts with another harvest inventory cost evidence record, preserve both values, quantify the difference, and assign the crop, field, harvest date, and saleable lot question to its decision owner. Test 4 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **storage statement:** For harvest inventory cost evidence, connect the storage statement directly to the crop, field, harvest date, and saleable lot. Record the harvest inventory cost evidence event date, amount or status, originating system, and cutoff implication. Note what the storage statement cannot prove about harvest inventory cost evidence. If this source conflicts with another harvest inventory cost evidence record, preserve both values, quantify the difference, and assign the crop, field, harvest date, and saleable lot question to its decision owner. Test 5 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **spoilage log:** For harvest inventory cost evidence, connect the spoilage log directly to the crop, field, harvest date, and saleable lot. Record the harvest inventory cost evidence event date, amount or status, originating system, and cutoff implication. Note what the spoilage log cannot prove about harvest inventory cost evidence. If this source conflicts with another harvest inventory cost evidence record, preserve both values, quantify the difference, and assign the crop, field, harvest date, and saleable lot question to its decision owner. Test 6 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **lot transfer:** For harvest inventory cost evidence, connect the lot transfer directly to the crop, field, harvest date, and saleable lot. Record the harvest inventory cost evidence event date, amount or status, originating system, and cutoff implication. Note what the lot transfer cannot prove about harvest inventory cost evidence. If this source conflicts with another harvest inventory cost evidence record, preserve both values, quantify the difference, and assign the crop, field, harvest date, and saleable lot question to its decision owner. Test 7 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **sales record:** For harvest inventory cost evidence, connect the sales record directly to the crop, field, harvest date, and saleable lot. Record the harvest inventory cost evidence event date, amount or status, originating system, and cutoff implication. Note what the sales record cannot prove about harvest inventory cost evidence. If this source conflicts with another harvest inventory cost evidence record, preserve both values, quantify the difference, and assign the crop, field, harvest date, and saleable lot question to its decision owner. Test 8 therefore produces evidence, a limitation, and a next action rather than an unattached file.
+Keep corrected field tickets with the original value, correction reason, date, and approver. Overwriting the first quantity removes the evidence needed to explain a receiving difference.
 
-### Cross-source challenges unique to harvest inventory cost evidence
+## Match field loads to receiving evidence
 
-- Compare the field log with the harvest ticket for the same crop, field, harvest date, and saleable lot. This harvest inventory cost evidence comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated harvest inventory cost evidence exception owned by the person who controls the missing fact.
-- Compare the harvest ticket with the labor record for the same crop, field, harvest date, and saleable lot. This harvest inventory cost evidence comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated harvest inventory cost evidence exception owned by the person who controls the missing fact.
-- Compare the labor record with the packing report for the same crop, field, harvest date, and saleable lot. This harvest inventory cost evidence comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated harvest inventory cost evidence exception owned by the person who controls the missing fact.
-- Compare the packing report with the storage statement for the same crop, field, harvest date, and saleable lot. This harvest inventory cost evidence comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated harvest inventory cost evidence exception owned by the person who controls the missing fact.
-- Compare the storage statement with the spoilage log for the same crop, field, harvest date, and saleable lot. This harvest inventory cost evidence comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated harvest inventory cost evidence exception owned by the person who controls the missing fact.
-- Compare the spoilage log with the lot transfer for the same crop, field, harvest date, and saleable lot. This harvest inventory cost evidence comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated harvest inventory cost evidence exception owned by the person who controls the missing fact.
-- Compare the lot transfer with the sales record for the same crop, field, harvest date, and saleable lot. This harvest inventory cost evidence comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated harvest inventory cost evidence exception owned by the person who controls the missing fact.
-- Compare the sales record with the field log for the same crop, field, harvest date, and saleable lot. This harvest inventory cost evidence comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated harvest inventory cost evidence exception owned by the person who controls the missing fact.
+At receipt, record scale ticket, gross and tare weight, net quantity, receiving time, condition notes, and receiving location. Match the load identifier to the field ticket. If several field loads are combined before weighing, document the combination rule and preserve each source load.
 
-## Work the gross-to-net bridge into structured fields
+Differences may arise from field estimates, container tare, moisture change, spillage, timing, or an identifier error. Record the measured difference and operational explanation. Do not create an unidentified shrink entry merely to force the two systems to agree.
 
-The central question is how documented quantities and approved cost pools move from growing activity into packed inventory and cost of sales. Extract the trigger date, amount basis, refund or credit condition, ownership language, service period, exclusions, caps, and approval requirement from the applicable agreement. Link each field to the version used. Ambiguity becomes a bounded client question, never a silent preparer assumption.
+Route missing tickets and questionable quantities to the operations owner who can verify them. The offshore bookkeeper can calculate and document variances but should not decide whether a loss is normal or acceptable.
 
-Use controlled statuses: awaiting evidence, terms under review, ready to reconcile, approved, posted, disputed, and closed. Define each status. Add a topic-specific status only when it changes the next action for the crop, field, harvest date, and saleable lot.
+## Follow output through sorting and packing
 
-## Reconstruct the exception aging
+Create packed-lot records that link input loads to saleable grades, package sizes, processing output, culls, and waste. Capture pack date, line, lot identifier, units packed, standard weight, actual weight when available, and inventory location.
 
-Order authorization, operating activity, billing, settlement, adjustment, and closure by occurrence. This chronology exposes cutoff problems hidden by a period-end total. It also distinguishes a correcting document from a genuinely new harvest inventory cost evidence event.
+Reconcile total input with documented output and remaining work in process. Keep conversions between bins, pounds, cartons, and other units explicit. A missing conversion factor can look like yield loss when the quantities are simply expressed differently.
 
-## Analyze the signature exception
+Consider a field load received on the last day of the month but packed the next morning. The close pack should show the received quantity as open work in process under the approved policy, then link it to the next period's packed lots. Assigning all cost to whichever report is available at close would break the lot history.
 
-The difficult case is mixed lots or by-products created during grading and packing. Split its economically different components even when the source system presents one line. Identify what is confirmed, what remains unknown, the amount affected, current treatment, evidence requested, and authorized decision maker.
+## Assemble cost pools from source documents
 
-## Walk through a harvest inventory cost evidence example
+Separate harvesting, hauling, receiving, cooling, sorting, packing labor, packaging, and outside processing. For each cost, retain vendor or payroll source, service date, amount, quantity driver, field or lot reference, and ledger posting.
 
-Consider this case: a grower harvests two fields into one packing run, loses a measured quantity to spoilage, and stores the remaining graded lots for later sale. Create the crop, field, harvest date, and saleable lot record first, attach controlling terms, and separate operational completion, billing, cash, cost, and later adjustment. Mark the disputed component rather than netting it into a clean-looking total.
+Purchase orders show commitments, while invoices and payroll show recorded costs. Keep open commitments visible without counting them as posted cost. Flag invoices without service dates, duplicate bills, labor with no crew or shift reference, and packaging issues that do not match production.
 
-## Complete the posting verification
+Management should define which costs enter each pool and which allocation drivers apply. The preparer can assemble costs and apply approved drivers, but allocation policy, estimates, and materiality remain management decisions.
 
-Scan for duplicate crop, field, harvest date, and saleable lot values, missing dates, impossible statuses, unexpected signs, stale balances, absent approvals, and control-total mismatches. Tie the schedule to exact account, entity, period, and currency parameters. Retain transaction and functional currency plus the approved rate source where relevant.
+## Allocate only after quantity exceptions are visible
 
-## Use population design to drive the handoff
+An allocation can hide a bad population. Resolve or isolate missing loads, unposted packed lots, unit mismatches, and unexplained yield differences before spreading cost. Show excluded quantities and their effect on the calculation.
 
-Age unresolved harvest inventory cost evidence from the date the next action first became due, not the latest edit. The reviewer packet should show control totals, proposed balance, exceptions ranked by age or amount, decisions requested, and direct evidence links.
+Apply the approved driver, such as field weight, received weight, packed units, labor hours, or another documented basis. Retain numerator, denominator, rate, and resulting amount for each field or lot. If management changes the driver, record the effective period and approval.
 
-[Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation, while [management reporting support](/services/management-reporting-support) can carry approved harvest inventory cost evidence results into a controlled packet.
+Keep by-products, culls, and waste in the quantity bridge even if they receive no allocated cost under the approved method. Removing them would make saleable yield appear higher than the operating evidence supports.
 
-## Finish with contract trigger
+## Connect packed inventory to shipment and sale
 
-Monitor missing-source frequency, exception age, reopened items, and post-review adjustments. These indicators reveal where harvest inventory cost evidence documentation or ownership needs attention without transferring consequential judgment away from the client.
+Match packed lots to inventory movement, shipment, and sales records. Record quantity shipped, customer or destination, shipment date, invoice reference, and remaining inventory. Investigate negative lot balances, shipments without pack records, and packed lots with no location.
+
+Tie the inventory schedule to the exact ledger accounts, entity, crop, and period. Separate quantity differences, cost-allocation differences, and posting timing. One net reconciliation amount does not tell the reviewer which process needs correction.
+
+The review packet should show the field-to-receiving bridge, receiving-to-pack yield, open work in process, cost pools, allocation drivers, packed inventory, shipments, and unresolved exceptions. [Management reporting support](/services/management-reporting-support) can carry the approved results into the close packet.
+
+## Preserve the pack for later review
+
+Archive field tickets, scale records, pack reports, cost-source extracts, allocation approval, inventory movement, and posting support together. Carry open loads and lots forward with their original dates and identifiers.
+
+An offshore bookkeeper can compile populations, match loads and lots, prepare quantity bridges, assemble approved cost pools, calculate allocations, and verify postings. Client management retains cost policy, normal-loss judgments, estimates, allocation methods, write-offs, and final approval. [Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation within those boundaries.
+
+## Sources
+
+- [U.S. Small Business Administration, Manage your finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
+- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
