@@ -2,7 +2,8 @@
   "task": "OFF-82",
   "cycle": "2026-10-02",
   "baseline": "449c1417515efa78bd989d5aaf28393b467a38b8",
-  "status": "draft-local",
+  "status": "validated-for-combined-release",
+  "contentCommit": "d795d2ab8a436f455369fe06a6ce3d3536364268",
   "timezone": "UTC",
   "articles": [
     {

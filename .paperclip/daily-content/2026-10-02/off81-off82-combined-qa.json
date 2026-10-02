@@ -1,0 +1,27 @@
+{
+  "cycle": "2026-10-02",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/offshorebookkeepers",
+  "branch": "main",
+  "baseline": "449c1417515efa78bd989d5aaf28393b467a38b8",
+  "blogTask": "OFF-82",
+  "blogContentCommit": "d795d2ab8a436f455369fe06a6ce3d3536364268",
+  "blogCount": 12,
+  "blogBodyWords": [1571, 1703, 1851, 1901, 1966, 1998, 2025, 1918, 2081, 1841, 2021, 1929],
+  "blogMaximumFiveWordShingleJaccardPercent": 48.23,
+  "researchTask": "OFF-81",
+  "researchHandoffSha": "06099da0eb45af2d01e2778f8f18730a9aece234",
+  "researchCount": 5,
+  "researchBodyWords": [1280, 1237, 1256, 1241, 1232],
+  "researchMaximumFiveWordShingleJaccardPercent": 0.43,
+  "checks": {
+    "manifestHashes": "pass",
+    "contentValidation": "pass",
+    "lintAndTypecheck": "pass",
+    "cleanProductionBuild": "pass",
+    "generatedStaticPages": 670,
+    "newRoutesGenerated": 17
+  },
+  "deploymentSubmitted": false,
+  "liveVerificationComplete": false
+}
