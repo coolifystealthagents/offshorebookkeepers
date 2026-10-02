@@ -15,8 +15,8 @@
     "thumbnails:report": "python scripts/thumbnails.py report content/research/*.md content/alternatives/*.md"
   },
   "dependencies": {
-    "@next/third-parties": "^16.3.5",
-    "next": "^16.3.5",
+    "@next/third-parties": "16.3.6",
+    "next": "16.3.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
