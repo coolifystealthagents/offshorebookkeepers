@@ -1,0 +1,177 @@
+{
+  "task": "OFF-82",
+  "cycle": "2026-10-02",
+  "baseline": "449c1417515efa78bd989d5aaf28393b467a38b8",
+  "status": "draft-local",
+  "timezone": "UTC",
+  "articles": [
+    {
+      "family": "blog",
+      "topic": "Track home-services warranty callbacks without distorting job margin",
+      "slug": "offshore-bookkeeping-home-services-warranty-callback-costs",
+      "sourcePath": "content/blog/offshore-bookkeeping-home-services-warranty-callback-costs.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "1663e4aeb6a8826c82c9e0c86ac405fa746358ba3ac7950769731a93db5cca29",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-home-services-warranty-callback-costs"
+    },
+    {
+      "family": "blog",
+      "topic": "Reconcile customer tooling deposits from quote to production approval",
+      "slug": "offshore-bookkeeping-manufacturing-customer-tooling-deposits",
+      "sourcePath": "content/blog/offshore-bookkeeping-manufacturing-customer-tooling-deposits.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "6decf2ec45833e8dcd21cfb7502af739862648c8fa8bcf4dd4d2158f2a2c2122",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-manufacturing-customer-tooling-deposits"
+    },
+    {
+      "family": "blog",
+      "topic": "Build a franchise marketing-fund ledger that separates collections and spend",
+      "slug": "offshore-bookkeeping-franchise-marketing-fund-ledger",
+      "sourcePath": "content/blog/offshore-bookkeeping-franchise-marketing-fund-ledger.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "51f04af971376f92d83b5ce7fc025df6bbc5c3af10b3860ae22861d685464a6c",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-franchise-marketing-fund-ledger"
+    },
+    {
+      "family": "blog",
+      "topic": "Accrue hotel OTA commissions from guest stay to platform statement",
+      "slug": "offshore-bookkeeping-hotel-ota-commission-accrual",
+      "sourcePath": "content/blog/offshore-bookkeeping-hotel-ota-commission-accrual.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "987ecdecfd2767be2c9c3a3edf8afaffebde4a2fb523650eaef51777f923a3da",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-hotel-ota-commission-accrual"
+    },
+    {
+      "family": "blog",
+      "topic": "Roll forward childcare enrollment deposits through placement, refund, and forfeiture",
+      "slug": "offshore-bookkeeping-childcare-enrollment-deposit-rollforward",
+      "sourcePath": "content/blog/offshore-bookkeeping-childcare-enrollment-deposit-rollforward.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "1728814dd674a50a14603b02d814d321fc682f910ff11ab86d5dae56090a86a3",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-childcare-enrollment-deposit-rollforward"
+    },
+    {
+      "family": "blog",
+      "topic": "Reconcile SaaS usage billing true-ups before invoices reach customers",
+      "slug": "offshore-bookkeeping-saas-usage-billing-true-up",
+      "sourcePath": "content/blog/offshore-bookkeeping-saas-usage-billing-true-up.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "d02ecc6f29321223ab9de244ba882fb43c24366b2489ddeebd79eb8654684d66",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-saas-usage-billing-true-up"
+    },
+    {
+      "family": "blog",
+      "topic": "Accrue dental lab fees by case instead of guessing from monthly invoices",
+      "slug": "offshore-bookkeeping-dental-lab-fee-accrual",
+      "sourcePath": "content/blog/offshore-bookkeeping-dental-lab-fee-accrual.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "a7a31b6114383da4dbda95c5ae5bd6b688810c9f67e527ab7882892ab7d1f2ae",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-dental-lab-fee-accrual"
+    },
+    {
+      "family": "blog",
+      "topic": "Organize software implementation costs for a documented accounting review",
+      "slug": "offshore-bookkeeping-software-implementation-cost-intake",
+      "sourcePath": "content/blog/offshore-bookkeeping-software-implementation-cost-intake.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "82596f1d175069444c67d6528add8e8f65ffb0f9285f8c94365ef9523e45120b",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-software-implementation-cost-intake"
+    },
+    {
+      "family": "blog",
+      "topic": "Prepare a harvest inventory cost pack from field activity to saleable lots",
+      "slug": "offshore-bookkeeping-agriculture-harvest-inventory-cost-pack",
+      "sourcePath": "content/blog/offshore-bookkeeping-agriculture-harvest-inventory-cost-pack.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "edf16ce698bcd5bf0d579f1f8630412926b2b526431c8dc583212017b403a60a",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-agriculture-harvest-inventory-cost-pack"
+    },
+    {
+      "family": "blog",
+      "topic": "Account for event-venue deposits when bookings change or cancel",
+      "slug": "offshore-bookkeeping-event-venue-deposit-forfeiture",
+      "sourcePath": "content/blog/offshore-bookkeeping-event-venue-deposit-forfeiture.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "6fff452db830405d4174c5027bbd3a403034a2e1836861d98bd73b53d0c2f00e",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-event-venue-deposit-forfeiture"
+    },
+    {
+      "family": "blog",
+      "topic": "Reconcile coworking access-key deposits across member moves and exits",
+      "slug": "offshore-bookkeeping-coworking-access-key-deposit-register",
+      "sourcePath": "content/blog/offshore-bookkeeping-coworking-access-key-deposit-register.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "05dc4560f10f31e06637399be592d9978fd20e190877ee64f08c8e400e8a8672",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-coworking-access-key-deposit-register"
+    },
+    {
+      "family": "blog",
+      "topic": "Track shipping insurance claims from lost parcel to final recovery",
+      "slug": "offshore-bookkeeping-shipping-insurance-claim-recovery",
+      "sourcePath": "content/blog/offshore-bookkeeping-shipping-insurance-claim-recovery.md",
+      "featuredImage": "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "contentHash": "e05848cf59925d4010c9eca7d3bc566be614df74c8445f234d09aa2c2cb40e84",
+      "publicationDate": "2026-10-02",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-shipping-insurance-claim-recovery"
+    }
+  ]
+}
