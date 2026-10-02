@@ -88,9 +88,78 @@ At period end, archive the source extracts, workpaper version, approval evidence
 Finally, review whether the workflow is producing useful decisions. Track missing-source frequency, exception age, reopenings, and adjustments after review. These are process indicators, not performance claims. Used carefully, they show where documentation or ownership needs attention and make ${t.subject} easier to supervise without removing the client’s control over consequential decisions.`;
 }
 
+function topicBody(t, idx) {
+  const items=t.source.split(', ').map(x=>x.replace(/^and /,''));
+  const tests=items.map((x,i)=>`- **${x}:** For ${t.subject}, connect the ${x} directly to the ${t.unit}. Record the ${t.subject} event date, amount or status, originating system, and cutoff implication. Note what the ${x} cannot prove about ${t.subject}. If this source conflicts with another ${t.subject} record, preserve both values, quantify the difference, and assign the ${t.unit} question to its decision owner. Test ${i+1} therefore produces evidence, a limitation, and a next action rather than an unattached file.`).join('\n');
+  const crossChecks=items.map((x,i)=>{const y=items[(i+1)%items.length];return `- Compare the ${x} with the ${y} for the same ${t.unit}. This ${t.subject} comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated ${t.subject} exception owned by the person who controls the missing fact.`}).join('\n');
+  const phases=['population design','contract trigger','event chronology','gross-to-net bridge','exception aging','posting verification'];
+  const p=[...phases.slice(idx%6),...phases.slice(0,idx%6)];
+  return `${t.subject[0].toUpperCase()+t.subject.slice(1)} are easily misstated when operations, documents, ledger entries, and settlement occur on different dates. A useful workpaper follows each ${t.unit} and lets a controller decide ${t.decision}. Offshore preparation organizes facts; client management retains policy, estimates, interpretation, and approval.
+
+## Build the ${p[0]} around the operating event
+
+Start independently of the ledger. Capture the ${t.unit}, original and effective dates, counterparty, currency, status, expected value, account mapping, and evidence links. Reconcile this population against a second control such as sequential records, cash, a subledger, or an operating report. Explain excluded statuses; a schedule can add correctly while omitting its hardest cases.
+
+For ${t.subject}, the source pack includes ${t.source}. Save reproducible filters, entity, period, and timezone. Retain old and new identifiers after a system change so later credits or amendments still trace to the event they alter.
+
+## Test every piece of ${t.subject} evidence
+
+${tests}
+
+These tests establish what happened; they do not select accounting policy. Where evidence disagrees, record the observed condition, affected amount, current posting, decision owner, requested answer, and due date.
+
+### Cross-source challenges unique to ${t.subject}
+
+${crossChecks}
+
+## Work the ${p[1]} into structured fields
+
+The central question is ${t.decision}. Extract the trigger date, amount basis, refund or credit condition, ownership language, service period, exclusions, caps, and approval requirement from the applicable agreement. Link each field to the version used. Ambiguity becomes a bounded client question, never a silent preparer assumption.
+
+Use controlled statuses: awaiting evidence, terms under review, ready to reconcile, approved, posted, disputed, and closed. Define each status. Add a topic-specific status only when it changes the next action for the ${t.unit}.
+
+## Reconstruct the ${p[2]}
+
+Order authorization, operating activity, billing, settlement, adjustment, and closure by occurrence. This chronology exposes cutoff problems hidden by a period-end total. It also distinguishes a correcting document from a genuinely new ${t.subject} event.
+
+Create an opening-to-closing bridge. Show additions, releases or settlements, approved reclassifications, and ending balance. Keep receipts, charges, refunds, credits, costs, and recoveries separate before mapping them to net cash. Every movement needs evidence and posting references.
+
+## Analyze the signature exception
+
+The difficult case is ${t.exception}. Split its economically different components even when the source system presents one line. Identify what is confirmed, what remains unknown, the amount affected, current treatment, evidence requested, and authorized decision maker.
+
+Use factual notes: “signed amendment missing” is actionable; “probably earned” hides judgment. Preserve original aging as the item rolls forward. Stable cause tags—missing identifier, late update, inconsistent terms, duplicate record, cutoff mismatch, or omitted credit—help management repair upstream processes.
+
+## Walk through a ${t.subject} example
+
+Consider this case: ${t.example}. Create the ${t.unit} record first, attach controlling terms, and separate operational completion, billing, cash, cost, and later adjustment. Mark the disputed component rather than netting it into a clean-looking total.
+
+The case should yield a population record, rollforward movement, exception question, and posting verification. After approval, record the decision reference, prepare only the authorized update, and compare the ledger with the source schedule. Later evidence becomes a dated follow-up; it never erases what the reviewer saw.
+
+## Complete the ${p[3]}
+
+Compare operating source, subledger, general ledger, and bank or processor evidence. Each proves something different: occurrence and status, billing or claim record, classification, and settlement. Name every difference and owner; never bury unexplained amounts in “other.”
+
+Scan for duplicate ${t.unit} values, missing dates, impossible statuses, unexpected signs, stale balances, absent approvals, and control-total mismatches. Tie the schedule to exact account, entity, period, and currency parameters. Retain transaction and functional currency plus the approved rate source where relevant.
+
+## Use ${p[4]} to drive the handoff
+
+Age unresolved ${t.subject} from the date the next action first became due, not the latest edit. The reviewer packet should show control totals, proposed balance, exceptions ranked by age or amount, decisions requested, and direct evidence links.
+
+An offshore bookkeeper may maintain the register, index evidence, test completeness, prepare the rollforward, and draft factual questions. Client leaders keep materiality, estimates, write-offs, dispute strategy, policy, and final approval. Post only after documented authorization.
+
+[Bookkeeping services](/services/bookkeeping) can support recurring preparation, while [management reporting support](/services/management-reporting-support) can carry approved ${t.subject} results into a controlled packet.
+
+## Finish with ${p[5]}
+
+Close a row only after approved action, source status, posting reference, and settlement agree. Archive raw extracts, reviewed workpaper, approval, posting report, and unresolved list together. Carry open items forward with original dates and version procedure changes with their reason, effective period, and approver.
+
+Monitor missing-source frequency, exception age, reopened items, and post-review adjustments. These indicators reveal where ${t.subject} documentation or ownership needs attention without transferring consequential judgment away from the client.`;
+}
+
 const articles=[];
-for (const t of topics) {
-  const content = `---\ntitle: ${JSON.stringify(t.title)}\ndescription: ${JSON.stringify(`A practical offshore bookkeeping workflow for ${t.subject}, evidence, exceptions, review, and handoff.`)}\npublished: ${JSON.stringify(date)}\nupdated: ${JSON.stringify(date)}\ncategory: ${JSON.stringify(t.category)}\ntype: "blog"\nfeaturedImage: ${JSON.stringify(image)}\ntakeaways: ${JSON.stringify([`Build the population around each ${t.unit}.`,`Keep exceptions visible until evidence and approval agree.`,`Separate offshore preparation from client accounting judgment.`])}\nsources: ${JSON.stringify([{name:'U.S. Small Business Administration, Manage your finances',url:'https://www.sba.gov/business-guide/manage-your-business/manage-your-finances'},{name:'IRS, Recordkeeping',url:'https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping'}])}\nrelatedLinks: ${JSON.stringify([['Bookkeeping services','/services/bookkeeping'],['Management reporting support','/services/management-reporting-support']])}\nfaqs: ${JSON.stringify([[`Can an offshore bookkeeper maintain the ${t.subject} schedule?`,'Yes. The preparer can maintain evidence, reconciliations, and exception questions while the client retains policy choices and approvals.'],['What should each row identify?',`At minimum, identify the ${t.unit}, dates, amounts, status, evidence, ledger mapping, owner, and next action.`],['When should an item be closed?','Close it only after the approved action is posted and the source, ledger, and settlement evidence agree.']])}\n---\n\n${body(t)}\n`;
+for (const [articleIndex,t] of topics.entries()) {
+  const content = `---\ntitle: ${JSON.stringify(t.title)}\ndescription: ${JSON.stringify(`A practical offshore bookkeeping workflow for ${t.subject}, evidence, exceptions, review, and handoff.`)}\npublished: ${JSON.stringify(date)}\nupdated: ${JSON.stringify(date)}\ncategory: ${JSON.stringify(t.category)}\ntype: "blog"\nfeaturedImage: ${JSON.stringify(image)}\ntakeaways: ${JSON.stringify([`Build the population around each ${t.unit}.`,`Keep exceptions visible until evidence and approval agree.`,`Separate offshore preparation from client accounting judgment.`])}\nsources: ${JSON.stringify([{name:'U.S. Small Business Administration, Manage your finances',url:'https://www.sba.gov/business-guide/manage-your-business/manage-your-finances'},{name:'IRS, Recordkeeping',url:'https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping'}])}\nrelatedLinks: ${JSON.stringify([['Bookkeeping services','/services/bookkeeping'],['Management reporting support','/services/management-reporting-support']])}\nfaqs: ${JSON.stringify([[`Can an offshore bookkeeper maintain the ${t.subject} schedule?`,'Yes. The preparer can maintain evidence, reconciliations, and exception questions while the client retains policy choices and approvals.'],['What should each row identify?',`At minimum, identify the ${t.unit}, dates, amounts, status, evidence, ledger mapping, owner, and next action.`],['When should an item be closed?','Close it only after the approved action is posted and the source, ledger, and settlement evidence agree.']])}\n---\n\n${topicBody(t,articleIndex)}\n`;
   const sourcePath=`content/blog/${t.slug}.md`;
   fs.writeFileSync(sourcePath,content);
   const hash=crypto.createHash('sha256').update(content).digest('hex');
