@@ -12,62 +12,75 @@ relatedLinks: [["Bookkeeping services","/services/daily-transaction-coding"],["M
 faqs: [["Can an offshore bookkeeper maintain the software implementation cost intake schedule?","Yes. The preparer can maintain evidence, reconciliations, and exception questions while the client retains policy choices and approvals."],["What should each row identify?","At minimum, identify the implementation project, workstream, and cost line, dates, amounts, status, evidence, ledger mapping, owner, and next action."],["When should an item be closed?","Close it only after the approved action is posted and the source, ledger, and settlement evidence agree."]]
 ---
 
-Software implementation cost intake are easily misstated when operations, documents, ledger entries, and settlement occur on different dates. A useful workpaper follows each implementation project, workstream, and cost line and lets a controller decide which facts the accounting reviewer needs to distinguish operating expense, prepayment, or a cost that may require capitalization analysis. Offshore preparation organizes facts; client management retains policy, estimates, interpretation, and approval.
+Software implementation spending reaches accounting through vendor invoices, employee time, purchase orders, card charges, and prepaid contracts. The descriptions are often too broad to support a review. "Implementation services" might cover configuration, data cleanup, training, support, or several workstreams on one invoice.
 
-## Build the contract trigger around the operating event
+The intake schedule should collect the facts behind each cost line without making the accounting conclusion. It gives the controller or accounting adviser a complete population, project chronology, workstream evidence, and a list of decisions that still need approval.
 
-Start independently of the ledger. Capture the implementation project, workstream, and cost line, original and effective dates, counterparty, currency, status, expected value, account mapping, and evidence links. Reconcile this population against a second control such as sequential records, cash, a subledger, or an operating report. Explain excluded statuses; a schedule can add correctly while omitting its hardest cases.
+## Define the project before sorting costs
 
-For software implementation cost intake, the source pack includes vendor statement of work, internal project plan, time record, invoice line, change order, go-live evidence, and approval. Save reproducible filters, entity, period, and timezone. Retain old and new identifiers after a system change so later credits or amendments still trace to the event they alter.
+Open a project record from the approved business case, contract, or project charter. Capture the system, vendor, business owner, accounting owner, approval date, budget, planned start, target launch, workstreams, and relevant entities.
 
-## Test every piece of software implementation cost intake evidence
+Keep scope changes and contract amendments with their approval dates. A project may begin as a limited rollout and later add modules, locations, or integrations. The schedule should show which scope applied when each cost was incurred.
 
-- **vendor statement of work:** For software implementation cost intake, connect the vendor statement of work directly to the implementation project, workstream, and cost line. Record the software implementation cost intake event date, amount or status, originating system, and cutoff implication. Note what the vendor statement of work cannot prove about software implementation cost intake. If this source conflicts with another software implementation cost intake record, preserve both values, quantify the difference, and assign the implementation project, workstream, and cost line question to its decision owner. Test 1 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **internal project plan:** For software implementation cost intake, connect the internal project plan directly to the implementation project, workstream, and cost line. Record the software implementation cost intake event date, amount or status, originating system, and cutoff implication. Note what the internal project plan cannot prove about software implementation cost intake. If this source conflicts with another software implementation cost intake record, preserve both values, quantify the difference, and assign the implementation project, workstream, and cost line question to its decision owner. Test 2 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **time record:** For software implementation cost intake, connect the time record directly to the implementation project, workstream, and cost line. Record the software implementation cost intake event date, amount or status, originating system, and cutoff implication. Note what the time record cannot prove about software implementation cost intake. If this source conflicts with another software implementation cost intake record, preserve both values, quantify the difference, and assign the implementation project, workstream, and cost line question to its decision owner. Test 3 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **invoice line:** For software implementation cost intake, connect the invoice line directly to the implementation project, workstream, and cost line. Record the software implementation cost intake event date, amount or status, originating system, and cutoff implication. Note what the invoice line cannot prove about software implementation cost intake. If this source conflicts with another software implementation cost intake record, preserve both values, quantify the difference, and assign the implementation project, workstream, and cost line question to its decision owner. Test 4 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **change order:** For software implementation cost intake, connect the change order directly to the implementation project, workstream, and cost line. Record the software implementation cost intake event date, amount or status, originating system, and cutoff implication. Note what the change order cannot prove about software implementation cost intake. If this source conflicts with another software implementation cost intake record, preserve both values, quantify the difference, and assign the implementation project, workstream, and cost line question to its decision owner. Test 5 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **go-live evidence:** For software implementation cost intake, connect the go-live evidence directly to the implementation project, workstream, and cost line. Record the software implementation cost intake event date, amount or status, originating system, and cutoff implication. Note what the go-live evidence cannot prove about software implementation cost intake. If this source conflicts with another software implementation cost intake record, preserve both values, quantify the difference, and assign the implementation project, workstream, and cost line question to its decision owner. Test 6 therefore produces evidence, a limitation, and a next action rather than an unattached file.
-- **approval:** For software implementation cost intake, connect the approval directly to the implementation project, workstream, and cost line. Record the software implementation cost intake event date, amount or status, originating system, and cutoff implication. Note what the approval cannot prove about software implementation cost intake. If this source conflicts with another software implementation cost intake record, preserve both values, quantify the difference, and assign the implementation project, workstream, and cost line question to its decision owner. Test 7 therefore produces evidence, a limitation, and a next action rather than an unattached file.
+Use stable project and workstream codes across purchasing, accounts payable, employee time, and the general ledger. Vendor name alone is not enough because one vendor may provide subscription access, implementation, and ongoing support.
 
-### Cross-source challenges unique to software implementation cost intake
+## Build a complete cost population
 
-- Compare the vendor statement of work with the internal project plan for the same implementation project, workstream, and cost line. This software implementation cost intake comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated software implementation cost intake exception owned by the person who controls the missing fact.
-- Compare the internal project plan with the time record for the same implementation project, workstream, and cost line. This software implementation cost intake comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated software implementation cost intake exception owned by the person who controls the missing fact.
-- Compare the time record with the invoice line for the same implementation project, workstream, and cost line. This software implementation cost intake comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated software implementation cost intake exception owned by the person who controls the missing fact.
-- Compare the invoice line with the change order for the same implementation project, workstream, and cost line. This software implementation cost intake comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated software implementation cost intake exception owned by the person who controls the missing fact.
-- Compare the change order with the go-live evidence for the same implementation project, workstream, and cost line. This software implementation cost intake comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated software implementation cost intake exception owned by the person who controls the missing fact.
-- Compare the go-live evidence with the approval for the same implementation project, workstream, and cost line. This software implementation cost intake comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated software implementation cost intake exception owned by the person who controls the missing fact.
-- Compare the approval with the vendor statement of work for the same implementation project, workstream, and cost line. This software implementation cost intake comparison should explain timing, scope, and value differences; an unexplained gap becomes a dated software implementation cost intake exception owned by the person who controls the missing fact.
+Collect purchase orders, vendor invoices, expense claims, card transactions, payroll or time records, and prepaid schedules that reference the project. Reconcile the population to the ledger accounts and cost centers where implementation spending could appear.
 
-## Work the event chronology into structured fields
+Include lines posted outside the expected project account. Travel, temporary labor, hardware, and data services may be coded to operating departments. Search by project code, vendor, approver, and invoice description, then document the search parameters.
 
-The central question is which facts the accounting reviewer needs to distinguish operating expense, prepayment, or a cost that may require capitalization analysis. Extract the trigger date, amount basis, refund or credit condition, ownership language, service period, exclusions, caps, and approval requirement from the applicable agreement. Link each field to the version used. Ambiguity becomes a bounded client question, never a silent preparer assumption.
+Record document number, line description, service period, invoice date, amount, currency, payment status, workstream, project phase, source link, and ledger posting. Keep credits and reversals tied to the original line.
 
-Use controlled statuses: awaiting evidence, terms under review, ready to reconcile, approved, posted, disputed, and closed. Define each status. Add a topic-specific status only when it changes the next action for the implementation project, workstream, and cost line.
+## Break bundled invoices into reviewable lines
 
-## Reconstruct the gross-to-net bridge
+Request supporting detail when an invoice combines configuration, migration, testing, training, and support. Split the amount only from vendor detail, statement of work, approved allocation, or another documented basis. Do not invent percentages to make the schedule fit expected categories.
 
-Order authorization, operating activity, billing, settlement, adjustment, and closure by occurrence. This chronology exposes cutoff problems hidden by a period-end total. It also distinguishes a correcting document from a genuinely new software implementation cost intake event.
+Consider an invoice that covers data migration, user training, and three months of post-launch support. The schedule should show each component, service period, evidence, and amount basis. The accounting reviewer can then assess each line under the company's policy.
 
-## Analyze the signature exception
+If the vendor cannot provide detail, retain the invoice as one unresolved line and state the information requested. A bounded exception is better than a precise-looking allocation with no source.
 
-The difficult case is an invoice that combines data migration, training, configuration, support, and subscription access. Split its economically different components even when the source system presents one line. Identify what is confirmed, what remains unknown, the amount affected, current treatment, evidence requested, and authorized decision maker.
+## Attach work evidence, not just payment evidence
 
-## Walk through a software implementation cost intake example
+Payment proves that cash moved. It does not prove what work occurred or when. Link each material cost to the statement of work, milestone acceptance, timesheet, deliverable, ticket summary, or other project evidence available.
 
-Consider this case: a company pays one vendor for configuration and user training while employees also clean data and test integrations before launch. Create the implementation project, workstream, and cost line record first, attach controlling terms, and separate operational completion, billing, cash, cost, and later adjustment. Mark the disputed component rather than netting it into a clean-looking total.
+For internal labor, retain employee or team, dates, hours, approved activity description, rate source, and reviewer. Avoid broad entries such as "project work." The activity should be specific enough for the accounting owner to understand the workstream without exposing confidential personal detail.
 
-## Complete the exception aging
+Flag invoice dates or timesheets outside the project timeline, work with no acceptance evidence, duplicate milestones, and charges above authorization. Assign each exception to the project manager, procurement, vendor owner, or accounting reviewer as appropriate.
 
-Scan for duplicate implementation project, workstream, and cost line values, missing dates, impossible statuses, unexpected signs, stale balances, absent approvals, and control-total mismatches. Tie the schedule to exact account, entity, period, and currency parameters. Retain transaction and functional currency plus the approved rate source where relevant.
+## Maintain a chronology of project phases
 
-## Use posting verification to drive the handoff
+Record planning approval, vendor selection, configuration start, migration, testing, launch, stabilization, and transition to ongoing operations. Use evidence from project governance rather than inferring phases from invoice dates.
 
-Age unresolved software implementation cost intake from the date the next action first became due, not the latest edit. The reviewer packet should show control totals, proposed balance, exceptions ranked by age or amount, decisions requested, and direct evidence links.
+Projects rarely move in a straight line. A failed test may send one workstream back to configuration while another continues. Preserve phase dates by workstream when that distinction matters. Do not mark the whole project complete because the first module launched.
 
-[Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation, while [management reporting support](/services/management-reporting-support) can carry approved software implementation cost intake results into a controlled packet.
+If launch is delayed, record the revised date and approval. Continue collecting costs under the same project history. The controller decides whether the delay changes any accounting treatment or estimate.
 
-## Finish with population design
+## Separate recurring service from project work
 
-Monitor missing-source frequency, exception age, reopened items, and post-review adjustments. These indicators reveal where software implementation cost intake documentation or ownership needs attention without transferring consequential judgment away from the client.
+Contracts may bundle subscription access, implementation, maintenance, hosting, and support. Record the stated service periods and renewal terms for recurring items. Link prepayments to the approved release schedule and verify postings by period.
+
+After launch, new invoices may still contain defect correction, added features, training, or ordinary support. Keep the work description and authorization visible. The offshore preparer should not classify a charge based only on whether it occurred before or after launch.
+
+Create an exception when a recurring invoice changes amount, service period, module count, or entity without an amendment. That may be a billing issue, scope change, or new contract and needs an owner.
+
+## Prepare the accounting decision queue
+
+Group unresolved lines by the decision needed: missing work description, uncertain service period, bundled amount, absent approval, disputed charge, phase ambiguity, or missing policy instruction. Show the amount affected and current ledger treatment.
+
+Phrase questions around the available facts. For example: "Invoice 418 includes migration and three months of support for $24,000. The statement of work names both services but gives no allocation. Please provide vendor detail or approve a supported allocation basis." This lets the reviewer act without rebuilding the file.
+
+Record the final decision, approver, effective date, entry reference, and any follow-up. Keep the original cost evidence and question. Later decisions should not overwrite what the reviewer saw.
+
+## Reconcile the project pack through close
+
+The monthly rollforward should show opening project balance, new costs, credits, approved reclassifications, prepayment releases, payments, and ending balance by workstream and entity. Tie totals to the ledger and explain unposted or late items.
+
+The review packet should include budget-to-actual detail, open commitments, phase chronology, unresolved decision items, vendor disputes, prepayments, and posted adjustments. [Management reporting support](/services/management-reporting-support) can include the approved results in the recurring project review.
+
+An offshore bookkeeper can assemble populations, split lines from documented support, index work evidence, maintain the chronology, prepare decision queues, reconcile balances, and verify entries. Client management and its accounting advisers retain policy interpretation, classification, capitalization analysis, estimates, impairment, write-offs, and final approval. [Bookkeeping services](/services/daily-transaction-coding) can support recurring preparation within those boundaries.
+
+## Sources
+
+- [U.S. Small Business Administration, Manage your finances](https://www.sba.gov/business-guide/manage-your-business/manage-your-finances)
+- [IRS, Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
