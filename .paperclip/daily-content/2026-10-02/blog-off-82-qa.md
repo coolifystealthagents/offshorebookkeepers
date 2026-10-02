@@ -11,3 +11,7 @@
 These drafts are preserved for substantive restructuring, but are not eligible for integration or production. Their shared workflow body must be replaced with independently structured, topic-specific analysis, examples, controls, and limitations until the maximum overlap is below 50%. No cosmetic padding is acceptable.
 
 The paired OFF-81 October 2 Research handoff is also still pending. No push or deployment has occurred.
+
+## Provider recovery check
+
+On the continuation heartbeat, the existing `GEMINI_API_KEY` and `GEMINI_SANDBOX` company variables were each tested once with a minimal request. Both returned HTTP 400 `INVALID_ARGUMENT`. Retries stopped after those bounded checks. No credential was changed and no provider recovery is claimed. Manual substantive rewriting remains the Blog recovery path.
