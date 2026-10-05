@@ -7,27 +7,37 @@
 - Blog content commit: `20c889116f0e2906df5f68eb3cf435fe84b30b68`
 - Blog punctuation correction commit: `91e1253be526f35e53865a9bbe8f3d036c8f6db2`
 - Site timezone: `UTC`
-- Provisional actual publication date: `2026-10-05`, to be reconciled again immediately before the sole production push
+- Candidate publication date: `2026-10-05`; the final publication date must be reconciled to the first successful public verification in site timezone `UTC`
 - Required/validated Blog count: `12/12`
 
 ## Body lengths
 
-`975, 1058, 1014, 996, 1019, 954, 970, 936, 942, 927, 941, 924` words in manifest order. Every Blog body exceeds 900 substantive words.
+`975, 1058, 1133, 996, 1019, 954, 971, 936, 942, 927, 941, 924` words in manifest order. Every Blog body exceeds 900 substantive words.
 
 ## Originality
 
-- Maximum pairwise five-word-shingle overlap: `0.9595%`, freight-broker carrier advances versus commercial-printer paper spoilage.
+- Maximum pairwise five-word-shingle overlap: `1.1329%`, film-production petty cash versus waste-hauling disposal tickets.
 - Exact repeated substantive paragraphs across the family: `0`.
 - Exact repeated substantive sentences across the family: `0`.
 - Qualitative repeated-argument and section-sequence review: pass. Each article uses a topic-specific evidence model, workflow order, worked example, exception taxonomy, decision boundary, and reader outcome.
 - Prior-corpus collision review: pass. Titles, slugs, and topic phrases were searched across existing Blog and Research files before drafting; none of the twelve topics reused an existing article subject.
+- Corrective prior-corpus audit: all 17 October 5 articles compared with 635 prior Blog/Research files; maximum five-word-shingle overlap `1.2048%` with one shared shingle, exact repeated substantive paragraphs `0`, and no qualitative topic collision. The replacement waste-hauling article has a distinct physical-load, scale-ticket, facility-rate, allocation, and customer-surcharge argument sequence and worked example absent from the prior corpus. The 40% maximum title-token similarity belongs to the Research commission-clawback study versus an older operational Blog guide; manual review found different family, method, structure, evidence model, and reader outcome.
 
 ## Completed gates
 
+- Corrective base (GitHub `main`): `a7ffcb5ceea46af5040271e51da05859fe571b32` (40 characters).
+- Corrective scope: removed the colliding equipment-rental draft; added the independently structured waste-hauling disposal-ticket article; repaired the two moved FTC references to their exact current official destinations; preserved the other 16 articles.
+- Combined ordered source/render validation: `17/17` pass. Each route has a full source hash, source-body hash, rendered-HTML hash, rendered-text hash, canonical, title, structured date, index entry, sitemap entry, and complete rendered body.
+- Rendered images: `17/17` returned HTTP 200 with an image MIME type and passed signature/decode and dimension checks.
+- Contextual internal links: all checked destinations returned HTTP 200. Authoritative external citations were reviewed, including the current FTC gift-card and health-claims destinations.
+- `npm ci`: pass (`26` packages); `npm audit --audit-level=high`: pass (`0` vulnerabilities).
 - `npm run validate:content`: pass.
+- `node scripts/validate-off85-cycle.mjs`: pass (`12/12` Blog).
 - `npm run lint` (`next typegen && tsc --noEmit`): pass; generated Next.js changes were removed and not staged.
+- `npm run test:source`: cycle-owned checks pass; `35/36` repository tests pass. The sole failure is the pre-existing `/services/bookkeeping` link in `offshore-bookkeeper-bank-reconciliation-aging.md`, outside this cycle.
+- `npm run build`: pass; clean production build generated `687` static pages.
 - Featured images: all twelve source paths resolve to existing repository assets.
 - Internal calls to action: `/services` and `/contact-us`, both repository routes.
 - Research handoff: received from OFF-84 at original SHA `bfcba540def4be7c338e48404cbad0972e8da5f1`, content SHA `611fc208a098e975fed5bf0332726f145fd96c8a`; integrated into this branch without a Research push.
 
-Combined source, rendered-route, asset-response, link, build, sitemap, index, and final-head checks remain gated until the Blog and Research sources are committed together and rebased on the newest remote `main`.
+No corrective production push or deployment has occurred. A second-push exception is required before the local corrective commit may be pushed.

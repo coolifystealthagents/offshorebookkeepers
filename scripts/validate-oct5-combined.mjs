@@ -31,7 +31,7 @@ const sitemap = fs.readFileSync('.next/server/app/sitemap.xml.body', 'utf8');
 const results = [];
 const checkedInternalLinks = new Map();
 
-for (const article of articles) {
+for (const [articleIndex, article] of articles.entries()) {
   const family = article.family === 'blog' ? 'blog' : 'research';
   const sourcePath = article.sourcePath;
   const source = fs.readFileSync(sourcePath, 'utf8');
@@ -82,8 +82,11 @@ for (const article of articles) {
     checkedInternalLinks.set(href, response.status);
   }
   const sourceHash = hash(source);
+  const sourceBodyHash = hash(comparable(body));
+  const renderedHtmlHash = hash(rawHtml);
+  const renderedTextHash = hash(comparableHtml);
   if (article.contentHash && sourceHash !== article.contentHash) throw new Error(`${article.slug}: manifest/source hash mismatch ${article.contentHash} != ${sourceHash}`);
-  results.push({ family, slug: article.slug, title, date, canonical, sourceHash, renderedParagraphs: paragraphs.length, image, imageFormat: imageMeta.format, imageWidth: imageMeta.width, imageHeight: imageMeta.height, imageHttpStatus, imageHttpContentType });
+  results.push({ ordinal: articleIndex + 1, family, slug: article.slug, title, date, canonical, sourceHash, sourceBodyHash, renderedHtmlHash, renderedTextHash, renderedParagraphs: paragraphs.length, image, imageFormat: imageMeta.format, imageWidth: imageMeta.width, imageHeight: imageMeta.height, imageHttpStatus, imageHttpContentType });
 }
 
 console.log(JSON.stringify({ required: 17, validated: results.length, timezone: 'UTC', publicationDate: '2026-10-05', checkedInternalLinks: Object.fromEntries(checkedInternalLinks), results }, null, 2));

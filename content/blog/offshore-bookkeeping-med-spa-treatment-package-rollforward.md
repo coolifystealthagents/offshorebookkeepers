@@ -6,7 +6,7 @@ updated: "2026-10-05"
 category: "Healthcare bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp"
-sources: [{"name":"HHS HIPAA for professionals","url":"https://www.hhs.gov/hipaa/for-professionals/index.html"},{"name":"FTC health products compliance guidance","url":"https://www.ftc.gov/business-guidance/industry/health-products"}]
+sources: [{"name":"HHS HIPAA for professionals","url":"https://www.hhs.gov/hipaa/for-professionals/index.html"},{"name":"FTC health claims guidance","url":"https://www.ftc.gov/business-guidance/advertising-marketing/health-claims"}]
 takeaways: ["Reconcile package value without copying unnecessary clinical data into the workpaper.","Track sales, usage, refunds, transfers, and approved expirations as distinct events.","Leave treatment, privacy, refund-policy, and recognition judgments with authorized owners."]
 faqs: [["Does the bookkeeping schedule need clinical notes?","Usually no. Use the minimum authorized identifiers and completion status needed for the reconciliation, with sensitive records kept in approved clinical systems."],["Can a bookkeeper decide when unused package value expires?","No. Apply only a documented, approved rule and route exceptions to the responsible owner."]]
 ---
@@ -42,7 +42,7 @@ The processor settlement for the refund may appear days after the approval. Keep
 
 Package transfers, service substitutions, complimentary visits, membership benefits, and location moves can break a simple unit schedule. Give each event a reason code, source reference, initiating employee, approver, and effective date. Preserve the original package and create linked movement lines rather than overwriting it. A substitution from one service to another may require a value decision that the medical director, operations owner, and finance reviewer must approve.
 
-The FTC maintains [health-products compliance resources](https://www.ftc.gov/business-guidance/industry/health-products). Marketing claims and refund terms are outside a bookkeeper's authority. The schedule should reproduce the approved policy version and observable transactions, not infer what a customer was promised. Escalate cases where the signed terms, point-of-sale description, and staff notes conflict.
+The FTC maintains current [health claims guidance](https://www.ftc.gov/business-guidance/advertising-marketing/health-claims). Marketing claims and refund terms are outside a bookkeeper's authority. The schedule should reproduce the approved policy version and observable transactions, not infer what a customer was promised. Escalate cases where the signed terms, point-of-sale description, and staff notes conflict.
 
 ## Reconcile three totals, not one
 

@@ -4,7 +4,7 @@ import path from 'node:path';
 export const blogSlugs = [
   'offshore-bookkeeping-film-production-petty-cash-envelope',
   'offshore-bookkeeping-msp-cloud-license-pass-through',
-  'offshore-bookkeeping-equipment-rental-damage-charge',
+  'offshore-bookkeeping-waste-hauling-disposal-ticket-surcharge',
   'offshore-bookkeeping-med-spa-treatment-package-rollforward',
   'offshore-bookkeeping-freight-broker-carrier-advance',
   'offshore-bookkeeping-marina-slip-deposit-utilities',

@@ -6,7 +6,7 @@ updated: "2026-10-05"
 category: "Retail bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-cash-application-unapplied-receipts.svg"
-sources: [{"name":"FTC gift card guidance","url":"https://consumer.ftc.gov/articles/gift-cards"},{"name":"IRS recordkeeping guidance","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
+sources: [{"name":"FTC gift card scam guidance","url":"https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams"},{"name":"IRS recordkeeping guidance","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
 takeaways: ["Reconcile cash loaded, promotional value, usage, and refunds as separate movements.","Compare the card platform with machine and settlement records rather than relying on one dashboard total.","Escalate expiration, abandoned-value, and customer-dispute decisions to authorized owners."]
 faqs: [["Is promotional value the same as customer cash loaded?","No. Track it separately so the register can explain both customer funds and company-funded promotions."],["What if a kiosk settlement is short?","Compare the kiosk load log, processor batch, cash collection, refunds, and errors; leave any unexplained amount open with an owner."]]
 ---
@@ -42,7 +42,7 @@ Review price changes by effective time. If a washer moves from $5.00 to $5.50, a
 
 Every manual credit, debit, refund, balance transfer, or card replacement should show original account, replacement account where relevant, reason, initiating employee, approver, timestamp, and evidence. Use role-based access so a person who creates promotional value cannot also conceal it by altering the review report. Review dormant administrative accounts and changes made outside normal hours.
 
-The FTC publishes general [gift card information](https://consumer.ftc.gov/articles/gift-cards), and state rules can differ for stored value, fees, expiration, and abandoned property. The bookkeeper should not decide which rule applies. Maintain policy versions and route aging or expiration questions to authorized legal and finance owners. The [IRS recordkeeping page](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is useful background for retaining source support.
+The FTC publishes current [gift card scam guidance](https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams), and state rules can differ for stored value, fees, expiration, and abandoned property. The bookkeeper should not decide which rule applies. Maintain policy versions and route aging or expiration questions to authorized legal and finance owners. The [IRS recordkeeping page](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping) is useful background for retaining source support.
 
 ## Close the loop from load to bank
 
