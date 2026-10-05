@@ -10,6 +10,8 @@ sources: [{"name":"FMCSA broker and carrier resources","url":"https://www.fmcsa.
 takeaways: ["Track each advance by load and carrier instead of netting it into settlement expense.","Require delivery and rate evidence before clearing an advance.","Keep carrier approval, disputes, fraud response, and accounting treatment with authorized owners."]
 faqs: [["Can an offshore bookkeeper release a carrier advance?","The bookkeeper can prepare the request and evidence packet, but payment release should remain with an authorized approver under company policy."],["What if a load is reassigned after an advance?","Keep the original advance linked to the original carrier and open an exception; do not move it to the replacement carrier without an approved, evidenced resolution."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This article covers bookkeeping workflow support, not accounting, tax, legal, transportation, insurance, sanctions, or payment advice.
 
 ## An advance is a load-level open item

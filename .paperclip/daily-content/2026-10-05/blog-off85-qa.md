@@ -5,17 +5,18 @@
 - Baseline: `6cc0f2f7ee33115b3dbe661f5d472d8f9eb628fc`
 - Draft branch: `off-85-blog-2026-10-05`
 - Blog content commit: `20c889116f0e2906df5f68eb3cf435fe84b30b68`
+- Blog punctuation correction commit: `91e1253be526f35e53865a9bbe8f3d036c8f6db2`
 - Site timezone: `UTC`
 - Provisional actual publication date: `2026-10-05`, to be reconciled again immediately before the sole production push
 - Required/validated Blog count: `12/12`
 
 ## Body lengths
 
-`971, 1052, 1010, 992, 1015, 950, 966, 932, 938, 923, 937, 920` words in manifest order. Every Blog body exceeds 900 substantive words.
+`975, 1058, 1014, 996, 1019, 954, 970, 936, 942, 927, 941, 924` words in manifest order. Every Blog body exceeds 900 substantive words.
 
 ## Originality
 
-- Maximum pairwise five-word-shingle overlap: `0.5353%`, freight-broker carrier advances versus commercial-printer paper spoilage.
+- Maximum pairwise five-word-shingle overlap: `0.9595%`, freight-broker carrier advances versus commercial-printer paper spoilage.
 - Exact repeated substantive paragraphs across the family: `0`.
 - Exact repeated substantive sentences across the family: `0`.
 - Qualitative repeated-argument and section-sequence review: pass. Each article uses a topic-specific evidence model, workflow order, worked example, exception taxonomy, decision boundary, and reader outcome.

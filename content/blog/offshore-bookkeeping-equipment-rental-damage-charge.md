@@ -10,6 +10,8 @@ sources: [{"name":"FTC business guidance","url":"https://www.ftc.gov/business-gu
 takeaways: ["Give every returned asset a traceable check-in record before assessing damage.","Keep deposits, waiver revenue, repair cost, and customer recovery as separate movements.","Route liability and contract decisions to authorized operations and finance owners."]
 faqs: [["Can a bookkeeper decide that a customer caused damage?","No. The bookkeeper can assemble inspection and contract evidence, but the authorized rental or claims owner makes that determination."],["Why not net a repair invoice against the customer's deposit?","Netting hides the gross repair, deposit application, refund, and remaining receivable needed for review."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This operational guide is not accounting, tax, legal, insurance, safety, or consumer-protection advice.
 
 ## A return ticket is not a damage conclusion

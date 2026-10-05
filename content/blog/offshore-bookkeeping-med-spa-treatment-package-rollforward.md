@@ -10,6 +10,8 @@ sources: [{"name":"HHS HIPAA for professionals","url":"https://www.hhs.gov/hipaa
 takeaways: ["Reconcile package value without copying unnecessary clinical data into the workpaper.","Track sales, usage, refunds, transfers, and approved expirations as distinct events.","Leave treatment, privacy, refund-policy, and recognition judgments with authorized owners."]
 faqs: [["Does the bookkeeping schedule need clinical notes?","Usually no. Use the minimum authorized identifiers and completion status needed for the reconciliation, with sensitive records kept in approved clinical systems."],["Can a bookkeeper decide when unused package value expires?","No. Apply only a documented, approved rule and route exceptions to the responsible owner."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This guide concerns bookkeeping preparation. It is not medical, accounting, tax, legal, privacy, advertising, or regulatory advice.
 
 ## The sale and the appointment are different events

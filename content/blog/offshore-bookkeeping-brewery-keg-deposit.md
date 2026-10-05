@@ -6,10 +6,12 @@ updated: "2026-10-05"
 category: "Brewery bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-fixed-asset-register-handoff.webp"
-sources: [{"name":"TTB beer industry guidance","url":"https://www.ttb.gov/beer"},{"name":"Brewers Association keg resources","url":"https://www.brewersassociation.org/brewing-industry-updates/keg-loss/"}]
+sources: [{"name":"TTB beer industry guidance","url":"https://www.ttb.gov/regulated-commodities/beverage-alcohol/beer"},{"name":"IRS recordkeeping guidance","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
 takeaways: ["Track physical keg custody and financial deposits in linked but separate schedules.","Use serialized or controlled quantity movements by distributor and location.","Leave loss, deposit, excise, customer, and accounting decisions with authorized owners."]
 faqs: [["Does a deposit prove the brewery still owns a specific keg?","No. The financial deposit and physical container records support different conclusions and must be reconciled together."],["How should an unidentified returned keg be handled?","Record it in a controlled suspense status with its markings and return source until operations approves its identity and disposition."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This article provides bookkeeping workflow ideas, not accounting, tax, legal, alcohol-regulatory, environmental, or commercial advice.
 
 ## The container and the deposit tell different stories
@@ -22,7 +24,7 @@ Maintain a physical keg register by controlled identifier or, where individual s
 
 Agree what evidence proves shipment and return: warehouse scan, bill of lading, distributor receipt, signed route sheet, taproom transfer, or dock count. Keep source timestamps and named locations. A verbal “we sent those last week” remains a follow-up note, not a completed return. Where pooled assets move through third parties, record the limitations of the identification method.
 
-The Brewers Association discusses industry [keg-loss concerns](https://www.brewersassociation.org/brewing-industry-updates/keg-loss/), and the Alcohol and Tobacco Tax and Trade Bureau provides [beer industry guidance](https://www.ttb.gov/beer). Current obligations and recordkeeping depend on the business and jurisdiction. Brewery regulatory, tax, and legal owners should define the applicable requirements; the bookkeeper maintains the authorized operational and financial trail.
+The Alcohol and Tobacco Tax and Trade Bureau provides current [beer industry guidance](https://www.ttb.gov/regulated-commodities/beverage-alcohol/beer), while the IRS summarizes general [business recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping). Neither source sets a keg-deposit contract or asset policy. Brewery regulatory, tax, legal, and finance owners should define the applicable requirements; the bookkeeper maintains the authorized operational and financial trail.
 
 ## Roll physical quantities by counterparty
 

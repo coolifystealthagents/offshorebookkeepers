@@ -10,6 +10,8 @@ sources: [{"name":"EPA sustainable management of materials","url":"https://www.e
 takeaways: ["Separate planned make-ready sheets from unexpected spoilage and approved reprints.","Connect paper issues, press counts, finished quantity, and returns at the job level.","Let production and finance owners approve causes, standards, and accounting outcomes."]
 faqs: [["Should every waste sheet be counted individually?","Use the company's approved measurement method and document its limits; the reconciliation still needs a reproducible quantity by job and stock."],["Can a bookkeeper label spoilage as operator error?","No. Record observed variances and the production owner's approved cause rather than assigning blame."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This article discusses bookkeeping workflow support, not accounting, tax, legal, environmental, workplace-safety, or manufacturing advice.
 
 ## Paper leaves inventory before a sale exists

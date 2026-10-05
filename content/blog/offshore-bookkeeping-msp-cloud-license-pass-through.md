@@ -6,17 +6,19 @@ updated: "2026-10-05"
 category: "Technology bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-subscription-revenue-reconciliation.webp"
-sources: [{"name":"NIST asset management guidance","url":"https://csf.tools/reference/nist-cybersecurity-framework/v2-0/id/am/"},{"name":"IRS recordkeeping guidance","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
+sources: [{"name":"NIST Cybersecurity Framework Identify resources","url":"https://www.nist.gov/cyberframework/identify"},{"name":"IRS recordkeeping guidance","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
 takeaways: ["Build the billable population from vendor and tenant records, not memory.","Separate quantity, service-period, price, and assignment exceptions.","Keep contract interpretation and customer credits with authorized commercial owners."]
 faqs: [["What can a remote bookkeeper prepare?","A remote bookkeeper can assemble vendor detail, map approved client assignments, compare quantities and rates, and maintain the exception queue."],["Can the bookkeeper decide whether an unused seat is billable?","No. That depends on the client agreement and approved commercial policy."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This article addresses bookkeeping workflow design, not accounting, tax, legal, cybersecurity, licensing, or contract advice.
 
 ## One license can create three different numbers
 
 A managed-service provider may buy 420 cloud seats, assign 403 in vendor administration consoles, and bill 397 to clients. None of those numbers is automatically wrong. Internal seats, trial licenses, minimum commitments, midmonth changes, suspended users, and reseller bundles can explain the differences. Trouble begins when the team compares only the vendor invoice with total client revenue. That shortcut cannot show which client, product, quantity, rate, or service period created the gap.
 
-Start with a license dictionary. For every vendor SKU, store the vendor name, product ID, billing unit, commitment term, renewal date, cost basis, client-facing product name, approved billing rule, and responsible service owner. Keep old mappings with effective dates because vendors rename products and clients retain legacy pricing. Access to license consoles should be read-only where practical. NIST's cybersecurity framework includes [asset-management outcomes](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/id/am/) that are useful background for maintaining inventories, although the company must define its own operational and security controls.
+Start with a license dictionary. For every vendor SKU, store the vendor name, product ID, billing unit, commitment term, renewal date, cost basis, client-facing product name, approved billing rule, and responsible service owner. Keep old mappings with effective dates because vendors rename products and clients retain legacy pricing. Access to license consoles should be read-only where practical. NIST's Cybersecurity Framework [Identify resources](https://www.nist.gov/cyberframework/identify) include asset-management context that is useful background for maintaining inventories, although the company must define its own operational and security controls.
 
 ## Freeze four views at the same cutoff
 

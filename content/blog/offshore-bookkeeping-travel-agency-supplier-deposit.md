@@ -10,6 +10,8 @@ sources: [{"name":"U.S. Department of Transportation refunds guidance","url":"ht
 takeaways: ["Maintain separate traveler-fund and supplier-deposit movements by booking.","Carry cancellation and refund items until cash and approvals actually settle.","Leave itinerary, contract, consumer-rights, and commission decisions with authorized professionals."]
 faqs: [["Is a supplier credit the same as a cash refund?","No. Record the credit's restrictions and owner separately, and close the cash receivable only when an approved resolution occurs."],["Can a bookkeeper promise a traveler refund date?","No. The role can report verified status and age; authorized agency staff manage customer commitments."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This workflow is not accounting, tax, legal, travel, insurance, consumer-rights, or payment advice.
 
 ## One booking can hold money in two directions

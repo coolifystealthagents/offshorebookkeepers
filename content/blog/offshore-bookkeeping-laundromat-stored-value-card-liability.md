@@ -10,6 +10,8 @@ sources: [{"name":"FTC gift card guidance","url":"https://consumer.ftc.gov/artic
 takeaways: ["Reconcile cash loaded, promotional value, usage, and refunds as separate movements.","Compare the card platform with machine and settlement records rather than relying on one dashboard total.","Escalate expiration, abandoned-value, and customer-dispute decisions to authorized owners."]
 faqs: [["Is promotional value the same as customer cash loaded?","No. Track it separately so the register can explain both customer funds and company-funded promotions."],["What if a kiosk settlement is short?","Compare the kiosk load log, processor batch, cash collection, refunds, and errors; leave any unexplained amount open with an owner."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This article is about bookkeeping controls and is not accounting, tax, legal, consumer-protection, unclaimed-property, or payment advice.
 
 ## Stored value links three operational systems

@@ -10,6 +10,8 @@ sources: [{"name":"CMS HIPAA administrative simplification","url":"https://www.c
 takeaways: ["Use a claim-level bridge while limiting the bookkeeping file to authorized data.","Keep paid, reversed, rejected, recouped, and pending claims in distinct states.","Leave clinical, contractual, compliance, and write-off decisions with authorized specialists."]
 faqs: [["Does a bookkeeper need patient names to reconcile deposits?","Often the work can use authorized claim and batch identifiers instead; the privacy owner should define the minimum necessary fields."],["Is a rejected claim automatically a bad debt?","No. It may be correctable, appealable, reversed, transferred, or otherwise resolved under an authorized process."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This workflow is not medical, pharmacy, accounting, tax, legal, privacy, payer-contract, or regulatory advice.
 
 ## A bank deposit is the end of a longer claim story

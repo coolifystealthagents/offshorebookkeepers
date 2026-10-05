@@ -10,6 +10,8 @@ sources: [{"name":"EPA Clean Marinas resources","url":"https://www.epa.gov/nps/m
 takeaways: ["Use vessel, customer, slip, and contract identifiers together.","Keep deposits and metered charges separate through move-in, transfers, and haul-out.","Require authorized review for forfeitures, damage, rate disputes, and refund holds."]
 faqs: [["How should a midseason slip transfer be recorded?","Close the old slip occupancy segment and open a linked new segment while preserving readings, dates, rate approvals, and deposit history."],["Can the preparer estimate a missing meter reading?","Only under an approved method and with clear review; an undocumented estimate should remain an exception."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This is a bookkeeping operations guide, not accounting, tax, legal, environmental, maritime, utility, or insurance advice.
 
 ## A marina account has several moving parts

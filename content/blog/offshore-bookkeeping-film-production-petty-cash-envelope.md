@@ -10,6 +10,8 @@ sources: [{"name":"IRS recordkeeping guidance","url":"https://www.irs.gov/busine
 takeaways: ["Treat each cash envelope as a controlled subledger, not a stack of receipts.","Reconcile custody, purpose, evidence, and ledger coding before replenishing an envelope.","Keep spending approval and exception decisions with the production's authorized owners."]
 faqs: [["Can an offshore bookkeeper maintain the envelope register?","Yes. With authorized read access, the bookkeeper can match issue records, receipt images, return counts, and approved coding while routing exceptions."],["Should missing receipts be replaced with estimates?","No. Record the shortage and request evidence or an authorized decision; do not manufacture support."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This workflow supports bookkeeping preparation and review. It is not accounting, tax, legal, payroll, employment, or production-finance advice.
 
 ## Petty cash behaves differently on a set

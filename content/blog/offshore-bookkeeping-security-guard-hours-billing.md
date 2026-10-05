@@ -10,6 +10,8 @@ sources: [{"name":"U.S. Department of Labor recordkeeping fact sheet","url":"htt
 takeaways: ["Compare scheduled, verified, paid, and billed hours by guard, post, and shift.","Keep overtime, premium, missed-break, and contract decisions with authorized owners.","Resolve exceptions before payroll and invoicing deadlines rather than netting them later."]
 faqs: [["Can a bookkeeper decide whether hours count as overtime?","No. The preparer applies only approved rules and routes legal or policy questions to authorized payroll and HR owners."],["What if the client disputes a shift after payroll runs?","Keep employee pay and client billing as separate workflows; route the billing dispute without altering approved pay records."]]
 ---
+## Scope and publication note
+
 Published October 5, 2026. This article is not accounting, tax, legal, payroll, wage-and-hour, licensing, labor, safety, or contract advice.
 
 ## Four versions of a shift can coexist
