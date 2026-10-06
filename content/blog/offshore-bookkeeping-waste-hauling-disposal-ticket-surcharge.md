@@ -1,8 +1,8 @@
 ---
 title: "Reconcile waste-hauling disposal tickets to customer surcharges"
 description: "A load-level bookkeeping workflow for scale tickets, landfill invoices, route records, customer pricing, and disposal-fee exceptions."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Waste-services bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-vendor-prepayment-reconciliation.svg"

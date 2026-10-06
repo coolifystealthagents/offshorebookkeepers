@@ -1,8 +1,8 @@
 ---
 title: "Control film-production petty cash from envelope issue to wrap"
 description: "A field-ready bookkeeping workflow for production cash, receipts, coding, replenishment, and wrap reconciliation."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Media bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-expense-reimbursement-approval.svg"

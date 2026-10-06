@@ -1,8 +1,8 @@
 ---
 title: "Unclaimed property holder records: a bookkeeping control study"
 description: "A research protocol for tracing stale checks, customer credits, payroll items, and other potential unclaimed property from the ledger to an authorized disposition."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Compliance support"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-document-retention-benchmarks.webp"

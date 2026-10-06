@@ -1,8 +1,8 @@
 ---
 title: "Reconcile managed-service cloud licenses before client billing"
 description: "A practical way for MSP finance teams to connect vendor seats, client assignments, contract rates, and pass-through invoices."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Technology bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-subscription-revenue-reconciliation.webp"

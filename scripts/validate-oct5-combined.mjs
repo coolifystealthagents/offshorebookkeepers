@@ -40,7 +40,7 @@ for (const [articleIndex, article] of articles.entries()) {
   const image = source.match(/^featuredImage: "([^"]+)"$/m)?.[1];
   const body = source.match(/^---\n[\s\S]*?\n---\n([\s\S]*)$/)?.[1]?.trim();
   if (!title || !date || !image || !body) throw new Error(`${article.slug}: incomplete source`);
-  if (date !== '2026-10-05') throw new Error(`${article.slug}: date ${date}`);
+  if (date !== '2026-10-06') throw new Error(`${article.slug}: date ${date}`);
   const htmlPath = `.next/server/app/${family}/${article.slug}.html`;
   const rawHtml = fs.readFileSync(htmlPath, 'utf8');
   const htmlText = decode(rawHtml);
@@ -48,8 +48,8 @@ for (const [articleIndex, article] of articles.entries()) {
   const canonical = `https://offshorebookkeepers.com/${family}/${article.slug}`;
   if (!rawHtml.includes(canonical)) throw new Error(`${article.slug}: missing canonical`);
   if (!htmlText.includes(title)) throw new Error(`${article.slug}: missing rendered title`);
-  if (!rawHtml.includes('2026-10-05')) throw new Error(`${article.slug}: missing rendered date`);
-  if (!rawHtml.includes('datePublished') || !rawHtml.includes('2026-10-05')) throw new Error(`${article.slug}: missing datePublished`);
+  if (!rawHtml.includes('2026-10-06')) throw new Error(`${article.slug}: missing rendered date`);
+  if (!rawHtml.includes('datePublished') || !rawHtml.includes('2026-10-06')) throw new Error(`${article.slug}: missing datePublished`);
   if (!rawHtml.includes(image)) throw new Error(`${article.slug}: missing rendered image`);
   const paragraphs = body.split(/\n\s*\n/).filter((p) => p && !p.startsWith('#')).map(markdownText).filter((p) => p.split(/\s+/).length >= 8);
   const missingParagraphs = paragraphs.filter((p) => !comparableHtml.includes(comparable(p)));
@@ -89,4 +89,4 @@ for (const [articleIndex, article] of articles.entries()) {
   results.push({ ordinal: articleIndex + 1, family, slug: article.slug, title, date, canonical, sourceHash, sourceBodyHash, renderedHtmlHash, renderedTextHash, renderedParagraphs: paragraphs.length, image, imageFormat: imageMeta.format, imageWidth: imageMeta.width, imageHeight: imageMeta.height, imageHttpStatus, imageHttpContentType });
 }
 
-console.log(JSON.stringify({ required: 17, validated: results.length, timezone: 'UTC', publicationDate: '2026-10-05', checkedInternalLinks: Object.fromEntries(checkedInternalLinks), results }, null, 2));
+console.log(JSON.stringify({ required: 17, validated: results.length, timezone: 'UTC', publicationDate: '2026-10-06', checkedInternalLinks: Object.fromEntries(checkedInternalLinks), results }, null, 2));

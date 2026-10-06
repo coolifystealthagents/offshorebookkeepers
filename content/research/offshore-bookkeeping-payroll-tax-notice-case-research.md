@@ -1,8 +1,8 @@
 ---
 title: "Payroll tax notice cases: an evidence-lineage research protocol"
 description: "A control study for tracing payroll tax notices through filed returns, deposits, payroll-provider records, responses, adjustments, payments, and ledger corrections."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Payroll bookkeeping"
 type: "research"
 featuredImage: "/thumbnails/payroll-reconciliation-evidence.svg"

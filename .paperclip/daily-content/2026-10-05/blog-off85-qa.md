@@ -7,7 +7,7 @@
 - Blog content commit: `20c889116f0e2906df5f68eb3cf435fe84b30b68`
 - Blog punctuation correction commit: `91e1253be526f35e53865a9bbe8f3d036c8f6db2`
 - Site timezone: `UTC`
-- Candidate publication date: `2026-10-05`; the final publication date must be reconciled to the first successful public verification in site timezone `UTC`
+- Reconciled publication date: `2026-10-06` in site timezone `UTC`; all 17 articles were still unpublished when reconciled. Final truth remains subject to successful first public verification.
 - Required/validated Blog count: `12/12`
 
 ## Body lengths
@@ -30,7 +30,7 @@
 - Combined ordered source/render validation: `17/17` pass. Each route has a full source hash, source-body hash, rendered-HTML hash, rendered-text hash, canonical, title, structured date, index entry, sitemap entry, and complete rendered body.
 - Rendered images: `17/17` returned HTTP 200 with an image MIME type and passed signature/decode and dimension checks.
 - Contextual internal links: all checked destinations returned HTTP 200. Authoritative external citations were reviewed, including the current FTC gift-card and health-claims destinations.
-- `npm ci`: pass (`26` packages); `npm audit --audit-level=high`: pass (`0` vulnerabilities).
+- `npm ci`: pass (`26` packages); `npm audit --audit-level=high`: pass (`0` vulnerabilities) after locking patched `source-map-js` `1.2.2`.
 - `npm run validate:content`: pass.
 - `node scripts/validate-off85-cycle.mjs`: pass (`12/12` Blog).
 - `npm run lint` (`next typegen && tsc --noEmit`): pass; generated Next.js changes were removed and not staged.

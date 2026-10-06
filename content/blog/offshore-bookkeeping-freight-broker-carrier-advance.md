@@ -1,8 +1,8 @@
 ---
 title: "Clear freight-broker carrier advances against completed loads"
 description: "A bookkeeping control for carrier advances, load evidence, final settlements, fees, and exceptions."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Logistics bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-cash-disbursement-approval.webp"

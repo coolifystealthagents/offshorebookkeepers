@@ -1,8 +1,8 @@
 ---
 title: "Roll med-spa treatment packages from sale to completed visit"
 description: "A bookkeeping rollforward for prepaid treatment packages, appointment usage, refunds, expirations, and processor settlements."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Healthcare bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp"

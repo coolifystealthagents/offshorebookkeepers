@@ -1,8 +1,8 @@
 ---
 title: "Trace commercial-printing paper spoilage to the job ticket"
 description: "A job-cost bookkeeping routine for planned setup sheets, unexpected waste, inventory issues, reprints, and owner review."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Manufacturing bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-inventory-count-handoff.webp"

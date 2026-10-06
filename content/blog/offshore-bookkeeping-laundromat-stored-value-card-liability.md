@@ -1,8 +1,8 @@
 ---
 title: "Reconcile laundromat stored-value cards to cash and machine usage"
 description: "A bookkeeping bridge for card loads, promotions, refunds, vending activity, equipment records, and unused customer value."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Retail bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-cash-application-unapplied-receipts.svg"

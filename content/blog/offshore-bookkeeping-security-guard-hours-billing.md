@@ -1,8 +1,8 @@
 ---
 title: "Reconcile security-guard shifts to payroll and client invoices"
 description: "A three-way bookkeeping check for scheduled posts, verified attendance, pay records, bill rates, overtime, and exceptions."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Service business bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/payroll-journal-preparation-controls.webp"

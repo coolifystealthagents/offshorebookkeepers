@@ -1,8 +1,8 @@
 ---
 title: "Reconcile brewery keg deposits across distributor returns"
 description: "An asset-and-deposit workflow for keg shipments, custody, returns, credits, losses, and ledger review."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Brewery bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-fixed-asset-register-handoff.webp"

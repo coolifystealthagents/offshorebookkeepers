@@ -8,20 +8,176 @@
   "contentCommit": "20c889116f0e2906df5f68eb3cf435fe84b30b68",
   "correctiveCommit": "91e1253be526f35e53865a9bbe8f3d036c8f6db2",
   "timezone": "UTC",
-  "publicationDate": "2026-10-05",
+  "publicationDate": "2026-10-06",
   "status": "validated-for-combined-release",
   "articles": [
-    {"family":"blog","topic":"Film-production petty cash envelope control","slug":"offshore-bookkeeping-film-production-petty-cash-envelope","sourcePath":"content/blog/offshore-bookkeeping-film-production-petty-cash-envelope.md","sources":["https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping","https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"],"bodyWords":975,"contentHash":"6ec01bc64b5ed45e2c68c6430ecbf9f5b8c28ab67b3014ea07ee0d782f74608b","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-film-production-petty-cash-envelope"},
-    {"family":"blog","topic":"Managed-service cloud license pass-through billing","slug":"offshore-bookkeeping-msp-cloud-license-pass-through","sourcePath":"content/blog/offshore-bookkeeping-msp-cloud-license-pass-through.md","sources":["https://www.nist.gov/cyberframework/identify","https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"],"bodyWords":1058,"contentHash":"e2994045813e1a6d76cb09d15d93769fadae96eff4f4a3919d27cd33da7ef65d","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-msp-cloud-license-pass-through"},
-    {"family":"blog","topic":"Waste-hauling disposal tickets and customer surcharges","slug":"offshore-bookkeeping-waste-hauling-disposal-ticket-surcharge","sourcePath":"content/blog/offshore-bookkeeping-waste-hauling-disposal-ticket-surcharge.md","sources":["https://www.epa.gov/landfills/basic-information-about-landfills","https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"],"bodyWords":1133,"contentHash":"2fe336759f989f856678672b20eb08573abe44a8d4e7bde2f660a30d0fd50012","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-waste-hauling-disposal-ticket-surcharge"},
-    {"family":"blog","topic":"Med-spa prepaid treatment package rollforward","slug":"offshore-bookkeeping-med-spa-treatment-package-rollforward","sourcePath":"content/blog/offshore-bookkeeping-med-spa-treatment-package-rollforward.md","sources":["https://www.hhs.gov/hipaa/for-professionals/index.html","https://www.ftc.gov/business-guidance/advertising-marketing/health-claims"],"bodyWords":996,"contentHash":"19f951e574b2c7424924a1a0a131f8345f8e1a3c53ddfa0ade9c1541b086113b","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-med-spa-treatment-package-rollforward"},
-    {"family":"blog","topic":"Freight-broker carrier advance clearing","slug":"offshore-bookkeeping-freight-broker-carrier-advance","sourcePath":"content/blog/offshore-bookkeeping-freight-broker-carrier-advance.md","sources":["https://www.fmcsa.dot.gov/registration/broker-registration","https://www.fmcsa.dot.gov/registration/insurance-filing-requirements"],"bodyWords":1019,"contentHash":"42e456d961b06ad5ae0019af777f29c6920119887f0a3b5715e9598274873c28","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-freight-broker-carrier-advance"},
-    {"family":"blog","topic":"Marina slip deposits and metered utilities","slug":"offshore-bookkeeping-marina-slip-deposit-utilities","sourcePath":"content/blog/offshore-bookkeeping-marina-slip-deposit-utilities.md","sources":["https://www.epa.gov/nps/marinas-and-boating","https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"],"bodyWords":954,"contentHash":"3fbe3589037eb3c13bdc98420b95ebf7614995604ea16d3363a925896134eb14","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-marina-slip-deposit-utilities"},
-    {"family":"blog","topic":"Laundromat stored-value card liability","slug":"offshore-bookkeeping-laundromat-stored-value-card-liability","sourcePath":"content/blog/offshore-bookkeeping-laundromat-stored-value-card-liability.md","sources":["https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams","https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"],"bodyWords":971,"contentHash":"2c45ab1f24a684394e308ae43d4417408f6f6b9c4e8a25f50ba7f8136a2a1018","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-laundromat-stored-value-card-liability"},
-    {"family":"blog","topic":"Independent-pharmacy third-party receivables","slug":"offshore-bookkeeping-pharmacy-third-party-receivable","sourcePath":"content/blog/offshore-bookkeeping-pharmacy-third-party-receivable.md","sources":["https://www.cms.gov/priorities/key-initiatives/burden-reduction/administrative-simplification/hipaa","https://www.hhs.gov/hipaa/for-professionals/index.html"],"bodyWords":936,"contentHash":"f1a1b25c867b02e3ceaeaae5c7f8e8b523e3bb40a60b26b7123fe011d9e4b1b3","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-pharmacy-third-party-receivable"},
-    {"family":"blog","topic":"Commercial-printing paper spoilage by job","slug":"offshore-bookkeeping-commercial-printer-paper-spoilage","sourcePath":"content/blog/offshore-bookkeeping-commercial-printer-paper-spoilage.md","sources":["https://www.epa.gov/smm","https://www.nist.gov/mep"],"bodyWords":942,"contentHash":"b7cc442c14508f21f96af954ae9a931e9b1f568cadd4994ad45eaa3b97164af8","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-commercial-printer-paper-spoilage"},
-    {"family":"blog","topic":"Travel-agency supplier deposits and refunds","slug":"offshore-bookkeeping-travel-agency-supplier-deposit","sourcePath":"content/blog/offshore-bookkeeping-travel-agency-supplier-deposit.md","sources":["https://www.transportation.gov/individuals/aviation-consumer-protection/refunds","https://consumer.ftc.gov/articles/avoid-scams-when-you-travel"],"bodyWords":927,"contentHash":"7d908f0c58fc0fb49bd084aa742c8cfc6e5c2fa542eb7bd86ac34f9ca23a114e","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-travel-agency-supplier-deposit"},
-    {"family":"blog","topic":"Security-guard hours to payroll and client billing","slug":"offshore-bookkeeping-security-guard-hours-billing","sourcePath":"content/blog/offshore-bookkeeping-security-guard-hours-billing.md","sources":["https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping","https://www.dol.gov/agencies/whd/overtime"],"bodyWords":941,"contentHash":"4e6b6f2d262afabfbc589d2bf9c970a30d32e1db06040e49f5b29541f941cf04","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-security-guard-hours-billing"},
-    {"family":"blog","topic":"Brewery keg deposits and distributor returns","slug":"offshore-bookkeeping-brewery-keg-deposit","sourcePath":"content/blog/offshore-bookkeeping-brewery-keg-deposit.md","sources":["https://www.ttb.gov/regulated-commodities/beverage-alcohol/beer","https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"],"bodyWords":924,"contentHash":"25e0316c0c4c267057d588915ca57ed68e7c4dc450428118a5873c79759c1cd0","publicationDate":"2026-10-05","liveUrl":"https://offshorebookkeepers.com/blog/offshore-bookkeeping-brewery-keg-deposit"}
+    {
+      "family": "blog",
+      "topic": "Film-production petty cash envelope control",
+      "slug": "offshore-bookkeeping-film-production-petty-cash-envelope",
+      "sourcePath": "content/blog/offshore-bookkeeping-film-production-petty-cash-envelope.md",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping"
+      ],
+      "bodyWords": 975,
+      "contentHash": "ec619536678857838037bd58d02eb761af040311a5e3ec4752035099557b5364",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-film-production-petty-cash-envelope"
+    },
+    {
+      "family": "blog",
+      "topic": "Managed-service cloud license pass-through billing",
+      "slug": "offshore-bookkeeping-msp-cloud-license-pass-through",
+      "sourcePath": "content/blog/offshore-bookkeeping-msp-cloud-license-pass-through.md",
+      "sources": [
+        "https://www.nist.gov/cyberframework/identify",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "bodyWords": 1058,
+      "contentHash": "122b56639a690a7c3b1c7c3fd3b60c0b452f14bf92d98adb4a7716adf8d6efc7",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-msp-cloud-license-pass-through"
+    },
+    {
+      "family": "blog",
+      "topic": "Waste-hauling disposal tickets and customer surcharges",
+      "slug": "offshore-bookkeeping-waste-hauling-disposal-ticket-surcharge",
+      "sourcePath": "content/blog/offshore-bookkeeping-waste-hauling-disposal-ticket-surcharge.md",
+      "sources": [
+        "https://www.epa.gov/landfills/basic-information-about-landfills",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "bodyWords": 1133,
+      "contentHash": "dbf89e7d499284e97749d1fdd55cf321d1d84365ce1d47dd82f2ef61d07838af",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-waste-hauling-disposal-ticket-surcharge"
+    },
+    {
+      "family": "blog",
+      "topic": "Med-spa prepaid treatment package rollforward",
+      "slug": "offshore-bookkeeping-med-spa-treatment-package-rollforward",
+      "sourcePath": "content/blog/offshore-bookkeeping-med-spa-treatment-package-rollforward.md",
+      "sources": [
+        "https://www.hhs.gov/hipaa/for-professionals/index.html",
+        "https://www.ftc.gov/business-guidance/advertising-marketing/health-claims"
+      ],
+      "bodyWords": 996,
+      "contentHash": "8e3c5b7e744ce1440776f301e5e552a975b5398ec17e659fc5d32f8767b8a48e",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-med-spa-treatment-package-rollforward"
+    },
+    {
+      "family": "blog",
+      "topic": "Freight-broker carrier advance clearing",
+      "slug": "offshore-bookkeeping-freight-broker-carrier-advance",
+      "sourcePath": "content/blog/offshore-bookkeeping-freight-broker-carrier-advance.md",
+      "sources": [
+        "https://www.fmcsa.dot.gov/registration/broker-registration",
+        "https://www.fmcsa.dot.gov/registration/insurance-filing-requirements"
+      ],
+      "bodyWords": 1019,
+      "contentHash": "eb41a6f99250cf6eacba2175e5f4e846e34c32527694fe4432b5269ca1facbe0",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-freight-broker-carrier-advance"
+    },
+    {
+      "family": "blog",
+      "topic": "Marina slip deposits and metered utilities",
+      "slug": "offshore-bookkeeping-marina-slip-deposit-utilities",
+      "sourcePath": "content/blog/offshore-bookkeeping-marina-slip-deposit-utilities.md",
+      "sources": [
+        "https://www.epa.gov/nps/marinas-and-boating",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "bodyWords": 954,
+      "contentHash": "702eeb4c6e0e8d3f683b04fcf11f6cb1d9289458863a838e6a6507c19f5b221e",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-marina-slip-deposit-utilities"
+    },
+    {
+      "family": "blog",
+      "topic": "Laundromat stored-value card liability",
+      "slug": "offshore-bookkeeping-laundromat-stored-value-card-liability",
+      "sourcePath": "content/blog/offshore-bookkeeping-laundromat-stored-value-card-liability.md",
+      "sources": [
+        "https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "bodyWords": 971,
+      "contentHash": "fc2a677f79c4b11276182c5c157fd786985226e3bf6df944cae36d3f070f92f4",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-laundromat-stored-value-card-liability"
+    },
+    {
+      "family": "blog",
+      "topic": "Independent-pharmacy third-party receivables",
+      "slug": "offshore-bookkeeping-pharmacy-third-party-receivable",
+      "sourcePath": "content/blog/offshore-bookkeeping-pharmacy-third-party-receivable.md",
+      "sources": [
+        "https://www.cms.gov/priorities/key-initiatives/burden-reduction/administrative-simplification/hipaa",
+        "https://www.hhs.gov/hipaa/for-professionals/index.html"
+      ],
+      "bodyWords": 936,
+      "contentHash": "c67742ee0e94456c8ec8c9884e834e4a27e4d89520d067afddaa44ed596692ed",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-pharmacy-third-party-receivable"
+    },
+    {
+      "family": "blog",
+      "topic": "Commercial-printing paper spoilage by job",
+      "slug": "offshore-bookkeeping-commercial-printer-paper-spoilage",
+      "sourcePath": "content/blog/offshore-bookkeeping-commercial-printer-paper-spoilage.md",
+      "sources": [
+        "https://www.epa.gov/smm",
+        "https://www.nist.gov/mep"
+      ],
+      "bodyWords": 942,
+      "contentHash": "803e1c1d132be0625806eaa329157ea417757a243a4047ca0a5c2dc39a716b05",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-commercial-printer-paper-spoilage"
+    },
+    {
+      "family": "blog",
+      "topic": "Travel-agency supplier deposits and refunds",
+      "slug": "offshore-bookkeeping-travel-agency-supplier-deposit",
+      "sourcePath": "content/blog/offshore-bookkeeping-travel-agency-supplier-deposit.md",
+      "sources": [
+        "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds",
+        "https://consumer.ftc.gov/articles/avoid-scams-when-you-travel"
+      ],
+      "bodyWords": 927,
+      "contentHash": "f2ae1285cbe07d2cce6a4a135c6712f8d4adade8806ec0c7bad10b6f4465f18d",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-travel-agency-supplier-deposit"
+    },
+    {
+      "family": "blog",
+      "topic": "Security-guard hours to payroll and client billing",
+      "slug": "offshore-bookkeeping-security-guard-hours-billing",
+      "sourcePath": "content/blog/offshore-bookkeeping-security-guard-hours-billing.md",
+      "sources": [
+        "https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping",
+        "https://www.dol.gov/agencies/whd/overtime"
+      ],
+      "bodyWords": 941,
+      "contentHash": "3229495cc3106b5340ffcbb010bd3b35005ceaa72e05306416fbc9ae194c47f8",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-security-guard-hours-billing"
+    },
+    {
+      "family": "blog",
+      "topic": "Brewery keg deposits and distributor returns",
+      "slug": "offshore-bookkeeping-brewery-keg-deposit",
+      "sourcePath": "content/blog/offshore-bookkeeping-brewery-keg-deposit.md",
+      "sources": [
+        "https://www.ttb.gov/regulated-commodities/beverage-alcohol/beer",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"
+      ],
+      "bodyWords": 924,
+      "contentHash": "743a2f0f0f02dbf661d982cb4f42d475b5e058f67ea7b6672c7d4d5846955188",
+      "publicationDate": "2026-10-06",
+      "liveUrl": "https://offshorebookkeepers.com/blog/offshore-bookkeeping-brewery-keg-deposit"
+    }
   ]
 }

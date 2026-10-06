@@ -4,12 +4,108 @@
   "status": "local-handoff",
   "baselineSHA": "6cc0f2f7ee33115b3dbe661f5d472d8f9eb628fc",
   "contentCommitSHA": "611fc208a098e975fed5bf0332726f145fd96c8a",
-  "publicationDateStatus": "provisional; Blog integrator must reconcile to actual first-publication date before the sole push",
+  "publicationDateStatus": "reconciled to approved pre-push UTC date 2026-10-06; final truth remains subject to successful first public verification",
   "articles": [
-    {"family":"daily-research","topic":"Unclaimed property holder records","slug":"offshore-bookkeeping-unclaimed-property-holder-research","sourcePath":"content/research/offshore-bookkeeping-unclaimed-property-holder-research.md","route":"/research/offshore-bookkeeping-unclaimed-property-holder-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-unclaimed-property-holder-research","publicationDate":"2026-10-05","bodyWords":1239,"contentHash":"26d3f968b148d822cc2e54f5fed5c35680a6975d3d55b58a1bcc666465981782","sourceUrls":["https://unclaimed.org/reporting/","https://www.sec.gov/resources-for-investors/investor-alerts-bulletins/ib_escheatment","https://www.irs.gov/publications/p583","https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"],"deploymentEvidence":null,"liveURL":null,"verifiedAt":null},
-    {"family":"daily-research","topic":"Payroll tax notice case lineage","slug":"offshore-bookkeeping-payroll-tax-notice-case-research","sourcePath":"content/research/offshore-bookkeeping-payroll-tax-notice-case-research.md","route":"/research/offshore-bookkeeping-payroll-tax-notice-case-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-payroll-tax-notice-case-research","publicationDate":"2026-10-05","bodyWords":1249,"contentHash":"bb3807db6152870eb58bf5c9dec89b648672233be46e4d5c399126860b5c7e27","sourceUrls":["https://www.irs.gov/taxtopics/tc651","https://www.irs.gov/individuals/understanding-your-irs-notice-or-letter","https://www.irs.gov/businesses/small-businesses-self-employed/combined-annual-wage-reporting-missing-form-w-2-inquiries","https://www.ssa.gov/employer/","https://www.irs.gov/publications/p15"],"deploymentEvidence":null,"liveURL":null,"verifiedAt":null},
-    {"family":"daily-research","topic":"Chargeback representment case reconciliation","slug":"offshore-bookkeeping-chargeback-representment-research","sourcePath":"content/research/offshore-bookkeeping-chargeback-representment-research.md","route":"/research/offshore-bookkeeping-chargeback-representment-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-chargeback-representment-research","publicationDate":"2026-10-05","bodyWords":1202,"contentHash":"d65a381eaff920ae177af06ee41244fd0af8e1ec05aacf2fec028d8712494f55","sourceUrls":["https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/","https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-1026","https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105","https://www.nist.gov/cyberframework"],"deploymentEvidence":null,"liveURL":null,"verifiedAt":null},
-    {"family":"daily-research","topic":"Sales commission clawback controls","slug":"offshore-bookkeeping-sales-commission-clawback-research","sourcePath":"content/research/offshore-bookkeeping-sales-commission-clawback-research.md","route":"/research/offshore-bookkeeping-sales-commission-clawback-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-sales-commission-clawback-research","publicationDate":"2026-10-05","bodyWords":1217,"contentHash":"b654f92277e7d636d626c25c452b69585baf0e47dae9f5c851425aeed1deef64","sourceUrls":["https://www.dol.gov/agencies/whd/fact-sheets/16-flsa-wage-deductions","https://www.sec.gov/interps/account/sabcodet13.htm","https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105","https://www.irs.gov/publications/p15"],"deploymentEvidence":null,"liveURL":null,"verifiedAt":null},
-    {"family":"daily-research","topic":"Commercial card reward accounting evidence","slug":"offshore-bookkeeping-commercial-card-rewards-research","sourcePath":"content/research/offshore-bookkeeping-commercial-card-rewards-research.md","route":"/research/offshore-bookkeeping-commercial-card-rewards-research","canonical":"https://offshorebookkeepers.com/research/offshore-bookkeeping-commercial-card-rewards-research","publicationDate":"2026-10-05","bodyWords":1255,"contentHash":"2abd611869c8e4e6a2c3642b0318846a8d9a72f67fa24fdbdb0e8d072b1a05e0","sourceUrls":["https://www.consumerfinance.gov/credit-cards/agreements/","https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-1026","https://www.irs.gov/publications/p583","https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"],"deploymentEvidence":null,"liveURL":null,"verifiedAt":null}
+    {
+      "family": "daily-research",
+      "topic": "Unclaimed property holder records",
+      "slug": "offshore-bookkeeping-unclaimed-property-holder-research",
+      "sourcePath": "content/research/offshore-bookkeeping-unclaimed-property-holder-research.md",
+      "route": "/research/offshore-bookkeeping-unclaimed-property-holder-research",
+      "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-unclaimed-property-holder-research",
+      "publicationDate": "2026-10-06",
+      "bodyWords": 1239,
+      "contentHash": "5a8aa925f9034eee23beefedb74bd6910357f8356656ba5279770822205005ca",
+      "sourceUrls": [
+        "https://unclaimed.org/reporting/",
+        "https://www.sec.gov/resources-for-investors/investor-alerts-bulletins/ib_escheatment",
+        "https://www.irs.gov/publications/p583",
+        "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "daily-research",
+      "topic": "Payroll tax notice case lineage",
+      "slug": "offshore-bookkeeping-payroll-tax-notice-case-research",
+      "sourcePath": "content/research/offshore-bookkeeping-payroll-tax-notice-case-research.md",
+      "route": "/research/offshore-bookkeeping-payroll-tax-notice-case-research",
+      "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-payroll-tax-notice-case-research",
+      "publicationDate": "2026-10-06",
+      "bodyWords": 1249,
+      "contentHash": "6388f6a1d0a26038d106ccc1f1ee4fd5402a59933ce37736e6a289df09addc35",
+      "sourceUrls": [
+        "https://www.irs.gov/taxtopics/tc651",
+        "https://www.irs.gov/individuals/understanding-your-irs-notice-or-letter",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/combined-annual-wage-reporting-missing-form-w-2-inquiries",
+        "https://www.ssa.gov/employer/",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "daily-research",
+      "topic": "Chargeback representment case reconciliation",
+      "slug": "offshore-bookkeeping-chargeback-representment-research",
+      "sourcePath": "content/research/offshore-bookkeeping-chargeback-representment-research.md",
+      "route": "/research/offshore-bookkeeping-chargeback-representment-research",
+      "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-chargeback-representment-research",
+      "publicationDate": "2026-10-06",
+      "bodyWords": 1202,
+      "contentHash": "7e8150f69585350f463e358f060d0eb8ba9d7e9032ef4a2f572ed3641f07e345",
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/",
+        "https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-1026",
+        "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "https://www.nist.gov/cyberframework"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "daily-research",
+      "topic": "Sales commission clawback controls",
+      "slug": "offshore-bookkeeping-sales-commission-clawback-research",
+      "sourcePath": "content/research/offshore-bookkeeping-sales-commission-clawback-research.md",
+      "route": "/research/offshore-bookkeeping-sales-commission-clawback-research",
+      "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-sales-commission-clawback-research",
+      "publicationDate": "2026-10-06",
+      "bodyWords": 1217,
+      "contentHash": "4c677445e97f57994485cc5f96ccf33c8932c8ca5e3f51e9a245603ecb88179d",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/whd/fact-sheets/16-flsa-wage-deductions",
+        "https://www.sec.gov/interps/account/sabcodet13.htm",
+        "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105",
+        "https://www.irs.gov/publications/p15"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    },
+    {
+      "family": "daily-research",
+      "topic": "Commercial card reward accounting evidence",
+      "slug": "offshore-bookkeeping-commercial-card-rewards-research",
+      "sourcePath": "content/research/offshore-bookkeeping-commercial-card-rewards-research.md",
+      "route": "/research/offshore-bookkeeping-commercial-card-rewards-research",
+      "canonical": "https://offshorebookkeepers.com/research/offshore-bookkeeping-commercial-card-rewards-research",
+      "publicationDate": "2026-10-06",
+      "bodyWords": 1255,
+      "contentHash": "93f9993e97d6858e0678d79fd21e5221301df09f0e3f2f25e01e8fd2359c32be",
+      "sourceUrls": [
+        "https://www.consumerfinance.gov/credit-cards/agreements/",
+        "https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-1026",
+        "https://www.irs.gov/publications/p583",
+        "https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"
+      ],
+      "deploymentEvidence": null,
+      "liveURL": null,
+      "verifiedAt": null
+    }
   ]
 }

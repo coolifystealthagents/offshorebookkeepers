@@ -20,4 +20,4 @@ Status: **PASSING LOCAL HANDOFF**
 - Content commit: `611fc208a098e975fed5bf0332726f145fd96c8a`.
 - Publication status: local drafts only. Research did not push, deploy, or call these articles live.
 
-The site's reader-date implementation uses UTC. The `2026-10-05` value is a cycle label and provisional publication value. The Blog integrator must reconcile every article and this manifest to the actual first-publication date in UTC immediately before the sole combined push. If publication occurs on another UTC date, update all five frontmatter dates and this ledger before integration.
+The site's reader-date implementation uses UTC. The `2026-10-05` value remains the cycle label. Before the approved corrective push, the Blog integrator confirmed all 17 articles were still unpublished and reconciled all five Research frontmatter dates and the ledger to `2026-10-06` UTC. Final truth remains subject to successful first public verification.

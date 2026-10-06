@@ -42,7 +42,7 @@ const records = blogSlugs.map((slug) => {
   const body = bodyFrom(source);
   const published = source.match(/^published: "([^"]+)"$/m)?.[1];
   const featuredImage = source.match(/^featuredImage: "([^"]+)"$/m)?.[1];
-  if (published !== '2026-10-05') throw new Error(`${slug}: publication date ${published}`);
+  if (published !== '2026-10-06') throw new Error(`${slug}: publication date ${published}`);
   if (!featuredImage || !fs.existsSync(path.join('public', featuredImage))) throw new Error(`${slug}: missing featured image`);
   const bodyWords = words(body).length;
   if (bodyWords < 900) throw new Error(`${slug}: ${bodyWords} substantive words; 900 required`);

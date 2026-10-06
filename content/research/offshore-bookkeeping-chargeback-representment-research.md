@@ -1,8 +1,8 @@
 ---
 title: "Chargeback representment: a case-to-ledger reconciliation study"
 description: "A research protocol for reconciling payment disputes from processor notices through evidence submissions, provisional credits, decisions, fees, cash settlement, and the ledger."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Ecommerce bookkeeping"
 type: "research"
 featuredImage: "/thumbnails/ecommerce-reconciliation-control-benchmarks.webp"

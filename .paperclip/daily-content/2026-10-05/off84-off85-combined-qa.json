@@ -8,15 +8,15 @@
   "blogContentCommit": "20c889116f0e2906df5f68eb3cf435fe84b30b68",
   "researchOriginalHandoffCommit": "bfcba540def4be7c338e48404cbad0972e8da5f1",
   "researchContentCommit": "611fc208a098e975fed5bf0332726f145fd96c8a",
-  "combinedValidatedContentHead": "41699dff49005b6e1137dfc8c34d6fe2f3505ff2",
+  "combinedValidatedContentHead": null,
   "timezone": "UTC",
-  "publicationDate": "2026-10-05",
+  "publicationDate": "2026-10-06",
   "required": {"blog": 12, "research": 5, "total": 17},
   "sourceValidated": {"blog": 12, "research": 5, "total": 17},
   "liveVerified": {"blog": 0, "research": 0, "total": 0},
   "gates": {
     "lockedInstall": "pass",
-    "dependencyAudit": "pass: 0 vulnerabilities",
+    "dependencyAudit": "pass: 0 vulnerabilities; source-map-js locked to patched 1.2.2",
     "contentValidation": "pass",
     "typecheck": "pass",
     "sourceTests": "35/36 pass; one unrelated baseline failure in content/blog/offshore-bookkeeper-bank-reconciliation-aging.md for legacy /services/bookkeeping link",
@@ -28,13 +28,13 @@
     "imageHttpMimeSignatureDecode": "pass: all 17 returned 200 with matching image MIME, format and dimensions from local production server",
     "contextualInternalLinks": "pass: 10 unique destinations returned 200 from local production server",
     "authoritativeSourceLinks": "pass with bounded access evidence: no retained source returned 404; 200 responses or access-controlled 403 responses only",
-    "blogOriginality": "pass: max five-word-shingle overlap 0.9595%, 0 repeated substantive paragraphs, 0 repeated substantive sentences, qualitative structure/example/argument review pass",
+    "blogOriginality": "pass: max five-word-shingle overlap 1.1329%, 0 repeated substantive paragraphs, 0 repeated substantive sentences, qualitative structure/example/argument review pass",
     "researchOriginality": "pass per OFF-84 handoff: max five-word-shingle overlap 0.20%, 0 repeated substantive paragraphs, qualitative structure/argument review pass"
   },
   "deployment": {
     "coolifyApplication": "qvifib30a3teww1rycuecuj9",
     "operatorOnly": true,
     "exactShaEvidence": null,
-    "status": "awaiting sole production push and browser-operator exact-SHA deployment"
+    "status": "approved corrective non-force push pending; browser-operator exact-SHA deployment remains separate"
   }
 }

@@ -1,8 +1,8 @@
 ---
 title: "Bridge independent-pharmacy claims to third-party receivables"
 description: "A privacy-conscious bookkeeping workflow for adjudicated claims, reversals, remittances, fees, and bank deposits."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Healthcare bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/accounts-receivable-aging-handoff.webp"

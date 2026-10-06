@@ -1,8 +1,8 @@
 ---
 title: "Track travel-agency supplier deposits through departure and refund"
 description: "A booking-level bookkeeping workflow for traveler cash, supplier deposits, cancellations, commissions, and refund follow-up."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Travel bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/bookkeeping-customer-deposit-reconciliation.webp"

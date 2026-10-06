@@ -1,8 +1,8 @@
 ---
 title: "Commercial card rewards: a statement-to-ledger evidence study"
 description: "A research protocol for tracing business card rebates, points, statement credits, redemptions, expirations, and employee activity into an approved accounting treatment."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Expense bookkeeping"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-credit-card-statement-reconciliation.svg"

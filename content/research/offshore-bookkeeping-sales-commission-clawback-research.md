@@ -1,8 +1,8 @@
 ---
 title: "Sales commission clawbacks: a contract-to-ledger control study"
 description: "A research protocol for reconciling earned commissions, advances, cancellations, clawbacks, payroll deductions, cash recovery, and deferred commission schedules."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Revenue bookkeeping"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-commission-accrual-workflow.webp"

@@ -1,8 +1,8 @@
 ---
 title: "Reconcile marina slip deposits, dockage, and metered utilities"
 description: "A seasonal bookkeeping workflow for slip contracts, deposits, occupancy, electric and water readings, and final settlements."
-published: "2026-10-05"
-updated: "2026-10-05"
+published: "2026-10-06"
+updated: "2026-10-06"
 category: "Hospitality bookkeeping"
 type: "blog"
 featuredImage: "/thumbnails/offshore-bookkeeping-escrow-account-reconciliation.png"
