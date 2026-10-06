@@ -27,7 +27,7 @@ const hash = (value) => crypto.createHash('sha256').update(value).digest('hex');
 const baseUrl = process.env.OFF85_BASE_URL;
 const blogIndex = decode(baseUrl ? await (await fetch(`${baseUrl}/blog`)).text() : fs.readFileSync('.next/server/app/blog.html', 'utf8'));
 const researchIndex = baseUrl ? decode(await (await fetch(`${baseUrl}/research`)).text()) : null;
-const sitemap = fs.readFileSync('.next/server/app/sitemap.xml.body', 'utf8');
+const sitemap = baseUrl ? await (await fetch(`${baseUrl}/sitemap.xml`)).text() : fs.readFileSync('.next/server/app/sitemap.xml.body', 'utf8');
 const results = [];
 const checkedInternalLinks = new Map();
 
@@ -42,10 +42,12 @@ for (const [articleIndex, article] of articles.entries()) {
   if (!title || !date || !image || !body) throw new Error(`${article.slug}: incomplete source`);
   if (date !== '2026-10-06') throw new Error(`${article.slug}: date ${date}`);
   const htmlPath = `.next/server/app/${family}/${article.slug}.html`;
-  const rawHtml = fs.readFileSync(htmlPath, 'utf8');
+  const canonical = `https://offshorebookkeepers.com/${family}/${article.slug}`;
+  const pageResponse = baseUrl ? await fetch(`${baseUrl}/${family}/${article.slug}`) : null;
+  if (pageResponse && !pageResponse.ok) throw new Error(`${article.slug}: page HTTP ${pageResponse.status}`);
+  const rawHtml = pageResponse ? await pageResponse.text() : fs.readFileSync(htmlPath, 'utf8');
   const htmlText = decode(rawHtml);
   const comparableHtml = comparable(htmlText);
-  const canonical = `https://offshorebookkeepers.com/${family}/${article.slug}`;
   if (!rawHtml.includes(canonical)) throw new Error(`${article.slug}: missing canonical`);
   if (!htmlText.includes(title)) throw new Error(`${article.slug}: missing rendered title`);
   if (!rawHtml.includes('2026-10-06')) throw new Error(`${article.slug}: missing rendered date`);
@@ -54,6 +56,19 @@ for (const [articleIndex, article] of articles.entries()) {
   const paragraphs = body.split(/\n\s*\n/).filter((p) => p && !p.startsWith('#')).map(markdownText).filter((p) => p.split(/\s+/).length >= 8);
   const missingParagraphs = paragraphs.filter((p) => !comparableHtml.includes(comparable(p)));
   if (missingParagraphs.length) throw new Error(`${article.slug}: ${missingParagraphs.length} source paragraphs absent from rendered body: ${missingParagraphs[0].slice(0, 120)}`);
+  const sourceParagraphSequence = body.split(/\n\s*\n/)
+    .map((value) => value.trim())
+    .filter((value) => value && !/^(#{1,6}|[-*]|\d+\.)\s/.test(value))
+    .map((value) => comparable(markdownText(value)))
+    .filter((value) => value.split(/\s+/).length >= 8);
+  const articleHtml = rawHtml.match(/<article\b[^>]*>[\s\S]*?<\/article>/i)?.[0] ?? '';
+  const renderedParagraphSequence = [...articleHtml.matchAll(/<div class="article-body">([\s\S]*?)<\/div>/gi)]
+    .flatMap((section) => [...section[1].matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)])
+    .map((match) => comparable(decode(match[1])))
+    .filter((value) => value.split(/\s+/).length >= 8);
+  const normalizedSourceSequence = sourceParagraphSequence.join('\n');
+  const normalizedRenderedSequence = renderedParagraphSequence.join('\n');
+  if (normalizedSourceSequence !== normalizedRenderedSequence) throw new Error(`${article.slug}: ordered normalized source/render paragraph sequence differs`);
   const indexText = family === 'blog' ? blogIndex : researchIndex;
   if (indexText && !indexText.includes(title)) throw new Error(`${article.slug}: absent from ${family} index`);
   if (!sitemap.includes(canonical)) throw new Error(`${article.slug}: absent from sitemap`);
@@ -63,13 +78,19 @@ for (const [articleIndex, article] of articles.entries()) {
   if (!imageMeta.format || !imageMeta.width || !imageMeta.height) throw new Error(`${article.slug}: image decode failed`);
   let imageHttpStatus = null;
   let imageHttpContentType = null;
+  let imagePixelHash = null;
+  let imagePixelBytes = null;
   if (baseUrl) {
     const imageResponse = await fetch(`${baseUrl}${image}`);
     imageHttpStatus = imageResponse.status;
     imageHttpContentType = imageResponse.headers.get('content-type');
     if (!imageResponse.ok || !imageHttpContentType?.startsWith('image/')) throw new Error(`${article.slug}: image HTTP ${imageHttpStatus} ${imageHttpContentType}`);
-    const responseImageMeta = await sharp(Buffer.from(await imageResponse.arrayBuffer())).metadata();
+    const responseImageBuffer = Buffer.from(await imageResponse.arrayBuffer());
+    const responseImageMeta = await sharp(responseImageBuffer).metadata();
     if (responseImageMeta.format !== imageMeta.format || responseImageMeta.width !== imageMeta.width || responseImageMeta.height !== imageMeta.height) throw new Error(`${article.slug}: HTTP image signature/decode differs from source asset`);
+    const rawPixels = await sharp(responseImageBuffer, { density: 72 }).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+    imagePixelHash = hash(rawPixels.data);
+    imagePixelBytes = rawPixels.data.length;
   }
   const internalLinks = [
     ...[...source.matchAll(/\]\((\/[^)]+)\)/g)].map((match) => match[1]),
@@ -86,7 +107,7 @@ for (const [articleIndex, article] of articles.entries()) {
   const renderedHtmlHash = hash(rawHtml);
   const renderedTextHash = hash(comparableHtml);
   if (article.contentHash && sourceHash !== article.contentHash) throw new Error(`${article.slug}: manifest/source hash mismatch ${article.contentHash} != ${sourceHash}`);
-  results.push({ ordinal: articleIndex + 1, family, slug: article.slug, title, date, canonical, sourceHash, sourceBodyHash, renderedHtmlHash, renderedTextHash, renderedParagraphs: paragraphs.length, image, imageFormat: imageMeta.format, imageWidth: imageMeta.width, imageHeight: imageMeta.height, imageHttpStatus, imageHttpContentType });
+  results.push({ ordinal: articleIndex + 1, family, slug: article.slug, title, date, canonical, sourceHash, sourceBodyHash, normalizedSourceParagraphSequenceHash: hash(normalizedSourceSequence), normalizedRenderedParagraphSequenceHash: hash(normalizedRenderedSequence), normalizedParagraphSequenceEqual: true, renderedHtmlHash, renderedTextHash, renderedParagraphs: renderedParagraphSequence.length, image, imageFormat: imageMeta.format, imageWidth: imageMeta.width, imageHeight: imageMeta.height, imageHttpStatus, imageHttpContentType, imagePixelHash, imagePixelBytes });
 }
 
 console.log(JSON.stringify({ required: 17, validated: results.length, timezone: 'UTC', publicationDate: '2026-10-06', checkedInternalLinks: Object.fromEntries(checkedInternalLinks), results }, null, 2));

@@ -12,7 +12,7 @@ faqs: [["What can a remote bookkeeper prepare?","A remote bookkeeper can assembl
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This article addresses bookkeeping workflow design, not accounting, tax, legal, cybersecurity, licensing, or contract advice.
+Published October 6, 2026. This article addresses bookkeeping workflow design, not accounting, tax, legal, cybersecurity, licensing, or contract advice.
 
 ## One license can create three different numbers
 

@@ -12,7 +12,7 @@ faqs: [["Is a supplier credit the same as a cash refund?","No. Record the credit
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This workflow is not accounting, tax, legal, travel, insurance, consumer-rights, or payment advice.
+Published October 6, 2026. This workflow is not accounting, tax, legal, travel, insurance, consumer-rights, or payment advice.
 
 ## One booking can hold money in two directions
 

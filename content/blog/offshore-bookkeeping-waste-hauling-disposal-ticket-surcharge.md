@@ -12,7 +12,7 @@ faqs: [["Can an offshore bookkeeper allocate a mixed disposal load?","The bookke
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This article addresses bookkeeping preparation and review. It is not accounting, tax, legal, environmental, transportation, safety, or regulatory advice.
+Published October 6, 2026. This article addresses bookkeeping preparation and review. It is not accounting, tax, legal, environmental, transportation, safety, or regulatory advice.
 
 ## A disposal invoice starts with a physical load
 

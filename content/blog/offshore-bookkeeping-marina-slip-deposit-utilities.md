@@ -12,7 +12,7 @@ faqs: [["How should a midseason slip transfer be recorded?","Close the old slip 
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This is a bookkeeping operations guide, not accounting, tax, legal, environmental, maritime, utility, or insurance advice.
+Published October 6, 2026. This is a bookkeeping operations guide, not accounting, tax, legal, environmental, maritime, utility, or insurance advice.
 
 ## A marina account has several moving parts
 

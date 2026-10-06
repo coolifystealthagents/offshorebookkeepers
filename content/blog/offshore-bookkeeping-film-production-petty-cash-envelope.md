@@ -12,7 +12,7 @@ faqs: [["Can an offshore bookkeeper maintain the envelope register?","Yes. With 
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This workflow supports bookkeeping preparation and review. It is not accounting, tax, legal, payroll, employment, or production-finance advice.
+Published October 6, 2026. This workflow supports bookkeeping preparation and review. It is not accounting, tax, legal, payroll, employment, or production-finance advice.
 
 ## Petty cash behaves differently on a set
 

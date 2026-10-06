@@ -12,7 +12,7 @@ faqs: [["Does a deposit prove the brewery still owns a specific keg?","No. The f
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This article provides bookkeeping workflow ideas, not accounting, tax, legal, alcohol-regulatory, environmental, or commercial advice.
+Published October 6, 2026. This article provides bookkeeping workflow ideas, not accounting, tax, legal, alcohol-regulatory, environmental, or commercial advice.
 
 ## The container and the deposit tell different stories
 

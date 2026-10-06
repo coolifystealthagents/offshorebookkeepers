@@ -12,7 +12,7 @@ faqs: [["Does the bookkeeping schedule need clinical notes?","Usually no. Use th
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This guide concerns bookkeeping preparation. It is not medical, accounting, tax, legal, privacy, advertising, or regulatory advice.
+Published October 6, 2026. This guide concerns bookkeeping preparation. It is not medical, accounting, tax, legal, privacy, advertising, or regulatory advice.
 
 ## The sale and the appointment are different events
 

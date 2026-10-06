@@ -12,7 +12,7 @@ faqs: [["Can a bookkeeper decide whether hours count as overtime?","No. The prep
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This article is not accounting, tax, legal, payroll, wage-and-hour, licensing, labor, safety, or contract advice.
+Published October 6, 2026. This article is not accounting, tax, legal, payroll, wage-and-hour, licensing, labor, safety, or contract advice.
 
 ## Four versions of a shift can coexist
 

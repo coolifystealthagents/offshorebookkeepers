@@ -12,7 +12,7 @@ faqs: [["Should every waste sheet be counted individually?","Use the company's a
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This article discusses bookkeeping workflow support, not accounting, tax, legal, environmental, workplace-safety, or manufacturing advice.
+Published October 6, 2026. This article discusses bookkeeping workflow support, not accounting, tax, legal, environmental, workplace-safety, or manufacturing advice.
 
 ## Paper leaves inventory before a sale exists
 

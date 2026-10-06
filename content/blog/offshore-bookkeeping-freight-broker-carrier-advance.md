@@ -12,7 +12,7 @@ faqs: [["Can an offshore bookkeeper release a carrier advance?","The bookkeeper 
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This article covers bookkeeping workflow support, not accounting, tax, legal, transportation, insurance, sanctions, or payment advice.
+Published October 6, 2026. This article covers bookkeeping workflow support, not accounting, tax, legal, transportation, insurance, sanctions, or payment advice.
 
 ## An advance is a load-level open item
 

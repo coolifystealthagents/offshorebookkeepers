@@ -12,7 +12,7 @@ faqs: [["Is promotional value the same as customer cash loaded?","No. Track it s
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This article is about bookkeeping controls and is not accounting, tax, legal, consumer-protection, unclaimed-property, or payment advice.
+Published October 6, 2026. This article is about bookkeeping controls and is not accounting, tax, legal, consumer-protection, unclaimed-property, or payment advice.
 
 ## Stored value links three operational systems
 

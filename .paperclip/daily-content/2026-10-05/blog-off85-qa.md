@@ -7,7 +7,7 @@
 - Blog content commit: `20c889116f0e2906df5f68eb3cf435fe84b30b68`
 - Blog punctuation correction commit: `91e1253be526f35e53865a9bbe8f3d036c8f6db2`
 - Site timezone: `UTC`
-- Reconciled publication date: `2026-10-06` in site timezone `UTC`; all 17 articles were still unpublished when reconciled. Final truth remains subject to successful first public verification.
+- Reconciled and live-verified publication date: `2026-10-06` in site timezone `UTC`; all 17 articles were still unpublished when reconciled.
 - Required/validated Blog count: `12/12`
 
 ## Body lengths
@@ -40,4 +40,10 @@
 - Internal calls to action: `/services` and `/contact-us`, both repository routes.
 - Research handoff: received from OFF-84 at original SHA `bfcba540def4be7c338e48404cbad0972e8da5f1`, content SHA `611fc208a098e975fed5bf0332726f145fd96c8a`; integrated into this branch without a Research push.
 
-No corrective production push or deployment has occurred. A second-push exception is required before the local corrective commit may be pushed.
+The reviewed corrective candidate was pushed and deployed at `81312bb4ff3e902fdd51e607197edef7706b2615`. Any later repair requires a new explicit push exception and separate browser-operator deployment.
+
+## Post-deployment strict hash audit and local-only visible-date repair
+
+The independent live-DOM audit normalized the complete ordered substantive paragraph sequence identically on both sides and produced equal SHA-256 hashes for all 17 routes (`17/17`). It also rasterized every public image to raw RGBA pixels with Sharp `0.35.4`, libvips `8.18.6`, and librsvg `2.62.91`; this is a full pixel decode, including SVGs, rather than an XML dimension read.
+
+That audit exposed a separate visible-copy defect: each of the 12 Blog scope notes still said `Published October 5, 2026` while the truthful first-publication date is October 6 UTC. The local-only repair changes those 12 sentences to `Published October 6, 2026`, refreshes the manifest hashes, and strengthens the combined validator to fetch public article HTML and the public sitemap, enforce identical ordered normalized paragraph-sequence hashes, and record raw-pixel hashes. The repaired local build passes `17/17`; no post-deployment repair push or deployment has occurred.

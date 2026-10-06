@@ -12,7 +12,7 @@ faqs: [["Does a bookkeeper need patient names to reconcile deposits?","Often the
 ---
 ## Scope and publication note
 
-Published October 5, 2026. This workflow is not medical, pharmacy, accounting, tax, legal, privacy, payer-contract, or regulatory advice.
+Published October 6, 2026. This workflow is not medical, pharmacy, accounting, tax, legal, privacy, payer-contract, or regulatory advice.
 
 ## A bank deposit is the end of a longer claim story
 
