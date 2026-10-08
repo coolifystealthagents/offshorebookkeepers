@@ -62,4 +62,4 @@ Track the population count, matched and unmatched values, oldest exception, corr
 
 Close with the source exports, reconciliation, evidence index, exception log, approved entries, decisions, and concise summary. State what tied, what remains open, the amount exposed, the next owner, and the next review date. Link the packet from the close checklist with a consistent entity-process-period-version name.
 
-For help defining the preparation lane, see [the relevant Offshore Bookkeepers service](/services/nonprofit-bookkeeping). If your company needs a Philippines-based bookkeeper to maintain this schedule while your finance owner retains approval, [plan the role with Offshore Bookkeepers](/contact-us).
+For help defining the preparation lane, see [the relevant Offshore Bookkeepers service](/services/management-reporting-support). If your company needs a Philippines-based bookkeeper to maintain this schedule while your finance owner retains approval, [plan the role with Offshore Bookkeepers](/contact-us).

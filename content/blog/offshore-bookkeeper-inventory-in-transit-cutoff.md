@@ -8,7 +8,7 @@ type: "blog"
 featuredImage: "/thumbnails/inventory-receiving-cutoff.svg"
 takeaways: ["Start with a frozen, source-linked population.", "Separate preparation from policy and approval.", "Keep every unresolved item visible with an owner and review date."]
 sources: [{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Bookkeeping services","/services/bookkeeping"],["Accounts payable processing","/services/accounts-payable-processing"]]
+relatedLinks: [["Bookkeeping services","/services/month-end-close-support"],["Accounts payable processing","/services/accounts-payable-processing"]]
 faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeeper can gather evidence, update the register, calculate differences, and prepare questions under approved instructions."],["Who owns exceptions and final approval?","The authorized client owner, controller, or adviser decides policy exceptions, accounting treatment, and final approval."],["What should happen when sources conflict?","Preserve both records, describe the difference, and route a bounded question to the named owner."]]
 ---
 
@@ -68,4 +68,4 @@ For help defining the preparation lane, see [the relevant Offshore Bookkeepers s
 
 ## Connect the work to the wider close
 
-This register should not become an isolated spreadsheet. Link every completed item to the supporting packet and recorded transaction, then carry unresolved items into the next review with their original age intact. The team providing [bookkeeping services](/services/bookkeeping) can maintain the evidence and status trail. The client retains approvals, policy choices, and accounting judgments. Coordinate the final handoff with [accounts payable processing](/services/accounts-payable-processing) so downstream reporting uses the reviewed population rather than an informal copy.
+This register should not become an isolated spreadsheet. Link every completed item to the supporting packet and recorded transaction, then carry unresolved items into the next review with their original age intact. The team providing [bookkeeping services](/services/month-end-close-support) can maintain the evidence and status trail. The client retains approvals, policy choices, and accounting judgments. Coordinate the final handoff with [accounts payable processing](/services/accounts-payable-processing) so downstream reporting uses the reviewed population rather than an informal copy.

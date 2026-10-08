@@ -8,7 +8,7 @@ type: "blog"
 featuredImage: "/thumbnails/bank-reconciliation-support-checklist.webp"
 takeaways: ["Start with a frozen, source-linked population.", "Separate preparation from policy and approval.", "Keep every unresolved item visible with an owner and review date."]
 sources: [{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Bookkeeping services","/services/bookkeeping"],["Management reporting support","/services/management-reporting-support"]]
+relatedLinks: [["Bank reconciliation support","/services/bank-reconciliation-support"],["Management reporting support","/services/management-reporting-support"]]
 faqs: [["Can an offshore bookkeeper maintain this workflow?","Yes. The bookkeeper can gather evidence, update the register, calculate differences, and prepare questions under approved instructions."],["Who owns exceptions and final approval?","The authorized client owner, controller, or adviser decides policy exceptions, accounting treatment, and final approval."],["What should happen when sources conflict?","Preserve both records, describe the difference, and route a bounded question to the named owner."]]
 ---
 
@@ -70,4 +70,4 @@ A durable bank aged reconciliation items routine connects a defined population, 
 
 ## Connect the work to the wider close
 
-This register should not become an isolated spreadsheet. Link every completed item to the supporting packet and recorded transaction, then carry unresolved items into the next review with their original age intact. The team providing [bookkeeping services](/services/bookkeeping) can maintain the evidence and status trail. The client retains approvals, policy choices, and accounting judgments. Coordinate the final handoff with [management reporting support](/services/management-reporting-support) so downstream reporting uses the reviewed population rather than an informal copy.
+This register should not become an isolated spreadsheet. Link every completed item to the supporting packet and recorded transaction, then carry unresolved items into the next review with their original age intact. The team providing [bank reconciliation support](/services/bank-reconciliation-support) can maintain the evidence and status trail. The client retains approvals, policy choices, and accounting judgments. Coordinate the final handoff with [management reporting support](/services/management-reporting-support) so downstream reporting uses the reviewed population rather than an informal copy.

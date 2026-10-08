@@ -8,7 +8,7 @@ type: "blog"
 featuredImage: "/thumbnails/bookkeeping-customer-refund-reconciliation.webp"
 takeaways: ["Give every refund a durable case ID and complete source trail.", "Separate preparation, approval, payment release, and reconciliation.", "Carry unmatched refunds as visible exceptions instead of forcing a tie-out."]
 sources: [{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Bookkeeping services","/services/bookkeeping"],["Accounts receivable management","/services/accounts-receivable-management"],["Bank reconciliation checklist","/blog/bank-reconciliation-support-checklist"]]
+relatedLinks: [["Bookkeeping services","/services/month-end-close-support"],["Accounts receivable management","/services/accounts-receivable-support"],["Bank reconciliation checklist","/blog/bank-reconciliation-support-checklist"]]
 faqs: [["Can an offshore bookkeeper approve a customer refund?","The bookkeeper can assemble and check the packet, but an authorized business owner should approve the refund and payment release."],["What if the refund and bank debit differ?","Keep the item open, document fees, currency effects, partial payments, or errors, and send the difference to the named reviewer."],["How long should open cases remain on the register?","Keep them visible until payment, ledger treatment, and customer account status all agree under the company retention policy."]]
 ---
 
@@ -22,7 +22,7 @@ Trace the request backward to the sale. Compare the customer name, invoice, item
 
 ## Keep four roles visibly separate
 
-Write the role boundary into the procedure. The preparer validates identifiers, assembles support, drafts the credit memo or entry, and updates status. A business owner approves the commercial decision. A person with bank or processor authority releases the payment. A reviewer confirms that the cash movement and accounting result agree. Small teams may assign more than one role to a person, but the same person should not silently request, approve, release, and clear a refund. Offshore [bookkeeping services](/services/bookkeeping) work best when access follows the assigned task. Read access to processor reports may be necessary; permission to issue refunds usually is not.
+Write the role boundary into the procedure. The preparer validates identifiers, assembles support, drafts the credit memo or entry, and updates status. A business owner approves the commercial decision. A person with bank or processor authority releases the payment. A reviewer confirms that the cash movement and accounting result agree. Small teams may assign more than one role to a person, but the same person should not silently request, approve, release, and clear a refund. Offshore [bookkeeping services](/services/month-end-close-support) work best when access follows the assigned task. Read access to processor reports may be necessary; permission to issue refunds usually is not.
 
 ## Design the register around reconciliation
 
@@ -30,7 +30,7 @@ Useful columns include case ID, customer ID, original transaction ID, request da
 
 ## Match the three financial views
 
-Each completed case should agree in three places. The customer subledger reflects the approved credit or refund. The payment processor or bank shows the actual disbursement. The general ledger carries the result in the approved account and period. Match by identifiers first and amount second. Two equal refunds on the same day are not interchangeable. Note processor fees separately rather than reducing the customer refund to force a match. If a card refund clears several days after initiation, keep the case in paid-not-cleared status and reconcile the timing item at month end. [Accounts receivable management](/services/accounts-receivable-management) can own the queue discipline while approval stays with the client.
+Each completed case should agree in three places. The customer subledger reflects the approved credit or refund. The payment processor or bank shows the actual disbursement. The general ledger carries the result in the approved account and period. Match by identifiers first and amount second. Two equal refunds on the same day are not interchangeable. Note processor fees separately rather than reducing the customer refund to force a match. If a card refund clears several days after initiation, keep the case in paid-not-cleared status and reconcile the timing item at month end. [Accounts receivable management](/services/accounts-receivable-support) can own the queue discipline while approval stays with the client.
 
 ## Work exceptions as cases, not adjustments
 

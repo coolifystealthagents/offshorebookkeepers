@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-08",
+  "kind": "blog",
+  "count": 12,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "offshore-bookkeeping-invoice-intake-duplicate-screen",
+      "title": "Offshore bookkeeping invoice intake and duplicate screening",
+      "description": "Build an invoice intake queue with source identity, duplicate checks, approval boundaries, and retained evidence.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-invoice-intake-duplicate-screen.md",
+      "route": "/blog/offshore-bookkeeping-invoice-intake-duplicate-screen",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-bank-reconciliation-evidence-index",
+      "title": "Offshore bookkeeping bank reconciliation evidence index",
+      "description": "Organize statement, ledger, outstanding item, reviewer, correction, and close evidence for each bank account.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-bank-reconciliation-evidence-index.md",
+      "route": "/blog/offshore-bookkeeping-bank-reconciliation-evidence-index",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-month-end-close-owner-matrix",
+      "title": "Offshore bookkeeping month end close owner matrix",
+      "description": "Assign preparation, review, approval, exception, and final close responsibility for recurring close work.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-month-end-close-owner-matrix.md",
+      "route": "/blog/offshore-bookkeeping-month-end-close-owner-matrix",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-vendor-master-callback-log",
+      "title": "Offshore bookkeeping vendor master callback log",
+      "description": "Verify sensitive vendor changes through an independent contact path before payment records are updated.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-vendor-master-callback-log.md",
+      "route": "/blog/offshore-bookkeeping-vendor-master-callback-log",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-cash-receipt-application-exception-queue",
+      "title": "Cash receipt application exception queue for offshore bookkeeping",
+      "description": "Route unidentified, partial, duplicate, short, disputed, and cross entity receipts without hiding open decisions.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-cash-receipt-application-exception-queue.md",
+      "route": "/blog/offshore-bookkeeping-cash-receipt-application-exception-queue",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-payroll-source-freeze-checklist",
+      "title": "Offshore bookkeeping payroll source freeze checklist",
+      "description": "Set a cutoff for approved payroll inputs while preserving late changes, owner decisions, and reconciliation evidence.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-payroll-source-freeze-checklist.md",
+      "route": "/blog/offshore-bookkeeping-payroll-source-freeze-checklist",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-expense-policy-exception-record",
+      "title": "Offshore bookkeeping expense policy exception record",
+      "description": "Separate evidence collection and coding preparation from management approval of policy exceptions.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-expense-policy-exception-record.md",
+      "route": "/blog/offshore-bookkeeping-expense-policy-exception-record",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-ecommerce-settlement-bridge",
+      "title": "Offshore bookkeeping ecommerce settlement bridge",
+      "description": "Reconcile orders, refunds, fees, reserves, chargebacks, and deposits to a dated processor settlement.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-ecommerce-settlement-bridge.md",
+      "route": "/blog/offshore-bookkeeping-ecommerce-settlement-bridge",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-intercompany-balance-confirmation-pack",
+      "title": "Offshore bookkeeping intercompany balance confirmation pack",
+      "description": "Compare entity records, transaction support, currency, cut off, disputes, and approved corrections before close.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-intercompany-balance-confirmation-pack.md",
+      "route": "/blog/offshore-bookkeeping-intercompany-balance-confirmation-pack",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-fixed-asset-addition-packet",
+      "title": "Offshore bookkeeping fixed asset addition packet",
+      "description": "Prepare asset source, placed in service date, cost components, location, owner review, and ledger handoff.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-fixed-asset-addition-packet.md",
+      "route": "/blog/offshore-bookkeeping-fixed-asset-addition-packet",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-deferred-revenue-schedule-review",
+      "title": "Offshore bookkeeping deferred revenue schedule review",
+      "description": "Tie contracts, invoices, service periods, recognized amounts, changes, and reviewer decisions to the ledger.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-deferred-revenue-schedule-review.md",
+      "route": "/blog/offshore-bookkeeping-deferred-revenue-schedule-review",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-document-retention-closeout",
+      "title": "Offshore bookkeeping document retention closeout",
+      "description": "Close a period with a complete evidence index, controlled access, retention owner, and documented disposal trigger.",
+      "published": "2026-10-08",
+      "file": "content/blog/offshore-bookkeeping-document-retention-closeout.md",
+      "route": "/blog/offshore-bookkeeping-document-retention-closeout",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    }
+  ]
+}

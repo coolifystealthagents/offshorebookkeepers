@@ -8,7 +8,7 @@ type: "blog"
 featuredImage: "/thumbnails/bookkeeping-monthly-review-meeting-agenda.webp"
 takeaways: ["Give every review question a named owner and decision date.", "Link questions to source evidence and the resulting entry.", "Close items only after the approved action is verified."]
 sources: [{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Bookkeeping services","/services/bookkeeping"],["Management reporting support","/services/management-reporting-support"]]
+relatedLinks: [["Bookkeeping services","/services/month-end-close-support"],["Management reporting support","/services/management-reporting-support"]]
 faqs: [["Can an offshore bookkeeper manage the review queue?","Yes. The bookkeeper can prepare questions, maintain evidence, and track responses while the client retains approval and judgment."],["What makes a review question ready?","It should identify the account, period, source, observed difference, requested decision, owner, and due date."],["When is an item closed?","Close it after the reviewer decision, authorized action, ledger result, and supporting evidence all agree."]]
 ---
 
@@ -89,4 +89,4 @@ For each component, document the source, preparer, due date, reviewer, review ev
 
 ## Set the queue handoff boundary
 
-The offshore preparer can assemble evidence, write bounded questions, update status, and record reviewer responses. The client controller retains final approval, policy decisions, and accounting judgments. Link routine preparation to [bookkeeping services](/services/bookkeeping) and send approved close outputs through [management reporting support](/services/management-reporting-support). Keep unresolved questions at their original age when the period changes.
+The offshore preparer can assemble evidence, write bounded questions, update status, and record reviewer responses. The client controller retains final approval, policy decisions, and accounting judgments. Link routine preparation to [bookkeeping services](/services/month-end-close-support) and send approved close outputs through [management reporting support](/services/management-reporting-support). Keep unresolved questions at their original age when the period changes.

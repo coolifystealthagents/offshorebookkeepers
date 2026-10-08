@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-08",
+  "kind": "research",
+  "count": 5,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "offshore-bookkeeping-segregation-of-duties-evidence-study",
+      "title": "Segregation of duties evidence for offshore bookkeeping",
+      "description": "A source-backed method for mapping preparation, approval, payment, recording, review, and access conflicts.",
+      "published": "2026-10-08",
+      "file": "content/research/offshore-bookkeeping-segregation-of-duties-evidence-study.md",
+      "route": "/research/offshore-bookkeeping-segregation-of-duties-evidence-study",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-reconciliation-break-aging-study",
+      "title": "Reconciliation break aging in offshore bookkeeping",
+      "description": "A research framework for measuring open differences by source, age, value, cause, owner, and evidence quality.",
+      "published": "2026-10-08",
+      "file": "content/research/offshore-bookkeeping-reconciliation-break-aging-study.md",
+      "route": "/research/offshore-bookkeeping-reconciliation-break-aging-study",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-close-evidence-completeness-study",
+      "title": "Close evidence completeness for offshore bookkeeping",
+      "description": "How a buyer can sample source coverage, reviewer signoff, exception treatment, corrections, and final ledger ties.",
+      "published": "2026-10-08",
+      "file": "content/research/offshore-bookkeeping-close-evidence-completeness-study.md",
+      "route": "/research/offshore-bookkeeping-close-evidence-completeness-study",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-accounting-access-review-study",
+      "title": "Accounting system access review for offshore bookkeepers",
+      "description": "A control study for minimum roles, named accounts, privileged actions, periodic review, logging, and offboarding.",
+      "published": "2026-10-08",
+      "file": "content/research/offshore-bookkeeping-accounting-access-review-study.md",
+      "route": "/research/offshore-bookkeeping-accounting-access-review-study",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    },
+    {
+      "slug": "offshore-bookkeeping-source-document-lineage-study",
+      "title": "Source document lineage in offshore bookkeeping",
+      "description": "A bounded method for linking ledger entries to current source versions, approvals, transformations, and retained exceptions.",
+      "published": "2026-10-08",
+      "file": "content/research/offshore-bookkeeping-source-document-lineage-study.md",
+      "route": "/research/offshore-bookkeeping-source-document-lineage-study",
+      "featuredImage": "/thumbnails/weekly-cash-commitments-review.svg"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ type: "blog"
 featuredImage: "/thumbnails/bookkeeping-intercompany-reconciliation-handoff.webp"
 takeaways: ["Freeze one source population before calculating recharges.", "Show the approved driver and both entity entries on each line.", "Require entity owners to resolve differences rather than netting them away."]
 sources: [{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Bookkeeping services","/services/bookkeeping"],["Management reporting support","/services/management-reporting-support"],["Intercompany reconciliation handoff","/blog/bookkeeping-intercompany-reconciliation-handoff"]]
+relatedLinks: [["Bookkeeping services","/services/month-end-close-support"],["Management reporting support","/services/management-reporting-support"],["Intercompany reconciliation handoff","/blog/bookkeeping-intercompany-reconciliation-handoff"]]
 faqs: [["Can an offshore bookkeeper choose an allocation method?","No. The bookkeeper can apply and document an approved method; management or its accounting adviser owns the policy decision."],["Should small differences be netted?","Only under an approved policy. The workpaper should first show the gross difference and its cause."],["What makes a recharge ready to post?","The source population, allocation basis, entity mapping, calculations, paired entries, and required approvals should be complete."]]
 ---
 
@@ -26,7 +26,7 @@ Common drivers include headcount, seats, usage, floor area, or direct identifica
 
 ## Build one row that explains both sides
 
-Each recharge line should carry a stable batch and line ID, originating cost reference, paying entity, receiving entity, allocation rate, recharge amount, due-to account, due-from account, expense or recovery account, currency, and posting period. Include the proposed journal references once posted. This design lets reviewers trace from either ledger to the same calculation. Avoid separate spreadsheets maintained by each entity; they drift quickly. If local account names differ, maintain an approved account crosswalk. [Bookkeeping services](/services/bookkeeping) can maintain the recurring file, but entity controllers should own changes to account mapping and materiality rules.
+Each recharge line should carry a stable batch and line ID, originating cost reference, paying entity, receiving entity, allocation rate, recharge amount, due-to account, due-from account, expense or recovery account, currency, and posting period. Include the proposed journal references once posted. This design lets reviewers trace from either ledger to the same calculation. Avoid separate spreadsheets maintained by each entity; they drift quickly. If local account names differ, maintain an approved account crosswalk. [Bookkeeping services](/services/month-end-close-support) can maintain the recurring file, but entity controllers should own changes to account mapping and materiality rules.
 
 ## Handle currency and tax questions as exceptions
 

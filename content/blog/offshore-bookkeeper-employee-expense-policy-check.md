@@ -8,7 +8,7 @@ type: "blog"
 featuredImage: "/thumbnails/bookkeeping-expense-policy-exception-log.webp"
 takeaways: ["Test every report against a written policy version.", "Separate evidence checks from exception approval.", "Track repeated exceptions without changing policy silently."]
 sources: [{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
-relatedLinks: [["Bookkeeping services","/services/bookkeeping"],["Accounts payable processing","/services/accounts-payable-processing"]]
+relatedLinks: [["Bookkeeping services","/services/month-end-close-support"],["Accounts payable processing","/services/accounts-payable-processing"]]
 faqs: [["Can an offshore bookkeeper approve an exception?","No. The bookkeeper can document the exception and prepare a question; an authorized client owner decides it."],["What should the check capture?","Capture the employee, expense date, merchant, amount, business purpose, receipt, policy test, coding, and approval."],["What happens when a receipt is missing?","Apply the written missing-receipt procedure and keep the item visible until the required owner decides it."]]
 ---
 
@@ -80,4 +80,4 @@ Review recurring exceptions for process fixes. If expense reports repeatedly nam
 
 ## Keep policy decisions with the business
 
-The preparer can verify receipts, dates, business purpose, coding, mathematical accuracy, and documented approval. A client owner decides whether an exception is reimbursable and whether policy should change. Connect recurring preparation to [bookkeeping services](/services/bookkeeping), then route approved reports through [accounts payable processing](/services/accounts-payable-processing) under normal payment controls.
+The preparer can verify receipts, dates, business purpose, coding, mathematical accuracy, and documented approval. A client owner decides whether an exception is reimbursable and whether policy should change. Connect recurring preparation to [bookkeeping services](/services/month-end-close-support), then route approved reports through [accounts payable processing](/services/accounts-payable-processing) under normal payment controls.

@@ -56,4 +56,4 @@ Track population count, matched and unmatched values, oldest exception, correcti
 
 Close with untouched exports, reconciliation, evidence index, exception log, approved entries, reviewer decisions, and a concise summary. State what tied, what remains open, the value exposed, the next owner, and the next review date. Link the package from the close checklist using a consistent entity-process-period-version name.
 
-For help defining the preparation lane, see [the relevant Offshore Bookkeepers service](/services/construction-bookkeeping). If your company needs a Philippines-based bookkeeper to maintain the schedule and route exceptions while your finance owner retains approval, [plan the role with Offshore Bookkeepers](/contact-us).
+For help defining the preparation lane, see [the relevant Offshore Bookkeepers service](/services/job-costing-support). If your company needs a Philippines-based bookkeeper to maintain the schedule and route exceptions while your finance owner retains approval, [plan the role with Offshore Bookkeepers](/contact-us).

@@ -8,7 +8,7 @@ type: "blog"
 featuredImage: "/thumbnails/bookkeeping-fixed-asset-register-handoff.webp"
 takeaways: ["Identify the exact asset before changing the register.", "Keep disposal evidence, proceeds, and proposed entries in one packet.", "Leave useful-life, impairment, gain, loss, and tax conclusions to an authorized reviewer."]
 sources: [{"name":"IRS, Publication 583: Starting a Business and Keeping Records","url":"https://www.irs.gov/publications/p583"}]
-relatedLinks: [["Bookkeeping services","/services/bookkeeping"],["Management reporting support","/services/management-reporting-support"],["Fixed-asset register handoff","/blog/bookkeeping-fixed-asset-register-handoff"]]
+relatedLinks: [["Bookkeeping services","/services/month-end-close-support"],["Management reporting support","/services/management-reporting-support"],["Fixed-asset register handoff","/blog/bookkeeping-fixed-asset-register-handoff"]]
 faqs: [["Can an offshore bookkeeper remove an asset from the register?","The bookkeeper can prepare the update after receiving disposal evidence and approval. The authorized reviewer decides the accounting treatment."],["What if an asset cannot be located?","Keep it on an exception list and route the matter to the asset owner; absence alone is not documented disposal."],["How are sale proceeds checked?","Match the sale document to the receipt, bank activity, buyer, asset ID, fees, and approved ledger entry."]]
 ---
 
@@ -22,7 +22,7 @@ Match the asset tag, serial number, location, custodian, acquisition document, a
 
 ## Build a disposal packet around facts
 
-Use a cover sheet with case ID, entity, asset ID, event type, event date, approval status, proceeds status, and preparer. Behind it, link the original purchase evidence, register record, custodian confirmation, disposal authorization, sale or removal evidence, cash receipt, related costs, and proposed register change. Separate documents received from calculations prepared by bookkeeping. If someone supplies an email after the event, retain its actual date rather than presenting it as contemporaneous approval. [Bookkeeping services](/services/bookkeeping) can maintain the packet and chase routine missing items, while management owns exceptions and final authorization.
+Use a cover sheet with case ID, entity, asset ID, event type, event date, approval status, proceeds status, and preparer. Behind it, link the original purchase evidence, register record, custodian confirmation, disposal authorization, sale or removal evidence, cash receipt, related costs, and proposed register change. Separate documents received from calculations prepared by bookkeeping. If someone supplies an email after the event, retain its actual date rather than presenting it as contemporaneous approval. [Bookkeeping services](/services/month-end-close-support) can maintain the packet and chase routine missing items, while management owns exceptions and final authorization.
 
 ## Reconcile proceeds without assuming the answer
 

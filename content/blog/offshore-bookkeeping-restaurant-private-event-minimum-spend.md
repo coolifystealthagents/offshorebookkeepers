@@ -68,4 +68,4 @@ Close with the untouched exports, reconciliation, evidence index, exception log,
 
 Archive the reviewed version under the company’s retention and access rules. Do not overwrite the approved packet when a late item arrives; create a new version with a change note. If a proposed entry is rejected or changed, preserve both the proposal and the authorized outcome.
 
-For help defining the preparation lane, see [the relevant Offshore Bookkeepers service](/services/restaurant-bookkeeping). If your company needs a Philippines-based bookkeeper to maintain this schedule while its finance owner retains approval, [plan the role with Offshore Bookkeepers](/contact-us).
+For help defining the preparation lane, see [the relevant Offshore Bookkeepers service](/services/daily-transaction-coding). If your company needs a Philippines-based bookkeeper to maintain this schedule while its finance owner retains approval, [plan the role with Offshore Bookkeepers](/contact-us).

@@ -8,7 +8,7 @@ type: "blog"
 featuredImage: "/thumbnails/offshore-bookkeeping-chargeback-evidence-pack.png"
 takeaways: ["Record processor deadlines separately from internal due dates.", "Link every evidence item to a specific dispute and version.", "Reconcile provisional and final cash effects to the customer and general ledgers."]
 sources: [{"name":"Federal Trade Commission, Credit and debit card protections","url":"https://consumer.ftc.gov/articles/using-credit-cards-and-disputing-charges"}]
-relatedLinks: [["Bookkeeping services","/services/bookkeeping"],["Accounts receivable management","/services/accounts-receivable-management"],["Cash application exception log","/blog/bookkeeping-cash-application-exception-log"]]
+relatedLinks: [["Bookkeeping services","/services/month-end-close-support"],["Accounts receivable management","/services/accounts-receivable-support"],["Cash application exception log","/blog/bookkeeping-cash-application-exception-log"]]
 faqs: [["Can a bookkeeper decide whether to contest a chargeback?","The bookkeeper can assemble facts and monitor deadlines. An authorized commercial or risk owner decides whether and how to respond."],["How should provisional credits be handled?","Track them separately from final losses and reconcile each processor movement to the dispute ID."],["What belongs in the evidence packet?","Include the processor notice, original transaction, fulfillment or service evidence, customer communications, approved response, and submission receipt."]]
 ---
 
@@ -26,7 +26,7 @@ Use separate fields for processor deadline, internal evidence cutoff, reviewer d
 
 ## Package evidence for the stated reason
 
-Arrange the packet so a reviewer can connect the disputed claim to the relevant record. A duplicate-charge case needs both transactions and their distinct purpose. A canceled-service case needs the cancellation terms, request date, and subsequent activity. A merchandise-not-received case needs fulfillment records linked to the order. Use an index with file names, dates, sources, and brief relevance notes. Avoid promotional argument and irrelevant customer history. The decision owner approves the position and any customer-sensitive material. [Bookkeeping services](/services/bookkeeping) can provide disciplined assembly without taking ownership of legal strategy or customer relations.
+Arrange the packet so a reviewer can connect the disputed claim to the relevant record. A duplicate-charge case needs both transactions and their distinct purpose. A canceled-service case needs the cancellation terms, request date, and subsequent activity. A merchandise-not-received case needs fulfillment records linked to the order. Use an index with file names, dates, sources, and brief relevance notes. Avoid promotional argument and irrelevant customer history. The decision owner approves the position and any customer-sensitive material. [Bookkeeping services](/services/month-end-close-support) can provide disciplined assembly without taking ownership of legal strategy or customer relations.
 
 ## Track each cash movement separately
 
@@ -38,7 +38,7 @@ Check whether the original invoice remains open, a credit memo was issued, a ref
 
 ## Close only after the final outcome is posted
 
-A submitted response is not a closed case. Closure requires the processor's final status, all related cash movements, approved ledger treatment, customer-account update, fees, and retained evidence. Record who reviewed the closeout and when. If the processor permits further appeal, identify whether management declined it or the deadline passed; do not mark the case won or lost prematurely. [Accounts receivable management](/services/accounts-receivable-management) should receive the outcome when it affects collection activity or an open credit. Keep reopened disputes connected to the original ID while preserving each submission version.
+A submitted response is not a closed case. Closure requires the processor's final status, all related cash movements, approved ledger treatment, customer-account update, fees, and retained evidence. Record who reviewed the closeout and when. If the processor permits further appeal, identify whether management declined it or the deadline passed; do not mark the case won or lost prematurely. [Accounts receivable management](/services/accounts-receivable-support) should receive the outcome when it affects collection activity or an open credit. Keep reopened disputes connected to the original ID while preserving each submission version.
 
 ## Learn from the register without gaming it
 
