@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-09",
+  "kind": "research",
+  "count": 5,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "offshorebookkeepers-queue-wait-state-evidence-study",
+      "title": "OffshoreBookkeepers Queue Wait-State Evidence Study",
+      "excerpt": "A source-backed offshore bookkeeping operations study of whether waiting reasons and owner acceptance explain queue age.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/offshorebookkeepers-queue-wait-state-evidence-study"
+    },
+    {
+      "slug": "offshorebookkeepers-reviewer-agreement-reliability-study",
+      "title": "OffshoreBookkeepers Reviewer Agreement Reliability Study",
+      "excerpt": "A source-backed offshore bookkeeping operations study of whether two reviewers reach reproducible conclusions from the same evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/offshorebookkeepers-reviewer-agreement-reliability-study"
+    },
+    {
+      "slug": "offshorebookkeepers-minimum-access-effectiveness-study",
+      "title": "OffshoreBookkeepers Minimum Access Effectiveness Study",
+      "excerpt": "A source-backed offshore bookkeeping operations study of whether permissions support required work without unnecessary exposure.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/offshorebookkeepers-minimum-access-effectiveness-study"
+    },
+    {
+      "slug": "offshorebookkeepers-handoff-completeness-observation",
+      "title": "OffshoreBookkeepers Handoff Completeness Observation",
+      "excerpt": "A source-backed offshore bookkeeping operations study of whether receiving teams can continue work without private clarification.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/offshorebookkeepers-handoff-completeness-observation"
+    },
+    {
+      "slug": "offshorebookkeepers-control-change-traceability-research",
+      "title": "OffshoreBookkeepers Control Change Traceability Research",
+      "excerpt": "A source-backed offshore bookkeeping operations study of whether rule changes remain attributable, dated, and reversible.",
+      "publishedAt": "2026-10-09",
+      "route": "/research/offshorebookkeepers-control-change-traceability-research"
+    }
+  ]
+}

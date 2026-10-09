@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-09",
+  "kind": "blog",
+  "count": 12,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "offshorebookkeepers-priority-intake-triage",
+      "title": "OffshoreBookkeepers Priority Intake Triage",
+      "excerpt": "A practical offshore bookkeeping operations guide to turn new requests into a sequenced queue with an accepted owner.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-priority-intake-triage"
+    },
+    {
+      "slug": "offshorebookkeepers-exception-owner-map",
+      "title": "OffshoreBookkeepers Exception Owner Map",
+      "excerpt": "A practical offshore bookkeeping operations guide to route ambiguous cases to the person authorized to decide them.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-exception-owner-map"
+    },
+    {
+      "slug": "offshorebookkeepers-source-record-verification",
+      "title": "OffshoreBookkeepers Source Record Verification",
+      "excerpt": "A practical offshore bookkeeping operations guide to verify the governing record before an operator acts.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-source-record-verification"
+    },
+    {
+      "slug": "offshorebookkeepers-handoff-acceptance-receipt",
+      "title": "OffshoreBookkeepers Handoff Acceptance Receipt",
+      "excerpt": "A practical offshore bookkeeping operations guide to prove that the receiving owner accepted the next action.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-handoff-acceptance-receipt"
+    },
+    {
+      "slug": "offshorebookkeepers-backlog-aging-review",
+      "title": "OffshoreBookkeepers Backlog Aging Review",
+      "excerpt": "A practical offshore bookkeeping operations guide to separate active work from items waiting on decisions or evidence.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-backlog-aging-review"
+    },
+    {
+      "slug": "offshorebookkeepers-quality-sample-calibration",
+      "title": "OffshoreBookkeepers Quality Sample Calibration",
+      "excerpt": "A practical offshore bookkeeping operations guide to compare reviewers against the same observable acceptance rule.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-quality-sample-calibration"
+    },
+    {
+      "slug": "offshorebookkeepers-access-scope-recertification",
+      "title": "OffshoreBookkeepers Access Scope Recertification",
+      "excerpt": "A practical offshore bookkeeping operations guide to keep permissions aligned with current responsibilities.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-access-scope-recertification"
+    },
+    {
+      "slug": "offshorebookkeepers-change-control-release-note",
+      "title": "OffshoreBookkeepers Change Control Release Note",
+      "excerpt": "A practical offshore bookkeeping operations guide to publish a dated operating change without erasing the prior rule.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-change-control-release-note"
+    },
+    {
+      "slug": "offshorebookkeepers-capacity-overflow-trigger",
+      "title": "OffshoreBookkeepers Capacity Overflow Trigger",
+      "excerpt": "A practical offshore bookkeeping operations guide to identify demand that exceeds the safe service window.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-capacity-overflow-trigger"
+    },
+    {
+      "slug": "offshorebookkeepers-client-decision-packet",
+      "title": "OffshoreBookkeepers Client Decision Packet",
+      "excerpt": "A practical offshore bookkeeping operations guide to prepare facts and options while preserving client decision authority.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-client-decision-packet"
+    },
+    {
+      "slug": "offshorebookkeepers-correction-propagation-check",
+      "title": "OffshoreBookkeepers Correction Propagation Check",
+      "excerpt": "A practical offshore bookkeeping operations guide to reconcile a correction across every dependent system.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-correction-propagation-check"
+    },
+    {
+      "slug": "offshorebookkeepers-monthly-control-closeout",
+      "title": "OffshoreBookkeepers Monthly Control Closeout",
+      "excerpt": "A practical offshore bookkeeping operations guide to close open exceptions and retain evidence for the next review.",
+      "publishedAt": "2026-10-09",
+      "route": "/blog/offshorebookkeepers-monthly-control-closeout"
+    }
+  ]
+}
