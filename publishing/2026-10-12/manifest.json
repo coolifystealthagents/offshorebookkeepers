@@ -1,0 +1,179 @@
+{
+  "site": "OffshoreBookkeepers.com",
+  "repository": "coolifystealthagents/offshorebookkeepers",
+  "branch": "main",
+  "baseSha": "09b4d1a2713ce5863dfd2ef6c3d40d5bcb1e0da3",
+  "publicationDate": "2026-10-12",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17
+  },
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-corporate-card-receipt-recovery",
+      "title": "Corporate Card Receipt Recovery Without Delaying the Close",
+      "sourcePath": "content/blog/offshore-bookkeeping-corporate-card-receipt-recovery.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-corporate-card-receipt-recovery.svg",
+      "route": "/blog/offshore-bookkeeping-corporate-card-receipt-recovery",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-early-payment-discount-register",
+      "title": "An Early-Payment Discount Register for Accounts Payable",
+      "sourcePath": "content/blog/offshore-bookkeeping-early-payment-discount-register.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-early-payment-discount-register.svg",
+      "route": "/blog/offshore-bookkeeping-early-payment-discount-register",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-health-premium-payroll-bridge",
+      "title": "Bridge Health Premium Invoices to Payroll Deductions",
+      "sourcePath": "content/blog/offshore-bookkeeping-health-premium-payroll-bridge.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-health-premium-payroll-bridge.svg",
+      "route": "/blog/offshore-bookkeeping-health-premium-payroll-bridge",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-change-order-billing-status-board",
+      "title": "Build a Change-Order Billing Status Board",
+      "sourcePath": "content/blog/offshore-bookkeeping-change-order-billing-status-board.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-change-order-billing-status-board.svg",
+      "route": "/blog/offshore-bookkeeping-change-order-billing-status-board",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-contract-renewal-billing-handoff",
+      "title": "Contract Renewal Billing Handoffs That Prevent Missed Invoices",
+      "sourcePath": "content/blog/offshore-bookkeeping-contract-renewal-billing-handoff.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-contract-renewal-billing-handoff.svg",
+      "route": "/blog/offshore-bookkeeping-contract-renewal-billing-handoff",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-cash-transfer-confirmation-pack",
+      "title": "A Confirmation Pack for Interaccount Cash Transfers",
+      "sourcePath": "content/blog/offshore-bookkeeping-cash-transfer-confirmation-pack.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-cash-transfer-confirmation-pack.svg",
+      "route": "/blog/offshore-bookkeeping-cash-transfer-confirmation-pack",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-continuity-runbook",
+      "title": "A Continuity Runbook for Offshore Bookkeeping Work",
+      "sourcePath": "content/blog/offshore-bookkeeping-continuity-runbook.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-continuity-runbook.svg",
+      "route": "/blog/offshore-bookkeeping-continuity-runbook",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-purchasing-card-merchant-coding",
+      "title": "Purchasing Card Merchant Coding With Reviewable Rules",
+      "sourcePath": "content/blog/offshore-bookkeeping-purchasing-card-merchant-coding.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-purchasing-card-merchant-coding.svg",
+      "route": "/blog/offshore-bookkeeping-purchasing-card-merchant-coding",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-processor-dispute-fee-ledger",
+      "title": "Reconcile Processor Dispute Fees Separately From Chargebacks",
+      "sourcePath": "content/blog/offshore-bookkeeping-processor-dispute-fee-ledger.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-processor-dispute-fee-ledger.svg",
+      "route": "/blog/offshore-bookkeeping-processor-dispute-fee-ledger",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-billing-portal-access-offboarding",
+      "title": "Offboard Billing Portal Access Without Losing Evidence",
+      "sourcePath": "content/blog/offshore-bookkeeping-billing-portal-access-offboarding.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-billing-portal-access-offboarding.svg",
+      "route": "/blog/offshore-bookkeeping-billing-portal-access-offboarding",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-accrual-estimate-supersession-log",
+      "title": "Track When Actual Invoices Supersede Accrual Estimates",
+      "sourcePath": "content/blog/offshore-bookkeeping-accrual-estimate-supersession-log.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-accrual-estimate-supersession-log.svg",
+      "route": "/blog/offshore-bookkeeping-accrual-estimate-supersession-log",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-voided-check-custody-reconciliation",
+      "title": "Reconcile Voided Checks From Custody to Ledger",
+      "sourcePath": "content/blog/offshore-bookkeeping-voided-check-custody-reconciliation.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-voided-check-custody-reconciliation.svg",
+      "route": "/blog/offshore-bookkeeping-voided-check-custody-reconciliation",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-close-adjustment-approval-lag-study",
+      "title": "Measuring Approval Lag for Close Adjustments",
+      "sourcePath": "content/research/offshore-bookkeeping-close-adjustment-approval-lag-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-close-adjustment-approval-lag-study.svg",
+      "route": "/research/offshore-bookkeeping-close-adjustment-approval-lag-study",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-duplicate-payment-recovery-study",
+      "title": "Studying the Duplicate-Payment Recovery Lifecycle",
+      "sourcePath": "content/research/offshore-bookkeeping-duplicate-payment-recovery-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-duplicate-payment-recovery-study.svg",
+      "route": "/research/offshore-bookkeeping-duplicate-payment-recovery-study",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-fx-rate-source-consistency-study",
+      "title": "Testing Foreign-Exchange Rate Source Consistency",
+      "sourcePath": "content/research/offshore-bookkeeping-fx-rate-source-consistency-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-fx-rate-source-consistency-study.svg",
+      "route": "/research/offshore-bookkeeping-fx-rate-source-consistency-study",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-review-evidence-resubmission-study",
+      "title": "Review Evidence Resubmission as a Process Signal",
+      "sourcePath": "content/research/offshore-bookkeeping-review-evidence-resubmission-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-review-evidence-resubmission-study.svg",
+      "route": "/research/offshore-bookkeeping-review-evidence-resubmission-study",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-manual-journal-risk-tier-study",
+      "title": "Risk-Tiered Sampling for Manual Journal Review",
+      "sourcePath": "content/research/offshore-bookkeeping-manual-journal-risk-tier-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-manual-journal-risk-tier-study.svg",
+      "route": "/research/offshore-bookkeeping-manual-journal-risk-tier-study",
+      "publicationDate": "2026-10-12"
+    }
+  ],
+  "registryPaths": [
+    "content/blog",
+    "content/research"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ]
+}
