@@ -1,0 +1,179 @@
+{
+  "site": "OffshoreBookkeepers.com",
+  "repository": "coolifystealthagents/offshorebookkeepers",
+  "branch": "main",
+  "baseSha": "42ff31658ae649e1dedb186dd65d9331b93045b3",
+  "publicationDate": "2026-10-13",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17
+  },
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-supplier-rebate-accrual-rollforward",
+      "title": "Build a Supplier Rebate Accrual Rollforward",
+      "sourcePath": "content/blog/offshore-bookkeeping-supplier-rebate-accrual-rollforward.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-supplier-rebate-accrual-rollforward.svg",
+      "route": "/blog/offshore-bookkeeping-supplier-rebate-accrual-rollforward",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-undeposited-funds-custody-bridge",
+      "title": "Control Undeposited Funds From Receipt to Bank",
+      "sourcePath": "content/blog/offshore-bookkeeping-undeposited-funds-custody-bridge.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-undeposited-funds-custody-bridge.svg",
+      "route": "/blog/offshore-bookkeeping-undeposited-funds-custody-bridge",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-subscription-usage-billing-evidence-handoff",
+      "title": "Handoff Usage Evidence for Subscription Billing",
+      "sourcePath": "content/blog/offshore-bookkeeping-subscription-usage-billing-evidence-handoff.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-subscription-usage-billing-evidence-handoff.svg",
+      "route": "/blog/offshore-bookkeeping-subscription-usage-billing-evidence-handoff",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-multi-entity-shared-service-recharge-allocation",
+      "title": "Allocate Shared-Service Recharges Across Entities",
+      "sourcePath": "content/blog/offshore-bookkeeping-multi-entity-shared-service-recharge-allocation.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-multi-entity-shared-service-recharge-allocation.svg",
+      "route": "/blog/offshore-bookkeeping-multi-entity-shared-service-recharge-allocation",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-tax-notice-response-evidence-register",
+      "title": "Track Tax Notice Response Evidence Without Giving Tax Advice",
+      "sourcePath": "content/blog/offshore-bookkeeping-tax-notice-response-evidence-register.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-tax-notice-response-evidence-register.svg",
+      "route": "/blog/offshore-bookkeeping-tax-notice-response-evidence-register",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-inventory-consignment-ownership-schedule",
+      "title": "Maintain an Inventory Consignment Ownership Schedule",
+      "sourcePath": "content/blog/offshore-bookkeeping-inventory-consignment-ownership-schedule.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-inventory-consignment-ownership-schedule.svg",
+      "route": "/blog/offshore-bookkeeping-inventory-consignment-ownership-schedule",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-software-implementation-milestone-billing",
+      "title": "Reconcile Software Implementation Milestone Billing",
+      "sourcePath": "content/blog/offshore-bookkeeping-software-implementation-milestone-billing.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-software-implementation-milestone-billing.svg",
+      "route": "/blog/offshore-bookkeeping-software-implementation-milestone-billing",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-construction-equipment-deposit-recovery",
+      "title": "Recover Construction Equipment Deposits With a Controlled Ledger",
+      "sourcePath": "content/blog/offshore-bookkeeping-construction-equipment-deposit-recovery.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-construction-equipment-deposit-recovery.svg",
+      "route": "/blog/offshore-bookkeeping-construction-equipment-deposit-recovery",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-professional-services-reimbursable-expense-billing",
+      "title": "Bill Professional-Service Reimbursable Expenses With Evidence",
+      "sourcePath": "content/blog/offshore-bookkeeping-professional-services-reimbursable-expense-billing.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-professional-services-reimbursable-expense-billing.svg",
+      "route": "/blog/offshore-bookkeeping-professional-services-reimbursable-expense-billing",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-insurance-premium-audit-true-up",
+      "title": "Reconcile Insurance Premium Audit True-Ups",
+      "sourcePath": "content/blog/offshore-bookkeeping-insurance-premium-audit-true-up.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-insurance-premium-audit-true-up.svg",
+      "route": "/blog/offshore-bookkeeping-insurance-premium-audit-true-up",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-customer-wallet-credit-liability",
+      "title": "Roll Forward Customer Wallet Credit Liabilities",
+      "sourcePath": "content/blog/offshore-bookkeeping-customer-wallet-credit-liability.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-customer-wallet-credit-liability.svg",
+      "route": "/blog/offshore-bookkeeping-customer-wallet-credit-liability",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "offshore-bookkeeping-warehouse-damage-claim-receivable",
+      "title": "Control Warehouse Damage Claim Receivables",
+      "sourcePath": "content/blog/offshore-bookkeeping-warehouse-damage-claim-receivable.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-warehouse-damage-claim-receivable.svg",
+      "route": "/blog/offshore-bookkeeping-warehouse-damage-claim-receivable",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-close-exception-reopen-rate-study",
+      "title": "Studying Why Close Exceptions Reopen After Review",
+      "sourcePath": "content/research/offshore-bookkeeping-close-exception-reopen-rate-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-close-exception-reopen-rate-study.svg",
+      "route": "/research/offshore-bookkeeping-close-exception-reopen-rate-study",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-bank-feed-auto-match-confidence-study",
+      "title": "Evaluating Bank-Feed Auto-Match Confidence",
+      "sourcePath": "content/research/offshore-bookkeeping-bank-feed-auto-match-confidence-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-bank-feed-auto-match-confidence-study.svg",
+      "route": "/research/offshore-bookkeeping-bank-feed-auto-match-confidence-study",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-evidence-link-decay-study",
+      "title": "Measuring Evidence Link Decay in Bookkeeping Workpapers",
+      "sourcePath": "content/research/offshore-bookkeeping-evidence-link-decay-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-evidence-link-decay-study.svg",
+      "route": "/research/offshore-bookkeeping-evidence-link-decay-study",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-review-queue-concentration-study",
+      "title": "Analyzing Concentration in Bookkeeping Review Queues",
+      "sourcePath": "content/research/offshore-bookkeeping-review-queue-concentration-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-review-queue-concentration-study.svg",
+      "route": "/research/offshore-bookkeeping-review-queue-concentration-study",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "offshore-bookkeeping-source-system-timestamp-divergence-study",
+      "title": "Testing Timestamp Divergence Across Bookkeeping Systems",
+      "sourcePath": "content/research/offshore-bookkeeping-source-system-timestamp-divergence-study.md",
+      "thumbnailPath": "public/thumbnails/offshore-bookkeeping-source-system-timestamp-divergence-study.svg",
+      "route": "/research/offshore-bookkeeping-source-system-timestamp-divergence-study",
+      "publicationDate": "2026-10-13"
+    }
+  ],
+  "registryPaths": [
+    "content/blog",
+    "content/research"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ]
+}
