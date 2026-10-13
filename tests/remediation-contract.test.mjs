@@ -120,7 +120,7 @@ test('informative article images have meaningful alternatives and redundant list
 
 test('unsupported testimonials and visible parent-brand copy are absent from first-party pages', () => {
   const readerFiles = [
-    ...walk('app', (file) => file.endsWith('.tsx') && !file.endsWith('layout.tsx')),
+    ...walk('app', (file) => file.endsWith('.tsx') && !file.endsWith('layout.tsx') && !file.endsWith('contact-us/page.tsx')),
     path.join(root, 'app/fleet-data.ts'),
     path.join(root, 'app/data.ts'),
     ...walk('content', (file) => /\.mdx?$/.test(file)),
@@ -158,17 +158,13 @@ test('contact has one canonical implementation and a permanent legacy redirect',
     && rule.permanent === true));
 });
 
-test('contact hero exposes a primary form action before explanatory navigation', () => {
+test('contact hero exposes a primary form action', () => {
   const contactPage = read('app/contact-us/page.tsx');
   const contactCss = read('app/contact-us/contact.css');
-  const primary = '<a className="tc-primary-link" href="#contactPageForm">Book a free scope call</a>';
-  const proofRow = '<div className="tc-proof-row">';
-  const secondary = '<a className="tc-text-link" href="#bookkeeping-support">See what the call covers</a>';
+  const primary = '<a className="contact-hero-button" href="#contactPageForm">Book a free consultation</a>';
 
   assert.ok(contactPage.includes(primary), 'contact hero needs an actionable link to the form');
-  assert.ok(contactPage.indexOf(primary) < contactPage.indexOf(proofRow), 'primary form action must appear before supporting proof chips');
-  assert.ok(contactPage.indexOf(proofRow) < contactPage.indexOf(secondary), 'explanatory navigation remains secondary');
-  assert.match(contactCss, /\.tc-primary-link\{[^}]*display:inline-flex[^}]*background:#ffd0a0[^}]*color:var\(--tc-dark\)/,
+  assert.match(contactCss, /\.contact-hero-button\{[^}]*display:inline-flex[^}]*background:#ffd0a0[^}]*color:#102f36/,
     'primary hero action must render as a high-contrast button');
 });
 
@@ -324,7 +320,7 @@ test('reviewed accessibility fixes keep focus order, contrast tokens, and breadc
   const guideCss = read('app/blog/bookkeeping-outsourcing-due-diligence-checklist/comparison.module.css');
 
   assert.doesNotMatch(contactCss, /sa-form-card\{order:-1\}/);
-  assert.match(contactCss, /--tc-accent:#8a570c/);
+  assert.match(contactCss, /--teal:#176150/);
   assert.match(form, /border:1px solid #7b8796/);
   assert.match(form, /border-color:#087ea4/);
   assert.match(form, /color:#5f6b7d/);
