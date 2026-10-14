@@ -23,7 +23,7 @@ assert.match(detailRoute, /Updated <time dateTime=\{post\.updated\}>/);
 assert.match(detailRoute, /alternates:\s*\{\s*canonical:\s*`\/research\/\$\{slug\}`/);
 assert.match(sitemap, /research\.map\(\s*(?:\(\s*)?([a-zA-Z_$][\w$]*)\s*\)?\s*=>\s*`\/research\/\$\{\1\.slug\}`\s*\)/);
 assert.doesNotMatch(loader, /Primary date ordering remains/);
-assert.match(indexRoute, /getContent\('research'\)/);
+assert.match(indexRoute, /getContent\((['"])research\1\)/);
 
 function sourceDate(file) {
   const block = fs.readFileSync(file, 'utf8').match(/^---\n([\s\S]*?)\n---/);
