@@ -2,7 +2,7 @@
 title: "How to study payroll-suspense clearance"
 description: "A reproducible study protocol for whether payroll-related suspense and clearing balances are resolved with evidence before the close or simply carried forward, with frozen populations, evidence coverage, decision rights, and limitations."
 published: "2026-09-19"
-updated: "2026-09-19"
+updated: "2026-10-15"
 category: "Payroll preparation"
 type: "research"
 featuredImage: "/thumbnails/offshore-bookkeeping-cutoff-assertion-confidence-research.png"
@@ -11,7 +11,7 @@ sourceNotes: [{"claim":"GAO presents principles for designing, implementing, and
 takeaways: ["Freeze the population, cutoff, clock, and status definitions before calculating results.","Report missing evidence, returned work, exclusions, and reopened items beside the headline measure.","Keep preparation with the bookkeeping team and judgment, approval, release, and policy decisions with the authorized client owner."]
 relatedLinks: [["View the related service","/services/payroll-journal-preparation"],["Explore the research library","/research"],["Plan a controlled bookkeeping role","/contact-us"]]
 faqs: [{"question":"Does this report publish a market benchmark or client result?","answer":"No. It defines a reproducible study protocol. It contains no private client dataset, prevalence estimate, staffing score, or claimed performance result."},{"question":"Can this measure be used to rank bookkeepers?","answer":"No. It is a workflow diagnostic whose meaning depends on population, systems, evidence coverage, decision rights, and reviewer availability."},{"question":"Who approves judgment-dependent outcomes?","answer":"The client's authorized payroll owner or controller retains judgment, policy, approval, release, and accounting decisions. A bookkeeper may assemble records and apply documented rules."}]
-serviceHandoff: {"href":"/contact-us","label":"Discuss a controlled bookkeeping scope","title":"Turn the protocol into a reviewable handoff","body":"Define the source records, preparation fields, stops, reviewer, and escalation route before assigning the workflow."}
+serviceHandoff: {"href":"/services/payroll-journal-preparation","label":"See Payroll Journal Preparation","title":"Prepare the payroll close packet","body":"A Philippines-based bookkeeper can prepare the final payroll report, draft journal, source pack, and clearing reconciliation. Your client payroll owner keeps posting approval, employee changes, and payroll submission."}
 ---
 This research brief was published September 19, 2026. Sources were checked on September 19, 2026. It proposes a study protocol and reports no observed client performance. It is not accounting, audit, tax, legal, payroll, statistical, investment, or regulatory advice.
 
