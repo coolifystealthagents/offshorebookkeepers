@@ -5,7 +5,7 @@ published: "2026-08-20"
 updated: "2026-08-20"
 category: "Multi-Currency Finance"
 type: "research"
-featuredImage: "/thumbnails/bookkeeping-fx-remeasurement-research.png"
+featuredImage: "/thumbnails/bookkeeping-fx-remeasurement-research.webp"
 takeaways: ["Rate source, rate date, monetary classification, and ledger period should be visible before review.","A reconciliation difference may reflect timing, rate, classification, or source-population issues.","Bookkeepers can assemble evidence and escalate treatment decisions without choosing policy on behalf of the client."]
 sources: [{"name":"FASB, ASC 830 overview","url":"https://asc.fasb.org/830/tableOfContent"},{"name":"IAS Plus, IAS 21 summary","url":"https://www.iasplus.com/en/standards/ias/ias21"},{"name":"IFRS Foundation, IAS 21","url":"https://www.ifrs.org/issued-standards/list-of-standards/ias-21-the-effects-of-changes-in-foreign-exchange-rates/"},{"name":"Federal Reserve, H.10 exchange rates","url":"https://www.federalreserve.gov/releases/h10/current/"},{"name":"BIS, exchange rates","url":"https://www.bis.org/statistics/exchange_rates.htm"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"NIST, Cybersecurity Framework 2.0","url":"https://www.nist.gov/cyberframework"},{"name":"IRS, Foreign currency and exchange rates","url":"https://www.irs.gov/individuals/international-taxpayers/foreign-currency-and-currency-exchange-rates"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"}]
 ---

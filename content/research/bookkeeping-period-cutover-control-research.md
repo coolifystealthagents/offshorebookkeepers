@@ -5,7 +5,7 @@ published: "2026-08-20"
 updated: "2026-08-20"
 category: "Close Operations"
 type: "research"
-featuredImage: "/thumbnails/bookkeeping-period-cutover-research.png"
+featuredImage: "/thumbnails/bookkeeping-period-cutover-research.webp"
 takeaways: ["Cutover review needs event date, service or receipt evidence, posting period, and source-arrival history.","Late evidence is not automatically a late transaction, and a correction is not automatically a new-period item.","A clear escalation rule helps an offshore preparer stop at ambiguity rather than infer policy."]
 sources: [{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"},{"name":"FASB, Accounting Standards Codification","url":"https://asc.fasb.org/"},{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"PCAOB, AS 2301 Audit Risk","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2301"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"NIST, Cybersecurity Framework 2.0","url":"https://www.nist.gov/cyberframework"},{"name":"ISO, ISO 15489 Records Management","url":"https://www.iso.org/standard/62542.html"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"}]
 ---

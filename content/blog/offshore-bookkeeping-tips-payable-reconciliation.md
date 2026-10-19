@@ -5,7 +5,7 @@ published: "2026-08-31"
 updated: "2026-08-31"
 category: "Bookkeeping controls"
 type: "blog"
-featuredImage: "/thumbnails/offshore-bookkeeping-tips-payable-reconciliation.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-tips-payable-reconciliation.webp"
 takeaways: ["Define the population before reconciling it.","Preserve evidence and exceptions separately.","Keep protected decisions with the authorized owner."]
 faqs: [["Can an offshore bookkeeper prepare this reconciliation?","Yes. A bookkeeper can assemble approved records, perform mechanical comparisons, document exceptions, and route questions."],["Who approves the final treatment?","The authorized business, finance, payroll, legal, tax, or accounting owner decides matters requiring policy or professional judgment."]]
 ---

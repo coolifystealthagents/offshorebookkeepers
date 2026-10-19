@@ -5,7 +5,7 @@ published: "2026-10-06"
 updated: "2026-10-06"
 category: "Hospitality bookkeeping"
 type: "blog"
-featuredImage: "/thumbnails/offshore-bookkeeping-escrow-account-reconciliation.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-escrow-account-reconciliation.webp"
 sources: [{"name":"EPA Clean Marinas resources","url":"https://www.epa.gov/nps/marinas-and-boating"},{"name":"IRS recordkeeping guidance","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
 takeaways: ["Use vessel, customer, slip, and contract identifiers together.","Keep deposits and metered charges separate through move-in, transfers, and haul-out.","Require authorized review for forfeitures, damage, rate disputes, and refund holds."]
 faqs: [["How should a midseason slip transfer be recorded?","Close the old slip occupancy segment and open a linked new segment while preserving readings, dates, rate approvals, and deposit history."],["Can the preparer estimate a missing meter reading?","Only under an approved method and with clear review; an undocumented estimate should remain an exception."]]

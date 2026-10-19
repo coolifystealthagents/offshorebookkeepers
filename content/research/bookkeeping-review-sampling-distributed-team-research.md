@@ -5,7 +5,7 @@ published: "2026-08-20"
 updated: "2026-08-20"
 category: "Review Controls"
 type: "research"
-featuredImage: "/thumbnails/bookkeeping-review-sampling-research.png"
+featuredImage: "/thumbnails/bookkeeping-review-sampling-research.webp"
 takeaways: ["A review sample should reflect risk and work variety, not only convenience or transaction count.","Exception, correction, and first-time patterns deserve deliberate inclusion.","Sampling indicates where control attention is needed; it does not replace full-population controls or client approval."]
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"PCAOB, AS 2301 Audit Risk","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2301"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"AICPA, Audit Sampling","url":"https://www.aicpa-cima.com/resources/article/audit-sampling"},{"name":"NIST, Risk Management Framework","url":"https://csrc.nist.gov/projects/risk-management"},{"name":"NIST, Cybersecurity Framework 2.0","url":"https://www.nist.gov/cyberframework"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"CISA, Logging Made Easy","url":"https://www.cisa.gov/resources-tools/resources/logging-made-easy"},{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"}]
 ---

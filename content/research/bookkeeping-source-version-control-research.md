@@ -5,7 +5,7 @@ published: "2026-08-20"
 updated: "2026-08-20"
 category: "Document Control"
 type: "research"
-featuredImage: "/thumbnails/bookkeeping-source-version-research.png"
+featuredImage: "/thumbnails/bookkeeping-source-version-research.webp"
 takeaways: ["Currentness requires a defined business event, effective date, owner, and supersession rule.","Retaining old versions improves reconstruction only when the active version is unambiguous.","A source-control test should include amended, duplicated, and withdrawn records."]
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"ISO, ISO 15489 Records Management","url":"https://www.iso.org/standard/62542.html"},{"name":"NIST, Cybersecurity Framework 2.0","url":"https://www.nist.gov/cyberframework"},{"name":"NIST, Data Integrity","url":"https://csrc.nist.gov/glossary/term/data_integrity"},{"name":"CISA, Identity and Access Management","url":"https://www.cisa.gov/topics/cyber-threats-and-advisories/identity-and-access-management"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"},{"name":"CISA, Logging Made Easy","url":"https://www.cisa.gov/resources-tools/resources/logging-made-easy"}]
 ---

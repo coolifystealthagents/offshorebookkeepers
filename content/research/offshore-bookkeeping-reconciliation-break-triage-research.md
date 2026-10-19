@@ -5,7 +5,7 @@ published: "2026-08-21"
 updated: "2026-08-21"
 category: "Reconciliation Controls"
 type: "research"
-featuredImage: "/thumbnails/offshore-bookkeeping-reconciliation-break-triage-research.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-reconciliation-break-triage-research.webp"
 takeaways: ["A reconciliation break is a symptom, not a diagnosis; triage should identify the state that produced it.","Evidence completeness, timing, and authorization are different review questions and need different owners.","A remote bookkeeping team can prepare and classify a break without deciding policy, tax treatment, or materiality on behalf of the client."]
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"NIST, Cybersecurity Framework 2.0","url":"https://www.nist.gov/cyberframework"},{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"},{"name":"ISO, ISO 15489 Records Management","url":"https://www.iso.org/standard/62542.html"},{"name":"NIST, Data Integrity","url":"https://csrc.nist.gov/glossary/term/data_integrity"},{"name":"CISA, Logging Made Easy","url":"https://www.cisa.gov/resources-tools/resources/logging-made-easy"}]
 ---

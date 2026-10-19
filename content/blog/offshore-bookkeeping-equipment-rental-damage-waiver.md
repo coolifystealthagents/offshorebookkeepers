@@ -5,7 +5,7 @@ published: "2026-09-10"
 updated: "2026-09-10"
 category: "Bookkeeping controls"
 type: "blog"
-featuredImage: "/thumbnails/offshore-bookkeeping-chargeback-evidence-pack.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-chargeback-evidence-pack.webp"
 takeaways: ["Keep the source population unchanged.","Tie each exception to an owner and evidence reference.","Escalate policy decisions to the authorized reviewer."]
 faqs: [["Can an offshore bookkeeper prepare this schedule?","Yes. A bookkeeper can collect authorized records, apply an approved procedure, and document exceptions for review."],["Who decides the final accounting treatment?","The authorized finance, accounting, tax, legal, or operational owner makes decisions that require professional or policy judgment."]]
 ---

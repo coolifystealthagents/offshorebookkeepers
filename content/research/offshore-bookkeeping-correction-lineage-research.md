@@ -5,7 +5,7 @@ published: "2026-09-01"
 updated: "2026-09-01"
 category: "Bookkeeping operations research"
 type: "research"
-featuredImage: "/thumbnails/offshore-bookkeeping-ledger-lineage-research.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-ledger-lineage-research.webp"
 takeaways: ["Define the unit of observation before measuring.","Separate sourced principles from operational inference.","Use findings to improve review rather than imply assurance."]
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"},{"name":"NIST, Data Integrity","url":"https://csrc.nist.gov/glossary/term/data_integrity"},{"name":"NIST, Access Control","url":"https://csrc.nist.gov/projects/role-based-access-control"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"FASB, Concepts Statements","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"},{"name":"IFRS Foundation, Conceptual Framework","url":"https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/"},{"name":"SBA, Manage Your Finances","url":"https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"}]
 ---

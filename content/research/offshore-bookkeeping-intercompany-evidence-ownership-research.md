@@ -5,7 +5,7 @@ published: "2026-08-21"
 updated: "2026-08-21"
 category: "Multi-Entity Controls"
 type: "research"
-featuredImage: "/thumbnails/offshore-bookkeeping-intercompany-evidence-ownership-research.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-intercompany-evidence-ownership-research.webp"
 takeaways: ["Intercompany evidence has at least two sides: the initiating record and the receiving entity's acknowledgement.","A bookkeeper can assemble, match, and age evidence without deciding whether a balance should be eliminated or settled.","Ownership should follow the decision or source, not simply the entity that first touches the transaction."]
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"FASB, Consolidation","url":"https://www.fasb.org/page/PageContent?pageId=/standards/accounting-standards.html"},{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"},{"name":"NIST, Data Integrity","url":"https://csrc.nist.gov/glossary/term/data_integrity"},{"name":"ISO, ISO 15489 Records Management","url":"https://www.iso.org/standard/62542.html"},{"name":"CISA, Logging Made Easy","url":"https://www.cisa.gov/resources-tools/resources/logging-made-easy"}]
 ---

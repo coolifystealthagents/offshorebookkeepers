@@ -38,7 +38,7 @@ published: "${date}"
 updated: "${date}"
 category: "${t.category}"
 type: "research"
-featuredImage: "/thumbnails/offshore-bookkeeping-cutoff-assertion-confidence-research.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-cutoff-assertion-confidence-research.webp"
 sources: ${listed}
 sourceNotes: ${notes}
 takeaways: ["Freeze the population, cutoff, clock, and status definitions before calculating results.","Report missing evidence, returned work, exclusions, and reopened items beside the headline measure.","Keep preparation with the bookkeeping team and judgment, approval, release, and policy decisions with the authorized client owner."]
@@ -74,7 +74,7 @@ Collect the least sensitive data the question needs. Replace names with stable s
 
 ## Classification protocol
 
-Create a codebook with observable tests for eligible, achieved, open, returned, excluded, and indeterminate. For this topic, the exception map should explicitly cover ${t.exceptions}. Each state needs required evidence, a decision owner, and a rule for conflicting records. --úDone--ù is not usable evidence unless the supporting record, decision, and timestamp can be traced.
+Create a codebook with observable tests for eligible, achieved, open, returned, excluded, and indeterminate. For this topic, the exception map should explicitly cover ${t.exceptions}. Each state needs required evidence, a decision owner, and a rule for conflicting records. --ÔøΩDone--ÔøΩ is not usable evidence unless the supporting record, decision, and timestamp can be traced.
 
 Train preparers on ordinary, missing-source, duplicate, late, reopened, and judgment-dependent examples. Then have a second reviewer independently classify a sample without seeing the first result. Publish the sample size, disagreement count, initial codes, and resolution method. Repeated disagreement is evidence that the rule, system field, or evidence requirement needs repair; it is not a reason to erase the conflicting observations.
 

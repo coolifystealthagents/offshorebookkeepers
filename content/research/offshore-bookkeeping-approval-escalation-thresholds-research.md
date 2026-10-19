@@ -5,7 +5,7 @@ published: "2026-08-21"
 updated: "2026-08-21"
 category: "Approval Governance"
 type: "research"
-featuredImage: "/thumbnails/offshore-bookkeeping-approval-escalation-thresholds-research.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-approval-escalation-thresholds-research.webp"
 takeaways: ["Escalation should be triggered by decision risk and evidence uncertainty, not only by age or dollar value.","A threshold is useful only when its owner, response expectation, and exception path are explicit.","Offshore bookkeepers can prepare facts and monitor queues while approval and policy decisions remain with the client owner."]
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"NIST, Risk Management Framework","url":"https://csrc.nist.gov/projects/risk-management"},{"name":"NIST, Cybersecurity Framework 2.0","url":"https://www.nist.gov/cyberframework"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"PCAOB, AS 2301 Audit Risk","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2301"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"},{"name":"ISO, ISO 15489 Records Management","url":"https://www.iso.org/standard/62542.html"},{"name":"CISA, Logging Made Easy","url":"https://www.cisa.gov/resources-tools/resources/logging-made-easy"}]
 ---

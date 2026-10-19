@@ -38,7 +38,7 @@ published: "${date}"
 updated: "${date}"
 category: "${t.category}"
 type: "research"
-featuredImage: "/thumbnails/offshore-bookkeeping-cutoff-assertion-confidence-research.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-cutoff-assertion-confidence-research.webp"
 sources: ${listed}
 sourceNotes: ${notes}
 takeaways: ["Freeze the population, cutoff, clock, and status definitions before calculating results.","Report missing evidence, returned work, exclusions, and reopened items beside the headline measure.","Keep preparation with the bookkeeping team and judgment, approval, release, and policy decisions with the authorized client owner."]

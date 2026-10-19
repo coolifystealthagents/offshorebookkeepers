@@ -5,7 +5,7 @@ published: "2026-08-21"
 updated: "2026-08-21"
 category: "Close Evidence"
 type: "research"
-featuredImage: "/thumbnails/offshore-bookkeeping-close-evidence-sufficiency-research.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-close-evidence-sufficiency-research.webp"
 takeaways: ["Evidence sufficiency depends on the review question and population, not on the number of files in a close folder.","A close pack should show completeness, linkage, review status, and unresolved judgement separately.","Bookkeepers can assemble and index close evidence while management and qualified advisers retain conclusions and approvals."]
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"PCAOB, AS 2301 Audit Risk","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS2301"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"},{"name":"NIST, Data Integrity","url":"https://csrc.nist.gov/glossary/term/data_integrity"},{"name":"ISO, ISO 15489 Records Management","url":"https://www.iso.org/standard/62542.html"},{"name":"CISA, Logging Made Easy","url":"https://www.cisa.gov/resources-tools/resources/logging-made-easy"}]
 ---

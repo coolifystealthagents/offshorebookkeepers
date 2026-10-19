@@ -5,7 +5,7 @@ published: "2026-09-07"
 updated: "2026-09-07"
 category: "Bookkeeping controls"
 type: "blog"
-featuredImage: "/thumbnails/offshore-bookkeeping-healthcare-remittance-reconciliation.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-healthcare-remittance-reconciliation.webp"
 takeaways: ["Preserve the complete source population.","Track unresolved items by owner and due date.","Leave policy judgments with the authorized reviewer."]
 faqs: [["Can an offshore bookkeeper prepare this workpaper?","Yes. A bookkeeper can collect approved records, perform defined comparisons, and document exceptions for review."],["Who approves the final treatment?","The authorized business, finance, legal, or accounting owner approves decisions that require policy or professional judgment."]]
 ---

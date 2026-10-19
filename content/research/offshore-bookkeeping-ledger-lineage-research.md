@@ -5,7 +5,7 @@ published: "2026-08-20"
 updated: "2026-08-20"
 category: "Evidence Design"
 type: "research"
-featuredImage: "/thumbnails/offshore-bookkeeping-ledger-lineage-research.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-ledger-lineage-research.webp"
 takeaways: ["A useful lineage record links source identity, transformation, posting, review, and later correction.","Traceability is a bookkeeping control property, not proof that an account balance is correct.","Sample lineage across ordinary, adjusted, and reopened items before changing a handoff design."]
 sources: [{"name":"U.S. GAO, Standards for Internal Control","url":"https://www.gao.gov/products/gao-14-704g"},{"name":"COSO, Internal Control Framework","url":"https://www.coso.org/internal-control"},{"name":"NIST, Cybersecurity Framework 2.0","url":"https://www.nist.gov/cyberframework"},{"name":"FASB, Conceptual Framework","url":"https://www.fasb.org/page/PageContent?pageId=/standards/concepts-statements.html"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"},{"name":"PCAOB, AS 1105 Audit Evidence","url":"https://pcaobus.org/oversight/standards/auditing-standards/details/AS1105"},{"name":"AICPA, Audit Evidence","url":"https://www.aicpa-cima.com/resources/article/audit-evidence"},{"name":"ISO, ISO 15489 Records Management overview","url":"https://www.iso.org/standard/62542.html"},{"name":"NIST, Data Integrity","url":"https://csrc.nist.gov/glossary/term/data_integrity"},{"name":"CISA, Logging Made Easy","url":"https://www.cisa.gov/resources-tools/resources/logging-made-easy"}]
 ---

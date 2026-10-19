@@ -20,7 +20,7 @@ export default function ThankYouPage() {
             <p className="sa-booking-kicker">Request received</p>
             <h1>Choose a time to review your bookkeeping workflow.</h1>
             <p className="sa-booking-lead">Use the scheduler to select an available time. Opening this page directly does not confirm that a form submission was delivered.</p>
-            <img className="sa-booking-image" src="/brand/stealth-agents-team-bacolod.png" alt="StealthAgents operations team in the Bacolod office" width="1200" height="800" />
+            <img className="sa-booking-image" src="/brand/stealth-agents-team-bacolod.webp" alt="StealthAgents operations team in the Bacolod office" width="1200" height="800" />
             <div className="booking-prep">
               <h2>Bring one reviewable workflow</h2>
               <ul>

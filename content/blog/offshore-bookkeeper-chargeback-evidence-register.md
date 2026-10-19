@@ -5,7 +5,7 @@ published: "2026-09-28"
 updated: "2026-09-28"
 category: "Accounts Receivable"
 type: "blog"
-featuredImage: "/thumbnails/offshore-bookkeeping-chargeback-evidence-pack.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-chargeback-evidence-pack.webp"
 takeaways: ["Record processor deadlines separately from internal due dates.", "Link every evidence item to a specific dispute and version.", "Reconcile provisional and final cash effects to the customer and general ledgers."]
 sources: [{"name":"Federal Trade Commission, Credit and debit card protections","url":"https://consumer.ftc.gov/articles/using-credit-cards-and-disputing-charges"}]
 relatedLinks: [["Bookkeeping services","/services/month-end-close-support"],["Accounts receivable management","/services/accounts-receivable-support"],["Cash application exception log","/blog/bookkeeping-cash-application-exception-log"]]

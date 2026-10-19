@@ -5,7 +5,7 @@ published: "2026-08-24"
 updated: "2026-08-24"
 category: "Bank reconciliation"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-review-sampling-research.png"
+featuredImage: "/thumbnails/bookkeeping-review-sampling-research.webp"
 takeaways: ["Index every reconciliation to a period and account.", "Keep preparer notes separate from reviewer decisions.", "Use ageing to surface stale reconciling items."]
 faqs: [["Can an offshore bookkeeper maintain the index?","Yes. A bookkeeper can collect statements, tie workpapers to accounts, update status, and escalate unexplained items. An authorized reviewer keeps approval and accounting judgment."],["What makes an index useful?","Each line should point to its source, state the difference, name its owner, and record the next decision or action."]]
 ---

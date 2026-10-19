@@ -129,7 +129,7 @@ test('V3 parent attribution and approved review provenance are explicit and comp
   assert.match(components, /function Footer\(\)[^]*<ParentAttribution \/>/, 'footer renders parent attribution');
   assert.match(contact, /StealthAgents reviews/);
   assert.match(contact, /Official team, Bacolod/);
-  assert.match(contact, /stealth-agents-team-bacolod\.png/);
+  assert.match(contact, /stealth-agents-team-bacolod\.webp/);
   assert.match(contact, /reviews\.records\.map/);
 });
 

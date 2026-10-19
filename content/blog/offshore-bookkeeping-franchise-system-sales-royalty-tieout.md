@@ -4,7 +4,7 @@ description: "A practical offshore bookkeeping workflow for franchise royalty re
 published: "2026-09-18"
 category: "Franchise bookkeeping"
 type: "blog"
-featuredImage: "/thumbnails/offshore-bookkeeping-franchise-royalty-reconciliation.png"
+featuredImage: "/thumbnails/offshore-bookkeeping-franchise-royalty-reconciliation.webp"
 sources: [{"name":"FTC Franchise Rule compliance guide","url":"https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide"},{"name":"SBA franchise business guidance","url":"https://www.sba.gov/business-guide/plan-your-business/buy-existing-business-or-franchise"}]
 takeaways: ["Define and reconcile the complete source population before investigating differences.","Give each exception evidence, an owner, a due date, and a focused decision request.","Keep approvals and accounting judgment with the authorized company reviewer."]
 faqs: [["Can an offshore bookkeeper prepare this reconciliation?","Yes. A bookkeeper can gather authorized records, perform documented comparisons, maintain the exception queue, and prepare a review-ready handoff."],["What stays with the company reviewer?","Contract interpretation, accounting policy, approvals, legal conclusions, write-offs, and other judgment calls remain with the authorized owner or professional adviser."]]
