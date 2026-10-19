@@ -43,7 +43,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   return (
     <>
       <Header />
-      <main className="ob-service-detail">
+      <main id="main-content" className="ob-service-detail">
         <JsonLd data={schema} />
         <section className="ob-detail-hero">
           <div className="container ob-detail-hero-grid">
@@ -71,7 +71,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         <section className="ob-detail-section" id="scope">
           <div className="container ob-work-grid">
             <div className="ob-section-title"><p className="eyebrow">The working scope</p><h2>What the bookkeeper prepares</h2><p>Use this list as a starting point, then match it to your systems, calendar, and approval matrix.</p></div>
-            <ol className="ob-task-list">{service.tasks.map((task, index) => <li key={task}><span>{String(index + 1).padStart(2, '0')}</span><p>{task}</p></li>)}</ol>
+            <ol className="ob-task-list">{service.tasks.map((task, index) => <li key={task}><span>{index + 1}</span><p>{task}</p></li>)}</ol>
           </div>
         </section>
 

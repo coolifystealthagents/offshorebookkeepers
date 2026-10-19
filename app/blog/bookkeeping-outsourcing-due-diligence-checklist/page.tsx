@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Footer, Header } from '../../components';
+import { ArticleMobileToc, ArticleSidebar } from '../../article-sidebar';
 import styles from './comparison.module.css';
 
 const articleUrl = 'https://offshorebookkeepers.com/blog/bookkeeping-outsourcing-due-diligence-checklist';
@@ -43,6 +44,12 @@ export const metadata: Metadata = {
 
 export default function BuyerChecklistArticle() {
   const groups = [...new Set(questions.map(([group]) => group))];
+  const toc = [
+    { id: 'comparison-method', label: 'Comparison method' },
+    ...groups.map((group) => ({ id: group.toLowerCase(), label: group })),
+    { id: 'first-call', label: 'Prepare for the first call' },
+    { id: 'scope-call', label: 'Build the role brief' },
+  ];
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -54,7 +61,7 @@ export default function BuyerChecklistArticle() {
   return (
     <>
       <Header />
-      <main className={styles.page} data-content-profile="offshore-bookkeepers-buyer-checklist">
+      <main id="main-content" className={styles.page} data-content-profile="offshore-bookkeepers-buyer-checklist">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
         <header className={styles.hero}>
           <div className={`${styles.shell} ${styles.heroGrid}`}>
@@ -62,12 +69,15 @@ export default function BuyerChecklistArticle() {
             <div className={styles.heroSide}><p className={styles.lead}>{description}</p><div className={styles.facts}><span><b>25</b> practical questions</span><span><b>5</b> decision areas</span><span><b>1</b> bounded pilot before expansion</span></div></div>
           </div>
         </header>
-        <article className={`${styles.shell} ${styles.body}`}>
-          <nav className={styles.jump} aria-label="Article sections">{groups.map((group) => <a href={`#${group.toLowerCase()}`} key={group}>{group}</a>)}</nav>
-          <section className={styles.method}><h2>Compare providers against one written workflow</h2><p>Choose a recurring bookkeeping queue and write down its source records, steps, exceptions, output, reviewer, and deadline. Use that same brief for every provider conversation. It creates a fair comparison and keeps the discussion grounded in work a remote bookkeeper can realistically prepare.</p><p>This checklist is not a ranking and does not certify a provider. It is a structure for asking better questions, checking current evidence, and keeping financial authority with named client owners.</p></section>
+        <article className={`${styles.shell} ${styles.body} article-layout`}>
+          <div className="article-reading-column">
+          <ArticleMobileToc items={toc} />
+          <section className={styles.method} id="comparison-method"><h2>Compare providers against one written workflow</h2><p>Choose a recurring bookkeeping queue and write down its source records, steps, exceptions, output, reviewer, and deadline. Use that same brief for every provider conversation. It creates a fair comparison and keeps the discussion grounded in work a remote bookkeeper can realistically prepare.</p><p>This checklist is not a ranking and does not certify a provider. It is a structure for asking better questions, checking current evidence, and keeping financial authority with named client owners.</p></section>
           {groups.map((group) => <section className={styles.companySection} id={group.toLowerCase()} key={group}><p className={styles.eyebrow}>{group}</p><h2>{group === 'Pilot' ? 'Test the handoff before expanding it' : `Questions about ${group.toLowerCase()}`}</h2><ol className={styles.list}>{questions.map(([itemGroup, question, answer], index) => itemGroup === group ? <li className={`${styles.entry} ${styles.entryIndex}`} key={question}><div className={styles.heading}><div><h3><span>{index + 1}.</span> {question}</h3></div></div><div className={styles.prose}><p>{answer}</p></div></li> : null)}</ol></section>)}
-          <section className={styles.checklist}><p className={styles.eyebrow}>A useful first call</p><h2>Bring four things to the provider conversation</h2><div className={styles.checkGrid}><article><b>01</b><h3>One real workflow</h3><p>Name the queue, volume, systems, cadence, and current bottleneck.</p></article><article><b>02</b><h3>One redacted example</h3><p>Show the source records and the completed output you expect.</p></article><article><b>03</b><h3>One approval map</h3><p>Identify preparation, review, approval, and release owners.</p></article><article><b>04</b><h3>One pilot decision</h3><p>Set the sample boundary and the evidence required before expansion.</p></article></div></section>
-          <section className={styles.cta}><p className={styles.eyebrow}>Turn the checklist into a role brief</p><h2>Scope a bookkeeping workflow with visible inputs, outputs, and review ownership.</h2><p>Bring one recurring finance bottleneck. We will help organize the questions and define a practical starting scope.</p><a href="/contact-us">Book a free scope call</a></section>
+          <section className={styles.checklist} id="first-call"><p className={styles.eyebrow}>A useful first call</p><h2>Bring four things to the provider conversation</h2><div className={styles.checkGrid}><article><h3>One real workflow</h3><p>Name the queue, volume, systems, cadence, and current bottleneck.</p></article><article><h3>One redacted example</h3><p>Show the source records and the completed output you expect.</p></article><article><h3>One approval map</h3><p>Identify preparation, review, approval, and release owners.</p></article><article><h3>One pilot decision</h3><p>Set the sample boundary and the evidence required before expansion.</p></article></div></section>
+          <section className={styles.cta} id="scope-call"><p className={styles.eyebrow}>Turn the checklist into a role brief</p><h2>Scope a bookkeeping workflow with visible inputs, outputs, and review ownership.</h2><p>Bring one recurring finance bottleneck. We will help organize the questions and define a practical starting scope.</p><a href="/contact-us">Book a free scope call</a></section>
+          </div>
+          <ArticleSidebar items={toc} published="September 16, 2026" readingLabel="12 minute read" related={[{ href: '/services', label: 'Bookkeeping services' }, { href: '/research', label: 'Bookkeeping research' }, { href: '/contact-us', label: 'Scope a bookkeeping role' }]} />
         </article>
       </main>
       <Footer />

@@ -2,6 +2,8 @@ import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { ArticleBody } from '../../article-body';
 import { blogPosts, site } from '../../data';
+import { ArticleMobileToc, ArticleSidebar } from '../../article-sidebar';
+const anchor = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const readerDate = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const formatReaderDate = (value?: string) => {
   if (!value || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return value ?? '';
@@ -134,6 +136,20 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   const sources = Array.isArray(post.sources) ? post.sources : [];
   const banners = Array.isArray(post.banners) ? post.banners : [];
   const richArticle = sections.length > 0;
+  const toc = richArticle ? [
+    { id: 'short-answer', label: 'The short answer' },
+    ...sections.map((section: any) => ({ id: anchor(section.heading), label: section.heading })),
+    ...(post.table ? [{ id: 'control-table', label: post.table.title }] : []),
+    ...(post.chart ? [{ id: 'evidence-chart', label: post.chart.title }] : []),
+    ...(post.graphic ? [{ id: 'handoff-graphic', label: post.graphic.title }] : []),
+    ...(faqs.length ? [{ id: 'owner-questions', label: 'Questions owners ask' }] : []),
+    ...(Array.isArray(post.relatedLinks) ? [{ id: 'keep-planning', label: 'Keep planning' }] : []),
+    ...(sources.length ? [{ id: 'sources', label: 'Sources' }] : []),
+  ] : [
+    { id: 'defined-process', label: 'Start with a defined process' },
+    { id: 'representative-examples', label: 'Prepare representative examples' },
+    { id: 'access-and-handoffs', label: 'Plan access and handoffs' },
+  ];
 
   const schema = {
     '@context': 'https://schema.org',
@@ -178,9 +194,9 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <Header />
-      <main className="article-page">
+      <main id="main-content" className="article-page">
         <JsonLd data={schema} />
-        <article className="container article-shell" data-article-slug={post.slug} data-article-marker={post.marker || post.slug}>
+        <article className="container article-layout" data-article-slug={post.slug} data-article-marker={post.marker || post.slug}><div className="article-reading-column">
           <header className="article-header">
             <span className="eyebrow">{site.brand} guide</span>
             <h1>{post.title}</h1>
@@ -188,17 +204,18 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             {post.published && <span className="article-date">Published <time dateTime={post.published}>{formatReaderDate(post.published)}</time>{post.updated && post.updated !== post.published && <> · Updated <time dateTime={post.updated}>{formatReaderDate(post.updated)}</time></>} · {post.minutes} minute read</span>}
             {post.featuredImage && <img className="article-featured-image" src={post.featuredImage} alt={post.description || post.excerpt} />}
           </header>
+          <ArticleMobileToc items={toc} />
 
           {richArticle ? (
             <>
-              <section className="article-card article-takeaways">
+              <section className="article-card article-takeaways" id="short-answer">
                 <h2>The short answer</h2>
                 <ul>{post.takeaways.map((item: string) => <li key={item}>{item}</li>)}</ul>
               </section>
 
               {sections.map((section: any, index: number) => (
                 <div key={section.heading}>
-                  <section className="article-card article-section">
+                  <section className="article-card article-section" id={anchor(section.heading)}>
                     <h2>{section.heading}</h2>
                     <ArticleBody body={(section.paragraphs || [section.body]).filter(Boolean).join('\n\n')}/>
                   </section>
@@ -208,7 +225,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               ))}
 
               {post.table && (
-                <section className="article-card article-table" data-article-table="ap-controls">
+                <section className="article-card article-table" id="control-table" data-article-table="ap-controls">
                   <h2>{post.table.title}</h2>
                   <p>{post.table.intro}</p>
                   <div className="table-scroll" role="region" aria-label={`${post.table.title}. Scroll horizontally to see all columns.`} tabIndex={0}>
@@ -221,8 +238,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
                 </section>
               )}
 
-              {post.chart && <DetectionChart chart={post.chart} />}
-              {post.graphic && <HandoffGraphic graphic={post.graphic} />}
+              {post.chart && <div id="evidence-chart"><DetectionChart chart={post.chart} /></div>}
+              {post.graphic && <div id="handoff-graphic"><HandoffGraphic graphic={post.graphic} /></div>}
 
               {post.quote && (
                 <figure className="expert-quote" data-expert-quote="ic3">
@@ -234,14 +251,14 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               )}
 
               {faqs.length > 0 && (
-                <section className="article-card article-faq">
+                <section className="article-card article-faq" id="owner-questions">
                   <h2>Questions owners ask</h2>
                   {faqs.map((faq: readonly string[]) => <div key={faq[0]}><h3>{faq[0]}</h3><p>{faq[1]}</p></div>)}
                 </section>
               )}
 
               {Array.isArray(post.relatedLinks) && (
-                <section className="article-card related-guides">
+                <section className="article-card related-guides" id="keep-planning">
                   <h2>Keep planning</h2>
                   <ul>{post.relatedLinks.map((link: readonly string[]) => <li key={link[1]}><a href={link[1]}>{link[0]}</a></li>)}</ul>
                 </section>
@@ -258,15 +275,15 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             </>
           ) : (
             <section className="article-card">
-              <h2>Start with a defined process</h2>
+              <h2 id="defined-process">Start with a defined process</h2>
               <p>For Philippines-based staffing, document the work, tools, schedule, and expected result before candidate matching. Keep business judgment and final approvals with a named manager.</p>
-              <aside className='article-rotation-banner article-rotation-banner-middle' data-article-banner='true'><p className='eyebrow'>Midpoint planning check</p><h2>Compare providers against one written workflow</h2><p>Use one task lane, one reviewer, and one quality check so each provider conversation is easier to judge.</p><a className='btn' href='/contact-us'>Contact Us</a></aside><h2>Prepare representative examples</h2>
+              <aside className='article-rotation-banner article-rotation-banner-middle' data-article-banner='true'><p className='eyebrow'>Midpoint planning check</p><h2>Compare providers against one written workflow</h2><p>Use one task lane, one reviewer, and one quality check so each provider conversation is easier to judge.</p><a className='btn' href='/contact-us'>Contact Us</a></aside><h2 id="representative-examples">Prepare representative examples</h2>
               <p>Use real, properly redacted examples to explain quality and review the first work together. Update the written process whenever the team finds a new exception.</p>
-              <h2>Plan access and handoffs</h2>
+              <h2 id="access-and-handoffs">Plan access and handoffs</h2>
               <p>Provide only the access needed for the position and use named accounts where possible. Write down which questions need approval and who receives them.</p>
             </section>
           )}
-        </article>
+        </div><ArticleSidebar items={toc} published={formatReaderDate(post.published)} updated={formatReaderDate(post.updated)} readingLabel={`${post.minutes || 7} minute read`} related={(post.relatedLinks || []).map((link: readonly string[]) => ({ label: link[0], href: link[1] }))}/></article>
         {!richArticle && <CTA />}
       </main>
       <Footer />

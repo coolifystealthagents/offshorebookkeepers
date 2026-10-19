@@ -32,7 +32,7 @@ export default function ServicesPage() {
   return (
     <>
       <Header />
-      <main className="ob-services-page">
+      <main id="main-content" className="ob-services-page">
         <JsonLd data={schema} />
         <section className="ob-services-hero">
           <div className="container ob-services-hero-grid">
@@ -48,9 +48,9 @@ export default function ServicesPage() {
             <aside className="ob-scope-panel" aria-label="How to choose a starting scope">
               <p className="ob-panel-label">Start with the bottleneck</p>
               <ol>
-                <li><span>01</span><div><b>Clear a backlog</b><p>Cleanup, coding, reconciliations, and missing-document follow-up.</p></div></li>
-                <li><span>02</span><div><b>Run weekly bookkeeping</b><p>Receipts, AP, AR, payroll inputs, and exception queues.</p></div></li>
-                <li><span>03</span><div><b>Prepare the monthly review</b><p>Close schedules, evidence, and draft management reporting.</p></div></li>
+                <li><div><b>Clear a backlog</b><p>Cleanup, coding, reconciliations, and missing-document follow-up.</p></div></li>
+                <li><div><b>Run weekly bookkeeping</b><p>Receipts, AP, AR, payroll inputs, and exception queues.</p></div></li>
+                <li><div><b>Prepare the monthly review</b><p>Close schedules, evidence, and draft management reporting.</p></div></li>
               </ol>
             </aside>
           </div>
@@ -71,7 +71,6 @@ export default function ServicesPage() {
             <section className={`ob-service-group${groupIndex % 2 ? ' is-tinted' : ''}`} id={group.id} key={group.id}>
               <div className="container">
                 <header className="ob-group-heading">
-                  <span>{String(groupIndex + 1).padStart(2, '0')}</span>
                   <div><h2>{group.title}</h2><p>{group.description}</p></div>
                 </header>
                 <div className="ob-service-grid">

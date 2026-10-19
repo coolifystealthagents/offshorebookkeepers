@@ -13,7 +13,7 @@ export default function Blog() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <section className="fleet-hero variant-1">
           <div className="container">
             <p className="eyebrow">Blog</p>

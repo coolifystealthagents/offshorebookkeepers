@@ -74,7 +74,6 @@ const legacyTargets = [
   '/blog/top-25-bookkeeping-finance-outsourcing-companies',
 ];
 
-const unsupportedTestimonials = ['Kevin Carabajal', 'Chad Sublet', 'Alex Behrens'];
 
 test('service catalog covers every approved bookkeeping support category with distinct, claim-safe workflows', () => {
   const { fleetServices, serviceGroups } = loadFleetData();
@@ -118,20 +117,25 @@ test('informative article images have meaningful alternatives and redundant list
   assert.match(read('app/alternatives/page.tsx'), /<img src=\{post\.featuredImage\} alt=""\/>/);
 });
 
-test('unsupported testimonials and visible parent-brand copy are absent from first-party pages', () => {
-  const readerFiles = [
-    ...walk('app', (file) => file.endsWith('.tsx') && !file.endsWith('layout.tsx') && !file.endsWith('contact-us/page.tsx')),
-    path.join(root, 'app/fleet-data.ts'),
-    path.join(root, 'app/data.ts'),
-    ...walk('content', (file) => /\.mdx?$/.test(file)),
-  ];
-  for (const file of readerFiles) {
-    let value = fs.readFileSync(file, 'utf8');
-    value = value.replaceAll('https://go.oncehub.com/StealthAgentsTeam', '');
-    value = value.replaceAll('https://acrtracking.stealthagents.us/v1/tracker.js', '');
-    for (const name of unsupportedTestimonials) assert.ok(!value.includes(name), `${path.relative(root, file)} contains ${name}`);
-    assert.doesNotMatch(value, /stealth\s*agents/i, `${path.relative(root, file)} contains visible parent-brand copy`);
-  }
+test('V3 parent attribution and approved review provenance are explicit and complete', () => {
+  const components = read('app/components.tsx');
+  const contact = read('app/contact-us/page.tsx');
+  const reviewProvenance = JSON.parse(read('app/data/review-provenance.json'));
+  const reviews = reviewProvenance.records;
+  assert.equal(reviews.length, 10, 'exactly ten approved review records are stored');
+  assert.equal(new Set(reviews.map((review) => review.name)).size, 10, 'reviewers are unique');
+  assert.equal(reviewProvenance.source, 'https://stealthagents.com/', 'reviews retain first-party provenance');
+  assert.match(components, /function Header\(\)[^]*<ParentAttribution \/>/, 'header renders parent attribution');
+  assert.match(components, /function Footer\(\)[^]*<ParentAttribution \/>/, 'footer renders parent attribution');
+  assert.match(contact, /StealthAgents reviews/);
+  assert.match(contact, /Official team, Bacolod/);
+  assert.match(contact, /stealth-agents-team-bacolod\.png/);
+  assert.match(contact, /reviews\.records\.map/);
+});
+
+test('remote campaign panels cannot render outside the canonical page shell', () => {
+  const css = read('app/globals.css');
+  assert.match(css, /body\s*>\s*\.article-rotation-banner\s*\{\s*display:none!important\s*\}/);
 });
 
 test('legacy internal targets are fully canonicalized in application and content sources', () => {
@@ -158,14 +162,15 @@ test('contact has one canonical implementation and a permanent legacy redirect',
     && rule.permanent === true));
 });
 
-test('contact hero exposes a primary form action', () => {
+test('contact first fold contains the complete form and automatic review rail', () => {
   const contactPage = read('app/contact-us/page.tsx');
   const contactCss = read('app/contact-us/contact.css');
-  const primary = '<a className="contact-hero-button" href="#contactPageForm">Book a free consultation</a>';
-
-  assert.ok(contactPage.includes(primary), 'contact hero needs an actionable link to the form');
-  assert.match(contactCss, /\.contact-hero-button\{[^}]*display:inline-flex[^}]*background:#ffd0a0[^}]*color:#102f36/,
-    'primary hero action must render as a high-contrast button');
+  assert.match(contactPage, /contact-first-fold/);
+  assert.match(contactPage, /<StandardContactForm/);
+  assert.match(contactPage, /review-track/);
+  assert.match(contactCss, /\.review-track\{[^}]*animation:reviewRail/);
+  assert.match(contactCss, /prefers-reduced-motion:reduce/);
+  assert.doesNotMatch(contactPage, />\s*(?:Play|Pause|Previous|Next)\s*</i);
 });
 
 test('contact success is gated by authoritative delivery and direct thank-you visits are non-confirmatory', () => {
@@ -189,8 +194,9 @@ test('contact success is gated by authoritative delivery and direct thank-you vi
   assert.match(route, /NextResponse\.json\(\{ ok: true \}\)/);
   assert.match(route, /NextResponse\.redirect\(new URL\('\/thank-you', origin!\)/);
   assert.doesNotMatch(route, /function redirectOrigin/);
-  assert.match(thankYou, /cookies\(\).*ob_lead_accepted/s);
-  assert.match(thankYou, /No submission was confirmed in this browser/);
+  assert.match(thankYou, /go\.oncehub\.com\/StealthAgentsTeam/);
+  assert.match(thankYou, /Opening this page directly does not confirm/);
+  assert.equal(fs.existsSync(path.join(root, 'app/thanks-whats-next/page.tsx')), true);
 });
 
 test('central tracker is withheld on contact until authoritative acceptance and tracks the lead once', () => {
@@ -337,10 +343,10 @@ test('reviewed accessibility fixes keep focus order, contrast tokens, and breadc
 
 test('every page template emits a route-specific canonical', () => {
   const pageFiles = walk('app', (file) => file.endsWith('page.tsx'));
-  assert.equal(pageFiles.length, 16);
+  assert.equal(pageFiles.length, 17);
   for (const file of pageFiles) {
     const source = fs.readFileSync(file, 'utf8');
-    assert.match(source, /alternates\s*:\s*\{\s*canonical\s*:/, `${file} is missing canonical metadata`);
+    assert.match(source, /alternates\s*:\s*\{\s*canonical(?:\s*:|\s*\})/, `${file} is missing canonical metadata`);
   }
 });
 
@@ -417,7 +423,7 @@ test('research article grids, source links, and consultation actions remain usab
   assert.doesNotMatch(css, /\.article-header h1\{[^}]*overflow-wrap:anywhere/);
   assert.match(css, /\.article-sources a\{[^}]*overflow-wrap:anywhere/);
   assert.match(articleBody, /target: '_blank', rel: 'noopener noreferrer'/);
-  assert.match(research, /consultation-card-action/);
+  assert.match(research, /<ArticleSidebar/);
   assert.match(css, /\.consultation-card-action\{[^}]*text-decoration:underline/);
 });
 

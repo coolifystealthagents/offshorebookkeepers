@@ -36,7 +36,7 @@ export default async function Research({
   return (
     <>
       <Header />
-      <main className="research-index-page">
+      <main id="main-content" className="research-index-page">
         <section className="research-hero">
           <div className="container research-hero-grid">
             <div>
@@ -59,15 +59,15 @@ export default async function Research({
               aria-label="Research quality signals"
             >
               <div>
-                <strong>01</strong>
+                <strong>Reviewable sources</strong>
                 <span>Sources listed for reader review</span>
               </div>
               <div>
-                <strong>02</strong>
+                <strong>Clear interpretation</strong>
                 <span>Operational interpretation identified</span>
               </div>
               <div>
-                <strong>03</strong>
+                <strong>Visible limits</strong>
                 <span>Limitations stated on each report</span>
               </div>
             </aside>
