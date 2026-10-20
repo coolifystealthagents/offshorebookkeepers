@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "test": "npm run validate:content && npm run test:source && npm run build && npm run test:rendered",
-    "test:source": "node --test tests/remediation-contract.test.mjs tests/homepage-auditor-regressions.test.mjs tests/research-index-contract.test.mjs",
+    "test:source": "node --test tests/canonical-redirect.test.mjs tests/remediation-contract.test.mjs tests/homepage-auditor-regressions.test.mjs tests/research-index-contract.test.mjs",
     "test:rendered": "node tests/test_aug10_blog_contract.mjs && node tests/test_aug10_research_contract.mjs",
     "test:aug10": "node tests/test_aug10_blog_contract.mjs && node tests/test_aug10_research_contract.mjs",
     "start": "next start -H 0.0.0.0 -p 3000",
