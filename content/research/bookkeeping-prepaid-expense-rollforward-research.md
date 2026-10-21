@@ -2,7 +2,7 @@
 title: "Prepaid-expense rollforwards: research, evidence, and review"
 description: "A repeatable bookkeeping workflow for prepaid schedules, amortization support, and period-end review."
 published: "2026-08-10"
-updated: "2026-08-10"
+updated: "2026-10-21"
 category: "Close Operations"
 type: "research"
 featuredImage: "/thumbnails/bookkeeping-prepaid-expense-rollforward-research.webp"
@@ -11,6 +11,7 @@ sources: [{"name":"FASB, Accounting Standards","url":"https://www.fasb.org/stand
 sourceNotes: [{"claim":"The source list includes FASB, Accounting Standards as public guidance relevant to close operations.","sourceUrls":["https://www.fasb.org/standards"]},{"claim":"U.S. IRS, Recordkeeping is listed to frame review questions about prepaid-expense rollforwards: research, evidence, and review.","sourceUrls":["https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"]},{"claim":"U.S. GAO, Standards for Internal Control provides context; this report does not treat that source as proof that a staffing model causes an outcome.","sourceUrls":["https://www.gao.gov/products/gao-14-704g"]}]
 relatedLinks: [["/research/bookkeeping-expense-accrual-evidence-research","/research/bookkeeping-financial-close-calendar-research","/research/bookkeeping-workpaper-evidence-research"]]
 faqs: [{"question":"What does a rollforward prove?","answer":"It makes the movement from opening to closing balance visible and links releases to the intended periods."},{"question":"Who approves the method?","answer":"The responsible accounting owner approves policy and material judgments; support staff maintain evidence."}]
+serviceHandoff: {"href":"/services/month-end-close-support","label":"See Month-End Close Support","title":"Prepare the prepaid schedule for close review","body":"A Philippines-based bookkeeper can maintain the rollforward, gather agreements and invoices, and route exceptions. Your controller or accountant decides recognition, impairments, write-offs, and journal approval."}
 ---
 ## Key statistic
 This report reviews 10 authoritative sources and uses that count only to describe the evidence set.

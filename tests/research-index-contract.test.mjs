@@ -110,6 +110,19 @@ test('research taxonomy counts and filtering are derived from loaded content', a
   assert.deepEqual(filterResearchByTopic(posts, 'not-a-topic'), { activeTopic: '', posts });
 });
 
+test('prepaid-expense research keeps its close-support handoff and owner boundary', async () => {
+  const content = await loadContentModule();
+  const post = content.getPost('research', 'bookkeeping-prepaid-expense-rollforward-research');
+  assert.ok(post, 'the selected research record loads');
+  assert.equal(post.updated, '2026-10-21');
+  assert.deepEqual(post.serviceHandoff, {
+    href: '/services/month-end-close-support',
+    label: 'See Month-End Close Support',
+    title: 'Prepare the prepaid schedule for close review',
+    body: 'A Philippines-based bookkeeper can maintain the rollforward, gather agreements and invoices, and route exceptions. Your controller or accountant decides recognition, impairments, write-offs, and journal approval.',
+  });
+});
+
 test('article body parser preserves supported structure instead of exposing markdown punctuation', async () => {
   const content = await loadContentModule();
   assert.equal(typeof content.parseArticleBody, 'function');
