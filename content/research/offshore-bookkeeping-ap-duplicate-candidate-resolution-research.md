@@ -2,7 +2,7 @@
 title: "How to study AP duplicate-invoice candidate resolution"
 description: "A reproducible study protocol for whether duplicate-invoice detection produces timely, supported decisions without allowing candidate alerts to become an unreviewed queue, with frozen populations, evidence coverage, decision rights, and limitations."
 published: "2026-09-19"
-updated: "2026-09-19"
+updated: "2026-10-23"
 category: "Accounts payable"
 type: "research"
 featuredImage: "/thumbnails/offshore-bookkeeping-cutoff-assertion-confidence-research.webp"
@@ -11,7 +11,7 @@ sourceNotes: [{"claim":"GAO presents principles for designing, implementing, and
 takeaways: ["Freeze the population, cutoff, clock, and status definitions before calculating results.","Report missing evidence, returned work, exclusions, and reopened items beside the headline measure.","Keep preparation with the bookkeeping team and judgment, approval, release, and policy decisions with the authorized client owner."]
 relatedLinks: [["View the related service","/services/accounts-payable-processing"],["Explore the research library","/research"],["Plan a controlled bookkeeping role","/contact-us"]]
 faqs: [{"question":"Does this report publish a market benchmark or client result?","answer":"No. It defines a reproducible study protocol. It contains no private client dataset, prevalence estimate, staffing score, or claimed performance result."},{"question":"Can this measure be used to rank bookkeepers?","answer":"No. It is a workflow diagnostic whose meaning depends on population, systems, evidence coverage, decision rights, and reviewer availability."},{"question":"Who approves judgment-dependent outcomes?","answer":"The client's authorized accounts-payable manager or controller retains judgment, policy, approval, release, and accounting decisions. A bookkeeper may assemble records and apply documented rules."}]
-serviceHandoff: {"href":"/contact-us","label":"Discuss a controlled bookkeeping scope","title":"Turn the protocol into a reviewable handoff","body":"Define the source records, preparation fields, stops, reviewer, and escalation route before assigning the workflow."}
+serviceHandoff: {"href":"/services/accounts-payable-processing","label":"See Accounts Payable Processing","title":"Prepare duplicate-invoice evidence for approval","body":"A Philippines-based bookkeeper can assemble invoice comparisons, document exceptions, and route the evidence to the approved reviewer. Your accounts-payable manager or controller keeps payment approval, release, policy, and accounting decisions."}
 ---
 This research brief was published September 19, 2026. Sources were checked on September 19, 2026. It proposes a study protocol and reports no observed client performance. It is not accounting, audit, tax, legal, payroll, statistical, investment, or regulatory advice.
 

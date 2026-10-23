@@ -123,6 +123,19 @@ test('prepaid-expense research keeps its close-support handoff and owner boundar
   });
 });
 
+test('duplicate-invoice research keeps its accounts-payable handoff and approval boundary', async () => {
+  const content = await loadContentModule();
+  const post = content.getPost('research', 'offshore-bookkeeping-ap-duplicate-candidate-resolution-research');
+  assert.ok(post, 'the selected research record loads');
+  assert.equal(post.updated, '2026-10-23');
+  assert.deepEqual(post.serviceHandoff, {
+    href: '/services/accounts-payable-processing',
+    label: 'See Accounts Payable Processing',
+    title: 'Prepare duplicate-invoice evidence for approval',
+    body: 'A Philippines-based bookkeeper can assemble invoice comparisons, document exceptions, and route the evidence to the approved reviewer. Your accounts-payable manager or controller keeps payment approval, release, policy, and accounting decisions.',
+  });
+});
+
 test('article body parser preserves supported structure instead of exposing markdown punctuation', async () => {
   const content = await loadContentModule();
   assert.equal(typeof content.parseArticleBody, 'function');
