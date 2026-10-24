@@ -1,36 +1,29 @@
 ---
-title: "A document-retention map for Philippines bookkeeping support"
-description: "Create a practical retention map so a Philippines bookkeeper knows which evidence to request, where to file it, and when to escalate missing records."
-published: "2026-08-17"
-updated: "2026-08-17"
-category: "Bookkeeping Operations"
+title: "Map Document Retention Before the Next Cleanup"
+description: "A retention map that connects document type, system, owner, legal hold, and disposal evidence."
+published: "2026-10-22"
+updated: "2026-10-22"
+category: "Evidence & Quality"
 type: "blog"
-featuredImage: "/thumbnails/bookkeeping-document-retention-workflow.webp"
-takeaways: ["Map evidence to the transaction, account, period, and reviewer.","Define approved storage, naming, access, and retention rules.","Escalate missing or altered records instead of recreating them from memory."]
-faqs: [["What does the map need to include?","Include record type, owner, source, naming convention, storage location, access level, period, retention rule, and escalation path."],["Can a Philippines bookkeeper organize evidence?","Yes, when the business provides approved storage and access rules. The bookkeeper should not delete records or make retention-policy decisions."]]
+featuredImage: "/oct22-heroes/philippines-bookkeeper-document-retention-map.svg"
+takeaways: ["Define the boundary before preparing the first item.","Keep source values, versions, and corrections visible.","Route authority decisions to the records owner and verify the posted result."]
+sources: [{"name":"NIST, Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Rev. 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
+relatedLinks: [["Month-end close support","/services/month-end-close-support"],["Review bank reconciliation controls","/blog/philippines-bookkeeper-bank-reconciliation-controls"],["Plan a bookkeeping role","/contact-us"]]
+faqs: [["Who owns the document retention map?", "the records owner owns the decision. A Philippines-based bookkeeper can prepare the record and route exceptions, but should not approve its own high-risk item."], ["What belongs in the exception log?", "Record the item, source, amount, issue, owner, next action, due date, and final disposition. Keep the item open until the evidence and decision are attached."], ["How should a business start?", "Begin with a small account or queue, redacted examples, limited access, and a same-day review. Expand only after the preparer can produce a complete trail and stop at the written decision points."]]
 ---
-## Start from review questions
-For each close or transaction, ask what a reviewer must prove: authorization, amount, date, coding, payment, delivery, or reconciliation. Map the evidence to that question rather than collecting files without purpose.
 
-## Define the record fields
-Record type, entity, account, period, source owner, file name, storage location, access class, and retention instruction. A Philippines bookkeeper can apply the map consistently when the fields are short and specific.
+## Define the document retention map boundary
 
-## Use controlled storage
-Keep documents in approved folders or systems with named access and version history where available. Do not make personal downloads, email inboxes, or chat threads the only copy of a financial record.
+Start with a records cleanup and name the period, entity, currency, source system, preparer, reviewer, and stop rule. The record must show what was reviewed and what was deliberately left outside the lane. A document retention map is useful only when another reviewer can reconstruct the same boundary without a private explanation.
 
-## Check completeness
-At close, sample transactions and confirm that source, system result, approval, and review note can be found. Mark missing or unreadable records as exceptions with an owner and due date.
+## Connect each item to its source
 
-## Protect the original
-Do not overwrite source files to correct a description or date. Add a reviewed copy or note and preserve the original record so the history remains clear.
+For every item, capture the source identifier, version or date, amount, account, counterparty, and the destination where the result will post. Keep the source value separate from the normalized working value. Do not overwrite an earlier value when a correction arrives. A screenshot may help, but a stable system reference is stronger evidence.
 
-## Apply retention through the owner
+## Route the owner decision
 
-The bookkeeper can label records and place them in approved locations, but the client’s legal, tax, security, or records owner sets retention and deletion requirements. Record the controlling policy, effective date, exception owner, and next review date instead of inventing a universal retention period.
+The preparer may collect evidence, apply documented coding, reconcile routine differences, and prepare a decision packet. the records owner decides which document is kept, archived, or disposed. The preparer must stop when the source conflicts, approval is absent, the amount is material and unsupported, or the item requires a legal, tax, or accounting judgment.
 
-## Map evidence to a reviewer question
-For a supplier payment, the map might require the approved bill, purchase evidence where applicable, payment record, and bank match. For a payroll journal, it might require the approved register and posting report, not every employee document. Name the system, identifier, retention owner, and access restriction so duplicate PDFs are not mistaken for a complete trail.
+## Verify, close, and retest
 
-## Handle a missing document explicitly
-If the invoice for a $2,100 charge cannot be found, link the bank transaction and vendor statement, mark primary evidence missing, and assign a retrieval owner and due date. The bookkeeper can pause or route the item; they should not recreate an invoice from memory. The finance lead decides whether evidence is sufficient or a corrected source is required.
-The bookkeeper follows the organization’s approved retention policy and flags records reaching a review point. Authorized owners decide deletion, legal holds, and policy changes; the support role should not remove evidence independently.
+After the decision, verify the posted result in the destination system and record who approved it. Reconcile counts back to the queue, retain exceptions with an owner and due date, and retest one ordinary and one adverse case. Close only when the evidence, approval, posting, and reviewer sign-off are all visible.

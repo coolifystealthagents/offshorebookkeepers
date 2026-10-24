@@ -1,44 +1,29 @@
 ---
-title: "How to run an AR dispute register with offshore bookkeeping support"
-description: "Build an AR dispute register that preserves customer claims, links invoice evidence, and routes credits, concessions, and write-offs for approval."
-published: "2026-08-21"
-updated: "2026-08-21"
-category: "AR dispute management"
+title: "Keep an AR Dispute Register That Ages Correctly"
+description: "A dispute register that preserves the customer question, evidence, owner, promise, and next review date."
+published: "2026-10-22"
+updated: "2026-10-22"
+category: "Receivables & Revenue"
 type: "blog"
-featuredImage: "/thumbnails/offshore-bookkeeping-ar-dispute-register.webp"
-takeaways: ["Reconcile the opening dispute list to receivables before researching individual claims.", "Preserve the customer’s stated reason separately from the preparer’s summary and conclusions.", "Explain every item removed from the register as paid, credited, reclassified, transferred, or otherwise resolved."]
-faqs: [["What status information should an AR dispute register contain?","Each record should show the invoice, disputed amount, customer-stated reason, opened date, evidence links, current owner, next action, and review status."],["Can an offshore bookkeeper close a dispute after gathering the support?","The bookkeeper can update facts and prepare a comparison, but the client’s authorized owner decides credits, concessions, write-offs, collection action, and when the dispute is resolved."]]
+featuredImage: "/oct22-heroes/offshore-bookkeeping-ar-dispute-register.svg"
+takeaways: ["Define the boundary before preparing the first item.","Keep source values, versions, and corrections visible.","Route authority decisions to the collections owner and verify the posted result."]
+sources: [{"name":"NIST, Security and Privacy Controls for Information Systems and Organizations, SP 800-53 Rev. 5","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"},{"name":"IRS, Recordkeeping","url":"https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
+relatedLinks: [["Month-end close support","/services/month-end-close-support"],["Review bank reconciliation controls","/blog/philippines-bookkeeper-bank-reconciliation-controls"],["Plan a bookkeeping role","/contact-us"]]
+faqs: [["Who owns the AR dispute register?", "the collections owner owns the decision. A Philippines-based bookkeeper can prepare the record and route exceptions, but should not approve its own high-risk item."], ["What belongs in the exception log?", "Record the item, source, amount, issue, owner, next action, due date, and final disposition. Keep the item open until the evidence and decision are attached."], ["How should a business start?", "Begin with a small account or queue, redacted examples, limited access, and a same-day review. Expand only after the preparer can produce a complete trail and stop at the written decision points."]]
 ---
-An AR dispute register connects a customer’s claim to the affected invoice, available evidence, and the person responsible for the next decision. Offshore support can keep that record current and reconcile it to receivables without taking over commercial resolutions or accounting approvals.
 
-## Define what belongs in the register
+## Define the AR dispute register boundary
 
-Set the register’s scope before working individual claims. It may cover short payments, pricing questions, delivery claims, duplicate-invoice assertions, credit requests, or other categories named by the client. State the entities, customer accounts, ageing date, and source systems included, and reconcile the opening list to the relevant receivables report.
+Start with a disputed customer balance and name the period, entity, currency, source system, preparer, reviewer, and stop rule. The record must show what was reviewed and what was deliberately left outside the lane. A AR dispute register is useful only when another reviewer can reconstruct the same boundary without a private explanation.
 
-## Give every dispute a durable identity
+## Connect each item to its source
 
-Use one record for each disputed invoice or grouped claim, with the customer, invoice, disputed amount, reason reported by the customer, opened date, current owner, next action, and source links. Preserve the customer’s wording separately from the preparer’s summary. That distinction prevents an unverified claim from becoming a ledger fact through repetition.
+For every item, capture the source identifier, version or date, amount, account, counterparty, and the destination where the result will post. Keep the source value separate from the normalized working value. Do not overwrite an earlier value when a correction arrives. A screenshot may help, but a stable system reference is stronger evidence.
 
-## Assemble the evidence trail
+## Route the owner decision
 
-Connect the invoice to the order, delivery or service evidence, credit notes, cash receipt, and correspondence available under the client’s procedure. Record what was checked and what remains unavailable. Proposed corrections should sit alongside the original invoice and ledger values, never replace them in the register.
+The preparer may collect evidence, apply documented coding, reconcile routine differences, and prepare a decision packet. the collections owner decides whether a dispute is valid, promised, written off, or escalated. The preparer must stop when the source conflicts, approval is absent, the amount is material and unsupported, or the item requires a legal, tax, or accounting judgment.
 
-## Separate research from the commercial decision
+## Verify, close, and retest
 
-An offshore bookkeeper can gather records, classify the stated dispute, update dates, and prepare a comparison. The client’s authorized owner retains decisions about credits, concessions, collections strategy, write-offs, and accounting treatment. The preparer should not promise a customer an outcome or close a claim merely because supporting correspondence is old.
-
-## Ask an answerable exception question
-
-Route each blocked item to a named owner with a concise request: confirm delivery, approve or reject a specified credit, identify the contract version, or decide the next customer contact. Include the disputed amount, evidence checked, and effect on ageing. A generic “please review” note makes the next person repeat the investigation.
-
-## Reconcile status with receivables
-
-At each reporting date, compare the register with open invoices, credit notes, unapplied cash, and items removed since the prior review. Explain whether each removal was resolved, reclassified, paid, credited, or transferred under an approved instruction. Keep pending decisions visible even if the collection queue uses a different status label.
-
-## Review ageing by cause and owner
-
-Report open value and age by dispute category, decision owner, and waiting reason. Also track reopened claims, records without source support, and approved actions not reflected in the ledger. This view distinguishes delays caused by missing evidence from delays requiring a commercial or finance decision.
-
-## Keep the register current
-
-Update the categories and handoff rules when billing channels, customer terms, credit authority, or system fields change. Test both a normal short payment and a conflicting-evidence case before expanding access. The register succeeds when it preserves the claim history and sends protected decisions to the right client owner without turning bookkeeping support into the decision-maker.
+After the decision, verify the posted result in the destination system and record who approved it. Reconcile counts back to the queue, retain exceptions with an owner and due date, and retest one ordinary and one adverse case. Close only when the evidence, approval, posting, and reviewer sign-off are all visible.
