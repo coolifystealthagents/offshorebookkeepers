@@ -3,7 +3,7 @@ title: How Complete Is the Offshore Bookkeeping And Accounting Support Intake Re
   at First Review?
 description: A protocol for measuring whether offshore bookkeeping and accounting
   support intake items carry the source, owner, and date needed before work begins.
-published: true
+published: "2026-10-25"
 updated: '2026-09-04'
 category: Bookkeeping operations research
 type: research

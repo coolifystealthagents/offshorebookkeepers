@@ -3,7 +3,7 @@ title: Can a Second Reviewer Continue the Offshore Bookkeeping And Accounting Su
   Handoff?
 description: A protocol measuring whether offshore bookkeeping and accounting support
   handoffs carry the source, state, owner, and next action.
-published: true
+published: "2026-10-25"
 updated: '2026-09-04'
 category: Bookkeeping operations research
 type: research

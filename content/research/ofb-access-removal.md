@@ -3,7 +3,7 @@ title: How Long Does Offshore Bookkeeping And Accounting Support Access Outlive 
   Assignment?
 description: A protocol measuring the gap between assignment end and access removal
   for offshore bookkeeping and accounting support work.
-published: true
+published: "2026-10-25"
 updated: '2026-09-04'
 category: Bookkeeping operations research
 type: research

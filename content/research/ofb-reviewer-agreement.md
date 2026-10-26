@@ -3,7 +3,7 @@ title: Do Reviewers Agree on Offshore Bookkeeping And Accounting Support Excepti
   Codes?
 description: A protocol testing whether independent reviewers assign the same exception
   reason to the same offshore bookkeeping and accounting support record.
-published: true
+published: "2026-10-25"
 updated: '2026-09-04'
 category: Bookkeeping operations research
 type: research

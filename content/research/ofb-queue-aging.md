@@ -3,7 +3,7 @@ title: Where Does Offshore Bookkeeping And Accounting Support Queue Time Actuall
   Go?
 description: A protocol separating owner wait, source wait, system delay, and rework
   in offshore bookkeeping and accounting support queues.
-published: true
+published: "2026-10-25"
 updated: '2026-09-04'
 category: Bookkeeping operations research
 type: research
