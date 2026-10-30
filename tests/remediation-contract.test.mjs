@@ -187,6 +187,9 @@ test('contact first fold contains the complete form and automatic review rail', 
   assert.match(contactCss, /\.review-track\{animation:none\}/);
   assert.match(contactCss, /\.review-card\[aria-hidden="true"\]\{display:none\}/);
   assert.match(contactCss, /prefers-reduced-motion:reduce/);
+  assert.match(contactCss, /prefers-reduced-motion:reduce\)\{\.review-track\{width:max-content;display:flex;animation:none\}/);
+  assert.doesNotMatch(contactCss, /prefers-reduced-motion:reduce\)\{\.review-track\{[^}]*display:grid/);
+  assert.doesNotMatch(contactCss, /prefers-reduced-motion:reduce[^@]*max-height:520px/);
   assert.doesNotMatch(contactPage, />\s*(?:Play|Pause|Previous|Next)\s*</i);
 });
 
