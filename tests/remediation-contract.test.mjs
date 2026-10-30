@@ -74,6 +74,13 @@ const legacyTargets = [
   '/blog/top-25-bookkeeping-finance-outsourcing-companies',
 ];
 
+const withdrawalManifest = JSON.parse(read('content/withdrawn.json'));
+const withdrawnSourceFiles = new Set(
+  ['blog', 'research'].flatMap((kind) =>
+    withdrawalManifest[kind].map((slug) => path.join(root, 'content', kind, `${slug}.md`)),
+  ),
+);
+
 
 test('service catalog covers every approved bookkeeping support category with distinct, claim-safe workflows', () => {
   const { fleetServices, serviceGroups } = loadFleetData();
@@ -102,13 +109,20 @@ test('service catalog covers every approved bookkeeping support category with di
 
 test('content links only to approved service detail routes', () => {
   const approved = new Set(loadFleetData().fleetServices.map((service) => service.slug));
-  const contentFiles = walk('content', (file) => /\.mdx?$/.test(file));
+  const contentFiles = walk('content', (file) => /\.mdx?$/.test(file) && !withdrawnSourceFiles.has(file));
   for (const file of contentFiles) {
     const value = fs.readFileSync(file, 'utf8');
+    assert.doesNotMatch(value, /virtual assistant operations/i, `${path.relative(root, file)} contains leaked template prose`);
     for (const match of value.matchAll(/\/services\/([a-z0-9]+(?:-[a-z0-9]+)*)/g)) {
       assert.ok(approved.has(match[1]), `${path.relative(root, file)} links to unknown service ${match[1]}`);
     }
   }
+});
+
+test('withdrawn editorial sources stay preserved behind the shared publication boundary', () => {
+  assert.match(read('lib/content.ts'), /filter\(\(file\) => !withdrawnSlugSets\[kind\]\?\.has/);
+  assert.match(read('scripts/validate-content.mjs'), /if \(withdrawnForKind\.has/);
+  for (const file of withdrawnSourceFiles) assert.ok(fs.existsSync(file), `${path.relative(root, file)} remains available for editorial repair`);
 });
 
 test('informative article images have meaningful alternatives and redundant listing images are decorative', () => {
@@ -169,8 +183,17 @@ test('contact first fold contains the complete form and automatic review rail', 
   assert.match(contactPage, /<StandardContactForm/);
   assert.match(contactPage, /review-track/);
   assert.match(contactCss, /\.review-track\{[^}]*animation:reviewRail/);
+  assert.match(contactCss, /\.review-viewport\{overflow-x:auto;scroll-snap-type:x mandatory/);
+  assert.match(contactCss, /\.review-track\{animation:none\}/);
+  assert.match(contactCss, /\.review-card\[aria-hidden="true"\]\{display:none\}/);
   assert.match(contactCss, /prefers-reduced-motion:reduce/);
   assert.doesNotMatch(contactPage, />\s*(?:Play|Pause|Previous|Next)\s*</i);
+});
+
+test('services index scope panel uses readable unnumbered rows', () => {
+  const css = read('app/globals.css');
+  assert.match(css, /\.ob-scope-panel li\{display:block;/);
+  assert.doesNotMatch(css, /\.ob-scope-panel li\{[^}]*grid-template-columns:44px/);
 });
 
 test('contact success is gated by authoritative delivery and direct thank-you visits are non-confirmatory', () => {

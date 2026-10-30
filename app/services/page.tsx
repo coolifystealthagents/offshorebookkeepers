@@ -38,7 +38,7 @@ export default function ServicesPage() {
           <div className="container ob-services-hero-grid">
             <div>
               <p className="eyebrow">Bookkeeping capacity with review boundaries</p>
-              <h1>Choose the workflow that is slowing your finance team down.</h1>
+              <h1>Scope the bookkeeping work slowing you down.</h1>
               <p className="lead">Each scope names the records needed, the work a remote bookkeeper can prepare, the output your team receives, and the decisions that stay with your controller, owner, or adviser.</p>
               <div className="ob-hero-actions">
                 <a className="btn primary" href="/contact-us">Book a free scope call</a>

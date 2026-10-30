@@ -78,10 +78,34 @@ test('getContent loads every publishable research file in descending, determinis
   }
 });
 
-test('the rejected September 18 batch remains preserved but cannot cross the central publication boundary', async () => {
+test('withdrawn editorial batches remain preserved but cannot cross the central publication boundary', async () => {
   const content = await loadContentModule();
-  assert.equal(content.withdrawnContentSlugs.blog.length, 24);
-  assert.equal(content.withdrawnContentSlugs.research.length, 5);
+  const newlyWithdrawn = {
+    blog: [
+      'ofb-access-boundary', 'ofb-access-recertification', 'ofb-audit-pack', 'ofb-capacity-plan',
+      'ofb-cross-team-escalation', 'ofb-cross-training-map', 'ofb-customer-rep-handoff',
+      'ofb-documentation-drift', 'ofb-duplicate-payment-prevention', 'ofb-escalation-log',
+      'ofb-exception-path', 'ofb-handoff-record', 'ofb-intake-evidence-control',
+      'ofb-meeting-followup', 'ofb-metric-definition', 'ofb-onboarding-plan', 'ofb-quality-sample',
+      'ofb-queue-ownership', 'ofb-retention-disposal', 'ofb-risk-register', 'ofb-sla-review',
+      'ofb-source-map', 'ofb-vendor-onboarding-packet', 'ofb-weekly-brief',
+    ],
+    research: [
+      'ap-approval-trace-method', 'ar-dispute-resolution-method', 'bank-exception-aging-method',
+      'close-evidence-completeness-method', 'ofb-access-removal', 'ofb-aged-backlog-evidence',
+      'ofb-capacity-error', 'ofb-cross-training-coverage', 'ofb-document-expiry-risk',
+      'ofb-duplicate-request-rate', 'ofb-escalation-wait', 'ofb-handoff-completeness',
+      'ofb-intake-reliability', 'ofb-queue-aging', 'ofb-retention-compliance',
+      'ofb-reviewer-agreement', 'ofb-role-change-continuity', 'ofb-shared-inbox-coverage',
+      'ofb-vendor-cycle', 'payroll-source-reconciliation-method',
+    ],
+  };
+  assert.equal(content.withdrawnContentSlugs.blog.length, 48);
+  assert.equal(content.withdrawnContentSlugs.research.length, 25);
+  for (const kind of ['blog', 'research']) {
+    const withdrawn = new Set(content.withdrawnContentSlugs[kind]);
+    for (const slug of newlyWithdrawn[kind]) assert.ok(withdrawn.has(slug), `${kind}/${slug} stays withdrawn`);
+  }
 
   for (const kind of ['blog', 'research']) {
     const published = new Set(content.getContent(kind).map((post) => post.slug));
