@@ -56,6 +56,13 @@ h1,h2,.adt h1,.ob-services-page h1,.ob-services-page h2,.ob-services-page h3,.ob
 .adt-team-card{left:24px;right:auto;bottom:24px;max-width:330px;padding:16px 19px;border-radius:0;background:rgba(245,247,242,.96);box-shadow:none}
 .adt-team-card b{font-family:Georgia,"Times New Roman",serif;font-size:21px;font-weight:500}
 .adt-team-card span{display:block;margin-top:4px;color:#526661;font-size:13px}
+.adt-hero-visual{position:relative;margin:0;min-width:0;border:1px solid rgba(240,207,112,.5);background:var(--ob-paper)}
+.adt-hero-visual:before{content:"";position:absolute;z-index:2;left:-20px;top:-20px;width:94px;height:76px;border-left:1px solid var(--ob-gold);border-top:1px solid var(--ob-gold);pointer-events:none}
+.adt-hero-visual picture{display:block}
+.adt-hero-visual img{display:block;width:100%;height:auto;max-height:calc(100svh - 200px);min-height:0;object-fit:contain;background:#f4f0e7}
+.adt-hero-visual figcaption{display:flex;justify-content:space-between;gap:24px;padding:14px 18px;border-top:1px solid var(--ob-rule);background:#fff;color:var(--ob-forest-deep)}
+.adt-hero-visual figcaption b{font-family:Georgia,"Times New Roman",serif;font-size:18px;font-weight:500}
+.adt-hero-visual figcaption span{max-width:270px;color:#526661;font-size:12px;line-height:1.45;text-align:right}
 .adt-why{padding:88px 0;background:var(--ob-paper)}
 .adt-why>div>p{margin-bottom:28px;color:var(--ob-coral);font-size:12px;letter-spacing:.2em;text-transform:uppercase}
 .adt-why-grid{gap:0;border-top:1px solid var(--ob-rule);border-left:1px solid var(--ob-rule)}
@@ -192,6 +199,11 @@ h1,h2,.adt h1,.ob-services-page h1,.ob-services-page h2,.ob-services-page h3,.ob
   .adt-grid{gap:38px;padding:52px 0 0}
   .adt h1{font-size:clamp(42px,13vw,54px)}
   .adt-hero p{font-size:17px}
+  .adt-hero-visual{margin:0 -16px;border-right:0;border-left:0}
+  .adt-hero-visual:before{display:none}
+  .adt-hero-visual img{max-height:none}
+  .adt-hero-visual figcaption{align-items:flex-start;flex-direction:column;gap:4px;padding:14px 16px}
+  .adt-hero-visual figcaption span{max-width:none;text-align:left}
   .adt-team{margin:0 -16px}
   .adt-team:before{display:none}
   .adt-team img{height:390px}

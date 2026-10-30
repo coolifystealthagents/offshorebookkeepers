@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Bookkeeping close workflow</title>
+  <desc id="desc">Source records move through bookkeeping preparation, exception review, and owner sign-off.</desc>
+  <rect width="1200" height="1120" fill="#f4f0e7"/>
+  <rect width="1200" height="180" fill="#e8dfd0"/>
+  <circle cx="1075" cy="86" r="116" fill="#d4e5dd"/>
+  <circle cx="1093" cy="66" r="45" fill="#f1cf70"/>
+  <text x="64" y="72" fill="#174b40" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="5">A CONTROLLED MONTH-END CLOSE</text>
+  <text x="64" y="137" fill="#102f2a" font-family="Georgia, 'Times New Roman', serif" font-size="50">Records in. Review-ready work out.</text>
+
+  <text x="64" y="244" fill="#c4513c" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="5">SOURCE RECORDS</text>
+  <g transform="translate(64 282)" font-family="Arial, Helvetica, sans-serif">
+    <rect width="1072" height="98" fill="#fff" stroke="#b9c7c2" stroke-width="3"/>
+    <rect x="28" y="24" width="50" height="50" fill="#e8f2ee" stroke="#174b40" stroke-width="4"/>
+    <path d="M40 40h26M40 53h26M40 66h18" stroke="#174b40" stroke-width="4"/>
+    <text x="104" y="61" fill="#102f2a" font-size="34" font-weight="700">Statements and bank activity</text>
+    <circle cx="1020" cy="49" r="14" fill="#29a58b"/>
+
+    <rect y="122" width="1072" height="98" fill="#fff" stroke="#b9c7c2" stroke-width="3"/>
+    <rect x="28" y="146" width="50" height="50" fill="#fff3d5" stroke="#c4513c" stroke-width="4"/>
+    <path d="M40 162h26M40 175h20M40 188h26" stroke="#c4513c" stroke-width="4"/>
+    <text x="104" y="183" fill="#102f2a" font-size="34" font-weight="700">Bills, receipts, and supporting evidence</text>
+    <circle cx="1020" cy="171" r="14" fill="#29a58b"/>
+
+    <rect y="244" width="1072" height="98" fill="#fff" stroke="#b9c7c2" stroke-width="3"/>
+    <rect x="28" y="268" width="50" height="50" fill="#e8f2ee" stroke="#174b40" stroke-width="4"/>
+    <path d="M41 302v-20M53 302v-34M65 302v-27" stroke="#174b40" stroke-width="5"/>
+    <text x="104" y="305" fill="#102f2a" font-size="34" font-weight="700">Ledger, payroll, and system exports</text>
+    <circle cx="1020" cy="293" r="14" fill="#29a58b"/>
+  </g>
+
+  <path d="M600 648v48" stroke="#f1cf70" stroke-width="8"/>
+  <path d="M574 674l26 26 26-26" fill="none" stroke="#f1cf70" stroke-width="8"/>
+
+  <g transform="translate(64 728)">
+    <rect width="1072" height="188" fill="#174b40"/>
+    <text x="34" y="48" fill="#f1cf70" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="4">BOOKKEEPING PREPARATION</text>
+    <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">
+      <circle cx="64" cy="112" r="17" fill="#f1cf70"/><path d="M55 112l7 7 12-17" fill="none" stroke="#174b40" stroke-width="5"/>
+      <text x="96" y="122">Match and code</text>
+      <circle cx="418" cy="112" r="17" fill="#f1cf70"/><path d="M409 112l7 7 12-17" fill="none" stroke="#174b40" stroke-width="5"/>
+      <text x="450" y="122">Reconcile</text>
+      <circle cx="724" cy="112" r="17" fill="#f1cf70"/><path d="M715 112l7 7 12-17" fill="none" stroke="#174b40" stroke-width="5"/>
+      <text x="756" y="122">Prepare reports</text>
+    </g>
+  </g>
+
+  <g transform="translate(64 958)" font-family="Arial, Helvetica, sans-serif">
+    <rect width="510" height="116" fill="#fff" stroke="#b9c7c2" stroke-width="3"/>
+    <circle cx="52" cy="58" r="22" fill="#c4513c"/>
+    <text x="52" y="67" text-anchor="middle" fill="#fff" font-size="28" font-weight="700">!</text>
+    <text x="92" y="54" fill="#102f2a" font-size="30" font-weight="700">Exception review</text>
+    <text x="92" y="88" fill="#526661" font-size="21">Open items keep an owner.</text>
+    <path d="M510 58h52" stroke="#f1cf70" stroke-width="8"/>
+    <path d="M542 34l24 24-24 24" fill="none" stroke="#f1cf70" stroke-width="8"/>
+    <g transform="translate(562)">
+      <rect width="510" height="116" fill="#f1cf70"/>
+      <circle cx="52" cy="58" r="22" fill="#174b40"/>
+      <path d="M41 58l8 8 16-21" fill="none" stroke="#fff" stroke-width="6"/>
+      <text x="92" y="54" fill="#102f2a" font-size="30" font-weight="700">Owner sign-off</text>
+      <text x="92" y="88" fill="#27463f" font-size="21">Final decisions stay with you.</text>
+    </g>
+  </g>
+</svg>

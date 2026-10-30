@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Bookkeeping close workflow</title>
+  <desc id="desc">A visual workflow showing source records moving through bookkeeping preparation, exception review, and owner sign-off.</desc>
+  <rect width="1200" height="1120" fill="#f4f0e7"/>
+  <path d="M0 0h1200v170H0z" fill="#e8dfd0"/>
+  <circle cx="1076" cy="88" r="116" fill="#d4e5dd"/>
+  <circle cx="1094" cy="69" r="45" fill="#f1cf70"/>
+  <text x="72" y="74" fill="#174b40" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">A CONTROLLED MONTH-END CLOSE</text>
+  <text x="72" y="132" fill="#102f2a" font-family="Georgia, 'Times New Roman', serif" font-size="44">Records in. Review-ready work out.</text>
+
+  <g transform="translate(72 224)">
+    <text x="0" y="0" fill="#c4513c" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">SOURCE RECORDS</text>
+    <g transform="translate(0 42)">
+      <rect width="286" height="208" fill="#ffffff" stroke="#b9c7c2" stroke-width="2"/>
+      <path d="M32 40h58v72H32z" fill="#e8f2ee" stroke="#174b40" stroke-width="4"/>
+      <path d="M46 60h30M46 77h30M46 94h21" stroke="#174b40" stroke-width="4" stroke-linecap="round"/>
+      <text x="116" y="70" fill="#102f2a" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Statements</text>
+      <text x="116" y="106" fill="#526661" font-family="Arial, Helvetica, sans-serif" font-size="20">Bank and card records</text>
+      <path d="M32 154h222" stroke="#d9dfdb" stroke-width="2"/>
+      <circle cx="48" cy="178" r="9" fill="#29a58b"/>
+      <text x="69" y="186" fill="#526661" font-family="Arial, Helvetica, sans-serif" font-size="19">Complete source set</text>
+    </g>
+    <g transform="translate(320 42)">
+      <rect width="286" height="208" fill="#ffffff" stroke="#b9c7c2" stroke-width="2"/>
+      <path d="M32 44h58v68H32z" fill="#fff3d5" stroke="#c4513c" stroke-width="4"/>
+      <path d="M45 63h32M45 81h26M45 98h32" stroke="#c4513c" stroke-width="4" stroke-linecap="round"/>
+      <text x="116" y="70" fill="#102f2a" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Bills and receipts</text>
+      <text x="116" y="106" fill="#526661" font-family="Arial, Helvetica, sans-serif" font-size="20">Evidence by entry</text>
+      <path d="M32 154h222" stroke="#d9dfdb" stroke-width="2"/>
+      <circle cx="48" cy="178" r="9" fill="#29a58b"/>
+      <text x="69" y="186" fill="#526661" font-family="Arial, Helvetica, sans-serif" font-size="19">Named record owner</text>
+    </g>
+    <g transform="translate(640 42)">
+      <rect width="286" height="208" fill="#ffffff" stroke="#b9c7c2" stroke-width="2"/>
+      <path d="M32 44h58v68H32z" fill="#e8f2ee" stroke="#174b40" stroke-width="4"/>
+      <path d="M47 60v36M62 72v24M77 52v44" stroke="#174b40" stroke-width="5"/>
+      <text x="116" y="70" fill="#102f2a" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">System exports</text>
+      <text x="116" y="106" fill="#526661" font-family="Arial, Helvetica, sans-serif" font-size="20">Ledger and payroll</text>
+      <path d="M32 154h222" stroke="#d9dfdb" stroke-width="2"/>
+      <circle cx="48" cy="178" r="9" fill="#29a58b"/>
+      <text x="69" y="186" fill="#526661" font-family="Arial, Helvetica, sans-serif" font-size="19">Agreed cutoff date</text>
+    </g>
+  </g>
+
+  <path d="M578 506v56" stroke="#f1cf70" stroke-width="6"/>
+  <path d="M558 548l20 20 20-20" fill="none" stroke="#f1cf70" stroke-width="6" stroke-linecap="square"/>
+
+  <g transform="translate(72 612)">
+    <rect width="1056" height="236" fill="#174b40"/>
+    <text x="38" y="52" fill="#f1cf70" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">BOOKKEEPING PREPARATION</text>
+    <g transform="translate(38 82)">
+      <rect width="292" height="112" fill="#235a4e" stroke="#5d887d" stroke-width="2"/>
+      <circle cx="42" cy="38" r="14" fill="#f1cf70"/>
+      <path d="M36 38l5 5 9-12" fill="none" stroke="#102f2a" stroke-width="4"/>
+      <text x="72" y="43" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Match and code</text>
+      <text x="72" y="77" fill="#d4e5dd" font-family="Arial, Helvetica, sans-serif" font-size="18">Apply approved rules</text>
+    </g>
+    <g transform="translate(382 82)">
+      <rect width="292" height="112" fill="#235a4e" stroke="#5d887d" stroke-width="2"/>
+      <circle cx="42" cy="38" r="14" fill="#f1cf70"/>
+      <path d="M36 38l5 5 9-12" fill="none" stroke="#102f2a" stroke-width="4"/>
+      <text x="72" y="43" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Reconcile</text>
+      <text x="72" y="77" fill="#d4e5dd" font-family="Arial, Helvetica, sans-serif" font-size="18">Document differences</text>
+    </g>
+    <g transform="translate(726 82)">
+      <rect width="292" height="112" fill="#235a4e" stroke="#5d887d" stroke-width="2"/>
+      <circle cx="42" cy="38" r="14" fill="#f1cf70"/>
+      <path d="M36 38l5 5 9-12" fill="none" stroke="#102f2a" stroke-width="4"/>
+      <text x="72" y="43" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Prepare reports</text>
+      <text x="72" y="77" fill="#d4e5dd" font-family="Arial, Helvetica, sans-serif" font-size="18">Attach review evidence</text>
+    </g>
+  </g>
+
+  <g transform="translate(72 900)">
+    <rect width="502" height="146" fill="#fff" stroke="#b9c7c2" stroke-width="2"/>
+    <circle cx="54" cy="52" r="22" fill="#c4513c"/>
+    <text x="54" y="60" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">!</text>
+    <text x="96" y="50" fill="#102f2a" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Exception review</text>
+    <text x="96" y="84" fill="#526661" font-family="Arial, Helvetica, sans-serif" font-size="18">Open items keep an owner and due date.</text>
+    <text x="96" y="112" fill="#526661" font-family="Arial, Helvetica, sans-serif" font-size="18">Unresolved questions stay visible.</text>
+    <path d="M502 73h54" stroke="#f1cf70" stroke-width="6"/>
+    <path d="M542 53l20 20-20 20" fill="none" stroke="#f1cf70" stroke-width="6"/>
+    <g transform="translate(574)">
+      <rect width="482" height="146" fill="#f1cf70"/>
+      <circle cx="54" cy="52" r="22" fill="#174b40"/>
+      <path d="M43 52l8 8 15-20" fill="none" stroke="#fff" stroke-width="5"/>
+      <text x="96" y="50" fill="#102f2a" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Owner sign-off</text>
+      <text x="96" y="84" fill="#27463f" font-family="Arial, Helvetica, sans-serif" font-size="18">Authorized reviewer approves</text>
+      <text x="96" y="112" fill="#27463f" font-family="Arial, Helvetica, sans-serif" font-size="18">entries, reports, and final decisions.</text>
+    </g>
+  </g>
+</svg>
