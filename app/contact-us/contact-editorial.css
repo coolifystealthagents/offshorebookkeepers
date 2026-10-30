@@ -1,0 +1,43 @@
+.contact-page{--navy:#143e39;--teal:#176150;--soft:#f5f7f2;--line:#bacbc5;--ink:#102e2a;background:var(--ob-paper);color:var(--ob-forest-deep)}
+.contact-first-fold{min-height:calc(100svh - 76px);padding:22px 0;background:linear-gradient(90deg,var(--ob-forest) 0 49%,var(--ob-cream) 49%);align-items:center}
+.contact-fold-grid{grid-template-columns:minmax(0,.92fr) minmax(540px,1.08fr);gap:clamp(32px,5vw,72px)}
+.contact-opening h1{max-width:610px;margin-bottom:16px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(43px,4.6vw,63px);font-weight:500;line-height:1;letter-spacing:-.045em}
+.contact-lead{max-width:590px;color:#c7d7d2;font-size:16px;line-height:1.6}
+.contact-opening>.contact-eyebrow{color:#bcd9d1}
+.contact-assurances{gap:0;margin:16px 0;border-top:1px solid rgba(255,255,255,.22);border-left:1px solid rgba(255,255,255,.22)}
+.contact-assurances span{padding:8px 10px;border:0;border-right:1px solid rgba(255,255,255,.22);border-bottom:1px solid rgba(255,255,255,.22);border-radius:0;font-size:10px;letter-spacing:.02em}
+.review-heading h2{font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:13px;font-weight:750;letter-spacing:.13em;text-transform:uppercase}
+.review-card{border-color:#d1ddd8;box-shadow:none}
+.review-card h3{font-family:Georgia,"Times New Roman",serif;font-weight:500}
+.contact-first-fold .sa-form-card{border:1px solid #c9d7d1;border-radius:0;box-shadow:10px 10px 0 var(--ob-coral);padding:18px 22px 20px}
+.contact-first-fold .sa-form-card h2{margin-bottom:10px;font-family:Georgia,"Times New Roman",serif;font-size:22px;font-weight:500}
+.contact-first-fold .sa-form-card input,.contact-first-fold .sa-form-card select,.contact-first-fold .sa-form-card .sa-message{border-radius:0}
+.contact-first-fold .sa-form-card .sa-phone{border-radius:0}
+.contact-first-fold .sa-form-card button{border-radius:0;background:var(--ob-gold);color:var(--ob-forest-deep);font-size:14px;letter-spacing:.03em}
+.contact-parent{background:var(--ob-cream)}
+.parent-grid>figure>img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-color:var(--ob-rule);box-shadow:none}
+.parent-grid h2,.contact-heading h2,.contact-split h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.04em}
+.official-plate{border-color:var(--ob-rule)}
+.contact-card-grid{gap:0;border-top:1px solid var(--ob-rule);border-left:1px solid var(--ob-rule)}
+.contact-card-grid article{padding:28px;border:0;border-right:1px solid var(--ob-rule);border-bottom:1px solid var(--ob-rule);background:transparent}
+.contact-card-grid h3,.contact-path-grid h3,.contact-boundary-card h3{font-family:Georgia,"Times New Roman",serif;font-size:23px;font-weight:500}
+.contact-boundaries{background:var(--ob-forest)}
+.contact-boundary-card{border-color:rgba(255,255,255,.24);background:rgba(255,255,255,.06)}
+.contact-path-grid{gap:0;border-top:1px solid var(--ob-rule);border-left:1px solid var(--ob-rule)}
+.contact-path-grid a{padding:28px;border:0;border-right:1px solid var(--ob-rule);border-bottom:1px solid var(--ob-rule);background:#fff}
+.contact-path-grid span,.contact-services-link{color:var(--ob-coral)}
+.contact-faq details{border-radius:0;border-color:var(--ob-rule);background:transparent}
+.contact-faq summary{font-family:Georgia,"Times New Roman",serif;font-size:21px;font-weight:500}
+
+@media(max-width:980px){
+  .contact-first-fold{min-height:auto;padding:54px 0;background:var(--ob-forest)}
+  .contact-fold-grid{grid-template-columns:1fr}
+  .contact-first-fold .sa-form-card{box-shadow:8px 8px 0 var(--ob-coral)}
+}
+@media(max-width:620px){
+  .contact-first-fold{padding:46px 0 56px}
+  .contact-opening h1{font-size:43px}
+  .contact-assurances{display:grid;grid-template-columns:1fr}
+  .contact-first-fold .sa-form-card{padding:20px 16px}
+  .contact-card-grid,.contact-path-grid{border-left:1px solid var(--ob-rule)}
+}

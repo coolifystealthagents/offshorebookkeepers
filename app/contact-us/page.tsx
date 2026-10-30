@@ -3,6 +3,7 @@ import { Footer, Header, JsonLd } from '../components';
 import reviews from '../data/review-provenance.json';
 import StandardContactForm from './StandardContactForm';
 import './contact.css';
+import './contact-editorial.css';
 
 const canonical = 'https://offshorebookkeepers.com/contact-us';
 

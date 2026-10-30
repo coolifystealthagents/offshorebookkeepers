@@ -68,7 +68,7 @@ export default function ServicesPage() {
         {serviceGroups.map((group, groupIndex) => {
           const services = fleetServices.filter((service) => service.group === group.id);
           return (
-            <section className={`ob-service-group${groupIndex % 2 ? ' is-tinted' : ''}`} id={group.id} key={group.id}>
+            <section className={`ob-service-group layout-${groupIndex % 4}${groupIndex % 2 ? ' is-tinted' : ''}`} id={group.id} key={group.id}>
               <div className="container">
                 <header className="ob-group-heading">
                   <div><h2>{group.title}</h2><p>{group.description}</p></div>
