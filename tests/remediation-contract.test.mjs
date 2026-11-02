@@ -453,7 +453,7 @@ test('research article grids, source links, and consultation actions remain usab
   assert.match(css, /\.consultation-card-action\{[^}]*text-decoration:underline/);
 });
 
-test('service workflow illustrations retain aspect ratio and become readable HTML steps on mobile', () => {
+test('service detail workflows remain readable while the services index stays unnumbered', () => {
   const { fleetServices, workflowSteps } = loadFleetData();
   const index = read('app/services/page.tsx');
   const detail = read('app/services/[slug]/page.tsx');
@@ -464,11 +464,13 @@ test('service workflow illustrations retain aspect ratio and become readable HTM
     assert.equal(steps.length, 3, `${service.slug}: exactly three workflow steps`);
     assert.ok(steps.every((step) => step.length >= 3), `${service.slug}: non-empty workflow steps`);
   }
-  assert.match(index, /workflowSteps\(service\.illustration\.caption\)/);
+  assert.doesNotMatch(index, /workflowSteps\(service\.illustration\.caption\)/);
+  assert.doesNotMatch(index, /service\.illustration\.(src|alt|caption)/);
+  assert.doesNotMatch(index, /className="ob-mobile-flow"/);
+  assert.doesNotMatch(index, /<ol/);
+  assert.match(index, /className="ob-card-output"/);
   assert.match(detail, /workflowSteps\(service\.illustration\.caption\)/);
-  assert.match(index, /className="ob-mobile-flow"/);
   assert.match(detail, /className="ob-mobile-flow"/);
-  assert.match(index, /<span aria-hidden="true">\{index \+ 1\}<\/span>/);
   assert.match(detail, /<span aria-hidden="true">\{index \+ 1\}<\/span>/);
   const serviceCssStart = css.indexOf('/* Offshore Bookkeepers service system');
   const serviceDesktopEnd = css.indexOf('@media(max-width:980px)', serviceCssStart);
