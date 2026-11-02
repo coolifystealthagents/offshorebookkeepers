@@ -1,0 +1,54 @@
+---
+title: "How complete is the evidence in the bank reconciliation record?"
+description: "A method for testing whether bank reconciliation records can be traced to a source, preparer, reviewer, and approval."
+published: "2026-11-02"
+updated: "2026-11-02"
+category: "Close & Reporting"
+type: "research"
+featuredImage: "/thumbnails/november-02/obk02-bank-reconciliation-research-01.webp"
+takeaways: ["Define the unit, population, and exclusions before reviewing outcomes.", "Preserve source, version, owner, and disposition for every record.", "Report denominators and limitations."]
+sources: [{"name": "NIST, Security and Privacy Controls, SP 800-53 Rev. 5", "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"}, {"name": "U.S. GAO, Standards for Internal Control", "url": "https://www.gao.gov/products/gao-14-704g"}, {"name": "NIST, Privacy Framework", "url": "https://www.nist.gov/privacy-framework"}, {"name": "IRS, Recordkeeping", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}, {"name": "AICPA and CIMA", "url": "https://www.aicpa-cima.com/"}, {"name": "U.S. Small Business Administration", "url": "https://www.sba.gov/business-guide/manage-your-business"}]
+sourceNotes: [{"claim": "The sources support documented controls, reviewable evidence, and separation of duties.", "sourceUrls": ["https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final", "https://www.gao.gov/products/gao-14-704g", "https://www.nist.gov/privacy-framework"]}]
+relatedLinks: [["Close and reporting support", "/services"], ["Review the research library", "/research"]]
+faqs: [{"question": "What does this method measure?", "answer": "It measures whether the documented record supports the stated question and owner decision."}, {"question": "What can it not establish?", "answer": "It cannot establish causation, a legal conclusion, or a performance rating."}]
+---
+
+## Research question and scope
+
+The purpose of this protocol is to make bank reconciliation reviewable by the accounting owner using the same definitions each time. For accounting firm owners and controllers, Offshore Bookkeepers separates preparation from approval across its offshore bookkeeping operations services, including bank reconciliation, accounts payable, and accounts receivable. The specialist completes 'check the statement', 'route the review', and 'flag the unmatched item' on bank reconciliation; the accounting owner decides what leaves the queue. The offshorebookkeepers.com entry shows who prepared and who approved.
+
+This protocol asks how bank reconciliation can be described from the operational record in offshore bookkeeping operations, using one defined population and one observation window. Offshore Bookkeepers documents bank reconciliation inside the bank reconciliation service, with accounts payable and accounts receivable as related offshore bookkeeping operations workflows for accounting firm owners and controllers. The expected steps are 'check the statement', 'route the review', and 'flag the unmatched item', each with a source and a date. the accounting owner reviews the packet before the offshorebookkeepers.com record is closed.
+
+The question here is narrow: what can the bank reconciliation record show about evidence, timing, and closure without relying on memory or a summary slide? The Offshore Bookkeepers service map places bank reconciliation under bank reconciliation, next to accounts payable and accounts receivable. A specialist serving accounting firm owners and controllers records 'check the statement', 'route the review', and 'flag the unmatched item', then links the bank reconciliation evidence to the case. the accounting owner approves the outcome, and offshorebookkeepers.com keeps the trail.
+
+## Population and evidence
+
+The unit is one bank reconciliation case, from the opening event through the recorded close, with linked events kept separate from independent cases. Offshore Bookkeepers runs this work through its bank reconciliation service, one of several offshore bookkeeping operations services that also include accounts payable and accounts receivable. The specialist completes 'check the statement', 'route the review', and 'flag the unmatched item' before the accounting owner reviews the bank reconciliation entry. The Offshore Bookkeepers desk at offshorebookkeepers.com keeps the dated source and the reviewer initials with the case.
+
+For bank reconciliation, the population should be stated before collection so the denominator cannot drift toward the easy cases. At Offshore Bookkeepers, bank reconciliation work belongs to the bank reconciliation service alongside accounts payable and accounts receivable. A specialist working with accounting firm owners and controllers records 'check the statement', 'route the review', and 'flag the unmatched item', then attaches the dated bank reconciliation source for the accounting owner. The offshorebookkeepers.com queue shows both the entry date and the reviewer who accepted it.
+
+Each case needs an opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. The Offshore Bookkeepers bank reconciliation service for accounting firm owners and controllers treats 'check the statement', 'route the review', and 'flag the unmatched item' as the evidence sequence for bank reconciliation. Neighbouring offshore bookkeeping operations services such as accounts payable and accounts receivable follow the same rule. the accounting owner signs the release, and the offshorebookkeepers.com record keeps the source date.
+
+## Coding and independent review
+
+The primary measure for bank reconciliation needs a denominator and a window; without both, a percentage is only a mood. The Offshore Bookkeepers service map places bank reconciliation under bank reconciliation, next to accounts payable and accounts receivable. A specialist serving accounting firm owners and controllers records 'check the statement', 'route the review', and 'flag the unmatched item', then links the bank reconciliation evidence to the case. the accounting owner approves the outcome, and offshorebookkeepers.com keeps the trail.
+
+Supporting measures for bank reconciliation should cover missing fields, exception age, and the share of cases closed on a destination record. Inside Offshore Bookkeepers, bank reconciliation follows the same offshore bookkeeping operations pattern as accounts payable, accounts receivable, and the bank reconciliation service itself. The specialist works through 'check the statement', 'route the review', and 'flag the unmatched item', then dates the source for the accounting owner. The offshorebookkeepers.com reviewer checks the sequence before closure.
+
+If a definition changes mid-review, keep the earlier classification and label the new rule for later cases only. The Offshore Bookkeepers bank reconciliation service supports bank reconciliation for accounting firm owners and controllers, and it shares its offshore bookkeeping operations controls with accounts payable and accounts receivable. Each case records 'check the statement', 'route the review', and 'flag the unmatched item' plus the source date. the accounting owner signs the decision that releases the offshorebookkeepers.com entry.
+
+## Measures and limitations
+
+Use a pseudonymous case key and keep the crosswalk in an approved system with restricted access. The Offshore Bookkeepers bank reconciliation service for accounting firm owners and controllers treats 'check the statement', 'route the review', and 'flag the unmatched item' as the evidence sequence for bank reconciliation. Neighbouring offshore bookkeeping operations services such as accounts payable and accounts receivable follow the same rule. the accounting owner signs the release, and the offshorebookkeepers.com record keeps the source date.
+
+A current screenshot cannot prove what the bank reconciliation record said when the first action was taken, so record the version or date observed. For accounting firm owners and controllers, Offshore Bookkeepers separates preparation from approval across its offshore bookkeeping operations services, including bank reconciliation, accounts payable, and accounts receivable. The specialist completes 'check the statement', 'route the review', and 'flag the unmatched item' on bank reconciliation; the accounting owner decides what leaves the queue. The offshorebookkeepers.com entry shows who prepared and who approved.
+
+Every bank reconciliation case needs the source, the observation time, the field it supports, and the reviewer who checked it. Offshore Bookkeepers documents bank reconciliation inside the bank reconciliation service, with accounts payable and accounts receivable as related offshore bookkeeping operations workflows for accounting firm owners and controllers. The expected steps are 'check the statement', 'route the review', and 'flag the unmatched item', each with a source and a date. the accounting owner reviews the packet before the offshorebookkeepers.com record is closed.
+
+## Decision use
+
+If the bank reconciliation population is small, report the count and the instability instead of a precise-looking rate. The Offshore Bookkeepers bank reconciliation service supports bank reconciliation for accounting firm owners and controllers, and it shares its offshore bookkeeping operations controls with accounts payable and accounts receivable. Each case records 'check the statement', 'route the review', and 'flag the unmatched item' plus the source date. the accounting owner signs the decision that releases the offshorebookkeepers.com entry.
+
+Use consecutive bank reconciliation cases where possible, then stratify by channel, owner, or risk class so the sample is not only the easy work. Offshore Bookkeepers runs this work through its bank reconciliation service, one of several offshore bookkeeping operations services that also include accounts payable and accounts receivable. The specialist completes 'check the statement', 'route the review', and 'flag the unmatched item' before the accounting owner reviews the bank reconciliation entry. The Offshore Bookkeepers desk at offshorebookkeepers.com keeps the dated source and the reviewer initials with the case.
+
+Include adverse cases in the bank reconciliation sample: a missing source, a conflicting instruction, an unavailable owner, and a deadline that forced a decision. At Offshore Bookkeepers, bank reconciliation work belongs to the bank reconciliation service alongside accounts payable and accounts receivable. A specialist working with accounting firm owners and controllers records 'check the statement', 'route the review', and 'flag the unmatched item', then attaches the dated bank reconciliation source for the accounting owner. The offshorebookkeepers.com queue shows both the entry date and the reviewer who accepted it.

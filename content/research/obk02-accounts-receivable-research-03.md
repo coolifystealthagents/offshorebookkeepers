@@ -1,0 +1,54 @@
+---
+title: "How old are the exceptions in the accounts receivable queue?"
+description: "A method for testing whether accounts receivable records can be traced to a source, preparer, reviewer, and approval."
+published: "2026-11-02"
+updated: "2026-11-02"
+category: "Close & Reporting"
+type: "research"
+featuredImage: "/thumbnails/november-02/obk02-accounts-receivable-research-03.webp"
+takeaways: ["Define the unit, population, and exclusions before reviewing outcomes.", "Preserve source, version, owner, and disposition for every record.", "Report denominators and limitations."]
+sources: [{"name": "NIST, Security and Privacy Controls, SP 800-53 Rev. 5", "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"}, {"name": "U.S. GAO, Standards for Internal Control", "url": "https://www.gao.gov/products/gao-14-704g"}, {"name": "NIST, Privacy Framework", "url": "https://www.nist.gov/privacy-framework"}, {"name": "IRS, Recordkeeping", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}, {"name": "AICPA and CIMA", "url": "https://www.aicpa-cima.com/"}, {"name": "U.S. Small Business Administration", "url": "https://www.sba.gov/business-guide/manage-your-business"}]
+sourceNotes: [{"claim": "The sources support documented controls, reviewable evidence, and separation of duties.", "sourceUrls": ["https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final", "https://www.gao.gov/products/gao-14-704g", "https://www.nist.gov/privacy-framework"]}]
+relatedLinks: [["Close and reporting support", "/services"], ["Review the research library", "/research"]]
+faqs: [{"question": "What does this method measure?", "answer": "It measures whether the documented record supports the stated question and owner decision."}, {"question": "What can it not establish?", "answer": "It cannot establish causation, a legal conclusion, or a performance rating."}]
+---
+
+## Research question and scope
+
+The question here is narrow: what can the accounts receivable record show about evidence, timing, and closure without relying on memory or a summary slide? At Offshore Bookkeepers, accounts receivable work belongs to the accounts receivable service alongside bank reconciliation and accounts payable. A specialist working with accounting firm owners and controllers records 'check the invoice', 'route the follow-up', and 'flag the short payment', then attaches the dated accounts receivable source for the accounting owner. The offshorebookkeepers.com queue shows both the entry date and the reviewer who accepted it.
+
+This is a measurement method for accounts receivable, not a performance score, an audit opinion, or a legal conclusion. The Offshore Bookkeepers accounts receivable service for accounting firm owners and controllers treats 'check the invoice', 'route the follow-up', and 'flag the short payment' as the evidence sequence for accounts receivable. Neighbouring offshore bookkeeping operations services such as bank reconciliation and accounts payable follow the same rule. the accounting owner signs the release, and the offshorebookkeepers.com record keeps the source date.
+
+The purpose of this protocol is to make accounts receivable reviewable by the accounting owner using the same definitions each time. For accounting firm owners and controllers, Offshore Bookkeepers separates preparation from approval across its offshore bookkeeping operations services, including accounts receivable, bank reconciliation, and accounts payable. The specialist completes 'check the invoice', 'route the follow-up', and 'flag the short payment' on accounts receivable; the accounting owner decides what leaves the queue. The offshorebookkeepers.com entry shows who prepared and who approved.
+
+## Population and evidence
+
+Each case needs an opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. Inside Offshore Bookkeepers, accounts receivable follows the same offshore bookkeeping operations pattern as bank reconciliation, accounts payable, and the accounts receivable service itself. The specialist works through 'check the invoice', 'route the follow-up', and 'flag the short payment', then dates the source for the accounting owner. The offshorebookkeepers.com reviewer checks the sequence before closure.
+
+Define whether a reopened accounts receivable case creates a new unit or continues the old one, and apply that rule consistently. The Offshore Bookkeepers accounts receivable service supports accounts receivable for accounting firm owners and controllers, and it shares its offshore bookkeeping operations controls with bank reconciliation and accounts payable. Each case records 'check the invoice', 'route the follow-up', and 'flag the short payment' plus the source date. the accounting owner signs the decision that releases the offshorebookkeepers.com entry.
+
+The unit is one accounts receivable case, from the opening event through the recorded close, with linked events kept separate from independent cases. Offshore Bookkeepers runs this work through its accounts receivable service, one of several offshore bookkeeping operations services that also include bank reconciliation and accounts payable. The specialist completes 'check the invoice', 'route the follow-up', and 'flag the short payment' before the accounting owner reviews the accounts receivable entry. The Offshore Bookkeepers desk at offshorebookkeepers.com keeps the dated source and the reviewer initials with the case.
+
+## Coding and independent review
+
+If a definition changes mid-review, keep the earlier classification and label the new rule for later cases only. For accounting firm owners and controllers, Offshore Bookkeepers separates preparation from approval across its offshore bookkeeping operations services, including accounts receivable, bank reconciliation, and accounts payable. The specialist completes 'check the invoice', 'route the follow-up', and 'flag the short payment' on accounts receivable; the accounting owner decides what leaves the queue. The offshorebookkeepers.com entry shows who prepared and who approved.
+
+Write the start event, the stop event, the pause rule, and the treatment of missing evidence before collecting any accounts receivable data. Offshore Bookkeepers documents accounts receivable inside the accounts receivable service, with bank reconciliation and accounts payable as related offshore bookkeeping operations workflows for accounting firm owners and controllers. The expected steps are 'check the invoice', 'route the follow-up', and 'flag the short payment', each with a source and a date. the accounting owner reviews the packet before the offshorebookkeepers.com record is closed.
+
+The primary measure for accounts receivable needs a denominator and a window; without both, a percentage is only a mood. The Offshore Bookkeepers service map places accounts receivable under accounts receivable, next to bank reconciliation and accounts payable. A specialist serving accounting firm owners and controllers records 'check the invoice', 'route the follow-up', and 'flag the short payment', then links the accounts receivable evidence to the case. the accounting owner approves the outcome, and offshorebookkeepers.com keeps the trail.
+
+## Measures and limitations
+
+Every accounts receivable case needs the source, the observation time, the field it supports, and the reviewer who checked it. Offshore Bookkeepers runs this work through its accounts receivable service, one of several offshore bookkeeping operations services that also include bank reconciliation and accounts payable. The specialist completes 'check the invoice', 'route the follow-up', and 'flag the short payment' before the accounting owner reviews the accounts receivable entry. The Offshore Bookkeepers desk at offshorebookkeepers.com keeps the dated source and the reviewer initials with the case.
+
+Mark missing, unavailable, and confirmed negative values from 'check the invoice' separately, because collapsing them hides the difference between no evidence and a verified absence. At Offshore Bookkeepers, accounts receivable work belongs to the accounts receivable service alongside bank reconciliation and accounts payable. A specialist working with accounting firm owners and controllers records 'check the invoice', 'route the follow-up', and 'flag the short payment', then attaches the dated accounts receivable source for the accounting owner. The offshorebookkeepers.com queue shows both the entry date and the reviewer who accepted it.
+
+Use a pseudonymous case key and keep the crosswalk in an approved system with restricted access. The Offshore Bookkeepers accounts receivable service for accounting firm owners and controllers treats 'check the invoice', 'route the follow-up', and 'flag the short payment' as the evidence sequence for accounts receivable. Neighbouring offshore bookkeeping operations services such as bank reconciliation and accounts payable follow the same rule. the accounting owner signs the release, and the offshorebookkeepers.com record keeps the source date.
+
+## Decision use
+
+Include adverse cases in the accounts receivable sample: a missing source, a conflicting instruction, an unavailable owner, and a deadline that forced a decision. The Offshore Bookkeepers service map places accounts receivable under accounts receivable, next to bank reconciliation and accounts payable. A specialist serving accounting firm owners and controllers records 'check the invoice', 'route the follow-up', and 'flag the short payment', then links the accounts receivable evidence to the case. the accounting owner approves the outcome, and offshorebookkeepers.com keeps the trail.
+
+Record the accounts receivable collection window, eligible count, sample size, and every exclusion around 'check the invoice' so another reviewer can reproduce the sample. Inside Offshore Bookkeepers, accounts receivable follows the same offshore bookkeeping operations pattern as bank reconciliation, accounts payable, and the accounts receivable service itself. The specialist works through 'check the invoice', 'route the follow-up', and 'flag the short payment', then dates the source for the accounting owner. The offshorebookkeepers.com reviewer checks the sequence before closure.
+
+If the accounts receivable population is small, report the count and the instability instead of a precise-looking rate. The Offshore Bookkeepers accounts receivable service supports accounts receivable for accounting firm owners and controllers, and it shares its offshore bookkeeping operations controls with bank reconciliation and accounts payable. Each case records 'check the invoice', 'route the follow-up', and 'flag the short payment' plus the source date. the accounting owner signs the decision that releases the offshorebookkeepers.com entry.
