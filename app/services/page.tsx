@@ -47,7 +47,7 @@ export default function ServicesPage() {
               </div>
             </div>
             <figure className="ob-services-photo">
-              <img src="/photos/services-bookkeeping-review-mikhail-nilov.webp" alt="A person reviewing records with a laptop, calculator, notebook, and receipt roll" width="1900" height="1267" fetchPriority="high" />
+              <img src="/photos/services-bookkeeping-review-mikhail-nilov.webp" srcSet="/photos/services-bookkeeping-review-mikhail-nilov-mobile.webp 900w, /photos/services-bookkeeping-review-mikhail-nilov.webp 1900w" sizes="(max-width: 760px) 100vw, 50vw" alt="A person reviewing records with a laptop, calculator, notebook, and receipt roll" width="1900" height="1267" fetchPriority="high" />
               <figcaption><b>Start with the work that repeats.</b><span>Define the inputs, prepared output, review owner, and exception path before handoff.</span></figcaption>
             </figure>
           </div>

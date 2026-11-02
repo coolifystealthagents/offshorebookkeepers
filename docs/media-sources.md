@@ -4,7 +4,7 @@ The following photographs are used under their source platform licenses. They ar
 
 ## Homepage financial review photograph
 
-- Local file: `public/photos/home-bookkeeping-review-lukas.webp`
+- Local files: `public/photos/home-bookkeeping-review-lukas.webp` and `public/photos/home-bookkeeping-review-lukas-mobile.webp`
 - Source page: https://www.pexels.com/photo/person-holding-pencil-near-laptop-computer-590022/
 - Photographer: Lukas
 - License: https://www.pexels.com/license/
@@ -12,7 +12,7 @@ The following photographs are used under their source platform licenses. They ar
 
 ## Services bookkeeping review photograph
 
-- Local file: `public/photos/services-bookkeeping-review-mikhail-nilov.webp`
+- Local files: `public/photos/services-bookkeeping-review-mikhail-nilov.webp` and `public/photos/services-bookkeeping-review-mikhail-nilov-mobile.webp`
 - Source page: https://www.pexels.com/photo/close-up-of-a-person-writing-on-a-notebook-while-using-a-laptop-8296971/
 - Photographer: Mikhail Nilov
 - License: https://www.pexels.com/license/
