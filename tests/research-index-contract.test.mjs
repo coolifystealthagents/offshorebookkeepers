@@ -160,6 +160,17 @@ test('duplicate-invoice research keeps its accounts-payable handoff and approval
   });
 });
 
+test('early-payment discount guidance links to accounts-payable support without moving payment authority', async () => {
+  const content = await loadContentModule();
+  const post = content.getPost('blog', 'offshore-bookkeeping-early-payment-discount-register');
+  assert.ok(post, 'the selected blog record loads');
+  assert.equal(post.updated, '2026-11-03');
+  const body = post.sections.map((section) => section.body).join('\n\n');
+  assert.match(body, /\[Accounts Payable Support\]\(\/services\/accounts-payable-processing\)/);
+  assert.match(body, /An authorized payment owner chooses timing and releases cash/);
+  assert.doesNotMatch(body, /The offshore bookkeeper can identify documented terms and calculate the candidate discount;/);
+});
+
 test('article body parser preserves supported structure instead of exposing markdown punctuation', async () => {
   const content = await loadContentModule();
   assert.equal(typeof content.parseArticleBody, 'function');

@@ -2,7 +2,7 @@
 title: "An Early-Payment Discount Register for Accounts Payable"
 description: "Track vendor discount terms, approval readiness, and payment deadlines without letting bookkeeping support release funds."
 published: "2026-10-12"
-updated: "2026-10-12"
+updated: "2026-11-03"
 category: "Accounts Payable"
 type: "blog"
 featuredImage: "/thumbnails/offshore-bookkeeping-early-payment-discount-register.svg"
@@ -19,7 +19,7 @@ For this workflow, record vendor, invoice number, invoice date, gross amount, di
 
 ## Keep authority separate from preparation
 
-The offshore bookkeeper can identify documented terms and calculate the candidate discount; an authorized payment owner chooses timing and releases cash. Put that boundary in the procedure and in system permissions. A checklist cannot compensate for a user account that allows the preparer to approve, release, or erase the same activity.
+A Philippines-based bookkeeper can use [Accounts Payable Support](/services/accounts-payable-processing) to maintain the register, identify documented terms, and calculate a candidate discount without deciding whether to use it. An authorized payment owner chooses timing and releases cash, and that boundary belongs in the procedure and system permissions. A checklist cannot compensate for a user account that allows the preparer to approve, release, or erase the same activity.
 
 For an early-payment discount register for accounts payable, route judgment questions with the facts already assembled. State the requested decision, the deadline, the affected amount or period, the current system state, and the evidence link. This makes escalation useful without nudging the bookkeeper to resolve an issue outside the assigned role.
 
