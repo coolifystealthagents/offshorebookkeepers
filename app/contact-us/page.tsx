@@ -46,7 +46,7 @@ export default function ContactUsPage() {
   ] };
   return <><Header /><main id="main-content" className="contact-page"><JsonLd data={schema} />
     <section className="contact-first-fold"><div className="container contact-fold-grid">
-      <div className="contact-opening"><p className="contact-eyebrow">Contact Us</p><h1>Scope a bookkeeping role around your real close.</h1><p className="contact-lead">Share the queue, systems, deadlines, and approvals. We will help turn them into a controlled Philippines-based support role.</p>
+      <div className="contact-opening"><p className="contact-eyebrow">Contact Us</p><h1>Scope a bookkeeping role around <span className="sa-accent">your real close.</span></h1><p className="contact-lead">Share the queue, systems, deadlines, and approvals. We will help turn them into a controlled Philippines-based support role.</p>
         <div className="contact-assurances" aria-label="Consultation details"><span>No obligation</span><span>Scope before access</span><span>Owner approval stays in place</span></div>
         <section className="review-block" aria-labelledby="reviews-title"><div className="review-heading"><h2 id="reviews-title">StealthAgents reviews</h2><a href={reviews.source}>Approved first-party source</a></div>
           <div className="review-viewport" tabIndex={0}><div className="review-track">{reviews.records.map((review) => <ReviewCard review={review} key={review.name} />)}{reviews.records.map((review) => <ReviewCard review={review} duplicate key={`${review.name}-duplicate`} />)}</div></div>

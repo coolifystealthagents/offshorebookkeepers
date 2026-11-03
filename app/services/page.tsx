@@ -39,7 +39,7 @@ export default function ServicesPage() {
           <div className="container ob-services-hero-grid">
             <div className="ob-services-hero-copy">
               <p className="eyebrow">Offshore bookkeeping services</p>
-              <h1>Give recurring bookkeeping work a clear owner.</h1>
+              <h1>Give recurring bookkeeping work <span className="sa-accent">a clear owner.</span></h1>
               <p className="lead">Build support around the records, deadlines, systems, and review boundaries your finance team already uses. Start with one bottleneck or connect several scopes around the same close.</p>
               <div className="ob-hero-actions">
                 <a className="btn primary" href="/contact-us">Book a free scope call</a>
