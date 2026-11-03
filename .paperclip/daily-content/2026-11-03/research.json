@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-03",
+  "kind": "research",
+  "count": 2,
+  "publicationDateVisible": true,
+  "items": [
+    {
+      "slug": "offshore-bookkeeping-reused-receipt-image-research",
+      "title": "Reused receipt images in expense claims: a detection and review protocol",
+      "excerpt": "A source-backed method for screening duplicate and near-duplicate receipt images in client expense claims without turning a candidate into an accusation.",
+      "publishedAt": "2026-11-03",
+      "route": "/research/offshore-bookkeeping-reused-receipt-image-research"
+    },
+    {
+      "slug": "offshore-bookkeeping-entity-bank-account-evidence-research",
+      "title": "Who owns the bank account? Testing entity-account evidence before a multi-entity close",
+      "excerpt": "A source-backed method for testing whether each bank account can be tied to a legal entity, a reporting period, and a reviewable source before the books are consolidated.",
+      "publishedAt": "2026-11-03",
+      "route": "/research/offshore-bookkeeping-entity-bank-account-evidence-research"
+    }
+  ]
+}
