@@ -115,6 +115,7 @@ export default async function Research({
                     href={`/research/${post.slug}`}
                     key={post.slug}
                   >
+                    <img className="research-card-thumb" src={post.featuredImage} alt={post.title} loading="lazy" />
                     <span className="research-card-badge">
                       {researchTopic(post)}
                     </span>

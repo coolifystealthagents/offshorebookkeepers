@@ -27,7 +27,8 @@ export default function Blog() {
         <section className="section">
           <div className="container fleet-service-grid">
             {posts.map((p) => (
-              <a className="card" href={`/blog/${p.slug}`} key={p.slug}>
+              <a className="card listing-card" href={`/blog/${p.slug}`} key={p.slug}>
+                {"featuredImage" in p && typeof p.featuredImage === "string" ? <img className="listing-thumb" src={p.featuredImage} alt={p.title} loading="lazy" /> : null}
                 <h2>{p.title}</h2>
                 <p>{p.excerpt}</p>
                 {"published" in p && typeof p.published === "string" ? <time dateTime={p.published}>Published {formatDate(p.published)}</time> : null}

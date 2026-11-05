@@ -313,5 +313,11 @@ h1,h2,.adt h1,.ob-services-page h1,.ob-services-page h2,.ob-services-page h3,.ob
   .adt-team img{height:330px}
   .ob-services-photo img{height:320px}
   .ob-services-editorial .ob-services-hero h1{font-size:42px}
-  .ob-services-editorial .ob-card-copy h3{font-size:25px}
+  .ob-services-editorial .ob-services-card h3{font-size:25px}
 }
+
+/* 2026-11-05 continuous article surface and full-width section headings. */
+.article-card.article-section{background:transparent;border:0;border-top:0;border-radius:0;padding:0;margin:0 0 1.9em;box-shadow:none}
+.article-card.article-section h2{max-width:none;margin:1.8em 0 .65em}
+.article-card.article-section:first-of-type h2{margin-top:0}
+
