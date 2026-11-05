@@ -160,6 +160,12 @@ test('duplicate-invoice research keeps its accounts-payable handoff and approval
   });
 });
 
+test('research Article schema uses the site Organization for both author and publisher', () => {
+  const route = fs.readFileSync(path.join(root, 'app/research/[slug]/page.tsx'), 'utf8');
+  assert.match(route, /const organization = \{ '@type': 'Organization', name: site\.brand, url: base \};/);
+  assert.match(route, /url, author: organization, publisher: organization, citation:/);
+});
+
 test('early-payment discount guidance links to accounts-payable support without moving payment authority', async () => {
   const content = await loadContentModule();
   const post = content.getPost('blog', 'offshore-bookkeeping-early-payment-discount-register');

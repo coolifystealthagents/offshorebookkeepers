@@ -25,6 +25,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
   const related = getRelatedResearch(getContent('research'), post);
   const base = `https://${site.domain.toLowerCase()}`;
   const url = `${base}/research/${slug}`;
+  const organization = { '@type': 'Organization', name: site.brand, url: base };
   const sourceByUrl = new Map(post.sources.map((source) => [source.url, source]));
   const toc = [
     { id: 'key-takeaways', label: 'Key takeaways' },
@@ -35,7 +36,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
     { id: 'related-research', label: 'Related research' },
   ];
   const schema = { '@context': 'https://schema.org', '@graph': [
-    { '@type': 'Article', headline: post.title, description: post.description, datePublished: post.published, dateModified: post.updated, image: post.featuredImage, url, citation: post.sources.map((source) => source.url) },
+    { '@type': 'Article', headline: post.title, description: post.description, datePublished: post.published, dateModified: post.updated, image: post.featuredImage, url, author: organization, publisher: organization, citation: post.sources.map((source) => source.url) },
     { '@type': 'BreadcrumbList', itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: base },
       { '@type': 'ListItem', position: 2, name: 'Research', item: `${base}/research` },
