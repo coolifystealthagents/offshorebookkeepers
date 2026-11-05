@@ -5,7 +5,7 @@ published: "2026-11-05"
 updated: "2026-11-05"
 category: "Bank Reconciliation"
 type: "blog"
-featuredImage: "/thumbnails/november-05/corrected-bank-statement-replacement-routine.webp"
+featuredImage: "/thumbnails/november-05/a-controlled-routine-for-a-corrected-bank-statement.webp"
 takeaways: ["Treat a corrected statement as a replacement record, not as a second source of transactions.", "Freeze the old statement, document the differences, and decide the treatment of every already-posted line before re-importing.", "Re-run the reconciliation, update the evidence index, and obtain a named reviewer sign-off so the corrected version is the one the close relies on."]
 sources: [{"name": "U.S. GAO, Standards for Internal Control in the Federal Government", "url": "https://www.gao.gov/products/gao-14-704g"}, {"name": "IRS, Recordkeeping", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}]
 relatedLinks: [["Bank reconciliation outstanding items", "/blog/bookkeeping-bank-reconciliation-outstanding-items"], ["Month-end close support", "/services/month-end-close-support"]]
@@ -49,7 +49,7 @@ Versioning makes a later audit or tax question much easier to answer. Compare th
 
 ## Check the downstream reports and balances
 
-A corrected statement can change cash, expenses, receivables, or a loan balance. Identify every report that used the old number and decide which ones need a refresh. Cash flow summaries, board packs, and tax workpapers may all depend on it. A corrected payable balance can also change the evidence in a [vendor statement review](/research/vendor-statement-unrecorded-liabilities-research). Tell the report owner what moved and why. Do not send a revised report without a short change note, because the reader will otherwise compare two versions and assume an error.
+A corrected statement can change cash, expenses, receivables, or a loan balance. Identify every report that used the old number and decide which ones need a refresh. Cash flow summaries, board packs, and tax workpapers may all depend on it. A corrected payable balance can also change the evidence in a [vendor statement review](/research/using-vendor-statements-to-find-unrecorded-liabilities). Tell the report owner what moved and why. Do not send a revised report without a short change note, because the reader will otherwise compare two versions and assume an error.
 
 The note can be three lines: what changed, which period, and what action the reader should take. Check any automated alert or dashboard that reads the ledger. A corrected balance can trigger a false covenant warning or hide a real one. If the change is material to a lender or investor report, route it through the same approval path the original report used.
 
