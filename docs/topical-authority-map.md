@@ -22,6 +22,13 @@ Each proposed handoff starts with one reader question and leads to the closest e
 - Deployment: no repository-approved Coolify application ID, release-state record, or deployment configuration exists. No deployment was inferred or triggered.
 - State: `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`. Preserve rendered-source commit: `8b5abc237b33d21c98a392e55aac97ea50b5d8fe`.
 
+## Organization identity status — 2026-11-05
+
+- Rendered source: `a7e5c98799444a395995de2ac94c9089f34717b0`. Fresh local artifact for `/research/bookkeeping-bank-reconciliation-evidence-research-aug13` has the expected H1 and self-canonical; its Article JSON-LD uses the on-site Offshore Bookkeepers Organization for both `author` and `publisher`, and the route is present in the generated sitemap. This sitemap intentionally has no `<lastmod>`.
+- Public check: cache-busted canonical and browser-final `www` responses both have the expected H1 and canonical, but their Article JSON-LD has no `author` or `publisher`. The canonical sitemap contains the route and intentionally has no `<lastmod>`; the alternate first hop was not observed because browser navigation follows redirects.
+- Deployment: no repository-approved Coolify application ID, release-state record, or deployment configuration exists. No deployment was inferred or triggered.
+- State: `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`. Preserve rendered-source commit `a7e5c98799444a395995de2ac94c9089f34717b0`; recheck the exact Article author/publisher fields after an approved deployment. Do not add duplicate route copy or handoffs while this schema release awaits rollout.
+
 ## Next bounded implementation
 
 All four mapped pairs are delivered in source and are non-duplicable. Reassess only after an existing research record gains a distinct, verified-absent service path. Keep any future bookkeeping scope to evidence preparation, rule-based screening, and exception routing; the approval owner retains payment authority and approval decisions.
