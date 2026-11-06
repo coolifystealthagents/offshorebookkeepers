@@ -112,8 +112,8 @@ html, body { overflow-x: clip !important; }
 .article-section:first-of-type h2{margin-top:0}
 .article-body p{font-size:17px;line-height:1.72;color:#3f5265;margin:0 0 1.1em}
 .article-body p:last-child{margin-bottom:0}
-.article-aside{position:static;max-height:none}
-.article-aside-scroll{position:sticky;top:92px;max-height:calc(100dvh - 116px);overflow-y:auto}
+.article-aside{position:sticky;top:92px;align-self:start;max-height:calc(100dvh - 116px)}
+.article-aside-scroll{position:sticky;top:0;max-height:calc(100dvh - 116px);overflow-y:auto}
 .listing-card{display:flex;flex-direction:column}
 .listing-card .listing-thumb{display:block;width:calc(100% + 56px);max-width:none;height:auto;aspect-ratio:1200/630;object-fit:cover;margin:-28px -28px 18px}
 .listing-card h2{font-size:1.25rem;line-height:1.32;margin:0 0 10px}
