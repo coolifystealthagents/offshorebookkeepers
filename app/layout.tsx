@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-        <Script
+  return <html lang="en"><body>{children}<AcrClient /><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-bookkeepers',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script>        <Script
           id="databull-analytics"
           src="https://databull.stealthagents.us/js/script.js"
           data-website-id="dc_yzm4q3133l76i2"
           data-domain="offshorebookkeepers.com"
           strategy="afterInteractive"
         />
-  return <html lang="en"><body>{children}<AcrClient /><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-bookkeepers',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script></body></html>;
+</body></html>;
 }
