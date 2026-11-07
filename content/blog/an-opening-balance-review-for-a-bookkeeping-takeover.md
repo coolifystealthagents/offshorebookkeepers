@@ -5,7 +5,7 @@ published: "2026-11-07"
 updated: "2026-11-07"
 category: "Bookkeeping Operations"
 type: "blog"
-featuredImage: "/thumbnails/november-07/opening-balance-review-for-a-bookkeeping-takeover.webp"
+featuredImage: "/thumbnails/november-07/an-opening-balance-review-for-a-bookkeeping-takeover.webp"
 takeaways: ["Treat the opening trial balance as a claim set that needs evidence, not as a file to import.", "Agree the cutover date, the source reports, and the sign-off owner before the first transaction is posted.", "Give every unresolved difference an amount, a supporting document, and a named decision-maker."]
 sources: [{"name": "U.S. GAO, Standards for Internal Control in the Federal Government", "url": "https://www.gao.gov/products/gao-14-704g"}, {"name": "IRS, Recordkeeping", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping"}, {"name": "U.S. Small Business Administration, Manage your business", "url": "https://www.sba.gov/business-guide/manage-your-business"}]
 relatedLinks: [["Client onboarding checklist", "/blog/philippines-bookkeeper-client-onboarding-checklist"], ["Month-end close support", "/services/month-end-close-support"]]
