@@ -1522,24 +1522,27 @@ main {
 }
 
 .ld-review-head span {
+  flex: 0 0 auto;
   color: var(--ld-green);
   font-family: var(--ld-mono);
-  font-size: 7.5px;
-  letter-spacing: 0.12em;
+  font-size: 7px;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .ld-review-viewport {
   overflow: hidden;
-  mask-image: linear-gradient(90deg, transparent, #000 3%, #000 97%, transparent);
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 3%, #000 97%, transparent);
+  padding-block: 3px;
+  mask-image: none;
+  -webkit-mask-image: none;
 }
 
 .ld-review-track {
   display: flex;
   width: max-content;
   gap: 13px;
-  animation: ld-marquee 58s linear infinite;
+  animation: ld-marquee 92s linear infinite;
 }
 
 .ld-review-track:hover {
@@ -1547,7 +1550,7 @@ main {
 }
 
 .ld-review-card {
-  width: 320px;
+  width: 300px;
   min-height: 172px;
   padding: 18px;
   border: 1px solid var(--ld-line);
@@ -4853,4 +4856,77 @@ main > .article-layout,
     padding: 8px 0 0;
     background: transparent;
   }
+}
+
+
+@media (max-width: 760px) {
+  .ld-review-head {
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+
+  .ld-review-head h2 {
+    font-size: 26px;
+    line-height: 1.02;
+    max-width: 230px;
+  }
+
+  .ld-review-head span {
+    padding-top: 4px;
+    font-size: 6px;
+    letter-spacing: 0.06em;
+  }
+
+  .ld-review-track {
+    animation-duration: 120s;
+  }
+
+  .ld-review-card {
+    width: min(300px, calc(100vw - 76px));
+    min-height: 164px;
+  }
+
+  .ld-review-viewport {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+}
+
+/* Mobile review ticker: full-width cards, no horizontally clipped text. */
+@media (max-width: 760px) {
+  .ld-review-viewport {
+    height: 366px;
+    padding-block: 0;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  .ld-review-track {
+    flex-direction: column;
+    width: 100%;
+    animation-name: ld-marquee-y;
+    animation-duration: 80s;
+  }
+
+  .ld-review-track > div {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ld-review-card {
+    width: 100%;
+    min-height: 0;
+  }
+}
+
+@keyframes ld-marquee-y {
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+
+.ld-js .ld-review-viewport:not(.is-active) .ld-review-track {
+  animation-play-state: paused;
 }

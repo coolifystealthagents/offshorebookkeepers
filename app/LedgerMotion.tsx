@@ -53,6 +53,22 @@ export default function LedgerMotion() {
       cleanups.push(() => observer.disconnect());
     }
 
+    const reviewViewport = document.querySelector<HTMLElement>('.ld-review-viewport');
+    if (reviewViewport && !reduce && 'IntersectionObserver' in window) {
+      const reviewObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) reviewViewport.classList.add('is-active');
+          });
+        },
+        { threshold: 0.35 }
+      );
+      reviewObserver.observe(reviewViewport);
+      cleanups.push(() => reviewObserver.disconnect());
+    } else if (reviewViewport) {
+      reviewViewport.classList.add('is-active');
+    }
+
     if (!reduce && finePointer) {
       const tilts = Array.from(document.querySelectorAll<HTMLElement>('[data-tilt]'));
       const tiltCleanups = tilts.map((el) => {
