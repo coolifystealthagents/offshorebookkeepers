@@ -212,6 +212,7 @@ export function ReviewRail() {
           <div className="ld-review-track">
             {[0, 1].map((group) => (
               <div key={group} style={{ display: 'flex', gap: 13 }} aria-hidden={group === 1 ? true : undefined}>
+                <span className="ld-review-spacer" aria-hidden="true" />
                 {records.map((review) => (
                   <article className="ld-review-card" key={`${group}-${review.name}`}>
                     <div className="ld-review-stars" aria-label="5 out of 5 stars">★★★★★</div>

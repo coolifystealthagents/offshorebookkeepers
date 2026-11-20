@@ -1545,6 +1545,10 @@ main {
   animation: ld-marquee 92s linear infinite;
 }
 
+.ld-review-spacer {
+  flex: 0 0 96px;
+}
+
 .ld-review-track:hover {
   animation-play-state: paused;
 }
@@ -4929,4 +4933,11 @@ main > .article-layout,
 
 .ld-js .ld-review-viewport:not(.is-active) .ld-review-track {
   animation-play-state: paused;
+}
+
+
+@media (max-width: 760px) {
+  .ld-review-spacer {
+    display: none;
+  }
 }
