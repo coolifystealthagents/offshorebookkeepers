@@ -3,6 +3,7 @@ import * as data from './data';
 import { Header, Footer, JsonLd, Marquee, ReviewRail, SectionHead } from './components';
 import { fleetServices } from './fleet-data';
 import { editorialPhoto } from './media';
+import { servicePhoto } from './service-photos';
 
 export const metadata = { alternates: { canonical: '/' } };
 
@@ -186,7 +187,7 @@ export default function Home() {
                   style={{ '--ld-delay': `${(index % 3) * 60}ms` } as CSSProperties}
                 >
                   <div className="ld-service-media">
-                    <img src={service.illustration.src} alt={service.illustration.alt} loading="lazy" />
+                    <img src={servicePhoto(service.slug, service.group).src} alt={servicePhoto(service.slug, service.group).alt} loading="lazy" />
                     <span>{tagFor[service.group] || 'Bookkeeping'}</span>
                   </div>
                   <div className="ld-service-body">

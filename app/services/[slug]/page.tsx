@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Header, Footer, JsonLd } from '../../components';
 import { fleetServices, serviceGroups, workflowSteps } from '../../fleet-data';
+import { servicePhoto } from '../../service-photos';
 
 export function generateStaticParams() {
   return fleetServices.map((service) => ({ slug: service.slug }));
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: service.title,
     description: service.summary,
     alternates: { canonical: `/services/${service.slug}` },
-    openGraph: { title: service.title, description: service.summary, type: 'website', url: `/services/${service.slug}`, images: [service.illustration.src] },
+    openGraph: { title: service.title, description: service.summary, type: 'website', url: `/services/${service.slug}`, images: [servicePhoto(service.slug, service.group).src] },
   };
 }
 
@@ -55,11 +56,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <div className="ob-hero-actions"><a className="btn primary" href="/contact-us">Book a free scope call</a><a className="ob-text-link" href="#scope">Review the scope</a></div>
             </div>
             <figure className="ob-detail-figure">
-              <img src={service.illustration.src} alt={service.illustration.alt} width="1200" height="630" />
+              <img src={servicePhoto(service.slug, service.group).src} alt={servicePhoto(service.slug, service.group).alt} width="1800" height="1207" />
               <ol className="ob-mobile-flow" aria-label={`${service.title} workflow`}>
                 {workflowSteps(service.illustration.caption).map((step, index) => <li key={step}><span aria-hidden="true">{index + 1}</span><b>{step}</b></li>)}
               </ol>
-              <figcaption>{service.illustration.caption}</figcaption>
+              <figcaption>{servicePhoto(service.slug, service.group).alt}.</figcaption>
             </figure>
           </div>
         </section>

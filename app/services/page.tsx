@@ -2,6 +2,7 @@ import type { CSSProperties } from 'react';
 import type { Metadata } from 'next';
 import { Header, Footer, JsonLd, PageHero } from '../components';
 import { fleetServices, serviceGroups } from '../fleet-data';
+import { servicePhoto } from '../service-photos';
 
 export const metadata: Metadata = {
   title: 'Offshore Bookkeeping Services',
@@ -95,7 +96,7 @@ export default function ServicesPage() {
                         style={{ '--ld-delay': `${(index % 3) * 50}ms` } as CSSProperties}
                       >
                         <div className="ld-service-media">
-                          <img src={service.illustration.src} alt={service.illustration.alt} loading="lazy" />
+                          <img src={servicePhoto(service.slug, service.group).src} alt={servicePhoto(service.slug, service.group).alt} loading="lazy" />
                           <span>{tagFor[service.group] || 'Bookkeeping'}</span>
                         </div>
                         <div className="ld-service-body">
