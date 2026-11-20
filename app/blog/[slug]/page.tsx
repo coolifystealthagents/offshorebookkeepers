@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { ArticleBody } from '../../article-body';
 import { blogPosts, site } from '../../data';
+import { editorialPhoto } from '../../media';
 import { ArticleMobileToc, ArticleSidebar } from '../../article-sidebar';
 const anchor = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const readerDate = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
@@ -202,7 +203,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <h1>{post.title}</h1>
             <p className="lead">{post.excerpt}</p>
             {post.published && <span className="article-date">Published <time dateTime={post.published}>{formatReaderDate(post.published)}</time>{post.updated && post.updated !== post.published && <> · Updated <time dateTime={post.updated}>{formatReaderDate(post.updated)}</time></>} · {post.minutes} minute read</span>}
-            {post.featuredImage && <img className="article-featured-image" src={post.featuredImage} alt={post.description || post.excerpt} />}
+            {<img className="article-featured-image" src={editorialPhoto(post.slug)} alt={post.description || post.excerpt} />}
           </header>
           <ArticleMobileToc items={toc} />
 

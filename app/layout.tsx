@@ -3,7 +3,9 @@ import Script from 'next/script';
 import './globals.css';
 import './editorial-system.css';
 import './stealth-family.css';
-import type { Metadata } from 'next';
+import './ledger.css';
+import LedgerMotion from './LedgerMotion';
+import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://offshorebookkeepers.com'),
@@ -12,13 +14,27 @@ export const metadata: Metadata = {
   openGraph: { title: 'Offshore Bookkeepers', description: 'Practical guides for planning and reviewing offshore bookkeeping work.', url: 'https://offshorebookkeepers.com', siteName: 'Offshore Bookkeepers', type: 'website' },
 };
 
+export const viewport: Viewport = {
+  themeColor: '#0a2b21',
+  colorScheme: 'light',
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en"><body>{children}<AcrClient /><Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-bookkeepers',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script>        <Script
+  return (
+    <html lang="en">
+      <body>
+        {children}
+        <LedgerMotion />
+        <AcrClient />
+        <Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'offshore-bookkeepers',endpoint:'/ingest/track',debug:false,funnelSteps:[{path:'/contact-us',step:1,label:'Form Page',event:'funnel_form_page'}]};`}</Script>
+        <Script
           id="databull-analytics"
           src="https://databull.stealthagents.us/js/script.js"
           data-website-id="dc_yzm4q3133l76i2"
           data-domain="offshorebookkeepers.com"
           strategy="afterInteractive"
         />
-</body></html>;
+      </body>
+    </html>
+  );
 }

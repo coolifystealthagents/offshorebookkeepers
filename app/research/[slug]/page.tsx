@@ -3,6 +3,7 @@ import { Header, Footer, JsonLd } from '../../components';
 import { ArticleBody } from '../../article-body';
 import { getContent, getPost, getRelatedResearch, researchTopic } from '../../../lib/content';
 import { site } from '../../data';
+import { editorialPhoto } from '../../media';
 import { ArticleMobileToc, ArticleSidebar } from '../../article-sidebar';
 import { readingMinutes } from '../../../lib/content';
 
@@ -47,7 +48,7 @@ export default async function ResearchArticle({ params }: { params: Promise<{ sl
   return <><Header/><main id="main-content" className="article-page"><JsonLd data={schema}/><article className="container article-layout"><div className="article-reading-column">
     <header className="article-header"><p className="eyebrow">{researchTopic(post)}</p><h1>{post.title}</h1><p className="lead">{post.description}</p>
       <span className="article-date">Published <time dateTime={post.published}>{formatReaderDate(post.published)}</time>{post.updated !== post.published && <> · Updated <time dateTime={post.updated}>{formatReaderDate(post.updated)}</time></>} · {post.sources.length} listed sources</span>
-      {post.featuredImage && <img className="article-featured-image" src={post.featuredImage} alt={post.description}/>}</header>
+      {<img className="article-featured-image" src={editorialPhoto(post.slug)} alt={post.description}/>}</header>
     <ArticleMobileToc items={toc}/>
 
     <section className="article-card article-takeaways" id="key-takeaways"><h2>Key takeaways</h2><ul>{post.takeaways.map((item) => <li key={item}>{item}</li>)}</ul></section>
