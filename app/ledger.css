@@ -4941,3 +4941,121 @@ main > .article-layout,
     display: none;
   }
 }
+
+/* Service dossier rail and snapshot */
+.ld-service-facts {
+  background: var(--ld-card);
+  border-bottom: 1px solid var(--ld-line);
+}
+
+.ld-service-facts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.ld-service-facts article {
+  min-height: 112px;
+  padding: 20px 20px 18px;
+  border-left: 1px solid var(--ld-line);
+}
+
+.ld-service-facts article:first-child {
+  border-left: 0;
+}
+
+.ld-service-facts span {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--ld-green);
+  font-family: var(--ld-mono);
+  font-size: 7px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ld-service-facts strong {
+  display: block;
+  color: var(--ld-ink);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.ld-service-nav {
+  position: sticky;
+  top: var(--ld-nav);
+  z-index: 40;
+  background: rgba(10, 43, 33, 0.97);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+}
+
+.ld-service-nav .container {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  min-height: 46px;
+  overflow-x: auto;
+}
+
+.ld-service-nav a {
+  padding: 8px 11px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 10.5px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.ld-service-nav a:hover {
+  color: #fff;
+}
+
+.ld-service-nav .ld-service-nav-cta {
+  margin-left: auto;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: var(--ld-lime);
+  color: var(--ld-ink);
+  font-weight: 600;
+}
+
+.ob-service-detail [id] {
+  scroll-margin-top: 130px;
+}
+
+.ob-related-grid a {
+  overflow: hidden;
+  padding: 10px;
+}
+
+.ob-related-grid a img {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  object-fit: cover;
+  filter: saturate(0.84);
+}
+
+@media (max-width: 760px) {
+  .ld-service-facts-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ld-service-facts article:nth-child(3) {
+    border-left: 0;
+    border-top: 1px solid var(--ld-line);
+  }
+
+  .ld-service-facts article:nth-child(4) {
+    border-top: 1px solid var(--ld-line);
+  }
+
+  .ld-service-nav {
+    top: 68px;
+  }
+
+  .ld-service-nav .ld-service-nav-cta {
+    display: none;
+  }
+}

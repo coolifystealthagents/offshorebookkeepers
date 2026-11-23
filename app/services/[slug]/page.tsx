@@ -65,6 +65,26 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </div>
         </section>
 
+        <section className="ld-service-facts" aria-label="Service snapshot">
+          <div className="container ld-service-facts-grid">
+            <article><span>Operating problem</span><strong>{service.problem}</strong></article>
+            <article><span>Prepared output</span><strong>{service.outputs[0]}</strong></article>
+            <article><span>Review owner</span><strong>Your controller, owner, or CPA approves the work</strong></article>
+            <article><span>Starting access</span><strong>Named accounts and minimum permissions</strong></article>
+          </div>
+        </section>
+
+        <nav className="ld-service-nav" aria-label="On this page">
+          <div className="container">
+            <a href="#scope">Scope</a>
+            <a href="#inputs">Inputs and outputs</a>
+            <a href="#controls">Controls</a>
+            <a href="#first-week">First week</a>
+            <a href="#related">Related</a>
+            <a className="ld-service-nav-cta" href="/contact-us">Book a scope call ↗</a>
+          </div>
+        </nav>
+
         <section className="ob-problem-band">
           <div className="container"><span>The operating problem</span><p>{service.problem}</p></div>
         </section>
@@ -76,7 +96,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </div>
         </section>
 
-        <section className="ob-detail-section is-tinted">
+        <section className="ob-detail-section is-tinted" id="inputs">
           <div className="container">
             <div className="ob-section-heading"><div><p className="eyebrow">A reviewable handoff</p><h2>Inputs become prepared outputs.</h2></div><p>Named records and tangible deliverables make the role easier to scope, train, review, and improve.</p></div>
             <div className="ob-io-grid">
@@ -87,21 +107,21 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </div>
         </section>
 
-        <section className="ob-detail-section ob-controls-section">
+        <section className="ob-detail-section ob-controls-section" id="controls">
           <div className="container ob-controls-grid">
             <div><p className="eyebrow">Decisions stay accountable</p><h2>Controls your team retains</h2><p>Capacity should not blur authority. These decisions and approvals stay with the named client owner or qualified adviser.</p></div>
             <ul>{service.controls.map((control) => <li key={control}><span aria-hidden="true">✓</span>{control}</li>)}</ul>
           </div>
         </section>
 
-        <section className="ob-detail-section is-tinted">
+        <section className="ob-detail-section is-tinted" id="first-week">
           <div className="container">
             <div className="ob-section-heading"><div><p className="eyebrow">A controlled start</p><h2>The first week is for mapping and review.</h2></div><p>Start with a representative sample before expanding access or volume.</p></div>
             <div className="ob-first-week">{service.firstWeek.map((step, index) => <article key={step}><span>Day {index + 1}</span><h3>{step}</h3></article>)}</div>
           </div>
         </section>
 
-        {related.length > 0 && <section className="ob-detail-section"><div className="container"><div className="ob-section-heading"><div><p className="eyebrow">Related workflows</p><h2>Build the next connected scope.</h2></div><a className="ob-text-link" href="/services">See all services</a></div><div className="ob-related-grid">{related.map((item) => <a href={`/services/${item.slug}`} key={item.slug}><span>{item.navLabel}</span><p>{item.summary}</p><b>Explore service →</b></a>)}</div></div></section>}
+        {related.length > 0 && <section className="ob-detail-section" id="related"><div className="container"><div className="ob-section-heading"><div><p className="eyebrow">Related workflows</p><h2>Build the next connected scope.</h2></div><a className="ob-text-link" href="/services">See all services</a></div><div className="ob-related-grid">{related.map((item) => <a href={`/services/${item.slug}`} key={item.slug}><img src={servicePhoto(item.slug, item.group).src} alt={servicePhoto(item.slug, item.group).alt} loading="lazy" /><span>{item.navLabel}</span><p>{item.summary}</p><b>Explore service →</b></a>)}</div></div></section>}
 
         <section className="ob-final-cta"><div className="container ob-final-cta-grid"><div><p className="eyebrow">Scope this workflow</p><h2>Turn {service.navLabel.toLowerCase()} into a role your reviewer can manage.</h2></div><a className="btn primary" href="/contact-us">Book a free scope call</a></div></section>
       </main>
