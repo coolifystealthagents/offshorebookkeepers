@@ -14,7 +14,7 @@ export function Header() {
   return (
     <>
       <a className="skip-link" href="#main-content">Skip to main content</a>
-      <header className="ld-header">
+      <header data-site-header="sticky" className="ld-header">
         <div className="ld-nav">
           <a className="ld-brand" href="/" aria-label={`${site.brand || 'Offshore Bookkeepers'} home`}>
             <img src="/logo.svg" alt="" width="38" height="38" />
@@ -37,7 +37,7 @@ export function Header() {
 
 export function Footer() {
   return (
-    <footer className="ld-footer">
+    <footer data-site-footer="true" className="ld-footer">
       <div className="ld-footer-inner ld-container">
         <div className="ld-footer-top">
           <div className="ld-footer-brand">
@@ -67,7 +67,7 @@ export function Footer() {
           </div>
           <div>
             <h3>Explore</h3>
-            <div className="ld-footer-links">
+            <div data-footer-menu="true" className="ld-footer-links">
               <a href="/services">All services</a>
               <a href="/blog">Blog</a>
               <a href="/research">Research</a>

@@ -7,6 +7,8 @@ import './ledger.css';
 import LedgerMotion from './LedgerMotion';
 import type { Metadata, Viewport } from 'next';
 
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://offshorebookkeepers.com'),
   title: { default: 'Offshore Bookkeepers | Plan an offshore bookkeeping role', template: '%s | Offshore Bookkeepers' },
